@@ -1,0 +1,7 @@
+Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.
+
+Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul.
+
+Vrei să știi cum se face? Hai să vedem cu un exemplu concret.
+
+După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere.

@@ -1,0 +1,21 @@
+{
+  "provider": "Ollama local",
+  "model": "qwen3:4b",
+  "generatorVersion": "bac-mate-video-grounded-v7-fast",
+  "strategie": "grounded-platforma-auto-durata-v6",
+  "inceput": "2026-09-13T05:07:07.863Z",
+  "lectiiSelectate": 17,
+  "acceptate": 0,
+  "dejaAcceptate": 0,
+  "regenerate": 0,
+  "blocate": 0,
+  "eroriTehnice": 1,
+  "rezultate": [
+    {
+      "id": "m14-l01",
+      "status": "eroare-tehnica",
+      "eroare": "Video 1 nu a putut fi generat cu V6. Ultima eroare: Ollama nu a returnat text."
+    }
+  ],
+  "actualizatLa": "2026-09-13T05:13:21.224Z"
+}

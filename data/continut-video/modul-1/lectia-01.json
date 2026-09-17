@@ -1,0 +1,345 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l01",
+  "modul": 1,
+  "numarLectie": 1,
+  "titlu": "Mulțimi de numere și operații cu numere reale",
+  "slugContinut": "multimi-de-numere-si-operatii-cu-numere-reale",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l01-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Mulțimi de numere și operații cu numere reale",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă numerele naturale? Ce numere folosim când numărăm obiecte?",
+        "Ce se întâmplă când adunăm 1 la un număr natural? Ce numere obținem?",
+        "Ce se întâmplă dacă împărțim un număr natural la altul? Ce numere pot rezulta?",
+        "De ce este important să știm ce numere sunt într-o mulțime?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care numără mere cu degetele",
+          "naratiune": "Numerele naturale sunt cele pe care le folosim pentru a număra obiecte. Ele încep cu 0, 1, 2, 3 și tot așa."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care adună 1 la un număr natural",
+          "naratiune": "Când adunăm 1 la un număr natural, obținem următorul număr natural. De exemplu, 2 + 1 = 3."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Numerele naturale sunt 0, 1, 2, 3, ...",
+        "Adunarea în mulțimea numerelor naturale dă totdeauna un număr natural"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Adunarea în mulțimea numerelor naturale",
+        "enunt": "Calculați 5 + 3.",
+        "rezolvare": [
+          "Adunăm 5 și 3",
+          "Obținem 8"
+        ],
+        "raspuns": "8"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce este 5 + 3?",
+        "variante": [
+          "A) 7",
+          "B) 8",
+          "C) 9"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "5 + 3 = 8"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l01/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l01/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l01/m1-l01-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l01/m1-l01-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l01/m1-l01-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 1,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 1,
+        "titluLectie": "Mulțimi de numere și operații cu numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T06:45:29.630Z"
+      }
+    },
+    {
+      "id": "m1-l01-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Operații cu numere reale",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția mulțimilor de numere",
+        "Vom vedea cum se adună, scade, înmulțește și împarte numere reale",
+        "Vom analiza exemple de tip Bac",
+        "Vom rezolva un exercițiu pas cu pas"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu mulțimile de numere: ℕ, ℤ, ℚ, ℝ",
+          "naratiune": "Mulțimea numerelor naturale, întregi, raționale și reale sunt fundamentale. ℕ include numerele 0,1,2,...; ℤ adaugă numerele negative; ℚ este formată din fracții; ℝ este mulțimea tuturor numerelor reale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu operații aritmetice: adunare, scădere, înmulțire, împărțire",
+          "naratiune": "Operațiile cu numere reale se aplică după regulile aritmeticii. Adunarea și înmulțirea sunt comutative, iar scăderea și împărțirea nu. Este important să verificăm dacă rezultatul este în mulțimea corectă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Operațiile cu numere reale se aplică după regulile aritmeticii",
+        "Verificăm dacă rezultatul este în mulțimea corectă"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul unei expresii",
+        "enunt": "Calculați: (1/2 + 1/3) * 6 - 4",
+        "rezolvare": [
+          "Calculăm fracțiile: 1/2 + 1/3 = 3/6 + 2/6 = 5/6",
+          "Înmulțim cu 6: 5/6 * 6 = 5",
+          "Scădem 4: 5 - 4 = 1"
+        ],
+        "raspuns": "1"
+      },
+      "verificareRapida": {
+        "intrebare": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este:",
+        "variante": [
+          "A) 1",
+          "B) 2",
+          "C) 3"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Calculăm fracțiile: 1/2 + 1/3 = 5/6. Înmulțim cu 6: 5/6 * 6 = 5. Scădem 4: 5 - 4 = 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l01/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l01/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l01/m1-l01-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l01/m1-l01-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l01/m1-l01-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 1,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 1,
+        "titluLectie": "Mulțimi de numere și operații cu numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T06:48:53.154Z"
+      }
+    },
+    {
+      "id": "m1-l01-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Operații cu fracții și ordonare",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o fracție simplă",
+        "Adunăm fracții cu numitori diferiți",
+        "Comparam rezultatul cu un număr dat",
+        "Verificăm dacă răspunsul este corect"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev scrie pe tablă fracțiile 1/2 și 1/3",
+          "naratiune": "Vom aduna fracțiile 1/2 și 1/3"
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul adună fracțiile și obține 5/6",
+          "naratiune": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Adunarea fracțiilor necesită același numitor",
+        "Compararea fracțiilor se face prin transformare în fracții echivalente"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Adunarea fracțiilor 1/2 și 1/3",
+        "enunt": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1.",
+        "rezolvare": [
+          "Pentru a aduna fracțiile, găsim cel mai mic multiplu comun al numitorilor 2 și 3, care este 6.",
+          "Transformăm fracțiile: 1/2 = 3/6 și 1/3 = 2/6. Adunăm: 3/6 + 2/6 = 5/6.",
+          "Comparam 5/6 cu 1: 5/6 < 1, deci rezultatul este mai mic decât 1."
+        ],
+        "raspuns": "5/6 < 1"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este adevărat?",
+        "variante": [
+          "A) 1/2 + 1/3 = 5/6",
+          "B) 1/2 + 1/3 = 15/4",
+          "C) 1/2 + 1/3 = 2/5"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Răspunsul corect este A, deoarece 1/2 + 1/3 = 3/6 + 2/6 = 5/6."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l01/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l01/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l01/m1-l01-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l01/m1-l01-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l01/m1-l01-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 1,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 1,
+        "titluLectie": "Mulțimi de numere și operații cu numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T07:05:12.834Z"
+      }
+    },
+    {
+      "id": "m1-l01-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Operații cu numere reale și erori comune",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom vedea cum se rezolvă exerciții de tip Bac cu mulțimi de numere.",
+        "Vom analiza greșelile frecvente în operații cu fracții și numere reale.",
+        "Vom învăța cum să evităm erorile de calcul.",
+        "Vom rezolva un exemplu practic de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă un exercițiu de tip Bac.",
+          "naratiune": "Vom începe cu un exercițiu de tip Bac. Calculăm valoarea expresiei: 3/4 + 1/2 - 5/8."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev rezolvă exercițiu pe caiet, dar face o greșeală.",
+          "naratiune": "Vedem o greșeală comună: aducerea la același numitor fără a calcula corect."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Aducerea la același numitor este esențială în operații cu fracții.",
+        "Verificarea finală a rezultatului este obligatorie."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul unei expresii cu fracții",
+        "enunt": "Calculați: 3/4 + 1/2 - 5/8",
+        "rezolvare": [
+          "Aducem fracțiile la același numitor: 8. 3/4 = 6/8, 1/2 = 4/8.",
+          "Adunăm și scădem: 6/8 + 4/8 - 5/8 = (6 + 4 - 5)/8 = 5/8."
+        ],
+        "raspuns": "5/8"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este rezultatul corect al expresiei 3/4 + 1/2 - 5/8?",
+        "variante": [
+          "A) 5/8",
+          "B) 3/4",
+          "C) 7/8"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Aducerea la același numitor este esențială. 3/4 = 6/8, 1/2 = 4/8. 6/8 + 4/8 = 10/8 - 5/8 = 5/8."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l01/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l01/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l01/m1-l01-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l01/m1-l01-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l01/m1-l01-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 1,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 1,
+        "titluLectie": "Mulțimi de numere și operații cu numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T06:54:30.765Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T07:05:12.834Z",
+    "necesitaVerificareUmana": true
+  }
+}

@@ -1,0 +1,7 @@
+Vom analiza cum se definește restricția unei funcții
+
+Vom vedea cum se aplică la funcția f(x) = 1/x
+
+Vom identifica domeniul de definiție al restricției
+
+Vom verifica dacă răspunsul este corect

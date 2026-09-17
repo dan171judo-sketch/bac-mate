@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l09",
+    "modul": 1,
+    "numarLectie": 9,
+    "titlu": "Inducția matematică",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l09-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Inducția matematică",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Inducția matematică",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Inducția matematică",
+      "naratiune": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Inducția matematică”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Inducția matematică",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.073907,
+      "procentDurata": 7.3907
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Să presupunem că vrem să demonstrăm că pentru orice…",
+      "subtitlu": "Un șir de cutii cu numere 1, 2, 3, 4...",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Să presupunem că vrem să demonstrăm că pentru orice număr n…",
+      "naratiune": "Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Cum putem face asta fără să verificăm toate numerele?",
+      "vizual": "Un șir de cutii cu numere 1, 2, 3, 4...",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Cum putem face asta fără să verificăm toate numerele?",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.073907,
+      "endProcent": 0.184767,
+      "procentDurata": 11.086
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Inducția matematică este ca un lanț de cutii",
+      "subtitlu": "Un șir de cutii cu numere 1, 2, 3, 4... și un șir de cutii cu numere 1, 2, 3, 4...",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Inducția matematică este ca un lanț de cutii. Dacă prima cu…",
+      "naratiune": "Inducția matematică este ca un lanț de cutii. Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem adevărul pentru n=k), atunci toate cutiile sunt închise.",
+      "vizual": "Un șir de cutii cu numere 1, 2, 3, 4... și un șir de cutii cu numere 1, 2, 3, 4...",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Inducția matematică este ca un lanț de cutii.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem…",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.184767,
+      "endProcent": 0.336687,
+      "procentDurata": 15.192
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+      "naratiune": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale? Cum putem face asta fără să verificăm toate numerele? Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul? De ce este important să verificăm cazul inițial?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum putem face asta fără să verificăm toate numerele?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să verificăm cazul inițial?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.336687,
+      "endProcent": 0.50503,
+      "procentDurata": 16.8343
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea formulei sumei numerelor naturale",
+      "subtitlu": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Adevărat pentru orice număr natural n.",
+      "naratiune": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat. Pasul 2: Presupunem adevărat pentru n=k, adică 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = k(k+1)/2 + (k+1) = (k+1)(k/2 + 1) = (k+1)(k+2)/2. Răspunsul final este Adevărat pentru orice număr natural n..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Presupunem adevărat pentru n=k, adică 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = k(k+1)/2 + (k+1) =…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Adevărat pentru orice număr natural n.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.50503,
+      "endProcent": 0.774174,
+      "procentDurata": 26.9144
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) n=1",
+      "naratiune": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale? A) n=0 B) n=1 C) n=2 Pasul inițial este n=1, deoarece n este număr natural, iar cel mai mic număr natural este 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) n=0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) n=1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) n=2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) n=1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.774174,
+      "endProcent": 0.909669,
+      "procentDurata": 13.5496
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale.",
+      "naratiune": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale. Metoda are două pași: verificarea cazului inițial și demonstrarea pașului inductiv.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Metoda are două pași: verificarea cazului inițial și demonstrarea pașului inductiv.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909669,
+      "endProcent": 1,
+      "procentDurata": 9.0331
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Inducția matematică",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Inducția matematică",
+      "naratiune": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Inducția matematică”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Inducția matematică",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.073907,
+      "procentDurata": 7.3907
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Să presupunem că vrem să demonstrăm că pentru orice…",
+      "subtitlu": "Un șir de cutii cu numere 1, 2, 3, 4...",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Să presupunem că vrem să demonstrăm că pentru orice număr n…",
+      "naratiune": "Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Cum putem face asta fără să verificăm toate numerele?",
+      "vizual": "Un șir de cutii cu numere 1, 2, 3, 4...",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Cum putem face asta fără să verificăm toate numerele?",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.073907,
+      "endProcent": 0.184767,
+      "procentDurata": 11.086
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Inducția matematică este ca un lanț de cutii",
+      "subtitlu": "Un șir de cutii cu numere 1, 2, 3, 4... și un șir de cutii cu numere 1, 2, 3, 4...",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Inducția matematică este ca un lanț de cutii. Dacă prima cu…",
+      "naratiune": "Inducția matematică este ca un lanț de cutii. Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem adevărul pentru n=k), atunci toate cutiile sunt închise.",
+      "vizual": "Un șir de cutii cu numere 1, 2, 3, 4... și un șir de cutii cu numere 1, 2, 3, 4...",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Inducția matematică este ca un lanț de cutii.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem…",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.184767,
+      "endProcent": 0.336687,
+      "procentDurata": 15.192
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+      "naratiune": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale? Cum putem face asta fără să verificăm toate numerele? Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul? De ce este important să verificăm cazul inițial?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum putem face asta fără să verificăm toate numerele?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să verificăm cazul inițial?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.336687,
+      "endProcent": 0.50503,
+      "procentDurata": 16.8343
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea formulei sumei numerelor naturale",
+      "subtitlu": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Adevărat pentru orice număr natural n.",
+      "naratiune": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat. Pasul 2: Presupunem adevărat pentru n=k, adică 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = k(k+1)/2 + (k+1) = (k+1)(k/2 + 1) = (k+1)(k+2)/2. Răspunsul final este Adevărat pentru orice număr natural n..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Presupunem adevărat pentru n=k, adică 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = k(k+1)/2 + (k+1) =…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Adevărat pentru orice număr natural n.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.50503,
+      "endProcent": 0.774174,
+      "procentDurata": 26.9144
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) n=1",
+      "naratiune": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale? A) n=0 B) n=1 C) n=2 Pasul inițial este n=1, deoarece n este număr natural, iar cel mai mic număr natural este 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) n=0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) n=1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) n=2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) n=1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.774174,
+      "endProcent": 0.909669,
+      "procentDurata": 13.5496
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale.",
+      "naratiune": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale. Metoda are două pași: verificarea cazului inițial și demonstrarea pașului inductiv.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Metoda are două pași: verificarea cazului inițial și demonstrarea pașului inductiv.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909669,
+      "endProcent": 1,
+      "procentDurata": 9.0331
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-09.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.566Z"
+  }
+}

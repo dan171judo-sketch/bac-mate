@@ -1,0 +1,7 @@
+Începem cu definiția reperului cartezian
+
+Vom vedea cum se formează produsul cartezian
+
+Vom analiza un exemplu concret
+
+Vom verifica rapid prin exercițiu

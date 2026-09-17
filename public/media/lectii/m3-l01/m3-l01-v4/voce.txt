@@ -1,0 +1,7 @@
+În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.
+
+Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție.
+
+Vom analiza greșelile frecvente și cum să le evităm.
+
+Vom rezolva un exemplu complet pentru a înțelege mai bine.

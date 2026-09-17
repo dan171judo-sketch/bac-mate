@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l11",
+  "modul": 2,
+  "numarLectie": 11,
+  "titlu": "Compunerea funcțiilor",
+  "slugContinut": "compunerea-functiilor",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Compunerea funcțiilor”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l11-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Compunerea funcțiilor",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+        "Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul.",
+        "Vrei să știi cum se face? Hai să vedem cu un exemplu concret.",
+        "După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev plătește la magazin, apoi ia produsul.",
+          "naratiune": "Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură. Compunerea este ca să folosești f apoi g."
+        },
+        {
+          "numar": 2,
+          "vizual": "Două funcții f și g, cu arce care le conectează.",
+          "naratiune": "Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi aplicăm f(x), apoi g aplică rezultatul."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g.",
+        "Notăm compunerea ca g(f(x)) și nu invers."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Compunerea funcțiilor f și g",
+        "enunt": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)).",
+        "rezolvare": [
+          "Pasul 1: Calculăm f(x) = 2x + 1.",
+          "Pasul 2: Înlocuim f(x) în g(x): g(2x + 1) = (2x + 1)²."
+        ],
+        "raspuns": "(2x + 1)²"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))?",
+        "variante": [
+          "A) 3x - 1",
+          "B) 3x + 1",
+          "C) 3x - 2"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Calculăm f(x) = 3x - 2, apoi înlocuim în g(x): g(3x - 2) = (3x - 2) + 1 = 3x - 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l11/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l11/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l11/m2-l11-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l11/m2-l11-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l11/m2-l11-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 11,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 11,
+        "titluLectie": "Compunerea funcțiilor",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T13:26:41.446Z"
+      }
+    },
+    {
+      "id": "m2-l11-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Compunerea funcțiilor",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă compunerea funcțiilor?",
+        "Cum se notează funcția compusă?",
+        "Ce pași trebuie urmați pentru a compune două funcții?",
+        "De ce este importantă compunerea funcțiilor în Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu două funcții f și g reprezentate grafic",
+          "naratiune": "Compunerea funcțiilor este o operație în care ieșirea unei funcții devine intrarea alteia. De exemplu, dacă avem f(x) = 2x și g(x) = x + 1, atunci funcția compusă g(f(x)) înseamnă că aplicăm mai întâi f, apoi g."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu pașii de compunere: f(x), apoi g(f(x))",
+          "naratiune": "Pentru a compune funcțiile, trebuie să înlocuim variabila din funcția exterioară cu expresia funcției interioare. Astfel, g(f(x)) devine g(2x) = 2x + 1."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Compunerea funcțiilor se face în ordinea indicată de paranteze.",
+        "Funcția exterioară se aplică după ce am aplicat funcția interioară."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Compunerea funcțiilor f și g",
+        "enunt": "Fie f(x) = 3x - 2 și g(x) = x² + 1. Să se calculeze funcția compusă g(f(x)).",
+        "rezolvare": [
+          "Pasul 1: Înlocuim x din g(x) cu f(x): g(f(x)) = (3x - 2)² + 1.",
+          "Pasul 2: Desfășăm pătratul: (9x² - 12x + 4) + 1 = 9x² - 12x + 5."
+        ],
+        "raspuns": "g(f(x)) = 9x² - 12x + 5"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie f(x) = 2x + 1 și g(x) = x³. Care este funcția compusă f(g(x))?",
+        "variante": [
+          "A) 2x³ + 1",
+          "B) 2x³ + 3x",
+          "C) 8x³ + 1"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru f(g(x)), înlocuim x din f cu g(x): f(2x + 1) = 2*(2x + 1) + 1 = 4x + 2 + 1 = 4x + 3. Așadar, răspunsul corect este A) 2x³ + 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l11/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l11/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l11/m2-l11-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l11/m2-l11-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l11/m2-l11-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 11,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 11,
+        "titluLectie": "Compunerea funcțiilor",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T13:42:47.376Z"
+      }
+    },
+    {
+      "id": "m2-l11-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Compunerea funcțiilor",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă compunerea funcțiilor?",
+        "Cum se notează funcția compusă?",
+        "Ce pași trebuie urmați pentru a compune două funcții?",
+        "De ce este importantă compunerea funcțiilor în Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Profesorul desenează două funcții f și g pe tablă.",
+          "naratiune": "Vom învăța să compunem două funcții, adică să aplicăm o funcție pe rezultatul celeilalte."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul scrie funcțiile f(x) = 2x + 1 și g(x) = x² - 3 pe tablă.",
+          "naratiune": "Vom compune funcțiile f și g, adică să găsim (f ∘ g)(x) și (g ∘ f)(x)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Compunerea funcțiilor se notează cu (f ∘ g)(x) sau (g ∘ f)(x).",
+        "Pentru a compune funcțiile, înlocuim x în funcția exterioară cu rezultatul funcției interioare."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Compunerea funcțiilor f și g",
+        "enunt": "Fie funcțiile f(x) = 2x + 1 și g(x) = x² - 3. Calculați (f ∘ g)(x) și (g ∘ f)(x).",
+        "rezolvare": [
+          "Pasul 1: Calculăm (f ∘ g)(x) = f(g(x)) = 2(g(x)) + 1 = 2(x² - 3) + 1 = 2x² - 6 + 1 = 2x² - 5.",
+          "Pasul 2: Calculăm (g ∘ f)(x) = g(f(x)) = (f(x))² - 3 = (2x + 1)² - 3 = 4x² + 4x + 1 - 3 = 4x² + 4x - 2."
+        ],
+        "raspuns": "(f ∘ g)(x) = 2x² - 5 și (g ∘ f)(x) = 4x² + 4x - 2"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este rezultatul compunerii (f ∘ g)(x)?",
+        "variante": [
+          "A) 2x² - 5",
+          "B) 4x² + 4x - 2",
+          "C) x² + 2x - 3"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "(f ∘ g)(x) se calculează înlocuind x în f cu g(x), deci f(g(x)) = 2(x² - 3) + 1 = 2x² - 6 + 1 = 2x² - 5."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l11/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l11/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l11/m2-l11-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l11/m2-l11-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l11/m2-l11-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 11,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 11,
+        "titluLectie": "Compunerea funcțiilor",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T13:49:59.112Z"
+      }
+    },
+    {
+      "id": "m2-l11-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Compunerea funcțiilor - Bac și greșeli comune",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Compunerea funcțiilor este o metodă esențială pentru Bac",
+        "Greșelile frecvente includ confuzia între f(g(x)) și g(f(x))",
+        "Este important să identificăm domeniul de definiție corect",
+        "Exemple de tip Bac pot conține erori de calcul"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu două funcții f și g",
+          "naratiune": "Compunerea funcțiilor presupune aplicarea unei funcții în alta. De exemplu, f(g(x)) înseamnă că mai întâi aplicăm funcția g, apoi funcția f."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu un exercițiu de compunere",
+          "naratiune": "Vom rezolva un exercițiu de tip Bac pentru a vedea cum se aplică corect metoda și unde se pot face greșeli."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Compunerea funcțiilor este f(g(x)) = f aplicată la g(x)",
+        "Este esențial să verificăm domeniul de definiție al funcției compuse"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Exemplu de compunere de funcții",
+        "enunt": "Fie funcțiile f(x) = 2x + 1 și g(x) = x² - 3. Calculați f(g(x)) și g(f(x)).",
+        "rezolvare": [
+          "Pentru f(g(x)): Înlocuim x cu g(x) în f(x), deci f(g(x)) = 2*(x² - 3) + 1 = 2x² - 6 + 1 = 2x² - 5",
+          "Pentru g(f(x)): Înlocuim x cu f(x) în g(x), deci g(f(x)) = (2x + 1)² - 3 = 4x² + 4x + 1 - 3 = 4x² + 4x - 2"
+        ],
+        "raspuns": "f(g(x)) = 2x² - 5 și g(f(x)) = 4x² + 4x - 2"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este rezultatul compunerii f(g(x)) dacă f(x) = 2x + 1 și g(x) = x² - 3?",
+        "variante": [
+          "A) 2x² - 5",
+          "B) 4x² + 4x - 2",
+          "C) 2x² + 1"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru f(g(x)) înlocuim x cu g(x) în f(x): f(g(x)) = 2*(x² - 3) + 1 = 2x² - 6 + 1 = 2x² - 5"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l11/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l11/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l11/m2-l11-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l11/m2-l11-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l11/m2-l11-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 11,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 11,
+        "titluLectie": "Compunerea funcțiilor",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T13:57:58.896Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T13:57:58.896Z",
+    "necesitaVerificareUmana": true
+  }
+}

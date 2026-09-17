@@ -1,0 +1,7 @@
+Începem cu definiția parității
+
+Vom vedea cum se aplică în exerciții
+
+Exemplu cu funcție pară
+
+Exemplu cu funcție impară

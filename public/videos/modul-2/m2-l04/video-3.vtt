@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Vom studia graficul funcției f(x) = |x| - 1. Aceasta este o funcție absolută transformată. Graficul este o V inversată, deoarece avem |x|, iar apoi scădem 1.
+
+2
+00:02:30.000 --> 00:05:00.000
+Vom determina punctele de intersecție cu axa Ox. Pentru asta, punem f(x) = 0. Rezolvăm |x| - 1 = 0, adică |x| = 1, deci x = ±1. Deci punctele sunt (-1, 0) și (1, 0).
+

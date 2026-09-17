@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m3-l01",
+    "modul": 3,
+    "numarLectie": 1,
+    "titlu": "Funcția f(x) = ax + b",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m3-l01-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Funcția f(x) = ax + b - Exemplu rezolvat",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția f(x) = ax + b - Exemplu rezolvat",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția f(x) = ax + b - Exemplu rezolvat",
+      "naratiune": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția f(x) = ax + b - Exemplu rezolvat”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția f(x) = ax + b - Exemplu rezolvat",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.108663,
+      "procentDurata": 10.8663
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva exercițiul: Determinați f(2) pentru fun…",
+      "subtitlu": "Ecranul arată funcția f(x) = 3x - 2",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x…",
+      "naratiune": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x) = 3x - 2",
+      "vizual": "Ecranul arată funcția f(x) = 3x - 2",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x) = 3x - 2",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.108663,
+      "endProcent": 0.181105,
+      "procentDurata": 7.2442
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "subtitlu": "Ecranul arată pasul 1 de calcul",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "naratiune": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "vizual": "Ecranul arată pasul 1 de calcul",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.181105,
+      "endProcent": 0.24751,
+      "procentDurata": 6.6405
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+      "naratiune": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b Vom vedea cum se calculează f(2) pentru o funcție dată Vom înțelege cum se identifică coeficienții a și b Vom verifica dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează f(2) pentru o funcție dată",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom înțelege cum se identifică coeficienții a și b",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.24751,
+      "endProcent": 0.476909,
+      "procentDurata": 22.9399
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul valorii funcției",
+      "subtitlu": "Determinați f(2) pentru funcția f(x) = 3x - 2",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "4",
+      "naratiune": "Determinați f(2) pentru funcția f(x) = 3x - 2 Înlocuim x cu 2: f(2) = 3*2 - 2 Calculăm: 3*2 = 6; 6 - 2 = 4 Răspunsul final este 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determinați f(2) pentru funcția f(x) = 3x - 2",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Înlocuim x cu 2: f(2) = 3*2 - 2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm: 3*2 = 6; 6 - 2 = 4",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.476909,
+      "endProcent": 0.692122,
+      "procentDurata": 21.5213
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 4",
+      "naratiune": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2? A) 4 B) 6 C) 2 Înlocuim x cu 2: 3*2 - 2 = 6 - 2 = 4",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 6",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.692122,
+      "endProcent": 0.873227,
+      "procentDurata": 18.1105
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Pentru a calcula f(x), înlocuim x cu valoarea dată",
+      "naratiune": "Pentru a calcula f(x), înlocuim x cu valoarea dată Funcția f(x) = ax + b are două coeficienți: a și b",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Pentru a calcula f(x), înlocuim x cu valoarea dată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Funcția f(x) = ax + b are două coeficienți: a și b",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.873227,
+      "endProcent": 1,
+      "procentDurata": 12.6773
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția f(x) = ax + b - Exemplu rezolvat",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția f(x) = ax + b - Exemplu rezolvat",
+      "naratiune": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția f(x) = ax + b - Exemplu rezolvat”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția f(x) = ax + b - Exemplu rezolvat",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.108663,
+      "procentDurata": 10.8663
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva exercițiul: Determinați f(2) pentru fun…",
+      "subtitlu": "Ecranul arată funcția f(x) = 3x - 2",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x…",
+      "naratiune": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x) = 3x - 2",
+      "vizual": "Ecranul arată funcția f(x) = 3x - 2",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x) = 3x - 2",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.108663,
+      "endProcent": 0.181105,
+      "procentDurata": 7.2442
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "subtitlu": "Ecranul arată pasul 1 de calcul",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "naratiune": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+      "vizual": "Ecranul arată pasul 1 de calcul",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.181105,
+      "endProcent": 0.24751,
+      "procentDurata": 6.6405
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+      "naratiune": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b Vom vedea cum se calculează f(2) pentru o funcție dată Vom înțelege cum se identifică coeficienții a și b Vom verifica dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează f(2) pentru o funcție dată",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom înțelege cum se identifică coeficienții a și b",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.24751,
+      "endProcent": 0.476909,
+      "procentDurata": 22.9399
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul valorii funcției",
+      "subtitlu": "Determinați f(2) pentru funcția f(x) = 3x - 2",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "4",
+      "naratiune": "Determinați f(2) pentru funcția f(x) = 3x - 2 Înlocuim x cu 2: f(2) = 3*2 - 2 Calculăm: 3*2 = 6; 6 - 2 = 4 Răspunsul final este 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determinați f(2) pentru funcția f(x) = 3x - 2",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Înlocuim x cu 2: f(2) = 3*2 - 2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm: 3*2 = 6; 6 - 2 = 4",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.476909,
+      "endProcent": 0.692122,
+      "procentDurata": 21.5213
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 4",
+      "naratiune": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2? A) 4 B) 6 C) 2 Înlocuim x cu 2: 3*2 - 2 = 6 - 2 = 4",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 6",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.692122,
+      "endProcent": 0.873227,
+      "procentDurata": 18.1105
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Pentru a calcula f(x), înlocuim x cu valoarea dată",
+      "naratiune": "Pentru a calcula f(x), înlocuim x cu valoarea dată Funcția f(x) = ax + b are două coeficienți: a și b",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Pentru a calcula f(x), înlocuim x cu valoarea dată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Funcția f(x) = ax + b are două coeficienți: a și b",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.873227,
+      "endProcent": 1,
+      "procentDurata": 12.6773
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-3\\lectia-01.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T22:01:44.415Z"
+  }
+}

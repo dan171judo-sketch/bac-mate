@@ -1,0 +1,7 @@
+Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b
+
+Vom vedea cum se calculează f(2) pentru o funcție dată
+
+Vom înțelege cum se identifică coeficienții a și b
+
+Vom verifica dacă răspunsul este corect

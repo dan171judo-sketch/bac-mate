@@ -1,0 +1,2197 @@
+{
+  "versiune": "BAC-MATE-CATALOG-CONTENT-ENGINE-V1",
+  "generatLa": "2026-09-14T07:12:58.464Z",
+  "total": 219,
+  "lectii": [
+    {
+      "slug": "numere-reale",
+      "modul": 1,
+      "numarLectie": 1,
+      "titlu": "Mulțimi de numere și operații cu numere reale",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-1.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "estimari-aproximari",
+      "modul": 1,
+      "numarLectie": 2,
+      "titlu": "Estimări și aproximări",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-1.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "modul-numar-real",
+      "modul": 1,
+      "numarLectie": 3,
+      "titlu": "Modulul unui număr real",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-1.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "intervale-numere-reale",
+      "modul": 1,
+      "numarLectie": 4,
+      "titlu": "Intervale de numere reale",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-1.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "propozitii-predicate",
+      "modul": 1,
+      "numarLectie": 5,
+      "titlu": "Propoziții și predicate",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-1.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "cuantificatori",
+      "modul": 1,
+      "numarLectie": 6,
+      "titlu": "Cuantificatori",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii-vechi.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "negatie-conjunctie-disjunctie-implicatie",
+      "modul": 1,
+      "numarLectie": 7,
+      "titlu": "Negație, conjuncție, disjuncție și implicație",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii-vechi.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "operatii-cu-multimi",
+      "modul": 1,
+      "numarLectie": 8,
+      "titlu": "Operații cu mulțimi",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii-vechi.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "inductia-matematica",
+      "modul": 1,
+      "numarLectie": 9,
+      "titlu": "Inducția matematică",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii-vechi.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "demonstratii-rationamente-logice",
+      "modul": 1,
+      "numarLectie": 10,
+      "titlu": "Demonstrații și raționamente logice",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii-vechi.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "reper-cartezian-produs-cartezian",
+      "modul": 2,
+      "numarLectie": 1,
+      "titlu": "Reper cartezian și produs cartezian",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "notiunea-de-functie",
+      "modul": 2,
+      "numarLectie": 2,
+      "titlu": "Noțiunea de funcție",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "domeniu-codomeniu-imagine",
+      "modul": 2,
+      "numarLectie": 3,
+      "titlu": "Domeniu, codomeniu și imagine",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "graficul-unei-functii",
+      "modul": 2,
+      "numarLectie": 4,
+      "titlu": "Graficul unei funcții",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "lecturi-grafice",
+      "modul": 2,
+      "numarLectie": 5,
+      "titlu": "Lecturi grafice",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "egalitatea-a-doua-functii",
+      "modul": 2,
+      "numarLectie": 6,
+      "titlu": "Egalitatea a două funcții",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "restrictia-unei-functii",
+      "modul": 2,
+      "numarLectie": 7,
+      "titlu": "Restricția unei funcții",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "monotonie-si-marginire",
+      "modul": 2,
+      "numarLectie": 8,
+      "titlu": "Monotonie și mărginire",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "paritate-si-imparitate",
+      "modul": 2,
+      "numarLectie": 9,
+      "titlu": "Paritate și imparitate",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "periodicitate",
+      "modul": 2,
+      "numarLectie": 10,
+      "titlu": "Periodicitate",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "compunerea-functiilor",
+      "modul": 2,
+      "numarLectie": 11,
+      "titlu": "Compunerea funcțiilor",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "siruri-de-numere-reale",
+      "modul": 2,
+      "numarLectie": 12,
+      "titlu": "Șiruri de numere reale",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "progresii-aritmetice",
+      "modul": 2,
+      "numarLectie": 13,
+      "titlu": "Progresii aritmetice",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "progresii-geometrice",
+      "modul": 2,
+      "numarLectie": 14,
+      "titlu": "Progresii geometrice",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-2.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "functia-gradul-intai",
+      "modul": 3,
+      "numarLectie": 1,
+      "titlu": "Funcția f(x) = ax + b",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "grafic-functie-gradul-intai",
+      "modul": 3,
+      "numarLectie": 2,
+      "titlu": "Graficul funcției de gradul I",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "monotonia-functiei-gradul-intai",
+      "modul": 3,
+      "numarLectie": 3,
+      "titlu": "Monotonia funcției de gradul I",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "semnul-functiei-gradul-intai",
+      "modul": 3,
+      "numarLectie": 4,
+      "titlu": "Semnul funcției de gradul I",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "ecuatii-gradul-intai",
+      "modul": 3,
+      "numarLectie": 5,
+      "titlu": "Ecuații de gradul I",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "inecuatii-gradul-intai",
+      "modul": 3,
+      "numarLectie": 6,
+      "titlu": "Inecuații de gradul I",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "sisteme-ecuatii-liniare",
+      "modul": 3,
+      "numarLectie": 7,
+      "titlu": "Sisteme de ecuații liniare",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "interpretarea-geometrica-sistemelor",
+      "modul": 3,
+      "numarLectie": 8,
+      "titlu": "Interpretarea geometrică a sistemelor",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "probleme-functii-liniare",
+      "modul": 3,
+      "numarLectie": 9,
+      "titlu": "Probleme modelate prin funcții liniare",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-3.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "ecuatia-gradul-doi",
+      "modul": 4,
+      "numarLectie": 1,
+      "titlu": "Ecuația de gradul al II-lea",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "discriminantul-numarul-solutiilor",
+      "modul": 4,
+      "numarLectie": 2,
+      "titlu": "Discriminantul și numărul de soluții",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "formulele-radacinilor",
+      "modul": 4,
+      "numarLectie": 3,
+      "titlu": "Formulele rădăcinilor",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "relatiile-lui-viete",
+      "modul": 4,
+      "numarLectie": 4,
+      "titlu": "Relațiile lui Viète",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "functia-gradul-doi",
+      "modul": 4,
+      "numarLectie": 5,
+      "titlu": "Funcția de gradul al II-lea",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "graficul-parabolei",
+      "modul": 4,
+      "numarLectie": 6,
+      "titlu": "Graficul parabolei",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "varful-parabolei",
+      "modul": 4,
+      "numarLectie": 7,
+      "titlu": "Vârful parabolei",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "axa-de-simetrie",
+      "modul": 4,
+      "numarLectie": 8,
+      "titlu": "Axa de simetrie",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "intersectia-parabolei-cu-axele",
+      "modul": 4,
+      "numarLectie": 9,
+      "titlu": "Intersecția parabolei cu axele",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "semnul-functiei-gradul-doi",
+      "modul": 4,
+      "numarLectie": 10,
+      "titlu": "Semnul funcției de gradul al II-lea",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "inecuatii-gradul-doi",
+      "modul": 4,
+      "numarLectie": 11,
+      "titlu": "Inecuații de gradul al II-lea",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "pozitia-relativa-dreapta-parabola",
+      "modul": 4,
+      "numarLectie": 12,
+      "titlu": "Poziția relativă dreaptă-parabolă",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "probleme-cu-parametru-gradul-doi",
+      "modul": 4,
+      "numarLectie": 13,
+      "titlu": "Probleme cu parametru",
+      "clasa": null,
+      "numeModul": null,
+      "fisierSursa": "data\\lectii\\modul-4.ts",
+      "tipSursa": "catalog-clasic"
+    },
+    {
+      "slug": "m5-vectori-in-plan",
+      "modul": 5,
+      "numarLectie": 1,
+      "titlu": "Vectori în plan",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-adunarea-si-scaderea-vectorilor",
+      "modul": 5,
+      "numarLectie": 2,
+      "titlu": "Adunarea și scăderea vectorilor",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-inmultirea-unui-vector-cu-un-scalar",
+      "modul": 5,
+      "numarLectie": 3,
+      "titlu": "Înmulțirea unui vector cu un scalar",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-coliniaritatea-vectorilor",
+      "modul": 5,
+      "numarLectie": 4,
+      "titlu": "Coliniaritatea vectorilor",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-descompunerea-vectorilor",
+      "modul": 5,
+      "numarLectie": 5,
+      "titlu": "Descompunerea vectorilor",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-coordonate-si-vectori",
+      "modul": 5,
+      "numarLectie": 6,
+      "titlu": "Coordonate și vectori",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-sinus-cosinus-tangenta-si-cotangenta",
+      "modul": 5,
+      "numarLectie": 7,
+      "titlu": "Sinus, cosinus, tangentă și cotangentă",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-valori-trigonometrice-uzuale",
+      "modul": 5,
+      "numarLectie": 8,
+      "titlu": "Valori trigonometrice uzuale",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-reducerea-la-primul-cadran",
+      "modul": 5,
+      "numarLectie": 9,
+      "titlu": "Reducerea la primul cadran",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-formule-trigonometrice",
+      "modul": 5,
+      "numarLectie": 10,
+      "titlu": "Formule trigonometrice",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-formule-de-adunare-si-scadere",
+      "modul": 5,
+      "numarLectie": 11,
+      "titlu": "Formule de adunare și scădere",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-formule-pentru-unghi-dublu",
+      "modul": 5,
+      "numarLectie": 12,
+      "titlu": "Formule pentru unghi dublu",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-transformarea-sumei-in-produs",
+      "modul": 5,
+      "numarLectie": 13,
+      "titlu": "Transformarea sumei în produs",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-teorema-sinusurilor",
+      "modul": 5,
+      "numarLectie": 14,
+      "titlu": "Teorema sinusurilor",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-teorema-cosinusului",
+      "modul": 5,
+      "numarLectie": 15,
+      "titlu": "Teorema cosinusului",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-lungimi-si-unghiuri-in-triunghi",
+      "modul": 5,
+      "numarLectie": 16,
+      "titlu": "Lungimi și unghiuri în triunghi",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-aria-triunghiului",
+      "modul": 5,
+      "numarLectie": 17,
+      "titlu": "Aria triunghiului",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m5-cercul-inscris-si-cercul-circumscris",
+      "modul": 5,
+      "numarLectie": 18,
+      "titlu": "Cercul înscris și cercul circumscris",
+      "clasa": "Clasa a IX-a",
+      "numeModul": "Vectori, trigonometrie și geometrie",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-puteri-cu-exponent-intreg",
+      "modul": 6,
+      "numarLectie": 1,
+      "titlu": "Puteri cu exponent întreg",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-puteri-cu-exponent-rational",
+      "modul": 6,
+      "numarLectie": 2,
+      "titlu": "Puteri cu exponent rațional",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-puteri-cu-exponent-real",
+      "modul": 6,
+      "numarLectie": 3,
+      "titlu": "Puteri cu exponent real",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-radical-de-ordin-n",
+      "modul": 6,
+      "numarLectie": 4,
+      "titlu": "Radical de ordin n",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-proprietatile-radicalilor",
+      "modul": 6,
+      "numarLectie": 5,
+      "titlu": "Proprietățile radicalilor",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-operatii-cu-radicali",
+      "modul": 6,
+      "numarLectie": 6,
+      "titlu": "Operații cu radicali",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-logaritmul-unui-numar-pozitiv",
+      "modul": 6,
+      "numarLectie": 7,
+      "titlu": "Logaritmul unui număr pozitiv",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-proprietatile-logaritmilor",
+      "modul": 6,
+      "numarLectie": 8,
+      "titlu": "Proprietățile logaritmilor",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-schimbarea-bazei-unui-logaritm",
+      "modul": 6,
+      "numarLectie": 9,
+      "titlu": "Schimbarea bazei unui logaritm",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m6-calcule-cu-puteri-radicali-si-logaritmi",
+      "modul": 6,
+      "numarLectie": 10,
+      "titlu": "Calcule cu puteri, radicali și logaritmi",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Puteri, radicali și logaritmi",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functia-putere",
+      "modul": 7,
+      "numarLectie": 1,
+      "titlu": "Funcția putere",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functia-radical",
+      "modul": 7,
+      "numarLectie": 2,
+      "titlu": "Funcția radical",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functia-exponentiala",
+      "modul": 7,
+      "numarLectie": 3,
+      "titlu": "Funcția exponențială",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functia-logaritmica",
+      "modul": 7,
+      "numarLectie": 4,
+      "titlu": "Funcția logaritmică",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functii-trigonometrice",
+      "modul": 7,
+      "numarLectie": 5,
+      "titlu": "Funcții trigonometrice",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functii-trigonometrice-inverse",
+      "modul": 7,
+      "numarLectie": 6,
+      "titlu": "Funcții trigonometrice inverse",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-injectivitate",
+      "modul": 7,
+      "numarLectie": 7,
+      "titlu": "Injectivitate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-surjectivitate",
+      "modul": 7,
+      "numarLectie": 8,
+      "titlu": "Surjectivitate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-bijectivitate",
+      "modul": 7,
+      "numarLectie": 9,
+      "titlu": "Bijectivitate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functie-inversabila",
+      "modul": 7,
+      "numarLectie": 10,
+      "titlu": "Funcție inversabilă",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-functia-inversa",
+      "modul": 7,
+      "numarLectie": 11,
+      "titlu": "Funcția inversă",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-ecuatii-cu-radicali",
+      "modul": 7,
+      "numarLectie": 12,
+      "titlu": "Ecuații cu radicali",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-ecuatii-exponentiale",
+      "modul": 7,
+      "numarLectie": 13,
+      "titlu": "Ecuații exponențiale",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-ecuatii-logaritmice",
+      "modul": 7,
+      "numarLectie": 14,
+      "titlu": "Ecuații logaritmice",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m7-ecuatii-trigonometrice",
+      "modul": 7,
+      "numarLectie": 15,
+      "titlu": "Ecuații trigonometrice",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Funcții exponențiale, logaritmice și trigonometrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-forma-algebrica-a-unui-numar-complex",
+      "modul": 8,
+      "numarLectie": 1,
+      "titlu": "Forma algebrică a unui număr complex",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-partea-reala-si-partea-imaginara",
+      "modul": 8,
+      "numarLectie": 2,
+      "titlu": "Partea reală și partea imaginară",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-egalitatea-numerelor-complexe",
+      "modul": 8,
+      "numarLectie": 3,
+      "titlu": "Egalitatea numerelor complexe",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-adunarea-si-scaderea-numerelor-complexe",
+      "modul": 8,
+      "numarLectie": 4,
+      "titlu": "Adunarea și scăderea numerelor complexe",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-inmultirea-numerelor-complexe",
+      "modul": 8,
+      "numarLectie": 5,
+      "titlu": "Înmulțirea numerelor complexe",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-conjugatul-unui-numar-complex",
+      "modul": 8,
+      "numarLectie": 6,
+      "titlu": "Conjugatul unui număr complex",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-impartirea-numerelor-complexe",
+      "modul": 8,
+      "numarLectie": 7,
+      "titlu": "Împărțirea numerelor complexe",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-ecuatii-de-gradul-al-ii-lea-in-numere-complexe",
+      "modul": 8,
+      "numarLectie": 8,
+      "titlu": "Ecuații de gradul al II-lea în numere complexe",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m8-ecuatii-bipatrate",
+      "modul": 8,
+      "numarLectie": 9,
+      "titlu": "Ecuații bipătrate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Numere complexe",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-principiul-multiplicarii",
+      "modul": 9,
+      "numarLectie": 1,
+      "titlu": "Principiul multiplicării",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-permutari",
+      "modul": 9,
+      "numarLectie": 2,
+      "titlu": "Permutări",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-aranjamente",
+      "modul": 9,
+      "numarLectie": 3,
+      "titlu": "Aranjamente",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-combinari",
+      "modul": 9,
+      "numarLectie": 4,
+      "titlu": "Combinări",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-probleme-de-numarare",
+      "modul": 9,
+      "numarLectie": 5,
+      "titlu": "Probleme de numărare",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-evenimente-aleatoare",
+      "modul": 9,
+      "numarLectie": 6,
+      "titlu": "Evenimente aleatoare",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-operatii-cu-evenimente",
+      "modul": 9,
+      "numarLectie": 7,
+      "titlu": "Operații cu evenimente",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-evenimente-egal-probabile",
+      "modul": 9,
+      "numarLectie": 8,
+      "titlu": "Evenimente egal probabile",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-probabilitatea-unui-eveniment",
+      "modul": 9,
+      "numarLectie": 9,
+      "titlu": "Probabilitatea unui eveniment",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-probabilitatea-evenimentelor-compuse",
+      "modul": 9,
+      "numarLectie": 10,
+      "titlu": "Probabilitatea evenimentelor compuse",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m9-aplicatii-financiare",
+      "modul": 9,
+      "numarLectie": 11,
+      "titlu": "Aplicații financiare",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Combinatorică și probabilități",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-coordonate-in-plan",
+      "modul": 10,
+      "numarLectie": 1,
+      "titlu": "Coordonate în plan",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-vectori-prin-coordonate",
+      "modul": 10,
+      "numarLectie": 2,
+      "titlu": "Vectori prin coordonate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-ecuatia-unei-drepte",
+      "modul": 10,
+      "numarLectie": 3,
+      "titlu": "Ecuația unei drepte",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-dreapta-determinata-de-un-punct-si-o-directie",
+      "modul": 10,
+      "numarLectie": 4,
+      "titlu": "Dreapta determinată de un punct și o direcție",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-dreapta-determinata-de-doua-puncte",
+      "modul": 10,
+      "numarLectie": 5,
+      "titlu": "Dreapta determinată de două puncte",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-conditii-de-paralelism",
+      "modul": 10,
+      "numarLectie": 6,
+      "titlu": "Condiții de paralelism",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-conditii-de-perpendicularitate",
+      "modul": 10,
+      "numarLectie": 7,
+      "titlu": "Condiții de perpendicularitate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-distanta-dintre-doua-puncte",
+      "modul": 10,
+      "numarLectie": 8,
+      "titlu": "Distanța dintre două puncte",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-distanta-de-la-un-punct-la-o-dreapta",
+      "modul": 10,
+      "numarLectie": 9,
+      "titlu": "Distanța de la un punct la o dreaptă",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m10-calculul-ariilor-in-coordonate",
+      "modul": 10,
+      "numarLectie": 10,
+      "titlu": "Calculul ariilor în coordonate",
+      "clasa": "Clasa a X-a",
+      "numeModul": "Geometrie analitică",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-notiunea-de-matrice",
+      "modul": 11,
+      "numarLectie": 1,
+      "titlu": "Noțiunea de matrice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-tipuri-de-matrice",
+      "modul": 11,
+      "numarLectie": 2,
+      "titlu": "Tipuri de matrice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-egalitatea-matricelor",
+      "modul": 11,
+      "numarLectie": 3,
+      "titlu": "Egalitatea matricelor",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-adunarea-matricelor",
+      "modul": 11,
+      "numarLectie": 4,
+      "titlu": "Adunarea matricelor",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-inmultirea-unei-matrice-cu-un-scalar",
+      "modul": 11,
+      "numarLectie": 5,
+      "titlu": "Înmulțirea unei matrice cu un scalar",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-inmultirea-matricelor",
+      "modul": 11,
+      "numarLectie": 6,
+      "titlu": "Înmulțirea matricelor",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-puteri-de-matrice",
+      "modul": 11,
+      "numarLectie": 7,
+      "titlu": "Puteri de matrice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-determinant-de-ordinul-2",
+      "modul": 11,
+      "numarLectie": 8,
+      "titlu": "Determinant de ordinul 2",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-determinant-de-ordinul-3",
+      "modul": 11,
+      "numarLectie": 9,
+      "titlu": "Determinant de ordinul 3",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-proprietatile-determinantilor",
+      "modul": 11,
+      "numarLectie": 10,
+      "titlu": "Proprietățile determinanților",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-matrice-inversabila",
+      "modul": 11,
+      "numarLectie": 11,
+      "titlu": "Matrice inversabilă",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-inversa-unei-matrice",
+      "modul": 11,
+      "numarLectie": 12,
+      "titlu": "Inversa unei matrice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m11-ecuatii-matriceale",
+      "modul": 11,
+      "numarLectie": 13,
+      "titlu": "Ecuații matriceale",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Matrice și determinanți",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-forma-matriceala-a-unui-sistem",
+      "modul": 12,
+      "numarLectie": 1,
+      "titlu": "Forma matriceală a unui sistem",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-sisteme-compatibile-si-incompatibile",
+      "modul": 12,
+      "numarLectie": 2,
+      "titlu": "Sisteme compatibile și incompatibile",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-regula-lui-cramer",
+      "modul": 12,
+      "numarLectie": 3,
+      "titlu": "Regula lui Cramer",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-rangul-unei-matrice",
+      "modul": 12,
+      "numarLectie": 4,
+      "titlu": "Rangul unei matrice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-teorema-kronecker-capelli",
+      "modul": 12,
+      "numarLectie": 5,
+      "titlu": "Teorema Kronecker-Capelli",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-teorema-rouche",
+      "modul": 12,
+      "numarLectie": 6,
+      "titlu": "Teorema Rouché",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-metoda-gauss",
+      "modul": 12,
+      "numarLectie": 7,
+      "titlu": "Metoda Gauss",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m12-sisteme-cu-parametru",
+      "modul": 12,
+      "numarLectie": 8,
+      "titlu": "Sisteme cu parametru",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Sisteme de ecuații liniare",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-vecinatati",
+      "modul": 13,
+      "numarLectie": 1,
+      "titlu": "Vecinătăți",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-sir-convergent",
+      "modul": 13,
+      "numarLectie": 2,
+      "titlu": "Șir convergent",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-limita-unui-sir",
+      "modul": 13,
+      "numarLectie": 3,
+      "titlu": "Limita unui șir",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-operatii-cu-limite-de-siruri",
+      "modul": 13,
+      "numarLectie": 4,
+      "titlu": "Operații cu limite de șiruri",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-limite-uzuale",
+      "modul": 13,
+      "numarLectie": 5,
+      "titlu": "Limite uzuale",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-numarul-e",
+      "modul": 13,
+      "numarLectie": 6,
+      "titlu": "Numărul e",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-limita-unei-functii-intr-un-punct",
+      "modul": 13,
+      "numarLectie": 7,
+      "titlu": "Limita unei funcții într-un punct",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-limite-laterale",
+      "modul": 13,
+      "numarLectie": 8,
+      "titlu": "Limite laterale",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-limite-la-infinit",
+      "modul": 13,
+      "numarLectie": 9,
+      "titlu": "Limite la infinit",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-operatii-cu-limite-de-functii",
+      "modul": 13,
+      "numarLectie": 10,
+      "titlu": "Operații cu limite de funcții",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-forme-nedeterminate",
+      "modul": 13,
+      "numarLectie": 11,
+      "titlu": "Forme nedeterminate",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-asimptote-verticale",
+      "modul": 13,
+      "numarLectie": 12,
+      "titlu": "Asimptote verticale",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-asimptote-orizontale",
+      "modul": 13,
+      "numarLectie": 13,
+      "titlu": "Asimptote orizontale",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-asimptote-oblice",
+      "modul": 13,
+      "numarLectie": 14,
+      "titlu": "Asimptote oblice",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-continuitatea-intr-un-punct",
+      "modul": 13,
+      "numarLectie": 15,
+      "titlu": "Continuitatea într-un punct",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-continuitatea-pe-un-interval",
+      "modul": 13,
+      "numarLectie": 16,
+      "titlu": "Continuitatea pe un interval",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m13-proprietatea-lui-darboux",
+      "modul": 13,
+      "numarLectie": 17,
+      "titlu": "Proprietatea lui Darboux",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Șiruri, limite și continuitate",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-derivata-unei-functii-intr-un-punct",
+      "modul": 14,
+      "numarLectie": 1,
+      "titlu": "Derivata unei funcții într-un punct",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-interpretarea-geometrica-a-derivatei",
+      "modul": 14,
+      "numarLectie": 2,
+      "titlu": "Interpretarea geometrică a derivatei",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-derivatele-functiilor-elementare",
+      "modul": 14,
+      "numarLectie": 3,
+      "titlu": "Derivatele funcțiilor elementare",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-reguli-de-derivare",
+      "modul": 14,
+      "numarLectie": 4,
+      "titlu": "Reguli de derivare",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-derivata-functiei-compuse",
+      "modul": 14,
+      "numarLectie": 5,
+      "titlu": "Derivata funcției compuse",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-teorema-lui-fermat",
+      "modul": 14,
+      "numarLectie": 6,
+      "titlu": "Teorema lui Fermat",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-teorema-lui-rolle",
+      "modul": 14,
+      "numarLectie": 7,
+      "titlu": "Teorema lui Rolle",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-teorema-lui-lagrange",
+      "modul": 14,
+      "numarLectie": 8,
+      "titlu": "Teorema lui Lagrange",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-regulile-lui-lhospital",
+      "modul": 14,
+      "numarLectie": 9,
+      "titlu": "Regulile lui l'Hospital",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-monotonia-cu-ajutorul-derivatei",
+      "modul": 14,
+      "numarLectie": 10,
+      "titlu": "Monotonia cu ajutorul derivatei",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-puncte-de-maxim-si-minim",
+      "modul": 14,
+      "numarLectie": 11,
+      "titlu": "Puncte de maxim și minim",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-concavitate-si-convexitate",
+      "modul": 14,
+      "numarLectie": 12,
+      "titlu": "Concavitate și convexitate",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-derivata-de-ordinul-al-ii-lea",
+      "modul": 14,
+      "numarLectie": 13,
+      "titlu": "Derivata de ordinul al II-lea",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-puncte-de-inflexiune",
+      "modul": 14,
+      "numarLectie": 14,
+      "titlu": "Puncte de inflexiune",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-tabel-de-variatie",
+      "modul": 14,
+      "numarLectie": 15,
+      "titlu": "Tabel de variație",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-reprezentarea-grafica-a-functiilor",
+      "modul": 14,
+      "numarLectie": 16,
+      "titlu": "Reprezentarea grafică a funcțiilor",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m14-determinarea-numarului-de-solutii-ale-unei-ecuatii",
+      "modul": 14,
+      "numarLectie": 17,
+      "titlu": "Determinarea numărului de soluții ale unei ecuații",
+      "clasa": "Clasa a XI-a",
+      "numeModul": "Derivate și studiul funcțiilor",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-legi-de-compozitie",
+      "modul": 15,
+      "numarLectie": 1,
+      "titlu": "Legi de compoziție",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-parte-stabila",
+      "modul": 15,
+      "numarLectie": 2,
+      "titlu": "Parte stabilă",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-proprietatile-unei-legi-de-compozitie",
+      "modul": 15,
+      "numarLectie": 3,
+      "titlu": "Proprietățile unei legi de compoziție",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-element-neutru",
+      "modul": 15,
+      "numarLectie": 4,
+      "titlu": "Element neutru",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-elemente-simetrizabile",
+      "modul": 15,
+      "numarLectie": 5,
+      "titlu": "Elemente simetrizabile",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-grup",
+      "modul": 15,
+      "numarLectie": 6,
+      "titlu": "Grup",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-subgrup",
+      "modul": 15,
+      "numarLectie": 7,
+      "titlu": "Subgrup",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-grup-finit",
+      "modul": 15,
+      "numarLectie": 8,
+      "titlu": "Grup finit",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-ordinul-unui-element",
+      "modul": 15,
+      "numarLectie": 9,
+      "titlu": "Ordinul unui element",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-morfism-de-grupuri",
+      "modul": 15,
+      "numarLectie": 10,
+      "titlu": "Morfism de grupuri",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-izomorfism-de-grupuri",
+      "modul": 15,
+      "numarLectie": 11,
+      "titlu": "Izomorfism de grupuri",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-inel",
+      "modul": 15,
+      "numarLectie": 12,
+      "titlu": "Inel",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-subinel",
+      "modul": 15,
+      "numarLectie": 13,
+      "titlu": "Subinel",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-corp",
+      "modul": 15,
+      "numarLectie": 14,
+      "titlu": "Corp",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m15-morfisme-de-inele-si-corpuri",
+      "modul": 15,
+      "numarLectie": 15,
+      "titlu": "Morfisme de inele și corpuri",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Structuri algebrice",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-polinoame-cu-coeficienti-intr-un-corp",
+      "modul": 16,
+      "numarLectie": 1,
+      "titlu": "Polinoame cu coeficienți într-un corp",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-gradul-unui-polinom",
+      "modul": 16,
+      "numarLectie": 2,
+      "titlu": "Gradul unui polinom",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-adunarea-si-inmultirea-polinoamelor",
+      "modul": 16,
+      "numarLectie": 3,
+      "titlu": "Adunarea și înmulțirea polinoamelor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-impartirea-polinoamelor",
+      "modul": 16,
+      "numarLectie": 4,
+      "titlu": "Împărțirea polinoamelor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-teorema-impartirii-cu-rest",
+      "modul": 16,
+      "numarLectie": 5,
+      "titlu": "Teorema împărțirii cu rest",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-schema-lui-horner",
+      "modul": 16,
+      "numarLectie": 6,
+      "titlu": "Schema lui Horner",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-teorema-lui-bezout",
+      "modul": 16,
+      "numarLectie": 7,
+      "titlu": "Teorema lui Bézout",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-divizibilitatea-polinoamelor",
+      "modul": 16,
+      "numarLectie": 8,
+      "titlu": "Divizibilitatea polinoamelor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-radacinile-unui-polinom",
+      "modul": 16,
+      "numarLectie": 9,
+      "titlu": "Rădăcinile unui polinom",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-factorizarea-polinoamelor",
+      "modul": 16,
+      "numarLectie": 10,
+      "titlu": "Factorizarea polinoamelor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-relatiile-lui-viete-pentru-polinoame",
+      "modul": 16,
+      "numarLectie": 11,
+      "titlu": "Relațiile lui Viète pentru polinoame",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-ecuatii-algebrice",
+      "modul": 16,
+      "numarLectie": 12,
+      "titlu": "Ecuații algebrice",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-ecuatii-binome",
+      "modul": 16,
+      "numarLectie": 13,
+      "titlu": "Ecuații binome",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-ecuatii-bipatrate",
+      "modul": 16,
+      "numarLectie": 14,
+      "titlu": "Ecuații bipătrate",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m16-ecuatii-reciproce",
+      "modul": 16,
+      "numarLectie": 15,
+      "titlu": "Ecuații reciproce",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Polinoame",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-primitiva-unei-functii",
+      "modul": 17,
+      "numarLectie": 1,
+      "titlu": "Primitiva unei funcții",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrala-nedefinita",
+      "modul": 17,
+      "numarLectie": 2,
+      "titlu": "Integrala nedefinită",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-primitive-uzuale",
+      "modul": 17,
+      "numarLectie": 3,
+      "titlu": "Primitive uzuale",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-proprietatile-primitivelor",
+      "modul": 17,
+      "numarLectie": 4,
+      "titlu": "Proprietățile primitivelor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrala-definita",
+      "modul": 17,
+      "numarLectie": 5,
+      "titlu": "Integrala definită",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-proprietatile-integralei-definite",
+      "modul": 17,
+      "numarLectie": 6,
+      "titlu": "Proprietățile integralei definite",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-formula-leibniz-newton",
+      "modul": 17,
+      "numarLectie": 7,
+      "titlu": "Formula Leibniz-Newton",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrabilitatea-functiilor-continue",
+      "modul": 17,
+      "numarLectie": 8,
+      "titlu": "Integrabilitatea funcțiilor continue",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-teorema-de-medie",
+      "modul": 17,
+      "numarLectie": 9,
+      "titlu": "Teorema de medie",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrarea-prin-parti",
+      "modul": 17,
+      "numarLectie": 10,
+      "titlu": "Integrarea prin părți",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrarea-prin-schimbare-de-variabila",
+      "modul": 17,
+      "numarLectie": 11,
+      "titlu": "Integrarea prin schimbare de variabilă",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-integrarea-functiilor-rationale-simple",
+      "modul": 17,
+      "numarLectie": 12,
+      "titlu": "Integrarea funcțiilor raționale simple",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-calculul-ariilor",
+      "modul": 17,
+      "numarLectie": 13,
+      "titlu": "Calculul ariilor",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-volumul-corpurilor-de-rotatie",
+      "modul": 17,
+      "numarLectie": 14,
+      "titlu": "Volumul corpurilor de rotație",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    },
+    {
+      "slug": "m17-limite-de-siruri-folosind-integrale",
+      "modul": 17,
+      "numarLectie": 15,
+      "titlu": "Limite de șiruri folosind integrale",
+      "clasa": "Clasa a XII-a",
+      "numeModul": "Primitive și integrale",
+      "fisierSursa": "data/lectii/modul-5.ts",
+      "tipSursa": "creeazaModul"
+    }
+  ]
+}

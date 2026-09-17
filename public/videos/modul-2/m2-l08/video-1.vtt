@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+O funcție este crescătoare dacă, când x crește, f(x) crește. De exemplu, dacă x1 < x2, atunci f(x1) < f(x2).
+
+2
+00:02:00.000 --> 00:04:00.000
+O funcție este descrescătoare dacă, când x crește, f(x) scade. De exemplu, dacă x1 < x3, atunci f(x1) > f(x3).
+

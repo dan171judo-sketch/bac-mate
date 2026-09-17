@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l02",
+    "modul": 1,
+    "numarLectie": 2,
+    "titlu": "Estimări și aproximări",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l02-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Estimări și aproximări - greșeli frecvente",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Estimări și aproximări - greșeli frecvente",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Estimări și aproximări - greșeli frecvente",
+      "naratiune": "Estimarea este o metodă importantă pentru Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Estimări și aproximări - greșeli frecvente”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Estimări și aproximări - greșeli frecvente",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Estimarea este o metodă importantă pentru Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.14046,
+      "procentDurata": 14.046
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom învăța cum să estimăm corect pentru Bac",
+      "subtitlu": "Un elev care calculează o estimare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom învăța cum să estimăm corect pentru Bac",
+      "naratiune": "Vom învăța cum să estimăm corect pentru Bac",
+      "vizual": "Un elev care calculează o estimare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să estimăm corect pentru Bac",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.14046,
+      "endProcent": 0.202887,
+      "procentDurata": 6.2427
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea unde se pot face greșeli",
+      "subtitlu": "Un elev care face o aproximare greșită",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea unde se pot face greșeli",
+      "naratiune": "Vom vedea unde se pot face greșeli",
+      "vizual": "Un elev care face o aproximare greșită",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea unde se pot face greșeli",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.202887,
+      "endProcent": 0.257511,
+      "procentDurata": 5.4623
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Estimarea este o metodă importantă pentru Bac",
+      "naratiune": "Estimarea este o metodă importantă pentru Bac Uneori elevii nu știu cum să aproximeze corect Greșelile apar în modul de calcul Este important să verificăm rezultatele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Estimarea este o metodă importantă pentru Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Uneori elevii nu știu cum să aproximeze corect",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Greșelile apar în modul de calcul",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Este important să verificăm rezultatele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.257511,
+      "endProcent": 0.460398,
+      "procentDurata": 20.2887
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aproximarea unui număr irațional",
+      "subtitlu": "Aproximează numărul √2 la 2 cifre zecimale.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1,41",
+      "naratiune": "Aproximează numărul √2 la 2 cifre zecimale. Calculăm √2 ≈ 1,41421356... Rotim la 2 cifre zecimale: 1,41 Răspunsul final este 1,41.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Aproximează numărul √2 la 2 cifre zecimale.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm √2 ≈ 1,41421356...",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Rotim la 2 cifre zecimale: 1,41",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1,41",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.460398,
+      "endProcent": 0.648849,
+      "procentDurata": 18.8451
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1,41",
+      "naratiune": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale? A) 1,41 B) 1,42 C) 1,4 √2 ≈ 1,41421356... Rotind la 2 cifre zecimale obținem 1,41",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1,41",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1,42",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 1,4",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1,41",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648849,
+      "endProcent": 0.85954,
+      "procentDurata": 21.0691
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Estimarea trebuie să fie corectă și justificată",
+      "naratiune": "Estimarea trebuie să fie corectă și justificată Verificarea rezultatului este esențială",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Estimarea trebuie să fie corectă și justificată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verificarea rezultatului este esențială",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.85954,
+      "endProcent": 1,
+      "procentDurata": 14.046
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Estimări și aproximări - greșeli frecvente",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Estimări și aproximări - greșeli frecvente",
+      "naratiune": "Estimarea este o metodă importantă pentru Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Estimări și aproximări - greșeli frecvente”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Estimări și aproximări - greșeli frecvente",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Estimarea este o metodă importantă pentru Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.14046,
+      "procentDurata": 14.046
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom învăța cum să estimăm corect pentru Bac",
+      "subtitlu": "Un elev care calculează o estimare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom învăța cum să estimăm corect pentru Bac",
+      "naratiune": "Vom învăța cum să estimăm corect pentru Bac",
+      "vizual": "Un elev care calculează o estimare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să estimăm corect pentru Bac",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.14046,
+      "endProcent": 0.202887,
+      "procentDurata": 6.2427
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea unde se pot face greșeli",
+      "subtitlu": "Un elev care face o aproximare greșită",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea unde se pot face greșeli",
+      "naratiune": "Vom vedea unde se pot face greșeli",
+      "vizual": "Un elev care face o aproximare greșită",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea unde se pot face greșeli",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.202887,
+      "endProcent": 0.257511,
+      "procentDurata": 5.4623
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Estimarea este o metodă importantă pentru Bac",
+      "naratiune": "Estimarea este o metodă importantă pentru Bac Uneori elevii nu știu cum să aproximeze corect Greșelile apar în modul de calcul Este important să verificăm rezultatele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Estimarea este o metodă importantă pentru Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Uneori elevii nu știu cum să aproximeze corect",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Greșelile apar în modul de calcul",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Este important să verificăm rezultatele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.257511,
+      "endProcent": 0.460398,
+      "procentDurata": 20.2887
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aproximarea unui număr irațional",
+      "subtitlu": "Aproximează numărul √2 la 2 cifre zecimale.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1,41",
+      "naratiune": "Aproximează numărul √2 la 2 cifre zecimale. Calculăm √2 ≈ 1,41421356... Rotim la 2 cifre zecimale: 1,41 Răspunsul final este 1,41.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Aproximează numărul √2 la 2 cifre zecimale.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm √2 ≈ 1,41421356...",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Rotim la 2 cifre zecimale: 1,41",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1,41",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.460398,
+      "endProcent": 0.648849,
+      "procentDurata": 18.8451
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1,41",
+      "naratiune": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale? A) 1,41 B) 1,42 C) 1,4 √2 ≈ 1,41421356... Rotind la 2 cifre zecimale obținem 1,41",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1,41",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1,42",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 1,4",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1,41",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648849,
+      "endProcent": 0.85954,
+      "procentDurata": 21.0691
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Estimarea trebuie să fie corectă și justificată",
+      "naratiune": "Estimarea trebuie să fie corectă și justificată Verificarea rezultatului este esențială",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Estimarea trebuie să fie corectă și justificată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verificarea rezultatului este esențială",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.85954,
+      "endProcent": 1,
+      "procentDurata": 14.046
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T09:05:33.687Z"
+  }
+}

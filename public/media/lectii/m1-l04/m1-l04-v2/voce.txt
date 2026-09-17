@@ -1,0 +1,7 @@
+Începem cu definiția intervalului de numere reale.
+
+Vom învăța cum să reprezentăm intervale pe axa numerelor.
+
+Vom vedea cum se definesc intervalele în funcție de limite.
+
+În final, vom rezolva un exercițiu de tip Bac.

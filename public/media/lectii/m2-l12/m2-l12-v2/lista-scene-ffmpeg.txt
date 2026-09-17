@@ -1,0 +1,15 @@
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-01.png'
+duration 1.256707
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-02.png'
+duration 1.535972
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-03.png'
+duration 1.047258
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-04.png'
+duration 2.094503
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-05.png'
+duration 4.335636
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-06.png'
+duration 2.234135
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-07.png'
+duration 1.605789
+file 'C:/Users/Administrator/Desktop/mate bac/bac-mate/public/media/lectii/m2-l12/m2-l12-v2/scene/scena-07.png'

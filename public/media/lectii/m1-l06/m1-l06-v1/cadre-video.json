@@ -1,0 +1,669 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l06",
+    "modul": 1,
+    "numarLectie": 6,
+    "titlu": "Cuantificatori",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l06-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+      "naratiune": "Când spui 'oricare număr natural', ce înseamnă asta?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori: Ce înseamnă 'oricare' și 'există'?”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Când spui 'oricare număr natural', ce înseamnă asta?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.068441,
+      "procentDurata": 6.8441
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vrei să înțelegi ce înseamnă 'oricare număr natural'",
+      "subtitlu": "Un profesor desenează un cerc cu numere naturale în interior",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vrei să înțelegi ce înseamnă 'oricare număr natural'? Hai s…",
+      "naratiune": "Vrei să înțelegi ce înseamnă 'oricare număr natural'? Hai să vedem împreună. Acest cerc reprezintă toate numerele naturale. Când spunem 'oricare număr natural', ne referim la toate numerele din acest cerc.",
+      "vizual": "Un profesor desenează un cerc cu numere naturale în interior",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vrei să înțelegi ce înseamnă 'oricare număr natural'?",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Hai să vedem împreună.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Acest cerc reprezintă toate numerele naturale.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e4",
+          "tip": "mesaj",
+          "text": "Când spunem 'oricare număr natural', ne referim la toate numerele din acest cerc.",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.068441,
+      "endProcent": 0.186312,
+      "procentDurata": 11.7871
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Când spunem 'există un număr natural care îndepline…",
+      "subtitlu": "Un profesor desenează un cerc cu numere naturale și un semn de 'există' lângă un număr",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Când spunem 'există un număr natural care îndeplinește o co…",
+      "naratiune": "Când spunem 'există un număr natural care îndeplinește o condiție', ne referim la cel puțin un număr din cerc. De exemplu, există un număr care este divizibil cu 3. Acesta este un exemplu de cuantificator 'există'.",
+      "vizual": "Un profesor desenează un cerc cu numere naturale și un semn de 'există' lângă un număr",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Când spunem 'există un număr natural care îndeplinește o condiție', ne referim la cel puțin un număr din cerc.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, există un număr care este divizibil cu 3.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Acesta este un exemplu de cuantificator 'există'.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186312,
+      "endProcent": 0.323194,
+      "procentDurata": 13.6882
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Când spui 'oricare număr natural', ce înseamnă asta?",
+      "naratiune": "Când spui 'oricare număr natural', ce înseamnă asta? Ce înseamnă când spui 'există un număr care îndeplinește o condiție'? Cum se folosesc cuantificatorii în problemele de Bac? De ce este important să știu diferența între 'oricare' și 'există'?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Când spui 'oricare număr natural', ce înseamnă asta?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Ce înseamnă când spui 'există un număr care îndeplinește o condiție'?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Cum se folosesc cuantificatorii în problemele de Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să știu diferența între 'oricare' și 'există'?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.323194,
+      "endProcent": 0.467681,
+      "procentDurata": 14.4487
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verifică dacă propoziția este adevărată",
+      "subtitlu": "Oricare număr natural este mai mare decât 0.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Fals",
+      "naratiune": "Oricare număr natural este mai mare decât 0. Vom analiza propoziția: 'Oricare număr natural este mai mare decât 0'. Numărul 0 este un număr natural, dar nu este mai mare decât 0. Deci propoziția este falsă. Răspunsul final este Fals.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Oricare număr natural este mai mare decât 0.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Vom analiza propoziția: 'Oricare număr natural este mai mare decât 0'.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Numărul 0 este un număr natural, dar nu este mai mare decât 0. Deci propoziția este falsă.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Fals",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.467681,
+      "endProcent": 0.642586,
+      "procentDurata": 17.4905
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele propoziții este adevărată?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Există un număr natural care este mai mare decât 100",
+      "naratiune": "Care dintre următoarele propoziții este adevărată? A) Orice număr natural este mai mare decât 0 B) Există un număr natural care este mai mare decât 100 C) Orice număr natural este mai mic decât 100 Varianta B este corectă, deoarece există numere naturale mai mari decât 100. Variantele A și C sunt false, deoarece 0 este un număr natural și nu este mai mare decât 0, iar există numere naturale mai mari decât 100.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele propoziții este adevărată?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Orice număr natural este mai mare decât 0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Există un număr natural care este mai mare decât 100",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Orice număr natural este mai mic decât 100",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Există un număr natural care este mai mare decât 100",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.642586,
+      "endProcent": 0.923954,
+      "procentDurata": 28.1369
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime.",
+      "naratiune": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime. Cuantificatorul 'există' se referă la cel puțin un element dintr-o mulțime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul 'există' se referă la cel puțin un element dintr-o mulțime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.923954,
+      "endProcent": 1,
+      "procentDurata": 7.6046
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+      "naratiune": "Când spui 'oricare număr natural', ce înseamnă asta?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori: Ce înseamnă 'oricare' și 'există'?”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Când spui 'oricare număr natural', ce înseamnă asta?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.068441,
+      "procentDurata": 6.8441
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vrei să înțelegi ce înseamnă 'oricare număr natural'",
+      "subtitlu": "Un profesor desenează un cerc cu numere naturale în interior",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vrei să înțelegi ce înseamnă 'oricare număr natural'? Hai s…",
+      "naratiune": "Vrei să înțelegi ce înseamnă 'oricare număr natural'? Hai să vedem împreună. Acest cerc reprezintă toate numerele naturale. Când spunem 'oricare număr natural', ne referim la toate numerele din acest cerc.",
+      "vizual": "Un profesor desenează un cerc cu numere naturale în interior",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vrei să înțelegi ce înseamnă 'oricare număr natural'?",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Hai să vedem împreună.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Acest cerc reprezintă toate numerele naturale.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e4",
+          "tip": "mesaj",
+          "text": "Când spunem 'oricare număr natural', ne referim la toate numerele din acest cerc.",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.068441,
+      "endProcent": 0.186312,
+      "procentDurata": 11.7871
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Când spunem 'există un număr natural care îndepline…",
+      "subtitlu": "Un profesor desenează un cerc cu numere naturale și un semn de 'există' lângă un număr",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Când spunem 'există un număr natural care îndeplinește o co…",
+      "naratiune": "Când spunem 'există un număr natural care îndeplinește o condiție', ne referim la cel puțin un număr din cerc. De exemplu, există un număr care este divizibil cu 3. Acesta este un exemplu de cuantificator 'există'.",
+      "vizual": "Un profesor desenează un cerc cu numere naturale și un semn de 'există' lângă un număr",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Când spunem 'există un număr natural care îndeplinește o condiție', ne referim la cel puțin un număr din cerc.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, există un număr care este divizibil cu 3.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Acesta este un exemplu de cuantificator 'există'.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186312,
+      "endProcent": 0.323194,
+      "procentDurata": 13.6882
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Când spui 'oricare număr natural', ce înseamnă asta?",
+      "naratiune": "Când spui 'oricare număr natural', ce înseamnă asta? Ce înseamnă când spui 'există un număr care îndeplinește o condiție'? Cum se folosesc cuantificatorii în problemele de Bac? De ce este important să știu diferența între 'oricare' și 'există'?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Când spui 'oricare număr natural', ce înseamnă asta?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Ce înseamnă când spui 'există un număr care îndeplinește o condiție'?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Cum se folosesc cuantificatorii în problemele de Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să știu diferența între 'oricare' și 'există'?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.323194,
+      "endProcent": 0.467681,
+      "procentDurata": 14.4487
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verifică dacă propoziția este adevărată",
+      "subtitlu": "Oricare număr natural este mai mare decât 0.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Fals",
+      "naratiune": "Oricare număr natural este mai mare decât 0. Vom analiza propoziția: 'Oricare număr natural este mai mare decât 0'. Numărul 0 este un număr natural, dar nu este mai mare decât 0. Deci propoziția este falsă. Răspunsul final este Fals.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Oricare număr natural este mai mare decât 0.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Vom analiza propoziția: 'Oricare număr natural este mai mare decât 0'.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Numărul 0 este un număr natural, dar nu este mai mare decât 0. Deci propoziția este falsă.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Fals",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.467681,
+      "endProcent": 0.642586,
+      "procentDurata": 17.4905
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele propoziții este adevărată?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Există un număr natural care este mai mare decât 100",
+      "naratiune": "Care dintre următoarele propoziții este adevărată? A) Orice număr natural este mai mare decât 0 B) Există un număr natural care este mai mare decât 100 C) Orice număr natural este mai mic decât 100 Varianta B este corectă, deoarece există numere naturale mai mari decât 100. Variantele A și C sunt false, deoarece 0 este un număr natural și nu este mai mare decât 0, iar există numere naturale mai mari decât 100.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele propoziții este adevărată?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Orice număr natural este mai mare decât 0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Există un număr natural care este mai mare decât 100",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Orice număr natural este mai mic decât 100",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Există un număr natural care este mai mare decât 100",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.642586,
+      "endProcent": 0.923954,
+      "procentDurata": 28.1369
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime.",
+      "naratiune": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime. Cuantificatorul 'există' se referă la cel puțin un element dintr-o mulțime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul 'există' se referă la cel puțin un element dintr-o mulțime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.923954,
+      "endProcent": 1,
+      "procentDurata": 7.6046
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-06.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.506Z"
+  }
+}

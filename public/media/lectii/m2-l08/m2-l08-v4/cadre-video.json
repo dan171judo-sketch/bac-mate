@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l08",
+    "modul": 2,
+    "numarLectie": 8,
+    "titlu": "Monotonie și mărginire",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l08-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Monotonie și mărginire la Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire la Bac",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire la Bac",
+      "naratiune": "Ce înseamnă monotonie?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire la Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire la Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă monotonie?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.083256,
+      "procentDurata": 8.3256
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Monotonie înseamnă că funcția este întotdeauna cres…",
+      "subtitlu": "Un grafic al unei funcții crescătoare și al unei funcții descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Monotonie înseamnă că funcția este întotdeauna crescătoare…",
+      "naratiune": "Monotonie înseamnă că funcția este întotdeauna crescătoare sau descrescătoare. Dacă este crescătoare, valoarea funcției crește când x crește. Dacă este descrescătoare, valoarea funcției scade când x crește.",
+      "vizual": "Un grafic al unei funcții crescătoare și al unei funcții descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Monotonie înseamnă că funcția este întotdeauna crescătoare sau descrescătoare.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Dacă este crescătoare, valoarea funcției crește când x crește.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Dacă este descrescătoare, valoarea funcției scade când x crește.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.083256,
+      "endProcent": 0.208141,
+      "procentDurata": 12.4884
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este mărginită dacă are valori maxime și…",
+      "subtitlu": "Un grafic al unei funcții care nu este mărginită",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este mărginită dacă are valori maxime și minime.…",
+      "naratiune": "O funcție este mărginită dacă are valori maxime și minime. Dacă nu este mărginită, atunci ea tinde spre infinit sau minus infinit. În Bac, se cer adesea să verificăm dacă o funcție este mărginită sau nu.",
+      "vizual": "Un grafic al unei funcții care nu este mărginită",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "O funcție este mărginită dacă are valori maxime și minime.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Dacă nu este mărginită, atunci ea tinde spre infinit sau minus infinit.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "În Bac, se cer adesea să verificăm dacă o funcție este mărginită sau nu.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.208141,
+      "endProcent": 0.374653,
+      "procentDurata": 16.6512
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă monotonie?",
+      "naratiune": "Ce înseamnă monotonie? Cum se verifică mărginirea? Ce se întâmplă dacă funcția nu este mărginită? De ce este importantă în Bac?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă monotonie?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică mărginirea?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă funcția nu este mărginită?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este importantă în Bac?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.374653,
+      "endProcent": 0.471785,
+      "procentDurata": 9.7132
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie și mărginire",
+      "subtitlu": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este crescătoare, dar nu este mărginită.",
+      "naratiune": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită. Calculăm derivata: f'(x) = 3. Derivata este pozitivă, deci funcția este crescătoare. Funcția este de forma ax + b, deci nu este mărginită. Răspunsul final este Funcția este crescătoare, dar nu este mărginită..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata: f'(x) = 3. Derivata este pozitivă, deci funcția este crescătoare.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Funcția este de forma ax + b, deci nu este mărginită.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este crescătoare, dar nu este mărginită.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.471785,
+      "endProcent": 0.727105,
+      "procentDurata": 25.5319
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = 2x + 1 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) crescătoare și nu este mărginită",
+      "naratiune": "Funcția f(x) = 2x + 1 este: A) crescătoare și mărginită B) descrescătoare și mărginită C) crescătoare și nu este mărginită Derivata este 2 > 0, deci funcția este crescătoare. Funcția este de forma ax + b, deci nu este mărginită.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = 2x + 1 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) crescătoare și mărginită",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) descrescătoare și mărginită",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) crescătoare și nu este mărginită",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) crescătoare și nu este mărginită",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.727105,
+      "endProcent": 0.916744,
+      "procentDurata": 18.9639
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare.",
+      "naratiune": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare. Mărginire: funcția are valori maxime și minime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginire: funcția are valori maxime și minime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.916744,
+      "endProcent": 1,
+      "procentDurata": 8.3256
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire la Bac",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire la Bac",
+      "naratiune": "Ce înseamnă monotonie?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire la Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire la Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă monotonie?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.083256,
+      "procentDurata": 8.3256
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Monotonie înseamnă că funcția este întotdeauna cres…",
+      "subtitlu": "Un grafic al unei funcții crescătoare și al unei funcții descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Monotonie înseamnă că funcția este întotdeauna crescătoare…",
+      "naratiune": "Monotonie înseamnă că funcția este întotdeauna crescătoare sau descrescătoare. Dacă este crescătoare, valoarea funcției crește când x crește. Dacă este descrescătoare, valoarea funcției scade când x crește.",
+      "vizual": "Un grafic al unei funcții crescătoare și al unei funcții descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Monotonie înseamnă că funcția este întotdeauna crescătoare sau descrescătoare.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Dacă este crescătoare, valoarea funcției crește când x crește.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Dacă este descrescătoare, valoarea funcției scade când x crește.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.083256,
+      "endProcent": 0.208141,
+      "procentDurata": 12.4884
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este mărginită dacă are valori maxime și…",
+      "subtitlu": "Un grafic al unei funcții care nu este mărginită",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este mărginită dacă are valori maxime și minime.…",
+      "naratiune": "O funcție este mărginită dacă are valori maxime și minime. Dacă nu este mărginită, atunci ea tinde spre infinit sau minus infinit. În Bac, se cer adesea să verificăm dacă o funcție este mărginită sau nu.",
+      "vizual": "Un grafic al unei funcții care nu este mărginită",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "O funcție este mărginită dacă are valori maxime și minime.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Dacă nu este mărginită, atunci ea tinde spre infinit sau minus infinit.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "În Bac, se cer adesea să verificăm dacă o funcție este mărginită sau nu.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.208141,
+      "endProcent": 0.374653,
+      "procentDurata": 16.6512
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă monotonie?",
+      "naratiune": "Ce înseamnă monotonie? Cum se verifică mărginirea? Ce se întâmplă dacă funcția nu este mărginită? De ce este importantă în Bac?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă monotonie?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică mărginirea?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă funcția nu este mărginită?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este importantă în Bac?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.374653,
+      "endProcent": 0.471785,
+      "procentDurata": 9.7132
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie și mărginire",
+      "subtitlu": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este crescătoare, dar nu este mărginită.",
+      "naratiune": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită. Calculăm derivata: f'(x) = 3. Derivata este pozitivă, deci funcția este crescătoare. Funcția este de forma ax + b, deci nu este mărginită. Răspunsul final este Funcția este crescătoare, dar nu este mărginită..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata: f'(x) = 3. Derivata este pozitivă, deci funcția este crescătoare.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Funcția este de forma ax + b, deci nu este mărginită.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este crescătoare, dar nu este mărginită.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.471785,
+      "endProcent": 0.727105,
+      "procentDurata": 25.5319
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = 2x + 1 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) crescătoare și nu este mărginită",
+      "naratiune": "Funcția f(x) = 2x + 1 este: A) crescătoare și mărginită B) descrescătoare și mărginită C) crescătoare și nu este mărginită Derivata este 2 > 0, deci funcția este crescătoare. Funcția este de forma ax + b, deci nu este mărginită.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = 2x + 1 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) crescătoare și mărginită",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) descrescătoare și mărginită",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) crescătoare și nu este mărginită",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) crescătoare și nu este mărginită",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.727105,
+      "endProcent": 0.916744,
+      "procentDurata": 18.9639
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare.",
+      "naratiune": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare. Mărginire: funcția are valori maxime și minime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginire: funcția are valori maxime și minime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.916744,
+      "endProcent": 1,
+      "procentDurata": 8.3256
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-08.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.794Z"
+  }
+}

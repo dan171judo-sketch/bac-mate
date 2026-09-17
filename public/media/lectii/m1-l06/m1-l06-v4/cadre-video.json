@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l06",
+    "modul": 1,
+    "numarLectie": 6,
+    "titlu": "Cuantificatori",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l06-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Cuantificatori - Bac și greșeli comune",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori - Bac și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori - Bac și greșeli comune",
+      "naratiune": "Cuantificatorii sunt esențiali în logica matematică",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori - Bac și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori - Bac și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt esențiali în logica matematică",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09084,
+      "procentDurata": 9.084
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: „Toate numerele naturale su…",
+      "subtitlu": "Un elev care citește o propoziție cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza propoziția: „Toate numerele naturale sunt pare…",
+      "naratiune": "Vom analiza propoziția: „Toate numerele naturale sunt pare sau impare.”",
+      "vizual": "Un elev care citește o propoziție cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza propoziția: „Toate numerele naturale sunt pare sau impare.”",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.09084,
+      "endProcent": 0.141307,
+      "procentDurata": 5.0467
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea cum se negă o propoziție cu cuantificator…",
+      "subtitlu": "Un elev care scrie negația unei propoziții cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea cum se negă o propoziție cu cuantificator univers…",
+      "naratiune": "Vom vedea cum se negă o propoziție cu cuantificator universal.",
+      "vizual": "Un elev care scrie negația unei propoziții cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se negă o propoziție cu cuantificator universal.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.141307,
+      "endProcent": 0.191774,
+      "procentDurata": 5.0467
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Cuantificatorii sunt esențiali în logica matematică",
+      "naratiune": "Cuantificatorii sunt esențiali în logica matematică Elevii adesea confundă cuantificatorul universal cu cel existențial În Bac se pot întâlni exerciții cu negația cuantificatorilor Este important să cunoaștem greșelile frecvente",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt esențiali în logica matematică",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Elevii adesea confundă cuantificatorul universal cu cel existențial",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "În Bac se pot întâlni exerciții cu negația cuantificatorilor",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Este important să cunoaștem greșelile frecvente",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191774,
+      "endProcent": 0.338128,
+      "procentDurata": 14.6354
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Negarea unei propoziții cu cuantificator universal",
+      "subtitlu": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.”",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Există cel puțin un număr natural care nu este par.",
+      "naratiune": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.” Negarea cuantificatorului universal (∀) este cuantificatorul existențial (∃). Negăm propoziția: „Există cel puțin un număr natural care nu este par.” Răspunsul final este Există cel puțin un număr natural care nu este par..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.”",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Negarea cuantificatorului universal (∀) este cuantificatorul existențial (∃).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Negăm propoziția: „Există cel puțin un număr natural care nu este par.”",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Există cel puțin un număr natural care nu este par.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.338128,
+      "endProcent": 0.576079,
+      "procentDurata": 23.7951
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este negația propoziției: „Toate elevii din clasă au notă mare.”",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Există cel puțin un elev din clasă care nu are notă mare.",
+      "naratiune": "Care este negația propoziției: „Toate elevii din clasă au notă mare.” A) Toți elevii din clasă au notă mică. B) Există cel puțin un elev din clasă care nu are notă mare. C) Nu există elevi din clasă cu notă mare. Negarea cuantificatorului universal (∀) este cuant și existențial (∃). Propoziția devine: „Există cel puțin un elev din clasă care nu are notă mare.”",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este negația propoziției: „Toate elevii din clasă au notă mare.”",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Toți elevii din clasă au notă mică.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Există cel puțin un elev din clasă care nu are notă mare.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu există elevi din clasă cu notă mare.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Există cel puțin un elev din clasă care nu are notă mare.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.576079,
+      "endProcent": 0.899066,
+      "procentDurata": 32.2988
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele",
+      "naratiune": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele Cuantificatorul existențial (∃) afirmă o proprietate pentru cel puțin un element",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul existențial (∃) afirmă o proprietate pentru cel puțin un element",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.899066,
+      "endProcent": 1,
+      "procentDurata": 10.0934
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori - Bac și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori - Bac și greșeli comune",
+      "naratiune": "Cuantificatorii sunt esențiali în logica matematică",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori - Bac și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori - Bac și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt esențiali în logica matematică",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09084,
+      "procentDurata": 9.084
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: „Toate numerele naturale su…",
+      "subtitlu": "Un elev care citește o propoziție cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza propoziția: „Toate numerele naturale sunt pare…",
+      "naratiune": "Vom analiza propoziția: „Toate numerele naturale sunt pare sau impare.”",
+      "vizual": "Un elev care citește o propoziție cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza propoziția: „Toate numerele naturale sunt pare sau impare.”",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.09084,
+      "endProcent": 0.141307,
+      "procentDurata": 5.0467
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea cum se negă o propoziție cu cuantificator…",
+      "subtitlu": "Un elev care scrie negația unei propoziții cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea cum se negă o propoziție cu cuantificator univers…",
+      "naratiune": "Vom vedea cum se negă o propoziție cu cuantificator universal.",
+      "vizual": "Un elev care scrie negația unei propoziții cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se negă o propoziție cu cuantificator universal.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.141307,
+      "endProcent": 0.191774,
+      "procentDurata": 5.0467
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Cuantificatorii sunt esențiali în logica matematică",
+      "naratiune": "Cuantificatorii sunt esențiali în logica matematică Elevii adesea confundă cuantificatorul universal cu cel existențial În Bac se pot întâlni exerciții cu negația cuantificatorilor Este important să cunoaștem greșelile frecvente",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt esențiali în logica matematică",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Elevii adesea confundă cuantificatorul universal cu cel existențial",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "În Bac se pot întâlni exerciții cu negația cuantificatorilor",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Este important să cunoaștem greșelile frecvente",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191774,
+      "endProcent": 0.338128,
+      "procentDurata": 14.6354
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Negarea unei propoziții cu cuantificator universal",
+      "subtitlu": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.”",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Există cel puțin un număr natural care nu este par.",
+      "naratiune": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.” Negarea cuantificatorului universal (∀) este cuantificatorul existențial (∃). Negăm propoziția: „Există cel puțin un număr natural care nu este par.” Răspunsul final este Există cel puțin un număr natural care nu este par..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.”",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Negarea cuantificatorului universal (∀) este cuantificatorul existențial (∃).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Negăm propoziția: „Există cel puțin un număr natural care nu este par.”",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Există cel puțin un număr natural care nu este par.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.338128,
+      "endProcent": 0.576079,
+      "procentDurata": 23.7951
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este negația propoziției: „Toate elevii din clasă au notă mare.”",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Există cel puțin un elev din clasă care nu are notă mare.",
+      "naratiune": "Care este negația propoziției: „Toate elevii din clasă au notă mare.” A) Toți elevii din clasă au notă mică. B) Există cel puțin un elev din clasă care nu are notă mare. C) Nu există elevi din clasă cu notă mare. Negarea cuantificatorului universal (∀) este cuant și existențial (∃). Propoziția devine: „Există cel puțin un elev din clasă care nu are notă mare.”",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este negația propoziției: „Toate elevii din clasă au notă mare.”",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Toți elevii din clasă au notă mică.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Există cel puțin un elev din clasă care nu are notă mare.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu există elevi din clasă cu notă mare.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Există cel puțin un elev din clasă care nu are notă mare.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.576079,
+      "endProcent": 0.899066,
+      "procentDurata": 32.2988
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele",
+      "naratiune": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele Cuantificatorul existențial (∃) afirmă o proprietate pentru cel puțin un element",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul existențial (∃) afirmă o proprietate pentru cel puțin un element",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.899066,
+      "endProcent": 1,
+      "procentDurata": 10.0934
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-06.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.521Z"
+  }
+}

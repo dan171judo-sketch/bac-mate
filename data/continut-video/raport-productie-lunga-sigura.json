@@ -1,0 +1,14 @@
+{
+  "versiune": "bac-mate-productie-lunga-sigura-v1",
+  "inceputLa": "2026-09-10T13:53:40.353Z",
+  "actualizatLa": "2026-09-10T13:55:53.458Z",
+  "timeoutLectieMinute": 15,
+  "rezultate": {
+    "m1-l01": {
+      "status": "in-lucru",
+      "inceputLa": "2026-09-10T13:55:53.458Z",
+      "modul": 1,
+      "lectie": 1
+    }
+  }
+}

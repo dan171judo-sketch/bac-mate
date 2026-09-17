@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l03",
+  "modul": 2,
+  "numarLectie": 3,
+  "titlu": "Domeniu, codomeniu și imagine",
+  "slugContinut": "domeniu-codomeniu-si-imagine",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Domeniu, codomeniu și imagine”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l03-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă domeniu?",
+        "Ce este codomeniu?",
+        "Ce înseamnă imagine?",
+        "De ce sunt importante aceste concepte?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție f(x) = x²",
+          "naratiune": "Vrei să înțelegi ce înseamnă domeniu, codomeniu și imagine? Să începem cu un exemplu simplu. Fie funcția f(x) = x². Domeniul este mulțimea valorilor pe care le poate lua x."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție f(x) = x² și o linie orizontală",
+          "naratiune": "Codomeniul este mulțimea valorilor pe care le poate lua f(x). Imaginea este mulțimea valorilor efectiv atinse de funcție. De exemplu, dacă x este 2, f(x) este 4. Așadar, imaginea este o submulțime a codomeniului."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Domeniul este mulțimea valorilor x.",
+        "Imaginea este mulțimea valorților efectiv atinse."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determină domeniul, codomeniul și imaginea funcției f(x) = x²",
+        "enunt": "Fie funcția f(x) = x². Determină domeniul, codomeniul și imaginea funcției.",
+        "rezolvare": [
+          "Domeniul este toate numerele reale, deoarece x poate lua orice valoare.",
+          "Codomeniul este mulțimea numerelor reale pozitive, deoarece x² este întotdeauna pozitiv."
+        ],
+        "raspuns": "Domeniu: ℝ, Codomeniu: ℝ⁺, Imagine: ℝ⁺"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = x². Care este imaginea funcției?",
+        "variante": [
+          "A) ℝ",
+          "B) ℝ⁺",
+          "C) {0}"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Imaginea este mulțimea valorilor efectiv atinse de funcție. Deoarece x² este întotdeauna pozitiv, imaginea este ℝ⁺."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l03/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l03/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l03/m2-l03-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l03/m2-l03-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l03/m2-l03-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 3,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 3,
+        "titluLectie": "Domeniu, codomeniu și imagine",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:31:01.075Z"
+      }
+    },
+    {
+      "id": "m2-l03-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu noțiunile de bază despre funcții.",
+        "Vom înțelege diferența dintre domeniu și codomeniu.",
+        "Vom vedea cum se calculează imaginea funcției.",
+        "Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un desen cu o funcție f: A → B, cu A și B reprezentate ca mulțimi.",
+          "naratiune": "Funcția f are domeniu A și codomeniu B. Imaginea este mulțimea valorilor care se obțin prin aplicarea funcției."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic al funcției f(x) = x², cu axa x și y.",
+          "naratiune": "Pentru funcția f(x) = x², domeniul este toate numerele reale, iar imaginea este toate numerele reale pozitive."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Domeniul este mulțimea valorilor posibile pentru x.",
+        "Imaginea este mulțimea valorilor obținute prin aplicarea funcției."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea domeniului și imaginii funcției f(x) = 1/x",
+        "enunt": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției.",
+        "rezolvare": [
+          "Domeniul funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x nu este definit pentru x = 0.",
+          "Imaginea funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x poate lua orice valoare reală, cu excepția 0."
+        ],
+        "raspuns": "Domeniu: R\\{0}, Imagine: R\\{0}"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = x². Care este imaginea funcției?",
+        "variante": [
+          "A) [0, ∞)",
+          "B) (-∞, 0)",
+          "C) R"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Imaginea funcției f(x) = x² este [0, ∞), deoarece pătratul oricărui număr real este un număr real nenegativ."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l03/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l03/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l03/m2-l03-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l03/m2-l03-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l03/m2-l03-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 3,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 3,
+        "titluLectie": "Domeniu, codomeniu și imagine",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:42:30.948Z"
+      }
+    },
+    {
+      "id": "m2-l03-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o funcție simplă",
+        "Vom identifica domeniul",
+        "Vom determina codomeniul",
+        "Vom găsi imaginea funcției"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Pe ecran apare funcția f(x) = 1/x",
+          "naratiune": "Vom analiza funcția f(x) = 1/x. Domeniul este mulțimea valorilor x pentru care funcția are sens."
+        },
+        {
+          "numar": 2,
+          "vizual": "Se afișează graficul funcției 1/x",
+          "naratiune": "Graficul funcției 1/x este format din două ramuri. Vom determina codomeniul și imaginea."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Domeniul este mulțimea valorilor x pentru care funcția are sens",
+        "Imaginea este mulțimea valorilor obținute prin aplicarea funcției pe domeniul său"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea domeniului, codomeniului și a imaginii funcției f(x) = 1/x",
+        "enunt": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul, codomeniul și imaginea funcției.",
+        "rezolvare": [
+          "Pasul 1: Domeniul funcției. Funcția f(x) = 1/x are sens pentru x ≠ 0. Deci domeniul este D = R \\ {0}",
+          "Pasul 2: Codomeniul este mulțimea valorilor y pentru care există x în domeniul funcției astfel încât y = f(x). În acest caz, codomeniul este tot R, dar imaginea este R \\ {0}."
+        ],
+        "raspuns": "Domeniul este R \\ {0}, codomeniul este R, iar imaginea este R \\ {0}"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este imaginea funcției f(x) = 1/x?",
+        "variante": [
+          "A) R \\ {0}",
+          "B) R",
+          "C) {0}"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Imaginea funcției f(x) = 1/x este R \\ {0}, deoarece pentru orice y ≠ 0 există x ≠ 0 astfel încât y = 1/x."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l03/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l03/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l03/m2-l03-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l03/m2-l03-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l03/m2-l03-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 3,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 3,
+        "titluLectie": "Domeniu, codomeniu și imagine",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:48:38.405Z"
+      }
+    },
+    {
+      "id": "m2-l03-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este domeniul unei funcții?",
+        "Cum se determină codomeniul?",
+        "Ce înseamnă imaginea unei funcții?",
+        "De ce este important să știu aceste noțiuni?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție f(x) = 2x + 1",
+          "naratiune": "Domeniul unei funcții este mulțimea valorilor x pentru care funcția are sens. În cazul funcției f(x) = 2x + 1, domeniul este toate numerele reale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție f(x) = 1/x",
+          "naratiune": "Codomeniul este mulțimea valorilor y pe care le poate lua funcția. Pentru f(x) = 1/x, codomeniul este toate numerele reale, dar x nu poate fi 0."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Domeniul este mulțimea valorilor x pentru care funcția are sens.",
+        "Codomeniul este mulțimea valorilor y posibile ale funcției."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determină domeniul și imaginea funcției f(x) = sqrt(x-1)",
+        "enunt": "Fie funcția f(x) = sqrt(x-1). Determină domeniul și imaginea funcției.",
+        "rezolvare": [
+          "Pentru ca radicalul să aibă sens, x-1 ≥ 0 → x ≥ 1. Deci domeniul este [1, ∞).",
+          "Imaginea funcției este toate valorile y ≥ 0, deoarece sqrt(x-1) ≥ 0."
+        ],
+        "raspuns": "Domeniu: [1, ∞), Imagine: [0, ∞)"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 1/(x-2). Care este imaginea funcției?",
+        "variante": [
+          "A) (-∞, 0) ∪ (0, ∞)",
+          "B) (-∞, 2) ∪ (2, ∞)",
+          "C) (-∞, ∞)"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Imaginea funcției este toate numerele reale, dar x nu poate fi 2. Deci imaginea este (-∞, 0) ∪ (0, ∞). Varianta A este corectă."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l03/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l03/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l03/m2-l03-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l03/m2-l03-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l03/m2-l03-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 3,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 3,
+        "titluLectie": "Domeniu, codomeniu și imagine",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:53:55.882Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T07:53:55.882Z",
+    "necesitaVerificareUmana": true
+  }
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+/>
+
+<title>BAC MATE Video</title>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(59, 130, 246, 0.22),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #07111f,
+      #0f2747 55%,
+      #123b68
+    );
+
+  color: white;
+}
+
+.video {
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  overflow: hidden;
+  padding: 54px 68px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.logo-icon {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: #2563eb;
+
+  font-size: 25px;
+}
+
+.badge {
+  position: absolute;
+  right: 68px;
+  top: 58px;
+
+  padding: 10px 17px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.1);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.18);
+
+  font-size: 15px;
+  font-weight: 700;
+
+  color: #dbeafe;
+}
+
+.content {
+  margin-top: 75px;
+
+  width: 760px;
+}
+
+.eyebrow {
+  color: #60a5fa;
+
+  font-size: 17px;
+  font-weight: 900;
+
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 51px;
+
+  line-height: 1.08;
+
+  margin:
+    14px
+    0
+    22px;
+
+  letter-spacing: -1.5px;
+}
+
+.subtitle {
+  width: 700px;
+
+  color: #cbd5e1;
+
+  font-size: 24px;
+
+  line-height: 1.5;
+}
+
+.card {
+  position: absolute;
+
+  right: 68px;
+  top: 180px;
+
+  width: 330px;
+
+  padding: 28px;
+
+  border-radius: 24px;
+
+  background:
+    rgba(255, 255, 255, 0.09);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.16);
+
+  backdrop-filter: blur(10px);
+}
+
+.card-title {
+  color: #93c5fd;
+
+  font-size: 16px;
+
+  font-weight: 900;
+
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+}
+
+.seturi {
+  display: grid;
+  gap: 13px;
+}
+
+.set {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  padding: 13px 15px;
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+}
+
+.symbol {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 11px;
+
+  background: #2563eb;
+
+  font-size: 21px;
+
+  font-weight: 900;
+}
+
+.set-text strong {
+  display: block;
+
+  font-size: 16px;
+}
+
+.set-text span {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 13px;
+
+  color: #cbd5e1;
+}
+
+.footer {
+  position: absolute;
+
+  left: 68px;
+  right: 68px;
+  bottom: 43px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  color: #94a3b8;
+
+  font-size: 14px;
+}
+
+.progress {
+  width: 280px;
+  height: 5px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.13);
+
+  overflow: hidden;
+}
+
+.progress-inner {
+  width: 25%;
+  height: 100%;
+
+  background: #3b82f6;
+
+  border-radius: 999px;
+}
+
+/*
+  Aceste clase vor fi folosite în etapa
+  următoare pentru animațiile sincronizate.
+*/
+
+.fade {
+  animation:
+    fadeIn
+    0.8s
+    ease-out
+    both;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 0.45s;
+}
+
+.delay-3 {
+  animation-delay: 0.7s;
+}
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+    transform:
+      translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform:
+      translateY(0);
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="video">
+
+  <div class="logo fade">
+
+    <div class="logo-icon">
+      🎓
+    </div>
+
+    <div>
+      BAC MATE
+    </div>
+
+  </div>
+
+  <div class="badge fade">
+    Matematică • Bacalaureat
+  </div>
+
+  <main class="content">
+
+    <div class="eyebrow fade delay-1">
+      Mini-video 1
+    </div>
+
+    <h1 class="fade delay-1">
+      Mulțimile de numere
+    </h1>
+
+    <div class="subtitle fade delay-2">
+      Înțelege diferența dintre numerele
+      naturale, întregi, raționale și reale.
+    </div>
+
+  </main>
+
+  <aside class="card fade delay-3">
+
+    <div class="card-title">
+      De reținut
+    </div>
+
+    <div class="seturi">
+
+      <div class="set">
+        <div class="symbol">N</div>
+
+        <div class="set-text">
+          <strong>Numere naturale</strong>
+          <span>0, 1, 2, 3, ...</span>
+        </div>
+      </div>
+
+      <div class="set">
+        <div class="symbol">Z</div>
+
+        <div class="set-text">
+          <strong>Numere întregi</strong>
+          <span>..., -2, -1, 0, 1, 2, ...</span>
+        </div>
+      </div>
+
+      <div class="set">
+        <div class="symbol">Q</div>
+
+        <div class="set-text">
+          <strong>Numere raționale</strong>
+          <span>Fracții și zecimale periodice</span>
+        </div>
+      </div>
+
+      <div class="set">
+        <div class="symbol">R</div>
+
+        <div class="set-text">
+          <strong>Numere reale</strong>
+          <span>Toate numerele de pe axă</span>
+        </div>
+      </div>
+
+    </div>
+
+  </aside>
+
+  <div class="footer">
+
+    <div>
+      De la „nu înțeleg” la „știu să rezolv”.
+    </div>
+
+    <div class="progress">
+      <div class="progress-inner"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<!--
+Textul vorbit este păstrat în pagină pentru
+următoarea etapă de sincronizare automată.
+
+Ce înseamnă numerele naturale? Ce numere folosim când numărăm obiecte? Ce se întâmplă când adunăm 1 la un număr natural? Ce numere obținem? Ce se întâmplă dacă împărțim un număr natural la altul? Ce numere pot rezulta? De ce este Important de reținut să știm ce numere sunt într, o mulțime?
+-->
+
+</body>
+</html>

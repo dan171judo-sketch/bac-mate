@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l13",
+    "modul": 2,
+    "numarLectie": 13,
+    "titlu": "Progresii aritmetice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l13-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Progresii aritmetice - greșeli frecvente",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii aritmetice - greșeli frecvente",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii aritmetice - greșeli frecvente",
+      "naratiune": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii aritmetice - greșeli frecvente”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii aritmetice - greșeli frecvente",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09539,
+      "procentDurata": 9.539
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva o problemă de progresii aritmetice de t…",
+      "subtitlu": "Un elev rezolvă o problemă de progresii aritmetice pe un caiet",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva o problemă de progresii aritmetice de tip Bac.…",
+      "naratiune": "Vom rezolva o problemă de progresii aritmetice de tip Bac. În această problemă, trebuie să găsim al șasea termen al progresiei.",
+      "vizual": "Un elev rezolvă o problemă de progresii aritmetice pe un caiet",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva o problemă de progresii aritmetice de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În această problemă, trebuie să găsim al șasea termen al progresiei.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.09539,
+      "endProcent": 0.206677,
+      "procentDurata": 11.1288
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile frecvente",
+      "subtitlu": "Profesorul arată pe tablă cum se calculează termenii progresiei",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile frecvente. De exemplu, unele elevi po…",
+      "naratiune": "Vom analiza greșelile frecvente. De exemplu, unele elevi pot confunda formula termenului general cu cea a sumei.",
+      "vizual": "Profesorul arată pe tablă cum se calculează termenii progresiei",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, unele elevi pot confunda formula termenului general cu cea a sumei.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.206677,
+      "endProcent": 0.296767,
+      "procentDurata": 9.009
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+      "naratiune": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac Vom analiza greșelile comune în calculul termenilor Vom verifica dacă răspunsul este corect Vom învăța cum să evităm greșelile",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile comune în calculul termenilor",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să evităm greșelile",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.296767,
+      "endProcent": 0.466349,
+      "procentDurata": 16.9581
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul al șasea termen al progresiei",
+      "subtitlu": "Se știe că a₁ = 2 și r = 3. Calculați a₆.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "17",
+      "naratiune": "Se știe că a₁ = 2 și r = 3. Calculați a₆. Aplicăm formula termenului general: a₆ = a₁ + (6-1)r Înlocuim valorile: a₆ = 2 + 5×3 = 2 + 15 = 17 Răspunsul final este 17.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se știe că a₁ = 2 și r = 3. Calculați a₆.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Aplicăm formula termenului general: a₆ = a₁ + (6-1)r",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înlocuim valorile: a₆ = 2 + 5×3 = 2 + 15 = 17",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 17",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.466349,
+      "endProcent": 0.697933,
+      "procentDurata": 23.1585
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 17",
+      "naratiune": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3? A) 14 B) 17 C) 20 Formula termenului general este aₙ = a₁ + (n-1)r. Înlocuim: a₆ = 2 + 5×3 = 17.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 14",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 17",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 20",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 17",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.697933,
+      "endProcent": 0.90461,
+      "procentDurata": 20.6677
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula termenului general este aₙ = a₁ + (n-1)r",
+      "naratiune": "Formula termenului general este aₙ = a₁ + (n-1)r Verifică întotdeauna dacă răspunsul este logic în contextul problemei",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula termenului general este aₙ = a₁ + (n-1)r",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verifică întotdeauna dacă răspunsul este logic în contextul problemei",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.90461,
+      "endProcent": 1,
+      "procentDurata": 9.539
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii aritmetice - greșeli frecvente",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii aritmetice - greșeli frecvente",
+      "naratiune": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii aritmetice - greșeli frecvente”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii aritmetice - greșeli frecvente",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09539,
+      "procentDurata": 9.539
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva o problemă de progresii aritmetice de t…",
+      "subtitlu": "Un elev rezolvă o problemă de progresii aritmetice pe un caiet",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva o problemă de progresii aritmetice de tip Bac.…",
+      "naratiune": "Vom rezolva o problemă de progresii aritmetice de tip Bac. În această problemă, trebuie să găsim al șasea termen al progresiei.",
+      "vizual": "Un elev rezolvă o problemă de progresii aritmetice pe un caiet",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva o problemă de progresii aritmetice de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În această problemă, trebuie să găsim al șasea termen al progresiei.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.09539,
+      "endProcent": 0.206677,
+      "procentDurata": 11.1288
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile frecvente",
+      "subtitlu": "Profesorul arată pe tablă cum se calculează termenii progresiei",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile frecvente. De exemplu, unele elevi po…",
+      "naratiune": "Vom analiza greșelile frecvente. De exemplu, unele elevi pot confunda formula termenului general cu cea a sumei.",
+      "vizual": "Profesorul arată pe tablă cum se calculează termenii progresiei",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, unele elevi pot confunda formula termenului general cu cea a sumei.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.206677,
+      "endProcent": 0.296767,
+      "procentDurata": 9.009
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+      "naratiune": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac Vom analiza greșelile comune în calculul termenilor Vom verifica dacă răspunsul este corect Vom învăța cum să evităm greșelile",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile comune în calculul termenilor",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să evităm greșelile",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.296767,
+      "endProcent": 0.466349,
+      "procentDurata": 16.9581
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul al șasea termen al progresiei",
+      "subtitlu": "Se știe că a₁ = 2 și r = 3. Calculați a₆.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "17",
+      "naratiune": "Se știe că a₁ = 2 și r = 3. Calculați a₆. Aplicăm formula termenului general: a₆ = a₁ + (6-1)r Înlocuim valorile: a₆ = 2 + 5×3 = 2 + 15 = 17 Răspunsul final este 17.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se știe că a₁ = 2 și r = 3. Calculați a₆.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Aplicăm formula termenului general: a₆ = a₁ + (6-1)r",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înlocuim valorile: a₆ = 2 + 5×3 = 2 + 15 = 17",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 17",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.466349,
+      "endProcent": 0.697933,
+      "procentDurata": 23.1585
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 17",
+      "naratiune": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3? A) 14 B) 17 C) 20 Formula termenului general este aₙ = a₁ + (n-1)r. Înlocuim: a₆ = 2 + 5×3 = 17.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 14",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 17",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 20",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 17",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.697933,
+      "endProcent": 0.90461,
+      "procentDurata": 20.6677
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula termenului general este aₙ = a₁ + (n-1)r",
+      "naratiune": "Formula termenului general este aₙ = a₁ + (n-1)r Verifică întotdeauna dacă răspunsul este logic în contextul problemei",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula termenului general este aₙ = a₁ + (n-1)r",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verifică întotdeauna dacă răspunsul este logic în contextul problemei",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.90461,
+      "endProcent": 1,
+      "procentDurata": 9.539
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-13.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.897Z"
+  }
+}

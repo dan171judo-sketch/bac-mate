@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l12",
+  "modul": 2,
+  "numarLectie": 12,
+  "titlu": "Șiruri de numere reale",
+  "slugContinut": "siruri-de-numere-reale",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Șiruri de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l12-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Ce sunt șiruri de numere reale?",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă un șir?",
+        "Cum se definește un șir?",
+        "Ce se întâmplă cu termenii șirului?",
+        "De ce este important să știm ce este un șir?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor care desenează un șir pe tablă",
+          "naratiune": "Un șir este o listă de numere care se repetă într-un anumit mod. De exemplu, 1, 2, 3, 4, 5... este un șir de numere naturale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor care arată un șir cu termeni negativi",
+          "naratiune": "Un șir poate avea termeni pozitivi, negativi sau chiar zero. De exemplu, -1, -2, -3, -4... este un șir de numere negative."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Un șir este o listă de numere ordonate",
+        "Termenii șirului pot fi pozitivi, negativi sau zero"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculați primii 5 termeni ai șirului definit prin a_n = 2n - 1",
+        "enunt": "Fie șirul (a_n) definit prin a_n = 2n - 1. Calculați primii 5 termeni ai șirului.",
+        "rezolvare": [
+          "Pentru n=1: a_1 = 2*1 - 1 = 1",
+          "Pentru n=2: a_2 = 2*2 - 1 = 3"
+        ],
+        "raspuns": "a_1 = 1, a_2 = 3, a_3 = 5, a_4 = 7, a_5 = 9"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este al 5-lea termen al șirului a_n = 2n - 1?",
+        "variante": [
+          "A) 9",
+          "B) 11",
+          "C) 13"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru n=5: a_5 = 2*5 - 1 = 10 - 1 = 9."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l12/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l12/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l12/m2-l12-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l12/m2-l12-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l12/m2-l12-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 12,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 12,
+        "titluLectie": "Șiruri de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T14:04:08.375Z"
+      }
+    },
+    {
+      "id": "m2-l12-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Șiruri de numere reale: reguli și metoda",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția șirului de numere reale.",
+        "Vom învăța cum să recunoaștem un șir.",
+        "Vom vedea cum se calculează termenii unui șir.",
+        "Vom învăța cum să identificăm tipurile de șiruri."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor care desenează un șir de numere pe tablă",
+          "naratiune": "Un șir de numere reale este o funcție care asociază fiecărui număr natural un număr real. Se notează a₁, a₂, a₃, ..."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care rezolvă un exercițiu cu șiruri",
+          "naratiune": "Pentru a calcula termenii unui șir, folosim formula generală aₙ sau o regulă de recurență."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ.",
+        "Termenii șirului se calculează folosind formula generală sau o regulă de recurență."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calcularea termenilor unui șir",
+        "enunt": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃.",
+        "rezolvare": [
+          "a₂ = a₁ + 3 = 2 + 3 = 5",
+          "a₃ = a₂ + 3 = 5 + 3 = 8"
+        ],
+        "raspuns": "a₂ = 5 și a₃ = 8"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea lui a₂ în exemplul de mai sus?",
+        "variante": [
+          "A) 3",
+          "B) 5",
+          "C) 7"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "a₂ = a₁ + 3 = 2 + 3 = 5, deci varianta corectă este B."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l12/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l12/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l12/m2-l12-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l12/m2-l12-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l12/m2-l12-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 12,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 12,
+        "titluLectie": "Șiruri de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T14:09:54.468Z"
+      }
+    },
+    {
+      "id": "m2-l12-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Calculul termenului general al unui șir",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu un șir dat prin formula termenului general",
+        "Vom identifica termenul general",
+        "Calculăm termenul pentru n=4",
+        "Verificăm dacă răspunsul este corect"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un șir dat prin formula a_n = 3n - 2",
+          "naratiune": "Vom calcula termenul general al șirului dat prin formula a_n = 3n - 2"
+        },
+        {
+          "numar": 2,
+          "vizual": "Calculul termenului pentru n=4",
+          "naratiune": "Vom înlocui n cu 4 în formula termenului general"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Termenul general al unui șir este o expresie care ne permite să calculăm orice termen al șirului",
+        "Pentru a calcula un termen al șirului, înlocuim n cu numărul corespunzător"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul termenului a_4 al șirului dat prin a_n = 3n - 2",
+        "enunt": "Se dă șirul (a_n) definit prin a_n = 3n - 2. Calculați termenul a_4.",
+        "rezolvare": [
+          "Înlocuim n cu 3 în formula termenului general: a_3 = 3*3 - 2 = 9 - 2 = 7",
+          "Înlocuim n cu 4 în formula termenului general: a_4 = 3*4 - 2 = 12 - 2 = 10"
+        ],
+        "raspuns": "10"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este termenul a_4 al șirului dat prin a_n = 3n - 2?",
+        "variante": [
+          "A) 7",
+          "B) 10",
+          "C) 13"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Înlocuim n cu 4 în formula a_n = 3n - 2: 3*4 - 2 = 12 - 2 = 10, deci răspunsul corect este B) 10."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l12/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l12/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l12/m2-l12-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l12/m2-l12-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l12/m2-l12-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 12,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 12,
+        "titluLectie": "Șiruri de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T14:25:36.374Z"
+      }
+    },
+    {
+      "id": "m2-l12-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Șiruri de numere reale - greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Înțelegerea conceptului de șir",
+        "Identificarea termenilor unui șir",
+        "Calculul termenului general",
+        "Rezolvarea exercițiilor de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește un exercițiu de șiruri",
+          "naratiune": "Vom analiza un exercițiu de tip Bac. În primul rând, trebuie să înțelegem ce este un șir de numere reale."
+        },
+        {
+          "num3": 2,
+          "vizual": "Un profesor care explică pe tablă",
+          "naratiune": "Un șir este o funcție care asociază fiecare număr natural cu un număr real. Termenul general este exprimat prin formula aₙ = f(n)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Un șir este definit pentru n ≥ 1",
+        "Termenul general se calculează pentru fiecare n"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul termenului general",
+        "enunt": "Se dă șirul (aₙ) definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3, pentru n ≥ 2. Să se găsească formula termenului general.",
+        "rezolvare": [
+          "Observăm că șirul este aritmetic cu rația r = 3",
+          "Formula termenului general este aₙ = a₁ + (n - 1) * r = 2 + 3(n - 1)"
+        ],
+        "raspuns": "aₙ = 3n - 1"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este termenul general al șirului definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3?",
+        "variante": [
+          "A) 3n - 1",
+          "B) 2n + 1",
+          "C) n + 1"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Șirul este aritmetic cu rația 3. Formula este aₙ = a₁ + (n - 1) * r = 2 + 3(n - 1) = 3n - 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l12/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l12/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l12/m2-l12-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l12/m2-l12-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l12/m2-l12-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 12,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 12,
+        "titluLectie": "Șiruri de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T14:21:09.893Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T14:25:36.374Z",
+    "necesitaVerificareUmana": true
+  }
+}

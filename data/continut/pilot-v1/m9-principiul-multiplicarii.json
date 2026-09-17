@@ -1,0 +1,87 @@
+{
+  "versiune": "BAC-MATE-CONTENT-ENGINE-V1",
+  "stare": "plan-generare",
+  "slug": "m9-principiul-multiplicarii",
+  "modul": 9,
+  "numarLectie": 1,
+  "titlu": "Principiul multiplicării",
+  "clasa": "Clasa a X-a",
+  "numeModul": "Combinatorică și probabilități",
+  "sursaCatalog": "data/lectii/modul-5.ts",
+  "tipSursaCatalog": "creeazaModul",
+  "benchmark": "m5-vectori-in-plan",
+  "reguliObligatorii": {
+    "profil": "M_mate-info",
+    "statusInitial": "draft",
+    "publicabilAutomat": false,
+    "verificatMatematicAutomat": false,
+    "verificatProgramaAutomat": false,
+    "verificatExercitiiAutomat": false,
+    "verificatLimbaRomanaAutomat": false,
+    "numarVideo": 4,
+    "durataVideoMinute": [
+      4,
+      5,
+      5,
+      5
+    ],
+    "minimExercitii": 5,
+    "sursaDeAdevar": "programa oficială + conținut verificat",
+    "interzis": [
+      "inventarea formulelor",
+      "inventarea cerințelor de Bac",
+      "marcarea automată drept verificat",
+      "marcarea automată drept publicabil",
+      "suprascrierea unei lecții existente"
+    ]
+  },
+  "structuraCeruta": {
+    "metadata": true,
+    "obiective": true,
+    "termeniCheie": true,
+    "videoLectii": [
+      {
+        "numar": 1,
+        "rol": "intuiție și concept",
+        "durataMinute": 4
+      },
+      {
+        "numar": 2,
+        "rol": "reguli și metodă",
+        "durataMinute": 5
+      },
+      {
+        "numar": 3,
+        "rol": "exemplu complet rezolvat",
+        "durataMinute": 5
+      },
+      {
+        "numar": 4,
+        "rol": "tip Bac, recapitulare și greșeli frecvente",
+        "durataMinute": 5
+      }
+    ],
+    "definitii": true,
+    "teorie": true,
+    "formule": true,
+    "exempleRezolvate": true,
+    "greseliFrecvente": true,
+    "exercitii": true,
+    "rezumat": true,
+    "legaturaCuBac": true,
+    "surse": true,
+    "verificare": true
+  },
+  "portiCalitate": [
+    "validare structurală",
+    "verificare matematică",
+    "verificare programă",
+    "verificare exerciții și răspunsuri",
+    "verificare limba română",
+    "verificare scenarii video",
+    "verificare durată video",
+    "build Next.js",
+    "test funcțional",
+    "gate separat de publicare"
+  ]
+}

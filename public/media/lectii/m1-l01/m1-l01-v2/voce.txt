@@ -1,0 +1,7 @@
+Începem cu definiția mulțimilor de numere
+
+Vom vedea cum se adună, scade, înmulțește și împarte numere reale
+
+Vom analiza exemple de tip Bac
+
+Vom rezolva un exercițiu pas cu pas

@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Vom începe cu o funcție f definită pe tot domeniul real. De exemplu, f(x) = x². Aceasta este o funcție cunoscută, care are graficul unui parabolă.
+
+2
+00:02:00.000 --> 00:04:00.000
+Acum, ne gândim la o restricție a acestei funcții. O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial. De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele reale mai mari sau egale cu zero.
+

@@ -1,0 +1,7 @@
+Începem cu definiția progresiei aritmetice
+
+Vom învăța cum să recunoaștem o progresie aritmetică
+
+Vom vedea cum se calculează termenul general
+
+Vom rezolva un exercițiu de tip Bac

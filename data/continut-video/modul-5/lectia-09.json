@@ -1,0 +1,161 @@
+{
+  "versiuneSchema": 1,
+  "id": "m5-l09",
+  "modul": 5,
+  "numarLectie": 9,
+  "titlu": "Reducerea la primul cadran",
+  "slugContinut": "reducerea-la-primul-cadran",
+  "status": "de-generat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Reducerea la primul cadran”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m5-l09-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Înțelegem: Reducerea la primul cadran",
+      "durataTintaMinute": 4,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l09/video-1.mp4",
+        "audioUrl": "/videos/modul-5/m5-l09/audio-1.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l09/video-1.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l09/video-1.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 9,
+        "titluLectie": "Reducerea la primul cadran"
+      }
+    },
+    {
+      "id": "m5-l09-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metodă: Reducerea la primul cadran",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l09/video-2.mp4",
+        "audioUrl": "/videos/modul-5/m5-l09/audio-2.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l09/video-2.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l09/video-2.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 9,
+        "titluLectie": "Reducerea la primul cadran"
+      }
+    },
+    {
+      "id": "m5-l09-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l09/video-3.mp4",
+        "audioUrl": "/videos/modul-5/m5-l09/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l09/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l09/video-3.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 9,
+        "titluLectie": "Reducerea la primul cadran"
+      }
+    },
+    {
+      "id": "m5-l09-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l09/video-4.mp4",
+        "audioUrl": "/videos/modul-5/m5-l09/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l09/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l09/video-4.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 9,
+        "titluLectie": "Reducerea la primul cadran"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  }
+}

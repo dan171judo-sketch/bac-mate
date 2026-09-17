@@ -1,0 +1,7 @@
+Începem cu o progresie aritmetică dată prin termenul general.
+
+Vom calcula suma primilor 10 termeni.
+
+Vom verifica dacă răspunsul este corect.
+
+Rezolvăm un exercițiu de tip Bac.

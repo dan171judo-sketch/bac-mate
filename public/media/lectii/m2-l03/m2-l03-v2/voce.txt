@@ -1,0 +1,7 @@
+Începem cu noțiunile de bază despre funcții.
+
+Vom înțelege diferența dintre domeniu și codomeniu.
+
+Vom vedea cum se calculează imaginea funcției.
+
+Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele.

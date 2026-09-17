@@ -1,0 +1,7 @@
+Începem cu definiția monotoniei
+
+Vom vedea cum se aplică în exerciții
+
+Analizăm mărginirea funcțiilor
+
+Rezolvăm un exercițiu de tip Bac

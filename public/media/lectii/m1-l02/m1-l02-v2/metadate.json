@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l02",
+  "videoId": "m1-l02-v2",
+  "modul": 1,
+  "numarLectie": 2,
+  "numarVideo": 2,
+  "titluLectie": "Estimări și aproximări",
+  "titluVideo": "Estimări și aproximări",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

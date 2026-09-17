@@ -1,0 +1,161 @@
+{
+  "versiuneSchema": 1,
+  "id": "m16-l15",
+  "modul": 16,
+  "numarLectie": 15,
+  "titlu": "Ecuații reciproce",
+  "slugContinut": "ecuatii-reciproce",
+  "status": "de-generat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Ecuații reciproce”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m16-l15-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Înțelegem: Ecuații reciproce",
+      "durataTintaMinute": 4,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-16/m16-l15/video-1.mp4",
+        "audioUrl": "/videos/modul-16/m16-l15/audio-1.mp3",
+        "subtitrareUrl": "/videos/modul-16/m16-l15/video-1.vtt",
+        "thumbnailUrl": "/videos/modul-16/m16-l15/video-1.png"
+      },
+      "metadata": {
+        "modul": 16,
+        "lectie": 15,
+        "titluLectie": "Ecuații reciproce"
+      }
+    },
+    {
+      "id": "m16-l15-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metodă: Ecuații reciproce",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-16/m16-l15/video-2.mp4",
+        "audioUrl": "/videos/modul-16/m16-l15/audio-2.mp3",
+        "subtitrareUrl": "/videos/modul-16/m16-l15/video-2.vtt",
+        "thumbnailUrl": "/videos/modul-16/m16-l15/video-2.png"
+      },
+      "metadata": {
+        "modul": 16,
+        "lectie": 15,
+        "titluLectie": "Ecuații reciproce"
+      }
+    },
+    {
+      "id": "m16-l15-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-16/m16-l15/video-3.mp4",
+        "audioUrl": "/videos/modul-16/m16-l15/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-16/m16-l15/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-16/m16-l15/video-3.png"
+      },
+      "metadata": {
+        "modul": 16,
+        "lectie": 15,
+        "titluLectie": "Ecuații reciproce"
+      }
+    },
+    {
+      "id": "m16-l15-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-16/m16-l15/video-4.mp4",
+        "audioUrl": "/videos/modul-16/m16-l15/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-16/m16-l15/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-16/m16-l15/video-4.png"
+      },
+      "metadata": {
+        "modul": 16,
+        "lectie": 15,
+        "titluLectie": "Ecuații reciproce"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  }
+}

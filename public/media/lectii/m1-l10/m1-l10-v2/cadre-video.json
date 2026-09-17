@@ -1,0 +1,641 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l10",
+    "modul": 1,
+    "numarLectie": 10,
+    "titlu": "Demonstrații și raționamente logice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l10-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Reguli și metoda pentru demonstrații",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Reguli și metoda pentru demonstrații",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Reguli și metoda pentru demonstrații",
+      "naratiune": "Începem cu regulile de bază pentru demonstrații",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Reguli și metoda pentru demonstrații”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Reguli și metoda pentru demonstrații",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru demonstrații",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.12766,
+      "procentDurata": 12.766
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a demonstra o propoziție, trebuie să folosim…",
+      "subtitlu": "Un profesor explică pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a demonstra o propoziție, trebuie să folosim raționa…",
+      "naratiune": "Pentru a demonstra o propoziție, trebuie să folosim raționamente logice corecte. Începem cu ipoteza și demonstrăm concluzia pas cu pas.",
+      "vizual": "Un profesor explică pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a demonstra o propoziție, trebuie să folosim raționamente logice corecte.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Începem cu ipoteza și demonstrăm concluzia pas cu pas.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.12766,
+      "endProcent": 0.269504,
+      "procentDurata": 14.1844
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "În demonstrații, folosim reguli precum demonstrația…",
+      "subtitlu": "Un elev rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "În demonstrații, folosim reguli precum demonstrația prin re…",
+      "naratiune": "În demonstrații, folosim reguli precum demonstrația prin reducere la absurd sau prin contrapozitie. Verificăm fiecare pas pentru a evita greșelile.",
+      "vizual": "Un elev rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "În demonstrații, folosim reguli precum demonstrația prin reducere la absurd sau prin contrapozitie.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Verificăm fiecare pas pentru a evita greșelile.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.269504,
+      "endProcent": 0.411348,
+      "procentDurata": 14.1844
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu regulile de bază pentru demonstrații",
+      "naratiune": "Începem cu regulile de bază pentru demonstrații Vom învăța cum să folosim raționamente logice Vom analiza exemple de tip Bac Vom învăța cum să recunoaștem cerințele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru demonstrații",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să folosim raționamente logice",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza exemple de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem cerințele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.411348,
+      "endProcent": 0.595745,
+      "procentDurata": 18.4397
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea că 2+2=4",
+      "subtitlu": "Demonstrează că 2+2=4 folosind raționament logic.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "4",
+      "naratiune": "Demonstrează că 2+2=4 folosind raționament logic. Începem cu ipoteza: 2+2 Calculăm: 2+2=4 Concluzia: 3+1=4, deci 2+2=4 Răspunsul final este 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrează că 2+2=4 folosind raționament logic.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Începem cu ipoteza: 2+2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm: 2+2=4",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Concluzia: 3+1=4, deci 2+2=4",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.595745,
+      "endProcent": 0.758865,
+      "procentDurata": 16.3121
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce este 2+2?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 4",
+      "naratiune": "Ce este 2+2? A) 3 B) 4 C) 5 2+2=4, deci varianta corectă este B) 4.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce este 2+2?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 5",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.758865,
+      "endProcent": 0.87234,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrarea trebuie să fie logică și corectă",
+      "naratiune": "Demonstrarea trebuie să fie logică și corectă Folosim raționamente logice pentru a ajunge la concluzie",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrarea trebuie să fie logică și corectă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Folosim raționamente logice pentru a ajunge la concluzie",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.87234,
+      "endProcent": 1,
+      "procentDurata": 12.766
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Reguli și metoda pentru demonstrații",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Reguli și metoda pentru demonstrații",
+      "naratiune": "Începem cu regulile de bază pentru demonstrații",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Reguli și metoda pentru demonstrații”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Reguli și metoda pentru demonstrații",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru demonstrații",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.12766,
+      "procentDurata": 12.766
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a demonstra o propoziție, trebuie să folosim…",
+      "subtitlu": "Un profesor explică pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a demonstra o propoziție, trebuie să folosim raționa…",
+      "naratiune": "Pentru a demonstra o propoziție, trebuie să folosim raționamente logice corecte. Începem cu ipoteza și demonstrăm concluzia pas cu pas.",
+      "vizual": "Un profesor explică pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a demonstra o propoziție, trebuie să folosim raționamente logice corecte.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Începem cu ipoteza și demonstrăm concluzia pas cu pas.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.12766,
+      "endProcent": 0.269504,
+      "procentDurata": 14.1844
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "În demonstrații, folosim reguli precum demonstrația…",
+      "subtitlu": "Un elev rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "În demonstrații, folosim reguli precum demonstrația prin re…",
+      "naratiune": "În demonstrații, folosim reguli precum demonstrația prin reducere la absurd sau prin contrapozitie. Verificăm fiecare pas pentru a evita greșelile.",
+      "vizual": "Un elev rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "În demonstrații, folosim reguli precum demonstrația prin reducere la absurd sau prin contrapozitie.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Verificăm fiecare pas pentru a evita greșelile.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.269504,
+      "endProcent": 0.411348,
+      "procentDurata": 14.1844
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu regulile de bază pentru demonstrații",
+      "naratiune": "Începem cu regulile de bază pentru demonstrații Vom învăța cum să folosim raționamente logice Vom analiza exemple de tip Bac Vom învăța cum să recunoaștem cerințele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru demonstrații",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să folosim raționamente logice",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza exemple de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem cerințele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.411348,
+      "endProcent": 0.595745,
+      "procentDurata": 18.4397
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea că 2+2=4",
+      "subtitlu": "Demonstrează că 2+2=4 folosind raționament logic.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "4",
+      "naratiune": "Demonstrează că 2+2=4 folosind raționament logic. Începem cu ipoteza: 2+2 Calculăm: 2+2=4 Concluzia: 3+1=4, deci 2+2=4 Răspunsul final este 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrează că 2+2=4 folosind raționament logic.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Începem cu ipoteza: 2+2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm: 2+2=4",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Concluzia: 3+1=4, deci 2+2=4",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.595745,
+      "endProcent": 0.758865,
+      "procentDurata": 16.3121
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce este 2+2?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 4",
+      "naratiune": "Ce este 2+2? A) 3 B) 4 C) 5 2+2=4, deci varianta corectă este B) 4.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce este 2+2?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 5",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.758865,
+      "endProcent": 0.87234,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrarea trebuie să fie logică și corectă",
+      "naratiune": "Demonstrarea trebuie să fie logică și corectă Folosim raționamente logice pentru a ajunge la concluzie",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrarea trebuie să fie logică și corectă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Folosim raționamente logice pentru a ajunge la concluzie",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.87234,
+      "endProcent": 1,
+      "procentDurata": 12.766
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-10.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.590Z"
+  }
+}

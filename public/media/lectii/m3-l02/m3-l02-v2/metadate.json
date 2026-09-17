@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m3-l02",
+  "videoId": "m3-l02-v2",
+  "modul": 3,
+  "numarLectie": 2,
+  "numarVideo": 2,
+  "titluLectie": "Graficul funcției de gradul I",
+  "titluVideo": "Graficul funcției de gradul I",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

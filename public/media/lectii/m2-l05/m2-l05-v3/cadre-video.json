@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l05",
+    "modul": 2,
+    "numarLectie": 5,
+    "titlu": "Lecturi grafice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l05-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Lecturi grafice - funcții",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Lecturi grafice - funcții",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Lecturi grafice - funcții",
+      "naratiune": "Vom analiza o funcție reprezentată grafic",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Lecturi grafice - funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Lecturi grafice - funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza o funcție reprezentată grafic",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.108893,
+      "procentDurata": 10.8893
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza graficul funcției f(x)",
+      "subtitlu": "Un grafic al unei funcții f(x) cu puncte notate A(1,3), B(2,1), C(4,0), D(5,2)",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza graficul funcției f(x). Observăm că graficul in…",
+      "naratiune": "Vom analiza graficul funcției f(x). Observăm că graficul intersectează axa Oy în punctul (0,2) și are puncte notate A(1,3), B(2,1), C(4,0), D(5,2).",
+      "vizual": "Un grafic al unei funcții f(x) cu puncte notate A(1,3), B(2,1), C(4,0), D(5,2)",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza graficul funcției f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Observăm că graficul intersectează axa Oy în punctul (0,2) și are puncte notate A(1,3), B(2,1), C(4,0), D(5,2).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.108893,
+      "endProcent": 0.241984,
+      "procentDurata": 13.3091
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Funcția este reprezentată prin segmente de drepte",
+      "subtitlu": "Graficul funcției f(x) cu segmente de drepte între punctele A, B, C, D",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Funcția este reprezentată prin segmente de drepte. Vom folo…",
+      "naratiune": "Funcția este reprezentată prin segmente de drepte. Vom folosi lectura grafică pentru a determina anumite valori.",
+      "vizual": "Graficul funcției f(x) cu segmente de drepte între punctele A, B, C, D",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Funcția este reprezentată prin segmente de drepte.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Vom folosi lectura grafică pentru a determina anumite valori.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.241984,
+      "endProcent": 0.338778,
+      "procentDurata": 9.6794
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza o funcție reprezentată grafic",
+      "naratiune": "Vom analiza o funcție reprezentată grafic Identificăm puncte importante de pe grafic Calculăm valori folosind lectura grafică Verificăm rezultatele cu un quiz rapid",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza o funcție reprezentată grafic",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Identificăm puncte importante de pe grafic",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Calculăm valori folosind lectura grafică",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Verificăm rezultatele cu un quiz rapid",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.338778,
+      "endProcent": 0.477919,
+      "procentDurata": 13.9141
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea valorii f(3)",
+      "subtitlu": "Fie funcția f: R → R reprezentată grafic. Determinați f(3).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1",
+      "naratiune": "Fie funcția f: R → R reprezentată grafic. Determinați f(3). Observăm că graficul funcției trece prin punctul C(4,0) și D(5,2). Pentru x=3, valoarea f(3) este egală cu ordonata punctului de pe grafic cu abscisă 3. Din grafic, f(3)=1. Răspunsul final este 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R reprezentată grafic. Determinați f(3).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Observăm că graficul funcției trece prin punctul C(4,0) și D(5,2).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x=3, valoarea f(3) este egală cu ordonata punctului de pe grafic cu abscisă 3. Din grafic, f(3)=1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477919,
+      "endProcent": 0.770115,
+      "procentDurata": 29.2196
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(3)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 1",
+      "naratiune": "Care este valoarea f(3)? A) 0 B) 1 C) 2 Din grafic, pentru x=3, ordonata corespunzătoare este 1, deci f(3)=1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(3)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.770115,
+      "endProcent": 0.891107,
+      "procentDurata": 12.0992
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Lectura grafică implică identificarea coordonatelor punctelor",
+      "naratiune": "Lectura grafică implică identificarea coordonatelor punctelor Pentru funcții reprezentate grafic, valorile se citesc direct din grafic",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Lectura grafică implică identificarea coordonatelor punctelor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru funcții reprezentate grafic, valorile se citesc direct din grafic",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.891107,
+      "endProcent": 1,
+      "procentDurata": 10.8893
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Lecturi grafice - funcții",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Lecturi grafice - funcții",
+      "naratiune": "Vom analiza o funcție reprezentată grafic",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Lecturi grafice - funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Lecturi grafice - funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza o funcție reprezentată grafic",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.108893,
+      "procentDurata": 10.8893
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza graficul funcției f(x)",
+      "subtitlu": "Un grafic al unei funcții f(x) cu puncte notate A(1,3), B(2,1), C(4,0), D(5,2)",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza graficul funcției f(x). Observăm că graficul in…",
+      "naratiune": "Vom analiza graficul funcției f(x). Observăm că graficul intersectează axa Oy în punctul (0,2) și are puncte notate A(1,3), B(2,1), C(4,0), D(5,2).",
+      "vizual": "Un grafic al unei funcții f(x) cu puncte notate A(1,3), B(2,1), C(4,0), D(5,2)",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza graficul funcției f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Observăm că graficul intersectează axa Oy în punctul (0,2) și are puncte notate A(1,3), B(2,1), C(4,0), D(5,2).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.108893,
+      "endProcent": 0.241984,
+      "procentDurata": 13.3091
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Funcția este reprezentată prin segmente de drepte",
+      "subtitlu": "Graficul funcției f(x) cu segmente de drepte între punctele A, B, C, D",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Funcția este reprezentată prin segmente de drepte. Vom folo…",
+      "naratiune": "Funcția este reprezentată prin segmente de drepte. Vom folosi lectura grafică pentru a determina anumite valori.",
+      "vizual": "Graficul funcției f(x) cu segmente de drepte între punctele A, B, C, D",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Funcția este reprezentată prin segmente de drepte.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Vom folosi lectura grafică pentru a determina anumite valori.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.241984,
+      "endProcent": 0.338778,
+      "procentDurata": 9.6794
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza o funcție reprezentată grafic",
+      "naratiune": "Vom analiza o funcție reprezentată grafic Identificăm puncte importante de pe grafic Calculăm valori folosind lectura grafică Verificăm rezultatele cu un quiz rapid",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza o funcție reprezentată grafic",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Identificăm puncte importante de pe grafic",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Calculăm valori folosind lectura grafică",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Verificăm rezultatele cu un quiz rapid",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.338778,
+      "endProcent": 0.477919,
+      "procentDurata": 13.9141
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea valorii f(3)",
+      "subtitlu": "Fie funcția f: R → R reprezentată grafic. Determinați f(3).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1",
+      "naratiune": "Fie funcția f: R → R reprezentată grafic. Determinați f(3). Observăm că graficul funcției trece prin punctul C(4,0) și D(5,2). Pentru x=3, valoarea f(3) este egală cu ordonata punctului de pe grafic cu abscisă 3. Din grafic, f(3)=1. Răspunsul final este 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R reprezentată grafic. Determinați f(3).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Observăm că graficul funcției trece prin punctul C(4,0) și D(5,2).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x=3, valoarea f(3) este egală cu ordonata punctului de pe grafic cu abscisă 3. Din grafic, f(3)=1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477919,
+      "endProcent": 0.770115,
+      "procentDurata": 29.2196
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(3)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 1",
+      "naratiune": "Care este valoarea f(3)? A) 0 B) 1 C) 2 Din grafic, pentru x=3, ordonata corespunzătoare este 1, deci f(3)=1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(3)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 0",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.770115,
+      "endProcent": 0.891107,
+      "procentDurata": 12.0992
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Lectura grafică implică identificarea coordonatelor punctelor",
+      "naratiune": "Lectura grafică implică identificarea coordonatelor punctelor Pentru funcții reprezentate grafic, valorile se citesc direct din grafic",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Lectura grafică implică identificarea coordonatelor punctelor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru funcții reprezentate grafic, valorile se citesc direct din grafic",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.891107,
+      "endProcent": 1,
+      "procentDurata": 10.8893
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-05.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.725Z"
+  }
+}

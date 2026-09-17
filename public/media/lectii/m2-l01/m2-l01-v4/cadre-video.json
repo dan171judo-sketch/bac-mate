@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l01",
+    "modul": 2,
+    "numarLectie": 1,
+    "titlu": "Reper cartezian și produs cartezian",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l01-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Reper cartezian și produs cartezian",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Reper cartezian și produs cartezian”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Reper cartezian și produs cartezian",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Reper cartezian și produs cartezian”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Reper cartezian și produs cartezian",
+      "naratiune": "Ce este un reper cartezian?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Reper cartezian și produs cartezian”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Reper cartezian și produs cartezian",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este un reper cartezian?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.06625,
+      "procentDurata": 6.625
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Reperul cartezian este format dintr-un punct O, num…",
+      "subtitlu": "Un reper cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Reperul cartezian este format dintr-un punct O, numit origi…",
+      "naratiune": "Reperul cartezian este format dintr-un punct O, numit origine, și două axe perpendiculare Ox și Oy. Axa Ox este orizontală, iar Oy este verticală.",
+      "vizual": "Un reper cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Reperul cartezian este format dintr-un punct O, numit origine, și două axe perpendiculare Ox și Oy.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Axa Ox este orizontală, iar Oy este verticală.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.06625,
+      "endProcent": 0.154582,
+      "procentDurata": 8.8333
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Produsul cartezian dintre două mulțimi A și B este…",
+      "subtitlu": "Produsul cartezian dintre două mulțimi A și B este mulțimea perechilor ordonate (a, b) unde a aparține A și b aparține B.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Produsul cartezian dintre două mulțimi A și B este mulțimea…",
+      "naratiune": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b) unde a este din A și b este din B. Aceasta este o noțiune esențială pentru coordonatele în plan.",
+      "vizual": "Produsul cartezian dintre două mulțimi A și B este mulțimea perechilor ordonate (a, b) unde a aparține A și b aparține B.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b) unde a este din A și b este din B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este o noțiune esențială pentru coordonatele în plan.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.154582,
+      "endProcent": 0.27972,
+      "procentDurata": 12.5138
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este un reper cartezian?",
+      "naratiune": "Ce este un reper cartezian? Cum se definește produsul cartezian? Ce se întâmplă dacă nu folosim reperul corect? De ce este important să reținem aceste noțiuni?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este un reper cartezian?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește produsul cartezian?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă nu folosim reperul corect?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să reținem aceste noțiuni?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.27972,
+      "endProcent": 0.375414,
+      "procentDurata": 9.5694
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Produsul cartezian A x B",
+      "subtitlu": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "A x B = {(1, a), (1, b), (2, a), (2, b)}",
+      "naratiune": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B. Pasul 1: Scriem toate elementele din A și toate elementele din B. Pasul 2: Formăm perechile ordonate (a, b) unde a ∈ A și b ∈ B. Răspunsul final este A x B = {(1, a), (1, b), (2, a), (2, b)}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Scriem toate elementele din A și toate elementele din B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Formăm perechile ordonate (a, b) unde a ∈ A și b ∈ B.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: A x B = {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.375414,
+      "endProcent": 0.620905,
+      "procentDurata": 24.5491
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) {(1, a), (1, b), (2, a), (2, b)}",
+      "naratiune": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B? A) {(1, a), (1, b), (2, a), (2, b)} B) {(a, 1), (b, 1), (a, 2), (b, 2)} C) {(1, a), (2, b), (1, b), (2, a)} Produsul cartezian A x B este mulțimea perechilor ordonate (a, b) unde a ∈ A și b ∈ B. Alegerea corectă este A, deoarece toate perechile sunt formate cu elemente din A în prima poziție și din B în a doua.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {(a, 1), (b, 1), (a, 2), (b, 2)}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {(1, a), (2, b), (1, b), (2, a)}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.620905,
+      "endProcent": 0.93375,
+      "procentDurata": 31.2845
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Reperul cartezian are originea O și axe perpendiculare.",
+      "naratiune": "Reperul cartezian are originea O și axe perpendiculare. Produsul cartezian este mulțimea perechilor ordonate (a, b).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Reperul cartezian are originea O și axe perpendiculare.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Produsul cartezian este mulțimea perechilor ordonate (a, b).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.93375,
+      "endProcent": 1,
+      "procentDurata": 6.625
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Reper cartezian și produs cartezian",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Reper cartezian și produs cartezian”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Reper cartezian și produs cartezian",
+      "naratiune": "Ce este un reper cartezian?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Reper cartezian și produs cartezian”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Reper cartezian și produs cartezian",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este un reper cartezian?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.06625,
+      "procentDurata": 6.625
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Reperul cartezian este format dintr-un punct O, num…",
+      "subtitlu": "Un reper cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Reperul cartezian este format dintr-un punct O, numit origi…",
+      "naratiune": "Reperul cartezian este format dintr-un punct O, numit origine, și două axe perpendiculare Ox și Oy. Axa Ox este orizontală, iar Oy este verticală.",
+      "vizual": "Un reper cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Reperul cartezian este format dintr-un punct O, numit origine, și două axe perpendiculare Ox și Oy.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Axa Ox este orizontală, iar Oy este verticală.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.06625,
+      "endProcent": 0.154582,
+      "procentDurata": 8.8333
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Produsul cartezian dintre două mulțimi A și B este…",
+      "subtitlu": "Produsul cartezian dintre două mulțimi A și B este mulțimea perechilor ordonate (a, b) unde a aparține A și b aparține B.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Produsul cartezian dintre două mulțimi A și B este mulțimea…",
+      "naratiune": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b) unde a este din A și b este din B. Aceasta este o noțiune esențială pentru coordonatele în plan.",
+      "vizual": "Produsul cartezian dintre două mulțimi A și B este mulțimea perechilor ordonate (a, b) unde a aparține A și b aparține B.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b) unde a este din A și b este din B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este o noțiune esențială pentru coordonatele în plan.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.154582,
+      "endProcent": 0.27972,
+      "procentDurata": 12.5138
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este un reper cartezian?",
+      "naratiune": "Ce este un reper cartezian? Cum se definește produsul cartezian? Ce se întâmplă dacă nu folosim reperul corect? De ce este important să reținem aceste noțiuni?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este un reper cartezian?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește produsul cartezian?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă nu folosim reperul corect?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să reținem aceste noțiuni?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.27972,
+      "endProcent": 0.375414,
+      "procentDurata": 9.5694
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Produsul cartezian A x B",
+      "subtitlu": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "A x B = {(1, a), (1, b), (2, a), (2, b)}",
+      "naratiune": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B. Pasul 1: Scriem toate elementele din A și toate elementele din B. Pasul 2: Formăm perechile ordonate (a, b) unde a ∈ A și b ∈ B. Răspunsul final este A x B = {(1, a), (1, b), (2, a), (2, b)}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Scriem toate elementele din A și toate elementele din B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Formăm perechile ordonate (a, b) unde a ∈ A și b ∈ B.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: A x B = {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.375414,
+      "endProcent": 0.620905,
+      "procentDurata": 24.5491
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) {(1, a), (1, b), (2, a), (2, b)}",
+      "naratiune": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B? A) {(1, a), (1, b), (2, a), (2, b)} B) {(a, 1), (b, 1), (a, 2), (b, 2)} C) {(1, a), (2, b), (1, b), (2, a)} Produsul cartezian A x B este mulțimea perechilor ordonate (a, b) unde a ∈ A și b ∈ B. Alegerea corectă este A, deoarece toate perechile sunt formate cu elemente din A în prima poziție și din B în a doua.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {(a, 1), (b, 1), (a, 2), (b, 2)}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {(1, a), (2, b), (1, b), (2, a)}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) {(1, a), (1, b), (2, a), (2, b)}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.620905,
+      "endProcent": 0.93375,
+      "procentDurata": 31.2845
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Reperul cartezian are originea O și axe perpendiculare.",
+      "naratiune": "Reperul cartezian are originea O și axe perpendiculare. Produsul cartezian este mulțimea perechilor ordonate (a, b).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Reperul cartezian are originea O și axe perpendiculare.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Produsul cartezian este mulțimea perechilor ordonate (a, b).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.93375,
+      "endProcent": 1,
+      "procentDurata": 6.625
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-01.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.558Z"
+  }
+}

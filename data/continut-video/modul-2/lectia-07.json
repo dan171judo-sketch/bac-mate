@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l07",
+  "modul": 2,
+  "numarLectie": 7,
+  "titlu": "Restricția unei funcții",
+  "slugContinut": "restrictia-unei-functii",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l07-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Restricția unei funcții",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă să restricționăm o funcție?",
+        "De ce este important să știm ce este o restricție?",
+        "Cum se definește o restricție?",
+        "Ce se întâmplă cu graficul funcției?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții f: R → R",
+          "naratiune": "Vom începe cu o funcție f definită pe tot domeniul real. De exemplu, f(x) = x². Aceasta este o funcție cunoscută, care are graficul unui parabolă."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic al aceleiași funcții, dar cu o linie verde care reprezintă o restricție",
+          "naratiune": "Acum, ne gândim la o restricție a acestei funcții. O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial. De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele reale mai mari sau egale cu zero."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial.",
+        "Graficul restricției este o parte din graficul funcției originale."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Restricția funcției f(x) = x²",
+        "enunt": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3].",
+        "rezolvare": [
+          "Pasul 1: Identificăm domeniul inițial al funcției f, care este R.",
+          "Pasul 2: Restricția funcției f la [1, 3] este funcția g: [1, 3] → R, g(x) = x²."
+        ],
+        "raspuns": "g: [1, 3] → R, g(x) = x²"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]?",
+        "variante": [
+          "A) g: [0, 2] → R, g(x) = x²",
+          "B) g: [0, 2] → R, g(x) = 2x",
+          "C) g: [0, 2] → R, g(x) = x³"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Restricția funcției f la [0, 2] este funcția care are același mod de calcul, adică x², dar este definită doar pe intervalul [0, 2]. Deci, răspunsul corect este A."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l07/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l07/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l07/m2-l07-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l07/m2-l07-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l07/m2-l07-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 7,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 7,
+        "titluLectie": "Restricția unei funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:20:24.352Z"
+      }
+    },
+    {
+      "id": "m2-l07-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Restricția unei funcții",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă restricția unei funcții?",
+        "Cum se definește o funcție restricționată?",
+        "Ce se întâmplă cu graficul funcției?",
+        "De ce este importantă în problemele de Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu o funcție f: R → R și o restricție f: [a,b] → R",
+          "naratiune": "Restricția unei funcții este o funcție nouă care are același mod de definire ca funcția inițială, dar cu domeniu restrâns. De exemplu, dacă avem f(x) = 1/x, restricția pe [1, 2] este f(x) = 1/x cu x ∈ [1, 2]."
+        },
+        {
+          "numar": 2,
+          "vizual": "Graficul funcției f(x) = 1/x și graficul restricției pe [1, 2]",
+          "naratiune": "Graficul restricției este doar o parte a graficului funcției originale. Acest lucru este important pentru a înțelege comportamentul funcției într-un interval specific."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Restricția este o funcție cu același mod de definire, dar cu domeniu restrâns.",
+        "Graficul restricției este o parte a graficului funcției originale."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Restricția funcției f(x) = √x pe [1, 4]",
+        "enunt": "Fie funcția f: R+ → R, f(x) = √x. Să se găsească restricția funcției pe intervalul [1, 4].",
+        "rezolvare": [
+          "Pasul 1: Identificăm domeniul inițial al funcției f(x) = √x, care este x ≥ 0.",
+          "Pasul 2: Restricția funcției pe [1, 4] este f: [1, 4] → R, f(x) = √x."
+        ],
+        "raspuns": "f: [1, 4] → R, f(x) = √x"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este restricția funcției f(x) = x² pe intervalul [-2, 3] ?",
+        "variante": [
+          "A) f: [-2, 3] → R, f(x) = x²",
+          "B) f: R → R, f(x) = x²",
+          "C) f: [0, ∞) → R, f(x) = x²"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Restricția funcției pe [-2, 3] este o funcție cu același mod de definire, dar cu domeniu restrâns la [-2, 3]. Deci răspunsul corect este A."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l07/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l07/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l07/m2-l07-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l07/m2-l07-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l07/m2-l07-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 7,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 7,
+        "titluLectie": "Restricția unei funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:27:44.254Z"
+      }
+    },
+    {
+      "id": "m2-l07-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Restricția funcției f(x) = 1/x",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom analiza cum se definește restricția unei funcții",
+        "Vom vedea cum se aplică la funcția f(x) = 1/x",
+        "Vom identifica domeniul de definiție al restricției",
+        "Vom verifica dacă răspunsul este corect"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Desen cu funcția f(x) = 1/x și un interval [1, 2]",
+          "naratiune": "Vom analiza funcția f(x) = 1/x și vom defini o restricție pe intervalul [1, 2]."
+        },
+        {
+          "numa": 2,
+          "vizual": "Desen cu graficul restricției pe [1, 2]",
+          "naratiune": "Restricția funcției pe [1, 2] este o funcție care are domeniul de definiție [1, 2]."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns",
+        "Pentru a defini o restricție, trebuie să specificăm un interval de definiție"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Restricția funcției f(x) = 1/x pe [1, 2]",
+        "enunt": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2].",
+        "rezolvare": [
+          "Restricția funcției f pe [1, 2] este funcția f₁: [1, 2] → R, f₁(x) = 1/x",
+          "Dominiul de definiție al restricției este [1, 2]"
+        ],
+        "raspuns": "f₁: [1, 2] → R, f₁(x) = 1/x"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]?",
+        "variante": [
+          "A) f₁: [1, 2] → R, f₁(x) = 1/x",
+          "B) f₁: (0, ∞) → R, f₁(x) = 1/x",
+          "C) f₁: R\\{0} → R, f₁(x) = 1/x"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Răspunsul corect este A, deoarece restricția funcției f pe [1, 2] are domeniul de definiție [1, 2], nu toate valorile din R\\{0}."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l07/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l07/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l07/m2-l07-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l07/m2-l07-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l07/m2-l07-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 7,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 7,
+        "titluLectie": "Restricția unei funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:35:29.852Z"
+      }
+    },
+    {
+      "id": "m2-l07-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Restricția unei funcții - cum se face corect",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să înțelegi ce înseamnă restricția unei funcții?",
+        "Ce se întâmplă când restricționăm domeniul de definiție?",
+        "Cum se aplică în probleme de tip Bac?",
+        "Ce greșeli fac elevii în această lecție?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție f(x) = 1/x și o zonă marcată pe intervalul [1, 3]",
+          "naratiune": "Vom studia funcția f(x) = 1/x. Domeniul de definiție este toate numerele reale mai mari decât 0. Dar dacă restricționăm domeniul la [1, 3], obținem o funcție nouă, numită restricție."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu funcția f(x) = 1/x și o zonă marcată pe intervalul [-2, 0)",
+          "naratiune": "Dacă restricționăm domeniul la [-2, 0), obținem o altă funcție. Este important să reținem că intervalul trebuie să fie inclusiv la stânga și exclusiv la dreapta, pentru a evita valoarea 0."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Restricția unei funcții este o funcție nouă cu același grafic, dar cu domeniu de definiție restricționat.",
+        "Intervalul trebuie să fie corect definit, cu parantezele corespunzătoare."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Restricția funcției f(x) = 1/x",
+        "enunt": "Fie funcția f: (0, ∞) → ℝ, f(x) = 1/x. Să se găsească restricția funcției f la intervalul [1, 3].",
+        "rezolvare": [
+          "Restricția funcției f la [1, 3] este funcția g: [1, 3] → ℝ, g(x) = 1/x.",
+          "Domeniul de definiție al funcției g este [1, 3]."
+        ],
+        "raspuns": "g: [1, 3] → ℝ, g(x) = 1/x"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este restricția funcției f(x) = 1/x la intervalul [-2, 0)?",
+        "variante": [
+          "A) g: [-2, 0) → ℝ, g(x) = 1/x",
+          "B) g: [-2, 0] → ℝ, g(x) = 1/x",
+          "C) g: [-2, 0) → ℝ, g(x) = x"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Răspunsul corect este A. Intervalul trebuie să fie [-2, 0), pentru că 0 nu este inclus în domeniul de definiție. Funcția este 1/x, nu x."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l07/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l07/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l07/m2-l07-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l07/m2-l07-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l07/m2-l07-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 7,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 7,
+        "titluLectie": "Restricția unei funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:48:50.196Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T09:48:50.196Z",
+    "necesitaVerificareUmana": true
+  }
+}

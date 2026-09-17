@@ -1,0 +1,161 @@
+{
+  "versiuneSchema": 1,
+  "id": "m6-l10",
+  "modul": 6,
+  "numarLectie": 10,
+  "titlu": "Calcule cu puteri, radicali și logaritmi",
+  "slugContinut": "calcule-cu-puteri-radicali-si-logaritmi",
+  "status": "de-generat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Calcule cu puteri, radicali și logaritmi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m6-l10-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Înțelegem: Calcule cu puteri, radicali și logaritmi",
+      "durataTintaMinute": 4,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-6/m6-l10/video-1.mp4",
+        "audioUrl": "/videos/modul-6/m6-l10/audio-1.mp3",
+        "subtitrareUrl": "/videos/modul-6/m6-l10/video-1.vtt",
+        "thumbnailUrl": "/videos/modul-6/m6-l10/video-1.png"
+      },
+      "metadata": {
+        "modul": 6,
+        "lectie": 10,
+        "titluLectie": "Calcule cu puteri, radicali și logaritmi"
+      }
+    },
+    {
+      "id": "m6-l10-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metodă: Calcule cu puteri, radicali și logaritmi",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-6/m6-l10/video-2.mp4",
+        "audioUrl": "/videos/modul-6/m6-l10/audio-2.mp3",
+        "subtitrareUrl": "/videos/modul-6/m6-l10/video-2.vtt",
+        "thumbnailUrl": "/videos/modul-6/m6-l10/video-2.png"
+      },
+      "metadata": {
+        "modul": 6,
+        "lectie": 10,
+        "titluLectie": "Calcule cu puteri, radicali și logaritmi"
+      }
+    },
+    {
+      "id": "m6-l10-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-6/m6-l10/video-3.mp4",
+        "audioUrl": "/videos/modul-6/m6-l10/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-6/m6-l10/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-6/m6-l10/video-3.png"
+      },
+      "metadata": {
+        "modul": 6,
+        "lectie": 10,
+        "titluLectie": "Calcule cu puteri, radicali și logaritmi"
+      }
+    },
+    {
+      "id": "m6-l10-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-6/m6-l10/video-4.mp4",
+        "audioUrl": "/videos/modul-6/m6-l10/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-6/m6-l10/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-6/m6-l10/video-4.png"
+      },
+      "metadata": {
+        "modul": 6,
+        "lectie": 10,
+        "titluLectie": "Calcule cu puteri, radicali și logaritmi"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  }
+}

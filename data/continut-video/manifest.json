@@ -1,0 +1,1662 @@
+{
+  "proiect": "BAC MATE",
+  "versiuneSchema": 1,
+  "profil": "M_mate-info",
+  "totalModule": 17,
+  "totalLectii": 219,
+  "totalVideoLectii": 876,
+  "module": [
+    {
+      "modul": 1,
+      "titlu": "Fundamente matematice și logică",
+      "totalLectii": 10,
+      "lectii": [
+        {
+          "id": "m1-l01",
+          "numarLectie": 1,
+          "titlu": "Mulțimi de numere și operații cu numere reale",
+          "fisier": "modul-1/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l02",
+          "numarLectie": 2,
+          "titlu": "Estimări și aproximări",
+          "fisier": "modul-1/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l03",
+          "numarLectie": 3,
+          "titlu": "Modulul unui număr real",
+          "fisier": "modul-1/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l04",
+          "numarLectie": 4,
+          "titlu": "Intervale de numere reale",
+          "fisier": "modul-1/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l05",
+          "numarLectie": 5,
+          "titlu": "Propoziții și predicate",
+          "fisier": "modul-1/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l06",
+          "numarLectie": 6,
+          "titlu": "Cuantificatori",
+          "fisier": "modul-1/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l07",
+          "numarLectie": 7,
+          "titlu": "Negație, conjuncție, disjuncție și implicație",
+          "fisier": "modul-1/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l08",
+          "numarLectie": 8,
+          "titlu": "Operații cu mulțimi",
+          "fisier": "modul-1/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l09",
+          "numarLectie": 9,
+          "titlu": "Inducția matematică",
+          "fisier": "modul-1/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m1-l10",
+          "numarLectie": 10,
+          "titlu": "Demonstrații și raționamente logice",
+          "fisier": "modul-1/lectia-10.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 2,
+      "titlu": "Funcții și șiruri",
+      "totalLectii": 14,
+      "lectii": [
+        {
+          "id": "m2-l01",
+          "numarLectie": 1,
+          "titlu": "Reper cartezian și produs cartezian",
+          "fisier": "modul-2/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l02",
+          "numarLectie": 2,
+          "titlu": "Noțiunea de funcție",
+          "fisier": "modul-2/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l03",
+          "numarLectie": 3,
+          "titlu": "Domeniu, codomeniu și imagine",
+          "fisier": "modul-2/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l04",
+          "numarLectie": 4,
+          "titlu": "Graficul unei funcții",
+          "fisier": "modul-2/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l05",
+          "numarLectie": 5,
+          "titlu": "Lecturi grafice",
+          "fisier": "modul-2/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l06",
+          "numarLectie": 6,
+          "titlu": "Egalitatea a două funcții",
+          "fisier": "modul-2/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l07",
+          "numarLectie": 7,
+          "titlu": "Restricția unei funcții",
+          "fisier": "modul-2/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l08",
+          "numarLectie": 8,
+          "titlu": "Monotonie și mărginire",
+          "fisier": "modul-2/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l09",
+          "numarLectie": 9,
+          "titlu": "Paritate și imparitate",
+          "fisier": "modul-2/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l10",
+          "numarLectie": 10,
+          "titlu": "Periodicitate",
+          "fisier": "modul-2/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l11",
+          "numarLectie": 11,
+          "titlu": "Compunerea funcțiilor",
+          "fisier": "modul-2/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l12",
+          "numarLectie": 12,
+          "titlu": "Șiruri de numere reale",
+          "fisier": "modul-2/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l13",
+          "numarLectie": 13,
+          "titlu": "Progresii aritmetice",
+          "fisier": "modul-2/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m2-l14",
+          "numarLectie": 14,
+          "titlu": "Progresii geometrice",
+          "fisier": "modul-2/lectia-14.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 3,
+      "titlu": "Funcția de gradul I",
+      "totalLectii": 9,
+      "lectii": [
+        {
+          "id": "m3-l01",
+          "numarLectie": 1,
+          "titlu": "Funcția f(x) = ax + b",
+          "fisier": "modul-3/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l02",
+          "numarLectie": 2,
+          "titlu": "Graficul funcției de gradul I",
+          "fisier": "modul-3/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l03",
+          "numarLectie": 3,
+          "titlu": "Monotonia funcției de gradul I",
+          "fisier": "modul-3/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l04",
+          "numarLectie": 4,
+          "titlu": "Semnul funcției de gradul I",
+          "fisier": "modul-3/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l05",
+          "numarLectie": 5,
+          "titlu": "Ecuații de gradul I",
+          "fisier": "modul-3/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l06",
+          "numarLectie": 6,
+          "titlu": "Inecuații de gradul I",
+          "fisier": "modul-3/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l07",
+          "numarLectie": 7,
+          "titlu": "Sisteme de ecuații liniare",
+          "fisier": "modul-3/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l08",
+          "numarLectie": 8,
+          "titlu": "Interpretarea geometrică a sistemelor",
+          "fisier": "modul-3/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m3-l09",
+          "numarLectie": 9,
+          "titlu": "Probleme modelate prin funcții liniare",
+          "fisier": "modul-3/lectia-09.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 4,
+      "titlu": "Gradul al II-lea",
+      "totalLectii": 13,
+      "lectii": [
+        {
+          "id": "m4-l01",
+          "numarLectie": 1,
+          "titlu": "Ecuația de gradul al II-lea",
+          "fisier": "modul-4/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l02",
+          "numarLectie": 2,
+          "titlu": "Discriminantul și numărul de soluții",
+          "fisier": "modul-4/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l03",
+          "numarLectie": 3,
+          "titlu": "Formulele rădăcinilor",
+          "fisier": "modul-4/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l04",
+          "numarLectie": 4,
+          "titlu": "Relațiile lui Viète",
+          "fisier": "modul-4/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l05",
+          "numarLectie": 5,
+          "titlu": "Funcția de gradul al II-lea",
+          "fisier": "modul-4/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l06",
+          "numarLectie": 6,
+          "titlu": "Graficul parabolei",
+          "fisier": "modul-4/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l07",
+          "numarLectie": 7,
+          "titlu": "Vârful parabolei",
+          "fisier": "modul-4/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l08",
+          "numarLectie": 8,
+          "titlu": "Axa de simetrie",
+          "fisier": "modul-4/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l09",
+          "numarLectie": 9,
+          "titlu": "Intersecția parabolei cu axele",
+          "fisier": "modul-4/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l10",
+          "numarLectie": 10,
+          "titlu": "Semnul funcției de gradul al II-lea",
+          "fisier": "modul-4/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l11",
+          "numarLectie": 11,
+          "titlu": "Inecuații de gradul al II-lea",
+          "fisier": "modul-4/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l12",
+          "numarLectie": 12,
+          "titlu": "Poziția relativă dreaptă-parabolă",
+          "fisier": "modul-4/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m4-l13",
+          "numarLectie": 13,
+          "titlu": "Probleme cu parametru",
+          "fisier": "modul-4/lectia-13.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 5,
+      "titlu": "Vectori și trigonometrie",
+      "totalLectii": 18,
+      "lectii": [
+        {
+          "id": "m5-l01",
+          "numarLectie": 1,
+          "titlu": "Vectori în plan",
+          "fisier": "modul-5/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l02",
+          "numarLectie": 2,
+          "titlu": "Adunarea și scăderea vectorilor",
+          "fisier": "modul-5/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l03",
+          "numarLectie": 3,
+          "titlu": "Înmulțirea unui vector cu un scalar",
+          "fisier": "modul-5/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l04",
+          "numarLectie": 4,
+          "titlu": "Coliniaritatea vectorilor",
+          "fisier": "modul-5/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l05",
+          "numarLectie": 5,
+          "titlu": "Descompunerea vectorilor",
+          "fisier": "modul-5/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l06",
+          "numarLectie": 6,
+          "titlu": "Coordonate și vectori",
+          "fisier": "modul-5/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l07",
+          "numarLectie": 7,
+          "titlu": "Sinus, cosinus, tangentă și cotangentă",
+          "fisier": "modul-5/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l08",
+          "numarLectie": 8,
+          "titlu": "Valori trigonometrice uzuale",
+          "fisier": "modul-5/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l09",
+          "numarLectie": 9,
+          "titlu": "Reducerea la primul cadran",
+          "fisier": "modul-5/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l10",
+          "numarLectie": 10,
+          "titlu": "Formule trigonometrice",
+          "fisier": "modul-5/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l11",
+          "numarLectie": 11,
+          "titlu": "Formule de adunare și scădere",
+          "fisier": "modul-5/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l12",
+          "numarLectie": 12,
+          "titlu": "Formule pentru unghi dublu",
+          "fisier": "modul-5/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l13",
+          "numarLectie": 13,
+          "titlu": "Transformarea sumei în produs",
+          "fisier": "modul-5/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l14",
+          "numarLectie": 14,
+          "titlu": "Teorema sinusurilor",
+          "fisier": "modul-5/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l15",
+          "numarLectie": 15,
+          "titlu": "Teorema cosinusului",
+          "fisier": "modul-5/lectia-15.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l16",
+          "numarLectie": 16,
+          "titlu": "Lungimi și unghiuri în triunghi",
+          "fisier": "modul-5/lectia-16.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l17",
+          "numarLectie": 17,
+          "titlu": "Aria triunghiului",
+          "fisier": "modul-5/lectia-17.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m5-l18",
+          "numarLectie": 18,
+          "titlu": "Cercul înscris și cercul circumscris",
+          "fisier": "modul-5/lectia-18.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 6,
+      "titlu": "Puteri, radicali și logaritmi",
+      "totalLectii": 10,
+      "lectii": [
+        {
+          "id": "m6-l01",
+          "numarLectie": 1,
+          "titlu": "Puteri cu exponent întreg",
+          "fisier": "modul-6/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l02",
+          "numarLectie": 2,
+          "titlu": "Puteri cu exponent rațional",
+          "fisier": "modul-6/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l03",
+          "numarLectie": 3,
+          "titlu": "Puteri cu exponent real",
+          "fisier": "modul-6/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l04",
+          "numarLectie": 4,
+          "titlu": "Radical de ordin n",
+          "fisier": "modul-6/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l05",
+          "numarLectie": 5,
+          "titlu": "Proprietățile radicalilor",
+          "fisier": "modul-6/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l06",
+          "numarLectie": 6,
+          "titlu": "Operații cu radicali",
+          "fisier": "modul-6/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l07",
+          "numarLectie": 7,
+          "titlu": "Logaritmul unui număr pozitiv",
+          "fisier": "modul-6/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l08",
+          "numarLectie": 8,
+          "titlu": "Proprietățile logaritmilor",
+          "fisier": "modul-6/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l09",
+          "numarLectie": 9,
+          "titlu": "Schimbarea bazei unui logaritm",
+          "fisier": "modul-6/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m6-l10",
+          "numarLectie": 10,
+          "titlu": "Calcule cu puteri, radicali și logaritmi",
+          "fisier": "modul-6/lectia-10.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 7,
+      "titlu": "Funcții elementare și ecuații",
+      "totalLectii": 15,
+      "lectii": [
+        {
+          "id": "m7-l01",
+          "numarLectie": 1,
+          "titlu": "Funcția putere",
+          "fisier": "modul-7/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l02",
+          "numarLectie": 2,
+          "titlu": "Funcția radical",
+          "fisier": "modul-7/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l03",
+          "numarLectie": 3,
+          "titlu": "Funcția exponențială",
+          "fisier": "modul-7/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l04",
+          "numarLectie": 4,
+          "titlu": "Funcția logaritmică",
+          "fisier": "modul-7/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l05",
+          "numarLectie": 5,
+          "titlu": "Funcții trigonometrice",
+          "fisier": "modul-7/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l06",
+          "numarLectie": 6,
+          "titlu": "Funcții trigonometrice inverse",
+          "fisier": "modul-7/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l07",
+          "numarLectie": 7,
+          "titlu": "Injectivitate",
+          "fisier": "modul-7/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l08",
+          "numarLectie": 8,
+          "titlu": "Surjectivitate",
+          "fisier": "modul-7/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l09",
+          "numarLectie": 9,
+          "titlu": "Bijectivitate",
+          "fisier": "modul-7/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l10",
+          "numarLectie": 10,
+          "titlu": "Funcție inversabilă",
+          "fisier": "modul-7/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l11",
+          "numarLectie": 11,
+          "titlu": "Funcția inversă",
+          "fisier": "modul-7/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l12",
+          "numarLectie": 12,
+          "titlu": "Ecuații cu radicali",
+          "fisier": "modul-7/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l13",
+          "numarLectie": 13,
+          "titlu": "Ecuații exponențiale",
+          "fisier": "modul-7/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l14",
+          "numarLectie": 14,
+          "titlu": "Ecuații logaritmice",
+          "fisier": "modul-7/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m7-l15",
+          "numarLectie": 15,
+          "titlu": "Ecuații trigonometrice",
+          "fisier": "modul-7/lectia-15.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 8,
+      "titlu": "Numere complexe",
+      "totalLectii": 9,
+      "lectii": [
+        {
+          "id": "m8-l01",
+          "numarLectie": 1,
+          "titlu": "Forma algebrică a unui număr complex",
+          "fisier": "modul-8/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l02",
+          "numarLectie": 2,
+          "titlu": "Partea reală și partea imaginară",
+          "fisier": "modul-8/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l03",
+          "numarLectie": 3,
+          "titlu": "Egalitatea numerelor complexe",
+          "fisier": "modul-8/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l04",
+          "numarLectie": 4,
+          "titlu": "Adunarea și scăderea numerelor complexe",
+          "fisier": "modul-8/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l05",
+          "numarLectie": 5,
+          "titlu": "Înmulțirea numerelor complexe",
+          "fisier": "modul-8/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l06",
+          "numarLectie": 6,
+          "titlu": "Conjugatul unui număr complex",
+          "fisier": "modul-8/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l07",
+          "numarLectie": 7,
+          "titlu": "Împărțirea numerelor complexe",
+          "fisier": "modul-8/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l08",
+          "numarLectie": 8,
+          "titlu": "Ecuații de gradul al II-lea în numere complexe",
+          "fisier": "modul-8/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m8-l09",
+          "numarLectie": 9,
+          "titlu": "Ecuații bipătrate",
+          "fisier": "modul-8/lectia-09.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 9,
+      "titlu": "Combinatorică și probabilități",
+      "totalLectii": 11,
+      "lectii": [
+        {
+          "id": "m9-l01",
+          "numarLectie": 1,
+          "titlu": "Principiul multiplicării",
+          "fisier": "modul-9/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l02",
+          "numarLectie": 2,
+          "titlu": "Permutări",
+          "fisier": "modul-9/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l03",
+          "numarLectie": 3,
+          "titlu": "Aranjamente",
+          "fisier": "modul-9/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l04",
+          "numarLectie": 4,
+          "titlu": "Combinări",
+          "fisier": "modul-9/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l05",
+          "numarLectie": 5,
+          "titlu": "Probleme de numărare",
+          "fisier": "modul-9/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l06",
+          "numarLectie": 6,
+          "titlu": "Evenimente aleatoare",
+          "fisier": "modul-9/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l07",
+          "numarLectie": 7,
+          "titlu": "Operații cu evenimente",
+          "fisier": "modul-9/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l08",
+          "numarLectie": 8,
+          "titlu": "Evenimente egal probabile",
+          "fisier": "modul-9/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l09",
+          "numarLectie": 9,
+          "titlu": "Probabilitatea unui eveniment",
+          "fisier": "modul-9/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l10",
+          "numarLectie": 10,
+          "titlu": "Probabilitatea evenimentelor compuse",
+          "fisier": "modul-9/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m9-l11",
+          "numarLectie": 11,
+          "titlu": "Aplicații financiare",
+          "fisier": "modul-9/lectia-11.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 10,
+      "titlu": "Geometrie analitică",
+      "totalLectii": 10,
+      "lectii": [
+        {
+          "id": "m10-l01",
+          "numarLectie": 1,
+          "titlu": "Coordonate în plan",
+          "fisier": "modul-10/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l02",
+          "numarLectie": 2,
+          "titlu": "Vectori prin coordonate",
+          "fisier": "modul-10/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l03",
+          "numarLectie": 3,
+          "titlu": "Ecuația unei drepte",
+          "fisier": "modul-10/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l04",
+          "numarLectie": 4,
+          "titlu": "Dreapta determinată de un punct și o direcție",
+          "fisier": "modul-10/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l05",
+          "numarLectie": 5,
+          "titlu": "Dreapta determinată de două puncte",
+          "fisier": "modul-10/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l06",
+          "numarLectie": 6,
+          "titlu": "Condiții de paralelism",
+          "fisier": "modul-10/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l07",
+          "numarLectie": 7,
+          "titlu": "Condiții de perpendicularitate",
+          "fisier": "modul-10/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l08",
+          "numarLectie": 8,
+          "titlu": "Distanța dintre două puncte",
+          "fisier": "modul-10/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l09",
+          "numarLectie": 9,
+          "titlu": "Distanța de la un punct la o dreaptă",
+          "fisier": "modul-10/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m10-l10",
+          "numarLectie": 10,
+          "titlu": "Calculul ariilor în coordonate",
+          "fisier": "modul-10/lectia-10.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 11,
+      "titlu": "Matrice și determinanți",
+      "totalLectii": 13,
+      "lectii": [
+        {
+          "id": "m11-l01",
+          "numarLectie": 1,
+          "titlu": "Noțiunea de matrice",
+          "fisier": "modul-11/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l02",
+          "numarLectie": 2,
+          "titlu": "Tipuri de matrice",
+          "fisier": "modul-11/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l03",
+          "numarLectie": 3,
+          "titlu": "Egalitatea matricelor",
+          "fisier": "modul-11/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l04",
+          "numarLectie": 4,
+          "titlu": "Adunarea matricelor",
+          "fisier": "modul-11/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l05",
+          "numarLectie": 5,
+          "titlu": "Înmulțirea unei matrice cu un scalar",
+          "fisier": "modul-11/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l06",
+          "numarLectie": 6,
+          "titlu": "Înmulțirea matricelor",
+          "fisier": "modul-11/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l07",
+          "numarLectie": 7,
+          "titlu": "Puteri de matrice",
+          "fisier": "modul-11/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l08",
+          "numarLectie": 8,
+          "titlu": "Determinant de ordinul 2",
+          "fisier": "modul-11/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l09",
+          "numarLectie": 9,
+          "titlu": "Determinant de ordinul 3",
+          "fisier": "modul-11/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l10",
+          "numarLectie": 10,
+          "titlu": "Proprietățile determinanților",
+          "fisier": "modul-11/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l11",
+          "numarLectie": 11,
+          "titlu": "Matrice inversabilă",
+          "fisier": "modul-11/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l12",
+          "numarLectie": 12,
+          "titlu": "Inversa unei matrice",
+          "fisier": "modul-11/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m11-l13",
+          "numarLectie": 13,
+          "titlu": "Ecuații matriceale",
+          "fisier": "modul-11/lectia-13.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 12,
+      "titlu": "Sisteme de ecuații",
+      "totalLectii": 8,
+      "lectii": [
+        {
+          "id": "m12-l01",
+          "numarLectie": 1,
+          "titlu": "Forma matriceală a unui sistem",
+          "fisier": "modul-12/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l02",
+          "numarLectie": 2,
+          "titlu": "Sisteme compatibile și incompatibile",
+          "fisier": "modul-12/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l03",
+          "numarLectie": 3,
+          "titlu": "Regula lui Cramer",
+          "fisier": "modul-12/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l04",
+          "numarLectie": 4,
+          "titlu": "Rangul unei matrice",
+          "fisier": "modul-12/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l05",
+          "numarLectie": 5,
+          "titlu": "Teorema Kronecker-Capelli",
+          "fisier": "modul-12/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l06",
+          "numarLectie": 6,
+          "titlu": "Teorema Rouché",
+          "fisier": "modul-12/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l07",
+          "numarLectie": 7,
+          "titlu": "Metoda Gauss",
+          "fisier": "modul-12/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m12-l08",
+          "numarLectie": 8,
+          "titlu": "Sisteme cu parametru",
+          "fisier": "modul-12/lectia-08.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 13,
+      "titlu": "Limite și continuitate",
+      "totalLectii": 17,
+      "lectii": [
+        {
+          "id": "m13-l01",
+          "numarLectie": 1,
+          "titlu": "Vecinătăți",
+          "fisier": "modul-13/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l02",
+          "numarLectie": 2,
+          "titlu": "Șir convergent",
+          "fisier": "modul-13/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l03",
+          "numarLectie": 3,
+          "titlu": "Limita unui șir",
+          "fisier": "modul-13/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l04",
+          "numarLectie": 4,
+          "titlu": "Operații cu limite de șiruri",
+          "fisier": "modul-13/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l05",
+          "numarLectie": 5,
+          "titlu": "Limite uzuale",
+          "fisier": "modul-13/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l06",
+          "numarLectie": 6,
+          "titlu": "Numărul e",
+          "fisier": "modul-13/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l07",
+          "numarLectie": 7,
+          "titlu": "Limita unei funcții într-un punct",
+          "fisier": "modul-13/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l08",
+          "numarLectie": 8,
+          "titlu": "Limite laterale",
+          "fisier": "modul-13/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l09",
+          "numarLectie": 9,
+          "titlu": "Limite la infinit",
+          "fisier": "modul-13/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l10",
+          "numarLectie": 10,
+          "titlu": "Operații cu limite de funcții",
+          "fisier": "modul-13/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l11",
+          "numarLectie": 11,
+          "titlu": "Forme nedeterminate",
+          "fisier": "modul-13/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l12",
+          "numarLectie": 12,
+          "titlu": "Asimptote verticale",
+          "fisier": "modul-13/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l13",
+          "numarLectie": 13,
+          "titlu": "Asimptote orizontale",
+          "fisier": "modul-13/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l14",
+          "numarLectie": 14,
+          "titlu": "Asimptote oblice",
+          "fisier": "modul-13/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l15",
+          "numarLectie": 15,
+          "titlu": "Continuitatea într-un punct",
+          "fisier": "modul-13/lectia-15.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l16",
+          "numarLectie": 16,
+          "titlu": "Continuitatea pe un interval",
+          "fisier": "modul-13/lectia-16.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m13-l17",
+          "numarLectie": 17,
+          "titlu": "Proprietatea lui Darboux",
+          "fisier": "modul-13/lectia-17.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 14,
+      "titlu": "Derivate și studiul funcțiilor",
+      "totalLectii": 17,
+      "lectii": [
+        {
+          "id": "m14-l01",
+          "numarLectie": 1,
+          "titlu": "Derivata unei funcții într-un punct",
+          "fisier": "modul-14/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l02",
+          "numarLectie": 2,
+          "titlu": "Interpretarea geometrică a derivatei",
+          "fisier": "modul-14/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l03",
+          "numarLectie": 3,
+          "titlu": "Derivatele funcțiilor elementare",
+          "fisier": "modul-14/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l04",
+          "numarLectie": 4,
+          "titlu": "Reguli de derivare",
+          "fisier": "modul-14/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l05",
+          "numarLectie": 5,
+          "titlu": "Derivata funcției compuse",
+          "fisier": "modul-14/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l06",
+          "numarLectie": 6,
+          "titlu": "Teorema lui Fermat",
+          "fisier": "modul-14/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l07",
+          "numarLectie": 7,
+          "titlu": "Teorema lui Rolle",
+          "fisier": "modul-14/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l08",
+          "numarLectie": 8,
+          "titlu": "Teorema lui Lagrange",
+          "fisier": "modul-14/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l09",
+          "numarLectie": 9,
+          "titlu": "Regulile lui l'Hospital",
+          "fisier": "modul-14/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l10",
+          "numarLectie": 10,
+          "titlu": "Monotonia cu ajutorul derivatei",
+          "fisier": "modul-14/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l11",
+          "numarLectie": 11,
+          "titlu": "Puncte de maxim și minim",
+          "fisier": "modul-14/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l12",
+          "numarLectie": 12,
+          "titlu": "Concavitate și convexitate",
+          "fisier": "modul-14/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l13",
+          "numarLectie": 13,
+          "titlu": "Derivata de ordinul al II-lea",
+          "fisier": "modul-14/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l14",
+          "numarLectie": 14,
+          "titlu": "Puncte de inflexiune",
+          "fisier": "modul-14/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l15",
+          "numarLectie": 15,
+          "titlu": "Tabel de variație",
+          "fisier": "modul-14/lectia-15.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l16",
+          "numarLectie": 16,
+          "titlu": "Reprezentarea grafică a funcțiilor",
+          "fisier": "modul-14/lectia-16.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m14-l17",
+          "numarLectie": 17,
+          "titlu": "Determinarea numărului de soluții ale unei ecuații",
+          "fisier": "modul-14/lectia-17.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 15,
+      "titlu": "Structuri algebrice",
+      "totalLectii": 15,
+      "lectii": [
+        {
+          "id": "m15-l01",
+          "numarLectie": 1,
+          "titlu": "Legi de compoziție",
+          "fisier": "modul-15/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l02",
+          "numarLectie": 2,
+          "titlu": "Parte stabilă",
+          "fisier": "modul-15/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l03",
+          "numarLectie": 3,
+          "titlu": "Proprietățile unei legi de compoziție",
+          "fisier": "modul-15/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l04",
+          "numarLectie": 4,
+          "titlu": "Element neutru",
+          "fisier": "modul-15/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l05",
+          "numarLectie": 5,
+          "titlu": "Elemente simetrizabile",
+          "fisier": "modul-15/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l06",
+          "numarLectie": 6,
+          "titlu": "Grup",
+          "fisier": "modul-15/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l07",
+          "numarLectie": 7,
+          "titlu": "Subgrup",
+          "fisier": "modul-15/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l08",
+          "numarLectie": 8,
+          "titlu": "Grup finit",
+          "fisier": "modul-15/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l09",
+          "numarLectie": 9,
+          "titlu": "Ordinul unui element",
+          "fisier": "modul-15/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l10",
+          "numarLectie": 10,
+          "titlu": "Morfism de grupuri",
+          "fisier": "modul-15/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l11",
+          "numarLectie": 11,
+          "titlu": "Izomorfism de grupuri",
+          "fisier": "modul-15/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l12",
+          "numarLectie": 12,
+          "titlu": "Inel",
+          "fisier": "modul-15/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l13",
+          "numarLectie": 13,
+          "titlu": "Subinel",
+          "fisier": "modul-15/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l14",
+          "numarLectie": 14,
+          "titlu": "Corp",
+          "fisier": "modul-15/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m15-l15",
+          "numarLectie": 15,
+          "titlu": "Morfisme de inele și corpuri",
+          "fisier": "modul-15/lectia-15.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 16,
+      "titlu": "Polinoame",
+      "totalLectii": 15,
+      "lectii": [
+        {
+          "id": "m16-l01",
+          "numarLectie": 1,
+          "titlu": "Polinoame cu coeficienți într-un corp",
+          "fisier": "modul-16/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l02",
+          "numarLectie": 2,
+          "titlu": "Gradul unui polinom",
+          "fisier": "modul-16/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l03",
+          "numarLectie": 3,
+          "titlu": "Adunarea și înmulțirea polinoamelor",
+          "fisier": "modul-16/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l04",
+          "numarLectie": 4,
+          "titlu": "Împărțirea polinoamelor",
+          "fisier": "modul-16/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l05",
+          "numarLectie": 5,
+          "titlu": "Teorema împărțirii cu rest",
+          "fisier": "modul-16/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l06",
+          "numarLectie": 6,
+          "titlu": "Schema lui Horner",
+          "fisier": "modul-16/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l07",
+          "numarLectie": 7,
+          "titlu": "Teorema lui Bézout",
+          "fisier": "modul-16/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l08",
+          "numarLectie": 8,
+          "titlu": "Divizibilitatea polinoamelor",
+          "fisier": "modul-16/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l09",
+          "numarLectie": 9,
+          "titlu": "Rădăcinile unui polinom",
+          "fisier": "modul-16/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l10",
+          "numarLectie": 10,
+          "titlu": "Factorizarea polinoamelor",
+          "fisier": "modul-16/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l11",
+          "numarLectie": 11,
+          "titlu": "Relațiile lui Viète pentru polinoame",
+          "fisier": "modul-16/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l12",
+          "numarLectie": 12,
+          "titlu": "Ecuații algebrice",
+          "fisier": "modul-16/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l13",
+          "numarLectie": 13,
+          "titlu": "Ecuații binome",
+          "fisier": "modul-16/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l14",
+          "numarLectie": 14,
+          "titlu": "Ecuații bipătrate",
+          "fisier": "modul-16/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m16-l15",
+          "numarLectie": 15,
+          "titlu": "Ecuații reciproce",
+          "fisier": "modul-16/lectia-15.json",
+          "totalVideo": 4
+        }
+      ]
+    },
+    {
+      "modul": 17,
+      "titlu": "Primitive și integrale",
+      "totalLectii": 15,
+      "lectii": [
+        {
+          "id": "m17-l01",
+          "numarLectie": 1,
+          "titlu": "Primitiva unei funcții",
+          "fisier": "modul-17/lectia-01.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l02",
+          "numarLectie": 2,
+          "titlu": "Integrala nedefinită",
+          "fisier": "modul-17/lectia-02.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l03",
+          "numarLectie": 3,
+          "titlu": "Primitive uzuale",
+          "fisier": "modul-17/lectia-03.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l04",
+          "numarLectie": 4,
+          "titlu": "Proprietățile primitivelor",
+          "fisier": "modul-17/lectia-04.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l05",
+          "numarLectie": 5,
+          "titlu": "Integrala definită",
+          "fisier": "modul-17/lectia-05.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l06",
+          "numarLectie": 6,
+          "titlu": "Proprietățile integralei definite",
+          "fisier": "modul-17/lectia-06.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l07",
+          "numarLectie": 7,
+          "titlu": "Formula Leibniz-Newton",
+          "fisier": "modul-17/lectia-07.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l08",
+          "numarLectie": 8,
+          "titlu": "Integrabilitatea funcțiilor continue",
+          "fisier": "modul-17/lectia-08.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l09",
+          "numarLectie": 9,
+          "titlu": "Teorema de medie",
+          "fisier": "modul-17/lectia-09.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l10",
+          "numarLectie": 10,
+          "titlu": "Integrarea prin părți",
+          "fisier": "modul-17/lectia-10.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l11",
+          "numarLectie": 11,
+          "titlu": "Integrarea prin schimbare de variabilă",
+          "fisier": "modul-17/lectia-11.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l12",
+          "numarLectie": 12,
+          "titlu": "Integrarea funcțiilor raționale simple",
+          "fisier": "modul-17/lectia-12.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l13",
+          "numarLectie": 13,
+          "titlu": "Calculul ariilor",
+          "fisier": "modul-17/lectia-13.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l14",
+          "numarLectie": 14,
+          "titlu": "Volumul corpurilor de rotație",
+          "fisier": "modul-17/lectia-14.json",
+          "totalVideo": 4
+        },
+        {
+          "id": "m17-l15",
+          "numarLectie": 15,
+          "titlu": "Limite de șiruri folosind integrale",
+          "fisier": "modul-17/lectia-15.json",
+          "totalVideo": 4
+        }
+      ]
+    }
+  ]
+}

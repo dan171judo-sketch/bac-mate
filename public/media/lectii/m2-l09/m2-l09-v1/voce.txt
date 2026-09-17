@@ -1,0 +1,7 @@
+Ce înseamnă că o funcție este pară?
+
+Ce înseamnă că o funcție este impară?
+
+De ce este important să știm paritatea unei funcții?
+
+Cum putem verifica paritatea unei funcții?

@@ -1,0 +1,7 @@
+Egalitatea funcțiilor este o temă frecventă la Bac
+
+Elevii adesea confundă domeniul de definiție cu codomeniul
+
+Este important să verificăm domeniul de definiție
+
+Greșeala comună este să nu comparăm valorile funcțiilor

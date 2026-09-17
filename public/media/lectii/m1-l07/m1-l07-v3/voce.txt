@@ -1,0 +1,7 @@
+Vom analiza o propoziție compusă
+
+Vom nega propoziția și vom verifica valoarea logică
+
+Vom analiza implicația dintre două propoziții
+
+Vom compara rezultatele

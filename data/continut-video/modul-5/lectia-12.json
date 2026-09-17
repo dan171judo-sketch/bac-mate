@@ -1,0 +1,161 @@
+{
+  "versiuneSchema": 1,
+  "id": "m5-l12",
+  "modul": 5,
+  "numarLectie": 12,
+  "titlu": "Formule pentru unghi dublu",
+  "slugContinut": "formule-pentru-unghi-dublu",
+  "status": "de-generat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Formule pentru unghi dublu”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m5-l12-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Înțelegem: Formule pentru unghi dublu",
+      "durataTintaMinute": 4,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l12/video-1.mp4",
+        "audioUrl": "/videos/modul-5/m5-l12/audio-1.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l12/video-1.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l12/video-1.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 12,
+        "titluLectie": "Formule pentru unghi dublu"
+      }
+    },
+    {
+      "id": "m5-l12-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metodă: Formule pentru unghi dublu",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l12/video-2.mp4",
+        "audioUrl": "/videos/modul-5/m5-l12/audio-2.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l12/video-2.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l12/video-2.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 12,
+        "titluLectie": "Formule pentru unghi dublu"
+      }
+    },
+    {
+      "id": "m5-l12-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l12/video-3.mp4",
+        "audioUrl": "/videos/modul-5/m5-l12/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l12/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l12/video-3.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 12,
+        "titluLectie": "Formule pentru unghi dublu"
+      }
+    },
+    {
+      "id": "m5-l12-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-5/m5-l12/video-4.mp4",
+        "audioUrl": "/videos/modul-5/m5-l12/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-5/m5-l12/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-5/m5-l12/video-4.png"
+      },
+      "metadata": {
+        "modul": 5,
+        "lectie": 12,
+        "titluLectie": "Formule pentru unghi dublu"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  }
+}

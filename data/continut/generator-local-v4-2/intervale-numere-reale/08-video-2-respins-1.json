@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru calculul cu paranteze",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile de bază, proprietățile și metoda de lucru corectă pentru a rezolva expresii matematice care conțin paranteze. Vom învăța cum să aplicăm ordinea operațiilor în mod eficient și cum să evităm greșelile comune.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile de bază pentru rezolvarea expresiilor matematice care includ paranteze. Parantezele sunt un element esențial în exprimarea corectă a unei probleme și trebuie tratate cu atenție.",
+      "Prima regulă este că parantezele se rezolvă întotdeauna înainte de alte operații. Acest lucru este valabil indiferent dacă paranteza conține adunare, scădere, înmulțire sau împărțire.",
+      "De exemplu, dacă avem o expresie ca (5 + 3) × 2, trebuie să calculăm întâi ce este în paranteză: 5 + 3 = 8. Apoi se înmulțește rezultatul cu 2, obținând 16.",
+      "A doua regulă este că în interiorul unei paranteze, operațiile se execută în ordinea corectă: înmulțirea și împărțirea au prioritate față de adunarea și scăderea. Dacă nu există paranteze, se respectă această ordine.",
+      "Această regulă este importantă pentru a evita greșelile comune. De exemplu, dacă avem 6 + 2 × 3, rezultatul corect este 12, nu 24, deoarece înmulțirea are prioritate.",
+      "Metoda de lucru implică mai multe pași: identificarea parantezelor, calcularea lor separat, apoi aplicarea restului operațiilor în ordinea corectă. Este important să se respecte această metodologie pentru a obține rezultate exacte.",
+      "Pentru a ilustra metoda de lucru, vom analiza un exemplu concret: (10 + 2) × (6 − 4). În primul pas, calculăm fiecare paranteză separat. În prima paranteză avem 10 + 2 = 12, iar în a doua paranteză 6 − 4 = 2.",
+      "După ce am obținut cele două rezultate, le înmulțim: 12 × 2 = 24. Acesta este rezultatul corect al expresiei.",
+      "O greșeală frecventă este să se ignore parantezele sau să se execute operațiile într-o ordine incorectă. De exemplu, dacă cineva calculează 10 + (2 × 6) − 4, ar putea obține un rezultat greșit dacă nu respectă ordinea corectă.",
+      "Pentru a evita astfel de greșeli, este important să se scrie fiecare pas al calculului pe o foaie. Acest lucru ajută la urmărirea logicii și la identificarea eventualelor erori.",
+      "În concluzie, parantezele sunt un element esențial în matematică, iar respectarea regulilor de ordine a operațiilor este crucială pentru obținerea unui rezultat corect. Prin urmare, trebuie să le tratăm cu atenție și să aplicăm metoda de lucru corectă.",
+      "Vom încheia videoclipul cu o recapitulare a regulilor principale: parantezele se rezolvă întotdeauna prima, operațiile din interiorul lor se execută în ordinea corectă, iar metoda de lucru implică pași clari și structurați."
+    ],
+    "ideiDeRetinut": [
+      "Parantezele se rezolvă întotdeauna prima.",
+      "În interiorul parantezelor, operațiile se execută în ordinea corectă: înmulțirea și împărțirea au prioritate față de adunarea și scăderea.",
+      "Metoda de lucru implică identificarea parantezelor, calcularea lor separat, apoi aplicarea restului operațiilor în ordinea corectă."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: (10 + 2) × (6 − 4)",
+      "enunt": "(10 + 2) × (6 − 4)",
+      "rezolvareScurta": [
+        "Calculăm prima paranteză: 10 + 2 = 12.",
+        "Calculăm a doua paranteză: 6 − 4 = 2."
+      ],
+      "raspuns": "24"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul calculului: (10 + 2) × (6 − 4)?",
+      "variante": [
+        "12",
+        "18",
+        "20",
+        "24"
+      ],
+      "raspunsCorect": 3,
+      "explicatie": "Se calculează fiecare paranteză separat: (10 + 2) = 12 și (6 − 4) = 2. Apoi se înmulțesc rezultatele: 12 × 2 = 24."
+    }
+  }
+}

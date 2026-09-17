@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l10",
+    "modul": 1,
+    "numarLectie": 10,
+    "titlu": "Demonstrații și raționamente logice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l10-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Demonstrații și raționamente logice",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Demonstrații și raționamente logice",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Demonstrații și raționamente logice",
+      "naratiune": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Demonstrații și raționamente logice”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Demonstrații și raționamente logice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.085409,
+      "procentDurata": 8.5409
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu un exemplu de demonstrație dintr-un s…",
+      "subtitlu": "Un elev care citește o demonstrație dintr-un subiect de Bac",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu un exemplu de demonstrație dintr-un subiect d…",
+      "naratiune": "Vom începe cu un exemplu de demonstrație dintr-un subiect de Bac. Este important să știm cum să abordezi o astfel de cerință.",
+      "vizual": "Un elev care citește o demonstrație dintr-un subiect de Bac",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu un exemplu de demonstrație dintr-un subiect de Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Este important să știm cum să abordezi o astfel de cerință.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.085409,
+      "endProcent": 0.189798,
+      "procentDurata": 10.4389
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile comune în raționamentele logi…",
+      "subtitlu": "Un elev care analizează un raționament logic și îl compară cu un model corect",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile comune în raționamentele logice. Este…",
+      "naratiune": "Vom analiza greșelile comune în raționamentele logice. Este esențial să verificăm fiecare pas pentru a evita erori.",
+      "vizual": "Un elev care analizează un raționament logic și îl compară cu un model corect",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile comune în raționamentele logice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Este esențial să verificăm fiecare pas pentru a evita erori.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.189798,
+      "endProcent": 0.270463,
+      "procentDurata": 8.0664
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+      "naratiune": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac Vom analiza greșelile frecvente în raționamente logice Vom folosi exemple de tip Bac pentru a înțelege cerințele Vom verifica dacă raționamentul este corect sau nu",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în raționamente logice",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom folosi exemple de tip Bac pentru a înțelege cerințele",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă raționamentul este corect sau nu",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.270463,
+      "endProcent": 0.455516,
+      "procentDurata": 18.5053
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrația unei inegalități",
+      "subtitlu": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Inegalitatea este adevărată pentru orice număr real x.",
+      "naratiune": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x. Începem prin a scrie inegalitatea: x² + 1 ≥ 2x. Reorganizăm termenii: x² - 2x + 1 ≥ 0. Răspunsul final este Inegalitatea este adevărată pentru orice număr real x..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Începem prin a scrie inegalitatea: x² + 1 ≥ 2x.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Reorganizăm termenii: x² - 2x + 1 ≥ 0.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Inegalitatea este adevărată pentru orice număr real x.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.455516,
+      "endProcent": 0.701068,
+      "procentDurata": 24.5552
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este forma corectă a inegalității după reorganizare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) x² - 2x + 1 ≥ 0",
+      "naratiune": "Care este forma corectă a inegalității după reorganizare? A) x² + 1 ≥ 2x B) x² - 2x + 1 ≥ 0 C) x² + 1 ≤ 2x După reorganizare, inegalitatea devine x² - 2x + 1 ≥ 0, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este forma corectă a inegalității după reorganizare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x² + 1 ≥ 2x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) x² - 2x + 1 ≥ 0",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x² + 1 ≤ 2x",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) x² - 2x + 1 ≥ 0",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.701068,
+      "endProcent": 0.909846,
+      "procentDurata": 20.8778
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului",
+      "naratiune": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului Verifică fiecare pas al raționamentului pentru a evita greșeli",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verifică fiecare pas al raționamentului pentru a evita greșeli",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909846,
+      "endProcent": 1,
+      "procentDurata": 9.0154
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Demonstrații și raționamente logice",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Demonstrații și raționamente logice",
+      "naratiune": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Demonstrații și raționamente logice”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Demonstrații și raționamente logice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.085409,
+      "procentDurata": 8.5409
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu un exemplu de demonstrație dintr-un s…",
+      "subtitlu": "Un elev care citește o demonstrație dintr-un subiect de Bac",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu un exemplu de demonstrație dintr-un subiect d…",
+      "naratiune": "Vom începe cu un exemplu de demonstrație dintr-un subiect de Bac. Este important să știm cum să abordezi o astfel de cerință.",
+      "vizual": "Un elev care citește o demonstrație dintr-un subiect de Bac",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu un exemplu de demonstrație dintr-un subiect de Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Este important să știm cum să abordezi o astfel de cerință.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.085409,
+      "endProcent": 0.189798,
+      "procentDurata": 10.4389
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile comune în raționamentele logi…",
+      "subtitlu": "Un elev care analizează un raționament logic și îl compară cu un model corect",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile comune în raționamentele logice. Este…",
+      "naratiune": "Vom analiza greșelile comune în raționamentele logice. Este esențial să verificăm fiecare pas pentru a evita erori.",
+      "vizual": "Un elev care analizează un raționament logic și îl compară cu un model corect",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile comune în raționamentele logice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Este esențial să verificăm fiecare pas pentru a evita erori.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.189798,
+      "endProcent": 0.270463,
+      "procentDurata": 8.0664
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+      "naratiune": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac Vom analiza greșelile frecvente în raționamente logice Vom folosi exemple de tip Bac pentru a înțelege cerințele Vom verifica dacă raționamentul este corect sau nu",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în raționamente logice",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom folosi exemple de tip Bac pentru a înțelege cerințele",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă raționamentul este corect sau nu",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.270463,
+      "endProcent": 0.455516,
+      "procentDurata": 18.5053
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrația unei inegalități",
+      "subtitlu": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Inegalitatea este adevărată pentru orice număr real x.",
+      "naratiune": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x. Începem prin a scrie inegalitatea: x² + 1 ≥ 2x. Reorganizăm termenii: x² - 2x + 1 ≥ 0. Răspunsul final este Inegalitatea este adevărată pentru orice număr real x..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Începem prin a scrie inegalitatea: x² + 1 ≥ 2x.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Reorganizăm termenii: x² - 2x + 1 ≥ 0.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Inegalitatea este adevărată pentru orice număr real x.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.455516,
+      "endProcent": 0.701068,
+      "procentDurata": 24.5552
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este forma corectă a inegalității după reorganizare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) x² - 2x + 1 ≥ 0",
+      "naratiune": "Care este forma corectă a inegalității după reorganizare? A) x² + 1 ≥ 2x B) x² - 2x + 1 ≥ 0 C) x² + 1 ≤ 2x După reorganizare, inegalitatea devine x² - 2x + 1 ≥ 0, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este forma corectă a inegalității după reorganizare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x² + 1 ≥ 2x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) x² - 2x + 1 ≥ 0",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x² + 1 ≤ 2x",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) x² - 2x + 1 ≥ 0",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.701068,
+      "endProcent": 0.909846,
+      "procentDurata": 20.8778
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului",
+      "naratiune": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului Verifică fiecare pas al raționamentului pentru a evita greșeli",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrația trebuie să fie logică și să respecte cerințele subiectului",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verifică fiecare pas al raționamentului pentru a evita greșeli",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909846,
+      "endProcent": 1,
+      "procentDurata": 9.0154
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-10.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.599Z"
+  }
+}

@@ -1,0 +1,7 @@
+Începem cu o fracție simplă
+
+Adunăm fracții cu numitori diferiți
+
+Comparam rezultatul cu un număr dat
+
+Verificăm dacă răspunsul este corect

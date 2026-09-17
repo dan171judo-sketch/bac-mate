@@ -1,0 +1,38 @@
+{
+  "definitii": [
+    {
+      "termen": "interval deschis",
+      "definitie": "Este mulțimea numerelor reale aflate între două numere reale date, excluzând capetele.",
+      "observatie": "Notat cu paranteze rotunde."
+    },
+    {
+      "termen": "interval închis",
+      "definitie": "Este mulțimea numerelor reale aflate între două numere reale date, inclusiv capetele.",
+      "observatie": "Notat cu paranteze drepte."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Tipuri de intervale",
+      "explicatie": "Intervalul este o mulțime de numere reale delimitată de două valori, denumite capete. În funcție de inclusivitatea acestora, intervalele pot fi deschise, închise sau semi-deschise.",
+      "ideiCheie": [
+        "Intervalul este definit de două numere reale a și b, unde a < b.",
+        "Tipurile de intervale se diferențiază prin inclusivitatea capetelor."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a intervalelor",
+      "explicatie": "Fiecare tip de interval poate fi reprezentat pe axa numerelor folosind semne specifice pentru capete și un segment care leagă cele două puncte.",
+      "ideiCheie": [
+        "Pe axa numerelor, intervalele se reprezintă cu cercuri desenate sau pline în funcție de inclusivitate.",
+        "Segmentul care leagă capetele arată mulțimea valorilor din interval."
+      ]
+    },
+    {
+      " ": "explicatie\": \"Intervalul semi-deschis este o mulțime de numere reale aflate între două valori, inclusiv unul dintre capete și excluzând celălalt.\",\"ideiCheie\": [\"Un capat este inclus, iar celălalt este exclus.\", \"Notat cu paranteză dreaptă la un capăt și paranteză rotundă la celălalt.\" ]"
+    }
+  ],
+  "formule": []
+}

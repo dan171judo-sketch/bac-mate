@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l13",
+    "modul": 2,
+    "numarLectie": 13,
+    "titlu": "Progresii aritmetice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l13-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Progresii aritmetice - exercițiu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii aritmetice - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii aritmetice - exercițiu de tip Bac",
+      "naratiune": "Începem cu o progresie aritmetică dată prin termenul general.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii aritmetice - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii aritmetice - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o progresie aritmetică dată prin termenul general.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080357,
+      "procentDurata": 8.0357
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom calcula suma primilor 10 termeni ai progresiei…",
+      "subtitlu": "Termenul general al progresiei aritmetice este aₙ = 3n + 5.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom calcula suma primilor 10 termeni ai progresiei aritmeti…",
+      "naratiune": "Vom calcula suma primilor 10 termeni ai progresiei aritmetice dată de aₙ = 3n + 5.",
+      "vizual": "Termenul general al progresiei aritmetice este aₙ = 3n + 5.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom calcula suma primilor 10 termeni ai progresiei aritmetice dată de aₙ = 3n + 5.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080357,
+      "endProcent": 0.151786,
+      "procentDurata": 7.1429
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi formula sumei primilor n termeni ai unei…",
+      "subtitlu": "Suma primilor 10 termeni este S₁₀ = (a₁ + a₁₀) × 10 / 2.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi formula sumei primilor n termeni ai unei progres…",
+      "naratiune": "Vom folosi formula sumei primilor n termeni ai unei progresii aritmetice.",
+      "vizual": "Suma primilor 10 termeni este S₁₀ = (a₁ + a₁₀) × 10 / 2.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi formula sumei primilor n termeni ai unei progresii aritmetice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.151786,
+      "endProcent": 0.200893,
+      "procentDurata": 4.9107
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o progresie aritmetică dată prin termenul general.",
+      "naratiune": "Începem cu o progresie aritmetică dată prin termenul general. Vom calcula suma primilor 10 termeni. Vom verifica dacă răspunsul este corect. Rezolvăm un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o progresie aritmetică dată prin termenul general.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom calcula suma primilor 10 termeni.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Rezolvăm un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.200893,
+      "endProcent": 0.321429,
+      "procentDurata": 12.0536
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul sumei primilor 10 termeni",
+      "subtitlu": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "215",
+      "naratiune": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni. Calculăm a₁ = 3×1 + 5 = 8. Calculăm a₁₀ = 3×10 + 5 = 35. Aplicăm formula S₁₀ = (a₁ + a₁₀) × 10 / 2 = (8 + 35) × 5 = 43 × 5 = 215. Răspunsul final este 215.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm a₁ = 3×1 + 5 = 8.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm a₁₀ = 3×10 + 5 = 35.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Aplicăm formula S₁₀ = (a₁ + a₁₀) × 10 / 2 = (8 + 35) × 5 = 43 × 5 = 215.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 215",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.321429,
+      "endProcent": 0.629464,
+      "procentDurata": 30.8036
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 215",
+      "naratiune": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5? A) 185 B) 215 C) 370 Suma primilor 10 termeni se calculează cu formula Sₙ = (a₁ + aₙ) × n / 2. a₁ = 8, a₁₀ = 35, deci S₁₀ = (8 + 35) × 10 / 2 = 43 × 5 = 215.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 185",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 215",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 370",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 215",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.629464,
+      "endProcent": 0.892857,
+      "procentDurata": 26.3393
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2.",
+      "naratiune": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2. Calculăm termenii prim și ultim pentru a aplica formula.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Calculăm termenii prim și ultim pentru a aplica formula.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.892857,
+      "endProcent": 1,
+      "procentDurata": 10.7143
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii aritmetice - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii aritmetice - exercițiu de tip Bac",
+      "naratiune": "Începem cu o progresie aritmetică dată prin termenul general.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii aritmetice - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii aritmetice - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o progresie aritmetică dată prin termenul general.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080357,
+      "procentDurata": 8.0357
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom calcula suma primilor 10 termeni ai progresiei…",
+      "subtitlu": "Termenul general al progresiei aritmetice este aₙ = 3n + 5.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom calcula suma primilor 10 termeni ai progresiei aritmeti…",
+      "naratiune": "Vom calcula suma primilor 10 termeni ai progresiei aritmetice dată de aₙ = 3n + 5.",
+      "vizual": "Termenul general al progresiei aritmetice este aₙ = 3n + 5.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom calcula suma primilor 10 termeni ai progresiei aritmetice dată de aₙ = 3n + 5.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080357,
+      "endProcent": 0.151786,
+      "procentDurata": 7.1429
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi formula sumei primilor n termeni ai unei…",
+      "subtitlu": "Suma primilor 10 termeni este S₁₀ = (a₁ + a₁₀) × 10 / 2.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi formula sumei primilor n termeni ai unei progres…",
+      "naratiune": "Vom folosi formula sumei primilor n termeni ai unei progresii aritmetice.",
+      "vizual": "Suma primilor 10 termeni este S₁₀ = (a₁ + a₁₀) × 10 / 2.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi formula sumei primilor n termeni ai unei progresii aritmetice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.151786,
+      "endProcent": 0.200893,
+      "procentDurata": 4.9107
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o progresie aritmetică dată prin termenul general.",
+      "naratiune": "Începem cu o progresie aritmetică dată prin termenul general. Vom calcula suma primilor 10 termeni. Vom verifica dacă răspunsul este corect. Rezolvăm un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o progresie aritmetică dată prin termenul general.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom calcula suma primilor 10 termeni.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Rezolvăm un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.200893,
+      "endProcent": 0.321429,
+      "procentDurata": 12.0536
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul sumei primilor 10 termeni",
+      "subtitlu": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "215",
+      "naratiune": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni. Calculăm a₁ = 3×1 + 5 = 8. Calculăm a₁₀ = 3×10 + 5 = 35. Aplicăm formula S₁₀ = (a₁ + a₁₀) × 10 / 2 = (8 + 35) × 5 = 43 × 5 = 215. Răspunsul final este 215.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm a₁ = 3×1 + 5 = 8.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm a₁₀ = 3×10 + 5 = 35.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Aplicăm formula S₁₀ = (a₁ + a₁₀) × 10 / 2 = (8 + 35) × 5 = 43 × 5 = 215.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 215",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.321429,
+      "endProcent": 0.629464,
+      "procentDurata": 30.8036
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 215",
+      "naratiune": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5? A) 185 B) 215 C) 370 Suma primilor 10 termeni se calculează cu formula Sₙ = (a₁ + aₙ) × n / 2. a₁ = 8, a₁₀ = 35, deci S₁₀ = (8 + 35) × 10 / 2 = 43 × 5 = 215.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 185",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 215",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 370",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 215",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.629464,
+      "endProcent": 0.892857,
+      "procentDurata": 26.3393
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2.",
+      "naratiune": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2. Calculăm termenii prim și ultim pentru a aplica formula.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Calculăm termenii prim și ultim pentru a aplica formula.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.892857,
+      "endProcent": 1,
+      "procentDurata": 10.7143
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-13.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.891Z"
+  }
+}

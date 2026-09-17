@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l06",
+  "modul": 1,
+  "numarLectie": 6,
+  "titlu": "Cuantificatori",
+  "slugContinut": "cuantificatori",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l06-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Cuantificatori: Ce înseamnă 'oricare' și 'există'?",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Când spui 'oricare număr natural', ce înseamnă asta?",
+        "Ce înseamnă când spui 'există un număr care îndeplinește o condiție'?",
+        "Cum se folosesc cuantificatorii în problemele de Bac?",
+        "De ce este important să știu diferența între 'oricare' și 'există'?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor desenează un cerc cu numere naturale în interior",
+          "naratiune": "Vrei să înțelegi ce înseamnă 'oricare număr natural'? Hai să vedem împreună. Acest cerc reprezintă toate numerele naturale. Când spunem 'oricare număr natural', ne referim la toate numerele din acest cerc."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor desenează un cerc cu numere naturale și un semn de 'există' lângă un număr",
+          "naratiune": "Când spunem 'există un număr natural care îndeplinește o condiție', ne referim la cel puțin un număr din cerc. De exemplu, există un număr care este divizibil cu 3. Acesta este un exemplu de cuantificator 'există'."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Cuantificatorul 'oricare' se referă la toate elementele dintr-o mulțime.",
+        "Cuantificatorul 'există' se referă la cel puțin un element dintr-o mulțime."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verifică dacă propoziția este adevărată",
+        "enunt": "Oricare număr natural este mai mare decât 0.",
+        "rezolvare": [
+          "Vom analiza propoziția: 'Oricare număr natural este mai mare decât 0'.",
+          "Numărul 0 este un număr natural, dar nu este mai mare decât 0. Deci propoziția este falsă."
+        ],
+        "raspuns": "Fals"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele propoziții este adevărată?",
+        "variante": [
+          "A) Orice număr natural este mai mare decât 0",
+          "B) Există un număr natural care este mai mare decât 100",
+          "C) Orice număr natural este mai mic decât 100"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Varianta B este corectă, deoarece există numere naturale mai mari decât 100. Variantele A și C sunt false, deoarece 0 este un număr natural și nu este mai mare decât 0, iar există numere naturale mai mari decât 100."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l06/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l06/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l06/m1-l06-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l06/m1-l06-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l06/m1-l06-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 6,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 6,
+        "titluLectie": "Cuantificatori",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T16:48:57.149Z"
+      }
+    },
+    {
+      "id": "m1-l06-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Cuantificatori: reguli și metoda",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În matematică, cuantificatorii sunt cuvinte care indică cât de des o propoziție este adevărată.",
+        "Cuantificatorul universal (oricare) spune că o propoziție este adevărată pentru toate valorile.",
+        "Cuantificatorul existențial (există) spune că o propoziție este adevărată pentru cel puțin o valoare.",
+        "În Bac, se pot întâlni exerciții care cer să transformăm propoziții sau să le negăm."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă cuantificatorii universal și existențial.",
+          "naratiune": "Cuantificatorul universal, notat cu ∀, spune că o propoziție este adevărată pentru toate valorile. De exemplu, ∀x ∈ ℝ, x² ≥ 0. Cuantificatorul existențial, notat cu ∃, spune că o propoziție este adevărată pentru cel puțin o valoare. De exemplu, ∃x ∈ ℕ, x² = 4."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor demonstrează cum se negă propoziții cu cuantificatori.",
+          "naratiune": "Pentru a nega o propoziție cu cuantificator universal, folosim cuantificatorul existențial și negăm propoziția. De exemplu, ¬(∀x ∈ ℝ, x² ≥ 0) devine ∃x ∈ ℝ, x² < 0. În mod similar, negarea unui cuantificator existențial folosește cuantificatorul universal și negăm propoziția."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Cuantificatorul universal (∀) spune că o propoziție este adevărată pentru toate valorile.",
+        "Negarea unui cuantificator universal folosește cuantificatorul existențial și negăm propoziția."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Negarea unei propoziții cu cuantificator universal",
+        "enunt": "Să se nege propoziția: ∀x ∈ ℝ, x² ≥ 0.",
+        "rezolvare": [
+          "Pentru a nega o propoziție cu cuantificator universal, folosim cuantificatorul existențial și negăm propoziția.",
+          "Negarea devine: ∃x ∈ ℝ, x² < 0."
+        ],
+        "raspuns": "∃x ∈ ℝ, x² < 0"
+      },
+      "verificareRapida": {
+        "intrebare": "Negarea propoziției ∀x ∈ ℕ, x² ≥ 0 este:",
+        "variante": [
+          "A) ∃x ∈ ℕ, x² < 0",
+          "B) ∀x ∈ ℕ, x² < 0",
+          "C) ∃x ∈ ℕ, x² ≥ 0"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Negarea unui cuantificator universal folosește cuantificatorul existențial și negăm propoziția. Deci, negarea este ∃x ∈ ℕ, x² < 0."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l06/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l06/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l06/m1-l06-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l06/m1-l06-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l06/m1-l06-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 6,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 6,
+        "titluLectie": "Cuantificatori",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T16:57:08.023Z"
+      }
+    },
+    {
+      "id": "m1-l06-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Cuantificatori - Exemplu de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce sunt cuantificatorii?",
+        "Cum se folosesc în exerciții?",
+        "Ce diferență fac între ei?",
+        "Cum se rezolvă exercițiile?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Ecranul arată cuantificatorii universal și existențial",
+          "naratiune": "Cuantificatorii sunt cuvinte care indică cantitatea de elemente dintr-o propoziție. Cea mai frecventă formă este cuantificatorul universal, notat cu ∀, care înseamnă 'oricare' sau 'pentru orice'. Al doilea este cuantificatorul existențial, notat cu ∃, care înseamnă 'există' sau 'cel puțin un'."
+        },
+        {
+          "numar": 2,
+          "vizual": "Ecranul arată un exercițiu de tip Bac cu cuantificatori",
+          "naratiune": "Vom rezolva un exercițiu de tip Bac. Enunțul spune: '∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0'. Trebuie să determinăm dacă propoziția este adevărată sau falsă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Cuantificatorul universal ∀ indică 'oricare'",
+        "Cuantificatorul existențial ∃ indică 'există'"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea adevărului unei propoziții cu cuantificatori",
+        "enunt": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0",
+        "rezolvare": [
+          "Pentru orice x real, trebuie să găsim un y real astfel încât x + y = 0. y = -x este soluția.",
+          "Deoarece pentru orice x real, y = -x este real, propoziția este adevărată."
+        ],
+        "raspuns": "Adevărat"
+      },
+      "verificareRapida": {
+        "intrebare": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este:",
+        "variante": [
+          "A) Adevărat",
+          "B) Fals",
+          "C) Nu se poate determina"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru orice x real, există y = -x real, deci propoziția este adevărată."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l06/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l06/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l06/m1-l06-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l06/m1-l06-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l06/m1-l06-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 6,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 6,
+        "titluLectie": "Cuantificatori",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:02:26.449Z"
+      }
+    },
+    {
+      "id": "m1-l06-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Cuantificatori - Bac și greșeli comune",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Cuantificatorii sunt esențiali în logica matematică",
+        "Elevii adesea confundă cuantificatorul universal cu cel existențial",
+        "În Bac se pot întâlni exerciții cu negația cuantificatorilor",
+        "Este important să cunoaștem greșelile frecvente"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește o propoziție cu cuantificatori",
+          "naratiune": "Vom analiza propoziția: „Toate numerele naturale sunt pare sau impare.”"
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care scrie negația unei propoziții cu cuantificatori",
+          "naratiune": "Vom vedea cum se negă o propoziție cu cuantificator universal."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Cuantificatorul universal (∀) afirmă o proprietate pentru toate elementele",
+        "Cuantificatorul existențial (∃) afirmă o proprietate pentru cel puțin un element"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Negarea unei propoziții cu cuantificator universal",
+        "enunt": "Scrieți negația propoziției: „Toate numerele naturale sunt pare.”",
+        "rezolvare": [
+          "Negarea cuantificatorului universal (∀) este cuantificatorul existențial (∃).",
+          "Negăm propoziția: „Există cel puțin un număr natural care nu este par.”"
+        ],
+        "raspuns": "Există cel puțin un număr natural care nu este par."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este negația propoziției: „Toate elevii din clasă au notă mare.”",
+        "variante": [
+          "A) Toți elevii din clasă au notă mică.",
+          "B) Există cel puțin un elev din clasă care nu are notă mare.",
+          "C) Nu există elevi din clasă cu notă mare."
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Negarea cuantificatorului universal (∀) este cuant și existențial (∃). Propoziția devine: „Există cel puțin un elev din clasă care nu are notă mare.”"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l06/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l06/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l06/m1-l06-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l06/m1-l06-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l06/m1-l06-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 6,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 6,
+        "titluLectie": "Cuantificatori",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:09:06.407Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T17:09:06.407Z",
+    "necesitaVerificareUmana": true
+  }
+}

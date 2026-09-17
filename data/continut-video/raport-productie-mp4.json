@@ -1,0 +1,403 @@
+{
+  "proiect": "BAC MATE",
+  "tip": "productie-mp4",
+  "generatLa": "2026-09-12T05:55:42.354Z",
+  "totalSelectate": 56,
+  "create": 56,
+  "dejaExistente": 0,
+  "erori": 0,
+  "rezultate": [
+    {
+      "status": "creat",
+      "id": "m2-l01-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l01\\m2-l01-v1\\video-scene.mp4",
+      "durata": 12.48,
+      "dimensiuneBytes": 472448
+    },
+    {
+      "status": "creat",
+      "id": "m2-l01-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l01\\m2-l01-v2\\video-scene.mp4",
+      "durata": 13.34,
+      "dimensiuneBytes": 495362
+    },
+    {
+      "status": "creat",
+      "id": "m2-l01-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l01\\m2-l01-v3\\video-scene.mp4",
+      "durata": 12.02,
+      "dimensiuneBytes": 463632
+    },
+    {
+      "status": "creat",
+      "id": "m2-l01-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l01\\m2-l01-v4\\video-scene.mp4",
+      "durata": 13.61,
+      "dimensiuneBytes": 517965
+    },
+    {
+      "status": "creat",
+      "id": "m2-l02-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l02\\m2-l02-v1\\video-scene.mp4",
+      "durata": 10.37,
+      "dimensiuneBytes": 394184
+    },
+    {
+      "status": "creat",
+      "id": "m2-l02-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l02\\m2-l02-v2\\video-scene.mp4",
+      "durata": 9.82,
+      "dimensiuneBytes": 387849
+    },
+    {
+      "status": "creat",
+      "id": "m2-l02-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l02\\m2-l02-v3\\video-scene.mp4",
+      "durata": 14.86,
+      "dimensiuneBytes": 525078
+    },
+    {
+      "status": "creat",
+      "id": "m2-l02-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l02\\m2-l02-v4\\video-scene.mp4",
+      "durata": 11.4,
+      "dimensiuneBytes": 435278
+    },
+    {
+      "status": "creat",
+      "id": "m2-l03-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l03\\m2-l03-v1\\video-scene.mp4",
+      "durata": 9.82,
+      "dimensiuneBytes": 405187
+    },
+    {
+      "status": "creat",
+      "id": "m2-l03-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l03\\m2-l03-v2\\video-scene.mp4",
+      "durata": 16.01,
+      "dimensiuneBytes": 565882
+    },
+    {
+      "status": "creat",
+      "id": "m2-l03-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l03\\m2-l03-v3\\video-scene.mp4",
+      "durata": 10.2,
+      "dimensiuneBytes": 409333
+    },
+    {
+      "status": "creat",
+      "id": "m2-l03-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l03\\m2-l03-v4\\video-scene.mp4",
+      "durata": 11.86,
+      "dimensiuneBytes": 470916
+    },
+    {
+      "status": "creat",
+      "id": "m2-l04-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l04\\m2-l04-v1\\video-scene.mp4",
+      "durata": 11.98,
+      "dimensiuneBytes": 462886
+    },
+    {
+      "status": "creat",
+      "id": "m2-l04-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l04\\m2-l04-v2\\video-scene.mp4",
+      "durata": 13.3,
+      "dimensiuneBytes": 481118
+    },
+    {
+      "status": "creat",
+      "id": "m2-l04-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l04\\m2-l04-v3\\video-scene.mp4",
+      "durata": 15.53,
+      "dimensiuneBytes": 578514
+    },
+    {
+      "status": "creat",
+      "id": "m2-l04-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l04\\m2-l04-v4\\video-scene.mp4",
+      "durata": 12.46,
+      "dimensiuneBytes": 459570
+    },
+    {
+      "status": "creat",
+      "id": "m2-l05-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l05\\m2-l05-v1\\video-scene.mp4",
+      "durata": 12.58,
+      "dimensiuneBytes": 476724
+    },
+    {
+      "status": "creat",
+      "id": "m2-l05-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l05\\m2-l05-v2\\video-scene.mp4",
+      "durata": 17.4,
+      "dimensiuneBytes": 590050
+    },
+    {
+      "status": "creat",
+      "id": "m2-l05-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l05\\m2-l05-v3\\video-scene.mp4",
+      "durata": 13.94,
+      "dimensiuneBytes": 495319
+    },
+    {
+      "status": "creat",
+      "id": "m2-l05-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l05\\m2-l05-v4\\video-scene.mp4",
+      "durata": 17.69,
+      "dimensiuneBytes": 575725
+    },
+    {
+      "status": "creat",
+      "id": "m2-l06-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l06\\m2-l06-v1\\video-scene.mp4",
+      "durata": 13.78,
+      "dimensiuneBytes": 503152
+    },
+    {
+      "status": "creat",
+      "id": "m2-l06-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l06\\m2-l06-v2\\video-scene.mp4",
+      "durata": 14.52,
+      "dimensiuneBytes": 500765
+    },
+    {
+      "status": "creat",
+      "id": "m2-l06-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l06\\m2-l06-v3\\video-scene.mp4",
+      "durata": 18.6,
+      "dimensiuneBytes": 659148
+    },
+    {
+      "status": "creat",
+      "id": "m2-l06-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l06\\m2-l06-v4\\video-scene.mp4",
+      "durata": 16.66,
+      "dimensiuneBytes": 565934
+    },
+    {
+      "status": "creat",
+      "id": "m2-l07-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l07\\m2-l07-v1\\video-scene.mp4",
+      "durata": 12.72,
+      "dimensiuneBytes": 503095
+    },
+    {
+      "status": "creat",
+      "id": "m2-l07-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l07\\m2-l07-v2\\video-scene.mp4",
+      "durata": 12.96,
+      "dimensiuneBytes": 498512
+    },
+    {
+      "status": "creat",
+      "id": "m2-l07-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l07\\m2-l07-v3\\video-scene.mp4",
+      "durata": 15.98,
+      "dimensiuneBytes": 562358
+    },
+    {
+      "status": "creat",
+      "id": "m2-l07-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l07\\m2-l07-v4\\video-scene.mp4",
+      "durata": 14.38,
+      "dimensiuneBytes": 538944
+    },
+    {
+      "status": "creat",
+      "id": "m2-l08-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l08\\m2-l08-v1\\video-scene.mp4",
+      "durata": 15.26,
+      "dimensiuneBytes": 507407
+    },
+    {
+      "status": "creat",
+      "id": "m2-l08-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l08\\m2-l08-v2\\video-scene.mp4",
+      "durata": 12.24,
+      "dimensiuneBytes": 452877
+    },
+    {
+      "status": "creat",
+      "id": "m2-l08-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l08\\m2-l08-v3\\video-scene.mp4",
+      "durata": 16.82,
+      "dimensiuneBytes": 573242
+    },
+    {
+      "status": "creat",
+      "id": "m2-l08-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l08\\m2-l08-v4\\video-scene.mp4",
+      "durata": 11.42,
+      "dimensiuneBytes": 458563
+    },
+    {
+      "status": "creat",
+      "id": "m2-l09-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l09\\m2-l09-v1\\video-scene.mp4",
+      "durata": 13.51,
+      "dimensiuneBytes": 507267
+    },
+    {
+      "status": "creat",
+      "id": "m2-l09-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l09\\m2-l09-v2\\video-scene.mp4",
+      "durata": 11.04,
+      "dimensiuneBytes": 372521
+    },
+    {
+      "status": "creat",
+      "id": "m2-l09-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l09\\m2-l09-v3\\video-scene.mp4",
+      "durata": 15.5,
+      "dimensiuneBytes": 542064
+    },
+    {
+      "status": "creat",
+      "id": "m2-l09-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l09\\m2-l09-v4\\video-scene.mp4",
+      "durata": 14.06,
+      "dimensiuneBytes": 501102
+    },
+    {
+      "status": "creat",
+      "id": "m2-l10-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l10\\m2-l10-v1\\video-scene.mp4",
+      "durata": 11.71,
+      "dimensiuneBytes": 450156
+    },
+    {
+      "status": "creat",
+      "id": "m2-l10-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l10\\m2-l10-v2\\video-scene.mp4",
+      "durata": 13.06,
+      "dimensiuneBytes": 484597
+    },
+    {
+      "status": "creat",
+      "id": "m2-l10-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l10\\m2-l10-v3\\video-scene.mp4",
+      "durata": 17.23,
+      "dimensiuneBytes": 583852
+    },
+    {
+      "status": "creat",
+      "id": "m2-l10-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l10\\m2-l10-v4\\video-scene.mp4",
+      "durata": 13.87,
+      "dimensiuneBytes": 524575
+    },
+    {
+      "status": "creat",
+      "id": "m2-l11-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l11\\m2-l11-v1\\video-scene.mp4",
+      "durata": 26.35,
+      "dimensiuneBytes": 847615
+    },
+    {
+      "status": "creat",
+      "id": "m2-l11-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l11\\m2-l11-v2\\video-scene.mp4",
+      "durata": 14.06,
+      "dimensiuneBytes": 539544
+    },
+    {
+      "status": "creat",
+      "id": "m2-l11-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l11\\m2-l11-v3\\video-scene.mp4",
+      "durata": 14.06,
+      "dimensiuneBytes": 507347
+    },
+    {
+      "status": "creat",
+      "id": "m2-l11-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l11\\m2-l11-v4\\video-scene.mp4",
+      "durata": 19.73,
+      "dimensiuneBytes": 668956
+    },
+    {
+      "status": "creat",
+      "id": "m2-l12-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l12\\m2-l12-v1\\video-scene.mp4",
+      "durata": 10.94,
+      "dimensiuneBytes": 377517
+    },
+    {
+      "status": "creat",
+      "id": "m2-l12-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l12\\m2-l12-v2\\video-scene.mp4",
+      "durata": 14.11,
+      "dimensiuneBytes": 489588
+    },
+    {
+      "status": "creat",
+      "id": "m2-l12-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l12\\m2-l12-v3\\video-scene.mp4",
+      "durata": 13.37,
+      "dimensiuneBytes": 471201
+    },
+    {
+      "status": "creat",
+      "id": "m2-l12-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l12\\m2-l12-v4\\video-scene.mp4",
+      "durata": 11.95,
+      "dimensiuneBytes": 455649
+    },
+    {
+      "status": "creat",
+      "id": "m2-l13-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l13\\m2-l13-v1\\video-scene.mp4",
+      "durata": 13.87,
+      "dimensiuneBytes": 501411
+    },
+    {
+      "status": "creat",
+      "id": "m2-l13-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l13\\m2-l13-v2\\video-scene.mp4",
+      "durata": 14.4,
+      "dimensiuneBytes": 512399
+    },
+    {
+      "status": "creat",
+      "id": "m2-l13-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l13\\m2-l13-v3\\video-scene.mp4",
+      "durata": 14.3,
+      "dimensiuneBytes": 505365
+    },
+    {
+      "status": "creat",
+      "id": "m2-l13-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l13\\m2-l13-v4\\video-scene.mp4",
+      "durata": 15.53,
+      "dimensiuneBytes": 549754
+    },
+    {
+      "status": "creat",
+      "id": "m2-l14-v1",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l14\\m2-l14-v1\\video-scene.mp4",
+      "durata": 12.12,
+      "dimensiuneBytes": 463758
+    },
+    {
+      "status": "creat",
+      "id": "m2-l14-v2",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l14\\m2-l14-v2\\video-scene.mp4",
+      "durata": 14.52,
+      "dimensiuneBytes": 519141
+    },
+    {
+      "status": "creat",
+      "id": "m2-l14-v3",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l14\\m2-l14-v3\\video-scene.mp4",
+      "durata": 17.45,
+      "dimensiuneBytes": 644963
+    },
+    {
+      "status": "creat",
+      "id": "m2-l14-v4",
+      "videoFinal": "C:\\Users\\Administrator\\Desktop\\mate bac\\bac-mate\\public\\media\\lectii\\m2-l14\\m2-l14-v4\\video-scene.mp4",
+      "durata": 15.82,
+      "dimensiuneBytes": 556263
+    }
+  ]
+}

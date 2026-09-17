@@ -1,0 +1,7 @@
+Începem cu o propoziție simplă și o verificăm.
+
+Vom analiza ce este o propoziție și ce este un predicat.
+
+Vom vedea cum se formează propoziții din predicate.
+
+Vom rezolva un exercițiu de tip Bac.

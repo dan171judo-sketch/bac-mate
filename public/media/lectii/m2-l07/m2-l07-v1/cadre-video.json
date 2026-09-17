@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l07",
+    "modul": 2,
+    "numarLectie": 7,
+    "titlu": "Restricția unei funcții",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l07-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Restricția unei funcții",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Restricția unei funcții",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Restricția unei funcții",
+      "naratiune": "Ce înseamnă să restricționăm o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Restricția unei funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Restricția unei funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să restricționăm o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.060464,
+      "procentDurata": 6.0464
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu o funcție f definită pe tot domeniul…",
+      "subtitlu": "Un grafic al unei funcții f: R → R",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu o funcție f definită pe tot domeniul real. De…",
+      "naratiune": "Vom începe cu o funcție f definită pe tot domeniul real. De exemplu, f(x) = x². Aceasta este o funcție cunoscută, care are graficul unui parabolă.",
+      "vizual": "Un grafic al unei funcții f: R → R",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu o funcție f definită pe tot domeniul real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "De exemplu, f(x) = x².",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Aceasta este o funcție cunoscută, care are graficul unui parabolă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.060464,
+      "endProcent": 0.1478,
+      "procentDurata": 8.7336
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum, ne gândim la o restricție a acestei funcții",
+      "subtitlu": "Un grafic al aceleiași funcții, dar cu o linie verde care reprezintă o restricție",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum, ne gândim la o restricție a acestei funcții. O restri…",
+      "naratiune": "Acum, ne gândim la o restricție a acestei funcții. O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial. De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele reale mai mari sau egale cu zero.",
+      "vizual": "Un grafic al aceleiași funcții, dar cu o linie verde care reprezintă o restricție",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum, ne gândim la o restricție a acestei funcții.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele r…",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.1478,
+      "endProcent": 0.349345,
+      "procentDurata": 20.1545
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă să restricționăm o funcție?",
+      "naratiune": "Ce înseamnă să restricționăm o funcție? De ce este important să știm ce este o restricție? Cum se definește o restricție? Ce se întâmplă cu graficul funcției?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să restricționăm o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "De ce este important să știm ce este o restricție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Cum se definește o restricție?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu graficul funcției?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.349345,
+      "endProcent": 0.44004,
+      "procentDurata": 9.0695
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Restricția funcției f(x) = x²",
+      "subtitlu": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "g: [1, 3] → R, g(x) = x²",
+      "naratiune": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3]. Pasul 1: Identificăm domeniul inițial al funcției f, care este R. Pasul 2: Restricția funcției f la [1, 3] este funcția g: [1, 3] → R, g(x) = x². Răspunsul final este g: [1, 3] → R, g(x) = x².",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Identificăm domeniul inițial al funcției f, care este R.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Restricția funcției f la [1, 3] este funcția g: [1, 3] → R, g(x) = x².",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: g: [1, 3] → R, g(x) = x²",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.44004,
+      "endProcent": 0.664091,
+      "procentDurata": 22.4051
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) g: [0, 2] → R, g(x) = x²",
+      "naratiune": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]? A) g: [0, 2] → R, g(x) = x² B) g: [0, 2] → R, g(x) = 2x C) g: [0, 2] → R, g(x) = x³ Restricția funcției f la [0, 2] este funcția care are același mod de calcul, adică x², dar este definită doar pe intervalul [0, 2]. Deci, răspunsul corect este A.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) g: [0, 2] → R, g(x) = x²",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) g: [0, 2] → R, g(x) = 2x",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) g: [0, 2] → R, g(x) = x³",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) g: [0, 2] → R, g(x) = x²",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.664091,
+      "endProcent": 0.909305,
+      "procentDurata": 24.5213
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial.",
+      "naratiune": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial. Graficul restricției este o parte din graficul funcției originale.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Graficul restricției este o parte din graficul funcției originale.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909305,
+      "endProcent": 1,
+      "procentDurata": 9.0695
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Restricția unei funcții",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Restricția unei funcții",
+      "naratiune": "Ce înseamnă să restricționăm o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Restricția unei funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Restricția unei funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să restricționăm o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.060464,
+      "procentDurata": 6.0464
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu o funcție f definită pe tot domeniul…",
+      "subtitlu": "Un grafic al unei funcții f: R → R",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu o funcție f definită pe tot domeniul real. De…",
+      "naratiune": "Vom începe cu o funcție f definită pe tot domeniul real. De exemplu, f(x) = x². Aceasta este o funcție cunoscută, care are graficul unui parabolă.",
+      "vizual": "Un grafic al unei funcții f: R → R",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu o funcție f definită pe tot domeniul real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "De exemplu, f(x) = x².",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Aceasta este o funcție cunoscută, care are graficul unui parabolă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.060464,
+      "endProcent": 0.1478,
+      "procentDurata": 8.7336
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum, ne gândim la o restricție a acestei funcții",
+      "subtitlu": "Un grafic al aceleiași funcții, dar cu o linie verde care reprezintă o restricție",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum, ne gândim la o restricție a acestei funcții. O restri…",
+      "naratiune": "Acum, ne gândim la o restricție a acestei funcții. O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial. De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele reale mai mari sau egale cu zero.",
+      "vizual": "Un grafic al aceleiași funcții, dar cu o linie verde care reprezintă o restricție",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum, ne gândim la o restricție a acestei funcții.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "O restricție este o funcție care are același mod de calcul, dar este definită doar pe o submulțime a domeniului inițial.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "De exemplu, dacă restricționăm f la intervalul [0, ∞), obținem o funcție care este identică cu f, dar este definită doar pe numerele r…",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.1478,
+      "endProcent": 0.349345,
+      "procentDurata": 20.1545
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă să restricționăm o funcție?",
+      "naratiune": "Ce înseamnă să restricționăm o funcție? De ce este important să știm ce este o restricție? Cum se definește o restricție? Ce se întâmplă cu graficul funcției?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să restricționăm o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "De ce este important să știm ce este o restricție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Cum se definește o restricție?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu graficul funcției?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.349345,
+      "endProcent": 0.44004,
+      "procentDurata": 9.0695
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Restricția funcției f(x) = x²",
+      "subtitlu": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "g: [1, 3] → R, g(x) = x²",
+      "naratiune": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3]. Pasul 1: Identificăm domeniul inițial al funcției f, care este R. Pasul 2: Restricția funcției f la [1, 3] este funcția g: [1, 3] → R, g(x) = x². Răspunsul final este g: [1, 3] → R, g(x) = x².",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f: R → R, f(x) = x². Să se găsească restricția funcției f la intervalul [1, 3].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Identificăm domeniul inițial al funcției f, care este R.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Restricția funcției f la [1, 3] este funcția g: [1, 3] → R, g(x) = x².",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: g: [1, 3] → R, g(x) = x²",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.44004,
+      "endProcent": 0.664091,
+      "procentDurata": 22.4051
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) g: [0, 2] → R, g(x) = x²",
+      "naratiune": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]? A) g: [0, 2] → R, g(x) = x² B) g: [0, 2] → R, g(x) = 2x C) g: [0, 2] → R, g(x) = x³ Restricția funcției f la [0, 2] este funcția care are același mod de calcul, adică x², dar este definită doar pe intervalul [0, 2]. Deci, răspunsul corect este A.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f: R → R, f(x) = x². Care este restricția funcției f la intervalul [0, 2]?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) g: [0, 2] → R, g(x) = x²",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) g: [0, 2] → R, g(x) = 2x",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) g: [0, 2] → R, g(x) = x³",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) g: [0, 2] → R, g(x) = x²",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.664091,
+      "endProcent": 0.909305,
+      "procentDurata": 24.5213
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial.",
+      "naratiune": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial. Graficul restricției este o parte din graficul funcției originale.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O restricție este o funcție cu același mod de calcul, dar definită pe o submulțime a domeniului inițial.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Graficul restricției este o parte din graficul funcției originale.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.909305,
+      "endProcent": 1,
+      "procentDurata": 9.0695
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-07.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.758Z"
+  }
+}

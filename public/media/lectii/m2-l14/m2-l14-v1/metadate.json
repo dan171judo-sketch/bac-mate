@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l14",
+  "videoId": "m2-l14-v1",
+  "modul": 2,
+  "numarLectie": 14,
+  "numarVideo": 1,
+  "titluLectie": "Progresii geometrice",
+  "titluVideo": "Progresii geometrice",
+  "durataTintaMinute": 4,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

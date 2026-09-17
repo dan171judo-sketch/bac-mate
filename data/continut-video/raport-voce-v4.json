@@ -1,0 +1,280 @@
+{
+  "versiune": 4,
+  "motor": "node-edge-tts",
+  "proiect": "BAC MATE",
+  "tip": "voce",
+  "voce": "ro-RO-AlinaNeural",
+  "limba": "ro-RO",
+  "rate": "-2%",
+  "generatLa": "2026-09-12T08:49:23.395Z",
+  "optiuni": {
+    "id": null,
+    "modul": 3,
+    "all": false,
+    "limit": null,
+    "force": false
+  },
+  "totalSelectate": 36,
+  "createAcum": 9,
+  "dejaExistente": 0,
+  "cuProbleme": 27,
+  "rezultate": [
+    {
+      "id": "m3-l01-v1",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 14.38,
+      "marimeMB": 0.16,
+      "cuvinte": 31,
+      "cuvintePeMinut": 129,
+      "avertismente": [
+        "Audio foarte scurt: 14.38 secunde."
+      ]
+    },
+    {
+      "id": "m3-l01-v2",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 13.51,
+      "marimeMB": 0.15,
+      "cuvinte": 25,
+      "cuvintePeMinut": 111,
+      "avertismente": [
+        "Audio foarte scurt: 13.51 secunde."
+      ]
+    },
+    {
+      "id": "m3-l01-v3",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 17.95,
+      "marimeMB": 0.21,
+      "cuvinte": 38,
+      "cuvintePeMinut": 127,
+      "avertismente": []
+    },
+    {
+      "id": "m3-l01-v4",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 19.49,
+      "marimeMB": 0.22,
+      "cuvinte": 41,
+      "cuvintePeMinut": 126,
+      "avertismente": []
+    },
+    {
+      "id": "m3-l02-v1",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 11.64,
+      "marimeMB": 0.13,
+      "cuvinte": 25,
+      "cuvintePeMinut": 129,
+      "avertismente": [
+        "Audio foarte scurt: 11.64 secunde."
+      ]
+    },
+    {
+      "id": "m3-l02-v2",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 13.92,
+      "marimeMB": 0.16,
+      "cuvinte": 26,
+      "cuvintePeMinut": 112,
+      "avertismente": [
+        "Audio foarte scurt: 13.92 secunde."
+      ]
+    },
+    {
+      "id": "m3-l02-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l02-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l03-v1",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 15.12,
+      "marimeMB": 0.17,
+      "cuvinte": 31,
+      "cuvintePeMinut": 123,
+      "avertismente": []
+    },
+    {
+      "id": "m3-l03-v2",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 13.61,
+      "marimeMB": 0.16,
+      "cuvinte": 26,
+      "cuvintePeMinut": 115,
+      "avertismente": [
+        "Audio foarte scurt: 13.61 secunde."
+      ]
+    },
+    {
+      "id": "m3-l03-v3",
+      "status": "creat",
+      "voce": "ro-RO-AlinaNeural",
+      "limba": "ro-RO",
+      "rate": "-2%",
+      "durata": 15.65,
+      "marimeMB": 0.18,
+      "cuvinte": 33,
+      "cuvintePeMinut": 127,
+      "avertismente": []
+    },
+    {
+      "id": "m3-l03-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l04-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l04-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l04-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l04-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l05-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l05-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l05-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l05-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l06-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l06-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l06-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l06-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l07-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l07-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l07-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l07-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l08-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l08-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l08-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l08-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l09-v1",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l09-v2",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l09-v3",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    },
+    {
+      "id": "m3-l09-v4",
+      "status": "eroare",
+      "problema": "Nu există voce-pregatita.txt sau voce.txt valid."
+    }
+  ],
+  "publicarePermisa": false,
+  "nota": "Validarea tehnică a audio nu înseamnă verificare matematică sau pedagogică.",
+  "totalProcesate": 36,
+  "finalizatLa": "2026-09-12T08:49:41.382Z"
+}

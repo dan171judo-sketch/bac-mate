@@ -1,0 +1,7 @@
+Inducția matematică este o metodă de demonstrație folosită pentru propoziții care depind de un număr natural.
+
+Pentru a demonstra o propoziție, trebuie să verificăm două pași esențiali.
+
+Prima etapă este verificarea pentru n=1, apoi presupunem adevărat pentru n=k.
+
+În al doilea pas, demonstrăm că este adevărat și pentru n=k+1.

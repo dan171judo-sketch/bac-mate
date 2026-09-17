@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Compunerea funcțiilor este o operație în care ieșirea unei funcții devine intrarea alteia. De exemplu, dacă avem f(x) = 2x și g(x) = x + 1, atunci funcția compusă g(f(x)) înseamnă că aplicăm mai întâi f, apoi g.
+
+2
+00:02:30.000 --> 00:05:00.000
+Pentru a compune funcțiile, trebuie să înlocuim variabila din funcția exterioară cu expresia funcției interioare. Astfel, g(f(x)) devine g(2x) = 2x + 1.
+

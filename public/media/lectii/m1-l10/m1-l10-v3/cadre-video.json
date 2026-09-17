@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l10",
+    "modul": 1,
+    "numarLectie": 10,
+    "titlu": "Demonstrații și raționamente logice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l10-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Demonstrația unei inegalități",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Demonstrația unei inegalități",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Demonstrația unei inegalități",
+      "naratiune": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Demonstrația unei inegalități”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Demonstrația unei inegalități",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.087613,
+      "procentDurata": 8.7613
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru or…",
+      "subtitlu": "Pe ecran apare inegalitatea: 2x + 3 > x + 5",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x re…",
+      "naratiune": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+      "vizual": "Pe ecran apare inegalitatea: 2x + 3 > x + 5",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.087613,
+      "endProcent": 0.155756,
+      "procentDurata": 6.8143
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom compara cele două funcții pentru a vedea când f…",
+      "subtitlu": "Se desenează un grafic cu două funcții: f(x)=2x+3 și g(x)=x+5",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom compara cele două funcții pentru a vedea când f(x) > g(…",
+      "naratiune": "Vom compara cele două funcții pentru a vedea când f(x) > g(x).",
+      "vizual": "Se desenează un grafic cu două funcții: f(x)=2x+3 și g(x)=x+5",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Vom compara cele două funcții pentru a vedea când f(x) > g(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.155756,
+      "endProcent": 0.214164,
+      "procentDurata": 5.8408
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+      "naratiune": "Începem cu o inegalitate simplă pe care o vom demonstra. Vom folosi metoda demonstrației prin reducere la absurd. Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret. Vom generaliza pentru orice valoare a variabilei.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom folosi metoda demonstrației prin reducere la absurd.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom generaliza pentru orice valoare a variabilei.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.214164,
+      "endProcent": 0.384522,
+      "procentDurata": 17.0358
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea inegalității 2x + 3 > x + 5",
+      "subtitlu": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Inegalitatea este adevărată pentru x > 2.",
+      "naratiune": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real. Scădem x din ambele părți: 2x + 3 - x > x + 5 - x → x + 3 > 5 Scădem 3 din ambele părți: x + 3 - 3 > 5 - 3 → x > 2 Răspunsul final este Inegalitatea este adevărată pentru x > 2..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Scădem x din ambele părți: 2x + 3 - x > x + 5 - x → x + 3 > 5",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Scădem 3 din ambele părți: x + 3 - 3 > 5 - 3 → x > 2",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Inegalitatea este adevărată pentru x > 2.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.384522,
+      "endProcent": 0.737162,
+      "procentDurata": 35.2641
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este soluția inegalității 2x + 3 > x + 5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) x > 2",
+      "naratiune": "Care este soluția inegalității 2x + 3 > x + 5? A) x < 2 B) x > 2 C) x = 2 După rezolvare, x > 2, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este soluția inegalității 2x + 3 > x + 5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x < 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) x > 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x = 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) x > 2",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.737162,
+      "endProcent": 0.897785,
+      "procentDurata": 16.0623
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei.",
+      "naratiune": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei. Metoda reducere la absurd poate fi folosită pentru anumite tipuri de inegalități.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Metoda reducere la absurd poate fi folosită pentru anumite tipuri de inegalități.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897785,
+      "endProcent": 1,
+      "procentDurata": 10.2215
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Demonstrația unei inegalități",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Demonstrația unei inegalități",
+      "naratiune": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Demonstrația unei inegalități”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Demonstrația unei inegalități",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.087613,
+      "procentDurata": 8.7613
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru or…",
+      "subtitlu": "Pe ecran apare inegalitatea: 2x + 3 > x + 5",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x re…",
+      "naratiune": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+      "vizual": "Pe ecran apare inegalitatea: 2x + 3 > x + 5",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.087613,
+      "endProcent": 0.155756,
+      "procentDurata": 6.8143
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom compara cele două funcții pentru a vedea când f…",
+      "subtitlu": "Se desenează un grafic cu două funcții: f(x)=2x+3 și g(x)=x+5",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom compara cele două funcții pentru a vedea când f(x) > g(…",
+      "naratiune": "Vom compara cele două funcții pentru a vedea când f(x) > g(x).",
+      "vizual": "Se desenează un grafic cu două funcții: f(x)=2x+3 și g(x)=x+5",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Vom compara cele două funcții pentru a vedea când f(x) > g(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.155756,
+      "endProcent": 0.214164,
+      "procentDurata": 5.8408
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+      "naratiune": "Începem cu o inegalitate simplă pe care o vom demonstra. Vom folosi metoda demonstrației prin reducere la absurd. Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret. Vom generaliza pentru orice valoare a variabilei.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o inegalitate simplă pe care o vom demonstra.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom folosi metoda demonstrației prin reducere la absurd.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom generaliza pentru orice valoare a variabilei.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.214164,
+      "endProcent": 0.384522,
+      "procentDurata": 17.0358
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Demonstrarea inegalității 2x + 3 > x + 5",
+      "subtitlu": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Inegalitatea este adevărată pentru x > 2.",
+      "naratiune": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real. Scădem x din ambele părți: 2x + 3 - x > x + 5 - x → x + 3 > 5 Scădem 3 din ambele părți: x + 3 - 3 > 5 - 3 → x > 2 Răspunsul final este Inegalitatea este adevărată pentru x > 2..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Scădem x din ambele părți: 2x + 3 - x > x + 5 - x → x + 3 > 5",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Scădem 3 din ambele părți: x + 3 - 3 > 5 - 3 → x > 2",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Inegalitatea este adevărată pentru x > 2.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.384522,
+      "endProcent": 0.737162,
+      "procentDurata": 35.2641
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este soluția inegalității 2x + 3 > x + 5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) x > 2",
+      "naratiune": "Care este soluția inegalității 2x + 3 > x + 5? A) x < 2 B) x > 2 C) x = 2 După rezolvare, x > 2, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este soluția inegalității 2x + 3 > x + 5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x < 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) x > 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x = 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) x > 2",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.737162,
+      "endProcent": 0.897785,
+      "procentDurata": 16.0623
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei.",
+      "naratiune": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei. Metoda reducere la absurd poate fi folosită pentru anumite tipuri de inegalități.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Metoda reducere la absurd poate fi folosită pentru anumite tipuri de inegalități.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897785,
+      "endProcent": 1,
+      "procentDurata": 10.2215
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-10.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.595Z"
+  }
+}

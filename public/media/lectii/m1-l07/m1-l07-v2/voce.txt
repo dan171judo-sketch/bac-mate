@@ -1,0 +1,7 @@
+Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?
+
+Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate?
+
+Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată?
+
+Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?

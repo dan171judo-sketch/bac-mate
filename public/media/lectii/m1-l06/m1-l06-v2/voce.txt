@@ -1,0 +1,7 @@
+În matematică, cuantificatorii sunt cuvinte care indică cât de des o propoziție este adevărată.
+
+Cuantificatorul universal (oricare) spune că o propoziție este adevărată pentru toate valorile.
+
+Cuantificatorul existențial (există) spune că o propoziție este adevărată pentru cel puțin o valoare.
+
+În Bac, se pot întâlni exerciții care cer să transformăm propoziții sau să le negăm.

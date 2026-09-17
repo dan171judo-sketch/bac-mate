@@ -1,0 +1,7 @@
+Începem cu regulile de bază ale operațiilor cu mulțimi.
+
+Vom învăța cum să aplicăm corect aceste reguli.
+
+Vom rezolva un exemplu pas cu pas.
+
+Vom verifica rapid pentru a ne asigura că am înțeles.

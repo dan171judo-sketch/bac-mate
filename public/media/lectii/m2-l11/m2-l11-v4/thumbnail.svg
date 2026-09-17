@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1280"
+  height="720"
+  viewBox="0 0 1280 720"
+>
+  <defs>
+    <linearGradient
+      id="fundal"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    >
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+
+  <rect
+    width="1280"
+    height="720"
+    fill="url(#fundal)"
+  />
+
+  <rect
+    x="75"
+    y="70"
+    width="1130"
+    height="580"
+    rx="34"
+    fill="#ffffff"
+    fill-opacity="0.07"
+    stroke="#ffffff"
+    stroke-opacity="0.16"
+  />
+
+  <text
+    x="110"
+    y="145"
+    fill="#93c5fd"
+    font-size="36"
+    font-family="Arial, sans-serif"
+    font-weight="700"
+  >
+    BAC MATE
+  </text>
+
+  <text
+    x="110"
+    y="215"
+    fill="#ffffff"
+    font-size="32"
+    font-family="Arial, sans-serif"
+    font-weight="700"
+  >
+    Modulul 2 • Lecția 11 • Video 4
+  </text>
+
+  <foreignObject
+    x="110"
+    y="260"
+    width="900"
+    height="220"
+  >
+    <div
+      xmlns="http://www.w3.org/1999/xhtml"
+      style="
+        color:white;
+        font-family:Arial,sans-serif;
+        font-size:54px;
+        line-height:1.12;
+        font-weight:800;
+      "
+    >
+      Compunerea funcțiilor - Bac și greșeli comune
+    </div>
+  </foreignObject>
+
+  <foreignObject
+    x="110"
+    y="500"
+    width="900"
+    height="100"
+  >
+    <div
+      xmlns="http://www.w3.org/1999/xhtml"
+      style="
+        color:#bfdbfe;
+        font-family:Arial,sans-serif;
+        font-size:28px;
+        line-height:1.25;
+        font-weight:500;
+      "
+    >
+      Compunerea funcțiilor
+    </div>
+  </foreignObject>
+
+  <circle
+    cx="1090"
+    cy="375"
+    r="82"
+    fill="#ffffff"
+    fill-opacity="0.96"
+  />
+
+  <polygon
+    points="1065,330 1065,420 1135,375"
+    fill="#1d4ed8"
+  />
+</svg>

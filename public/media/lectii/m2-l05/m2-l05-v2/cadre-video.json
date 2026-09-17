@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l05",
+    "modul": 2,
+    "numarLectie": 5,
+    "titlu": "Lecturi grafice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l05-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Lecturi grafice: reguli și metodă",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Lecturi grafice: reguli și metodă",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Lecturi grafice: reguli și metodă",
+      "naratiune": "Începem cu regulile de bază pentru lectura graficelor.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Lecturi grafice: reguli și metodă”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Lecturi grafice: reguli și metodă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru lectura graficelor.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.096696,
+      "procentDurata": 9.6696
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a face o lectură grafică corectă, trebuie să…",
+      "subtitlu": "Un grafic cu două curbe reprezentând funcții.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a face o lectură grafică corectă, trebuie să identif…",
+      "naratiune": "Pentru a face o lectură grafică corectă, trebuie să identificăm punctele de intersecție, valorile funcției în puncte speciale și să analizăm comportamentul funcțiilor.",
+      "vizual": "Un grafic cu două curbe reprezentând funcții.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a face o lectură grafică corectă, trebuie să identificăm punctele de intersecție, valorile funcției în puncte speciale și să an…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.096696,
+      "endProcent": 0.220252,
+      "procentDurata": 12.3556
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi metoda de a compara valorile funcțiilor…",
+      "subtitlu": "Un grafic cu două curbe și puncte marcate.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi metoda de a compara valorile funcțiilor în punct…",
+      "naratiune": "Vom folosi metoda de a compara valorile funcțiilor în puncte comune și să determinăm intersecțiile prin citirea directă.",
+      "vizual": "Un grafic cu două curbe și puncte marcate.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi metoda de a compara valorile funcțiilor în puncte comune și să determinăm intersecțiile prin citirea directă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.220252,
+      "endProcent": 0.316949,
+      "procentDurata": 9.6696
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu regulile de bază pentru lectura graficelor.",
+      "naratiune": "Începem cu regulile de bază pentru lectura graficelor. Vom analiza cum să identificăm corect valorile din grafic. Vom vedea cum să interpretăm graficele în contextul problemelor de Bac. În final, vom rezolva un exemplu practic.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru lectura graficelor.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza cum să identificăm corect valorile din grafic.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum să interpretăm graficele în contextul problemelor de Bac.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, vom rezolva un exemplu practic.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316949,
+      "endProcent": 0.504969,
+      "procentDurata": 18.802
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea valorii funcției într-un punct",
+      "subtitlu": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f(2)=3 și g(3)=4",
+      "naratiune": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2). Pentru f(2), citim valoarea funcției f în punctul x=2. Din grafic, f(2)=3. Pentru g(3), citim valoarea funcției g în punctul x=3. Din grafic, g(3)=4. Răspunsul final este f(2)=3 și g(3)=4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru f(2), citim valoarea funcției f în punctul x=2. Din grafic, f(2)=3.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru g(3), citim valoarea funcției g în punctul x=3. Din grafic, g(3)=4.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f(2)=3 și g(3)=4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.504969,
+      "endProcent": 0.758259,
+      "procentDurata": 25.329
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(2) din grafic?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 3",
+      "naratiune": "Care este valoarea f(2) din grafic? A) 2 B) 3 C) 4 Din grafic, la x=2, valoarea funcției f este 3, deci răspunsul corect este B) 3.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(2) din grafic?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 3",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 4",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.758259,
+      "endProcent": 0.903304,
+      "procentDurata": 14.5044
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Identificați punctele de intersecție între funcții.",
+      "naratiune": "Identificați punctele de intersecție între funcții. Analizați valorile funcțiilor în puncte speciale.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Identificați punctele de intersecție între funcții.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Analizați valorile funcțiilor în puncte speciale.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.903304,
+      "endProcent": 1,
+      "procentDurata": 9.6696
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Lecturi grafice: reguli și metodă",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Lecturi grafice: reguli și metodă",
+      "naratiune": "Începem cu regulile de bază pentru lectura graficelor.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Lecturi grafice: reguli și metodă”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Lecturi grafice: reguli și metodă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru lectura graficelor.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.096696,
+      "procentDurata": 9.6696
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a face o lectură grafică corectă, trebuie să…",
+      "subtitlu": "Un grafic cu două curbe reprezentând funcții.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a face o lectură grafică corectă, trebuie să identif…",
+      "naratiune": "Pentru a face o lectură grafică corectă, trebuie să identificăm punctele de intersecție, valorile funcției în puncte speciale și să analizăm comportamentul funcțiilor.",
+      "vizual": "Un grafic cu două curbe reprezentând funcții.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a face o lectură grafică corectă, trebuie să identificăm punctele de intersecție, valorile funcției în puncte speciale și să an…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.096696,
+      "endProcent": 0.220252,
+      "procentDurata": 12.3556
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi metoda de a compara valorile funcțiilor…",
+      "subtitlu": "Un grafic cu două curbe și puncte marcate.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi metoda de a compara valorile funcțiilor în punct…",
+      "naratiune": "Vom folosi metoda de a compara valorile funcțiilor în puncte comune și să determinăm intersecțiile prin citirea directă.",
+      "vizual": "Un grafic cu două curbe și puncte marcate.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi metoda de a compara valorile funcțiilor în puncte comune și să determinăm intersecțiile prin citirea directă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.220252,
+      "endProcent": 0.316949,
+      "procentDurata": 9.6696
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu regulile de bază pentru lectura graficelor.",
+      "naratiune": "Începem cu regulile de bază pentru lectura graficelor. Vom analiza cum să identificăm corect valorile din grafic. Vom vedea cum să interpretăm graficele în contextul problemelor de Bac. În final, vom rezolva un exemplu practic.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu regulile de bază pentru lectura graficelor.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza cum să identificăm corect valorile din grafic.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum să interpretăm graficele în contextul problemelor de Bac.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, vom rezolva un exemplu practic.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316949,
+      "endProcent": 0.504969,
+      "procentDurata": 18.802
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea valorii funcției într-un punct",
+      "subtitlu": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f(2)=3 și g(3)=4",
+      "naratiune": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2). Pentru f(2), citim valoarea funcției f în punctul x=2. Din grafic, f(2)=3. Pentru g(3), citim valoarea funcției g în punctul x=3. Din grafic, g(3)=4. Răspunsul final este f(2)=3 și g(3)=4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru f(2), citim valoarea funcției f în punctul x=2. Din grafic, f(2)=3.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru g(3), citim valoarea funcției g în punctul x=3. Din grafic, g(3)=4.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f(2)=3 și g(3)=4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.504969,
+      "endProcent": 0.758259,
+      "procentDurata": 25.329
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea f(2) din grafic?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 3",
+      "naratiune": "Care este valoarea f(2) din grafic? A) 2 B) 3 C) 4 Din grafic, la x=2, valoarea funcției f este 3, deci răspunsul corect este B) 3.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea f(2) din grafic?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 3",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 4",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.758259,
+      "endProcent": 0.903304,
+      "procentDurata": 14.5044
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Identificați punctele de intersecție între funcții.",
+      "naratiune": "Identificați punctele de intersecție între funcții. Analizați valorile funcțiilor în puncte speciale.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Identificați punctele de intersecție între funcții.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Analizați valorile funcțiilor în puncte speciale.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.903304,
+      "endProcent": 1,
+      "procentDurata": 9.6696
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-05.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.720Z"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Un elev a parcurs 30 km cu bicicleta si apoi 20 km cu trenul. Cati km a parcurs in total?",
+      "variante": [],
+      "raspunsCorect": "50 km",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea distanțelor parcurse",
+          "continut": "Se adună distanța parcursă cu bicicleta și cea parcursă cu trenul: 30 km + 20 km = 50 km."
+        },
+        {
+          "numar": 2,
+          "titlu": "Concluzie",
+          "continut": "Totalul distanțelor parcurse este de 50 km."
+        }
+      ],
+      "explicatieFinala": "Pentru a afla distanța totală parcursă, se adună cele două distanțe: 30 km + 20 km = 50 km.",
+      "competenta": "Rezolvarea problemelor de adunare în contexte practice.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este valoarea expresiei: (3 + 4) × (6 - 2)?",
+      "variante": [
+        "10",
+        "14",
+        "28",
+        "32"
+      ],
+      "raspunsCorect": "28",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calculul parantezelor",
+          "continut": "Se calculează fiecare paranteză separat: (3 + 4) = 7 și (6 - 2) = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înmulțirea rezultatelor",
+          "continut": "Se înmulțesc rezultatele parantezelor: 7 × 4 = 28."
+        }
+      ],
+      "explicatieFinala": "Expresia se evaluează prin calcularea separată a fiecărei paranteze și apoi înmulțirea rezultatelor, obținând 28.",
+      "competenta": "Evaluarea expresiilor aritmetice cu paranteze.",
+      "punctaj": 10
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Un dreptunghi are lungimea de 8 cm și lățimea de 5 cm. Aflați aria acestui dreptunghi.",
+      "variante": [],
+      "raspunsCorect": "40 cm²",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula pentru aria dreptunghiului",
+          "continut": "Aria unui dreptunghi se calculează prin înmulțirea lungimii cu lățimea: A = L × l."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul ariei",
+          "continut": "Înlocuind valorile, obținem: A = 8 cm × 5 cm = 40 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria dreptunghiului se calculează prin înmulțirea lungimii cu lățimea, rezultând 40 cm².",
+      "competenta": "Calcularea ariei unui dreptunghi folosind formula de bază.",
+      "punctaj": 15
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: (7 × 2) + (9 ÷ 3)?",
+      "variante": [
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "raspunsCorect": "18",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calculul înmulțirii și împărțirii",
+          "continut": "Se calculează fiecare operație separat: (7 × 2) = 14 și (9 ÷ 3) = 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea rezultatelor",
+          "continut": "Se adună cele două rezultate: 14 + 3 = 18."
+        }
+      ],
+      "explicatieFinala": "Calculul se face prin evaluarea separată a fiecărei operații și apoi adunarea rezultatelor, obținând 18.",
+      "competenta": "Evaluarea expresiilor aritmetice cu operații de înmulțire și împărțire.",
+      "punctaj": 10
+    }
+  ]
+}

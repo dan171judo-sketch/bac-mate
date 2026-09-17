@@ -1,0 +1,12 @@
+{
+  "versiune": "BAC-MATE-GENERATOR-AI-V3",
+  "actualizatLa": "2026-09-14T07:18:40.742Z",
+  "finalizate": [],
+  "esuate": [
+    {
+      "slug": "intervale-numere-reale",
+      "la": "2026-09-14T07:18:40.742Z",
+      "motiv": "429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/."
+    }
+  ]
+}

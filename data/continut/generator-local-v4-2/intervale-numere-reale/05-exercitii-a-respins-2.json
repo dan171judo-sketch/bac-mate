@@ -1,0 +1,88 @@
+{
+  "exercitii": [
+    {
+      "id": 1,
+      "enunt": "Scrie numărul de elemente din mulțimea A = {x | x ∈ ℕ, 2 ≤ x < 6}.",
+      "punctaj": 5,
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "rezolvare": [
+        {
+          "nr": 1,
+          "titlu": "Identificarea elementelor mulțimii",
+          "continut": "Elementele mulțimii A sunt numerele naturale care sunt mai mari sau egale cu 2 și mai mici decât 6."
+        },
+        {
+          "nr": 2,
+          "titlu": "Enumerarea elementelor",
+          "continut": "Elementele mulțimii sunt: {2, 3, 4, 5}."
+        }
+      ],
+      "raspunsCorect": "4"
+    },
+    {
+      "id": 2,
+      "enunt": "Rezolvă ecuația 3x + 7 = 16.",
+      "punctaj": 8,
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "rezolvare": [
+        {
+          "nr": 1,
+          "titlu": "Scăderea termenului liber din ambele părți",
+          "continut": "3x = 16 - 7."
+        },
+        {
+          "nr": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "3x = 9."
+        },
+        {
+          "nr": 3,
+          "titlu": "Împărțirea ambelor părți la 3",
+          "continut": "x = 9 / 3."
+        },
+        {
+          "nr": 4,
+          "titlu": "Determinarea soluției",
+          "continut": "x = 3."
+        }
+      ],
+      "raspunsCorect": "3"
+    },
+    {
+      "id": 3,
+      "enunt": "Care este valoarea expresiei E = (5 + 2) × (6 - 4)?",
+      "punctaj": 7,
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "variante": [
+        "10",
+        "12",
+        "14",
+        "18"
+      ],
+      "raspunsCorect": "12"
+    },
+    {
+      "id": 4,
+      "enunt": "Calculați valoarea expresiei: (7 + 3) × (9 - 5).",
+      "punctaj": 6,
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "rezolvare": [
+        {
+          "nr": 1,
+          "titlu": "Calcularea parantezelor",
+          "continut": "7 + 3 = 10 și 9 - 5 = 4."
+        },
+        {
+          "nr": 2,
+          "titlu": "Înmulțirea rezultatelor",
+          "continut": "10 × 4 = 40."
+        }
+      ],
+      "raspunsCorect": "40"
+    }
+  ]
+}

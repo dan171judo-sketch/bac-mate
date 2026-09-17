@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Ce sunt parantezele și de ce sunt utile?",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora ideea parantezelor în matematică. Vom începe cu o întrebare simplă: de ce este important să folosim parantezele? Apoi, vom vedea cum funcționează acestea într-un exercițiu și cum pot schimba rezultatul unui calcul. În final, vom face o verificare rapidă pentru a ne asigura că am înțeles bine ideea.",
+    "scenariu": [
+      "Să începem cu o întrebare simplă: ce se întâmplă dacă nu folosim parantezele într-un exercițiu? De exemplu, dacă avem 8 × 3 + 6. Dacă calculăm direct, adunarea va fi făcută mai întâi, dar asta este greșit. Parantezele ne ajută să stabilim ce operație trebuie făcută prima.",
+      "Parantezele sunt ca niște semnale de trafic pentru mintea ta. Ele spun: „Acest lucru trebuie făcut înainte decât restul!”. Astfel, putem controla ordinea în care se execută operațiile și evităm greșeli.",
+      "Să luăm un exemplu concret: 12 + (8 × 3) − 6. Fără paranteze, ar fi fost dificil să știm dacă adunarea sau înmulțirea se face prima. Dar cu parantezele, știm că trebuie să facem întâi înmulțirea.",
+      "Vom vedea cum se rezolvă acest exercițiu pas cu pas. În primul rând, calculăm ce este în paranteze: 8 × 3 = 24. Apoi, adunăm și scădem restul: 12 + 24 − 6 = 30.",
+      "Parantezele sunt esențiale pentru a evita confuzia. Fără ele, un exercițiu poate fi interpretat în mai multe moduri, iar rezultatul ar putea varia. Astfel, parantezele ne oferă claritate și precizie.",
+      "Să ne întrebăm: de ce este important să știm ordinea operațiilor? Răspunsul este simplu: pentru a evita greșelile și pentru a obține un rezultat corect. Parantezele sunt o parte esențială a acestei reguli.",
+      "Vom folosi un alt exemplu: (12 − 4) × 3 + 7. În acest caz, paranteza ne spune că trebuie să facem mai întâi scăderea: 12 − 4 = 8. Apoi înmulțim și adunăm: 8 × 3 + 7 = 24 + 7 = 25.",
+      "Parantezele pot fi folosite nu doar pentru înmulțire, ci și pentru alte operații, cum ar fi adunarea sau scăderea. Ele ne ajută să stabilim ce se face prima și ce se face mai târziu.",
+      "Vom reveni la primul exemplu: 12 + (8 × 3) − 6 = 30. Acest rezultat este corect doar dacă paranteza este luată în considerare. Fără ea, ar fi fost greșit.",
+      "În concluzie, parantezele sunt un instrument important în matematică. Ele ne ajută să controlăm ordinea operațiilor și să obținem rezultate corecte. În următoarele videoclipuri, vom vedea cum se folosesc mai ales în exerciții complexe."
+    ],
+    "ideiDeRetinut": [
+      "Parantezele indică ce operație trebuie făcută prima.",
+      "Fără paranteze, un exercițiu poate fi interpretat greșit.",
+      "Parantezele sunt esențiale pentru a evita confuzia și obține rezultate corecte.",
+      "Înmulțirea este făcută înaintea adunării sau scăderii, dacă nu există paranteze."
+    ],
+    "exemplu": {
+      "titlu": "Exemplul cu paranteze",
+      "enunt": "Calculați: 12 + (8 × 3) − 6.",
+      "rezolvareScurta": [
+        "În primul rând, calculăm înmulțirea: 8 × 3 = 24.",
+        "Apoi adunăm și scădem: 12 + 24 − 6 = 30."
+      ],
+      "raspuns": "30"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul calculului: (12 − 4) × 3 + 7?",
+      "variante": [
+        "25",
+        "29",
+        "30",
+        "35"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Se calculează paranteza: 12 − 4 = 8. Apoi se înmulțește și se adună: 8 × 3 + 7 = 24 + 7 = 25."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Vrei să știi cum să recunoști o progresie geometrică? O progresie geometrică este o mulțime de numere unde fiecare termen se obține înmulțind pe cel precedent cu un număr fix, numit rație.
+
+2
+00:02:30.000 --> 00:05:00.000
+Pentru a rezolva o problemă de progresii geometrice, trebuie să identifici rația și să folosești formula termenului general: a_n = a_1 * q^(n-1).
+

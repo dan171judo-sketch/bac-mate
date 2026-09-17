@@ -1,0 +1,7 @@
+Începem cu un exercițiu de tip Bac care implică intervale de numere reale.
+
+Vom identifica intervalele și vom rezolva cerința pas cu pas.
+
+Vom verifica dacă răspunsul este corect.
+
+Vom recapitula ideile importante pentru a înțelege mai bine.

@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l14",
+    "modul": 2,
+    "numarLectie": 14,
+    "titlu": "Progresii geometrice",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l14-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Progresii geometrice - exercițiu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Progresii geometrice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii geometrice - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii geometrice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii geometrice - exercițiu de tip Bac",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii geometrice - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii geometrice - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.078023,
+      "procentDurata": 7.8023
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva un exercițiu de tip Bac cu progresii ge…",
+      "subtitlu": "Un elev vede un exercițiu scris pe tablă: 'Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "3 = 16",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice. În progresia dată, a3 = 16 și a5 = 64. Trebuie să aflăm primul termen.",
+      "vizual": "Un elev vede un exercițiu scris pe tablă: 'Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "În progresia dată, a3 = 16 și a5 = 64.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Trebuie să aflăm primul termen.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.078023,
+      "endProcent": 0.186389,
+      "procentDurata": 10.8366
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi formula generală a n = a1 * q^(n-1)",
+      "subtitlu": "Profesorul scrie pe tablă formula generală a n = a1 * q^(n-1) și relațiile pentru a3 și a5.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "3 = 16",
+      "naratiune": "Vom folosi formula generală a n = a1 * q^(n-1). Pentru a3 = 16, avem a1 * q^2 = 16. Pentru a5 = 64, avem a1 * q^4 = 64.",
+      "vizual": "Profesorul scrie pe tablă formula generală a n = a1 * q^(n-1) și relațiile pentru a3 și a5.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Vom folosi formula generală a n = a1 * q^(n-1).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Pentru a3 = 16, avem a1 * q^2 = 16.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "formula",
+          "text": "Pentru a5 = 64, avem a1 * q^4 = 64.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186389,
+      "endProcent": 0.316428,
+      "procentDurata": 13.0039
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice Vom identifica termenii progresiei și vom aplica formula generală Vom calcula termenul cerut folosind relațiile dintre termeni Vom verifica dacă progresia este corectă",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica termenii progresiei și vom aplica formula generală",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom calcula termenul cerut folosind relațiile dintre termeni",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă progresia este corectă",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316428,
+      "endProcent": 0.459471,
+      "procentDurata": 14.3043
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aflarea primului termen al unei progresii geometrice",
+      "subtitlu": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a1 = 4",
+      "naratiune": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1. Pentru a3 = 16: a1 * q^2 = 16 Pentru a5 = 64: a1 * q^4 = 64 Răspunsul final este a1 = 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a3 = 16: a1 * q^2 = 16",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru a5 = 64: a1 * q^4 = 64",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a1 = 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.459471,
+      "endProcent": 0.648895,
+      "procentDurata": 18.9423
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea lui a1 în progresia geometrică dată?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 4",
+      "naratiune": "Care este valoarea lui a1 în progresia geometrică dată? A) 2 B) 4 C) 8 Din relațiile a1 * q^2 = 16 și a1 * q^4 = 64, împărțim cele două ecuații și obținem q^2 = 4, deci q = 2. Înlocuim q = 2 în prima ecuație: a1 * 4 = 16 => a1 = 4.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea lui a1 în progresia geometrică dată?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 8",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648895,
+      "endProcent": 0.895969,
+      "procentDurata": 24.7074
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice",
+      "naratiune": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice Relațiile dintre termeni pot fi folosite pentru a găsi termenii necunoscuți",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Relațiile dintre termeni pot fi folosite pentru a găsi termenii necunoscuți",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.895969,
+      "endProcent": 1,
+      "procentDurata": 10.4031
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Progresii geometrice - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Progresii geometrice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Progresii geometrice - exercițiu de tip Bac",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Progresii geometrice - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Progresii geometrice - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.078023,
+      "procentDurata": 7.8023
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva un exercițiu de tip Bac cu progresii ge…",
+      "subtitlu": "Un elev vede un exercițiu scris pe tablă: 'Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "3 = 16",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice. În progresia dată, a3 = 16 și a5 = 64. Trebuie să aflăm primul termen.",
+      "vizual": "Un elev vede un exercițiu scris pe tablă: 'Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "În progresia dată, a3 = 16 și a5 = 64.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Trebuie să aflăm primul termen.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.078023,
+      "endProcent": 0.186389,
+      "procentDurata": 10.8366
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi formula generală a n = a1 * q^(n-1)",
+      "subtitlu": "Profesorul scrie pe tablă formula generală a n = a1 * q^(n-1) și relațiile pentru a3 și a5.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "3 = 16",
+      "naratiune": "Vom folosi formula generală a n = a1 * q^(n-1). Pentru a3 = 16, avem a1 * q^2 = 16. Pentru a5 = 64, avem a1 * q^4 = 64.",
+      "vizual": "Profesorul scrie pe tablă formula generală a n = a1 * q^(n-1) și relațiile pentru a3 și a5.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Vom folosi formula generală a n = a1 * q^(n-1).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Pentru a3 = 16, avem a1 * q^2 = 16.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "formula",
+          "text": "Pentru a5 = 64, avem a1 * q^4 = 64.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186389,
+      "endProcent": 0.316428,
+      "procentDurata": 13.0039
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice Vom identifica termenii progresiei și vom aplica formula generală Vom calcula termenul cerut folosind relațiile dintre termeni Vom verifica dacă progresia este corectă",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac cu progresii geometrice",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica termenii progresiei și vom aplica formula generală",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom calcula termenul cerut folosind relațiile dintre termeni",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă progresia este corectă",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316428,
+      "endProcent": 0.459471,
+      "procentDurata": 14.3043
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aflarea primului termen al unei progresii geometrice",
+      "subtitlu": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a1 = 4",
+      "naratiune": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1. Pentru a3 = 16: a1 * q^2 = 16 Pentru a5 = 64: a1 * q^4 = 64 Răspunsul final este a1 = 4.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Într-o progresie geometrică, a3 = 16 și a5 = 64. Să se afle a1.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a3 = 16: a1 * q^2 = 16",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru a5 = 64: a1 * q^4 = 64",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a1 = 4",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.459471,
+      "endProcent": 0.648895,
+      "procentDurata": 18.9423
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea lui a1 în progresia geometrică dată?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 4",
+      "naratiune": "Care este valoarea lui a1 în progresia geometrică dată? A) 2 B) 4 C) 8 Din relațiile a1 * q^2 = 16 și a1 * q^4 = 64, împărțim cele două ecuații și obținem q^2 = 4, deci q = 2. Înlocuim q = 2 în prima ecuație: a1 * 4 = 16 => a1 = 4.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea lui a1 în progresia geometrică dată?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 8",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648895,
+      "endProcent": 0.895969,
+      "procentDurata": 24.7074
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice",
+      "naratiune": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice Relațiile dintre termeni pot fi folosite pentru a găsi termenii necunoscuți",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Formula generală a n = a1 * q^(n-1) este esențială pentru progresii geometrice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Relațiile dintre termeni pot fi folosite pentru a găsi termenii necunoscuți",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.895969,
+      "endProcent": 1,
+      "procentDurata": 10.4031
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-14.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.914Z"
+  }
+}

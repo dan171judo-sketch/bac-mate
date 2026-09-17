@@ -1,0 +1,348 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l10",
+  "modul": 2,
+  "numarLectie": 10,
+  "titlu": "Periodicitate",
+  "slugContinut": "periodicitate",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l10-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Periodicitate",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă să repeti o acțiune?",
+        "Cum se aplică în matematică?",
+        "Ce se întâmplă dacă o funcție se repetă?",
+        "De ce este importantă în Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție periodică",
+          "naratiune": "Vrei să știi ce înseamnă să repeti o acțiune în matematică? Vom studia conceptul de periodicitate. O funcție periodică se repetă la intervale fixe, ca un zgomot de ploaie."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție periodică și o linie orizontală",
+          "naratiune": "Pentru a înțelege mai bine, să vedem un exemplu. Funcția f(x) = sin(x) se repetă la fiecare 2π. Acest interval se numește perioadă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Periodicitatea este când o funcție se repetă la intervale fixe.",
+        "Perioada este intervalul după care funcția se repetă."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determină perioada funcției f(x) = sin(2x)",
+        "enunt": "Fie funcția f(x) = sin(2x). Determină perioada funcției.",
+        "rezolvare": [
+          "Pentru funcția sin(kx), perioada este 2π/k.",
+          "În cazul nostru, k = 2, deci perioada este 2π/2 = π."
+        ],
+        "raspuns": "π"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce este perioada funcției f(x) = cos(3x)?",
+        "variante": [
+          "A) π/3",
+          "B) 2π/3",
+          "C) π"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru funcția cos(kx), perioada este 2π/k. În acest caz, k = 3, deci perioada este 2π/3, varianta A."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l10/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l10/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l10/m2-l10-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l10/m2-l10-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l10/m2-l10-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 10,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 10,
+        "titluLectie": "Periodicitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:31:29.143Z"
+      }
+    },
+    {
+      "id": "m2-l10-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Periodicitate - reguli și metodă",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția periodicității",
+        "Vom vedea cum se aplică în funcții trigonometrice",
+        "Vom analiza un exemplu concret",
+        "Vom rezolva un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Profesorul desenează graficul funcției sin x",
+          "naratiune": "Funcția sin x este periodică cu perioada 2π. Acest lucru înseamnă că valorile se repetă la intervale de 2π"
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul arată un tabel cu valori ale funcției cos x",
+          "naratiune": "Funcția cos x are aceeași perioadă ca sin x, adică 2π. Aceasta este o proprietate importantă pentru funcțiile trigonometrice"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Periodicitatea funcțiilor trigonometrice este 2π",
+        "Pentru a determina perioada, se caută cel mai mic număr pozitiv T pentru care f(x+T)=f(x)"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea perioadei funcției f(x)=sin(2x)",
+        "enunt": "Se dă funcția f(x)=sin(2x). Determinați perioada funcției.",
+        "rezolvare": [
+          "Pentru funcția sin(kx), perioada este T=2π/k",
+          "În cazul nostru, k=2, deci T=2π/2=π"
+        ],
+        "raspuns": "π"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce perioadă are funcția f(x)=cos(3x)?",
+        "variante": [
+          "A) π/3",
+          "B) 2π/3",
+          "C) π"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Pentru funcția cos(kx), perioada este T=2π/k. În cazul nostru, k=3, deci T=2π/3."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l10/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l10/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l10/m2-l10-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l10/m2-l10-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l10/m2-l10-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 10,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 10,
+        "titluLectie": "Periodicitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:36:14.815Z"
+      }
+    },
+    {
+      "id": "m2-l10-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Periodicitatea funcției trigonometrice",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+        "Vrei să știi cum să găsești perioada unei funcții?",
+        "Vrei să știi cum să aplici această noțiune la un exercițiu de tip Bac?",
+        "Vrei să știi cum să verifici dacă un exercițiu este corect?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "O funcție trigonometrică pe un grafic",
+          "naratiune": "Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este periodică și ce perioadă are?"
+        },
+        {
+          "numar": 2,
+          "vizual": "Calculul perioadei funcției",
+          "naratiune": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În cazul nostru, k = 2, deci T = 2π/2 = π."
+        },
+        {
+          "numar": 3,
+          "vizual": "Verificarea periodicității",
+          "naratiune": "Verificăm dacă f(x + T) = f(x). sin(2(x + π)) = sin(2x + 2π) = sin(2x), deci funcția este periodică cu perioada π."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Perioada funcției sin(kx) este T = 2π/k",
+        "Pentru a verifica periodicitatea, verificăm dacă f(x + T) = f(x)"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Perioada funcției f(x) = sin(2x)",
+        "enunt": "Determină perioada funcției f(x) = sin(2x).",
+        "rezolvare": [
+          "Identificăm k = 2 din funcția f(x) = sin(kx).",
+          "Aplicăm formula perioadei: T = 2π/k = 2π/2 = π."
+        ],
+        "raspuns": "π"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este perioada funcției f(x) = sin(3x)?",
+        "variante": [
+          "A) π/3",
+          "B) 2π/3",
+          "C) π"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Pentru funcția sin(3x), k = 3. Aplicăm formula T = 2π/k = 2π/3. Răspunsul corect este B)."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l10/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l10/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l10/m2-l10-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l10/m2-l10-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l10/m2-l10-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 10,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 10,
+        "titluLectie": "Periodicitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:46:11.624Z"
+      }
+    },
+    {
+      "id": "m2-l10-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Periodicitate - cum să eviți greșelile",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să știi cum să recunoști o funcție periodică?",
+        "Ce înseamnă să ai o perioadă de 2π?",
+        "De ce elevii greșesc la aceste probleme?",
+        "Cum să verifici dacă o funcție este periodică?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție sinusoidală",
+          "naratiune": "O funcție periodică se repetă la intervale egale. De exemplu, funcția sinus se repetă la fiecare 2π."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție care nu se repetă",
+          "naratiune": "Dacă o funcție nu se repetă, nu este periodică. De exemplu, funcția f(x) = x + 1 nu are perioadă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x.",
+        "Perioada este cea mai mică valoare T pentru care se îndeplinește condiția."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare periodicitate",
+        "enunt": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are?",
+        "rezolvare": [
+          "Pentru a verifica periodicitatea, folosim formula f(x + T) = f(x).",
+          "Pentru funcția sinusoidală f(x) = A sin(Bx), perioada este T = 2π / |B|. Aici B = 3, deci T = 2π / 3."
+        ],
+        "raspuns": "Da, perioada este 2π/3."
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are?",
+        "variante": [
+          "A) Da, 2π/4",
+          "B) Nu este periodică",
+          "C) Da, π/2"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Funcția cosinus este periodică. Perioada este T = 2π / |B|. Aici B = 4, deci T = 2π/4 = π/2. Varianta corectă este A."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l10/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l10/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l10/m2-l10-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l10/m2-l10-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l10/m2-l10-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 10,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 10,
+        "titluLectie": "Periodicitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T12:21:29.721Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T12:21:29.721Z",
+    "necesitaVerificareUmana": true
+  }
+}

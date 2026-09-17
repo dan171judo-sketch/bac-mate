@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Modulul unui număr real este distanța dintre număr și zero pe axa numerelor. Deci, dacă numărul este pozitiv, modulul este același cu numărul. Dacă numărul este negativ, modulul este opusul lui.
+
+2
+00:02:30.000 --> 00:05:00.000
+Vom calcula modulul lui -5. Deoarece -5 este negativ, modulul este opusul lui, adică 5.
+

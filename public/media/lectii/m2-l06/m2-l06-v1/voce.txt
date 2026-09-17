@@ -1,0 +1,7 @@
+Ce înseamnă ca două funcții să fie egale?
+
+De ce este important să știm să le comparăm?
+
+Cum putem verifica dacă două funcții sunt egale?
+
+Ce se întâmplă dacă nu sunt egale?

@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l06",
+    "modul": 1,
+    "numarLectie": 6,
+    "titlu": "Cuantificatori",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l06-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Cuantificatori - Exemplu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori - Exemplu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori - Exemplu de tip Bac",
+      "naratiune": "Ce sunt cuantificatorii?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori - Exemplu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori - Exemplu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce sunt cuantificatorii?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.081154,
+      "procentDurata": 8.1154
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Cuantificatorii sunt cuvinte care indică cantitatea…",
+      "subtitlu": "Ecranul arată cuantificatorii universal și existențial",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Cuantificatorii sunt cuvinte care indică cantitatea de elem…",
+      "naratiune": "Cuantificatorii sunt cuvinte care indică cantitatea de elemente dintr-o propoziție. Cea mai frecventă formă este cuantificatorul universal, notat cu ∀, care înseamnă 'oricare' sau 'pentru orice'. Al doilea este cuantificatorul existențial, notat cu ∃, care înseamnă 'există' sau 'cel puțin un'.",
+      "vizual": "Ecranul arată cuantificatorii universal și existențial",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt cuvinte care indică cantitatea de elemente dintr-o propoziție.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Cea mai frecventă formă este cuantificatorul universal, notat cu ∀, care înseamnă 'oricare' sau 'pentru orice'.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Al doilea este cuantificatorul existențial, notat cu ∃, care înseamnă 'există' sau 'cel puțin un'.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.081154,
+      "endProcent": 0.266005,
+      "procentDurata": 18.4851
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom rezolva un exercițiu de tip Bac",
+      "subtitlu": "Ecranul arată un exercițiu de tip Bac cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac. Enunțul spune: '∀x ∈ ℝ…",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac. Enunțul spune: '∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0'. Trebuie să determinăm dacă propoziția este adevărată sau falsă.",
+      "vizual": "Ecranul arată un exercițiu de tip Bac cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Enunțul spune: '∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0'.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Trebuie să determinăm dacă propoziția este adevărată sau falsă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.266005,
+      "endProcent": 0.405771,
+      "procentDurata": 13.9766
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce sunt cuantificatorii?",
+      "naratiune": "Ce sunt cuantificatorii? Cum se folosesc în exerciții? Ce diferență fac între ei? Cum se rezolvă exercițiile?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce sunt cuantificatorii?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se folosesc în exerciții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce diferență fac între ei?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum se rezolvă exercițiile?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.405771,
+      "endProcent": 0.482417,
+      "procentDurata": 7.6646
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea adevărului unei propoziții cu cuantific…",
+      "subtitlu": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Adevărat",
+      "naratiune": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 Pentru orice x real, trebuie să găsim un y real astfel încât x + y = 0. y = -x este soluția. Deoarece pentru orice x real, y = -x este real, propoziția este adevărată. Răspunsul final este Adevărat.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru orice x real, trebuie să găsim un y real astfel încât x + y = 0. y = -x este soluția.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece pentru orice x real, y = -x este real, propoziția este adevărată.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Adevărat",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.482417,
+      "endProcent": 0.752029,
+      "procentDurata": 26.9612
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Adevărat",
+      "naratiune": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este: A) Adevărat B) Fals C) Nu se poate determina Pentru orice x real, există y = -x real, deci propoziția este adevărată.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Adevărat",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Fals",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu se poate determina",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Adevărat",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.752029,
+      "endProcent": 0.918846,
+      "procentDurata": 16.6817
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul universal ∀ indică 'oricare'",
+      "naratiune": "Cuantificatorul universal ∀ indică 'oricare' Cuantificatorul existențial ∃ indică 'există'",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul universal ∀ indică 'oricare'",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul existențial ∃ indică 'există'",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.918846,
+      "endProcent": 1,
+      "procentDurata": 8.1154
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Cuantificatori - Exemplu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Cuantificatori”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Cuantificatori - Exemplu de tip Bac",
+      "naratiune": "Ce sunt cuantificatorii?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Cuantificatori - Exemplu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Cuantificatori - Exemplu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce sunt cuantificatorii?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.081154,
+      "procentDurata": 8.1154
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Cuantificatorii sunt cuvinte care indică cantitatea…",
+      "subtitlu": "Ecranul arată cuantificatorii universal și existențial",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Cuantificatorii sunt cuvinte care indică cantitatea de elem…",
+      "naratiune": "Cuantificatorii sunt cuvinte care indică cantitatea de elemente dintr-o propoziție. Cea mai frecventă formă este cuantificatorul universal, notat cu ∀, care înseamnă 'oricare' sau 'pentru orice'. Al doilea este cuantificatorul existențial, notat cu ∃, care înseamnă 'există' sau 'cel puțin un'.",
+      "vizual": "Ecranul arată cuantificatorii universal și existențial",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Cuantificatorii sunt cuvinte care indică cantitatea de elemente dintr-o propoziție.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Cea mai frecventă formă este cuantificatorul universal, notat cu ∀, care înseamnă 'oricare' sau 'pentru orice'.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Al doilea este cuantificatorul existențial, notat cu ∃, care înseamnă 'există' sau 'cel puțin un'.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.081154,
+      "endProcent": 0.266005,
+      "procentDurata": 18.4851
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom rezolva un exercițiu de tip Bac",
+      "subtitlu": "Ecranul arată un exercițiu de tip Bac cu cuantificatori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac. Enunțul spune: '∀x ∈ ℝ…",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac. Enunțul spune: '∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0'. Trebuie să determinăm dacă propoziția este adevărată sau falsă.",
+      "vizual": "Ecranul arată un exercițiu de tip Bac cu cuantificatori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Enunțul spune: '∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0'.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Trebuie să determinăm dacă propoziția este adevărată sau falsă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.266005,
+      "endProcent": 0.405771,
+      "procentDurata": 13.9766
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce sunt cuantificatorii?",
+      "naratiune": "Ce sunt cuantificatorii? Cum se folosesc în exerciții? Ce diferență fac între ei? Cum se rezolvă exercițiile?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce sunt cuantificatorii?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se folosesc în exerciții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce diferență fac între ei?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum se rezolvă exercițiile?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.405771,
+      "endProcent": 0.482417,
+      "procentDurata": 7.6646
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea adevărului unei propoziții cu cuantific…",
+      "subtitlu": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Adevărat",
+      "naratiune": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 Pentru orice x real, trebuie să găsim un y real astfel încât x + y = 0. y = -x este soluția. Deoarece pentru orice x real, y = -x este real, propoziția este adevărată. Răspunsul final este Adevărat.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru orice x real, trebuie să găsim un y real astfel încât x + y = 0. y = -x este soluția.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece pentru orice x real, y = -x este real, propoziția este adevărată.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Adevărat",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.482417,
+      "endProcent": 0.752029,
+      "procentDurata": 26.9612
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Adevărat",
+      "naratiune": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este: A) Adevărat B) Fals C) Nu se poate determina Pentru orice x real, există y = -x real, deci propoziția este adevărată.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Propoziția ∀x ∈ ℝ, ∃y ∈ ℝ astfel încât x + y = 0 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Adevărat",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Fals",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu se poate determina",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Adevărat",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.752029,
+      "endProcent": 0.918846,
+      "procentDurata": 16.6817
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Cuantificatorul universal ∀ indică 'oricare'",
+      "naratiune": "Cuantificatorul universal ∀ indică 'oricare' Cuantificatorul existențial ∃ indică 'există'",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul universal ∀ indică 'oricare'",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Cuantificatorul existențial ∃ indică 'există'",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.918846,
+      "endProcent": 1,
+      "procentDurata": 8.1154
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-06.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.515Z"
+  }
+}

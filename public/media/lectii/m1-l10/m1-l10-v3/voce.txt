@@ -1,0 +1,7 @@
+Începem cu o inegalitate simplă pe care o vom demonstra.
+
+Vom folosi metoda demonstrației prin reducere la absurd.
+
+Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret.
+
+Vom generaliza pentru orice valoare a variabilei.

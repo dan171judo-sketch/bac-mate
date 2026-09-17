@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla intersecția lor.
+
+2
+00:02:30.000 --> 00:05:00.000
+Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}.
+

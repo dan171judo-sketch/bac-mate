@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l09",
+    "modul": 2,
+    "numarLectie": 9,
+    "titlu": "Paritate și imparitate",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l09-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Paritatea funcțiilor",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Paritatea funcțiilor",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Paritatea funcțiilor",
+      "naratiune": "Ce înseamnă paritatea unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Paritatea funcțiilor”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Paritatea funcțiilor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.088801,
+      "procentDurata": 8.8801
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este pară dacă f(x) = f(-x) pentru orice…",
+      "subtitlu": "Un grafic al unei funcții pe ecran",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este pară dacă f(x) = f(-x) pentru orice x din do…",
+      "naratiune": "O funcție este pară dacă f(x) = f(-x) pentru orice x din domeniu. Graficul este simetric față de axa OY.",
+      "vizual": "Un grafic al unei funcții pe ecran",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "O funcție este pară dacă f(x) = f(-x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Graficul este simetric față de axa OY.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.088801,
+      "endProcent": 0.187469,
+      "procentDurata": 9.8668
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este impară dacă f(x) = -f(-x) pentru ori…",
+      "subtitlu": "Un grafic al unei funcții pe ecran",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din…",
+      "naratiune": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din domeniu. Graficul este simetric față de origine.",
+      "vizual": "Un grafic al unei funcții pe ecran",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Graficul este simetric față de origine.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.187469,
+      "endProcent": 0.281204,
+      "procentDurata": 9.3735
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă paritatea unei funcții?",
+      "naratiune": "Ce înseamnă paritatea unei funcții? Cum se verifică dacă o funcție este pară sau impară? Ce se întâmplă cu graficul unei funcții pare? Ce greșeli se fac adesea la această temă?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică dacă o funcție este pară sau impară?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu graficul unei funcții pare?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce greșeli se fac adesea la această temă?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.281204,
+      "endProcent": 0.434139,
+      "procentDurata": 15.2935
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea parității funcției f(x) = x² - 3",
+      "subtitlu": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Pară",
+      "naratiune": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară. Calculăm f(-x) = (-x)² - 3 = x² - 3. Comparam cu f(x): f(-x) = f(x), deci funcția este pară. Răspunsul final este Pară.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm f(-x) = (-x)² - 3 = x² - 3.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Comparam cu f(x): f(-x) = f(x), deci funcția este pară.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Pară",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.434139,
+      "endProcent": 0.649729,
+      "procentDurata": 21.559
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Impară",
+      "naratiune": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două? A) Pară B) Impară C) Nici una dintre cele două Calculăm f(-x) = (-x)³ - (-x) = -x³ + x = -(x³ - x) = -f(x). Deci funcția este impară.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Pară",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Impară",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nici una dintre cele două",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Impară",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.649729,
+      "endProcent": 0.871732,
+      "procentDurata": 22.2003
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x).",
+      "naratiune": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x). Graficul unei funcții pare este simetric față de OY, iar al unei impare față de origine.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x).",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Graficul unei funcții pare este simetric față de OY, iar al unei impare față de origine.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.871732,
+      "endProcent": 1,
+      "procentDurata": 12.8268
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Paritatea funcțiilor",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Paritatea funcțiilor",
+      "naratiune": "Ce înseamnă paritatea unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Paritatea funcțiilor”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Paritatea funcțiilor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.088801,
+      "procentDurata": 8.8801
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este pară dacă f(x) = f(-x) pentru orice…",
+      "subtitlu": "Un grafic al unei funcții pe ecran",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este pară dacă f(x) = f(-x) pentru orice x din do…",
+      "naratiune": "O funcție este pară dacă f(x) = f(-x) pentru orice x din domeniu. Graficul este simetric față de axa OY.",
+      "vizual": "Un grafic al unei funcții pe ecran",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "O funcție este pară dacă f(x) = f(-x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Graficul este simetric față de axa OY.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.088801,
+      "endProcent": 0.187469,
+      "procentDurata": 9.8668
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este impară dacă f(x) = -f(-x) pentru ori…",
+      "subtitlu": "Un grafic al unei funcții pe ecran",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din…",
+      "naratiune": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din domeniu. Graficul este simetric față de origine.",
+      "vizual": "Un grafic al unei funcții pe ecran",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Graficul este simetric față de origine.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.187469,
+      "endProcent": 0.281204,
+      "procentDurata": 9.3735
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă paritatea unei funcții?",
+      "naratiune": "Ce înseamnă paritatea unei funcții? Cum se verifică dacă o funcție este pară sau impară? Ce se întâmplă cu graficul unei funcții pare? Ce greșeli se fac adesea la această temă?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică dacă o funcție este pară sau impară?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu graficul unei funcții pare?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce greșeli se fac adesea la această temă?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.281204,
+      "endProcent": 0.434139,
+      "procentDurata": 15.2935
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea parității funcției f(x) = x² - 3",
+      "subtitlu": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Pară",
+      "naratiune": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară. Calculăm f(-x) = (-x)² - 3 = x² - 3. Comparam cu f(x): f(-x) = f(x), deci funcția este pară. Răspunsul final este Pară.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm f(-x) = (-x)² - 3 = x² - 3.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Comparam cu f(x): f(-x) = f(x), deci funcția este pară.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Pară",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.434139,
+      "endProcent": 0.649729,
+      "procentDurata": 21.559
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Impară",
+      "naratiune": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două? A) Pară B) Impară C) Nici una dintre cele două Calculăm f(-x) = (-x)³ - (-x) = -x³ + x = -(x³ - x) = -f(x). Deci funcția este impară.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Pară",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Impară",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nici una dintre cele două",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Impară",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.649729,
+      "endProcent": 0.871732,
+      "procentDurata": 22.2003
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x).",
+      "naratiune": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x). Graficul unei funcții pare este simetric față de OY, iar al unei impare față de origine.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x).",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Graficul unei funcții pare este simetric față de OY, iar al unei impare față de origine.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.871732,
+      "endProcent": 1,
+      "procentDurata": 12.8268
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-09.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.813Z"
+  }
+}

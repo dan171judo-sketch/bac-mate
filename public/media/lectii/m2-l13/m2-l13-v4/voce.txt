@@ -1,0 +1,7 @@
+Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac
+
+Vom analiza greșelile comune în calculul termenilor
+
+Vom verifica dacă răspunsul este corect
+
+Vom învăța cum să evităm greșelile

@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l08",
+  "modul": 2,
+  "numarLectie": 8,
+  "titlu": "Monotonie și mărginire",
+  "slugContinut": "monotonie-si-marginire",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l08-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Monotonie și mărginire",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă că o funcție este crescătoare?",
+        "Cum putem verifica dacă o funcție este descrescătoare?",
+        "Ce înseamnă că o funcție este mărginită?",
+        "Cum putem determina dacă o funcție are valori mărginite?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție crescătoare",
+          "naratiune": "O funcție este crescătoare dacă, când x crește, f(x) crește. De exemplu, dacă x1 < x2, atunci f(x1) < f(x2)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție descrescătoare",
+          "naratiune": "O funcție este descrescătoare dacă, când x crește, f(x) scade. De exemplu, dacă x1 < x3, atunci f(x1) > f(x3)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Monotonie: funcția crește sau scade pe tot domeniul.",
+        "Mărginire: funcția are valori maxime și minime."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare monotonie",
+        "enunt": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare?",
+        "rezolvare": [
+          "Calculăm derivata: f'(x) = 2.",
+          "Dacă f'(x) > 0, funcția este crescătoare.",
+          "Dacă f'(x) < 0, funcția este descrescătoare."
+        ],
+        "raspuns": "Crescătoare"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare?",
+        "variante": [
+          "A) Crescătoare",
+          "B) Descrescătoare",
+          "C) Constantă"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Derivata este f'(x) = -3 < 0, deci funcția este descrescătoare."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l08/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l08/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l08/m2-l08-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l08/m2-l08-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l08/m2-l08-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 8,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 8,
+        "titluLectie": "Monotonie și mărginire",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T12:31:17.385Z"
+      }
+    },
+    {
+      "id": "m2-l08-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Monotonie și mărginire",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția monotoniei",
+        "Vom vedea cum se aplică în exerciții",
+        "Analizăm mărginirea funcțiilor",
+        "Rezolvăm un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Profesorul desenează graficul unei funcții",
+          "naratiune": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul arată un tabel cu valori",
+          "naratiune": "Pentru mărginire, verificăm dacă funcția are valori maxime și minime."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Monotonia se verifică prin comparație între valori",
+        "Mărginirea implică existența unui maxim și minim"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare monotonie și mărginire",
+        "enunt": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2].",
+        "rezolvare": [
+          "Calculăm derivata f'(x) = 2x - 4. Pe [1, 2], f'(x) ≤ 0, deci funcția este descrescătoare.",
+          "Calculăm f(1) = -2 și f(2) = -3. Valoarea minimă este -3, maximul -2, deci funcția este mărginită."
+        ],
+        "raspuns": "Funcția este descrescătoare și mărginită pe [1, 2]."
+      },
+      "verificareRapida": {
+        "intrebare": "Funcția f(x) = x² - 4x + 3 este:",
+        "variante": [
+          "A) crescătoare pe [1, 2]",
+          "B) descrescătoare pe [1, 2]",
+          "C) mărginită pe [1, 2]"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Derivata este negativă pe [1, 2], deci funcția este descrescătoare. Valori minime și maxime există, deci este mărginită."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l08/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l08/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l08/m2-l08-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l08/m2-l08-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l08/m2-l08-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 8,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 8,
+        "titluLectie": "Monotonie și mărginire",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T12:40:11.783Z"
+      }
+    },
+    {
+      "id": "m2-l08-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Monotonie și mărginire",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom analiza o funcție pentru a vedea dacă este crescătoare sau descrescătoare",
+        "Vom determina dacă funcția este mărginită",
+        "Vom folosi derivata pentru a studia monotonie",
+        "Vom verifica dacă funcția are valori maxime sau minime"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Funcția f(x) = x³ - 3x",
+          "naratiune": "Vom analiza funcția f(x) = x³ - 3x pentru monotonie și mărginire"
+        },
+        {
+          "numar": 2,
+          "vizual": "Graficul funcției f(x) = x³ - 3x",
+          "naratiune": "Vom studia comportamentul funcției folosind derivata"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Pentru a studia monotonie folosim derivata",
+        "Funcția este mărginită dacă are valori maxime și minime"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Studiază monotonie și mărginirea funcției f(x) = x³ - 3x",
+        "enunt": "Fie funcția f: R → R, f(x) = x³ - 3x. Studiază monotonie și mărginirea funcției.",
+        "rezolvare": [
+          "Calculăm derivata: f’(x) = 3x² - 3",
+          "Determinăm semnul derivatei: 3x² - 3 = 0 ⇒ x² = 1 ⇒ x = ±1"
+        ],
+        "raspuns": "Funcția este descrescătoare pe (-∞, -1], crescătoare pe [-1, 1] și descrescătoare pe [1, ∞). Funcția nu este mărginită."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este intervalul de descrescere a funcției f(x) = x³ - 3x?",
+        "variante": [
+          "A) (-∞, -1]",
+          "B) [-1, 1]",
+          "C) [1, ∞)"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Derivata este negativă pentru x < -1, deci funcția este descrescătoare pe (-∞, -1]"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l08/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l08/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l08/m2-l08-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l08/m2-l08-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l08/m2-l08-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 8,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 8,
+        "titluLectie": "Monotonie și mărginire",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T12:44:21.526Z"
+      }
+    },
+    {
+      "id": "m2-l08-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Monotonie și mărginire la Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă monotonie?",
+        "Cum se verifică mărginirea?",
+        "Ce se întâmplă dacă funcția nu este mărginită?",
+        "De ce este importantă în Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții crescătoare și al unei funcții descrescătoare",
+          "naratiune": "Monotonie înseamnă că funcția este întotdeauna crescătoare sau descrescătoare. Dacă este crescătoare, valoarea funcției crește când x crește. Dacă este descrescătoare, valoarea funcției scade când x crește."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic al unei funcții care nu este mărginită",
+          "naratiune": "O funcție este mărginită dacă are valori maxime și minime. Dacă nu este mărginită, atunci ea tinde spre infinit sau minus infinit. În Bac, se cer adesea să verificăm dacă o funcție este mărginită sau nu."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Monotonie: funcția este întotdeauna crescătoare sau descrescătoare.",
+        "Mărginire: funcția are valori maxime și minime."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare monotonie și mărginire",
+        "enunt": "Fie funcția f(x) = 3x - 2. Verificați dacă este monotonă și dacă este mărginită.",
+        "rezolvare": [
+          "Calculăm derivata: f'(x) = 3. Derivata este pozitivă, deci funcția este crescătoare.",
+          "Funcția este de forma ax + b, deci nu este mărginită."
+        ],
+        "raspuns": "Funcția este crescătoare, dar nu este mărginită."
+      },
+      "verificareRapida": {
+        "intrebare": "Funcția f(x) = 2x + 1 este:",
+        "variante": [
+          "A) crescătoare și mărginită",
+          "B) descrescătoare și mărginită",
+          "C) crescătoare și nu este mărginită"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Derivata este 2 > 0, deci funcția este crescătoare. Funcția este de forma ax + b, deci nu este mărginită."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l08/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l08/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l08/m2-l08-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l08/m2-l08-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l08/m2-l08-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 8,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 8,
+        "titluLectie": "Monotonie și mărginire",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T12:56:32.018Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T12:56:32.018Z",
+    "necesitaVerificareUmana": true
+  }
+}

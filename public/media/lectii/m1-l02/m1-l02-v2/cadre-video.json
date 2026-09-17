@@ -1,0 +1,641 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l02",
+    "modul": 1,
+    "numarLectie": 2,
+    "titlu": "Estimări și aproximări",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l02-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Estimări și aproximări",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Estimări și aproximări",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Estimări și aproximări",
+      "naratiune": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Estimări și aproximări”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Estimări și aproximări",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.113684,
+      "procentDurata": 11.3684
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu o estimare simplă",
+      "subtitlu": "Un elev care citește un exemplu de estimare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu o estimare simplă. Să presupunem că avem 123…",
+      "naratiune": "Vom începe cu o estimare simplă. Să presupunem că avem 123 de mere și vrem să le împărțim la 4 copii. În loc să calculăm exact, estimăm că fiecare copil primește 30 de mere.",
+      "vizual": "Un elev care citește un exemplu de estimare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu o estimare simplă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Să presupunem că avem 123 de mere și vrem să le împărțim la 4 copii.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "În loc să calculăm exact, estimăm că fiecare copil primește 30 de mere.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.113684,
+      "endProcent": 0.256842,
+      "procentDurata": 14.3158
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum calculăm exact: 123 împărțit la 4 este 30,75",
+      "subtitlu": "Un elev care calculează exact și compară cu estimarea",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum calculăm exact: 123 împărțit la 4 este 30,75. Așa că e…",
+      "naratiune": "Acum calculăm exact: 123 împărțit la 4 este 30,75. Așa că estimarea de 30 este foarte aproape de valoarea reală.",
+      "vizual": "Un elev care calculează exact și compară cu estimarea",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum calculăm exact: 123 împărțit la 4 este 30,75.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Așa că estimarea de 30 este foarte aproape de valoarea reală.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.256842,
+      "endProcent": 0.341053,
+      "procentDurata": 8.4211
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+      "naratiune": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni. În matematică, estimările sunt importante pentru a simplifica calculele și a obține rezultate aproape exacte. Aproximarea este o metodă de a rotunji numere pentru a le face mai ușor de folosit. Aceste metode sunt folosite în probleme de tip Bac pentru a verifica dacă știm să aplicăm corect regulile.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "În matematică, estimările sunt importante pentru a simplifica calculele și a obține rezultate aproape exacte.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Aproximarea este o metodă de a rotunji numere pentru a le face mai ușor de folosit.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Aceste metode sunt folosite în probleme de tip Bac pentru a verifica dacă știm să aplicăm corect regulile.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.341053,
+      "endProcent": 0.661053,
+      "procentDurata": 32
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aproximarea unui număr",
+      "subtitlu": "Aproximează numărul 123,45 la zece.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "120",
+      "naratiune": "Aproximează numărul 123,45 la zece. Rotunjim numărul 123,45 la zece. Unitățile sunt 3,45, care este mai mic decât 5, deci rotunjim în jos. Rezultatul este 120. Răspunsul final este 120.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Aproximează numărul 123,45 la zece.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Rotunjim numărul 123,45 la zece. Unitățile sunt 3,45, care este mai mic decât 5, deci rotunjim în jos.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Rezultatul este 120.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 120",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.661053,
+      "endProcent": 0.806316,
+      "procentDurata": 14.5263
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Aproximează numărul 456,78 la sută.",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 500",
+      "naratiune": "Aproximează numărul 456,78 la sută. A) 400 B) 500 C) 600 Numărul 456,78 este mai aproape de 500 decât de 400 sau 600. Deci, aproximarea corectă este 500.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Aproximează numărul 456,78 la sută.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 400",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 500",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 600",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 500",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.806316,
+      "endProcent": 0.924211,
+      "procentDurata": 11.7895
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Estimarea este o metodă de a simplifica calculele.",
+      "naratiune": "Estimarea este o metodă de a simplifica calculele. Aproximarea se face prin rotunjirea numerelor.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Estimarea este o metodă de a simplifica calculele.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Aproximarea se face prin rotunjirea numerelor.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.924211,
+      "endProcent": 1,
+      "procentDurata": 7.5789
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Estimări și aproximări",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Estimări și aproximări",
+      "naratiune": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Estimări și aproximări”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Estimări și aproximări",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.113684,
+      "procentDurata": 11.3684
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu o estimare simplă",
+      "subtitlu": "Un elev care citește un exemplu de estimare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu o estimare simplă. Să presupunem că avem 123…",
+      "naratiune": "Vom începe cu o estimare simplă. Să presupunem că avem 123 de mere și vrem să le împărțim la 4 copii. În loc să calculăm exact, estimăm că fiecare copil primește 30 de mere.",
+      "vizual": "Un elev care citește un exemplu de estimare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu o estimare simplă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Să presupunem că avem 123 de mere și vrem să le împărțim la 4 copii.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "În loc să calculăm exact, estimăm că fiecare copil primește 30 de mere.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.113684,
+      "endProcent": 0.256842,
+      "procentDurata": 14.3158
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum calculăm exact: 123 împărțit la 4 este 30,75",
+      "subtitlu": "Un elev care calculează exact și compară cu estimarea",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum calculăm exact: 123 împărțit la 4 este 30,75. Așa că e…",
+      "naratiune": "Acum calculăm exact: 123 împărțit la 4 este 30,75. Așa că estimarea de 30 este foarte aproape de valoarea reală.",
+      "vizual": "Un elev care calculează exact și compară cu estimarea",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum calculăm exact: 123 împărțit la 4 este 30,75.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Așa că estimarea de 30 este foarte aproape de valoarea reală.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.256842,
+      "endProcent": 0.341053,
+      "procentDurata": 8.4211
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+      "naratiune": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni. În matematică, estimările sunt importante pentru a simplifica calculele și a obține rezultate aproape exacte. Aproximarea este o metodă de a rotunji numere pentru a le face mai ușor de folosit. Aceste metode sunt folosite în probleme de tip Bac pentru a verifica dacă știm să aplicăm corect regulile.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "În matematică, estimările sunt importante pentru a simplifica calculele și a obține rezultate aproape exacte.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Aproximarea este o metodă de a rotunji numere pentru a le face mai ușor de folosit.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Aceste metode sunt folosite în probleme de tip Bac pentru a verifica dacă știm să aplicăm corect regulile.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.341053,
+      "endProcent": 0.661053,
+      "procentDurata": 32
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Aproximarea unui număr",
+      "subtitlu": "Aproximează numărul 123,45 la zece.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "120",
+      "naratiune": "Aproximează numărul 123,45 la zece. Rotunjim numărul 123,45 la zece. Unitățile sunt 3,45, care este mai mic decât 5, deci rotunjim în jos. Rezultatul este 120. Răspunsul final este 120.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Aproximează numărul 123,45 la zece.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Rotunjim numărul 123,45 la zece. Unitățile sunt 3,45, care este mai mic decât 5, deci rotunjim în jos.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Rezultatul este 120.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 120",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.661053,
+      "endProcent": 0.806316,
+      "procentDurata": 14.5263
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Aproximează numărul 456,78 la sută.",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 500",
+      "naratiune": "Aproximează numărul 456,78 la sută. A) 400 B) 500 C) 600 Numărul 456,78 este mai aproape de 500 decât de 400 sau 600. Deci, aproximarea corectă este 500.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Aproximează numărul 456,78 la sută.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 400",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 500",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 600",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 500",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.806316,
+      "endProcent": 0.924211,
+      "procentDurata": 11.7895
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Estimarea este o metodă de a simplifica calculele.",
+      "naratiune": "Estimarea este o metodă de a simplifica calculele. Aproximarea se face prin rotunjirea numerelor.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Estimarea este o metodă de a simplifica calculele.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Aproximarea se face prin rotunjirea numerelor.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.924211,
+      "endProcent": 1,
+      "procentDurata": 7.5789
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T09:05:33.658Z"
+  }
+}

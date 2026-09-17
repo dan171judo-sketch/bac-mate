@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l04",
+    "modul": 2,
+    "numarLectie": 4,
+    "titlu": "Graficul unei funcții",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l04-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Graficul unei funcții",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul unei funcții",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul unei funcții",
+      "naratiune": "Începem cu definiția graficului unei funcții",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul unei funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul unei funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția graficului unei funcții",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.07486,
+      "procentDurata": 7.486
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții este mulțimea tuturor punctel…",
+      "subtitlu": "Profesorul desenează un sistem de axe de coordonate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții este mulțimea tuturor punctelor (x, f…",
+      "naratiune": "Graficul unei funcții este mulțimea tuturor punctelor (x, f(x)) din plan, unde x este din domeniul de definiție al funcției și f(x) este valoarea funcției în acel punct",
+      "vizual": "Profesorul desenează un sistem de axe de coordonate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții este mulțimea tuturor punctelor (x, f(x)) din plan, unde x este din domeniul de definiție al funcției și f(x) es…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.07486,
+      "endProcent": 0.191308,
+      "procentDurata": 11.6448
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = x², graficul este o parabolă…",
+      "subtitlu": "Profesorul desenează graficul funcției f(x) = x²",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = x², graficul este o parabolă cu vârfu…",
+      "naratiune": "Pentru funcția f(x) = x², graficul este o parabolă cu vârful în origine, simetrică față de axa Oy",
+      "vizual": "Profesorul desenează graficul funcției f(x) = x²",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = x², graficul este o parabolă cu vârful în origine, simetrică față de axa Oy",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.191308,
+      "endProcent": 0.266168,
+      "procentDurata": 7.486
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția graficului unei funcții",
+      "naratiune": "Începem cu definiția graficului unei funcții Vom vedea cum se construiește graficul Vom analiza proprietățile graficului Vom rezolva un exercițiu de tip Bac",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția graficului unei funcții",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se construiește graficul",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza proprietățile graficului",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.266168,
+      "endProcent": 0.361822,
+      "procentDurata": 9.5654
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Construirea graficului funcției f(x) = |x|",
+      "subtitlu": "Scrieți graficul funcției f(x) = |x|",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Graficul este o dreaptă în formă de V cu vârful în origine",
+      "naratiune": "Scrieți graficul funcției f(x) = |x| Pentru x ≥ 0, f(x) = x, deci graficul este semidreapta de pe axa Ox Pentru x < 0, f(x) = -x, deci graficul este semidreapta de pe axa Ox Graficul este o dreaptă în formă de V cu vârful în origine Răspunsul final este Graficul este o dreaptă în formă de V cu vârful în origine.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți graficul funcției f(x) = |x|",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru x ≥ 0, f(x) = x, deci graficul este semidreapta de pe axa Ox",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x < 0, f(x) = -x, deci graficul este semidreapta de pe axa Ox",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Graficul este o dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Graficul este o dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.361822,
+      "endProcent": 0.663132,
+      "procentDurata": 30.131
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este graficul funcției f(x) = |x|?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) O dreaptă în formă de V cu vârful în origine",
+      "naratiune": "Care este graficul funcției f(x) = |x|? A) O parabolă cu vârful în origine B) O dreaptă în formă de V cu vârful în origine C) O dreaptă orizontală Funcția f(x) = |x| are graficul o dreaptă în formă de V cu vârful în origine, deoarece pentru x ≥ 0, f(x) = x, iar pentru x < 0, f(x) = -x.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este graficul funcției f(x) = |x|?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) O parabolă cu vârful în origine",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) O dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) O dreaptă orizontală",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) O dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.663132,
+      "endProcent": 0.916823,
+      "procentDurata": 25.3691
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul unei funcții este mulțimea punctelor (x, f(x))",
+      "naratiune": "Graficul unei funcții este mulțimea punctelor (x, f(x)) Pentru a construi graficul, trebuie să cunoaștem valorile funcției în diferite puncte",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul unei funcții este mulțimea punctelor (x, f(x))",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a construi graficul, trebuie să cunoaștem valorile funcției în diferite puncte",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.916823,
+      "endProcent": 1,
+      "procentDurata": 8.3177
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul unei funcții",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul unei funcții",
+      "naratiune": "Începem cu definiția graficului unei funcții",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul unei funcții”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul unei funcții",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția graficului unei funcții",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.07486,
+      "procentDurata": 7.486
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții este mulțimea tuturor punctel…",
+      "subtitlu": "Profesorul desenează un sistem de axe de coordonate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții este mulțimea tuturor punctelor (x, f…",
+      "naratiune": "Graficul unei funcții este mulțimea tuturor punctelor (x, f(x)) din plan, unde x este din domeniul de definiție al funcției și f(x) este valoarea funcției în acel punct",
+      "vizual": "Profesorul desenează un sistem de axe de coordonate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții este mulțimea tuturor punctelor (x, f(x)) din plan, unde x este din domeniul de definiție al funcției și f(x) es…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.07486,
+      "endProcent": 0.191308,
+      "procentDurata": 11.6448
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = x², graficul este o parabolă…",
+      "subtitlu": "Profesorul desenează graficul funcției f(x) = x²",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = x², graficul este o parabolă cu vârfu…",
+      "naratiune": "Pentru funcția f(x) = x², graficul este o parabolă cu vârful în origine, simetrică față de axa Oy",
+      "vizual": "Profesorul desenează graficul funcției f(x) = x²",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = x², graficul este o parabolă cu vârful în origine, simetrică față de axa Oy",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.191308,
+      "endProcent": 0.266168,
+      "procentDurata": 7.486
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția graficului unei funcții",
+      "naratiune": "Începem cu definiția graficului unei funcții Vom vedea cum se construiește graficul Vom analiza proprietățile graficului Vom rezolva un exercițiu de tip Bac",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția graficului unei funcții",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se construiește graficul",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza proprietățile graficului",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.266168,
+      "endProcent": 0.361822,
+      "procentDurata": 9.5654
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Construirea graficului funcției f(x) = |x|",
+      "subtitlu": "Scrieți graficul funcției f(x) = |x|",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Graficul este o dreaptă în formă de V cu vârful în origine",
+      "naratiune": "Scrieți graficul funcției f(x) = |x| Pentru x ≥ 0, f(x) = x, deci graficul este semidreapta de pe axa Ox Pentru x < 0, f(x) = -x, deci graficul este semidreapta de pe axa Ox Graficul este o dreaptă în formă de V cu vârful în origine Răspunsul final este Graficul este o dreaptă în formă de V cu vârful în origine.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți graficul funcției f(x) = |x|",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru x ≥ 0, f(x) = x, deci graficul este semidreapta de pe axa Ox",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x < 0, f(x) = -x, deci graficul este semidreapta de pe axa Ox",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Graficul este o dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Graficul este o dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.361822,
+      "endProcent": 0.663132,
+      "procentDurata": 30.131
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este graficul funcției f(x) = |x|?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) O dreaptă în formă de V cu vârful în origine",
+      "naratiune": "Care este graficul funcției f(x) = |x|? A) O parabolă cu vârful în origine B) O dreaptă în formă de V cu vârful în origine C) O dreaptă orizontală Funcția f(x) = |x| are graficul o dreaptă în formă de V cu vârful în origine, deoarece pentru x ≥ 0, f(x) = x, iar pentru x < 0, f(x) = -x.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este graficul funcției f(x) = |x|?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) O parabolă cu vârful în origine",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) O dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) O dreaptă orizontală",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) O dreaptă în formă de V cu vârful în origine",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.663132,
+      "endProcent": 0.916823,
+      "procentDurata": 25.3691
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul unei funcții este mulțimea punctelor (x, f(x))",
+      "naratiune": "Graficul unei funcții este mulțimea punctelor (x, f(x)) Pentru a construi graficul, trebuie să cunoaștem valorile funcției în diferite puncte",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul unei funcții este mulțimea punctelor (x, f(x))",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a construi graficul, trebuie să cunoaștem valorile funcției în diferite puncte",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.916823,
+      "endProcent": 1,
+      "procentDurata": 8.3177
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.700Z"
+  }
+}

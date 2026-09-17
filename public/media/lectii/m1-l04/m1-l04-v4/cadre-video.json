@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l04",
+    "modul": 1,
+    "numarLectie": 4,
+    "titlu": "Intervale de numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l04-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Intervale de numere reale - Bac și greșeli",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale - Bac și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale - Bac și greșeli",
+      "naratiune": "În această lecție vom învăța cum să definim intervale de numere reale",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale - Bac și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale - Bac și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum să definim intervale de numere reale",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.071217,
+      "procentDurata": 7.1217
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un interval este o mulțime de numere reale cuprinse…",
+      "subtitlu": "Axa numerelor cu intervale desenate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un interval este o mulțime de numere reale cuprinse între d…",
+      "naratiune": "Un interval este o mulțime de numere reale cuprinse între două valori. De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele.",
+      "vizual": "Axa numerelor cu intervale desenate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un interval este o mulțime de numere reale cuprinse între două valori.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.071217,
+      "endProcent": 0.181998,
+      "procentDurata": 11.0781
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile frecvente: uneori elevii conf…",
+      "subtitlu": "Exemplu de intervale desenate pe axa numerelor",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile frecvente: uneori elevii confundă par…",
+      "naratiune": "Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității. De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include.",
+      "vizual": "Exemplu de intervale desenate pe axa numerelor",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.181998,
+      "endProcent": 0.316518,
+      "procentDurata": 13.452
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța cum să definim intervale de numere reale",
+      "naratiune": "În această lecție vom învăța cum să definim intervale de numere reale Vom vedea cum se reprezintă intervalele pe axa numerelor Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac Vom rezolva un exemplu complet pentru a înțelege cum se aplică",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum să definim intervale de numere reale",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se reprezintă intervalele pe axa numerelor",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege cum se aplică",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316518,
+      "endProcent": 0.48269,
+      "procentDurata": 16.6172
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Rezolvare exemplu de interval",
+      "subtitlu": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(−2, 3)",
+      "naratiune": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3. Identificăm capetele intervalului: -2 și 3 Deoarece numerele sunt mai mari decât -2 și mai mici decât 3, folosim paranteze rotunde pentru ambele capete Răspunsul final este (−2, 3).",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm capetele intervalului: -2 și 3",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece numerele sunt mai mari decât -2 și mai mici decât 3, folosim paranteze rotunde pentru ambele capete",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (−2, 3)",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.48269,
+      "endProcent": 0.687438,
+      "procentDurata": 20.4748
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) (−2, 3)",
+      "naratiune": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3? A) [−2, 3] B) (−2, 3] C) (−2, 3) Intervalul trebuie să includă numere mai mari decât -2 și mai mici decât 3. Paranteza rotundă la -2 indică că -2 nu este inclus, iar paranteza rotundă la 3 indică că 3 nu este inclus.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [−2, 3]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (−2, 3]",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (−2, 3)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) (−2, 3)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.687438,
+      "endProcent": 0.928783,
+      "procentDurata": 24.1345
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalul [a, b] include capetele a și b",
+      "naratiune": "Intervalul [a, b] include capetele a și b Intervalul (a, b) nu include capetele a și b",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalul [a, b] include capetele a și b",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Intervalul (a, b) nu include capetele a și b",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.928783,
+      "endProcent": 1,
+      "procentDurata": 7.1217
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale - Bac și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale - Bac și greșeli",
+      "naratiune": "În această lecție vom învăța cum să definim intervale de numere reale",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale - Bac și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale - Bac și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum să definim intervale de numere reale",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.071217,
+      "procentDurata": 7.1217
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un interval este o mulțime de numere reale cuprinse…",
+      "subtitlu": "Axa numerelor cu intervale desenate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un interval este o mulțime de numere reale cuprinse între d…",
+      "naratiune": "Un interval este o mulțime de numere reale cuprinse între două valori. De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele.",
+      "vizual": "Axa numerelor cu intervale desenate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un interval este o mulțime de numere reale cuprinse între două valori.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.071217,
+      "endProcent": 0.181998,
+      "procentDurata": 11.0781
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza greșelile frecvente: uneori elevii conf…",
+      "subtitlu": "Exemplu de intervale desenate pe axa numerelor",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza greșelile frecvente: uneori elevii confundă par…",
+      "naratiune": "Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității. De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include.",
+      "vizual": "Exemplu de intervale desenate pe axa numerelor",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.181998,
+      "endProcent": 0.316518,
+      "procentDurata": 13.452
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța cum să definim intervale de numere reale",
+      "naratiune": "În această lecție vom învăța cum să definim intervale de numere reale Vom vedea cum se reprezintă intervalele pe axa numerelor Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac Vom rezolva un exemplu complet pentru a înțelege cum se aplică",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum să definim intervale de numere reale",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se reprezintă intervalele pe axa numerelor",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege cum se aplică",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.316518,
+      "endProcent": 0.48269,
+      "procentDurata": 16.6172
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Rezolvare exemplu de interval",
+      "subtitlu": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(−2, 3)",
+      "naratiune": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3. Identificăm capetele intervalului: -2 și 3 Deoarece numerele sunt mai mari decât -2 și mai mici decât 3, folosim paranteze rotunde pentru ambele capete Răspunsul final este (−2, 3).",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm capetele intervalului: -2 și 3",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece numerele sunt mai mari decât -2 și mai mici decât 3, folosim paranteze rotunde pentru ambele capete",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (−2, 3)",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.48269,
+      "endProcent": 0.687438,
+      "procentDurata": 20.4748
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) (−2, 3)",
+      "naratiune": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3? A) [−2, 3] B) (−2, 3] C) (−2, 3) Intervalul trebuie să includă numere mai mari decât -2 și mai mici decât 3. Paranteza rotundă la -2 indică că -2 nu este inclus, iar paranteza rotundă la 3 indică că 3 nu este inclus.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [−2, 3]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (−2, 3]",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (−2, 3)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) (−2, 3)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.687438,
+      "endProcent": 0.928783,
+      "procentDurata": 24.1345
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalul [a, b] include capetele a și b",
+      "naratiune": "Intervalul [a, b] include capetele a și b Intervalul (a, b) nu include capetele a și b",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalul [a, b] include capetele a și b",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Intervalul (a, b) nu include capetele a și b",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.928783,
+      "endProcent": 1,
+      "procentDurata": 7.1217
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.483Z"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "1",
+      "titlu": "Identificarea tipului de interval",
+      "enunt": "Scrieți tipul intervalului [2, 5].",
+      "nivel": "fundament",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Analiza simbolurilor",
+          "continut": "Simbolul [ indică incluziunea capetelor."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea tipului de interval",
+          "continut": "Intervalul [2, 5] este un interval închis."
+        }
+      ],
+      "raspunsFinal": "[2, 5] este un interval închis.",
+      "verificare": "Simbolurile [ și ] indică incluziunea capetelor, deci intervalul este închis."
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a unui interval deschis",
+      "enunt": "Reprezentați grafic intervalul (1, 4).",
+      "nivel": "standard-bac",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Analiza simbolurilor",
+          "continut": "Simbolurile ( indică excluderea capetelor."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea pe axa numerelor",
+          "continut": "Se desenează o linie dreaptă între 1 și 4, cu cercuri goale la capetele 1 și 4."
+        }
+      ],
+      "raspunsFinal": "Intervalul (1, 4) este reprezentat grafic prin o linie dreaptă între 1 și 4, cu cercuri goale la capete.",
+      "verificare": "Simbolurile ( indică excluderea capetelor, deci reprezentarea trebuie să arate că acestea nu sunt incluse."
+    },
+    {
+      "id": "3",
+      "titlu": "Rezolvarea unei ecuații folosind intervale",
+      "enunt": "Determinați soluția ecuației 2x - 4 = 0 și reprezentați-o ca interval.",
+      "nivel": "standard-bac",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Rezolvăm ecuația: 2x - 4 = 0 => x = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea soluției ca interval",
+          "continut": "Soluția este un singur număr, deci se reprezintă ca interval [2]."
+        }
+      ],
+      "raspunsFinal": "Soluția ecuației este x = 2, reprezentată ca interval [2].",
+      "verificare": "Ecuația are o singură soluție, deci se reprezintă ca un interval închis cu un singur element."
+    },
+    {
+      "id": "4",
+      "titlu": "Intersecția a două intervale",
+      "enunt": "Determinați intersecția intervalelor [1, 5] și (2, 6].",
+      "nivel": "standard-bac",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea intervalelor",
+          "continut": "Intervalul [1, 5] include capetele 1 și 5. Intervalul (2, 6] exclude 2, dar include 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea intersecției",
+          "continut": "Intersecția este mulțimea numerelor comune celor două intervale: (2, 5]."
+        }
+      ],
+      "raspunsFinal": "Intersecția intervalelor [1, 5] și (2, 6] este intervalul (2, 5].",
+      "verificare": "Numerele comune sunt cele din (2, 5], deoarece 2 nu este inclus în al doilea interval, iar 5 este inclus în primul."
+    }
+  ]
+}

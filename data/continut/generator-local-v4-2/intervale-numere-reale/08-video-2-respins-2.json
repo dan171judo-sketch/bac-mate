@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă importantă din matematică care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva probleme eficient.",
+    "Regula pe care o discutăm se referă la modul în care trebuie să abordăm anumite tipuri de exerciții. Este esențial să înțelegem exact ce ne cere problema, pentru a aplica corect metoda.",
+    "Pentru a înțelege mai bine, este important să știm că această regulă se aplică atunci când avem de rezolvat probleme care implică operații matematice simple, dar care pot fi confundate dacă nu urmăm o metodă clară.",
+    "Metoda pe care o vom folosi este să identificăm întâi ce ne cere problema. Apoi, vom aplica pașii necesari pentru a obține răspunsul corect. Este important să fie clar fiecare etapă, astfel încât nu să avem greșeli.",
+    "Vom începe cu o explicație pas cu pas a regulii. Vom vedea cum se aplică într-un exemplu concret și vom verifica dacă rezultatul este corect.",
+    "Să luăm un exemplu simplu: avem de calculat suma dintre două numere, dar trebuie să știm exact ce numere sunt implicate. Dacă nu identificăm corect datele problemei, putem obține o răspuns greșit.",
+    "După ce am explicat regulile, vom aplica metoda într-un exemplu real. Vom vedea cum se rezolvă pas cu pas și vom verifica dacă răspunsul este corect.",
+    "Este important să ne gândim la posibile greșeli care pot apărea. De exemplu, uneori putem confunda adunarea cu scăderea sau invers, ceea ce duce la erori semnificative.",
+    "Pentru a evita astfel de greșeli, este recomandat să ne concentrăm pe fiecare pas al rezolvării. De asemenea, este util să verificăm răspunsul final prin metoda inversă sau prin calculul suplimentar.",
+    "Vom încheia lecția cu o recapitulare clară a regulii și a modului de aplicare. Vom face o verificare rapidă pentru a ne asigura că am înțeles corect ideea principală.",
+    "În final, vom oferi un exemplu complet care poate fi rezolvat pas cu pas, astfel încât elevii să poată aplica regulile în alte probleme similare. Vom verifica și vom discuta eventualele confuzii.",
+    "Această lecție este concepută pentru a oferi un răspuns clar la o problemă frecvent întâlnită, dar care poate fi rezolvată doar dacă se respectă regulile corect."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru evitarea greșelilor.",
+    "Este important să identificăm corect datele problemei.",
+    "Metoda pas cu pas asigură rezolvarea corectă a exercițiului.",
+    "Verificarea răspunsului este o etapă crucială."
+  ],
+  "exemplu": {
+    "titlu": "Calculul sumei dintre două numere",
+    "enunt": "Calculează suma numerelor 12 și 8.",
+    "rezolvareScurta": [
+      "Identificăm cele două numere: 12 și 8.",
+      "Adunăm cele două numere: 12 + 8 = 20."
+    ],
+    "raspuns": "20"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este rezultatul adunării dintre 7 și 5?",
+    "variante": [
+      "10",
+      "12",
+      "13",
+      "14"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "7 + 5 = 12. Răspunsul corect este varianta 1."
+  }
+}

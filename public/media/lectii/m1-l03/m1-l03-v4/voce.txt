@@ -1,0 +1,7 @@
+În această lecție vom învăța despre modulul unui număr real.
+
+Vom vedea cum se calculează modulul unui număr.
+
+Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac.
+
+Vom rezolva un exemplu complet pentru a înțelege mai bine.

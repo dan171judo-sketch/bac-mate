@@ -1,0 +1,7 @@
+Vrei să știi ce este o progresie aritmetică?
+
+Să începem cu un exemplu simplu.
+
+Vom vedea cum se construiește o astfel de progresie.
+
+În final, vom înțelege formula generală.

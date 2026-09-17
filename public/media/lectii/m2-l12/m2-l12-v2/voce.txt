@@ -1,0 +1,7 @@
+Începem cu definiția șirului de numere reale.
+
+Vom învăța cum să recunoaștem un șir.
+
+Vom vedea cum se calculează termenii unui șir.
+
+Vom învăța cum să identificăm tipurile de șiruri.

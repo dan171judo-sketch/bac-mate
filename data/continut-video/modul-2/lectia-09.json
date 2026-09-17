@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l09",
+  "modul": 2,
+  "numarLectie": 9,
+  "titlu": "Paritate și imparitate",
+  "slugContinut": "paritate-si-imparitate",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l09-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Paritatea funcțiilor",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă că o funcție este pară?",
+        "Ce înseamnă că o funcție este impară?",
+        "De ce este important să știm paritatea unei funcții?",
+        "Cum putem verifica paritatea unei funcții?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o funcție simetrică față de axa OY",
+          "naratiune": "O funcție este pară dacă graficul său este simetric față de axa OY. Acest lucru înseamnă că dacă îți imaginezi o oglindă în axa OY, imaginea funcției este identică cu originalul."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o funcție simetrică față de origine",
+          "naratiune": "O funcție este impară dacă graficul său este simetric față de originea sistemului de coordonate. Acest lucru înseamnă că dacă îți imaginezi o oglindă în origine, imaginea funcției este identică cu originalul, dar inversată."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție este pară dacă f(-x) = f(x) pentru orice x din domeniul de definiție.",
+        "O funcțție este impară dacă f(-x) = -f(x) pentru orice x din domeniul de definiție."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea parității funcției f(x) = x²",
+        "enunt": "Verificați dacă funcția f(x) = x² este pară, impară sau nici una dintre cele două.",
+        "rezolvare": [
+          "Calculăm f(-x) = (-x)² = x²",
+          "Comparam cu f(x) = x². Deoarece f(-x) = f(x), funcția este pară."
+        ],
+        "raspuns": "Pară"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele funcții este pară?",
+        "variante": [
+          "A) f(x) = x³",
+          "B) f(x) = x² + 1",
+          "C) f(x) = x"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Funcția B) f(x) = x² + 1 este pară, deoarece f(-x) = (-x)² + 1 = x² + 1 = f(x). Funcțiile A) și C) sunt impare, deoarece f(-x) = -f(x)."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l09/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l09/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l09/m2-l09-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l09/m2-l09-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l09/m2-l09-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 9,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 9,
+        "titluLectie": "Paritate și imparitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:05:06.296Z"
+      }
+    },
+    {
+      "id": "m2-l09-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Paritatea funcțiilor",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția parității",
+        "Vom vedea cum se aplică în exerciții",
+        "Exemplu cu funcție pară",
+        "Exemplu cu funcție impară"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu graficul unei funcții",
+          "naratiune": "O funcție este pară dacă graficul său este simetric față de axa OY"
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu graficul unei funcții",
+          "naratiune": "O funcție este impară dacă graficul său este simetric față de origine"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Funcția pară: f(-x) = f(x)",
+        "Funcția impară: f(-x) = -f(x)"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea parității unei funcții",
+        "enunt": "Fie f(x) = x² - 4. Este pară, impară sau nici una?",
+        "rezolvare": [
+          "Calculăm f(-x) = (-x)² - 4 = x² - 4",
+          "Comparam cu f(x): f(-x) = f(x), deci funcția este pară"
+        ],
+        "raspuns": "Pară"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie f(x) = x³ - 2x. Este pară, impară sau nici una?",
+        "variante": [
+          "A) Pară",
+          "B) Impară",
+          "C) Nici una"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Calculăm f(-x) = (-x)³ - 2(-x) = -x³ + 2x = - (x³ - 2x) = -f(x). Deci funcția este impară."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l09/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l09/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l09/m2-l09-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l09/m2-l09-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l09/m2-l09-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 9,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 9,
+        "titluLectie": "Paritate și imparitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:14:20.549Z"
+      }
+    },
+    {
+      "id": "m2-l09-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Paritatea funcției f(x)=|x|",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă paritatea unei funcții?",
+        "Cum se verifică paritatea unei funcții?",
+        "Ce se întâmplă cu f(-x) în cazul funcției absolute?",
+        "Ce concluzie putem trage despre paritatea funcției absolute?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imaginea unei funcții absolute pe axa x",
+          "naratiune": "Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Calculul f(-x) pentru funcția f(x)=|x|",
+          "naratiune": "Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=|-x|=|x|=f(x)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu.",
+        "Funcția f(x)=|x| este pară deoarece f(-x)=f(x)."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea parității funcției f(x)=|x|",
+        "enunt": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară.",
+        "rezolvare": [
+          "Pasul 1: Calculăm f(-x) înlocuind x cu -x în funcție: f(-x)=|-x|=|x|.",
+          "Pasul 2: Comparăm f(-x) cu f(x). Deoarece |x|=f(x), rezultă că f(-x)=f(x)."
+        ],
+        "raspuns": "Funcția este pară."
+      },
+      "verificareRapida": {
+        "intrebare": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două?",
+        "variante": [
+          "A) Pară",
+          "B) Impară",
+          "C) Nici una dintre cele două"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Deoarece f(-x)=f(x), funcția este pară."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l09/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l09/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l09/m2-l09-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l09/m2-l09-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l09/m2-l09-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 9,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 9,
+        "titluLectie": "Paritate și imparitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:20:12.630Z"
+      }
+    },
+    {
+      "id": "m2-l09-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Paritatea funcțiilor",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă paritatea unei funcții?",
+        "Cum se verifică dacă o funcție este pară sau impară?",
+        "Ce se întâmplă cu graficul unei funcții pare?",
+        "Ce greșeli se fac adesea la această temă?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții pe ecran",
+          "naratiune": "O funcție este pară dacă f(x) = f(-x) pentru orice x din domeniu. Graficul este simetric față de axa OY."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic al unei funcții pe ecran",
+          "naratiune": "O funcție este impară dacă f(x) = -f(-x) pentru orice x din domeniu. Graficul este simetric față de origine."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Paritatea se verifică prin egalitatea f(x) cu f(-x) sau -f(-x).",
+        "Graficul unei funcții pare este simetric față de OY, iar al unei impare față de origine."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea parității funcției f(x) = x² - 3",
+        "enunt": "Se dă funcția f(x) = x² - 3. Verificați dacă este pară sau impară.",
+        "rezolvare": [
+          "Calculăm f(-x) = (-x)² - 3 = x² - 3.",
+          "Comparam cu f(x): f(-x) = f(x), deci funcția este pară."
+        ],
+        "raspuns": "Pară"
+      },
+      "verificareRapida": {
+        "intrebare": "Funcția f(x) = x³ - x este pară, impară sau nici una dintre cele două?",
+        "variante": [
+          "A) Pară",
+          "B) Impară",
+          "C) Nici una dintre cele două"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Calculăm f(-x) = (-x)³ - (-x) = -x³ + x = -(x³ - x) = -f(x). Deci funcția este impară."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l09/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l09/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l09/m2-l09-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l09/m2-l09-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l09/m2-l09-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 9,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 9,
+        "titluLectie": "Paritate și imparitate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T11:26:06.668Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T11:26:06.669Z",
+    "necesitaVerificareUmana": true
+  }
+}

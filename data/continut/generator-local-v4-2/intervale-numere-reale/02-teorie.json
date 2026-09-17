@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "interval deschis",
+      "definitie": "Este mulțimea numerelor reale aflate între două numere reale a și b, excluzând capetele.",
+      "observatie": "Notat cu (a, b)."
+    },
+    {
+      "termen": "interval închis",
+      "definitie": "Este mulțimea numerelor reale aflate între două numere reale a și b, inclusiv capetele.",
+      "observatie": "Notat cu [a, b]."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Tipuri de intervale",
+      "explicatie": "În matematică, intervalele se clasifică în funcție de inclusivitatea capetelor. Există trei tipuri principale: deschis, închis și semi-deschis.",
+      "ideiCheie": [
+        "Intervalul deschis nu include capetele",
+        "Intervalul închis include ambele capete"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a intervalelor",
+      "explicatie": "Fiecare tip de interval se reprezintă pe axa numerelor folosind semne specifice: paranteze rotunde pentru capetele excluse și paranteze drepte pentru cele incluse.",
+      "ideiCheie": [
+        "Paranteza rotundă indică excluderea unui capăt",
+        "Paranteza dreaptă indică includerea unui capăt"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Utilizarea intervalelor în probleme simple",
+      "explicatie": "Intervalele sunt folosite frecvent în rezolvarea problemelor de tip inecuație sau pentru a defini domenii de valori ale unei variabile.",
+      "ideiCheie": [
+        "Intervalele pot fi folosite pentru a descrie soluții ale unor ecuații",
+        "Fiecare intervale reprezintă o mulțime de numere reale"
+      ]
+    }
+  ],
+  "formule": []
+}

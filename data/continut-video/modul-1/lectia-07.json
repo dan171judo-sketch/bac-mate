@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l07",
+  "modul": 1,
+  "numarLectie": 7,
+  "titlu": "Negație, conjuncție, disjuncție și implicație",
+  "slugContinut": "negatie-conjunctie-disjunctie-si-implicatie",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l07-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Negație, conjuncție, disjuncție și implicație",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă negația unei propoziții?",
+        "Cum se formează o propoziție compusă prin conjuncție?",
+        "Ce se întâmplă când folosim disjuncție?",
+        "Ce înseamnă o implicație logică?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă cuvintele: 'Negația unei propoziții'",
+          "naratiune": "Negația unei propoziții este o propoziție care are valoarea logică opusă. De exemplu, dacă propoziția este 'Este plouă', negația este 'Nu este plouă'."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor explică pe tablă cuvintele: 'Conjuncția, disjuncția, implicația'",
+          "naratiune": "Conjuncția este când două propoziții sunt legate prin 'și', disjuncția prin 'sau', iar implicația este când o propoziție implică alta."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Negația unei propoziții este opusul ei.",
+        "Conjuncția, disjuncția și implicația sunt tipuri de propoziții compuse."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea unei implicații",
+        "enunt": "Verifică dacă propoziția 'Dacă 2 + 2 = 4, atunci 4 + 4 = 8' este adevărată.",
+        "rezolvare": [
+          "Pentru a verifica implicația, verificăm dacă atât antecedentul, cât și consecventul sunt adevărați.",
+          "Antecedentul (2 + 2 = 4) este adevărat, consecventul (4 + 4 = 8) este adevărat.",
+          "Implicația este adevărată dacă ambele sunt adevărate."
+        ],
+        "raspuns": "Adevărat"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce valoare are propoziția 'Dacă 2 + 2 = 5, atunci 4 + 4 = 8'?",
+        "variante": [
+          "A) Adevărat",
+          "B) Fals",
+          "C) Nu se poate determina"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Antecedentul este fals, iar implicația este adevărată dacă antecedentul este fals, indiferent de consecvent."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l07/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l07/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l07/m1-l07-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l07/m1-l07-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l07/m1-l07-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 7,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 7,
+        "titluLectie": "Negație, conjuncție, disjuncție și implicație",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:24:52.367Z"
+      }
+    },
+    {
+      "id": "m1-l07-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Negație, conjuncție, disjuncție și implicație",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+        "Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate?",
+        "Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată?",
+        "Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor desenează pe tablă simbolurile logice: ¬, ∧, ∨, →",
+          "naratiune": "Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația. Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul scrie pe tablă o propoziție și o negă, apoi o conjuncte cu alta, apoi o disjuncte și apoi o implicație.",
+          "naratiune": "Vom analiza fiecare operație pas cu pas. Pentru negație, schimbăm adevărul. Pentru conjuncție, ambele trebuie adevărate. Pentru disjuncție, cel puțin una trebuie adevărată. Pentru implicație, dacă prima este adevărată, a doua trebuie să fie adevărată."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Negația unei propoziții schimbă adevărul ei.",
+        "Implicația este falsă doar când prima propoziție este adevărată și a doua este falsă."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare rapidă",
+        "enunt": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+        "rezolvare": [
+          "Calculăm p: 2 + 2 = 4 → adevărat.",
+          "Calculăm q: 3 + 3 = 7 → fals."
+        ],
+        "raspuns": "Fals"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+        "variante": [
+          "A) Adevărat",
+          "B) Fals",
+          "C) Nu se poate determina"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "p este adevărat, q este fals. Conjuncția p ∧ q este falsă. Negația unui fals este adevărat. Deci răspunsul corect este A) Adevărat."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l07/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l07/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l07/m1-l07-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l07/m1-l07-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l07/m1-l07-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 7,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 7,
+        "titluLectie": "Negație, conjuncție, disjuncție și implicație",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:32:26.918Z"
+      }
+    },
+    {
+      "id": "m1-l07-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Negație și implicație în logică",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom analiza o propoziție compusă",
+        "Vom nega propoziția și vom verifica valoarea logică",
+        "Vom analiza implicația dintre două propoziții",
+        "Vom compara rezultatele"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev vede o propoziție: 'Dacă 2+2=4, atunci 3+3=6.'",
+          "naratiune": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6.'"
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul vede negația propoziției: 'Nu este adevărat că dacă 2+2=4, atunci 3+3=6.'",
+          "naratiune": "Vom nega propoziția. Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului",
+        "Implicația este falsă doar când antecedentul este adevărat și consecventul este fals"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Negarea unei implicații",
+        "enunt": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+        "rezolvare": [
+          "Identificăm antecedentul: 2+2=4 (adevărat), consecventul: 3+3=6 (adevărat)",
+          "Negarea implicației este: 2+2=4 și 3+3≠6"
+        ],
+        "raspuns": "Negarea propoziției este: '2+2=4 și 3+3≠6'"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'?",
+        "variante": [
+          "A) 2+2≠4 și 3+3≠6",
+          "B) 2+2=4 și 3+3≠6",
+          "C) 2+2≠4 și 3+3=6"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului. Deci, 2+2=4 (adevărat) și 3+3≠6 (fals)."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l07/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l07/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l07/m1-l07-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l07/m1-l07-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l07/m1-l07-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 7,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 7,
+        "titluLectie": "Negație, conjuncție, disjuncție și implicație",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:38:01.734Z"
+      }
+    },
+    {
+      "id": "m1-l07-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Negație, conjuncție și implicație la Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să înțelegi cum se rezolvă exerciții de logică la Bac?",
+        "Vrei să eviți greșelile comune în negație și implicație?",
+        "Vrei să știi cum să recunoști cerințele de tip Bac?",
+        "Vrei să te pregătești pentru subiectele oficiale?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Elevul vede un exercițiu cu propoziții logice",
+          "naratiune": "Vom rezolva un exercițiu de tip Bac cu negație, conjuncție și implicație."
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul vede un quiz cu variante de răspuns",
+          "naratiune": "Vom verifica dacă ai înțeles cum se aplică regulile."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Negația unei propoziții se scrie cu ¬ și inversează valoarea de adevăr.",
+        "Implicația p → q este falsă doar când p este adevărat și q este fals."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Negația unei propoziții compuse",
+        "enunt": "Scrie negația propoziției: „Numărul x este întreg și mai mare decât 5.”",
+        "rezolvare": [
+          "Propoziția este p ∧ q, unde p = „x este întreg” și q = „x > 5”.",
+          "Negația este ¬(p ∧ q) = ¬p ∨ ¬q, adică „x nu este întreg sau x ≤ 5”."
+        ],
+        "raspuns": "x nu este întreg sau x ≤ 5"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este negația propoziției „x este natural și x ≤ 3”?",
+        "variante": [
+          "A) x nu este natural sau x > 3",
+          "B) x este natural și x > 3",
+          "C) x nu este natural și x > 3"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Negația unei conjuncții este disjuncția negațiilor. Deci, ¬(p ∧ q) = ¬p ∨ ¬q. Aici p = x este natural, q = x ≤ 3. Negația este x nu este natural sau x > 3."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l07/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l07/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l07/m1-l07-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l07/m1-l07-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l07/m1-l07-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 7,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 7,
+        "titluLectie": "Negație, conjuncție, disjuncție și implicație",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:44:38.349Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T17:44:38.349Z",
+    "necesitaVerificareUmana": true
+  }
+}

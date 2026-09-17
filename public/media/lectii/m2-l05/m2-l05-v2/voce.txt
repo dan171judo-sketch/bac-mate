@@ -1,0 +1,7 @@
+Începem cu regulile de bază pentru lectura graficelor.
+
+Vom analiza cum să identificăm corect valorile din grafic.
+
+Vom vedea cum să interpretăm graficele în contextul problemelor de Bac.
+
+În final, vom rezolva un exemplu practic.

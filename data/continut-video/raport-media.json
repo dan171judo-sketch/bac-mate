@@ -1,0 +1,10318 @@
+{
+  "proiect": "BAC MATE",
+  "data": "2026-09-13T11:06:44.860Z",
+  "lectiiGasite": 219,
+  "lectiiCitite": 219,
+  "miniVideoGasite": 876,
+  "scenarii": 105,
+  "subtitrari": 105,
+  "audio": 0,
+  "thumbnails": 0,
+  "videoFinal": 0,
+  "miniVideoComplete": 0,
+  "erori": 0,
+  "probleme": [
+    {
+      "lectie": "m10-l01",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l01",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l01",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l01",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l02",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l02",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l02",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l02",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l03",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l03",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l03",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l03",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l04",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l04",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l04",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l04",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l05",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l05",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l05",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l05",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l06",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l06",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l06",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l06",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l07",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l07",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l07",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l07",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l08",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l08",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l08",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l08",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l09",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l09",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l09",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l09",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l10",
+      "modul": 10,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l10",
+      "modul": 10,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l10",
+      "modul": 10,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m10-l10",
+      "modul": 10,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l01",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l01",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l01",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l01",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l02",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l02",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l02",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l02",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l03",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l03",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l03",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l03",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l04",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l04",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l04",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l04",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l05",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l05",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l05",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l05",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l06",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l06",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l06",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l06",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l07",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l07",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l07",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l07",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l08",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l08",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l08",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l08",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l09",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l09",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l09",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l09",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l10",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l10",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l10",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l10",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l11",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l11",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l11",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l11",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l12",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l12",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l12",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l12",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l13",
+      "modul": 11,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l13",
+      "modul": 11,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l13",
+      "modul": 11,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m11-l13",
+      "modul": 11,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l01",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l01",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l01",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l01",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l02",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l02",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l02",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l02",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l03",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l03",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l03",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l03",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l04",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l04",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l04",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l04",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l05",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l05",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l05",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l05",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l06",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l06",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l06",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l06",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l07",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l07",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l07",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l07",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l08",
+      "modul": 12,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l08",
+      "modul": 12,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l08",
+      "modul": 12,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m12-l08",
+      "modul": 12,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l01",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l01",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l01",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l01",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l02",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l02",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l02",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l02",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l03",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l03",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l03",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l03",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l04",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l04",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l04",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l04",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l05",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l05",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l05",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l05",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l06",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l06",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l06",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l06",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l07",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l07",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l07",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l07",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l08",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l08",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l08",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l08",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l09",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l09",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l09",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l09",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l10",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l10",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l10",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l10",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l11",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l11",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l11",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l11",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l12",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l12",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l12",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l12",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l13",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l13",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l13",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l13",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l14",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l14",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l14",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l14",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l15",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l15",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l15",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l15",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l16",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l16",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l16",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l16",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l17",
+      "modul": 13,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l17",
+      "modul": 13,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l17",
+      "modul": 13,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m13-l17",
+      "modul": 13,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l01",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l01",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l01",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l01",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l02",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l02",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l02",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l02",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l03",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l03",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l03",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l03",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l04",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l04",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l04",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l04",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l05",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l05",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l05",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l05",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l06",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l06",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l06",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l06",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l07",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l07",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l07",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l07",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l08",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l08",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l08",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l08",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l09",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l09",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l09",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l09",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l10",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l10",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l10",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l10",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l11",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l11",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l11",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l11",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l12",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l12",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l12",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l12",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l13",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l13",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l13",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l13",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l14",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l14",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l14",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l14",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l15",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l15",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l15",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l15",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l16",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l16",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l16",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l16",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l17",
+      "modul": 14,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l17",
+      "modul": 14,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l17",
+      "modul": 14,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m14-l17",
+      "modul": 14,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l01",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l01",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l01",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l01",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l02",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l02",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l02",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l02",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l03",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l03",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l03",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l03",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l04",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l04",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l04",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l04",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l05",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l05",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l05",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l05",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l06",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l06",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l06",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l06",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l07",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l07",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l07",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l07",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l08",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l08",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l08",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l08",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l09",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l09",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l09",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l09",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l10",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l10",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l10",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l10",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l11",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l11",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l11",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l11",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l12",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l12",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l12",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l12",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l13",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l13",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l13",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l13",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l14",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l14",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l14",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l14",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l15",
+      "modul": 15,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l15",
+      "modul": 15,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l15",
+      "modul": 15,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m15-l15",
+      "modul": 15,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l01",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l01",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l01",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l01",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l02",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l02",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l02",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l02",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l03",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l03",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l03",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l03",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l04",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l04",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l04",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l04",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l05",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l05",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l05",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l05",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l06",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l06",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l06",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l06",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l07",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l07",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l07",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l07",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l08",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l08",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l08",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l08",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l09",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l09",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l09",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l09",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l10",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l10",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l10",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l10",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l11",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l11",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l11",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l11",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l12",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l12",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l12",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l12",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l13",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l13",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l13",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l13",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l14",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l14",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l14",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l14",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l15",
+      "modul": 16,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l15",
+      "modul": 16,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l15",
+      "modul": 16,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m16-l15",
+      "modul": 16,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l01",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l01",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l01",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l01",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l02",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l02",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l02",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l02",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l03",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l03",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l03",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l03",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l04",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l04",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l04",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l04",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l05",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l05",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l05",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l05",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l06",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l06",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l06",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l06",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l07",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l07",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l07",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l07",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l08",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l08",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l08",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l08",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l09",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l09",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l09",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l09",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l10",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l10",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l10",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l10",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l11",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l11",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l11",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l11",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l12",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l12",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l12",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l12",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l13",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l13",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l13",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l13",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l14",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l14",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l14",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l14",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l15",
+      "modul": 17,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l15",
+      "modul": 17,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l15",
+      "modul": 17,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m17-l15",
+      "modul": 17,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l01",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l01",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l01",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l01",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l02",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l02",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l02",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l02",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l03",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l03",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l03",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l03",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l04",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l04",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l04",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l04",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l05",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l05",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l05",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l05",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l06",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l06",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l06",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l06",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l07",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l07",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l07",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l07",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l08",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l08",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l08",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l08",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l09",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l09",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l09",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l09",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l10",
+      "modul": 1,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l10",
+      "modul": 1,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l10",
+      "modul": 1,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m1-l10",
+      "modul": 1,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l01",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l01",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l01",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l01",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l02",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l02",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l02",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l02",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l03",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l03",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l03",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l03",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l04",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l04",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l04",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l04",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l05",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l05",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l05",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l05",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l06",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l06",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l06",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l06",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l07",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l07",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l07",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l07",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l08",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l08",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l08",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l08",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l09",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l09",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l09",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l09",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l10",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l10",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l10",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l10",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l11",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l11",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l11",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l11",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l12",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l12",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l12",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l12",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l13",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l13",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l13",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l13",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l14",
+      "modul": 2,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l14",
+      "modul": 2,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l14",
+      "modul": 2,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m2-l14",
+      "modul": 2,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l01",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l01",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l01",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l01",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l02",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l02",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l02",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l02",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l03",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l03",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l03",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l03",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l04",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l04",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l04",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l04",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l05",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l05",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l05",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l05",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l06",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l06",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l06",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l06",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l07",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l07",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l07",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l07",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l08",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l08",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l08",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l08",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l09",
+      "modul": 3,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l09",
+      "modul": 3,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l09",
+      "modul": 3,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m3-l09",
+      "modul": 3,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l01",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l01",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l01",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l01",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l02",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l02",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l02",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l02",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l03",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l03",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l03",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l03",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l04",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l04",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l04",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l04",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l05",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l05",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l05",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l05",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l06",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l06",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l06",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l06",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l07",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l07",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l07",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l07",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l08",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l08",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l08",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l08",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l09",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l09",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l09",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l09",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l10",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l10",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l10",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l10",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l11",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l11",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l11",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l11",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l12",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l12",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l12",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l12",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l13",
+      "modul": 4,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l13",
+      "modul": 4,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l13",
+      "modul": 4,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m4-l13",
+      "modul": 4,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l01",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l01",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l01",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l01",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l02",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l02",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l02",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l02",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l03",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l03",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l03",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l03",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l04",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l04",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l04",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l04",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l05",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l05",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l05",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l05",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l06",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l06",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l06",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l06",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l07",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l07",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l07",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l07",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l08",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l08",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l08",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l08",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l09",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l09",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l09",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l09",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l10",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l10",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l10",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l10",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l11",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l11",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l11",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l11",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l12",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l12",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l12",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l12",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l13",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l13",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l13",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l13",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l14",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l14",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l14",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l14",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l15",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l15",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l15",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l15",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l16",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l16",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l16",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l16",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l17",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l17",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l17",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l17",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l18",
+      "modul": 5,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l18",
+      "modul": 5,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l18",
+      "modul": 5,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m5-l18",
+      "modul": 5,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l01",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l01",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l01",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l01",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l02",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l02",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l02",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l02",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l03",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l03",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l03",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l03",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l04",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l04",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l04",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l04",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l05",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l05",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l05",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l05",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l06",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l06",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l06",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l06",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l07",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l07",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l07",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l07",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l08",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l08",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l08",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l08",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l09",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l09",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l09",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l09",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l10",
+      "modul": 6,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l10",
+      "modul": 6,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l10",
+      "modul": 6,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m6-l10",
+      "modul": 6,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l01",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l01",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l01",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l01",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l02",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l02",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l02",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l02",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l03",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l03",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l03",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l03",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l04",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l04",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l04",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l04",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l05",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l05",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l05",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l05",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l06",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l06",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l06",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l06",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l07",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l07",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l07",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l07",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l08",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l08",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l08",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l08",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l09",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l09",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l09",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l09",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l10",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l10",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l10",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l10",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l11",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l11",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l11",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l11",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l12",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l12",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l12",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l12",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l13",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l13",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l13",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l13",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l14",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l14",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l14",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l14",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l15",
+      "modul": 7,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l15",
+      "modul": 7,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l15",
+      "modul": 7,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m7-l15",
+      "modul": 7,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l01",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l01",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l01",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l01",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l02",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l02",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l02",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l02",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l03",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l03",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l03",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l03",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l04",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l04",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l04",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l04",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l05",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l05",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l05",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l05",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l06",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l06",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l06",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l06",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l07",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l07",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l07",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l07",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l08",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l08",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l08",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l08",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l09",
+      "modul": 8,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l09",
+      "modul": 8,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l09",
+      "modul": 8,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m8-l09",
+      "modul": 8,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l01",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l01",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l01",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l01",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l02",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l02",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l02",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l02",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l03",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l03",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l03",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l03",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l04",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l04",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l04",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l04",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l05",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l05",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l05",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l05",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l06",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l06",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l06",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l06",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l07",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l07",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l07",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l07",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l08",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l08",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l08",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l08",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l09",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l09",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l09",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l09",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l10",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l10",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l10",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l10",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l11",
+      "modul": 9,
+      "video": 1,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l11",
+      "modul": 9,
+      "video": 2,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l11",
+      "modul": 9,
+      "video": 3,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    },
+    {
+      "lectie": "m9-l11",
+      "modul": 9,
+      "video": 4,
+      "lipsesc": [
+        "scenariu",
+        "subtitrare",
+        "audio",
+        "thumbnail",
+        "mp4"
+      ]
+    }
+  ]
+}

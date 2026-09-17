@@ -1,0 +1,71 @@
+{
+  "versiune": "BAC-MATE-GENERATOR-LOCAL-V5.1",
+  "generatLa": "2026-09-14T13:55:16.466Z",
+  "model": "qwen3:8b",
+  "ollama": "http://127.0.0.1:11434",
+  "thinking": false,
+  "numCtx": 4096,
+  "transport": "streaming-nativ-http-https",
+  "checkpointCompatibil": "generator-local-v4-2",
+  "rezultate": [
+    {
+      "slug": "intervale-numere-reale",
+      "status": "generat-draft",
+      "fisier": "data\\continut\\lectii\\intervale-numere-reale.ts",
+      "generatLa": "2026-09-14T13:55:16.442Z"
+    }
+  ],
+  "lectii": {
+    "intervale-numere-reale": {
+      "status": "eroare",
+      "actualizatLa": "2026-09-16T08:14:31.103Z",
+      "model": "qwen3:8b",
+      "cale": "data\\continut\\lectii\\intervale-numere-reale.ts",
+      "verificatMatematic": false,
+      "verificatPrograma": false,
+      "verificatExercitii": false,
+      "verificatLimbaRomana": false,
+      "eroare": "Checkpoint invalid: 05-exercitii-a\n- exercitii[0].variante: variante duplicate"
+    }
+  },
+  "versiuneGenerator": "6.2",
+  "actualizatLa": "2026-09-16T19:22:30.436Z",
+  "rulari": [
+    {
+      "la": "2026-09-16T12:28:47.898Z",
+      "generator": "6.2",
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 05-exercitii-a\n- exercitii[0].nivel: invalid\n- exercitii[0].raspunsCorect: lipsa sau invalid\n- exercitii[0].rezolvare: minimum 2 pasi\n- exercitii[0].punctaj: invalid\n- exercitii[0].raspunsCorect: nu apare in variante\n- exercitii[1].nivel: invalid\n- exercitii[1].raspunsCorect: lipsa sau invalid\n- exercitii[1].rezolvare: minimum 2 pasi\n- exercitii[1].punctaj: invalid\n- exercitii[1].raspunsCorect: nu apare in variante\n- exercitii[2].nivel: invalid\n- exercitii[2].raspunsCorect: lipsa sau invalid\n- exercitii[2].rezolvare: minimum 2 pasi\n- exercitii[2].punctaj: invalid\n- exercitii[3].nivel: invalid\n- exercitii[3].raspunsCorect: lipsa sau invalid\n- exercitii[3].rezolvare: minimum 2 pasi\n- exercitii[3].punctaj: invalid\n- exercitii[3].raspunsCorect: nu apare in variante",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-16T14:34:40.375Z",
+      "generator": "6.2",
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video2.scenariu: prea scurt 316/425 cuvinte",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-16T18:28:39.002Z",
+      "generator": "6.2",
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video2.scenariu: prea scurt 347/425 cuvinte",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-16T19:22:30.435Z",
+      "generator": "6.2",
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    }
+  ]
+}

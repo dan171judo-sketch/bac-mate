@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l02",
+  "modul": 1,
+  "numarLectie": 2,
+  "titlu": "Estimări și aproximări",
+  "slugContinut": "estimari-si-aproximari",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Estimări și aproximări”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l02-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Estimări și aproximări",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă să estimezi?",
+        "De ce este important să aproximăm?",
+        "Cum se face o estimare corectă?",
+        "Ce se întâmplă dacă nu estimăm corect?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care calculează cu o măsură inexactă",
+          "naratiune": "Să ne gândim la o situație practică. Dacă ai 1,5 metri de sârmă și vrei să știi câți metri ai în total, dar nu ai măsurat exact, cum arăta rezultatul?"
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic care arată diferența între valoarea exactă și aproximată",
+          "naratiune": "Aproximarea este o estimare care ne ajută să avem o idee bună despre valoarea reală, dar nu este exactă. De exemplu, dacă ai 1,5 metri, dar măsurați doar 1,4, atunci estimarea este mai mică."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Estimarea este o valoare apropiată de valoarea reală",
+        "Aproximarea se face pentru a simplifica calculele sau când nu avem măsurători exacte"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Aproximarea unui număr",
+        "enunt": "O persoană a măsurat 1,45 metri de sârmă, dar nu a avut instrument de măsurare exactă. Ce valoare ar fi potrivită pentru estimare?",
+        "rezolvare": [
+          "Pentru a aproxima, trebuie să alegem cel mai apropiat număr cu o cifră zecimală.",
+          "1,45 este mai aproape de 1,5 decât de 1,4.",
+          "Rezultatul estimării este 1,5 metri."
+        ],
+        "raspuns": "1,5 metri"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce valoare este mai apropiată de 1,45?",
+        "variante": [
+          "A) 1,4",
+          "B) 1,5",
+          "C) 1,6"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "1,45 este la egală distanță de 1,4 și 1,5, dar în practică, se alege valoarea mai mare pentru estimare."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l02/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l02/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l02/m1-l02-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l02/m1-l02-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l02/m1-l02-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 2,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 2,
+        "titluLectie": "Estimări și aproximări",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T08:08:57.624Z"
+      }
+    },
+    {
+      "id": "m1-l02-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Estimări și aproximări",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În viața de zi cu zi, estimăm când nu știm exact. De exemplu, când spui că ai 15 ani, în realitate ai 15 ani și 3 luni.",
+        "În matematică, estimările sunt importante pentru a simplifica calculele și a obține rezultate aproape exacte.",
+        "Aproximarea este o metodă de a rotunji numere pentru a le face mai ușor de folosit.",
+        "Aceste metode sunt folosite în probleme de tip Bac pentru a verifica dacă știm să aplicăm corect regulile."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește un exemplu de estimare",
+          "naratiune": "Vom începe cu o estimare simplă. Să presupunem că avem 123 de mere și vrem să le împărțim la 4 copii. În loc să calculăm exact, estimăm că fiecare copil primește 30 de mere."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care calculează exact și compară cu estimarea",
+          "naratiune": "Acum calculăm exact: 123 împărțit la 4 este 30,75. Așa că estimarea de 30 este foarte aproape de valoarea reală."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Estimarea este o metodă de a simplifica calculele.",
+        "Aproximarea se face prin rotunjirea numerelor."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Aproximarea unui număr",
+        "enunt": "Aproximează numărul 123,45 la zece.",
+        "rezolvare": [
+          "Rotunjim numărul 123,45 la zece. Unitățile sunt 3,45, care este mai mic decât 5, deci rotunjim în jos.",
+          "Rezultatul este 120."
+        ],
+        "raspuns": "120"
+      },
+      "verificareRapida": {
+        "intrebare": "Aproximează numărul 456,78 la sută.",
+        "variante": [
+          "A) 400",
+          "B) 500",
+          "C) 600"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Numărul 456,78 este mai aproape de 500 decât de 400 sau 600. Deci, aproximarea corectă este 500."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l02/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l02/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l02/m1-l02-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l02/m1-l02-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l02/m1-l02-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 2,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 2,
+        "titluLectie": "Estimări și aproximări",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T08:21:24.454Z"
+      }
+    },
+    {
+      "id": "m1-l02-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Aproximarea unui număr irational",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să înțelegi cum se face o aproximare a unui număr irational?",
+        "Vrei să știi cum se calculează o estimare corectă?",
+        "Vrei să vezi un exemplu de tip Bac cu aproximări?",
+        "Vrei să înveți cum să recunoști cerințele de aproximare?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev vede un număr irational scris pe tablă: √2 ≈ 1,41421356...",
+          "naratiune": "Vom face o aproximare a numărului irational √2. Acesta are o reprezentare infinită de zecimale."
+        },
+        {
+          "numa": 2,
+          "vizual": "Profesorul scrie pe tablă: √2 ≈ 1,4142 cu o margine de eroare de 0,0001",
+          "naratiune": "Vom apropia numărul √2 de o valoare mai simplă, dar cu o eroare limitată."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Aproximarea se face prin rotunjire la o anumită cifră zecimală",
+        "Eroarea trebuie să fie mai mică decât valoarea cifrei de rotunjire"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Aproximarea numărului √2",
+        "enunt": "Aproximează numărul √2 cu o eroare mai mică de 0,0001.",
+        "rezolvare": [
+          "Calculăm câte zecimale are √2: √2 ≈ 1,41421356...",
+          "Rotunjim la 1,4142, astfel încât eroarea să fie mai mică decât 0,0001"
+        ],
+        "raspuns": "1,4142"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea corectă a aproximării lui √2 cu o eroare mai mică de 0,0001?",
+        "variante": [
+          "A) 1,414",
+          "B) 1,4142",
+          "C) 1,41421"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Valoarea 1,4142 este corectă, deoarece eroarea este mai mică decât 0,0001. Dacă am alege 1,414, eroarea ar fi mai mare decât 0,0001."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l02/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l02/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l02/m1-l02-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l02/m1-l02-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l02/m1-l02-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 2,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 2,
+        "titluLectie": "Estimări și aproximări",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T08:25:41.191Z"
+      }
+    },
+    {
+      "id": "m1-l02-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Estimări și aproximări - greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Estimarea este o metodă importantă pentru Bac",
+        "Uneori elevii nu știu cum să aproximeze corect",
+        "Greșelile apar în modul de calcul",
+        "Este important să verificăm rezultatele"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care calculează o estimare",
+          "naratiune": "Vom învăța cum să estimăm corect pentru Bac"
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care face o aproximare greșită",
+          "naratiune": "Vom vedea unde se pot face greșeli"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Estimarea trebuie să fie corectă și justificată",
+        "Verificarea rezultatului este esențială"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Aproximarea unui număr irațional",
+        "enunt": "Aproximează numărul √2 la 2 cifre zecimale.",
+        "rezolvare": [
+          "Calculăm √2 ≈ 1,41421356...",
+          "Rotim la 2 cifre zecimale: 1,41"
+        ],
+        "raspuns": "1,41"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este aproximarea corectă a lui √2 la 2 cifre zecimale?",
+        "variante": [
+          "A) 1,41",
+          "B) 1,42",
+          "C) 1,4"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "√2 ≈ 1,41421356... Rotind la 2 cifre zecimale obținem 1,41"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l02/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l02/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l02/m1-l02-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l02/m1-l02-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l02/m1-l02-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 2,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 2,
+        "titluLectie": "Estimări și aproximări",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T08:29:00.785Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T08:29:00.785Z",
+    "necesitaVerificareUmana": true
+  }
+}

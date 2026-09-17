@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l11",
+    "modul": 2,
+    "numarLectie": 11,
+    "titlu": "Compunerea funcțiilor",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l11-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Compunerea funcțiilor",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Compunerea funcțiilor”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Compunerea funcțiilor",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Compunerea funcțiilor”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Compunerea funcțiilor",
+      "naratiune": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Compunerea funcțiilor”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Compunerea funcțiilor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.07632,
+      "procentDurata": 7.632
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Imaginează-ți că ai două funcții: f care transformă…",
+      "subtitlu": "Un elev plătește la magazin, apoi ia produsul.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Imaginează-ți că ai două funcții: f care transformă bani în…",
+      "naratiune": "Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură. Compunerea este ca să folosești f apoi g.",
+      "vizual": "Un elev plătește la magazin, apoi ia produsul.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Compunerea este ca să folosești f apoi g.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.07632,
+      "endProcent": 0.186559,
+      "procentDurata": 11.024
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Compunerea funcțiilor f și g se notează g(f(x))",
+      "subtitlu": "Două funcții f și g, cu arce care le conectează.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi…",
+      "naratiune": "Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi aplicăm f(x), apoi g aplică rezultatul.",
+      "vizual": "Două funcții f și g, cu arce care le conectează.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Compunerea funcțiilor f și g se notează g(f(x)).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Mai întâi aplicăm f(x), apoi g aplică rezultatul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186559,
+      "endProcent": 0.254399,
+      "procentDurata": 6.784
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+      "naratiune": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții. Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul. Vrei să știi cum se face? Hai să vedem cu un exemplu concret. După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum se face? Hai să vedem cu un exemplu concret.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.254399,
+      "endProcent": 0.508798,
+      "procentDurata": 25.4399
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Compunerea funcțiilor f și g",
+      "subtitlu": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(2x + 1)²",
+      "naratiune": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)). Pasul 1: Calculăm f(x) = 2x + 1. Pasul 2: Înlocuim f(x) în g(x): g(2x + 1) = (2x + 1)². Răspunsul final este (2x + 1)².",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Calculăm f(x) = 2x + 1.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Înlocuim f(x) în g(x): g(2x + 1) = (2x + 1)².",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (2x + 1)²",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.508798,
+      "endProcent": 0.698961,
+      "procentDurata": 19.0163
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 3x - 1",
+      "naratiune": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))? A) 3x - 1 B) 3x + 1 C) 3x - 2 Calculăm f(x) = 3x - 2, apoi înlocuim în g(x): g(3x - 2) = (3x - 2) + 1 = 3x - 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3x - 1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 3x + 1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 3x - 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 3x - 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.698961,
+      "endProcent": 0.91096,
+      "procentDurata": 21.1999
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g.",
+      "naratiune": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g. Notăm compunerea ca g(f(x)) și nu invers.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Notăm compunerea ca g(f(x)) și nu invers.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.91096,
+      "endProcent": 1,
+      "procentDurata": 8.904
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Compunerea funcțiilor",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Compunerea funcțiilor”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Compunerea funcțiilor",
+      "naratiune": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Compunerea funcțiilor”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Compunerea funcțiilor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.07632,
+      "procentDurata": 7.632
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Imaginează-ți că ai două funcții: f care transformă…",
+      "subtitlu": "Un elev plătește la magazin, apoi ia produsul.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Imaginează-ți că ai două funcții: f care transformă bani în…",
+      "naratiune": "Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură. Compunerea este ca să folosești f apoi g.",
+      "vizual": "Un elev plătește la magazin, apoi ia produsul.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Compunerea este ca să folosești f apoi g.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.07632,
+      "endProcent": 0.186559,
+      "procentDurata": 11.024
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Compunerea funcțiilor f și g se notează g(f(x))",
+      "subtitlu": "Două funcții f și g, cu arce care le conectează.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi…",
+      "naratiune": "Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi aplicăm f(x), apoi g aplică rezultatul.",
+      "vizual": "Două funcții f și g, cu arce care le conectează.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Compunerea funcțiilor f și g se notează g(f(x)).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Mai întâi aplicăm f(x), apoi g aplică rezultatul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186559,
+      "endProcent": 0.254399,
+      "procentDurata": 6.784
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+      "naratiune": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții. Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul. Vrei să știi cum se face? Hai să vedem cu un exemplu concret. După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Când mergi la magazin, mai întâi plătești, apoi iei produsul. Așa se face și cu funcții.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Compunerea funcțiilor este ca un proces în două etape: prima funcție transformă, apoi a doua funcție folosește rezultatul.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum se face? Hai să vedem cu un exemplu concret.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "După ce înțelegi ideea, vei putea rezolva exerciții de tip Bac cu încredere.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.254399,
+      "endProcent": 0.508798,
+      "procentDurata": 25.4399
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Compunerea funcțiilor f și g",
+      "subtitlu": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(2x + 1)²",
+      "naratiune": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)). Pasul 1: Calculăm f(x) = 2x + 1. Pasul 2: Înlocuim f(x) în g(x): g(2x + 1) = (2x + 1)². Răspunsul final este (2x + 1)².",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f(x) = 2x + 1 și g(x) = x². Află g(f(x)).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Calculăm f(x) = 2x + 1.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Înlocuim f(x) în g(x): g(2x + 1) = (2x + 1)².",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (2x + 1)²",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.508798,
+      "endProcent": 0.698961,
+      "procentDurata": 19.0163
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 3x - 1",
+      "naratiune": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))? A) 3x - 1 B) 3x + 1 C) 3x - 2 Calculăm f(x) = 3x - 2, apoi înlocuim în g(x): g(3x - 2) = (3x - 2) + 1 = 3x - 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f(x) = 3x - 2 și g(x) = x + 1. Care este g(f(x))?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3x - 1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 3x + 1",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 3x - 2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 3x - 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.698961,
+      "endProcent": 0.91096,
+      "procentDurata": 21.1999
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g.",
+      "naratiune": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g. Notăm compunerea ca g(f(x)) și nu invers.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Compunerea funcțiilor este ca un proces în două etape: mai întâi f, apoi g.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Notăm compunerea ca g(f(x)) și nu invers.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.91096,
+      "endProcent": 1,
+      "procentDurata": 8.904
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-11.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.839Z"
+  }
+}

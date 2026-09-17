@@ -1,0 +1,7 @@
+Ce înseamnă ca o funcție să fie crescătoare?
+
+Cum se comportă graficul unei funcții crescătoare?
+
+Ce se întâmplă cu o funcție descrescătoare?
+
+Cum putem determina monotonia unei funcții de gradul I?

@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l04",
+  "videoId": "m2-l04-v3",
+  "modul": 2,
+  "numarLectie": 4,
+  "numarVideo": 3,
+  "titluLectie": "Graficul unei funcții",
+  "titluVideo": "Graficul funcției f(x) = |x| - 1",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l07",
+    "modul": 1,
+    "numarLectie": 7,
+    "titlu": "Negație, conjuncție, disjuncție și implicație",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l07-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Negație și implicație în logică",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Negație și implicație în logică",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Negație și implicație în logică",
+      "naratiune": "Vom analiza o propoziție compusă",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Negație și implicație în logică”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Negație și implicație în logică",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza o propoziție compusă",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.113565,
+      "procentDurata": 11.3565
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6",
+      "subtitlu": "Un elev vede o propoziție: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "+2=4",
+      "naratiune": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "vizual": "Un elev vede o propoziție: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.113565,
+      "endProcent": 0.157729,
+      "procentDurata": 4.4164
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom nega propoziția",
+      "subtitlu": "Elevul vede negația propoziției: 'Nu este adevărat că dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom nega propoziția. Negarea unei implicații este echivalen…",
+      "naratiune": "Vom nega propoziția. Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului.",
+      "vizual": "Elevul vede negația propoziției: 'Nu este adevărat că dacă 2+2=4, atunci 3+3=6.'",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom nega propoziția.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.157729,
+      "endProcent": 0.252366,
+      "procentDurata": 9.4637
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza o propoziție compusă",
+      "naratiune": "Vom analiza o propoziție compusă Vom nega propoziția și vom verifica valoarea logică Vom analiza implicația dintre două propoziții Vom compara rezultatele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza o propoziție compusă",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom nega propoziția și vom verifica valoarea logică",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza implicația dintre două propoziții",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom compara rezultatele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.252366,
+      "endProcent": 0.391167,
+      "procentDurata": 13.8801
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Negarea unei implicații",
+      "subtitlu": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Negarea propoziției este: '2+2=4 și 3+3≠6'",
+      "naratiune": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.' Identificăm antecedentul: 2+2=4 (adevărat), consecventul: 3+3=6 (adevărat) Negarea implicației este: 2+2=4 și 3+3≠6 Răspunsul final este Negarea propoziției este: '2+2=4 și 3+3≠6'.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm antecedentul: 2+2=4 (adevărat), consecventul: 3+3=6 (adevărat)",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Negarea implicației este: 2+2=4 și 3+3≠6",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Negarea propoziției este: '2+2=4 și 3+3≠6'",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.391167,
+      "endProcent": 0.608833,
+      "procentDurata": 21.7666
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 2+2=4 și 3+3≠6",
+      "naratiune": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'? A) 2+2≠4 și 3+3≠6 B) 2+2=4 și 3+3≠6 C) 2+2≠4 și 3+3=6 Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului. Deci, 2+2=4 (adevărat) și 3+3≠6 (fals).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2+2≠4 și 3+3≠6",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2+2=4 și 3+3≠6",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2+2≠4 și 3+3=6",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 2+2=4 și 3+3≠6",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.608833,
+      "endProcent": 0.84858,
+      "procentDurata": 23.9748
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului",
+      "naratiune": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului Implicația este falsă doar când antecedentul este adevărat și consecventul este fals",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Implicația este falsă doar când antecedentul este adevărat și consecventul este fals",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.84858,
+      "endProcent": 1,
+      "procentDurata": 15.142
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Negație și implicație în logică",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Negație și implicație în logică",
+      "naratiune": "Vom analiza o propoziție compusă",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Negație și implicație în logică”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Negație și implicație în logică",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza o propoziție compusă",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.113565,
+      "procentDurata": 11.3565
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6",
+      "subtitlu": "Un elev vede o propoziție: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "+2=4",
+      "naratiune": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "vizual": "Un elev vede o propoziție: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.113565,
+      "endProcent": 0.157729,
+      "procentDurata": 4.4164
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom nega propoziția",
+      "subtitlu": "Elevul vede negația propoziției: 'Nu este adevărat că dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom nega propoziția. Negarea unei implicații este echivalen…",
+      "naratiune": "Vom nega propoziția. Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului.",
+      "vizual": "Elevul vede negația propoziției: 'Nu este adevărat că dacă 2+2=4, atunci 3+3=6.'",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom nega propoziția.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.157729,
+      "endProcent": 0.252366,
+      "procentDurata": 9.4637
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza o propoziție compusă",
+      "naratiune": "Vom analiza o propoziție compusă Vom nega propoziția și vom verifica valoarea logică Vom analiza implicația dintre două propoziții Vom compara rezultatele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza o propoziție compusă",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom nega propoziția și vom verifica valoarea logică",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza implicația dintre două propoziții",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom compara rezultatele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.252366,
+      "endProcent": 0.391167,
+      "procentDurata": 13.8801
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Negarea unei implicații",
+      "subtitlu": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Negarea propoziției este: '2+2=4 și 3+3≠6'",
+      "naratiune": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.' Identificăm antecedentul: 2+2=4 (adevărat), consecventul: 3+3=6 (adevărat) Negarea implicației este: 2+2=4 și 3+3≠6 Răspunsul final este Negarea propoziției este: '2+2=4 și 3+3≠6'.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Să se nega propoziția: 'Dacă 2+2=4, atunci 3+3=6.'",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm antecedentul: 2+2=4 (adevărat), consecventul: 3+3=6 (adevărat)",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Negarea implicației este: 2+2=4 și 3+3≠6",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Negarea propoziției este: '2+2=4 și 3+3≠6'",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.391167,
+      "endProcent": 0.608833,
+      "procentDurata": 21.7666
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 2+2=4 și 3+3≠6",
+      "naratiune": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'? A) 2+2≠4 și 3+3≠6 B) 2+2=4 și 3+3≠6 C) 2+2≠4 și 3+3=6 Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului. Deci, 2+2=4 (adevărat) și 3+3≠6 (fals).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este negarea propoziției: 'Dacă 2+2=4, atunci 3+3=6.'?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 2+2≠4 și 3+3≠6",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2+2=4 și 3+3≠6",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 2+2≠4 și 3+3=6",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 2+2=4 și 3+3≠6",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.608833,
+      "endProcent": 0.84858,
+      "procentDurata": 23.9748
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului",
+      "naratiune": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului Implicația este falsă doar când antecedentul este adevărat și consecventul este fals",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Negarea unei implicații este echivalentă cu conjuncția dintre antecedent și negarea consecventului",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Implicația este falsă doar când antecedentul este adevărat și consecventul este fals",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.84858,
+      "endProcent": 1,
+      "procentDurata": 15.142
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-07.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.535Z"
+  }
+}

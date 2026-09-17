@@ -1,0 +1,14 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:01:40.000
+Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este periodică și ce perioadă are?
+
+2
+00:01:40.000 --> 00:03:20.000
+Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În cazul nostru, k = 2, deci T = 2π/2 = π.
+
+3
+00:03:20.000 --> 00:05:00.000
+Verificăm dacă f(x + T) = f(x). sin(2(x + π)) = sin(2x + 2π) = sin(2x), deci funcția este periodică cu perioada π.
+

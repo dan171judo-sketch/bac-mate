@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Imaginează-ți că ai două funcții: f care transformă bani în produs, și g care transformă produsul în cumpărătură. Compunerea este ca să folosești f apoi g.
+
+2
+00:02:00.000 --> 00:04:00.000
+Compunerea funcțiilor f și g se notează g(f(x)). Mai întâi aplicăm f(x), apoi g aplică rezultatul.
+

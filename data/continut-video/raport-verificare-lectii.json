@@ -1,0 +1,65 @@
+{
+  "generatLa": "2026-09-13T11:04:48.323Z",
+  "criterii": {
+    "id": null,
+    "modul": null,
+    "limita": null,
+    "toate": false
+  },
+  "lectiiVerificate": 1,
+  "lectiiFaraEroriBlocante": 1,
+  "lectiiBlocate": 0,
+  "totalErori": 0,
+  "totalAvertismente": 6,
+  "important": "Acest verificator detectează doar o parte dintre probleme. Nu reprezintă verificare matematică sau curriculară completă.",
+  "rezultate": [
+    {
+      "id": "m1-l01",
+      "modul": 1,
+      "numarLectie": 1,
+      "titlu": "Mulțimi de numere și operații cu numere reale",
+      "fisier": "data\\continut-video\\modul-1\\lectia-01.json",
+      "aprobatAutomat": true,
+      "totalErori": 0,
+      "totalAvertismente": 6,
+      "probleme": [
+        {
+          "severitate": "avertisment",
+          "tip": "limba-romana",
+          "video": 1,
+          "mesaj": "Posibil acord greșit între subiect plural și verb singular."
+        },
+        {
+          "severitate": "avertisment",
+          "tip": "limba-romana",
+          "video": 1,
+          "mesaj": "Posibil acord greșit între „mulțimea” și verb la plural."
+        },
+        {
+          "severitate": "avertisment",
+          "tip": "limba-romana",
+          "video": 2,
+          "mesaj": "Posibil acord greșit între subiect plural și verb singular."
+        },
+        {
+          "severitate": "avertisment",
+          "tip": "limba-romana",
+          "video": 2,
+          "mesaj": "Posibil acord greșit între „mulțimea” și verb la plural."
+        },
+        {
+          "severitate": "avertisment",
+          "tip": "formulare-absoluta",
+          "video": 4,
+          "mesaj": "Verifică manual formularea absolută \"este esențială\". Poate fi prea generală."
+        },
+        {
+          "severitate": "avertisment",
+          "tip": "formulare-absoluta",
+          "video": 4,
+          "mesaj": "Verifică manual formularea absolută \"este obligatorie\". Poate fi prea generală."
+        }
+      ]
+    }
+  ]
+}

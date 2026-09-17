@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Vrei să înțelegi ce înseamnă domeniu, codomeniu și imagine? Să începem cu un exemplu simplu. Fie funcția f(x) = x². Domeniul este mulțimea valorilor pe care le poate lua x.
+
+2
+00:02:00.000 --> 00:04:00.000
+Codomeniul este mulțimea valorilor pe care le poate lua f(x). Imaginea este mulțimea valorilor efectiv atinse de funcție. De exemplu, dacă x este 2, f(x) este 4. Așadar, imaginea este o submulțime a codomeniului.
+

@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Domeniul unei funcții este mulțimea valorilor x pentru care funcția are sens. În cazul funcției f(x) = 2x + 1, domeniul este toate numerele reale.
+
+2
+00:02:30.000 --> 00:05:00.000
+Codomeniul este mulțimea valorilor y pe care le poate lua funcția. Pentru f(x) = 1/x, codomeniul este toate numerele reale, dar x nu poate fi 0.
+

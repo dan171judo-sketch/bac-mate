@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l03",
+    "modul": 1,
+    "numarLectie": 3,
+    "titlu": "Modulul unui număr real",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l03-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Modulul unui număr real - Bac și greșeli",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Modulul unui număr real”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Modulul unui număr real - Bac și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Modulul unui număr real”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Modulul unui număr real - Bac și greșeli",
+      "naratiune": "În această lecție vom învăța despre modulul unui număr real.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Modulul unui număr real - Bac și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Modulul unui număr real - Bac și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța despre modulul unui număr real.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.115385,
+      "procentDurata": 11.5385
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Modulul unui număr real este o valoare pozitivă ega…",
+      "subtitlu": "Un elev care citește dintr-o carte de matematică.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Modulul unui număr real este o valoare pozitivă egală cu nu…",
+      "naratiune": "Modulul unui număr real este o valoare pozitivă egală cu numărul dacă este pozitiv, și egală cu opusul numărului dacă este negativ.",
+      "vizual": "Un elev care citește dintr-o carte de matematică.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Modulul unui număr real este o valoare pozitivă egală cu numărul dacă este pozitiv, și egală cu opusul numărului dacă este negativ.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.115385,
+      "endProcent": 0.25641,
+      "procentDurata": 14.1026
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea cum se aplică definiția modulului în prac…",
+      "subtitlu": "Un profesor care desenează pe tablă un grafic cu modulul unui număr.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea cum se aplică definiția modulului în practică și…",
+      "naratiune": "Vom vedea cum se aplică definiția modulului în practică și cum să evităm greșelile comune.",
+      "vizual": "Un profesor care desenează pe tablă un grafic cu modulul unui număr.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se aplică definiția modulului în practică și cum să evităm greșelile comune.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.25641,
+      "endProcent": 0.352564,
+      "procentDurata": 9.6154
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța despre modulul unui număr real.",
+      "naratiune": "În această lecție vom învăța despre modulul unui număr real. Vom vedea cum se calculează modulul unui număr. Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac. Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța despre modulul unui număr real.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează modulul unui număr.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.352564,
+      "endProcent": 0.596154,
+      "procentDurata": 24.359
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul modulului unui număr negativ",
+      "subtitlu": "Calculați |−7|.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "7",
+      "naratiune": "Calculați |−7|. Pentru numărul negativ −7, modulul este opusul lui, adică 7. Deci, |−7| = 7. Răspunsul final este 7.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați |−7|.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru numărul negativ −7, modulul este opusul lui, adică 7.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deci, |−7| = 7.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 7",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.596154,
+      "endProcent": 0.74359,
+      "procentDurata": 14.7436
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este modulul numărului −5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Care este modulul numărului −5? A) −5 B) 5 C) 0 Modulul unui număr negativ este opusul lui, deci |−5| = 5.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este modulul numărului −5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) −5",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 0",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.74359,
+      "endProcent": 0.884615,
+      "procentDurata": 14.1026
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Modulul unui număr este întotdeauna pozitiv sau zero.",
+      "naratiune": "Modulul unui număr este întotdeauna pozitiv sau zero. Pentru numerele negative, modulul este opusul lor.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Modulul unui număr este întotdeauna pozitiv sau zero.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru numerele negative, modulul este opusul lor.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.884615,
+      "endProcent": 1,
+      "procentDurata": 11.5385
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Modulul unui număr real - Bac și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Modulul unui număr real”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Modulul unui număr real - Bac și greșeli",
+      "naratiune": "În această lecție vom învăța despre modulul unui număr real.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Modulul unui număr real - Bac și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Modulul unui număr real - Bac și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța despre modulul unui număr real.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.115385,
+      "procentDurata": 11.5385
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Modulul unui număr real este o valoare pozitivă ega…",
+      "subtitlu": "Un elev care citește dintr-o carte de matematică.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Modulul unui număr real este o valoare pozitivă egală cu nu…",
+      "naratiune": "Modulul unui număr real este o valoare pozitivă egală cu numărul dacă este pozitiv, și egală cu opusul numărului dacă este negativ.",
+      "vizual": "Un elev care citește dintr-o carte de matematică.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Modulul unui număr real este o valoare pozitivă egală cu numărul dacă este pozitiv, și egală cu opusul numărului dacă este negativ.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.115385,
+      "endProcent": 0.25641,
+      "procentDurata": 14.1026
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom vedea cum se aplică definiția modulului în prac…",
+      "subtitlu": "Un profesor care desenează pe tablă un grafic cu modulul unui număr.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom vedea cum se aplică definiția modulului în practică și…",
+      "naratiune": "Vom vedea cum se aplică definiția modulului în practică și cum să evităm greșelile comune.",
+      "vizual": "Un profesor care desenează pe tablă un grafic cu modulul unui număr.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se aplică definiția modulului în practică și cum să evităm greșelile comune.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.25641,
+      "endProcent": 0.352564,
+      "procentDurata": 9.6154
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța despre modulul unui număr real.",
+      "naratiune": "În această lecție vom învăța despre modulul unui număr real. Vom vedea cum se calculează modulul unui număr. Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac. Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța despre modulul unui număr real.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează modulul unui număr.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.352564,
+      "endProcent": 0.596154,
+      "procentDurata": 24.359
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul modulului unui număr negativ",
+      "subtitlu": "Calculați |−7|.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "7",
+      "naratiune": "Calculați |−7|. Pentru numărul negativ −7, modulul este opusul lui, adică 7. Deci, |−7| = 7. Răspunsul final este 7.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați |−7|.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru numărul negativ −7, modulul este opusul lui, adică 7.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deci, |−7| = 7.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 7",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.596154,
+      "endProcent": 0.74359,
+      "procentDurata": 14.7436
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este modulul numărului −5?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Care este modulul numărului −5? A) −5 B) 5 C) 0 Modulul unui număr negativ este opusul lui, deci |−5| = 5.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este modulul numărului −5?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) −5",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 0",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.74359,
+      "endProcent": 0.884615,
+      "procentDurata": 14.1026
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Modulul unui număr este întotdeauna pozitiv sau zero.",
+      "naratiune": "Modulul unui număr este întotdeauna pozitiv sau zero. Pentru numerele negative, modulul este opusul lor.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Modulul unui număr este întotdeauna pozitiv sau zero.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru numerele negative, modulul este opusul lor.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.884615,
+      "endProcent": 1,
+      "procentDurata": 11.5385
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-03.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.462Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l08",
+  "videoId": "m1-l08-v3",
+  "modul": 1,
+  "numarLectie": 8,
+  "numarVideo": 3,
+  "titluLectie": "Operații cu mulțimi",
+  "titluVideo": "Operații cu mulțimi - Intersecție",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

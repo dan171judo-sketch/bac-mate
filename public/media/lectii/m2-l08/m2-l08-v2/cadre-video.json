@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l08",
+    "modul": 2,
+    "numarLectie": 8,
+    "titlu": "Monotonie și mărginire",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l08-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Monotonie și mărginire",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire",
+      "naratiune": "Începem cu definiția monotoniei",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția monotoniei",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.091347,
+      "procentDurata": 9.1347
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția este crescătoare dacă pentru orice x1 < x2,…",
+      "subtitlu": "Profesorul desenează graficul unei funcții",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤…",
+      "naratiune": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2).",
+      "vizual": "Profesorul desenează graficul unei funcții",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.091347,
+      "endProcent": 0.152246,
+      "procentDurata": 6.0898
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru mărginire, verificăm dacă funcția are valori…",
+      "subtitlu": "Profesorul arată un tabel cu valori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru mărginire, verificăm dacă funcția are valori maxime…",
+      "naratiune": "Pentru mărginire, verificăm dacă funcția are valori maxime și minime.",
+      "vizual": "Profesorul arată un tabel cu valori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru mărginire, verificăm dacă funcția are valori maxime și minime.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.152246,
+      "endProcent": 0.202994,
+      "procentDurata": 5.0749
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția monotoniei",
+      "naratiune": "Începem cu definiția monotoniei Vom vedea cum se aplică în exerciții Analizăm mărginirea funcțiilor Rezolvăm un exercițiu de tip Bac",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția monotoniei",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se aplică în exerciții",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Analizăm mărginirea funcțiilor",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Rezolvăm un exercițiu de tip Bac",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.202994,
+      "endProcent": 0.304491,
+      "procentDurata": 10.1497
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie și mărginire",
+      "subtitlu": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este descrescătoare și mărginită pe [1, 2].",
+      "naratiune": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2]. Calculăm derivata f'(x) = 2x - 4. Pe [1, 2], f'(x) ≤ 0, deci funcția este descrescătoare. Calculăm f(1) = -2 și f(2) = -3. Valoarea minimă este -3, maximul -2, deci funcția este mărginită. Răspunsul final este Funcția este descrescătoare și mărginită pe [1, 2]..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata f'(x) = 2x - 4. Pe [1, 2], f'(x) ≤ 0, deci funcția este descrescătoare.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm f(1) = -2 și f(2) = -3. Valoarea minimă este -3, maximul -2, deci funcția este mărginită.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este descrescătoare și mărginită pe [1, 2].",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.304491,
+      "endProcent": 0.695509,
+      "procentDurata": 39.1018
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = x² - 4x + 3 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) descrescătoare pe [1, 2]",
+      "naratiune": "Funcția f(x) = x² - 4x + 3 este: A) crescătoare pe [1, 2] B) descrescătoare pe [1, 2] C) mărginită pe [1, 2] Derivata este negativă pe [1, 2], deci funcția este descrescătoare. Valori minime și maxime există, deci este mărginită.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = x² - 4x + 3 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) crescătoare pe [1, 2]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) descrescătoare pe [1, 2]",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) mărginită pe [1, 2]",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) descrescătoare pe [1, 2]",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.695509,
+      "endProcent": 0.908653,
+      "procentDurata": 21.3144
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonia se verifică prin comparație între valori",
+      "naratiune": "Monotonia se verifică prin comparație între valori Mărginirea implică existența unui maxim și minim",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonia se verifică prin comparație între valori",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginirea implică existența unui maxim și minim",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.908653,
+      "endProcent": 1,
+      "procentDurata": 9.1347
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire",
+      "naratiune": "Începem cu definiția monotoniei",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția monotoniei",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.091347,
+      "procentDurata": 9.1347
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția este crescătoare dacă pentru orice x1 < x2,…",
+      "subtitlu": "Profesorul desenează graficul unei funcții",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤…",
+      "naratiune": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2).",
+      "vizual": "Profesorul desenează graficul unei funcții",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.091347,
+      "endProcent": 0.152246,
+      "procentDurata": 6.0898
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru mărginire, verificăm dacă funcția are valori…",
+      "subtitlu": "Profesorul arată un tabel cu valori",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru mărginire, verificăm dacă funcția are valori maxime…",
+      "naratiune": "Pentru mărginire, verificăm dacă funcția are valori maxime și minime.",
+      "vizual": "Profesorul arată un tabel cu valori",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru mărginire, verificăm dacă funcția are valori maxime și minime.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.152246,
+      "endProcent": 0.202994,
+      "procentDurata": 5.0749
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția monotoniei",
+      "naratiune": "Începem cu definiția monotoniei Vom vedea cum se aplică în exerciții Analizăm mărginirea funcțiilor Rezolvăm un exercițiu de tip Bac",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția monotoniei",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se aplică în exerciții",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Analizăm mărginirea funcțiilor",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Rezolvăm un exercițiu de tip Bac",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.202994,
+      "endProcent": 0.304491,
+      "procentDurata": 10.1497
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie și mărginire",
+      "subtitlu": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este descrescătoare și mărginită pe [1, 2].",
+      "naratiune": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2]. Calculăm derivata f'(x) = 2x - 4. Pe [1, 2], f'(x) ≤ 0, deci funcția este descrescătoare. Calculăm f(1) = -2 și f(2) = -3. Valoarea minimă este -3, maximul -2, deci funcția este mărginită. Răspunsul final este Funcția este descrescătoare și mărginită pe [1, 2]..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = x² - 4x + 3. Arătați că este descrescătoare pe [1, 2] și mărginită pe [1, 2].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata f'(x) = 2x - 4. Pe [1, 2], f'(x) ≤ 0, deci funcția este descrescătoare.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm f(1) = -2 și f(2) = -3. Valoarea minimă este -3, maximul -2, deci funcția este mărginită.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este descrescătoare și mărginită pe [1, 2].",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.304491,
+      "endProcent": 0.695509,
+      "procentDurata": 39.1018
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x) = x² - 4x + 3 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) descrescătoare pe [1, 2]",
+      "naratiune": "Funcția f(x) = x² - 4x + 3 este: A) crescătoare pe [1, 2] B) descrescătoare pe [1, 2] C) mărginită pe [1, 2] Derivata este negativă pe [1, 2], deci funcția este descrescătoare. Valori minime și maxime există, deci este mărginită.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x) = x² - 4x + 3 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) crescătoare pe [1, 2]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) descrescătoare pe [1, 2]",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) mărginită pe [1, 2]",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) descrescătoare pe [1, 2]",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.695509,
+      "endProcent": 0.908653,
+      "procentDurata": 21.3144
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonia se verifică prin comparație între valori",
+      "naratiune": "Monotonia se verifică prin comparație între valori Mărginirea implică existența unui maxim și minim",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonia se verifică prin comparație între valori",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginirea implică existența unui maxim și minim",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.908653,
+      "endProcent": 1,
+      "procentDurata": 9.1347
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-08.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.785Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l07",
+  "videoId": "m2-l07-v2",
+  "modul": 2,
+  "numarLectie": 7,
+  "numarVideo": 2,
+  "titluLectie": "Restricția unei funcții",
+  "titluVideo": "Restricția unei funcții",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

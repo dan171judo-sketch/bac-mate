@@ -1,0 +1,641 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l08",
+    "modul": 2,
+    "numarLectie": 8,
+    "titlu": "Monotonie și mărginire",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l08-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Monotonie și mărginire",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire",
+      "naratiune": "Ce înseamnă că o funcție este crescătoare?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este crescătoare?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102128,
+      "procentDurata": 10.2128
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este crescătoare dacă, când x crește, f(x…",
+      "subtitlu": "Un grafic cu o funcție crescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este crescătoare dacă, când x crește, f(x) crește…",
+      "naratiune": "O funcție este crescătoare dacă, când x crește, f(x) crește. De exemplu, dacă x1 < x2, atunci f(x1) < f(x2).",
+      "vizual": "Un grafic cu o funcție crescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este crescătoare dacă, când x crește, f(x) crește.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "De exemplu, dacă x1 < x2, atunci f(x1) < f(x2).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102128,
+      "endProcent": 0.215603,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este descrescătoare dacă, când x crește,…",
+      "subtitlu": "Un grafic cu o funcție descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este descrescătoare dacă, când x crește, f(x) sca…",
+      "naratiune": "O funcție este descrescătoare dacă, când x crește, f(x) scade. De exemplu, dacă x1 < x3, atunci f(x1) > f(x3).",
+      "vizual": "Un grafic cu o funcție descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "O funcție este descrescătoare dacă, când x crește, f(x) scade.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "De exemplu, dacă x1 < x3, atunci f(x1) > f(x3).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.215603,
+      "endProcent": 0.329078,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă că o funcție este crescătoare?",
+      "naratiune": "Ce înseamnă că o funcție este crescătoare? Cum putem verifica dacă o funcție este descrescătoare? Ce înseamnă că o funcție este mărginită? Cum putem determina dacă o funcție are valori mărginite?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este crescătoare?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum putem verifica dacă o funcție este descrescătoare?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este mărginită?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum putem determina dacă o funcție are valori mărginite?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.329078,
+      "endProcent": 0.504965,
+      "procentDurata": 17.5887
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie",
+      "subtitlu": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Crescătoare",
+      "naratiune": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare? Calculăm derivata: f'(x) = 2. Dacă f'(x) > 0, funcția este crescătoare. Dacă f'(x) < 0, funcția este descrescătoare. Răspunsul final este Crescătoare.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata: f'(x) = 2.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Dacă f'(x) > 0, funcția este crescătoare.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Dacă f'(x) < 0, funcția este descrescătoare.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Crescătoare",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.504965,
+      "endProcent": 0.733333,
+      "procentDurata": 22.8369
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Descrescătoare",
+      "naratiune": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare? A) Crescătoare B) Descrescătoare C) Constantă Derivata este f'(x) = -3 < 0, deci funcția este descrescătoare.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Crescătoare",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Descrescătoare",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Constantă",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Descrescătoare",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.733333,
+      "endProcent": 0.897872,
+      "procentDurata": 16.4539
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonie: funcția crește sau scade pe tot domeniul.",
+      "naratiune": "Monotonie: funcția crește sau scade pe tot domeniul. Mărginire: funcția are valori maxime și minime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonie: funcția crește sau scade pe tot domeniul.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginire: funcția are valori maxime și minime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897872,
+      "endProcent": 1,
+      "procentDurata": 10.2128
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonie și mărginire",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonie și mărginire”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonie și mărginire",
+      "naratiune": "Ce înseamnă că o funcție este crescătoare?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonie și mărginire”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonie și mărginire",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este crescătoare?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102128,
+      "procentDurata": 10.2128
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este crescătoare dacă, când x crește, f(x…",
+      "subtitlu": "Un grafic cu o funcție crescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este crescătoare dacă, când x crește, f(x) crește…",
+      "naratiune": "O funcție este crescătoare dacă, când x crește, f(x) crește. De exemplu, dacă x1 < x2, atunci f(x1) < f(x2).",
+      "vizual": "Un grafic cu o funcție crescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este crescătoare dacă, când x crește, f(x) crește.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "formula",
+          "text": "De exemplu, dacă x1 < x2, atunci f(x1) < f(x2).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102128,
+      "endProcent": 0.215603,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "O funcție este descrescătoare dacă, când x crește,…",
+      "subtitlu": "Un grafic cu o funcție descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "O funcție este descrescătoare dacă, când x crește, f(x) sca…",
+      "naratiune": "O funcție este descrescătoare dacă, când x crește, f(x) scade. De exemplu, dacă x1 < x3, atunci f(x1) > f(x3).",
+      "vizual": "Un grafic cu o funcție descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "O funcție este descrescătoare dacă, când x crește, f(x) scade.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "De exemplu, dacă x1 < x3, atunci f(x1) > f(x3).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.215603,
+      "endProcent": 0.329078,
+      "procentDurata": 11.3475
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă că o funcție este crescătoare?",
+      "naratiune": "Ce înseamnă că o funcție este crescătoare? Cum putem verifica dacă o funcție este descrescătoare? Ce înseamnă că o funcție este mărginită? Cum putem determina dacă o funcție are valori mărginite?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este crescătoare?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum putem verifica dacă o funcție este descrescătoare?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce înseamnă că o funcție este mărginită?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum putem determina dacă o funcție are valori mărginite?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.329078,
+      "endProcent": 0.504965,
+      "procentDurata": 17.5887
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare monotonie",
+      "subtitlu": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Crescătoare",
+      "naratiune": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare? Calculăm derivata: f'(x) = 2. Dacă f'(x) > 0, funcția este crescătoare. Dacă f'(x) < 0, funcția este descrescătoare. Răspunsul final este Crescătoare.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 2x + 3. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm derivata: f'(x) = 2.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Dacă f'(x) > 0, funcția este crescătoare.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Dacă f'(x) < 0, funcția este descrescătoare.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Crescătoare",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.504965,
+      "endProcent": 0.733333,
+      "procentDurata": 22.8369
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Descrescătoare",
+      "naratiune": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare? A) Crescătoare B) Descrescătoare C) Constantă Derivata este f'(x) = -3 < 0, deci funcția este descrescătoare.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = -3x + 2. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Crescătoare",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Descrescătoare",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Constantă",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Descrescătoare",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.733333,
+      "endProcent": 0.897872,
+      "procentDurata": 16.4539
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Monotonie: funcția crește sau scade pe tot domeniul.",
+      "naratiune": "Monotonie: funcția crește sau scade pe tot domeniul. Mărginire: funcția are valori maxime și minime.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Monotonie: funcția crește sau scade pe tot domeniul.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Mărginire: funcția are valori maxime și minime.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897872,
+      "endProcent": 1,
+      "procentDurata": 10.2128
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-08.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.779Z"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "versiune": "BAC-MATE-GENERATOR-LOCAL-V4",
+  "generatLa": "2026-09-14T07:49:12.821Z",
+  "model": "qwen3:8b",
+  "ollamaUrl": "http://127.0.0.1:11434",
+  "rezultate": [
+    {
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "fetch failed",
+      "la": "2026-09-14T07:49:12.818Z"
+    }
+  ]
+}

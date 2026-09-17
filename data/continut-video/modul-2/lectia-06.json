@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l06",
+  "modul": 2,
+  "numarLectie": 6,
+  "titlu": "Egalitatea a două funcții",
+  "slugContinut": "egalitatea-a-doua-functii",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Egalitatea a două funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l06-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Egalitatea a două funcții",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă ca două funcții să fie egale?",
+        "De ce este important să știm să le comparăm?",
+        "Cum putem verifica dacă două funcții sunt egale?",
+        "Ce se întâmplă dacă nu sunt egale?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Două funcții f și g reprezentate grafic pe același sistem de axe",
+          "naratiune": "Pentru a vedea dacă două funcții sunt egale, trebuie să verificăm dacă au același grafic. Dacă graficul lor coincide, atunci sunt egale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Două funcții f și g scrise sub formă de formule",
+          "naratiune": "Dacă două funcții au același domeniu și același codomeniu, și pentru fiecare x din domeniu, f(x) = g(x), atunci sunt egale."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Două funcții sunt egale dacă au același domeniu și același codomeniu.",
+        "Pentru fiecare x din domeniu, valorile funcțiilor trebuie să fie egale."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea egalității a două funcții",
+        "enunt": "Fie funcțiile f: R → R, f(x) = 2x + 1 și g: R → R, g(x) = 2x + 1. Sunt ele egale?",
+        "rezolvare": [
+          "Pasul 1: Verificăm dacă domeniile sunt egale. Ambele sunt R.",
+          "Pasul 2: Verificăm dacă pentru orice x ∈ R, f(x) = g(x). În acest caz, 2x + 1 = 2x + 1, deci sunt egale."
+        ],
+        "raspuns": "Da, funcțiile sunt egale."
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcțiile f: R → R, f(x) = 2x + 1 și g: R → R, g(x) = 2x + 2. Sunt ele egale?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Pentru a verifica egalitatea, comparăm valorile. f(x) = 2x + 1 și g(x) = 2x + 2. Pentru orice x, 2x + 1 ≠ 2x + 2, deci funcțiile nu sunt egale."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l06/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l06/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l06/m2-l06-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l06/m2-l06-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l06/m2-l06-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 6,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 6,
+        "titluLectie": "Egalitatea a două funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:52:40.673Z"
+      }
+    },
+    {
+      "id": "m2-l06-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Egalitatea a două funcții",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă ca două funcții să fie egale?",
+        "Cum verificăm dacă două funcții sunt egale?",
+        "Ce trebuie să fie identic între cele două funcții?",
+        "De ce este important să știm această egalitate?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Două funcții f și g reprezentate grafic",
+          "naratiune": "Două funcții sunt egale dacă au același domeniu și pentru fiecare x din acel domeniu, valorile funcțiilor sunt egale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Două funcții f și g scrise sub formă de formule",
+          "naratiune": "Pentru a verifica egalitatea, comparăm domeniile și apoi verificăm dacă expresiile sunt identice."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Două funcții sunt egale dacă au același domeniu și expresii identice.",
+        "Egalitatea funcțiilor este esențială pentru rezolvarea problemelor de tip Bac."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea egalității a două funcții",
+        "enunt": "Fie funcțiile f(x) = 2x + 1 și g(x) = 2x + 1. Sunt ele egale?",
+        "rezolvare": [
+          "Pasul 1: Verificăm dacă domeniile sunt identice. Ambele funcții au domeniul R.",
+          "Pasul 2: Comparăm expresiile. Ambele sunt 2x + 1, deci sunt identice."
+        ],
+        "raspuns": "Da, funcțiile sunt egale."
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcțiile f(x) = 3x - 2 și g(x) = 3x - 2. Sunt egale?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Funcțiile au același domeniu (R) și expresii identice, deci sunt egale."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l06/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l06/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l06/m2-l06-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l06/m2-l06-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l06/m2-l06-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 6,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 6,
+        "titluLectie": "Egalitatea a două funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:58:27.267Z"
+      }
+    },
+    {
+      "id": "m2-l06-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Egalitatea funcțiilor",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom învăța cum să verificăm dacă două funcții sunt egale.",
+        "Vom folosi definiția egalității funcțiilor pentru a rezolva un exercițiu.",
+        "Vom analiza domeniul de definiție al funcțiilor.",
+        "Vom compara valorile funcțiilor pentru fiecare x din domeniu."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Două funcții f și g scrise pe ecran",
+          "naratiune": "Pentru a verifica dacă două funcții sunt egale, trebuie să verificăm dacă au același domeniu de definiție și dacă pentru fiecare x din acel domeniu, f(x) = g(x)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Calculul valorilor funcțiilor pentru x = 1, 2, 3",
+          "naratiune": "Vom compara valorile funcțiilor pentru câteva valori ale lui x pentru a vedea dacă sunt egale."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Două funcții sunt egale dacă au același domeniu și pentru fiecare x din domeniu, valorile funcțiilor sunt egale.",
+        "Este important să verificăm domeniul de definiție al funcțiilor înainte de a compara valorile."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea egalității funcțiilor",
+        "enunt": "Fie funcțiile f: R → R, f(x) = 2x + 1 și g: R → R, g(x) = 2x + 1. Sunt funcțiile f și g egale?",
+        "rezolvare": [
+          "Pasul 1: Verificăm dacă domeniile de definiție sunt egale. Ambele funcții au domeniul R.",
+          "Pasul 2: Verificăm dacă pentru fiecare x ∈ R, f(x) = g(x). Deoarece 2x + 1 = 2x + 1, funcțiile sunt egale."
+        ],
+        "raspuns": "Da, funcțiile f și g sunt egale."
+      },
+      "verificareRapida": {
+        "intrebare": "Sunt funcțiile f și g egale?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Funcțiile f și g au același domeniu de definiție (R) și pentru fiecare x ∈ R, f(x) = g(x). Deci, funcțiile sunt egale."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l06/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l06/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l06/m2-l06-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l06/m2-l06-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l06/m2-l06-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 6,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 6,
+        "titluLectie": "Egalitatea a două funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:05:54.072Z"
+      }
+    },
+    {
+      "id": "m2-l06-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Egalitatea funcțiilor - cum se face corect",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Egalitatea funcțiilor este o temă frecventă la Bac",
+        "Elevii adesea confundă domeniul de definiție cu codomeniul",
+        "Este important să verificăm domeniul de definiție",
+        "Greșeala comună este să nu comparăm valorile funcțiilor"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Două funcții f și g scrise pe ecran",
+          "naratiune": "Pentru a verifica dacă două funcții sunt egale, trebuie să comparăm atât formulele, cât și domeniile de definiție."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un exemplu cu funcții f(x)=√x și g(x)=√(x²)",
+          "naratiune": "Vom vedea cum se compară funcțiile și unde se pot face greșeli."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Două funcții sunt egale dacă au același domeniu de definiție și același codomeniu",
+        "Este esențial să verificăm domeniul de definiție"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea egalității funcțiilor",
+        "enunt": "Fie funcțiile f: D₁ → ℝ, f(x) = √x și g: D₂ → ℝ, g(x) = √(x²). Sunt funcțiile egale?",
+        "rezolvare": [
+          "Calculăm domeniul de definiție al funcției f: D₁ = [0, ∞)",
+          "Calculăm domeniul de definiție al funcției g: D₂ = ℝ"
+        ],
+        "raspuns": "Funcțiile nu sunt egale"
+      },
+      "verificareRapida": {
+        "intrebare": "Sunt funcțiile f(x) = √x și g(x) = √(x²) egale?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Doar pentru x ≥ 0"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Funcțiile nu sunt egale deoarece au domenii de definiție diferite: f are domeniu [0, ∞), iar g are domeniu ℝ."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l06/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l06/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l06/m2-l06-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l06/m2-l06-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l06/m2-l06-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 6,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 6,
+        "titluLectie": "Egalitatea a două funcții",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T09:12:35.885Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T09:12:35.885Z",
+    "necesitaVerificareUmana": true
+  }
+}

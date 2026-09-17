@@ -1,0 +1,57 @@
+{
+  "proiect": "BAC MATE",
+  "versiune": "4.0",
+  "videoId": "m2-l08-v4",
+  "rezolutie": {
+    "latime": 1280,
+    "inaltime": 720
+  },
+  "totalScene": 7,
+  "create": 7,
+  "existente": 0,
+  "fisiere": [
+    {
+      "scena": 1,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-01.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-01.png"
+    },
+    {
+      "scena": 2,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-02.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-02.png"
+    },
+    {
+      "scena": 3,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-03.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-03.png"
+    },
+    {
+      "scena": 4,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-04.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-04.png"
+    },
+    {
+      "scena": 5,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-05.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-05.png"
+    },
+    {
+      "scena": 6,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-06.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-06.png"
+    },
+    {
+      "scena": 7,
+      "svg": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-07.svg",
+      "png": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\scene\\scena-07.png"
+    }
+  ],
+  "verificare": {
+    "pngGenerate": true,
+    "rezolutie": "1280x720",
+    "gataPentruAsamblare": true,
+    "matematicaVerificata": false,
+    "publicareAutomata": false
+  },
+  "generatLa": "2026-09-12T05:53:25.990Z"
+}

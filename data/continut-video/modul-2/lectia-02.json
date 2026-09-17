@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l02",
+  "modul": 2,
+  "numarLectie": 2,
+  "titlu": "Noțiunea de funcție",
+  "slugContinut": "notiunea-de-functie",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l02-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Noțiunea de funcție",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă o funcție?",
+        "Cum se definește o funcție?",
+        "De ce este importantă funcția?",
+        "Cum se folosește în probleme?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu două variabile x și y",
+          "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulțime."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel cu valori x și f(x)",
+          "naratiune": "Pentru fiecare x, funcția ne dă un singur f(x). Nu există două valori ale lui f(x) pentru același x."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție leagă două mulțimi prin o regulă.",
+        "Fiecare x are un singur f(x)."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determină dacă relația este funcție",
+        "enunt": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție?",
+        "rezolvare": [
+          "Verificăm dacă fiecare element din A are un singur element în B.",
+          "Elementele 1, 2, 3 din A au fiecare un element în B.",
+          "R este o funcție."
+        ],
+        "raspuns": "Da"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Da, pentru fiecare x din A, există un singur f(x) în B."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l02/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l02/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l02/m2-l02-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l02/m2-l02-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l02/m2-l02-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 2,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 2,
+        "titluLectie": "Noțiunea de funcție",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:08:11.799Z"
+      }
+    },
+    {
+      "id": "m2-l02-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Noțiunea de funcție",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este o funcție?",
+        "Cum se definește o funcție?",
+        "Ce se cere la Bac?",
+        "Cum să abordezi exercițiile?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu două axe și o curbă",
+          "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător în a doua mulțime."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel cu valori și corespondențe",
+          "naratiune": "Pentru a defini o funcție, trebuie să avem o rețetă care, pentru fiecare valoare din domeniu, să ne dea o singură valoare din codomeniu."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție este o corespondență univocă între două mulțimi.",
+        "Fiecare valoare din domeniu trebuie să aibă exact o imagine în codomeniu."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determină dacă următoarea corespondență este funcție",
+        "enunt": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție?",
+        "rezolvare": [
+          "Verificăm dacă fiecare element din domeniu are o singură imagine.",
+          "Elementele 1, 2, 3 au fiecare o imagine unică în codomeniu."
+        ],
+        "raspuns": "Da, f este o funcție."
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Da, deoarece fiecare element din domeniu are o singură imagine în codomeniu."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l02/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l02/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l02/m2-l02-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l02/m2-l02-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l02/m2-l02-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 2,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 2,
+        "titluLectie": "Noțiunea de funcție",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:12:50.287Z"
+      }
+    },
+    {
+      "id": "m2-l02-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Funcția de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom analiza o funcție care apare în subiecte de Bac",
+        "Vom identifica domeniul de definiție",
+        "Vom calcula valoarea funcției într-un punct",
+        "Vom verifica dacă un punct aparține graficului funcției"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu o funcție f: R → R, f(x) = 2x + 3",
+          "naratiune": "Vom analiza funcția f(x) = 2x + 3, care este o funcție liniară. Domeniul de definiție este mulțimea numerelor reale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu graficul funcției f(x) = 2x + 3",
+          "naratiune": "Graficul funcției este o dreaptă. Pentru a verifica dacă un punct aparține graficului, vom înlocui x cu valoarea dată și vom calcula f(x)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Funcția f: R → R, f(x) = 2x + 3 este o funcție liniară",
+        "Pentru a verifica dacă un punct aparține graficului, calculăm f(x) și comparam cu valoarea dată"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare dacă punctul (1, 5) aparține graficului funcției f(x) = 2x + 3",
+        "enunt": "Se dă funcția f: R → R, f(x) = 2x + 3. Verificați dacă punctul (1, 5) aparține graficului funcției.",
+        "rezolvare": [
+          "Calculăm f(1) = 2*1 + 3 = 5",
+          "Deoarece f(1) = 5, punctul (1, 5) aparține graficului funcției"
+        ],
+        "raspuns": "Da, punctul (1, 5) aparține graficului funcției"
+      },
+      "verificareRapida": {
+        "intrebare": "Punctul (2, 7) aparține graficului funcției f(x) = 2x + 3?",
+        "variante": [
+          "A) Da",
+          "B) Nu",
+          "C) Nu știu"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Calculăm f(2) = 2*2 + 3 = 7. Deoarece f(2) = 7, punctul (2, 7) aparține graficului funcției."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l02/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l02/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l02/m2-l02-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l02/m2-l02-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l02/m2-l02-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 2,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 2,
+        "titluLectie": "Noțiunea de funcție",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:19:06.799Z"
+      }
+    },
+    {
+      "id": "m2-l02-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Funcția: definiție și greșeli comune",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este o funcție?",
+        "Cum se definește o funcție?",
+        "Ce se întâmplă dacă nu respectăm definiția?",
+        "Cum să evităm greșelile la Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă",
+          "naratiune": "O funcție este o relație între două mulțimi, A și B, astfel încât fiecare element din A are exact un element corespunzător din B."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev rezolvă un exercițiu pe caiet",
+          "naratiune": "Atenție la domeniul de definiție și la codomeniul funcției. O greșeală comună este să considerăm o funcție fără a specifica domeniul."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O funcție trebuie să asocieze fiecare element din A cu un singur element din B",
+        "Domeniul de definiție este esențial pentru a defini corect o funcție"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificarea domeniului de definiție",
+        "enunt": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției?",
+        "rezolvare": [
+          "Pentru ca funcția să fie definită, numitorul trebuie să fie diferit de zero.",
+          "Deci x ≠ 0, deci domeniul de definiție este R\\{0}."
+        ],
+        "raspuns": "R\\{0}"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției?",
+        "variante": [
+          "A) [1, ∞)",
+          "B) (-∞, 1)",
+          "C) (1, ∞)"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru ca radicalul să aibă sens, x - 1 ≥ 0 ⇒ x ≥ 1. Deci domeniul este [1, ∞). Varianta A este corectă."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l02/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l02/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l02/m2-l02-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l02/m2-l02-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l02/m2-l02-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 2,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 2,
+        "titluLectie": "Noțiunea de funcție",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:24:43.928Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T07:24:43.928Z",
+    "necesitaVerificareUmana": true
+  }
+}

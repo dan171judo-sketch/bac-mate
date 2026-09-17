@@ -1,0 +1,34 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip vom învăța cum să adunăm numerele cu semn, folosind o regulă simplă și eficientă. Vom explica pas cu pas cum funcționează această regulă, vom face un exemplu clar și vom verifica dacă rezultatul este corect.",
+    "scenariu": [
+      "În acest videoclip vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o parte esențială a matematicii, iar cunoașterea regulilor corecte te ajută să faci calcule rapide și corecte.",
+      "Regula pentru adunarea numerelor cu semn se bazează pe semnele lor. Dacă cele două numere au același semn, le aduni ca numere naturale și păstrezi semnul. Dacă au semne diferite, scade modulul mai mic din modulul mai mare și pui semnul numărului cu modulul mai mare.",
+      "De exemplu, dacă ai 5 + 3, rezultatul este 8. Dar dacă ai -5 + (-3), rezultatul este -8. Dacă ai 5 + (-3), scade 3 din 5 și pui semnul lui 5, adică +2.",
+      "Această regulă funcționează pentru că semnele indică direcția în care se deplasează numerele pe axa numerelor. Adunarea este ca o mișcare: dacă mergi în același sens, te apropie; dacă mergi în sensuri opuse, scade distanța.",
+      "Pentru a aplica această regulă, trebuie să identifici semnele numerelor. Dacă sunt la fel, aduni și păstrezi semnul. Dacă sunt diferite, scade și pui semnul celui mai mare în modul.",
+      "Să luăm un exemplu concret: -7 + 4. Semnele sunt diferite, deci scadem 4 din 7 și păstrăm semnul lui -7. Rezultatul este -3. Dacă ai făcut-o greșit, ar fi fost +3, ceea ce este o greșeală frecventă.",
+      "Verificarea rezultatului se face prin adunarea inversă. Dacă ai -3 + 4, trebuie să obții 1. Dacă nu e așa, înseamnă că ai făcut o greșeală la pasul de scădere.",
+      "O confuzie frecventă este când elevii adună direct numerele, ignorând semnele. De exemplu, -5 + 3 = -2, dar dacă se adună ca 5+3=8, rezultatul e greșit.",
+      "Pentru a evita această greșeală, este important să identifici întotdeauna semnele numerelor înainte de a face calcule. Dacă nu e clar, poți scrie numerele pe o axă mentală și să vezi direcția.",
+      "În concluzie, adunarea numerelor cu semn se bazează pe identificarea semnelor, aplicarea regulii corespunzătoare și verificarea rezultatului. Prin exercițiu și atenție, vei putea face calcule corecte și rapide."
+    ],
+    "ideiDeRetinut": [
+      "Dacă semnele sunt la fel, aduni și păstrezi semnul.",
+      "Dacă semnele sunt diferite, scade modulul mai mic din modulul mai mare și pune semnul numărului cu modulul mai mare.",
+      "Verificarea rezultatului se face prin adunarea inversă."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: -7 + 4",
+      "raspunsCorect": 0,
+      "verificareRapida": [
+        "-3",
+        "+3",
+        "1",
+        "-1"
+      ]
+    }
+  }
+}

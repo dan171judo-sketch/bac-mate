@@ -1,0 +1,669 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l04",
+    "modul": 2,
+    "numarLectie": 4,
+    "titlu": "Graficul unei funcții",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l04-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Graficul funcției f(x) = |x| - 1",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul funcției f(x) = |x| - 1",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul funcției f(x) = |x| - 1",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul funcției f(x) = |x| - 1”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069431,
+      "procentDurata": 6.9431
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom studia graficul funcției f(x) = |x| - 1",
+      "subtitlu": "Desenul graficului funcției f(x) = |x| - 1",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom studia graficul funcției f(x) = |x| - 1. Aceasta este o…",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1. Aceasta este o funcție absolută transformată. Graficul este o V inversată, deoarece avem |x|, iar apoi scădem 1.",
+      "vizual": "Desenul graficului funcției f(x) = |x| - 1",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este o funcție absolută transformată.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Graficul este o V inversată, deoarece avem |x|, iar apoi scădem 1.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069431,
+      "endProcent": 0.173578,
+      "procentDurata": 10.4147
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom determina punctele de intersecție cu axa Ox",
+      "subtitlu": "Desenul graficului funcției f(x) = |x| - 1 cu puncte de intersecție",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "1 = 0",
+      "naratiune": "Vom determina punctele de intersecție cu axa Ox. Pentru asta, punem f(x) = 0. Rezolvăm |x| - 1 = 0, adică |x| = 1, deci x = ±1. Deci punctele sunt (-1, 0) și (1, 0).",
+      "vizual": "Desenul graficului funcției f(x) = |x| - 1 cu puncte de intersecție",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom determina punctele de intersecție cu axa Ox.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Pentru asta, punem f(x) = 0.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "formula",
+          "text": "Rezolvăm |x| - 1 = 0, adică |x| = 1, deci x = ±1.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e4",
+          "tip": "mesaj",
+          "text": "Deci punctele sunt (-1, 0) și (1, 0).",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.173578,
+      "endProcent": 0.31244,
+      "procentDurata": 13.8862
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom studia graficul funcției f(x) = |x| - 1",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1 Vom identifica punctele de intersecție cu axele de coordonate Vom analiza simetria graficului Vom determina domeniul de definiție",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica punctele de intersecție cu axele de coordonate",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza simetria graficului",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom determina domeniul de definiție",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.31244,
+      "endProcent": 0.416586,
+      "procentDurata": 10.4147
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea punctelor de intersecție cu axa Ox",
+      "subtitlu": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Punctele de intersecție sunt (-1, 0) și (1, 0).",
+      "naratiune": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox. Pentru a găsi punctele de intersecție cu axa Ox, rezolvăm ecuația f(x) = 0. Avem |x| - 1 = 0 => |x| = 1 => x = ±1. Răspunsul final este Punctele de intersecție sunt (-1, 0) și (1, 0)..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a găsi punctele de intersecție cu axa Ox, rezolvăm ecuația f(x) = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Avem |x| - 1 = 0 => |x| = 1 => x = ±1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Punctele de intersecție sunt (-1, 0) și (1, 0).",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.416586,
+      "endProcent": 0.660559,
+      "procentDurata": 24.3973
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) (-1, 0) și (1, 0)",
+      "naratiune": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox? A) (-1, 0) și (1, 0) B) (0, -1) și (0, 1) C) (-1, 0) și (-1, 1) Punctele de intersecție cu axa Ox se obțin rezolvând ecuația f(x) = 0. Rezolvând |x| - 1 = 0, obținem x = ±1, deci punctele sunt (-1, 0) și (1, 0).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) (-1, 0) și (1, 0)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (0, -1) și (0, 1)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (-1, 0) și (-1, 1)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) (-1, 0) și (1, 0)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.660559,
+      "endProcent": 0.911283,
+      "procentDurata": 25.0723
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul funcției f(x) = |x| - 1 este o V inversată",
+      "naratiune": "Graficul funcției f(x) = |x| - 1 este o V inversată Punctele de intersecție cu axa Ox se găsesc rezolvând f(x) = 0",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Graficul funcției f(x) = |x| - 1 este o V inversată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Punctele de intersecție cu axa Ox se găsesc rezolvând f(x) = 0",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.911283,
+      "endProcent": 1,
+      "procentDurata": 8.8717
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul funcției f(x) = |x| - 1",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul funcției f(x) = |x| - 1",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul funcției f(x) = |x| - 1”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069431,
+      "procentDurata": 6.9431
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom studia graficul funcției f(x) = |x| - 1",
+      "subtitlu": "Desenul graficului funcției f(x) = |x| - 1",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom studia graficul funcției f(x) = |x| - 1. Aceasta este o…",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1. Aceasta este o funcție absolută transformată. Graficul este o V inversată, deoarece avem |x|, iar apoi scădem 1.",
+      "vizual": "Desenul graficului funcției f(x) = |x| - 1",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este o funcție absolută transformată.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Graficul este o V inversată, deoarece avem |x|, iar apoi scădem 1.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069431,
+      "endProcent": 0.173578,
+      "procentDurata": 10.4147
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom determina punctele de intersecție cu axa Ox",
+      "subtitlu": "Desenul graficului funcției f(x) = |x| - 1 cu puncte de intersecție",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "1 = 0",
+      "naratiune": "Vom determina punctele de intersecție cu axa Ox. Pentru asta, punem f(x) = 0. Rezolvăm |x| - 1 = 0, adică |x| = 1, deci x = ±1. Deci punctele sunt (-1, 0) și (1, 0).",
+      "vizual": "Desenul graficului funcției f(x) = |x| - 1 cu puncte de intersecție",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom determina punctele de intersecție cu axa Ox.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Pentru asta, punem f(x) = 0.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "formula",
+          "text": "Rezolvăm |x| - 1 = 0, adică |x| = 1, deci x = ±1.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e4",
+          "tip": "mesaj",
+          "text": "Deci punctele sunt (-1, 0) și (1, 0).",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.173578,
+      "endProcent": 0.31244,
+      "procentDurata": 13.8862
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom studia graficul funcției f(x) = |x| - 1",
+      "naratiune": "Vom studia graficul funcției f(x) = |x| - 1 Vom identifica punctele de intersecție cu axele de coordonate Vom analiza simetria graficului Vom determina domeniul de definiție",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Vom studia graficul funcției f(x) = |x| - 1",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica punctele de intersecție cu axele de coordonate",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza simetria graficului",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom determina domeniul de definiție",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.31244,
+      "endProcent": 0.416586,
+      "procentDurata": 10.4147
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea punctelor de intersecție cu axa Ox",
+      "subtitlu": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Punctele de intersecție sunt (-1, 0) și (1, 0).",
+      "naratiune": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox. Pentru a găsi punctele de intersecție cu axa Ox, rezolvăm ecuația f(x) = 0. Avem |x| - 1 = 0 => |x| = 1 => x = ±1. Răspunsul final este Punctele de intersecție sunt (-1, 0) și (1, 0)..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determinați punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a găsi punctele de intersecție cu axa Ox, rezolvăm ecuația f(x) = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Avem |x| - 1 = 0 => |x| = 1 => x = ±1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Punctele de intersecție sunt (-1, 0) și (1, 0).",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.416586,
+      "endProcent": 0.660559,
+      "procentDurata": 24.3973
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) (-1, 0) și (1, 0)",
+      "naratiune": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox? A) (-1, 0) și (1, 0) B) (0, -1) și (0, 1) C) (-1, 0) și (-1, 1) Punctele de intersecție cu axa Ox se obțin rezolvând ecuația f(x) = 0. Rezolvând |x| - 1 = 0, obținem x = ±1, deci punctele sunt (-1, 0) și (1, 0).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care sunt punctele de intersecție ale graficului funcției f(x) = |x| - 1 cu axa Ox?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) (-1, 0) și (1, 0)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (0, -1) și (0, 1)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (-1, 0) și (-1, 1)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) (-1, 0) și (1, 0)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.660559,
+      "endProcent": 0.911283,
+      "procentDurata": 25.0723
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul funcției f(x) = |x| - 1 este o V inversată",
+      "naratiune": "Graficul funcției f(x) = |x| - 1 este o V inversată Punctele de intersecție cu axa Ox se găsesc rezolvând f(x) = 0",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Graficul funcției f(x) = |x| - 1 este o V inversată",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Punctele de intersecție cu axa Ox se găsesc rezolvând f(x) = 0",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.911283,
+      "endProcent": 1,
+      "procentDurata": 8.8717
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.705Z"
+  }
+}

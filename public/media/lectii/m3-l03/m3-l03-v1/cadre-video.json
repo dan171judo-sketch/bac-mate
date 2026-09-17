@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m3-l03",
+    "modul": 3,
+    "numarLectie": 3,
+    "titlu": "Monotonia funcției de gradul I",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m3-l03-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Monotonia funcției de gradul I",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonia funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonia funcției de gradul I",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonia funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonia funcției de gradul I",
+      "naratiune": "Ce înseamnă ca o funcție să fie crescătoare?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonia funcției de gradul I”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonia funcției de gradul I",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă ca o funcție să fie crescătoare?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102389,
+      "procentDurata": 10.2389
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vizualizăm o dreaptă care se ridică de la stânga la…",
+      "subtitlu": "Un grafic cu o dreaptă crescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta…",
+      "naratiune": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta. Acesta este graficul unei funcții crescătoare.",
+      "vizual": "Un grafic cu o dreaptă crescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Acesta este graficul unei funcții crescătoare.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102389,
+      "endProcent": 0.19909,
+      "procentDurata": 9.6701
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum vedem o dreaptă care se coboară de la stânga l…",
+      "subtitlu": "Un grafic cu o dreaptă descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum vedem o dreaptă care se coboară de la stânga la dreapt…",
+      "naratiune": "Acum vedem o dreaptă care se coboară de la stânga la dreapta. Acesta este graficul unei funcții descrescătoare.",
+      "vizual": "Un grafic cu o dreaptă descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum vedem o dreaptă care se coboară de la stânga la dreapta.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Acesta este graficul unei funcții descrescătoare.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.19909,
+      "endProcent": 0.301479,
+      "procentDurata": 10.2389
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă ca o funcție să fie crescătoare?",
+      "naratiune": "Ce înseamnă ca o funcție să fie crescătoare? Cum se comportă graficul unei funcții crescătoare? Ce se întâmplă cu o funcție descrescătoare? Cum putem determina monotonia unei funcții de gradul I?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă ca o funcție să fie crescătoare?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se comportă graficul unei funcții crescătoare?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu o funcție descrescătoare?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum putem determina monotonia unei funcții de gradul I?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.301479,
+      "endProcent": 0.477816,
+      "procentDurata": 17.6337
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determina monotonia funcției f(x) = -2x + 3",
+      "subtitlu": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este descrescătoare.",
+      "naratiune": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției. Calculăm coeficientul a = -2. Deoarece a < 0, funcția este descrescătoare. Răspunsul final este Funcția este descrescătoare..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm coeficientul a = -2.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece a < 0, funcția este descrescătoare.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este descrescătoare.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477816,
+      "endProcent": 0.687144,
+      "procentDurata": 20.9329
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Crescătoare",
+      "naratiune": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare? A) Crescătoare B) Descrescătoare C) Constantă Coeficientul a = 4 > 0, deci funcția este crescătoare.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Crescătoare",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Descrescătoare",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Constantă",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Crescătoare",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.687144,
+      "endProcent": 0.846416,
+      "procentDurata": 15.9272
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă.",
+      "naratiune": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă. Monotonia funcției depinde de coeficientul a al funcției f(x) = ax + b.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Monotonia funcției depinde de coeficientul a al funcției f(x) = ax + b.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.846416,
+      "endProcent": 1,
+      "procentDurata": 15.3584
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Monotonia funcției de gradul I",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Monotonia funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Monotonia funcției de gradul I",
+      "naratiune": "Ce înseamnă ca o funcție să fie crescătoare?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Monotonia funcției de gradul I”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Monotonia funcției de gradul I",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă ca o funcție să fie crescătoare?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102389,
+      "procentDurata": 10.2389
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vizualizăm o dreaptă care se ridică de la stânga la…",
+      "subtitlu": "Un grafic cu o dreaptă crescătoare",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta…",
+      "naratiune": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta. Acesta este graficul unei funcții crescătoare.",
+      "vizual": "Un grafic cu o dreaptă crescătoare",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Acesta este graficul unei funcții crescătoare.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102389,
+      "endProcent": 0.19909,
+      "procentDurata": 9.6701
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Acum vedem o dreaptă care se coboară de la stânga l…",
+      "subtitlu": "Un grafic cu o dreaptă descrescătoare",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Acum vedem o dreaptă care se coboară de la stânga la dreapt…",
+      "naratiune": "Acum vedem o dreaptă care se coboară de la stânga la dreapta. Acesta este graficul unei funcții descrescătoare.",
+      "vizual": "Un grafic cu o dreaptă descrescătoare",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Acum vedem o dreaptă care se coboară de la stânga la dreapta.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Acesta este graficul unei funcții descrescătoare.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.19909,
+      "endProcent": 0.301479,
+      "procentDurata": 10.2389
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă ca o funcție să fie crescătoare?",
+      "naratiune": "Ce înseamnă ca o funcție să fie crescătoare? Cum se comportă graficul unei funcții crescătoare? Ce se întâmplă cu o funcție descrescătoare? Cum putem determina monotonia unei funcții de gradul I?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă ca o funcție să fie crescătoare?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se comportă graficul unei funcții crescătoare?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu o funcție descrescătoare?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum putem determina monotonia unei funcții de gradul I?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.301479,
+      "endProcent": 0.477816,
+      "procentDurata": 17.6337
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determina monotonia funcției f(x) = -2x + 3",
+      "subtitlu": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este descrescătoare.",
+      "naratiune": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției. Calculăm coeficientul a = -2. Deoarece a < 0, funcția este descrescătoare. Răspunsul final este Funcția este descrescătoare..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm coeficientul a = -2.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deoarece a < 0, funcția este descrescătoare.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este descrescătoare.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477816,
+      "endProcent": 0.687144,
+      "procentDurata": 20.9329
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Crescătoare",
+      "naratiune": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare? A) Crescătoare B) Descrescătoare C) Constantă Coeficientul a = 4 > 0, deci funcția este crescătoare.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Crescătoare",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Descrescătoare",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Constantă",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Crescătoare",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.687144,
+      "endProcent": 0.846416,
+      "procentDurata": 15.9272
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă.",
+      "naratiune": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă. Monotonia funcției depinde de coeficientul a al funcției f(x) = ax + b.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Monotonia funcției depinde de coeficientul a al funcției f(x) = ax + b.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.846416,
+      "endProcent": 1,
+      "procentDurata": 15.3584
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-3\\lectia-03.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T22:01:44.517Z"
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l12",
+    "modul": 2,
+    "numarLectie": 12,
+    "titlu": "Șiruri de numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l12-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Șiruri de numere reale: reguli și metoda",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Șiruri de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Șiruri de numere reale: reguli și metoda",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Șiruri de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Șiruri de numere reale: reguli și metoda",
+      "naratiune": "Începem cu definiția șirului de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Șiruri de numere reale: reguli și metoda”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Șiruri de numere reale: reguli și metoda",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția șirului de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.089065,
+      "procentDurata": 8.9065
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un șir de numere reale este o funcție care asociază…",
+      "subtitlu": "Un profesor care desenează un șir de numere pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un șir de numere reale este o funcție care asociază fiecăru…",
+      "naratiune": "Un șir de numere reale este o funcție care asociază fiecărui număr natural un număr real. Se notează a₁, a₂, a₃, ...",
+      "vizual": "Un profesor care desenează un șir de numere pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un șir de numere reale este o funcție care asociază fiecărui număr natural un număr real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Se notează a₁, a₂, a₃, ...",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.089065,
+      "endProcent": 0.197922,
+      "procentDurata": 10.8857
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a calcula termenii unui șir, folosim formula…",
+      "subtitlu": "Un elev care rezolvă un exercițiu cu șiruri",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a calcula termenii unui șir, folosim formula general…",
+      "naratiune": "Pentru a calcula termenii unui șir, folosim formula generală aₙ sau o regulă de recurență.",
+      "vizual": "Un elev care rezolvă un exercițiu cu șiruri",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a calcula termenii unui șir, folosim formula generală aₙ sau o regulă de recurență.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.197922,
+      "endProcent": 0.272143,
+      "procentDurata": 7.4221
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția șirului de numere reale.",
+      "naratiune": "Începem cu definiția șirului de numere reale. Vom învăța cum să recunoaștem un șir. Vom vedea cum se calculează termenii unui șir. Vom învăța cum să identificăm tipurile de șiruri.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția șirului de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem un șir.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează termenii unui șir.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să identificăm tipurile de șiruri.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.272143,
+      "endProcent": 0.420584,
+      "procentDurata": 14.8441
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calcularea termenilor unui șir",
+      "subtitlu": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a₂ = 5 și a₃ = 8",
+      "naratiune": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃. a₂ = a₁ + 3 = 2 + 3 = 5 a₃ = a₂ + 3 = 5 + 3 = 8 Răspunsul final este a₂ = 5 și a₃ = 8.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. a₂ = a₁ + 3 = 2 + 3 = 5",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. a₃ = a₂ + 3 = 5 + 3 = 8",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a₂ = 5 și a₃ = 8",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.420584,
+      "endProcent": 0.727857,
+      "procentDurata": 30.7274
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea lui a₂ în exemplul de mai sus?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Care este valoarea lui a₂ în exemplul de mai sus? A) 3 B) 5 C) 7 a₂ = a₁ + 3 = 2 + 3 = 5, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea lui a₂ în exemplul de mai sus?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 7",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.727857,
+      "endProcent": 0.886195,
+      "procentDurata": 15.8337
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ.",
+      "naratiune": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ. Termenii șirului se calculează folosind formula generală sau o regulă de recurență.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Termenii șirului se calculează folosind formula generală sau o regulă de recurență.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.886195,
+      "endProcent": 1,
+      "procentDurata": 11.3805
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Șiruri de numere reale: reguli și metoda",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Șiruri de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Șiruri de numere reale: reguli și metoda",
+      "naratiune": "Începem cu definiția șirului de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Șiruri de numere reale: reguli și metoda”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Șiruri de numere reale: reguli și metoda",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția șirului de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.089065,
+      "procentDurata": 8.9065
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un șir de numere reale este o funcție care asociază…",
+      "subtitlu": "Un profesor care desenează un șir de numere pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un șir de numere reale este o funcție care asociază fiecăru…",
+      "naratiune": "Un șir de numere reale este o funcție care asociază fiecărui număr natural un număr real. Se notează a₁, a₂, a₃, ...",
+      "vizual": "Un profesor care desenează un șir de numere pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un șir de numere reale este o funcție care asociază fiecărui număr natural un număr real.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Se notează a₁, a₂, a₃, ...",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.089065,
+      "endProcent": 0.197922,
+      "procentDurata": 10.8857
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a calcula termenii unui șir, folosim formula…",
+      "subtitlu": "Un elev care rezolvă un exercițiu cu șiruri",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a calcula termenii unui șir, folosim formula general…",
+      "naratiune": "Pentru a calcula termenii unui șir, folosim formula generală aₙ sau o regulă de recurență.",
+      "vizual": "Un elev care rezolvă un exercițiu cu șiruri",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a calcula termenii unui șir, folosim formula generală aₙ sau o regulă de recurență.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.197922,
+      "endProcent": 0.272143,
+      "procentDurata": 7.4221
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția șirului de numere reale.",
+      "naratiune": "Începem cu definiția șirului de numere reale. Vom învăța cum să recunoaștem un șir. Vom vedea cum se calculează termenii unui șir. Vom învăța cum să identificăm tipurile de șiruri.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția șirului de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem un șir.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează termenii unui șir.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să identificăm tipurile de șiruri.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.272143,
+      "endProcent": 0.420584,
+      "procentDurata": 14.8441
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calcularea termenilor unui șir",
+      "subtitlu": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a₂ = 5 și a₃ = 8",
+      "naratiune": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃. a₂ = a₁ + 3 = 2 + 3 = 5 a₃ = a₂ + 3 = 5 + 3 = 8 Răspunsul final este a₂ = 5 și a₃ = 8.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă șirul definit prin a₁ = 2 și aₙ = aₙ₋₁ + 3 pentru n ≥ 2. Calculați a₂ și a₃.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. a₂ = a₁ + 3 = 2 + 3 = 5",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. a₃ = a₂ + 3 = 5 + 3 = 8",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a₂ = 5 și a₃ = 8",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.420584,
+      "endProcent": 0.727857,
+      "procentDurata": 30.7274
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este valoarea lui a₂ în exemplul de mai sus?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Care este valoarea lui a₂ în exemplul de mai sus? A) 3 B) 5 C) 7 a₂ = a₁ + 3 = 2 + 3 = 5, deci varianta corectă este B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este valoarea lui a₂ în exemplul de mai sus?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 7",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.727857,
+      "endProcent": 0.886195,
+      "procentDurata": 15.8337
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ.",
+      "naratiune": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ. Termenii șirului se calculează folosind formula generală sau o regulă de recurență.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Un șir este o funcție cu domeniu ℕ și codomeniu ℝ.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Termenii șirului se calculează folosind formula generală sau o regulă de recurență.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.886195,
+      "endProcent": 1,
+      "procentDurata": 11.3805
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-12.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.864Z"
+  }
+}

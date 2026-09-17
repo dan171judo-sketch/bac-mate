@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "1",
+      "tip": "alegere-multipla",
+      "variantaCorecta": "A",
+      "variante": [
+        "A: (-∞, -2] ∪ [3, +∞)",
+        "B: (-∞, -3) ∪ (2, +∞)",
+        "C: [-2, 3]",
+        "D: (-∞, -2) ∪ (3, +∞)"
+      ],
+      "enunt": "Rezolva inecuatia |x - 1| ≥ 2.",
+      "explicatieFinala": "Inecuatia |x - 1| ≥ 2 se rezolva prin definirea modulului: x - 1 ≤ -2 sau x - 1 ≥ 2. Rezolvand fiecare inecuatie obtinem x ≤ -1 sau x ≥ 3, deci solutia este (-∞, -1] ∪ [3, +∞). Varianta corecta este A.",
+      "competenta": "Rezolvarea ecuatiilor si inecuatiilor cu modul",
+      "rezolvare": {
+        "pasi": [
+          {
+            "numar": 1,
+            "text": "Definim modulul: |x - 1| ≥ 2 devine x - 1 ≤ -2 sau x - 1 ≥ 2."
+          },
+          {
+            "numar": 2,
+            "text": "Rezolvam fiecare inecuatie separat: x ≤ -1 sau x ≥ 3."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "tip": "alegere-multipla",
+      "variantaCorecta": "C",
+      "variante": [
+        "A: (-∞, -4] ∪ [0, +∞)",
+        "B: [-4, 0]",
+        "C: (-∞, -4) ∪ (0, +∞)",
+        "D: (-∞, -4] ∪ [0, +∞)"
+      ],
+      "enunt": "Rezolva inecuatia |x + 2| > 2.",
+      "explicatieFinala": "Inecuatia |x + 2| > 2 se rezolva prin definirea modulului: x + 2 < -2 sau x + 2 > 2. Rezolvand fiecare inecuatie obtinem x < -4 sau x > 0, deci solutia este (-∞, -4) ∪ (0, +∞). Varianta corecta este C.",
+      "competenta": "Rezolvarea ecuatiilor si inecuatiilor cu modul",
+      "rezolvare": {
+        "pasi": [
+          {
+            "numar": 1,
+            "text": "Definim modulul: |x + 2| > 2 devine x + 2 < -2 sau x + 2 > 2."
+          },
+          {
+            "numar": 2,
+            "text": "Rezolvam fiecare inecuatie separat: x < -4 sau x > 0."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva ecuatia |2x - 5| = 7.",
+      "explicatieFinala": "Ecuatia |2x - 5| = 7 se rezolva prin definirea modulului: 2x - 5 = 7 sau 2x - 5 = -7. Rezolvand fiecare ecuatie obtinem x = 6 sau x = -1.",
+      "competenta": "Rezolvarea ecuatiilor cu modul",
+      "rezolvare": {
+        "pasi": [
+          {
+            "numar": 1,
+            "text": "Definim modulul: |2x - 5| = 7 devine 2x - 5 = 7 sau 2x - 5 = -7."
+          },
+          {
+            "numar": 2,
+            "text": "Rezolvam fiecare ecuatie separat: 2x = 12 → x = 6 sau 2x = -2 → x = -1."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "tip": "alegere-multipla",
+      "variantaCorecta": "D",
+      "variante": [
+        "A: (-∞, -3] ∪ [5, +∞)",
+        "B: [-3, 5]",
+        "C: (-∞, -3) ∪ (5, +∞)",
+        "D: (-∞, -3] ∪ [5, +∞)"
+      ],
+      "enunt": "Rezolva inecuatia |x + 4| ≥ 1.",
+      "explicatieFinala": "Inecuatia |x + 4| ≥ 1 se rezolva prin definirea modulului: x + 4 ≤ -1 sau x + 4 ≥ 1. Rezolvand fiecare inecuatie obtinem x ≤ -5 sau x ≥ -3, deci solutia este (-∞, -5] ∪ [-3, +∞). Varianta corecta este D.",
+      "competenta": "Rezolvarea ecuatiilor si inecuatiilor cu modul",
+      "rezolvare": {
+        "pasi": [
+          {
+            "numar": 1,
+            "text": "Definim modulul: |x + 4| ≥ 1 devine x + 4 ≤ -1 sau x + 4 ≥ 1."
+          },
+          {
+            "numar": 2,
+            "text": "Rezolvam fiecare inecuatie separat: x ≤ -5 sau x ≥ -3."
+          }
+        ]
+      }
+    }
+  ]
+}

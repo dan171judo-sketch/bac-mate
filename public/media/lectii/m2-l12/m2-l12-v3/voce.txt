@@ -1,0 +1,7 @@
+Începem cu un șir dat prin formula termenului general
+
+Vom identifica termenul general
+
+Calculăm termenul pentru n=4
+
+Verificăm dacă răspunsul este corect

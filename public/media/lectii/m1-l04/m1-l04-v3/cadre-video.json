@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l04",
+    "modul": 1,
+    "numarLectie": 4,
+    "titlu": "Intervale de numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l04-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Intervale de numere reale - exercițiu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale - exercițiu de tip Bac",
+      "naratiune": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069754,
+      "procentDurata": 6.9754
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva un exercițiu de tip Bac",
+      "subtitlu": "Un profesor care scrie pe tablă intervalele de numere reale.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac. În acest caz, trebuie…",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac. În acest caz, trebuie să identificăm intervalele de numere reale și să le reprezentăm corect.",
+      "vizual": "Un profesor care scrie pe tablă intervalele de numere reale.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În acest caz, trebuie să identificăm intervalele de numere reale și să le reprezentăm corect.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069754,
+      "endProcent": 0.155009,
+      "procentDurata": 8.5255
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza fiecare pas al rezolvării, pentru a înț…",
+      "subtitlu": "Profesorul arată rezolvarea pas cu pas pe tablă.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cu…",
+      "naratiune": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cum se aplică metoda corect.",
+      "vizual": "Profesorul arată rezolvarea pas cu pas pe tablă.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cum se aplică metoda corect.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.155009,
+      "endProcent": 0.209262,
+      "procentDurata": 5.4253
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+      "naratiune": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale. Vom identifica intervalele și vom rezolva cerința pas cu pas. Vom verifica dacă răspunsul este corect. Vom recapitula ideile importante pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica intervalele și vom rezolva cerința pas cu pas.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom recapitula ideile importante pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.209262,
+      "endProcent": 0.35652,
+      "procentDurata": 14.7258
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Reprezentarea intervalelor de numere reale",
+      "subtitlu": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalu…",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a) (-2, 3); b) [1, 5]; c) (-1, 2]",
+      "naratiune": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalul închis între 1 și 5; c) intervalul deschis la stânga și închis la dreapta între -1 și 2. a) Intervalul deschis între -2 și 3 se notează (-2, 3). b) Intervalul închis între 1 și 5 se notează [1, 5]. c) Intervalul deschis la stânga și închis la dreapta între -1 și 2 se notează (-1, 2]. Răspunsul final este a) (-2, 3); b) [1, 5]; c) (-1, 2].",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalul închis î…",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. a) Intervalul deschis între -2 și 3 se notează (-2, 3).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. b) Intervalul închis între 1 și 5 se notează [1, 5].",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. c) Intervalul deschis la stânga și închis la dreapta între -1 și 2 se notează (-1, 2].",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a) (-2, 3); b) [1, 5]; c) (-1, 2]",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.35652,
+      "endProcent": 0.744236,
+      "procentDurata": 38.7716
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) (-1, 2]",
+      "naratiune": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta? A) (-3, 4] B) [2, 5) C) (-1, 2] Varianta corectă este C) (-1, 2], deoarece paranteza deschisă la stânga indică că -1 nu aparține intervalului, iar paranteza închisă la dreapta indică că 2 aparține intervalului.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) (-3, 4]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) [2, 5)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (-1, 2]",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) (-1, 2]",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.744236,
+      "endProcent": 0.930246,
+      "procentDurata": 18.601
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalele se definesc prin extremitățile lor.",
+      "naratiune": "Intervalele se definesc prin extremitățile lor. Reprezentarea grafică este esențială pentru a înțelege intervalele.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalele se definesc prin extremitățile lor.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Reprezentarea grafică este esențială pentru a înțelege intervalele.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.930246,
+      "endProcent": 1,
+      "procentDurata": 6.9754
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale - exercițiu de tip Bac",
+      "naratiune": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069754,
+      "procentDurata": 6.9754
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom rezolva un exercițiu de tip Bac",
+      "subtitlu": "Un profesor care scrie pe tablă intervalele de numere reale.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu de tip Bac. În acest caz, trebuie…",
+      "naratiune": "Vom rezolva un exercițiu de tip Bac. În acest caz, trebuie să identificăm intervalele de numere reale și să le reprezentăm corect.",
+      "vizual": "Un profesor care scrie pe tablă intervalele de numere reale.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În acest caz, trebuie să identificăm intervalele de numere reale și să le reprezentăm corect.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069754,
+      "endProcent": 0.155009,
+      "procentDurata": 8.5255
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza fiecare pas al rezolvării, pentru a înț…",
+      "subtitlu": "Profesorul arată rezolvarea pas cu pas pe tablă.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cu…",
+      "naratiune": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cum se aplică metoda corect.",
+      "vizual": "Profesorul arată rezolvarea pas cu pas pe tablă.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cum se aplică metoda corect.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.155009,
+      "endProcent": 0.209262,
+      "procentDurata": 5.4253
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+      "naratiune": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale. Vom identifica intervalele și vom rezolva cerința pas cu pas. Vom verifica dacă răspunsul este corect. Vom recapitula ideile importante pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom identifica intervalele și vom rezolva cerința pas cu pas.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom recapitula ideile importante pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.209262,
+      "endProcent": 0.35652,
+      "procentDurata": 14.7258
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Reprezentarea intervalelor de numere reale",
+      "subtitlu": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalu…",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "a) (-2, 3); b) [1, 5]; c) (-1, 2]",
+      "naratiune": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalul închis între 1 și 5; c) intervalul deschis la stânga și închis la dreapta între -1 și 2. a) Intervalul deschis între -2 și 3 se notează (-2, 3). b) Intervalul închis între 1 și 5 se notează [1, 5]. c) Intervalul deschis la stânga și închis la dreapta între -1 și 2 se notează (-1, 2]. Răspunsul final este a) (-2, 3); b) [1, 5]; c) (-1, 2].",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalul închis î…",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. a) Intervalul deschis între -2 și 3 se notează (-2, 3).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. b) Intervalul închis între 1 și 5 se notează [1, 5].",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. c) Intervalul deschis la stânga și închis la dreapta între -1 și 2 se notează (-1, 2].",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: a) (-2, 3); b) [1, 5]; c) (-1, 2]",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.35652,
+      "endProcent": 0.744236,
+      "procentDurata": 38.7716
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) (-1, 2]",
+      "naratiune": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta? A) (-3, 4] B) [2, 5) C) (-1, 2] Varianta corectă este C) (-1, 2], deoarece paranteza deschisă la stânga indică că -1 nu aparține intervalului, iar paranteza închisă la dreapta indică că 2 aparține intervalului.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) (-3, 4]",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) [2, 5)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (-1, 2]",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) (-1, 2]",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.744236,
+      "endProcent": 0.930246,
+      "procentDurata": 18.601
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalele se definesc prin extremitățile lor.",
+      "naratiune": "Intervalele se definesc prin extremitățile lor. Reprezentarea grafică este esențială pentru a înțelege intervalele.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalele se definesc prin extremitățile lor.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Reprezentarea grafică este esențială pentru a înțelege intervalele.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.930246,
+      "endProcent": 1,
+      "procentDurata": 6.9754
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.477Z"
+  }
+}

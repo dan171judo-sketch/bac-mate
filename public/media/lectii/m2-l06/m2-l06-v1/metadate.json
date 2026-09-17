@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l06",
+  "videoId": "m2-l06-v1",
+  "modul": 2,
+  "numarLectie": 6,
+  "numarVideo": 1,
+  "titluLectie": "Egalitatea a două funcții",
+  "titluVideo": "Egalitatea a două funcții",
+  "durataTintaMinute": 4,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

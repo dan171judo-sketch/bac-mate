@@ -1,0 +1,7 @@
+Vom analiza o funcție care apare în subiecte de Bac
+
+Vom identifica domeniul de definiție
+
+Vom calcula valoarea funcției într-un punct
+
+Vom verifica dacă un punct aparține graficului funcției

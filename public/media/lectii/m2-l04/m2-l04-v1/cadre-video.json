@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l04",
+    "modul": 2,
+    "numarLectie": 4,
+    "titlu": "Graficul unei funcții",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l04-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Ce este graficul unei funcții?",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Ce este graficul unei funcții?",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Ce este graficul unei funcții?",
+      "naratiune": "Ce înseamnă graficul unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Ce este graficul unei funcții?”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Ce este graficul unei funcții?",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă graficul unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.082211,
+      "procentDurata": 8.2211
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții este o imagine care arată cum…",
+      "subtitlu": "Un plan cartezian cu axe x și y",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții este o imagine care arată cum se comp…",
+      "naratiune": "Graficul unei funcții este o imagine care arată cum se comportă funcția. În acest plan, fiecare punct din grafic arată o pereche de valori (x, y) care respectă relația funcției.",
+      "vizual": "Un plan cartezian cu axe x și y",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții este o imagine care arată cum se comportă funcția.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În acest plan, fiecare punct din grafic arată o pereche de valori (x, y) care respectă relația funcției.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.082211,
+      "endProcent": 0.219228,
+      "procentDurata": 13.7018
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a construi graficul, luăm valori ale lui x,…",
+      "subtitlu": "Un grafic cu puncte marcate pe axa x și y",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a construi graficul, luăm valori ale lui x, le aplic…",
+      "naratiune": "Pentru a construi graficul, luăm valori ale lui x, le aplicăm funcția și obținem y. Apoi, marcam punctul (x, y) pe plan. Așa obținem o imagine clară a funcției.",
+      "vizual": "Un grafic cu puncte marcate pe axa x și y",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a construi graficul, luăm valori ale lui x, le aplicăm funcția și obținem y.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Apoi, marcam punctul (x, y) pe plan.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Așa obținem o imagine clară a funcției.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.219228,
+      "endProcent": 0.351678,
+      "procentDurata": 13.245
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă graficul unei funcții?",
+      "naratiune": "Ce înseamnă graficul unei funcții? Cum se construiește graficul? Ce reprezintă punctele din grafic? De ce este important să știm graficul?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă graficul unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se construiește graficul?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce reprezintă punctele din grafic?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să știm graficul?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.351678,
+      "endProcent": 0.447591,
+      "procentDurata": 9.5912
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Graficul funcției f(x) = 2x + 1",
+      "subtitlu": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(-1/2, 0)",
+      "naratiune": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox. Pentru a găsi intersecția cu Ox, y = 0. Înlocuim y cu 0 în ecuația funcției: 0 = 2x + 1. Rezolvăm ecuația: 2x + 1 = 0 => x = -1/2. Răspunsul final este (-1/2, 0).",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a găsi intersecția cu Ox, y = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înlocuim y cu 0 în ecuația funcției: 0 = 2x + 1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Rezolvăm ecuația: 2x + 1 = 0 => x = -1/2.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (-1/2, 0)",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.447591,
+      "endProcent": 0.725965,
+      "procentDurata": 27.8374
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce reprezintă punctele din graficul unei funcții?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) Perechi (x, y) care respectă funcția",
+      "naratiune": "Ce reprezintă punctele din graficul unei funcții? A) Valori ale lui x B) Puncte de intersecție cu axe C) Perechi (x, y) care respectă funcția Punctele din grafic sunt perechi de valori (x, y) care respectă relația funcției f(x) = y.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce reprezintă punctele din graficul unei funcții?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Valori ale lui x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Puncte de intersecție cu axe",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Perechi (x, y) care respectă funcția",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) Perechi (x, y) care respectă funcția",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.725965,
+      "endProcent": 0.913222,
+      "procentDurata": 18.7257
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul este o reprezentare vizuală a funcției",
+      "naratiune": "Graficul este o reprezentare vizuală a funcției Fiecare punct din grafic este o pereche (x, y) care respectă funcția",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul este o reprezentare vizuală a funcției",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare punct din grafic este o pereche (x, y) care respectă funcția",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.913222,
+      "endProcent": 1,
+      "procentDurata": 8.6778
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Ce este graficul unei funcții?",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Ce este graficul unei funcții?",
+      "naratiune": "Ce înseamnă graficul unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Ce este graficul unei funcții?”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Ce este graficul unei funcții?",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă graficul unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.082211,
+      "procentDurata": 8.2211
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții este o imagine care arată cum…",
+      "subtitlu": "Un plan cartezian cu axe x și y",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții este o imagine care arată cum se comp…",
+      "naratiune": "Graficul unei funcții este o imagine care arată cum se comportă funcția. În acest plan, fiecare punct din grafic arată o pereche de valori (x, y) care respectă relația funcției.",
+      "vizual": "Un plan cartezian cu axe x și y",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții este o imagine care arată cum se comportă funcția.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "În acest plan, fiecare punct din grafic arată o pereche de valori (x, y) care respectă relația funcției.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.082211,
+      "endProcent": 0.219228,
+      "procentDurata": 13.7018
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a construi graficul, luăm valori ale lui x,…",
+      "subtitlu": "Un grafic cu puncte marcate pe axa x și y",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a construi graficul, luăm valori ale lui x, le aplic…",
+      "naratiune": "Pentru a construi graficul, luăm valori ale lui x, le aplicăm funcția și obținem y. Apoi, marcam punctul (x, y) pe plan. Așa obținem o imagine clară a funcției.",
+      "vizual": "Un grafic cu puncte marcate pe axa x și y",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a construi graficul, luăm valori ale lui x, le aplicăm funcția și obținem y.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Apoi, marcam punctul (x, y) pe plan.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Așa obținem o imagine clară a funcției.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.219228,
+      "endProcent": 0.351678,
+      "procentDurata": 13.245
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă graficul unei funcții?",
+      "naratiune": "Ce înseamnă graficul unei funcții? Cum se construiește graficul? Ce reprezintă punctele din grafic? De ce este important să știm graficul?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă graficul unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se construiește graficul?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce reprezintă punctele din grafic?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "De ce este important să știm graficul?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.351678,
+      "endProcent": 0.447591,
+      "procentDurata": 9.5912
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Graficul funcției f(x) = 2x + 1",
+      "subtitlu": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "(-1/2, 0)",
+      "naratiune": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox. Pentru a găsi intersecția cu Ox, y = 0. Înlocuim y cu 0 în ecuația funcției: 0 = 2x + 1. Rezolvăm ecuația: 2x + 1 = 0 => x = -1/2. Răspunsul final este (-1/2, 0).",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți coordonatele punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Ox.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a găsi intersecția cu Ox, y = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înlocuim y cu 0 în ecuația funcției: 0 = 2x + 1.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Rezolvăm ecuația: 2x + 1 = 0 => x = -1/2.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: (-1/2, 0)",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.447591,
+      "endProcent": 0.725965,
+      "procentDurata": 27.8374
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce reprezintă punctele din graficul unei funcții?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) Perechi (x, y) care respectă funcția",
+      "naratiune": "Ce reprezintă punctele din graficul unei funcții? A) Valori ale lui x B) Puncte de intersecție cu axe C) Perechi (x, y) care respectă funcția Punctele din grafic sunt perechi de valori (x, y) care respectă relația funcției f(x) = y.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce reprezintă punctele din graficul unei funcții?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Valori ale lui x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Puncte de intersecție cu axe",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Perechi (x, y) care respectă funcția",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) Perechi (x, y) care respectă funcția",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.725965,
+      "endProcent": 0.913222,
+      "procentDurata": 18.7257
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul este o reprezentare vizuală a funcției",
+      "naratiune": "Graficul este o reprezentare vizuală a funcției Fiecare punct din grafic este o pereche (x, y) care respectă funcția",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul este o reprezentare vizuală a funcției",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare punct din grafic este o pereche (x, y) care respectă funcția",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.913222,
+      "endProcent": 1,
+      "procentDurata": 8.6778
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.695Z"
+  }
+}

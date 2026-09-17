@@ -1,0 +1,7 @@
+Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?
+
+Cum putem face asta fără să verificăm toate numerele?
+
+Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul?
+
+De ce este important să verificăm cazul inițial?

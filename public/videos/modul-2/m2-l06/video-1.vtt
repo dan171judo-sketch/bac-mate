@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Pentru a vedea dacă două funcții sunt egale, trebuie să verificăm dacă au același grafic. Dacă graficul lor coincide, atunci sunt egale.
+
+2
+00:02:00.000 --> 00:04:00.000
+Dacă două funcții au același domeniu și același codomeniu, și pentru fiecare x din domeniu, f(x) = g(x), atunci sunt egale.
+

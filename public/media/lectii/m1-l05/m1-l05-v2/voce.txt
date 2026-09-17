@@ -1,0 +1,7 @@
+Începem cu definiția propoziției și a predicatei.
+
+Vom analiza cum se diferențiază o propoziție de o propoziție deschisă.
+
+Vom vedea cum se transformă predicatele în propoziții prin substituire.
+
+În final, vom rezolva un exercițiu de tip Bac.

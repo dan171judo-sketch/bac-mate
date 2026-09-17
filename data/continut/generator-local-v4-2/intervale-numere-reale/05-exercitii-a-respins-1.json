@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Scrieți tipul intervalului (−3, 5].",
+      "variante": [],
+      "raspunsCorect": "Interval semi-deschis",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza simbolurilor",
+          "continut": "Simbolul ( indică excluderea capătului −3, iar ] indică incluziunea capătului 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea tipului de interval",
+          "continut": "Intervalul (−3, 5] este semi-deschis, având un capăt exclus și altul inclus."
+        }
+      ],
+      "explicatieFinala": "Intervalul (−3, 5] este semi-deschis, deoarece conține doar unul dintre capete.",
+      "competenta": "Identificarea tipurilor de intervale",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Reprezentați grafic intervalul [−1, 3).",
+      "variante": [],
+      "raspunsCorect": "Linie dreaptă între −1 și 3 cu cercuri pline la −1 și cercuri goale la 3.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Interpretarea simbolurilor",
+          "continut": "Simbolul [ indică incluziunea capătului −1, iar ) indică excluderea capătului 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea grafică",
+          "continut": "Se desenează o linie dreaptă între −1 și 3, cu un punct plin la −1 și un punct gol la 3."
+        }
+      ],
+      "explicatieFinala": "Intervalul [−1, 3) este reprezentat grafic cu un punct plin la −1 și un punct gol la 3.",
+      "competenta": "Reprezentarea intervalelor pe axa numerelor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele intervale este egal cu intervalul (2, 7]?",
+      "variante": [
+        "Intervalul [2, 7]",
+        "Intervalul (2, 7)",
+        "Intervalul [2, 7]",
+        "Intervalul (2, 7]"
+      ],
+      "raspunsCorect": "Intervalul (2, 7]",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza simbolurilor",
+          "continut": "Simbolul ( indică excluderea capătului 2, iar ] indică incluziunea capătului 7."
+        },
+        {
+          "numar": 2,
+          "titlu": "Compararea cu variantele",
+          "continut": "Doar intervalul (2, 7] conține exact aceeași mulțime de numere ca intervalul dat."
+        }
+      ],
+      "explicatieFinala": "Intervalul (2, 7] este egal cu intervalul dat, având același set de valori.",
+      "competenta": "Compararea intervalelor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Scrieți tipul intervalului [−2, −2].",
+      "variante": [],
+      "raspunsCorect": "Interval degenerat",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza intervalelor",
+          "continut": "Un interval cu ambele capete egale este un interval degenerat."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea tipului",
+          "continut": "Intervalul [−2, −2] conține doar numărul −2 și este deci un interval degenerat."
+        }
+      ],
+      "explicatieFinala": "Intervalul [−2, −2] este un interval degenerat, având ambele capete egale.",
+      "competenta": "Identificarea tipurilor speciale de intervale",
+      "punctaj": 5
+    }
+  ]
+}

@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m3-l01",
+    "modul": 3,
+    "numarLectie": 1,
+    "titlu": "Funcția f(x) = ax + b",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m3-l01-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Funcția f(x)=ax+b - Aplicație și greșeli",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția f(x)=ax+b - Aplicație și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția f(x)=ax+b - Aplicație și greșeli",
+      "naratiune": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția f(x)=ax+b - Aplicație și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția f(x)=ax+b - Aplicație și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069151,
+      "procentDurata": 6.9151
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția f(x)=ax+b este o funcție liniară",
+      "subtitlu": "Un grafic al unei funcții de tip f(x)=ax+b",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția f(x)=ax+b este o funcție liniară. Graficul ei este…",
+      "naratiune": "Funcția f(x)=ax+b este o funcție liniară. Graficul ei este o dreaptă. Coeficientul a indică panta dreptei, iar b este ordonata la origine.",
+      "vizual": "Un grafic al unei funcții de tip f(x)=ax+b",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Funcția f(x)=ax+b este o funcție liniară.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Graficul ei este o dreaptă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Coeficientul a indică panta dreptei, iar b este ordonata la origine.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069151,
+      "endProcent": 0.153669,
+      "procentDurata": 8.4518
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom rezolva un exercițiu în care trebuie să determi…",
+      "subtitlu": "Un exercițiu de tip Bac cu funcția f(x)=ax+b",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu în care trebuie să determinăm a și…",
+      "naratiune": "Vom rezolva un exercițiu în care trebuie să determinăm a și b, apoi să calculăm f(2).",
+      "vizual": "Un exercițiu de tip Bac cu funcția f(x)=ax+b",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu în care trebuie să determinăm a și b, apoi să calculăm f(2).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.153669,
+      "endProcent": 0.215136,
+      "procentDurata": 6.1468
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+      "naratiune": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac. Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție. Vom analiza greșelile frecvente și cum să le evităm. Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente și cum să le evităm.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.215136,
+      "endProcent": 0.372647,
+      "procentDurata": 15.7511
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinare a și b",
+      "subtitlu": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f(2)=2*2 + 1 = 5",
+      "naratiune": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2). Pasul 1: Înlocuim x=1 în funcție: a*1 + b = 3 => a + b = 3 Pasul 2: Înlocuim x=3 în funcție: a*3 + b = 7 => 3a + b = 7. Rezolvăm sistemul de ecuații: a + b = 3 și 3a + b = 7. Scădem prima ecuație din a doua: 2a = 4 => a = 2. Înlocuim a=2 în prima ecuație: 2 + b = 3 => b = 1. Răspunsul final este f(2)=2*2 + 1 = 5.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Înlocuim x=1 în funcție: a*1 + b = 3 => a + b = 3",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Înlocuim x=3 în funcție: a*3 + b = 7 => 3a + b = 7. Rezolvăm sistemul de ecuații: a + b = 3 și 3a + b = 7. Scădem prima ec…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f(2)=2*2 + 1 = 5",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.372647,
+      "endProcent": 0.823281,
+      "procentDurata": 45.0634
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2).",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2). A) 4 B) 5 C) 6 După determinarea a=2 și b=1, f(2)=2*2 + 1 = 5.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 6",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.823281,
+      "endProcent": 0.927007,
+      "procentDurata": 10.3726
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Funcția f(x)=ax+b are grafic o dreaptă.",
+      "naratiune": "Funcția f(x)=ax+b are grafic o dreaptă. Pentru a determina a și b, folosim ecuații cu cele două condiții date.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Funcția f(x)=ax+b are grafic o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a determina a și b, folosim ecuații cu cele două condiții date.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.927007,
+      "endProcent": 1,
+      "procentDurata": 7.2993
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția f(x)=ax+b - Aplicație și greșeli",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția f(x)=ax+b - Aplicație și greșeli",
+      "naratiune": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția f(x)=ax+b - Aplicație și greșeli”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția f(x)=ax+b - Aplicație și greșeli",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.069151,
+      "procentDurata": 6.9151
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția f(x)=ax+b este o funcție liniară",
+      "subtitlu": "Un grafic al unei funcții de tip f(x)=ax+b",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția f(x)=ax+b este o funcție liniară. Graficul ei este…",
+      "naratiune": "Funcția f(x)=ax+b este o funcție liniară. Graficul ei este o dreaptă. Coeficientul a indică panta dreptei, iar b este ordonata la origine.",
+      "vizual": "Un grafic al unei funcții de tip f(x)=ax+b",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Funcția f(x)=ax+b este o funcție liniară.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Graficul ei este o dreaptă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-1-e3",
+          "tip": "mesaj",
+          "text": "Coeficientul a indică panta dreptei, iar b este ordonata la origine.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.069151,
+      "endProcent": 0.153669,
+      "procentDurata": 8.4518
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom rezolva un exercițiu în care trebuie să determi…",
+      "subtitlu": "Un exercițiu de tip Bac cu funcția f(x)=ax+b",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom rezolva un exercițiu în care trebuie să determinăm a și…",
+      "naratiune": "Vom rezolva un exercițiu în care trebuie să determinăm a și b, apoi să calculăm f(2).",
+      "vizual": "Un exercițiu de tip Bac cu funcția f(x)=ax+b",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu în care trebuie să determinăm a și b, apoi să calculăm f(2).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.153669,
+      "endProcent": 0.215136,
+      "procentDurata": 6.1468
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+      "naratiune": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac. Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție. Vom analiza greșelile frecvente și cum să le evităm. Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza greșelile frecvente și cum să le evităm.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu complet pentru a înțelege mai bine.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.215136,
+      "endProcent": 0.372647,
+      "procentDurata": 15.7511
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinare a și b",
+      "subtitlu": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f(2)=2*2 + 1 = 5",
+      "naratiune": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2). Pasul 1: Înlocuim x=1 în funcție: a*1 + b = 3 => a + b = 3 Pasul 2: Înlocuim x=3 în funcție: a*3 + b = 7 => 3a + b = 7. Rezolvăm sistemul de ecuații: a + b = 3 și 3a + b = 7. Scădem prima ecuație din a doua: 2a = 4 => a = 2. Înlocuim a=2 în prima ecuație: 2 + b = 3 => b = 1. Răspunsul final este f(2)=2*2 + 1 = 5.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Înlocuim x=1 în funcție: a*1 + b = 3 => a + b = 3",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Înlocuim x=3 în funcție: a*3 + b = 7 => 3a + b = 7. Rezolvăm sistemul de ecuații: a + b = 3 și 3a + b = 7. Scădem prima ec…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f(2)=2*2 + 1 = 5",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.372647,
+      "endProcent": 0.823281,
+      "procentDurata": 45.0634
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2).",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5",
+      "naratiune": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2). A) 4 B) 5 C) 6 După determinarea a=2 și b=1, f(2)=2*2 + 1 = 5.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 6",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.823281,
+      "endProcent": 0.927007,
+      "procentDurata": 10.3726
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Funcția f(x)=ax+b are grafic o dreaptă.",
+      "naratiune": "Funcția f(x)=ax+b are grafic o dreaptă. Pentru a determina a și b, folosim ecuații cu cele două condiții date.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Funcția f(x)=ax+b are grafic o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a determina a și b, folosim ecuații cu cele două condiții date.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.927007,
+      "endProcent": 1,
+      "procentDurata": 7.2993
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-3\\lectia-01.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T22:01:44.448Z"
+  }
+}

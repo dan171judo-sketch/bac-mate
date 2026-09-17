@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l10",
+    "modul": 2,
+    "numarLectie": 10,
+    "titlu": "Periodicitate",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l10-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Periodicitate - cum să eviți greșelile",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Periodicitate - cum să eviți greșelile",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Periodicitate - cum să eviți greșelile",
+      "naratiune": "Vrei să știi cum să recunoști o funcție periodică?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Periodicitate - cum să eviți greșelile”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Periodicitate - cum să eviți greșelile",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști o funcție periodică?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.077838,
+      "procentDurata": 7.7838
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție periodică se repetă la intervale egale",
+      "subtitlu": "Un grafic cu o funcție sinusoidală",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție periodică se repetă la intervale egale. De exempl…",
+      "naratiune": "O funcție periodică se repetă la intervale egale. De exemplu, funcția sinus se repetă la fiecare 2π.",
+      "vizual": "Un grafic cu o funcție sinusoidală",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție periodică se repetă la intervale egale.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, funcția sinus se repetă la fiecare 2π.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.077838,
+      "endProcent": 0.151351,
+      "procentDurata": 7.3514
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Dacă o funcție nu se repetă, nu este periodică",
+      "subtitlu": "Un grafic cu o funcție care nu se repetă",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Dacă o funcție nu se repetă, nu este periodică. De exemplu,…",
+      "naratiune": "Dacă o funcție nu se repetă, nu este periodică. De exemplu, funcția f(x) = x + 1 nu are perioadă.",
+      "vizual": "Un grafic cu o funcție care nu se repetă",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Dacă o funcție nu se repetă, nu este periodică.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "De exemplu, funcția f(x) = x + 1 nu are perioadă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.151351,
+      "endProcent": 0.237838,
+      "procentDurata": 8.6486
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vrei să știi cum să recunoști o funcție periodică?",
+      "naratiune": "Vrei să știi cum să recunoști o funcție periodică? Ce înseamnă să ai o perioadă de 2π? De ce elevii greșesc la aceste probleme? Cum să verifici dacă o funcție este periodică?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști o funcție periodică?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să ai o perioadă de 2π?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "De ce elevii greșesc la aceste probleme?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să verifici dacă o funcție este periodică?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.237838,
+      "endProcent": 0.376216,
+      "procentDurata": 13.8378
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare periodicitate",
+      "subtitlu": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da, perioada este 2π/3.",
+      "naratiune": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are? Pentru a verifica periodicitatea, folosim formula f(x + T) = f(x). Pentru funcția sinusoidală f(x) = A sin(Bx), perioada este T = 2π / |B|. Aici B = 3, deci T = 2π / 3. Răspunsul final este Da, perioada este 2π/3..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a verifica periodicitatea, folosim formula f(x + T) = f(x).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru funcția sinusoidală f(x) = A sin(Bx), perioada este T = 2π / |B|. Aici B = 3, deci T = 2π / 3.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da, perioada este 2π/3.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.376216,
+      "endProcent": 0.64973,
+      "procentDurata": 27.3514
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da, 2π/4",
+      "naratiune": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are? A) Da, 2π/4 B) Nu este periodică C) Da, π/2 Funcția cosinus este periodică. Perioada este T = 2π / |B|. Aici B = 4, deci T = 2π/4 = π/2. Varianta corectă este A.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da, 2π/4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu este periodică",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Da, π/2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da, 2π/4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.64973,
+      "endProcent": 0.857297,
+      "procentDurata": 20.7568
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x.",
+      "naratiune": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x. Perioada este cea mai mică valoare T pentru care se îndeplinește condiția.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Perioada este cea mai mică valoare T pentru care se îndeplinește condiția.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.857297,
+      "endProcent": 1,
+      "procentDurata": 14.2703
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Periodicitate - cum să eviți greșelile",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Periodicitate - cum să eviți greșelile",
+      "naratiune": "Vrei să știi cum să recunoști o funcție periodică?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Periodicitate - cum să eviți greșelile”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Periodicitate - cum să eviți greșelile",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști o funcție periodică?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.077838,
+      "procentDurata": 7.7838
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție periodică se repetă la intervale egale",
+      "subtitlu": "Un grafic cu o funcție sinusoidală",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție periodică se repetă la intervale egale. De exempl…",
+      "naratiune": "O funcție periodică se repetă la intervale egale. De exemplu, funcția sinus se repetă la fiecare 2π.",
+      "vizual": "Un grafic cu o funcție sinusoidală",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție periodică se repetă la intervale egale.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, funcția sinus se repetă la fiecare 2π.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.077838,
+      "endProcent": 0.151351,
+      "procentDurata": 7.3514
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Dacă o funcție nu se repetă, nu este periodică",
+      "subtitlu": "Un grafic cu o funcție care nu se repetă",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Dacă o funcție nu se repetă, nu este periodică. De exemplu,…",
+      "naratiune": "Dacă o funcție nu se repetă, nu este periodică. De exemplu, funcția f(x) = x + 1 nu are perioadă.",
+      "vizual": "Un grafic cu o funcție care nu se repetă",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Dacă o funcție nu se repetă, nu este periodică.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "De exemplu, funcția f(x) = x + 1 nu are perioadă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.151351,
+      "endProcent": 0.237838,
+      "procentDurata": 8.6486
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vrei să știi cum să recunoști o funcție periodică?",
+      "naratiune": "Vrei să știi cum să recunoști o funcție periodică? Ce înseamnă să ai o perioadă de 2π? De ce elevii greșesc la aceste probleme? Cum să verifici dacă o funcție este periodică?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști o funcție periodică?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Ce înseamnă să ai o perioadă de 2π?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "De ce elevii greșesc la aceste probleme?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să verifici dacă o funcție este periodică?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.237838,
+      "endProcent": 0.376216,
+      "procentDurata": 13.8378
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare periodicitate",
+      "subtitlu": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da, perioada este 2π/3.",
+      "naratiune": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are? Pentru a verifica periodicitatea, folosim formula f(x + T) = f(x). Pentru funcția sinusoidală f(x) = A sin(Bx), perioada este T = 2π / |B|. Aici B = 3, deci T = 2π / 3. Răspunsul final este Da, perioada este 2π/3..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f(x) = 2sin(3x). Este aceasta periodică? Dacă da, ce perioadă are?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a verifica periodicitatea, folosim formula f(x + T) = f(x).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru funcția sinusoidală f(x) = A sin(Bx), perioada este T = 2π / |B|. Aici B = 3, deci T = 2π / 3.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da, perioada este 2π/3.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.376216,
+      "endProcent": 0.64973,
+      "procentDurata": 27.3514
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da, 2π/4",
+      "naratiune": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are? A) Da, 2π/4 B) Nu este periodică C) Da, π/2 Funcția cosinus este periodică. Perioada este T = 2π / |B|. Aici B = 4, deci T = 2π/4 = π/2. Varianta corectă este A.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = 3cos(4x). Este aceasta periodică? Dacă da, ce perioadă are?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da, 2π/4",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu este periodică",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Da, π/2",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da, 2π/4",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.64973,
+      "endProcent": 0.857297,
+      "procentDurata": 20.7568
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x.",
+      "naratiune": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x. Perioada este cea mai mică valoare T pentru care se îndeplinește condiția.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "O funcție este periodică dacă există un număr T > 0 astfel încât f(x + T) = f(x) pentru orice x.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Perioada este cea mai mică valoare T pentru care se îndeplinește condiția.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.857297,
+      "endProcent": 1,
+      "procentDurata": 14.2703
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-10.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.834Z"
+  }
+}

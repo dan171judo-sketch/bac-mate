@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l10",
+  "modul": 1,
+  "numarLectie": 10,
+  "titlu": "Demonstrații și raționamente logice",
+  "slugContinut": "demonstratii-si-rationamente-logice",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Demonstrații și raționamente logice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l10-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Demonstrații și raționamente logice",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă să demonstrezi o afirmație?",
+        "De ce este important să știm să raționăm logic?",
+        "Cum se face o demonstrație corectă?",
+        "Ce tipuri de raționamente sunt folosite la Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește o problemă de demonstrație",
+          "naratiune": "Vom învăța să demonstrăm afirmații matematice, adică să arătăm că o propoziție este adevărată. De exemplu, să arătăm că 2+2=4."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor care desenează un cerc și o linie",
+          "naratiune": "Vom folosi raționamente logice pentru a demonstra proprietăți. De exemplu, să arătăm că unghiurile opuse la vârf sunt congruente."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O demonstrație este o justificare logică a unei afirmații",
+        "Raționamentele logice sunt esențiale pentru a rezolva probleme de tip Bac"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea că 2+2=4",
+        "enunt": "Să se arate că 2+2=4",
+        "rezolvare": [
+          "Pornim de la definiția numerelor naturale: 2=1+1, 4=2+2",
+          "Aplicăm adunarea: 2+2 = (1+1)+(1+1) = 2+2 = 4"
+        ],
+        "raspuns": "4"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este rezultatul calculului 2+2?",
+        "variante": [
+          "A) 3",
+          "B) 4",
+          "C) 5"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "2+2=4 conform definiției numerelor naturale."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l10/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l10/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l10/m1-l10-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l10/m1-l10-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l10/m1-l10-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 10,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 10,
+        "titluLectie": "Demonstrații și raționamente logice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T19:09:14.999Z"
+      }
+    },
+    {
+      "id": "m1-l10-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metoda pentru demonstrații",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu regulile de bază pentru demonstrații",
+        "Vom învăța cum să folosim raționamente logice",
+        "Vom analiza exemple de tip Bac",
+        "Vom învăța cum să recunoaștem cerințele"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă",
+          "naratiune": "Pentru a demonstra o propoziție, trebuie să folosim raționamente logice corecte. Începem cu ipoteza și demonstrăm concluzia pas cu pas."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev rezolvă un exercițiu pe caiet",
+          "naratiune": "În demonstrații, folosim reguli precum demonstrația prin reducere la absurd sau prin contrapozitie. Verificăm fiecare pas pentru a evita greșelile."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Demonstrarea trebuie să fie logică și corectă",
+        "Folosim raționamente logice pentru a ajunge la concluzie"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea că 2+2=4",
+        "enunt": "Demonstrează că 2+2=4 folosind raționament logic.",
+        "rezolvare": [
+          "Începem cu ipoteza: 2+2",
+          "Calculăm: 2+2=4",
+          "Concluzia: 3+1=4, deci 2+2=4"
+        ],
+        "raspuns": "4"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce este 2+2?",
+        "variante": [
+          "A) 3",
+          "B) 4",
+          "C) 5"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "2+2=4, deci varianta corectă este B) 4."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l10/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l10/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l10/m1-l10-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l10/m1-l10-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l10/m1-l10-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 10,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 10,
+        "titluLectie": "Demonstrații și raționamente logice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T19:14:22.484Z"
+      }
+    },
+    {
+      "id": "m1-l10-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Demonstrația unei inegalități",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o inegalitate simplă pe care o vom demonstra.",
+        "Vom folosi metoda demonstrației prin reducere la absurd.",
+        "Vom verifica dacă inegalitatea este adevărată pentru un exemplu concret.",
+        "Vom generaliza pentru orice valoare a variabilei."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Pe ecran apare inegalitatea: 2x + 3 > x + 5",
+          "naratiune": "Vom demonstra inegalitatea 2x + 3 > x + 5 pentru orice x real."
+        },
+        {
+          "numar": 2,
+          "vizual": "Se desenează un grafic cu două funcții: f(x)=2x+3 și g(x)=x+5",
+          "naratiune": "Vom compara cele două funcții pentru a vedea când f(x) > g(x)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Demonstrarea unei inegalități implică verificarea pentru toate valorile variabilei.",
+        "Metoda reducere la absurd poate fi folosită pentru anumite tipuri de inegalități."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea inegalității 2x + 3 > x + 5",
+        "enunt": "Demonstrați inegalitatea 2x + 3 > x + 5 pentru orice x real.",
+        "rezolvare": [
+          "Scădem x din ambele părți: 2x + 3 - x > x + 5 - x → x + 3 > 5",
+          "Scădem 3 din ambele părți: x + 3 - 3 > 5 - 3 → x > 2"
+        ],
+        "raspuns": "Inegalitatea este adevărată pentru x > 2."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este soluția inegalității 2x + 3 > x + 5?",
+        "variante": [
+          "A) x < 2",
+          "B) x > 2",
+          "C) x = 2"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "După rezolvare, x > 2, deci varianta corectă este B."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l10/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l10/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l10/m1-l10-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l10/m1-l10-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l10/m1-l10-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 10,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 10,
+        "titluLectie": "Demonstrații și raționamente logice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T19:20:13.537Z"
+      }
+    },
+    {
+      "id": "m1-l10-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Demonstrații și raționamente logice",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac",
+        "Vom analiza greșelile frecvente în raționamente logice",
+        "Vom folosi exemple de tip Bac pentru a înțelege cerințele",
+        "Vom verifica dacă raționamentul este corect sau nu"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește o demonstrație dintr-un subiect de Bac",
+          "naratiune": "Vom începe cu un exemplu de demonstrație dintr-un subiect de Bac. Este important să știm cum să abordezi o astfel de cerință."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care analizează un raționament logic și îl compară cu un model corect",
+          "naratiune": "Vom analiza greșelile comune în raționamentele logice. Este esențial să verificăm fiecare pas pentru a evita erori."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Demonstrația trebuie să fie logică și să respecte cerințele subiectului",
+        "Verifică fiecare pas al raționamentului pentru a evita greșeli"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrația unei inegalități",
+        "enunt": "Demonstrați că pentru orice număr real x, are loc inegalitatea: x² + 1 ≥ 2x.",
+        "rezolvare": [
+          "Începem prin a scrie inegalitatea: x² + 1 ≥ 2x.",
+          "Reorganizăm termenii: x² - 2x + 1 ≥ 0."
+        ],
+        "raspuns": "Inegalitatea este adevărată pentru orice număr real x."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este forma corectă a inegalității după reorganizare?",
+        "variante": [
+          "A) x² + 1 ≥ 2x",
+          "B) x² - 2x + 1 ≥ 0",
+          "C) x² + 1 ≤ 2x"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "După reorganizare, inegalitatea devine x² - 2x + 1 ≥ 0, deci varianta corectă este B."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l10/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l10/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l10/m1-l10-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l10/m1-l10-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l10/m1-l10-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 10,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 10,
+        "titluLectie": "Demonstrații și raționamente logice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T19:27:09.159Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T19:27:09.159Z",
+    "necesitaVerificareUmana": true
+  }
+}

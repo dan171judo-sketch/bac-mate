@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l01",
+  "modul": 2,
+  "numarLectie": 1,
+  "titlu": "Reper cartezian și produs cartezian",
+  "slugContinut": "reper-cartezian-si-produs-cartezian",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Reper cartezian și produs cartezian”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l01-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Reper cartezian și produs cartezyian",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă un reper cartezian?",
+        "Cum se definește produsul cartezian?",
+        "De ce este important pentru Bac?",
+        "Cum se aplică în problemele de tip Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un plan cu axe x și y, marcate cu originea O",
+          "naratiune": "Un reper cartezian este format din două axe perpendiculare, x și y, cu originea comună O. Acesta ne ajută să localizăm puncte în plan."
+        },
+        {
+          "numar": 2,
+          "vizual": "Două mulțimi A={1,2} și B={a,b}, cu perechi ordonate (1,a), (1,b), (2,a), (2,b)",
+          "naratiune": "Produsul cartezian A×B este mulțimea tuturor perechilor ordonate (a,b) unde a∈A și b∈B. Fiecare pereche reprezintă o poziție în plan."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reperul cartezian are axe x și y cu originea comună.",
+        "Produsul cartezian este mulțimea perechilor ordonate (a,b)."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Produsul cartezian A×B",
+        "enunt": "Fie A={1,2} și B={a,b}. Să se determine A×B.",
+        "rezolvare": [
+          "Perechile ordonate sunt (1,a), (1,b), (2,a), (2,b).",
+          "Numărul total de perechi este 2×2=4."
+        ],
+        "raspuns": "A×B = {(1,a), (1,b), (2,a), (2,b)}"
+      },
+      "verificareRapida": {
+        "intrebare": "Câte elemente are produsul cartezian A×B dacă A={1,2,3} și B={a,b}?",
+        "variante": [
+          "A) 3",
+          "B) 5",
+          "C) 6"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Produsul cartezian A×B are 3×2=6 elemente, deci varianta corectă este C)."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l01/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l01/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l01/m2-l01-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l01/m2-l01-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l01/m2-l01-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 1,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 1,
+        "titluLectie": "Reper cartezian și produs cartezian",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:42:24.095Z"
+      }
+    },
+    {
+      "id": "m2-l01-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reper cartezian și produs cartezyian",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția reperului cartezian",
+        "Vom vedea cum se formează produsul cartezian",
+        "Vom analiza un exemplu concret",
+        "Vom verifica rapid prin exercițiu"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Desen cu axe de coordonate și etichete Ox, Oy",
+          "naratiune": "Reperul cartezian este format din două axe perpendiculare, Ox și Oy, cu originea comună în punctul O. Pe fiecare axă se definesc unități de măsură."
+        },
+        {
+          "numar": 2,
+          "vizual": "Desen cu două mulțimi A și B și reprezentarea produsului cartezian",
+          "naratiune": "Produsul cartezian A×B este mulțimea tuturor perechilor ordonate (a,b) unde a∈A și b∈B. Fiecare element din A se perechează cu fiecare din B."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reperul cartezian are două axe perpendiculare cu originea comună",
+        "Produsul cartezian este mulțimea perechilor ordonate (a,b)"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Produsul cartezian A×B",
+        "enunt": "Fie A={1,2} și B={a,b}. Să se determine A×B.",
+        "rezolvare": [
+          "Perechea (1,a) este formată din elementul 1 din A și elementul a din B",
+          "Perechea (2,b) este formată din elementul 2 din A și elementul b din B"
+        ],
+        "raspuns": "{(1,a), (1,b), (2,a), (2,b)}"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este produsul cartezian A×B dacă A={1,2} și B={a,b}?",
+        "variante": [
+          "A) {(1,a), (2,b)}",
+          "B) {(1,a), (1,b), (2,a), (2,b)}",
+          "C) {(a,1), (b,2)}"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Produsul cartezian A×B este mulțimea tuturor perechilor ordonate (a,b) unde a∈A și b∈B. În acest caz, avem 2×2=4 perechi: (1,a), (1,b), (2,a), (2,b)."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l01/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l01/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l01/m2-l01-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l01/m2-l01-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l01/m2-l01-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 1,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 1,
+        "titluLectie": "Reper cartezian și produs cartezian",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:49:41.623Z"
+      }
+    },
+    {
+      "id": "m2-l01-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Produs cartezian și reper cartezian",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu reperul cartezian",
+        "Definim produsul cartezian",
+        "Vom vedea cum se aplică în exerciții",
+        "Repetăm pas cu pas pentru a înțelege"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imaginea unui reper cartezian cu axe x și y",
+          "naratiune": "Reperul cartezian este format din două axe perpendiculare, x și y, cu originea în punctul O. Pe fiecare axă avem un sistem de coordonate."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imaginea unui produs cartezian A×B cu elemente (a,b)",
+          "naratiune": "Produsul cartezian A×B este mulțimea tuturor perechilor ordonate (a,b) unde a∈A și b∈B. În exemplu, A={1,2} și B={a,b}, deci A×B are 4 elemente."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Produsul cartezian este mulțimea perechilor ordonate",
+        "Reperul cartezian este baza pentru reprezentarea punctelor în plan"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calcularea produsului cartezian",
+        "enunt": "Fie A={1,2} și B={a,b}. Calculați A×B.",
+        "rezolvare": [
+          "Pasul 1: Scriem toate perechile ordonate (a,b) unde a∈A și b∈B.",
+          "Pasul 2: A×B = {(1,a), (1,b), (2,a), (2,b)}."
+        ],
+        "raspuns": "A×B = {(1,a), (1,b), (2,a), (2,b)}"
+      },
+      "verificareRapida": {
+        "intrebare": "Câte elemente are produsul cartțiian A×B dacă A={1,2} și B={a,b} ?",
+        "variante": [
+          "A) 2",
+          "B) 4",
+          "C) 6"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Produsul cartezian A×B are |A|×|B| = 2×2 = 4 elemente."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l01/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l01/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l01/m2-l01-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l01/m2-l01-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l01/m2-l01-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 1,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 1,
+        "titluLectie": "Reper cartezian și produs cartezian",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:55:28.612Z"
+      }
+    },
+    {
+      "id": "m2-l01-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Reper cartezian și produs cartezian",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este un reper cartezian?",
+        "Cum se definește produsul cartezian?",
+        "Ce se întâmplă dacă nu folosim reperul corect?",
+        "De ce este important să reținem aceste noțiuni?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un reper cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+          "naratiune": "Reperul cartezian este format dintr-un punct O, numit origine, și două axe perpendiculare Ox și Oy. Axa Ox este orizontală, iar Oy este verticală."
+        },
+        {
+          "numar": 2,
+          "vizual": "Produsul cartezian dintre două mulțimi A și B este mulțimea perechilor ordonate (a, b) unde a aparține A și b aparține B.",
+          "naratiune": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b) unde a este din A și b este din B. Aceasta este o noțiune esențială pentru coordonatele în plan."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reperul cartezian are originea O și axe perpendiculare.",
+        "Produsul cartezian este mulțimea perechilor ordonate (a, b)."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Produsul cartezian A x B",
+        "enunt": "Fie A = {1, 2} și B = {a, b}. Să se determine A x B.",
+        "rezolvare": [
+          "Pasul 1: Scriem toate elementele din A și toate elementele din B.",
+          "Pasul 2: Formăm perechile ordonate (a, b) unde a ∈ A și b ∈ B."
+        ],
+        "raspuns": "A x B = {(1, a), (1, b), (2, a), (2, b)}"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie A = {1, 2} și B = {a, b}. Care este produsul cartezian A x B?",
+        "variante": [
+          "A) {(1, a), (1, b), (2, a), (2, b)}",
+          "B) {(a, 1), (b, 1), (a, 2), (b, 2)}",
+          "C) {(1, a), (2, b), (1, b), (2, a)}"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Produsul cartezian A x B este mulțimea perechilor ordonate (a, b) unde a ∈ A și b ∈ B. Alegerea corectă este A, deoarece toate perechile sunt formate cu elemente din A în prima poziție și din B în a doua."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l01/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l01/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l01/m2-l01-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l01/m2-l01-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l01/m2-l01-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 1,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 1,
+        "titluLectie": "Reper cartezian și produs cartezian",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T07:02:37.404Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T07:02:37.404Z",
+    "necesitaVerificareUmana": true
+  }
+}

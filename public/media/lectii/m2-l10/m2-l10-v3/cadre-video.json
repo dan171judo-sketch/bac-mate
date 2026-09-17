@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l10",
+    "modul": 2,
+    "numarLectie": 10,
+    "titlu": "Periodicitate",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l10-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Periodicitatea funcției trigonometrice",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Periodicitatea funcției trigonometrice",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Periodicitatea funcției trigonometrice",
+      "naratiune": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Periodicitatea funcției trigonometrice”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Periodicitatea funcției trigonometrice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.098711,
+      "procentDurata": 9.8711
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom studia funcția f(x) = sin(2x)",
+      "subtitlu": "O funcție trigonometrică pe un grafic",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este p…",
+      "naratiune": "Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este periodică și ce perioadă are?",
+      "vizual": "O funcție trigonometrică pe un grafic",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom studia funcția f(x) = sin(2x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Vrei să știi dacă este periodică și ce perioadă are?",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.098711,
+      "endProcent": 0.186455,
+      "procentDurata": 8.7743
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = sin(kx), perioada este T = 2π…",
+      "subtitlu": "Calculul perioadei funcției",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În c…",
+      "naratiune": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În cazul nostru, k = 2, deci T = 2π/2 = π.",
+      "vizual": "Calculul perioadei funcției",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "În cazul nostru, k = 2, deci T = 2π/2 = π.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186455,
+      "endProcent": 0.307102,
+      "procentDurata": 12.0647
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+      "naratiune": "Vrei să știi cum să recunoști dacă o funcție este periodică? Vrei să știi cum să găsești perioada unei funcții? Vrei să știi cum să aplici această noțiune la un exercițiu de tip Bac? Vrei să știi cum să verifici dacă un exercițiu este corect?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să găsești perioada unei funcții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să aplici această noțiune la un exercițiu de tip Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să verifici dacă un exercițiu este corect?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.307102,
+      "endProcent": 0.55388,
+      "procentDurata": 24.6778
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Perioada funcției f(x) = sin(2x)",
+      "subtitlu": "Determină perioada funcției f(x) = sin(2x).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "π",
+      "naratiune": "Determină perioada funcției f(x) = sin(2x). Identificăm k = 2 din funcția f(x) = sin(kx). Aplicăm formula perioadei: T = 2π/k = 2π/2 = π. Răspunsul final este π.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determină perioada funcției f(x) = sin(2x).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm k = 2 din funcția f(x) = sin(kx).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Aplicăm formula perioadei: T = 2π/k = 2π/2 = π.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: π",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.55388,
+      "endProcent": 0.73677,
+      "procentDurata": 18.289
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este perioada funcției f(x) = sin(3x)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 2π/3",
+      "naratiune": "Care este perioada funcției f(x) = sin(3x)? A) π/3 B) 2π/3 C) π Pentru funcția sin(3x), k = 3. Aplicăm formula T = 2π/k = 2π/3. Răspunsul corect este B).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este perioada funcției f(x) = sin(3x)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) π/3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2π/3",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) π",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 2π/3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.73677,
+      "endProcent": 0.901289,
+      "procentDurata": 16.4519
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Perioada funcției sin(kx) este T = 2π/k",
+      "naratiune": "Perioada funcției sin(kx) este T = 2π/k Pentru a verifica periodicitatea, verificăm dacă f(x + T) = f(x)",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Perioada funcției sin(kx) este T = 2π/k",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Pentru a verifica periodicitatea, verificăm dacă f(x + T) = f(x)",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.901289,
+      "endProcent": 1,
+      "procentDurata": 9.8711
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Periodicitatea funcției trigonometrice",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Periodicitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Periodicitatea funcției trigonometrice",
+      "naratiune": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Periodicitatea funcției trigonometrice”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Periodicitatea funcției trigonometrice",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.098711,
+      "procentDurata": 9.8711
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom studia funcția f(x) = sin(2x)",
+      "subtitlu": "O funcție trigonometrică pe un grafic",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este p…",
+      "naratiune": "Vom studia funcția f(x) = sin(2x). Vrei să știi dacă este periodică și ce perioadă are?",
+      "vizual": "O funcție trigonometrică pe un grafic",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom studia funcția f(x) = sin(2x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Vrei să știi dacă este periodică și ce perioadă are?",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.098711,
+      "endProcent": 0.186455,
+      "procentDurata": 8.7743
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = sin(kx), perioada este T = 2π…",
+      "subtitlu": "Calculul perioadei funcției",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În c…",
+      "naratiune": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k. În cazul nostru, k = 2, deci T = 2π/2 = π.",
+      "vizual": "Calculul perioadei funcției",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = sin(kx), perioada este T = 2π/k.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "În cazul nostru, k = 2, deci T = 2π/2 = π.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.186455,
+      "endProcent": 0.307102,
+      "procentDurata": 12.0647
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+      "naratiune": "Vrei să știi cum să recunoști dacă o funcție este periodică? Vrei să știi cum să găsești perioada unei funcții? Vrei să știi cum să aplici această noțiune la un exercițiu de tip Bac? Vrei să știi cum să verifici dacă un exercițiu este corect?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să recunoști dacă o funcție este periodică?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să găsești perioada unei funcții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să aplici această noțiune la un exercițiu de tip Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vrei să știi cum să verifici dacă un exercițiu este corect?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.307102,
+      "endProcent": 0.55388,
+      "procentDurata": 24.6778
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Perioada funcției f(x) = sin(2x)",
+      "subtitlu": "Determină perioada funcției f(x) = sin(2x).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "π",
+      "naratiune": "Determină perioada funcției f(x) = sin(2x). Identificăm k = 2 din funcția f(x) = sin(kx). Aplicăm formula perioadei: T = 2π/k = 2π/2 = π. Răspunsul final este π.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Determină perioada funcției f(x) = sin(2x).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Identificăm k = 2 din funcția f(x) = sin(kx).",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Aplicăm formula perioadei: T = 2π/k = 2π/2 = π.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: π",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.55388,
+      "endProcent": 0.73677,
+      "procentDurata": 18.289
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este perioada funcției f(x) = sin(3x)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 2π/3",
+      "naratiune": "Care este perioada funcției f(x) = sin(3x)? A) π/3 B) 2π/3 C) π Pentru funcția sin(3x), k = 3. Aplicăm formula T = 2π/k = 2π/3. Răspunsul corect este B).",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este perioada funcției f(x) = sin(3x)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) π/3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2π/3",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) π",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 2π/3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.73677,
+      "endProcent": 0.901289,
+      "procentDurata": 16.4519
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Perioada funcției sin(kx) este T = 2π/k",
+      "naratiune": "Perioada funcției sin(kx) este T = 2π/k Pentru a verifica periodicitatea, verificăm dacă f(x + T) = f(x)",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Perioada funcției sin(kx) este T = 2π/k",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Pentru a verifica periodicitatea, verificăm dacă f(x + T) = f(x)",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.901289,
+      "endProcent": 1,
+      "procentDurata": 9.8711
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-10.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.829Z"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "proiect": "BAC MATE",
+  "tip": "productie-lunga",
+  "pornitLa": "2026-09-09T17:54:51.279Z",
+  "actualizatLa": "2026-09-09T17:54:52.092Z",
+  "totalSelectate": 3,
+  "procesate": 3,
+  "terminateCuSucces": 3,
+  "cuProbleme": 0,
+  "ultimaLectie": {
+    "id": "m1-l03",
+    "titlu": "Modulul unui număr real",
+    "status": "deja-acceptata",
+    "data": "2026-09-09T17:54:52.090Z"
+  },
+  "rezultate": [
+    {
+      "id": "m1-l01",
+      "titlu": "Mulțimi de numere și operații cu numere reale",
+      "status": "deja-acceptata",
+      "durataSecunde": 0,
+      "exitCode": 0,
+      "eroare": null
+    },
+    {
+      "id": "m1-l02",
+      "titlu": "Estimări și aproximări",
+      "status": "deja-acceptata",
+      "durataSecunde": 0,
+      "exitCode": 0,
+      "eroare": null
+    },
+    {
+      "id": "m1-l03",
+      "titlu": "Modulul unui număr real",
+      "status": "deja-acceptata",
+      "durataSecunde": 0,
+      "exitCode": 0,
+      "eroare": null
+    }
+  ],
+  "terminatLa": "2026-09-09T17:54:52.092Z",
+  "opritManual": false
+}

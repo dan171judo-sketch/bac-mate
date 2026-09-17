@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l08",
+    "modul": 1,
+    "numarLectie": 8,
+    "titlu": "Operații cu mulțimi",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l08-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Operații cu mulțimi - Bac și greșeli comune",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu mulțimi - Bac și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu mulțimi - Bac și greșeli comune",
+      "naratiune": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu mulțimi - Bac și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu mulțimi - Bac și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080107,
+      "procentDurata": 8.0107
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu cele trei operații esențiale: reuniun…",
+      "subtitlu": "Un profesor explică pe tablă operații cu mulțimi",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu cele trei operații esențiale: reuniune, inter…",
+      "naratiune": "Vom începe cu cele trei operații esențiale: reuniune, intersecție și diferență.",
+      "vizual": "Un profesor explică pe tablă operații cu mulțimi",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu cele trei operații esențiale: reuniune, intersecție și diferență.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080107,
+      "endProcent": 0.129061,
+      "procentDurata": 4.8954
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza un exercițiu de tip Bac și vom vedea gr…",
+      "subtitlu": "Elevul rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile…",
+      "naratiune": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile comune în rezolvare.",
+      "vizual": "Elevul rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile comune în rezolvare.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.129061,
+      "endProcent": 0.191366,
+      "procentDurata": 6.2305
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+      "naratiune": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi Vom vedea ce greșeli fac elevii frecvent și cum să le evităm Vom analiza un exemplu complet rezolvat pas cu pas Vom face o verificare rapidă pentru a testa cunoștințele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea ce greșeli fac elevii frecvent și cum să le evităm",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza un exemplu complet rezolvat pas cu pas",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom face o verificare rapidă pentru a testa cunoștințele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191366,
+      "endProcent": 0.396084,
+      "procentDurata": 20.4717
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Exemplu de tip Bac",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "{1, 2, 3, 4} și {1}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B. Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4} Diferența A - B conține elementele din A care nu sunt în B: {1} Răspunsul final este {1, 2, 3, 4} și {1}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4}",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Diferența A - B conține elementele din A care nu sunt în B: {1}",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: {1, 2, 3, 4} și {1}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.396084,
+      "endProcent": 0.692924,
+      "procentDurata": 29.684
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) {1, 2, 3, 4}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B? A) {1, 2, 3} B) {2, 3, 4} C) {1, 2, 3, 4} Reuniunea conține toate elementele din ambele mulțimi, deci răspunsul corect este C) {1, 2, 3, 4}.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {1, 2, 3}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {2, 3, 4}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {1, 2, 3, 4}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) {1, 2, 3, 4}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.692924,
+      "endProcent": 0.897641,
+      "procentDurata": 20.4717
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi",
+      "naratiune": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi Diferența este mulțimea cu elementele din prima mulțime care nu sunt în a doua",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Diferența este mulțimea cu elementele din prima mulțime care nu sunt în a doua",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897641,
+      "endProcent": 1,
+      "procentDurata": 10.2359
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu mulțimi - Bac și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu mulțimi - Bac și greșeli comune",
+      "naratiune": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu mulțimi - Bac și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu mulțimi - Bac și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080107,
+      "procentDurata": 8.0107
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom începe cu cele trei operații esențiale: reuniun…",
+      "subtitlu": "Un profesor explică pe tablă operații cu mulțimi",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom începe cu cele trei operații esențiale: reuniune, inter…",
+      "naratiune": "Vom începe cu cele trei operații esențiale: reuniune, intersecție și diferență.",
+      "vizual": "Un profesor explică pe tablă operații cu mulțimi",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom începe cu cele trei operații esențiale: reuniune, intersecție și diferență.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080107,
+      "endProcent": 0.129061,
+      "procentDurata": 4.8954
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza un exercițiu de tip Bac și vom vedea gr…",
+      "subtitlu": "Elevul rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile…",
+      "naratiune": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile comune în rezolvare.",
+      "vizual": "Elevul rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile comune în rezolvare.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.129061,
+      "endProcent": 0.191366,
+      "procentDurata": 6.2305
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+      "naratiune": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi Vom vedea ce greșeli fac elevii frecvent și cum să le evităm Vom analiza un exemplu complet rezolvat pas cu pas Vom face o verificare rapidă pentru a testa cunoștințele",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea ce greșeli fac elevii frecvent și cum să le evităm",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza un exemplu complet rezolvat pas cu pas",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom face o verificare rapidă pentru a testa cunoștințele",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191366,
+      "endProcent": 0.396084,
+      "procentDurata": 20.4717
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Exemplu de tip Bac",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "{1, 2, 3, 4} și {1}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B. Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4} Diferența A - B conține elementele din A care nu sunt în B: {1} Răspunsul final este {1, 2, 3, 4} și {1}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4}",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Diferența A - B conține elementele din A care nu sunt în B: {1}",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: {1, 2, 3, 4} și {1}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.396084,
+      "endProcent": 0.692924,
+      "procentDurata": 29.684
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) {1, 2, 3, 4}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B? A) {1, 2, 3} B) {2, 3, 4} C) {1, 2, 3, 4} Reuniunea conține toate elementele din ambele mulțimi, deci răspunsul corect este C) {1, 2, 3, 4}.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {1, 2, 3}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {2, 3, 4}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {1, 2, 3, 4}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) {1, 2, 3, 4}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.692924,
+      "endProcent": 0.897641,
+      "procentDurata": 20.4717
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi",
+      "naratiune": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi Diferența este mulțimea cu elementele din prima mulțime care nu sunt în a doua",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Reuniunea este mulțimea cu toate elementele din ambele mulțimi",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Diferența este mulțimea cu elementele din prima mulțime care nu sunt în a doua",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897641,
+      "endProcent": 1,
+      "procentDurata": 10.2359
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-08.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.562Z"
+  }
+}

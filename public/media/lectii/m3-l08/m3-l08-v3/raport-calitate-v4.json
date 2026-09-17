@@ -1,0 +1,31 @@
+{
+  "proiect": "BAC MATE",
+  "versiuneStandard": "4.0",
+  "videoId": "m3-l08-v3",
+  "scene": 5,
+  "erori": [
+    "Lipsește scena exemplu."
+  ],
+  "avertismente": [],
+  "controlCalitate": {
+    "structuraTehnica": false,
+    "scenariuDisponibil": false,
+    "audioDisponibil": false,
+    "subtitrareDisponibila": false,
+    "exempluInclus": false,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "verdict": "BLOCAT",
+  "publicare": "BLOCATA"
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Restricția unei funcții este o funcție nouă care are același mod de definire ca funcția inițială, dar cu domeniu restrâns. De exemplu, dacă avem f(x) = 1/x, restricția pe [1, 2] este f(x) = 1/x cu x ∈ [1, 2].
+
+2
+00:02:30.000 --> 00:05:00.000
+Graficul restricției este doar o parte a graficului funcției originale. Acest lucru este important pentru a înțelege comportamentul funcției într-un interval specific.
+

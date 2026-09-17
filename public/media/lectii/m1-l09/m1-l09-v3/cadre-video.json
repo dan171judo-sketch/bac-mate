@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l09",
+    "modul": 1,
+    "numarLectie": 9,
+    "titlu": "Inducția matematică",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l09-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Inducția matematică - exercițiu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Inducția matematică - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Inducția matematică - exercițiu de tip Bac",
+      "naratiune": "Începem cu verificarea pentru n=1",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Inducția matematică - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Inducția matematică - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Începem cu verificarea pentru n=1",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.091931,
+      "procentDurata": 9.1931
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom demonstra că suma primelor n numere naturale pa…",
+      "subtitlu": "Elevul vede un exercițiu de demonstrare prin inducție",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom demonstra că suma primelor n numere naturale pare este…",
+      "naratiune": "Vom demonstra că suma primelor n numere naturale pare este egală cu n(n+1).",
+      "vizual": "Elevul vede un exercițiu de demonstrare prin inducție",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom demonstra că suma primelor n numere naturale pare este egală cu n(n+1).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.091931,
+      "endProcent": 0.158325,
+      "procentDurata": 6.6394
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom aplica pașii inducției matematice pas cu pas",
+      "subtitlu": "Elevul vede pașii de rezolvare ai exemplului",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom aplica pașii inducției matematice pas cu pas",
+      "naratiune": "Vom aplica pașii inducției matematice pas cu pas",
+      "vizual": "Elevul vede pașii de rezolvare ai exemplului",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom aplica pașii inducției matematice pas cu pas",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.158325,
+      "endProcent": 0.199183,
+      "procentDurata": 4.0858
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu verificarea pentru n=1",
+      "naratiune": "Începem cu verificarea pentru n=1 Următorul pas este ipoteza de inducție Trebuie să demonstrăm pentru n=k+1 În final, concluzia este demonstrată",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Începem cu verificarea pentru n=1",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Următorul pas este ipoteza de inducție",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "formula",
+          "text": "Trebuie să demonstrăm pentru n=k+1",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, concluzia este demonstrată",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.199183,
+      "endProcent": 0.306435,
+      "procentDurata": 10.7252
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Suma primelor n numere naturale pare",
+      "subtitlu": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Demonstrat cu inducția matematică.",
+      "naratiune": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1). Pasul 1: Verificăm pentru n=1. 2 = 1(1+1) → 2 = 2. Adevărat. Pasul 2: Presupunem că pentru n=k, 2 + 4 + ... + 2k = k(k+1). Demonstrăm pentru n=k+1. Suma devine 2 + 4 + ... + 2k + 2(k+1) = k(k+1) + 2(k+1) = (k+1)(k + 2) = (k+1)((k+1)+1). Răspunsul final este Demonstrat cu inducția matematică..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Verificăm pentru n=1. 2 = 1(1+1) → 2 = 2. Adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Presupunem că pentru n=k, 2 + 4 + ... + 2k = k(k+1). Demonstrăm pentru n=k+1. Suma devine 2 + 4 + ... + 2k + 2(k+1) = k(k+…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Demonstrat cu inducția matematică.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.306435,
+      "endProcent": 0.729316,
+      "procentDurata": 42.288
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce pas este al doilea în inducția matematică?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Ipoteza de inducție",
+      "naratiune": "Ce pas este al doilea în inducția matematică? A) Verificarea pentru n=1 B) Ipoteza de inducție C) Demonstrația pentru n=k+1 Al doilea pas este ipoteza de inducție, adică presupunerea că afirmația este adevărată pentru n=k.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce pas este al doilea în inducția matematică?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Verificarea pentru n=1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Ipoteza de inducție",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Demonstrația pentru n=k+1",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Ipoteza de inducție",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.729316,
+      "endProcent": 0.908069,
+      "procentDurata": 17.8754
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Verificăm pentru n=1",
+      "naratiune": "Verificăm pentru n=1 Ipoteza de inducție este pentru n=k Trebuie să demonstrăm pentru n=k+1",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Verificăm pentru n=1",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Ipoteza de inducție este pentru n=k",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "retine-3",
+          "tip": "formula-principala",
+          "text": "Trebuie să demonstrăm pentru n=k+1",
+          "apareLa": 0.6,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.908069,
+      "endProcent": 1,
+      "procentDurata": 9.1931
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Inducția matematică - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Inducția matematică - exercițiu de tip Bac",
+      "naratiune": "Începem cu verificarea pentru n=1",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Inducția matematică - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Inducția matematică - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "formula",
+          "text": "Începem cu verificarea pentru n=1",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.091931,
+      "procentDurata": 9.1931
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom demonstra că suma primelor n numere naturale pa…",
+      "subtitlu": "Elevul vede un exercițiu de demonstrare prin inducție",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom demonstra că suma primelor n numere naturale pare este…",
+      "naratiune": "Vom demonstra că suma primelor n numere naturale pare este egală cu n(n+1).",
+      "vizual": "Elevul vede un exercițiu de demonstrare prin inducție",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom demonstra că suma primelor n numere naturale pare este egală cu n(n+1).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.091931,
+      "endProcent": 0.158325,
+      "procentDurata": 6.6394
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom aplica pașii inducției matematice pas cu pas",
+      "subtitlu": "Elevul vede pașii de rezolvare ai exemplului",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom aplica pașii inducției matematice pas cu pas",
+      "naratiune": "Vom aplica pașii inducției matematice pas cu pas",
+      "vizual": "Elevul vede pașii de rezolvare ai exemplului",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom aplica pașii inducției matematice pas cu pas",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.158325,
+      "endProcent": 0.199183,
+      "procentDurata": 4.0858
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu verificarea pentru n=1",
+      "naratiune": "Începem cu verificarea pentru n=1 Următorul pas este ipoteza de inducție Trebuie să demonstrăm pentru n=k+1 În final, concluzia este demonstrată",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "formula",
+          "text": "Începem cu verificarea pentru n=1",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Următorul pas este ipoteza de inducție",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "formula",
+          "text": "Trebuie să demonstrăm pentru n=k+1",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, concluzia este demonstrată",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.199183,
+      "endProcent": 0.306435,
+      "procentDurata": 10.7252
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Suma primelor n numere naturale pare",
+      "subtitlu": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Demonstrat cu inducția matematică.",
+      "naratiune": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1). Pasul 1: Verificăm pentru n=1. 2 = 1(1+1) → 2 = 2. Adevărat. Pasul 2: Presupunem că pentru n=k, 2 + 4 + ... + 2k = k(k+1). Demonstrăm pentru n=k+1. Suma devine 2 + 4 + ... + 2k + 2(k+1) = k(k+1) + 2(k+1) = (k+1)(k + 2) = (k+1)((k+1)+1). Răspunsul final este Demonstrat cu inducția matematică..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Verificăm pentru n=1. 2 = 1(1+1) → 2 = 2. Adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Presupunem că pentru n=k, 2 + 4 + ... + 2k = k(k+1). Demonstrăm pentru n=k+1. Suma devine 2 + 4 + ... + 2k + 2(k+1) = k(k+…",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Demonstrat cu inducția matematică.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.306435,
+      "endProcent": 0.729316,
+      "procentDurata": 42.288
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce pas este al doilea în inducția matematică?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Ipoteza de inducție",
+      "naratiune": "Ce pas este al doilea în inducția matematică? A) Verificarea pentru n=1 B) Ipoteza de inducție C) Demonstrația pentru n=k+1 Al doilea pas este ipoteza de inducție, adică presupunerea că afirmația este adevărată pentru n=k.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce pas este al doilea în inducția matematică?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Verificarea pentru n=1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Ipoteza de inducție",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Demonstrația pentru n=k+1",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Ipoteza de inducție",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.729316,
+      "endProcent": 0.908069,
+      "procentDurata": 17.8754
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Verificăm pentru n=1",
+      "naratiune": "Verificăm pentru n=1 Ipoteza de inducție este pentru n=k Trebuie să demonstrăm pentru n=k+1",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "Verificăm pentru n=1",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Ipoteza de inducție este pentru n=k",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "retine-3",
+          "tip": "formula-principala",
+          "text": "Trebuie să demonstrăm pentru n=k+1",
+          "apareLa": 0.6,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.908069,
+      "endProcent": 1,
+      "procentDurata": 9.1931
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-09.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.576Z"
+  }
+}

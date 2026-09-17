@@ -1,0 +1,7 @@
+În lecția de azi vom vedea cum se rezolvă probleme de demonstrație la Bac
+
+Vom analiza greșelile frecvente în raționamente logice
+
+Vom folosi exemple de tip Bac pentru a înțelege cerințele
+
+Vom verifica dacă raționamentul este corect sau nu

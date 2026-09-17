@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l07",
+    "modul": 2,
+    "numarLectie": 7,
+    "titlu": "Restricția unei funcții",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l07-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Restricția funcției f(x) = 1/x",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Restricția funcției f(x) = 1/x",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Restricția funcției f(x) = 1/x",
+      "naratiune": "Vom analiza cum se definește restricția unei funcții",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Restricția funcției f(x) = 1/x”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Restricția funcției f(x) = 1/x",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza cum se definește restricția unei funcții",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080071,
+      "procentDurata": 8.0071
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza funcția f(x) = 1/x și vom defini o rest…",
+      "subtitlu": "Desen cu funcția f(x) = 1/x și un interval [1, 2]",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza funcția f(x) = 1/x și vom defini o restricție p…",
+      "naratiune": "Vom analiza funcția f(x) = 1/x și vom defini o restricție pe intervalul [1, 2].",
+      "vizual": "Desen cu funcția f(x) = 1/x și un interval [1, 2]",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza funcția f(x) = 1/x și vom defini o restricție pe intervalul [1, 2].",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080071,
+      "endProcent": 0.146797,
+      "procentDurata": 6.6726
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Restricția funcției pe [1, 2] este o funcție care a…",
+      "subtitlu": "Desen cu graficul restricției pe [1, 2]",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Restricția funcției pe [1, 2] este o funcție care are domen…",
+      "naratiune": "Restricția funcției pe [1, 2] este o funcție care are domeniul de definiție [1, 2].",
+      "vizual": "Desen cu graficul restricției pe [1, 2]",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Restricția funcției pe [1, 2] este o funcție care are domeniul de definiție [1, 2].",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.146797,
+      "endProcent": 0.213523,
+      "procentDurata": 6.6726
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza cum se definește restricția unei funcții",
+      "naratiune": "Vom analiza cum se definește restricția unei funcții Vom vedea cum se aplică la funcția f(x) = 1/x Vom identifica domeniul de definiție al restricției Vom verifica dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza cum se definește restricția unei funcții",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "formula",
+          "text": "Vom vedea cum se aplică la funcția f(x) = 1/x",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom identifica domeniul de definiție al restricției",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.213523,
+      "endProcent": 0.351423,
+      "procentDurata": 13.79
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Restricția funcției f(x) = 1/x pe [1, 2]",
+      "subtitlu": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f₁: [1, 2] → R, f₁(x) = 1/x",
+      "naratiune": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2]. Restricția funcției f pe [1, 2] este funcția f₁: [1, 2] → R, f₁(x) = 1/x Dominiul de definiție al restricției este [1, 2] Răspunsul final este f₁: [1, 2] → R, f₁(x) = 1/x.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Restricția funcției f pe [1, 2] este funcția f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Dominiul de definiție al restricției este [1, 2]",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.351423,
+      "endProcent": 0.617438,
+      "procentDurata": 26.6014
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) f₁: [1, 2] → R, f₁(x) = 1/x",
+      "naratiune": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]? A) f₁: [1, 2] → R, f₁(x) = 1/x B) f₁: (0, ∞) → R, f₁(x) = 1/x C) f₁: R\\{0} → R, f₁(x) = 1/x Răspunsul corect este A, deoarece restricția funcției f pe [1, 2] are domeniul de definiție [1, 2], nu toate valorile din R\\{0}.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) f₁: (0, ∞) → R, f₁(x) = 1/x",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) f₁: R\\{0} → R, f₁(x) = 1/x",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.617438,
+      "endProcent": 0.879893,
+      "procentDurata": 26.2456
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns",
+      "naratiune": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns Pentru a defini o restricție, trebuie să specificăm un interval de definiție",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a defini o restricție, trebuie să specificăm un interval de definiție",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.879893,
+      "endProcent": 1,
+      "procentDurata": 12.0107
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Restricția funcției f(x) = 1/x",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Restricția unei funcții”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Restricția funcției f(x) = 1/x",
+      "naratiune": "Vom analiza cum se definește restricția unei funcții",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Restricția funcției f(x) = 1/x”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Restricția funcției f(x) = 1/x",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Vom analiza cum se definește restricția unei funcții",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.080071,
+      "procentDurata": 8.0071
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza funcția f(x) = 1/x și vom defini o rest…",
+      "subtitlu": "Desen cu funcția f(x) = 1/x și un interval [1, 2]",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom analiza funcția f(x) = 1/x și vom defini o restricție p…",
+      "naratiune": "Vom analiza funcția f(x) = 1/x și vom defini o restricție pe intervalul [1, 2].",
+      "vizual": "Desen cu funcția f(x) = 1/x și un interval [1, 2]",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza funcția f(x) = 1/x și vom defini o restricție pe intervalul [1, 2].",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.080071,
+      "endProcent": 0.146797,
+      "procentDurata": 6.6726
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Restricția funcției pe [1, 2] este o funcție care a…",
+      "subtitlu": "Desen cu graficul restricției pe [1, 2]",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Restricția funcției pe [1, 2] este o funcție care are domen…",
+      "naratiune": "Restricția funcției pe [1, 2] este o funcție care are domeniul de definiție [1, 2].",
+      "vizual": "Desen cu graficul restricției pe [1, 2]",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Restricția funcției pe [1, 2] este o funcție care are domeniul de definiție [1, 2].",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.146797,
+      "endProcent": 0.213523,
+      "procentDurata": 6.6726
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Vom analiza cum se definește restricția unei funcții",
+      "naratiune": "Vom analiza cum se definește restricția unei funcții Vom vedea cum se aplică la funcția f(x) = 1/x Vom identifica domeniul de definiție al restricției Vom verifica dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Vom analiza cum se definește restricția unei funcții",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "formula",
+          "text": "Vom vedea cum se aplică la funcția f(x) = 1/x",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom identifica domeniul de definiție al restricției",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.213523,
+      "endProcent": 0.351423,
+      "procentDurata": 13.79
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Restricția funcției f(x) = 1/x pe [1, 2]",
+      "subtitlu": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "f₁: [1, 2] → R, f₁(x) = 1/x",
+      "naratiune": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2]. Restricția funcției f pe [1, 2] este funcția f₁: [1, 2] → R, f₁(x) = 1/x Dominiul de definiție al restricției este [1, 2] Răspunsul final este f₁: [1, 2] → R, f₁(x) = 1/x.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R\\{0} → R, f(x) = 1/x. Definiți restricția funcției f pe intervalul [1, 2].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Restricția funcției f pe [1, 2] este funcția f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Dominiul de definiție al restricției este [1, 2]",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.351423,
+      "endProcent": 0.617438,
+      "procentDurata": 26.6014
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) f₁: [1, 2] → R, f₁(x) = 1/x",
+      "naratiune": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]? A) f₁: [1, 2] → R, f₁(x) = 1/x B) f₁: (0, ∞) → R, f₁(x) = 1/x C) f₁: R\\{0} → R, f₁(x) = 1/x Răspunsul corect este A, deoarece restricția funcției f pe [1, 2] are domeniul de definiție [1, 2], nu toate valorile din R\\{0}.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este restricția funcției f(x) = 1/x pe intervalul [1, 2]?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) f₁: (0, ∞) → R, f₁(x) = 1/x",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) f₁: R\\{0} → R, f₁(x) = 1/x",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) f₁: [1, 2] → R, f₁(x) = 1/x",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.617438,
+      "endProcent": 0.879893,
+      "procentDurata": 26.2456
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns",
+      "naratiune": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns Pentru a defini o restricție, trebuie să specificăm un interval de definiție",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Restricția unei funcții este o funcție cu același codomeniu, dar cu domeniul de definiție restrâns",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a defini o restricție, trebuie să specificăm un interval de definiție",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.879893,
+      "endProcent": 1,
+      "procentDurata": 12.0107
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-07.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.768Z"
+  }
+}

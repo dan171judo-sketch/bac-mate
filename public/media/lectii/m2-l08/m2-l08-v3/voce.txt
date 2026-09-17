@@ -1,0 +1,7 @@
+Vom analiza o funcție pentru a vedea dacă este crescătoare sau descrescătoare
+
+Vom determina dacă funcția este mărginită
+
+Vom folosi derivata pentru a studia monotonie
+
+Vom verifica dacă funcția are valori maxime sau minime

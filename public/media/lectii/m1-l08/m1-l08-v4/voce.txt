@@ -1,0 +1,7 @@
+În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi
+
+Vom vedea ce greșeli fac elevii frecvent și cum să le evităm
+
+Vom analiza un exemplu complet rezolvat pas cu pas
+
+Vom face o verificare rapidă pentru a testa cunoștințele

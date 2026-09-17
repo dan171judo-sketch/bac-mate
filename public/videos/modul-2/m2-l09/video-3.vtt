@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x).
+
+2
+00:02:30.000 --> 00:05:00.000
+Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=|-x|=|x|=f(x).
+

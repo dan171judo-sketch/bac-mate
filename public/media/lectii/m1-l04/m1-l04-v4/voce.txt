@@ -1,0 +1,7 @@
+În această lecție vom învăța cum să definim intervale de numere reale
+
+Vom vedea cum se reprezintă intervalele pe axa numerelor
+
+Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac
+
+Vom rezolva un exemplu complet pentru a înțelege cum se aplică

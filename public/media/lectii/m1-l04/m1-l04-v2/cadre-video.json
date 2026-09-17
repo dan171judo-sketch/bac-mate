@@ -1,0 +1,641 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l04",
+    "modul": 1,
+    "numarLectie": 4,
+    "titlu": "Intervale de numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l04-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Intervale de numere reale: reguli și metoda",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale: reguli și metoda",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale: reguli și metoda",
+      "naratiune": "Începem cu definiția intervalului de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale: reguli și metoda”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale: reguli și metoda",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția intervalului de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.068794,
+      "procentDurata": 6.8794
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un interval de numere reale este o mulțime de numer…",
+      "subtitlu": "Axa numerelor cu intervale desenate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un interval de numere reale este o mulțime de numere cuprin…",
+      "naratiune": "Un interval de numere reale este o mulțime de numere cuprinse între două valori. De exemplu, intervalul [a, b] include toate numerele reale cuprinse între a și b, inclusiv a și b.",
+      "vizual": "Axa numerelor cu intervale desenate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un interval de numere reale este o mulțime de numere cuprinse între două valori.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul [a, b] include toate numerele reale cuprinse între a și b, inclusiv a și b.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.068794,
+      "endProcent": 0.191095,
+      "procentDurata": 12.2301
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Există mai multe tipuri de intervale: închise, desc…",
+      "subtitlu": "Reprezentarea intervalelor pe axa numerelor",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Există mai multe tipuri de intervale: închise, deschise, se…",
+      "naratiune": "Există mai multe tipuri de intervale: închise, deschise, semiînchise. De exemplu, intervalul (a, b) nu include capetele, iar [a, b) include a dar nu include b.",
+      "vizual": "Reprezentarea intervalelor pe axa numerelor",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Există mai multe tipuri de intervale: închise, deschise, semiînchise.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul (a, b) nu include capetele, iar [a, b) include a dar nu include b.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191095,
+      "endProcent": 0.290464,
+      "procentDurata": 9.9369
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția intervalului de numere reale.",
+      "naratiune": "Începem cu definiția intervalului de numere reale. Vom învăța cum să reprezentăm intervale pe axa numerelor. Vom vedea cum se definesc intervalele în funcție de limite. În final, vom rezolva un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția intervalului de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să reprezentăm intervale pe axa numerelor.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se definesc intervalele în funcție de limite.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.290464,
+      "endProcent": 0.424231,
+      "procentDurata": 13.3766
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Reprezentarea intervalului [2, 5]",
+      "subtitlu": "Reprezintă pe axa numerelor intervalul [2, 5].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Intervalul [2, 5] este reprezentat pe axa numerelor cu un segment între 2 și 5, inclusiv capetele.",
+      "naratiune": "Reprezintă pe axa numerelor intervalul [2, 5]. Desenezi axa numerelor. Markezi punctele 2 și 5. Unii segmentul între 2 și 5 cu linie plină, inclusiv capetele. Reprezintă capetele cu cercuri pline. Răspunsul final este Intervalul [2, 5] este reprezentat pe axa numerelor cu un segment între 2 și 5, inclusiv capetele..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Reprezintă pe axa numerelor intervalul [2, 5].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Desenezi axa numerelor.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Markezi punctele 2 și 5.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Unii segmentul între 2 și 5 cu linie plină, inclusiv capetele.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-4",
+          "tip": "pas",
+          "text": "4. Reprezintă capetele cu cercuri pline.",
+          "apareLa": 0.72,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.424231,
+      "endProcent": 0.648385,
+      "procentDurata": 22.4154
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+      "naratiune": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor? A) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri pline. B) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri goale. C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline. Intervalul [1, 3] este închis, deci capetele sunt incluse. Așadar, linia este închisă între 1 și 3, iar capetele sunt marcate cu cercuri pline.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri goale.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648385,
+      "endProcent": 0.931206,
+      "procentDurata": 28.2821
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalul [a, b] include a și b.",
+      "naratiune": "Intervalul [a, b] include a și b. Intervalul (a, b) nu include nici a, nici b.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalul [a, b] include a și b.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Intervalul (a, b) nu include nici a, nici b.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.931206,
+      "endProcent": 1,
+      "procentDurata": 6.8794
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Intervale de numere reale: reguli și metoda",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Intervale de numere reale: reguli și metoda",
+      "naratiune": "Începem cu definiția intervalului de numere reale.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Intervale de numere reale: reguli și metoda”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Intervale de numere reale: reguli și metoda",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția intervalului de numere reale.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.068794,
+      "procentDurata": 6.8794
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Un interval de numere reale este o mulțime de numer…",
+      "subtitlu": "Axa numerelor cu intervale desenate",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Un interval de numere reale este o mulțime de numere cuprin…",
+      "naratiune": "Un interval de numere reale este o mulțime de numere cuprinse între două valori. De exemplu, intervalul [a, b] include toate numerele reale cuprinse între a și b, inclusiv a și b.",
+      "vizual": "Axa numerelor cu intervale desenate",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Un interval de numere reale este o mulțime de numere cuprinse între două valori.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul [a, b] include toate numerele reale cuprinse între a și b, inclusiv a și b.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.068794,
+      "endProcent": 0.191095,
+      "procentDurata": 12.2301
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Există mai multe tipuri de intervale: închise, desc…",
+      "subtitlu": "Reprezentarea intervalelor pe axa numerelor",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Există mai multe tipuri de intervale: închise, deschise, se…",
+      "naratiune": "Există mai multe tipuri de intervale: închise, deschise, semiînchise. De exemplu, intervalul (a, b) nu include capetele, iar [a, b) include a dar nu include b.",
+      "vizual": "Reprezentarea intervalelor pe axa numerelor",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Există mai multe tipuri de intervale: închise, deschise, semiînchise.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "De exemplu, intervalul (a, b) nu include capetele, iar [a, b) include a dar nu include b.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191095,
+      "endProcent": 0.290464,
+      "procentDurata": 9.9369
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția intervalului de numere reale.",
+      "naratiune": "Începem cu definiția intervalului de numere reale. Vom învăța cum să reprezentăm intervale pe axa numerelor. Vom vedea cum se definesc intervalele în funcție de limite. În final, vom rezolva un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția intervalului de numere reale.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să reprezentăm intervale pe axa numerelor.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se definesc intervalele în funcție de limite.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "În final, vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.290464,
+      "endProcent": 0.424231,
+      "procentDurata": 13.3766
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Reprezentarea intervalului [2, 5]",
+      "subtitlu": "Reprezintă pe axa numerelor intervalul [2, 5].",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Intervalul [2, 5] este reprezentat pe axa numerelor cu un segment între 2 și 5, inclusiv capetele.",
+      "naratiune": "Reprezintă pe axa numerelor intervalul [2, 5]. Desenezi axa numerelor. Markezi punctele 2 și 5. Unii segmentul între 2 și 5 cu linie plină, inclusiv capetele. Reprezintă capetele cu cercuri pline. Răspunsul final este Intervalul [2, 5] este reprezentat pe axa numerelor cu un segment între 2 și 5, inclusiv capetele..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Reprezintă pe axa numerelor intervalul [2, 5].",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Desenezi axa numerelor.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Markezi punctele 2 și 5.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Unii segmentul între 2 și 5 cu linie plină, inclusiv capetele.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-4",
+          "tip": "pas",
+          "text": "4. Reprezintă capetele cu cercuri pline.",
+          "apareLa": 0.72,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.424231,
+      "endProcent": 0.648385,
+      "procentDurata": 22.4154
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+      "naratiune": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor? A) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri pline. B) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri goale. C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline. Intervalul [1, 3] este închis, deci capetele sunt incluse. Așadar, linia este închisă între 1 și 3, iar capetele sunt marcate cu cercuri pline.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri goale.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.648385,
+      "endProcent": 0.931206,
+      "procentDurata": 28.2821
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intervalul [a, b] include a și b.",
+      "naratiune": "Intervalul [a, b] include a și b. Intervalul (a, b) nu include nici a, nici b.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intervalul [a, b] include a și b.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Intervalul (a, b) nu include nici a, nici b.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.931206,
+      "endProcent": 1,
+      "procentDurata": 6.8794
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-04.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.472Z"
+  }
+}

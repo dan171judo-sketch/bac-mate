@@ -1,0 +1,732 @@
+﻿/*
+ * BAC MATE — Math QA
+ *
+ * Verificator matematic determinist.
+ *
+ * Reguli:
+ * - NU foloseste AI ca sursa de adevar.
+ * - Verifica numai cazurile pe care le poate calcula sigur.
+ * - Daca nu intelege un caz, nu inventeaza un rezultat.
+ * - Verificarea umana ramane obligatorie.
+ */
+
+function numar(text) {
+  const valoare = Number(
+    String(text)
+      .trim()
+      .replace(",", ".")
+  );
+
+  if (!Number.isFinite(valoare)) {
+    return null;
+  }
+
+  return valoare;
+}
+
+export function parseazaInterval(text) {
+  if (
+    typeof text !== "string" ||
+    text.trim() === ""
+  ) {
+    return null;
+  }
+
+  let valoare = text
+    .normalize("NFKC")
+    .trim()
+    .replace(/[−–—]/g, "-")
+    .replace(/∞/g, "inf")
+    .replace(/\s+/g, "")
+    .toLowerCase();
+
+  valoare = valoare
+    .replace(/infinity/g, "inf")
+    .replace(/\+infinitate/g, "+inf")
+    .replace(/-infinitate/g, "-inf")
+    .replace(/\+infinit/g, "+inf")
+    .replace(/-infinit/g, "-inf");
+
+  const rezultat = valoare.match(
+    /^([\[\(])([^,;]+)[,;]([^\]\)]+)([\]\)])$/
+  );
+
+  if (!rezultat) {
+    return null;
+  }
+
+  function parseazaCapat(textCapat) {
+    if (textCapat === "-inf") {
+      return -Infinity;
+    }
+
+    if (
+      textCapat === "inf" ||
+      textCapat === "+inf"
+    ) {
+      return Infinity;
+    }
+
+    return numar(textCapat);
+  }
+
+  const stanga =
+    parseazaCapat(rezultat[2]);
+
+  const dreapta =
+    parseazaCapat(rezultat[3]);
+
+  if (
+    stanga === null ||
+    dreapta === null
+  ) {
+    return null;
+  }
+
+  if (!(stanga < dreapta)) {
+    return null;
+  }
+
+  const inchisStanga =
+    rezultat[1] === "[";
+
+  const inchisDreapta =
+    rezultat[4] === "]";
+
+  /*
+   * Infinitul nu poate apartine intervalului.
+   * De aceea [-inf, 4) sau (2, inf]
+   * sunt considerate notatii invalide.
+   */
+
+  if (
+    stanga === -Infinity &&
+    inchisStanga
+  ) {
+    return null;
+  }
+
+  if (
+    dreapta === Infinity &&
+    inchisDreapta
+  ) {
+    return null;
+  }
+
+  return {
+    stanga,
+    dreapta,
+    inchisStanga,
+    inchisDreapta,
+  };
+}
+
+export function extrageIntervalDinText(text) {
+  if (
+    typeof text !== "string" ||
+    text.trim() === ""
+  ) {
+    return null;
+  }
+
+  /*
+   * Mai intai incercam parserul strict.
+   *
+   * Exemplu:
+   *   (-4,inf)
+   */
+
+  const intervalDirect =
+    parseazaInterval(text);
+
+  if (intervalDirect) {
+    return intervalDirect;
+  }
+
+  /*
+   * Daca raspunsul contine text in jurul
+   * intervalului, cautam candidati de forma:
+   *
+   *   Intervalul (-4, ∞).
+   *   Solutia este (2, 5].
+   *
+   * Acceptam rezultatul numai daca exista
+   * EXACT un singur interval valid.
+   *
+   * Daca sunt zero sau mai multe intervale
+   * valide, returnam null. Astfel Math QA
+   * ramane conservator si nu ghiceste.
+   */
+
+  const candidati =
+    text.match(
+      /[\[\(][^\[\]\(\)\r\n]{1,100}[\]\)]/g
+    ) ?? [];
+
+  const intervaleValide = [];
+
+  for (const candidat of candidati) {
+    const interval =
+      parseazaInterval(candidat);
+
+    if (interval) {
+      intervaleValide.push(interval);
+    }
+  }
+
+  if (intervaleValide.length !== 1) {
+    return null;
+  }
+
+  return intervaleValide[0];
+}
+
+export function intervaleEgale(a, b) {
+  if (!a || !b) {
+    return false;
+  }
+
+  return (
+    a.stanga === b.stanga &&
+    a.dreapta === b.dreapta &&
+    a.inchisStanga ===
+      b.inchisStanga &&
+    a.inchisDreapta ===
+      b.inchisDreapta
+  );
+}
+
+export function intervalContine(
+  interval,
+  valoare
+) {
+  if (
+    !interval ||
+    !Number.isFinite(valoare)
+  ) {
+    return false;
+  }
+
+  const stangaCorecta =
+    interval.stanga === -Infinity ||
+    valoare > interval.stanga ||
+    (
+      valoare === interval.stanga &&
+      interval.inchisStanga
+    );
+
+  const dreaptaCorecta =
+    interval.dreapta === Infinity ||
+    valoare < interval.dreapta ||
+    (
+      valoare === interval.dreapta &&
+      interval.inchisDreapta
+    );
+
+  return (
+    stangaCorecta &&
+    dreaptaCorecta
+  );
+}
+
+export function intervalDinConditii(enunt) {
+  if (
+    typeof enunt !== "string" ||
+    enunt.trim() === ""
+  ) {
+    return null;
+  }
+
+  const text = enunt
+    .normalize("NFKC")
+    .replace(/[−–—]/g, "-")
+    .replace(/≤/g, "<=")
+    .replace(/≥/g, ">=")
+    .replace(/\s+/g, "")
+    .toLowerCase();
+
+  const regex =
+    /x(<=|>=|<|>)([-+]?\d+(?:[.,]\d+)?)/g;
+
+  const conditii = [];
+  let rezultat;
+
+  while (
+    (rezultat = regex.exec(text)) !== null
+  ) {
+    const valoare = numar(
+      rezultat[2]
+    );
+
+    if (valoare === null) {
+      return null;
+    }
+
+    conditii.push({
+      operator: rezultat[1],
+      valoare,
+    });
+  }
+
+  /*
+   * Deocamdata verificam intentionat
+   * numai cazul cu EXACT doua conditii.
+   */
+  if (conditii.length !== 2) {
+    return null;
+  }
+
+  let stanga = -Infinity;
+  let dreapta = Infinity;
+
+  let inchisStanga = false;
+  let inchisDreapta = false;
+
+  for (const conditie of conditii) {
+    if (
+      conditie.operator === ">" ||
+      conditie.operator === ">="
+    ) {
+      if (conditie.valoare > stanga) {
+        stanga = conditie.valoare;
+
+        inchisStanga =
+          conditie.operator === ">=";
+      }
+    }
+
+    if (
+      conditie.operator === "<" ||
+      conditie.operator === "<="
+    ) {
+      if (conditie.valoare < dreapta) {
+        dreapta = conditie.valoare;
+
+        inchisDreapta =
+          conditie.operator === "<=";
+      }
+    }
+  }
+
+  /*
+   * Pentru acest prim gate cerem
+   * o limita finita in ambele parti.
+   */
+  if (
+    !Number.isFinite(stanga) ||
+    !Number.isFinite(dreapta) ||
+    !(stanga < dreapta)
+  ) {
+    return null;
+  }
+
+  return {
+    stanga,
+    dreapta,
+    inchisStanga,
+    inchisDreapta,
+  };
+}
+
+export function rezolvaInecuatieLiniara(enunt) {
+  if (
+    typeof enunt !== "string" ||
+    enunt.trim() === ""
+  ) {
+    return null;
+  }
+
+  const text = enunt
+    .normalize("NFKC")
+    .replace(/[−–—]/g, "-")
+    .replace(/≤/g, "<=")
+    .replace(/≥/g, ">=")
+    .replace(/\s+/g, "")
+    .toLowerCase();
+
+  /*
+   * Cazuri suportate momentan:
+   *
+   * ax + b < c
+   * ax + b <= c
+   * ax + b > c
+   * ax + b >= c
+   *
+   * Exemple:
+   * 2x-5<3
+   * 3x+1>=7
+   * -2x+4<=10
+   */
+
+  const rezultat = text.match(
+    /^([-+]?\d*(?:[.,]\d+)?)x([+-]\d+(?:[.,]\d+)?)?(<=|>=|<|>)([-+]?\d+(?:[.,]\d+)?)$/
+  );
+
+  if (!rezultat) {
+    return null;
+  }
+
+  let coeficientText =
+    rezultat[1];
+
+  if (
+    coeficientText === "" ||
+    coeficientText === "+"
+  ) {
+    coeficientText = "1";
+  }
+
+  if (coeficientText === "-") {
+    coeficientText = "-1";
+  }
+
+  const a = numar(
+    coeficientText
+  );
+
+  const b =
+    rezultat[2] === undefined
+      ? 0
+      : numar(rezultat[2]);
+
+  const c = numar(
+    rezultat[4]
+  );
+
+  if (
+    a === null ||
+    b === null ||
+    c === null ||
+    a === 0
+  ) {
+    return null;
+  }
+
+  let operator =
+    rezultat[3];
+
+  /*
+   * ax + b OP c
+   *
+   * ax OP c - b
+   * x OP (c - b) / a
+   */
+
+  const limita =
+    (c - b) / a;
+
+  /*
+   * Daca impartim la un numar negativ,
+   * sensul inegalitatii se inverseaza.
+   */
+
+  if (a < 0) {
+    const operatorInvers = {
+      "<": ">",
+      "<=": ">=",
+      ">": "<",
+      ">=": "<=",
+    };
+
+    operator =
+      operatorInvers[operator];
+  }
+
+  if (
+    operator === "<" ||
+    operator === "<="
+  ) {
+    return {
+      stanga: -Infinity,
+      dreapta: limita,
+      inchisStanga: false,
+      inchisDreapta:
+        operator === "<=",
+    };
+  }
+
+  return {
+    stanga: limita,
+    dreapta: Infinity,
+    inchisStanga:
+      operator === ">=",
+    inchisDreapta: false,
+  };
+}
+export function verificaGrilaApartenenta(
+  valoare,
+  variante,
+  raspunsCorect
+) {
+  if (
+    !Number.isFinite(valoare) ||
+    !Array.isArray(variante) ||
+    variante.length !== 4
+  ) {
+    return null;
+  }
+
+  const intervale =
+    variante.map(
+      (varianta) =>
+        parseazaInterval(varianta)
+    );
+
+  /*
+   * Daca una dintre variante nu poate fi
+   * interpretata sigur ca interval,
+   * nu inventam verdict.
+   */
+  if (intervale.some(
+    (interval) => interval === null
+  )) {
+    return null;
+  }
+
+  const indiciCorecti = [];
+
+  intervale.forEach(
+    (interval, index) => {
+      if (
+        intervalContine(
+          interval,
+          valoare
+        )
+      ) {
+        indiciCorecti.push(index);
+      }
+    }
+  );
+
+  /*
+   * O grila BAC trebuie sa aiba
+   * exact o singura varianta corecta.
+   */
+  if (indiciCorecti.length !== 1) {
+    return {
+      valid: false,
+      motiv:
+        `Grila are ${indiciCorecti.length} variante matematic corecte.`,
+      indiciCorecti,
+    };
+  }
+
+  const indexCorect =
+    indiciCorecti[0];
+
+  const variantaCorecta =
+    variante[indexCorect];
+
+  const raspunsDeclarat =
+    String(raspunsCorect ?? "")
+      .replace(/\s+/g, "")
+      .toLowerCase();
+
+  const raspunsCalculat =
+    String(variantaCorecta)
+      .replace(/\s+/g, "")
+      .toLowerCase();
+
+  if (
+    raspunsDeclarat !==
+    raspunsCalculat
+  ) {
+    return {
+      valid: false,
+      motiv:
+        "raspunsCorect nu coincide cu unica varianta matematic corecta.",
+      indiciCorecti,
+    };
+  }
+
+  return {
+    valid: true,
+    motiv: "Grila este coerenta matematic.",
+    indiciCorecti,
+  };
+}
+
+export function valideazaExercitiuMatematic(
+  exercitiu
+) {
+  if (
+    !exercitiu ||
+    typeof exercitiu !== "object"
+  ) {
+    return [];
+  }
+
+  const erori = [];
+
+  const enunt =
+    typeof exercitiu.enunt === "string"
+      ? exercitiu.enunt
+      : "";
+
+  const raspunsCorect =
+    typeof exercitiu.raspunsCorect === "string"
+      ? exercitiu.raspunsCorect
+      : "";
+
+  /*
+   * GATE 1:
+   * doua conditii explicite de forma
+   *
+   * x > 2 si x <= 5
+   *
+   * Daca putem calcula intervalul
+   * si raspunsul declarat este tot
+   * un interval, le comparam.
+   */
+
+  const intervalConditii =
+    intervalDinConditii(enunt);
+
+  const intervalRaspuns =
+    extrageIntervalDinText(
+      raspunsCorect
+    );
+
+  if (
+    intervalConditii &&
+    intervalRaspuns &&
+    !intervaleEgale(
+      intervalConditii,
+      intervalRaspuns
+    )
+  ) {
+    erori.push(
+      "Math QA: raspunsul interval nu corespunde conditiilor din enunt"
+    );
+  }
+
+  /*
+   * GATE 2:
+   * inecuatie liniara suportata,
+   * de exemplu:
+   *
+   * 2x - 5 < 3
+   *
+   * Comparam rezultatul calculat
+   * cu raspunsul declarat numai
+   * daca acesta poate fi citit sigur
+   * ca interval.
+   */
+
+  let textInecuatie = enunt;
+
+/*
+ * Intr-un exercitiu real, expresia poate
+ * fi precedata de text precum:
+ *
+ * "Rezolva inecuatia 2x - 5 < 3."
+ *
+ * Extragem expresia numai daca enuntul
+ * contine exact o singura aparitie a lui x
+ * si nu contine puteri ale lui x.
+ */
+
+const numarAparitiiX =
+  (
+    enunt.match(/x/gi) ??
+    []
+  ).length;
+
+if (
+  numarAparitiiX === 1 &&
+  !/\bx\s*\^/i.test(enunt)
+) {
+  const potrivireInecuatie =
+    enunt.match(
+      /[-+]?\s*\d*(?:[.,]\d+)?\s*x\s*(?:[+-]\s*\d+(?:[.,]\d+)?)?\s*(?:<=|>=|≤|≥|<|>)\s*[-+]?\s*\d+(?:[.,]\d+)?/i
+    );
+
+  if (potrivireInecuatie) {
+    textInecuatie =
+      potrivireInecuatie[0];
+  }
+}
+
+const intervalInecuatie =
+  rezolvaInecuatieLiniara(
+    textInecuatie
+  );
+
+  if (
+    intervalInecuatie &&
+    intervalRaspuns &&
+    !intervaleEgale(
+      intervalInecuatie,
+      intervalRaspuns
+    )
+  ) {
+    erori.push(
+      "Math QA: raspunsul interval nu corespunde inecuatiei liniare"
+    );
+  }
+
+  /*
+   * GATE 3:
+   * grila de apartenenta.
+   *
+   * Activam verificarea numai daca
+   * enuntul spune explicit ca un numar
+   * apartine / este continut intr-un
+   * interval si putem extrage sigur
+   * acel numar.
+   */
+
+  if (
+    exercitiu.tip ===
+      "alegere-multipla" &&
+    Array.isArray(
+      exercitiu.variante
+    ) &&
+    exercitiu.variante.length === 4
+  ) {
+    const textNormalizat =
+      enunt
+        .normalize("NFKC")
+        .toLowerCase();
+
+    const esteApartenenta =
+      /apartin|conține|contine/.test(
+        textNormalizat
+      );
+
+    if (esteApartenenta) {
+      const potrivireNumar =
+        enunt.match(
+          /[-+]?\d+(?:[.,]\d+)?/
+        );
+
+      if (potrivireNumar) {
+        const valoare =
+          numar(
+            potrivireNumar[0]
+          );
+
+        if (valoare !== null) {
+          const rezultatGrila =
+            verificaGrilaApartenenta(
+              valoare,
+              exercitiu.variante,
+              raspunsCorect
+            );
+
+          if (
+            rezultatGrila &&
+            rezultatGrila.valid ===
+              false
+          ) {
+            erori.push(
+              `Math QA: ${rezultatGrila.motiv}`
+            );
+          }
+        }
+      }
+    }
+  }
+
+  return erori;
+}

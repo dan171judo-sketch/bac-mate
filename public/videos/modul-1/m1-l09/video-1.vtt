@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Cum putem face asta fără să verificăm toate numerele?
+
+2
+00:02:00.000 --> 00:04:00.000
+Inducția matematică este ca un lanț de cutii. Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem adevărul pentru n=k), atunci toate cutiile sunt închise.
+

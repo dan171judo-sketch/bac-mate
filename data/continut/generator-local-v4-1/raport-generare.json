@@ -1,0 +1,16 @@
+{
+  "versiune": "BAC-MATE-GENERATOR-LOCAL-V4.1",
+  "generatLa": "2026-09-14T08:09:22.398Z",
+  "model": "qwen3:8b",
+  "ollama": "http://127.0.0.1:11434",
+  "thinking": false,
+  "numCtx": 4096,
+  "rezultate": [
+    {
+      "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 02-teorie\n- teorie 3 invalidă",
+      "generatLa": "2026-09-14T08:09:22.395Z"
+    }
+  ]
+}

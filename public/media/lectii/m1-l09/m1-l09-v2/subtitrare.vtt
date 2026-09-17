@@ -1,0 +1,18 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:01:41.553
+Inducția matematică este o metodă de demonstrație folosită pentru propoziții care depind de un număr natural.
+
+2
+00:01:41.553 --> 00:02:50.497
+Pentru a demonstra o propoziție, trebuie să verificăm două pași esențiali.
+
+3
+00:02:50.497 --> 00:04:02.236
+Prima etapă este verificarea pentru n=1, apoi presupunem adevărat pentru n=k.
+
+4
+00:04:02.236 --> 00:05:00.000
+În al doilea pas, demonstrăm că este adevărat și pentru n=k+1.
+

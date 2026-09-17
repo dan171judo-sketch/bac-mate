@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l07",
+    "modul": 1,
+    "numarLectie": 7,
+    "titlu": "Negație, conjuncție, disjuncție și implicație",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l07-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Negație, conjuncție, disjuncție și implicație",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Negație, conjuncție, disjuncție și implicație",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Negație, conjuncție, disjuncție și implicație",
+      "naratiune": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Negație, conjuncție, disjuncție și implicație”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Negație, conjuncție, disjuncție și implicație",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.070189,
+      "procentDurata": 7.0189
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom folosi simbolurile logice pentru a exprima nega…",
+      "subtitlu": "Un profesor desenează pe tablă simbolurile logice: ¬, ∧, ∨, →",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom folosi simbolurile logice pentru a exprima negația, con…",
+      "naratiune": "Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația. Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →.",
+      "vizual": "Un profesor desenează pe tablă simbolurile logice: ¬, ∧, ∨, →",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.070189,
+      "endProcent": 0.183272,
+      "procentDurata": 11.3082
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza fiecare operație pas cu pas",
+      "subtitlu": "Profesorul scrie pe tablă o propoziție și o negă, apoi o conjuncte cu alta, apoi o disjuncte și apoi o implicație.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza fiecare operație pas cu pas. Pentru negație, sc…",
+      "naratiune": "Vom analiza fiecare operație pas cu pas. Pentru negație, schimbăm adevărul. Pentru conjuncție, ambele trebuie adevărate. Pentru disjuncție, cel puțin una trebuie adevărată. Pentru implicație, dacă prima este adevărată, a doua trebuie să fie adevărată.",
+      "vizual": "Profesorul scrie pe tablă o propoziție și o negă, apoi o conjuncte cu alta, apoi o disjuncte și apoi o implicație.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza fiecare operație pas cu pas.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Pentru negație, schimbăm adevărul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Pentru conjuncție, ambele trebuie adevărate.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e4",
+          "tip": "mesaj",
+          "text": "Pentru disjuncție, cel puțin una trebuie adevărată.",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.183272,
+      "endProcent": 0.31975,
+      "procentDurata": 13.6479
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+      "naratiune": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție? Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate? Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată? Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.31975,
+      "endProcent": 0.522519,
+      "procentDurata": 20.2769
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare rapidă",
+      "subtitlu": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Fals",
+      "naratiune": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)? Calculăm p: 2 + 2 = 4 → adevărat. Calculăm q: 3 + 3 = 7 → fals. Răspunsul final este Fals.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm p: 2 + 2 = 4 → adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm q: 3 + 3 = 7 → fals.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Fals",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.522519,
+      "endProcent": 0.715344,
+      "procentDurata": 19.2825
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Fals",
+      "naratiune": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)? A) Adevărat B) Fals C) Nu se poate determina p este adevărat, q este fals. Conjuncția p ∧ q este falsă. Negația unui fals este adevărat. Deci răspunsul corect este A) Adevărat.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Adevărat",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Fals",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu se poate determina",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Fals",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.715344,
+      "endProcent": 0.922012,
+      "procentDurata": 20.6668
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Negația unei propoziții schimbă adevărul ei.",
+      "naratiune": "Negația unei propoziții schimbă adevărul ei. Implicația este falsă doar când prima propoziție este adevărată și a doua este falsă.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Negația unei propoziții schimbă adevărul ei.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Implicația este falsă doar când prima propoziție este adevărată și a doua este falsă.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.922012,
+      "endProcent": 1,
+      "procentDurata": 7.7988
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Negație, conjuncție, disjuncție și implicație",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Negație, conjuncție, disjuncție și implicație”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Negație, conjuncție, disjuncție și implicație",
+      "naratiune": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Negație, conjuncție, disjuncție și implicație”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Negație, conjuncție, disjuncție și implicație",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.070189,
+      "procentDurata": 7.0189
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom folosi simbolurile logice pentru a exprima nega…",
+      "subtitlu": "Un profesor desenează pe tablă simbolurile logice: ¬, ∧, ∨, →",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Vom folosi simbolurile logice pentru a exprima negația, con…",
+      "naratiune": "Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația. Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →.",
+      "vizual": "Un profesor desenează pe tablă simbolurile logice: ¬, ∧, ∨, →",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.070189,
+      "endProcent": 0.183272,
+      "procentDurata": 11.3082
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom analiza fiecare operație pas cu pas",
+      "subtitlu": "Profesorul scrie pe tablă o propoziție și o negă, apoi o conjuncte cu alta, apoi o disjuncte și apoi o implicație.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom analiza fiecare operație pas cu pas. Pentru negație, sc…",
+      "naratiune": "Vom analiza fiecare operație pas cu pas. Pentru negație, schimbăm adevărul. Pentru conjuncție, ambele trebuie adevărate. Pentru disjuncție, cel puțin una trebuie adevărată. Pentru implicație, dacă prima este adevărată, a doua trebuie să fie adevărată.",
+      "vizual": "Profesorul scrie pe tablă o propoziție și o negă, apoi o conjuncte cu alta, apoi o disjuncte și apoi o implicație.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom analiza fiecare operație pas cu pas.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Pentru negație, schimbăm adevărul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Pentru conjuncție, ambele trebuie adevărate.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e4",
+          "tip": "mesaj",
+          "text": "Pentru disjuncție, cel puțin una trebuie adevărată.",
+          "apareLa": 0.79,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.183272,
+      "endProcent": 0.31975,
+      "procentDurata": 13.6479
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+      "naratiune": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție? Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate? Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată? Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu negația unei propoziții. Ce înseamnă să negăm o propoziție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Conjuncția este legarea a două propoziții. Ce se întâmplă când ambele sunt adevărate?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Disjuncția este legarea a două propoziții. Ce se întâmplă când cel puțin una este adevărată?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Implicația este o relație între două propoziții. Ce înseamnă că una implică alta?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.31975,
+      "endProcent": 0.522519,
+      "procentDurata": 20.2769
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificare rapidă",
+      "subtitlu": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Fals",
+      "naratiune": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)? Calculăm p: 2 + 2 = 4 → adevărat. Calculăm q: 3 + 3 = 7 → fals. Răspunsul final este Fals.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm p: 2 + 2 = 4 → adevărat.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Calculăm q: 3 + 3 = 7 → fals.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Fals",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.522519,
+      "endProcent": 0.715344,
+      "procentDurata": 19.2825
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) Fals",
+      "naratiune": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)? A) Adevărat B) Fals C) Nu se poate determina p este adevărat, q este fals. Conjuncția p ∧ q este falsă. Negația unui fals este adevărat. Deci răspunsul corect este A) Adevărat.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie p: „2 + 2 = 4” și q: „3 + 3 = 7”. Care este valoarea propoziției ¬(p ∧ q)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Adevărat",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Fals",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu se poate determina",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) Fals",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.715344,
+      "endProcent": 0.922012,
+      "procentDurata": 20.6668
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Negația unei propoziții schimbă adevărul ei.",
+      "naratiune": "Negația unei propoziții schimbă adevărul ei. Implicația este falsă doar când prima propoziție este adevărată și a doua este falsă.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Negația unei propoziții schimbă adevărul ei.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Implicația este falsă doar când prima propoziție este adevărată și a doua este falsă.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.922012,
+      "endProcent": 1,
+      "procentDurata": 7.7988
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-07.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.530Z"
+  }
+}

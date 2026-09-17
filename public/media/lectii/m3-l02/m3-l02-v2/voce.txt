@@ -1,0 +1,7 @@
+Începem cu definiția funcției de gradul I
+
+Vom vedea cum se construiește graficul
+
+Vom învăța cum să recunoaștem graficul în exerciții
+
+Vom rezolva un exemplu practic

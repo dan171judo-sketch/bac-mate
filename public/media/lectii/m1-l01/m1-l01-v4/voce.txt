@@ -1,0 +1,7 @@
+În această lecție vom vedea cum se rezolvă exerciții de tip Bac cu mulțimi de numere.
+
+Vom analiza greșelile frecvente în operații cu fracții și numere reale.
+
+Vom învăța cum să evităm erorile de calcul.
+
+Vom rezolva un exemplu practic de tip Bac.

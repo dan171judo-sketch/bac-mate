@@ -1,0 +1,7 @@
+Începem cu verificarea pentru n=1
+
+Următorul pas este ipoteza de inducție
+
+Trebuie să demonstrăm pentru n=k+1
+
+În final, concluzia este demonstrată

@@ -1,0 +1,7 @@
+Începem cu o mulțime A și o mulțime B.
+
+Vom afla intersecția lor.
+
+Vom folosi simbolul ∩.
+
+Vom verifica dacă elementele sunt comune.

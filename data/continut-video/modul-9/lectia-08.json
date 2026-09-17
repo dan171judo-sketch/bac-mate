@@ -1,0 +1,161 @@
+{
+  "versiuneSchema": 1,
+  "id": "m9-l08",
+  "modul": 9,
+  "numarLectie": 8,
+  "titlu": "Evenimente egal probabile",
+  "slugContinut": "evenimente-egal-probabile",
+  "status": "de-generat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Evenimente egal probabile”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m9-l08-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Înțelegem: Evenimente egal probabile",
+      "durataTintaMinute": 4,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-9/m9-l08/video-1.mp4",
+        "audioUrl": "/videos/modul-9/m9-l08/audio-1.mp3",
+        "subtitrareUrl": "/videos/modul-9/m9-l08/video-1.vtt",
+        "thumbnailUrl": "/videos/modul-9/m9-l08/video-1.png"
+      },
+      "metadata": {
+        "modul": 9,
+        "lectie": 8,
+        "titluLectie": "Evenimente egal probabile"
+      }
+    },
+    {
+      "id": "m9-l08-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Reguli și metodă: Evenimente egal probabile",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-9/m9-l08/video-2.mp4",
+        "audioUrl": "/videos/modul-9/m9-l08/audio-2.mp3",
+        "subtitrareUrl": "/videos/modul-9/m9-l08/video-2.vtt",
+        "thumbnailUrl": "/videos/modul-9/m9-l08/video-2.png"
+      },
+      "metadata": {
+        "modul": 9,
+        "lectie": 8,
+        "titluLectie": "Evenimente egal probabile"
+      }
+    },
+    {
+      "id": "m9-l08-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-9/m9-l08/video-3.mp4",
+        "audioUrl": "/videos/modul-9/m9-l08/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-9/m9-l08/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-9/m9-l08/video-3.png"
+      },
+      "metadata": {
+        "modul": 9,
+        "lectie": 8,
+        "titluLectie": "Evenimente egal probabile"
+      }
+    },
+    {
+      "id": "m9-l08-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-9/m9-l08/video-4.mp4",
+        "audioUrl": "/videos/modul-9/m9-l08/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-9/m9-l08/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-9/m9-l08/video-4.png"
+      },
+      "metadata": {
+        "modul": 9,
+        "lectie": 8,
+        "titluLectie": "Evenimente egal probabile"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  }
+}

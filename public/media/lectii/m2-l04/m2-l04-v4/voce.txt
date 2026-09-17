@@ -1,0 +1,7 @@
+Începem cu un exemplu de funcție simplă
+
+Vom vedea cum se construiește graficul
+
+Vom analiza greșelile comune
+
+Vom rezolva un exercițiu de tip Bac

@@ -1,0 +1,346 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l13",
+  "modul": 2,
+  "numarLectie": 13,
+  "titlu": "Progresii aritmetice",
+  "slugContinut": "progresii-aritmetice",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Progresii aritmetice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l13-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Progresii aritmetice - Ce sunt?",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vrei să știi ce este o progresie aritmetică?",
+        "Să începem cu un exemplu simplu.",
+        "Vom vedea cum se construiește o astfel de progresie.",
+        "În final, vom înțelege formula generală."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un șir de numere: 2, 5, 8, 11, 14",
+          "naratiune": "Aceste numere formează o progresie aritmetică. Observă că fiecare număr este mai mare cu 3 decât precedentul."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu puncte aliniate pe o linie dreaptă",
+          "naratiune": "Într-o progresie aritmetică, diferența dintre termeni este constantă. Aceasta se vede ca o linie dreaptă în grafic."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O progresie aritmetică este un șir de numere cu diferență constantă între termeni.",
+        "Diferența se numește rație și se notează cu d."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calcularea termenului al 11-lea",
+        "enunt": "Fie progresia aritmetică (aₙ) cu a₁ = 2 și d = 3. Află a₁₁.",
+        "rezolvare": [
+          "Formula termenului general este aₙ = a₁ + (n - 1) * d.",
+          "Înlocuim: a₁₁ = 2 + (11 - 1) * 3 = 2 + 10 * 3 = 2 + 30 = 32."
+        ],
+        "raspuns": "32"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie progresia aritmetică (aₙ) cu a₁ = 2 și d = 3. Care este termenul al 11-lea?",
+        "variante": [
+          "A) 11",
+          "B) 14",
+          "C) 32"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Avem a₁ = 2 și d = 3. Termenul al 11-lea este a₁₁ = 2 + (11 - 1) * 3 = 2 + 30 = 32."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l13/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l13/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l13/m2-l13-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l13/m2-l13-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l13/m2-l13-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 13,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 13,
+        "titluLectie": "Progresii aritmetice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T14:56:44.306Z"
+      }
+    },
+    {
+      "id": "m2-l13-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Progresii aritmetice: reguli și metoda de rezolvare",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția progresiei aritmetice",
+        "Vom învăța cum să recunoaștem o progresie aritmetică",
+        "Vom vedea cum se calculează termenul general",
+        "Vom rezolva un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește dintr-o carte de matematică",
+          "naratiune": "O progresie aritmetică este o mulțime de numere în care fiecare termen, începând cu al doilea, se obține adăugând la termenul precedent o constantă numită rație."
+        },
+        {
+          "num3": 2,
+          "vizual": "Un elev care desenează un tabel cu termeni",
+          "naratiune": "Termenul general al unei progresii aritmetice se calculează cu formula: aₙ = a₁ + (n-1)r, unde a₁ este primul termen, r este rația și n este poziția termenului."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O progresie aritmetică are termenii cu diferență constantă",
+        "Formula termenului general este esențială pentru rezolvarea exercițiilor"
+      ],
+      "formule": [
+        "aₙ = a₁ + (n-1)r"
+      ],
+      "exemplu": {
+        "titlu": "Calcularea termenului al 5-lea",
+        "enunt": "Se consideră progresia aritmetică (aₙ) cu a₁ = 2 și r = 3. Calculați a₅.",
+        "rezolvare": [
+          "Aplicăm formula termenului general: a₅ = a₁ + (5-1)r",
+          "Înlocuim valorile: a₅ = 2 + 4×3 = 2 + 12 = 14"
+        ],
+        "raspuns": "14"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este termenul al 5-lea al progresiei aritmetice cu a₁ = 2 și r = 3?",
+        "variante": [
+          "A) 14",
+          "B) 18",
+          "C) 22"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Calculăm cu formula a₅ = a₁ + (5-1)r = 2 + 4×3 = 14. Varianta A este corectă."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l13/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l13/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l13/m2-l13-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l13/m2-l13-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l13/m2-l13-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 13,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 13,
+        "titluLectie": "Progresii aritmetice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T15:02:49.976Z"
+      }
+    },
+    {
+      "id": "m2-l13-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Progresii aritmetice - exercițiu de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o progresie aritmetică dată prin termenul general.",
+        "Vom calcula suma primilor 10 termeni.",
+        "Vom verifica dacă răspunsul este corect.",
+        "Rezolvăm un exercițiu de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Termenul general al progresiei aritmetice este aₙ = 3n + 5.",
+          "naratiune": "Vom calcula suma primilor 10 termeni ai progresiei aritmetice dată de aₙ = 3n + 5."
+        },
+        {
+          "numar": 2,
+          "vizual": "Suma primilor 10 termeni este S₁₀ = (a₁ + a₁₀) × 10 / 2.",
+          "naratiune": "Vom folosi formula sumei primilor n termeni ai unei progresii aritmetice."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Formula sumei primilor n termeni este Sₙ = (a₁ + aₙ) × n / 2.",
+        "Calculăm termenii prim și ultim pentru a aplica formula."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul sumei primilor 10 termeni",
+        "enunt": "Fie progresia aritmetică definită prin termenul general aₙ = 3n + 5. Calculați suma primilor 10 termeni.",
+        "rezolvare": [
+          "Calculăm a₁ = 3×1 + 5 = 8.",
+          "Calculăm a₁₀ = 3×10 + 5 = 35.",
+          "Aplicăm formula S₁₀ = (a₁ + a₁₀) × 10 / 2 = (8 + 35) × 5 = 43 × 5 = 215."
+        ],
+        "raspuns": "215"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este suma primilor 10 termeni ai progresiei aritmetice aₙ = 3n + 5?",
+        "variante": [
+          "A) 185",
+          "B) 215",
+          "C) 370"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Suma primilor 10 termeni se calculează cu formula Sₙ = (a₁ + aₙ) × n / 2. a₁ = 8, a₁₀ = 35, deci S₁₀ = (8 + 35) × 10 / 2 = 43 × 5 = 215."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l13/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l13/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l13/m2-l13-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l13/m2-l13-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l13/m2-l13-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 13,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 13,
+        "titluLectie": "Progresii aritmetice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T15:22:19.768Z"
+      }
+    },
+    {
+      "id": "m2-l13-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Progresii aritmetice - greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom vedea cum se rezolvă o problemă de progresii aritmetice de tip Bac",
+        "Vom analiza greșelile comune în calculul termenilor",
+        "Vom verifica dacă răspunsul este corect",
+        "Vom învăța cum să evităm greșelile"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev rezolvă o problemă de progresii aritmetice pe un caiet",
+          "naratiune": "Vom rezolva o problemă de progresii aritmetice de tip Bac. În această problemă, trebuie să găsim al șasea termen al progresiei."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul arată pe tablă cum se calculează termenii progresiei",
+          "naratiune": "Vom analiza greșelile frecvente. De exemplu, unele elevi pot confunda formula termenului general cu cea a sumei."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Formula termenului general este aₙ = a₁ + (n-1)r",
+        "Verifică întotdeauna dacă răspunsul este logic în contextul problemei"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul al șasea termen al progresiei",
+        "enunt": "Se știe că a₁ = 2 și r = 3. Calculați a₆.",
+        "rezolvare": [
+          "Aplicăm formula termenului general: a₆ = a₁ + (6-1)r",
+          "Înlocuim valorile: a₆ = 2 + 5×3 = 2 + 15 = 17"
+        ],
+        "raspuns": "17"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este al șasea termen al proțiiei aritmetice cu a₁ = 2 și r = 3?",
+        "variante": [
+          "A) 14",
+          "B) 17",
+          "C) 20"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Formula termenului general este aₙ = a₁ + (n-1)r. Înlocuim: a₆ = 2 + 5×3 = 17."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l13/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l13/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l13/m2-l13-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l13/m2-l13-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l13/m2-l13-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 13,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 13,
+        "titluLectie": "Progresii aritmetice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T15:13:59.376Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T15:22:19.768Z",
+    "necesitaVerificareUmana": true
+  }
+}

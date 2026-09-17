@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m3-l02",
+    "modul": 3,
+    "numarLectie": 2,
+    "titlu": "Graficul funcției de gradul I",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m3-l02-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Graficul funcției de gradul I",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Graficul funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul funcției de gradul I",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul funcției de gradul I",
+      "naratiune": "Începem cu definiția funcției de gradul I",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul funcției de gradul I”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul funcției de gradul I",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția funcției de gradul I",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.083975,
+      "procentDurata": 8.3975
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții de gradul I este o dreaptă",
+      "subtitlu": "Un grafic al unei funcții de gradul I",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții de gradul I este o dreaptă. Pentru a-…",
+      "naratiune": "Graficul unei funcții de gradul I este o dreaptă. Pentru a-l construi, trebuie să știm două puncte pe dreaptă.",
+      "vizual": "Un grafic al unei funcții de gradul I",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții de gradul I este o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Pentru a-l construi, trebuie să știm două puncte pe dreaptă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.083975,
+      "endProcent": 0.172615,
+      "procentDurata": 8.864
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi două valori ale lui x pentru a calcula c…",
+      "subtitlu": "Un tabel cu valori pentru funcția f(x) = 2x + 1",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi două valori ale lui x pentru a calcula corespunz…",
+      "naratiune": "Vom folosi două valori ale lui x pentru a calcula corespunzătoarele valori ale lui f(x).",
+      "vizual": "Un tabel cu valori pentru funcția f(x) = 2x + 1",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi două valori ale lui x pentru a calcula corespunzătoarele valori ale lui f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.172615,
+      "endProcent": 0.242594,
+      "procentDurata": 6.9979
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția funcției de gradul I",
+      "naratiune": "Începem cu definiția funcției de gradul I Vom vedea cum se construiește graficul Vom învăța cum să recunoaștem graficul în exerciții Vom rezolva un exemplu practic",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția funcției de gradul I",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se construiește graficul",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem graficul în exerciții",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu practic",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.242594,
+      "endProcent": 0.363891,
+      "procentDurata": 12.1297
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Construirea graficului funcției f(x) = 2x + 1",
+      "subtitlu": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "y = 2x + 1",
+      "naratiune": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5). Calculăm panta m = (5 - 3)/(2 - 1) = 2/1 = 2 Utilizăm ecuația punct-pantă: y - 3 = 2(x - 1) => y = 2x + 1 Răspunsul final este y = 2x + 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm panta m = (5 - 3)/(2 - 1) = 2/1 = 2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Utilizăm ecuația punct-pantă: y - 3 = 2(x - 1) => y = 2x + 1",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: y = 2x + 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.363891,
+      "endProcent": 0.626779,
+      "procentDurata": 26.2888
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) y = 2x + 3",
+      "naratiune": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)? A) y = 2x + 3 B) y = 3x + 2 C) y = 2x + 1 Calculăm panta m = (5 - 3)/(1 - 0) = 2/1 = 2. Folosim punctul A(0, 3): y - 3 = 2(x - 0) => y = 2x + 3.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) y = 2x + 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) y = 3x + 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) y = 2x + 1",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) y = 2x + 3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.626779,
+      "endProcent": 0.91136,
+      "procentDurata": 28.4581
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul funcției de gradul I este o dreaptă",
+      "naratiune": "Graficul funcției de gradul I este o dreaptă Pentru a construi graficul, trebuie să știm două puncte pe dreaptă",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul funcției de gradul I este o dreaptă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a construi graficul, trebuie să știm două puncte pe dreaptă",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.91136,
+      "endProcent": 1,
+      "procentDurata": 8.864
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Graficul funcției de gradul I",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Graficul funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Graficul funcției de gradul I",
+      "naratiune": "Începem cu definiția funcției de gradul I",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Graficul funcției de gradul I”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Graficul funcției de gradul I",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția funcției de gradul I",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.083975,
+      "procentDurata": 8.3975
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Graficul unei funcții de gradul I este o dreaptă",
+      "subtitlu": "Un grafic al unei funcții de gradul I",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Graficul unei funcții de gradul I este o dreaptă. Pentru a-…",
+      "naratiune": "Graficul unei funcții de gradul I este o dreaptă. Pentru a-l construi, trebuie să știm două puncte pe dreaptă.",
+      "vizual": "Un grafic al unei funcții de gradul I",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Graficul unei funcții de gradul I este o dreaptă.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Pentru a-l construi, trebuie să știm două puncte pe dreaptă.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.083975,
+      "endProcent": 0.172615,
+      "procentDurata": 8.864
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Vom folosi două valori ale lui x pentru a calcula c…",
+      "subtitlu": "Un tabel cu valori pentru funcția f(x) = 2x + 1",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Vom folosi două valori ale lui x pentru a calcula corespunz…",
+      "naratiune": "Vom folosi două valori ale lui x pentru a calcula corespunzătoarele valori ale lui f(x).",
+      "vizual": "Un tabel cu valori pentru funcția f(x) = 2x + 1",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Vom folosi două valori ale lui x pentru a calcula corespunzătoarele valori ale lui f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.172615,
+      "endProcent": 0.242594,
+      "procentDurata": 6.9979
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția funcției de gradul I",
+      "naratiune": "Începem cu definiția funcției de gradul I Vom vedea cum se construiește graficul Vom învăța cum să recunoaștem graficul în exerciții Vom rezolva un exemplu practic",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția funcției de gradul I",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se construiește graficul",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom învăța cum să recunoaștem graficul în exerciții",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exemplu practic",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.242594,
+      "endProcent": 0.363891,
+      "procentDurata": 12.1297
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Construirea graficului funcției f(x) = 2x + 1",
+      "subtitlu": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5).",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "y = 2x + 1",
+      "naratiune": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5). Calculăm panta m = (5 - 3)/(2 - 1) = 2/1 = 2 Utilizăm ecuația punct-pantă: y - 3 = 2(x - 1) => y = 2x + 1 Răspunsul final este y = 2x + 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5).",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm panta m = (5 - 3)/(2 - 1) = 2/1 = 2",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Utilizăm ecuația punct-pantă: y - 3 = 2(x - 1) => y = 2x + 1",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: y = 2x + 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.363891,
+      "endProcent": 0.626779,
+      "procentDurata": 26.2888
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) y = 2x + 3",
+      "naratiune": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)? A) y = 2x + 3 B) y = 3x + 2 C) y = 2x + 1 Calculăm panta m = (5 - 3)/(1 - 0) = 2/1 = 2. Folosim punctul A(0, 3): y - 3 = 2(x - 0) => y = 2x + 3.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) y = 2x + 3",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) y = 3x + 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) y = 2x + 1",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) y = 2x + 3",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.626779,
+      "endProcent": 0.91136,
+      "procentDurata": 28.4581
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Graficul funcției de gradul I este o dreaptă",
+      "naratiune": "Graficul funcției de gradul I este o dreaptă Pentru a construi graficul, trebuie să știm două puncte pe dreaptă",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Graficul funcției de gradul I este o dreaptă",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Pentru a construi graficul, trebuie să știm două puncte pe dreaptă",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.91136,
+      "endProcent": 1,
+      "procentDurata": 8.864
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-3\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T22:01:44.471Z"
+  }
+}

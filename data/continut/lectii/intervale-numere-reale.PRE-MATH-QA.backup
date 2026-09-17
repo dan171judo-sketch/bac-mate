@@ -1,0 +1,629 @@
+import type { ContinutLectie } from "../tipuri";
+
+/*
+ * Draft generat de BAC MATE Generator Local V6.0.
+ *
+ * IMPORTANT:
+ * - AI local = redactor, NU sursa de adevar matematic.
+ * - Continutul necesita verificare umana.
+ * - Nu publica automat acest fisier.
+ */
+
+export const continutLectie: ContinutLectie = {
+  "id": "intervale-numere-reale",
+  "slug": "intervale-numere-reale",
+  "modul": 1,
+  "numarLectie": 4,
+  "clasa": "Clasa a IX-a",
+  "profil": "M_mate-info",
+  "titlu": "Intervale de numere reale",
+  "subtitlu": "Definirea și clasificarea intervalelor de numere reale",
+  "descriere": "Lectia introduce conceptul de interval ca mulțime de numere reale, precum și tipurile de intervale.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea numerelor reale"
+  ],
+  "obiective": [
+    "Definirea conceptului de interval de numere reale",
+    "Identificarea tipurilor de intervale (închis, deschis, semiînchis)",
+    "Reprezentarea grafică a diferitelor tipuri de intervale",
+    "Utilizarea intervalelor în rezolvarea unor probleme simple"
+  ],
+  "termeniCheie": [
+    "interval",
+    "mulțime",
+    "număr real",
+    "extremă"
+  ],
+  "videoLectii": [
+    {
+      "id": "intervale-numere-reale-video-1",
+      "numar": 1,
+      "titlu": "Introducere în conceptul de interval de numere reale",
+      "durataMinute": 4,
+      "descriere": "În această lecție, vom explora noțiunea de interval de numere reale. Vom înțelege de ce este importantă această concept și cum se folosește în matematică. În plus, vom vedea cum putem defini diferite tipuri de intervale și cum le reprezentăm grafic.",
+      "scenariu": [
+        "În matematică, noțiunea de interval este una dintre cele mai utile și frecvent folosite. Deși pare simplă la prima vedere, ea are un rol esențial în rezolvarea problemelor legate de numere reale. Un interval este o mulțime de numere reale care se află între două valori, inclusiv sau excludând acestea.",
+        "Să ne gândim la o situație practică: presupunem că vrem să exprimăm toate valorile mai mari decât 3 și mai mici decât 7. În loc să scriem toate numerele în mod individual, putem folosi conceptul de interval pentru a le reprezenta într-un mod eficient și clar.",
+        "În matematică, un interval este o mulțime formată din toate numerele reale care se încadrează între două valori. Aceste valori sunt cunoscute sub numele de extremități ale intervalului. În funcție de modul în care includem sau excludem aceste extremități, putem avea diferite tipuri de intervale.",
+        "Cele mai comune tipuri de intervale sunt: intervalul închis, deschis și semiînchis. Intervalul închis include ambele extremități, iar intervalul deschis exclude ambele. Un exemplu de interval închis este [2, 5], care conține toate numerele reale între 2 și 5, inclusiv 2 și 5.",
+        "Intervalul deschis, pe de altă parte, nu include extremitățile. Acesta se notează cu paranteze rotunde: (2, 5). Așadar, toate numerele din interval sunt mai mari decât 2 și mai mici decât 5, dar nu includ valorile 2 și 5.",
+        "În plus, există și intervale semiînchise. Acestea includ o singură extremitate. De exemplu, [2, 5) este un interval semiînchis care include valoarea 2, dar nu include valoarea 5. În mod similar, (2, 5] include valoarea 5, dar nu include valoarea 2.",
+        "Reprezentarea grafică a intervalelor este foarte importantă pentru înțelegerea lor. Pentru a reprezenta un interval pe axa numerelor, folosim puncte și linii. Punctul închis (marcat cu cercuriță plină) indică că valoarea respectivă este inclusă în interval, în timp ce punctul deschis (marcat cu cercuriță goală) indică excluderea acesteia.",
+        "De exemplu, pentru a reprezenta intervalul [2, 5], vom marca valorile 2 și 5 cu cercurițe pline și le vom conecta cu o linie dreaptă. Acest lucru ne arată că toate numerele din interval sunt incluse. În cazul intervalului (2, 5), vom folosi cercurițe goale pentru valorile 2 și 5.",
+        "În practică, intervalele sunt folosite în rezolvarea unor probleme simple, cum ar fi inecuațiile. De exemplu, dacă avem o inecuație de tip x > 3 și x < 7, putem exprima soluția sub forma intervalului (3, 7). Acest lucru ne ajută să înțelegem mai ușor condițiile impuse de problema dată.",
+        "Este important să reținem că simbolurile folosite pentru intervale sunt esențiale. Simbolul [ indică inclusiv capătul, în timp ce ( indică excluderea acestuia. Confuzia între aceste simboluri poate duce la erori în rezolvarea problemelor.",
+        "În concluzie, intervalul este o noțiune fundamentală în matematică care ne ajută să exprimăm condiții pe numere reale într-un mod eficient. În această lecție, am înțeles ce înseamnă un interval, ce tipuri de intervale există și cum se reprezintă grafic. În continuare, vom explora mai profund această noțiune și vom vedea cum poate fi folosită în rezolvarea problemelor."
+      ],
+      "ideiDeRetinut": [
+        "Intervalul este o mulțime de numere reale care se încadrează între două valori.",
+        "Există trei tipuri principale de intervale: închis, deschis și semiînchis.",
+        "Simbolurile [ și ( indică dacă capetele intervalului sunt incluse sau excluse."
+      ],
+      "exemplu": {
+        "titlu": "Determinarea tipului intervalului",
+        "enunt": "Scrieți tipul intervalului [2, 5].",
+        "rezolvareScurta": [
+          "Simbolul [ indică că extremitățile sunt incluse în interval.",
+          "Intervalul [2, 5] este un interval închis."
+        ],
+        "raspuns": "Intervalul [2, 5] este un interval închis."
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este un interval deschis?",
+        "variante": [
+          "[1, 3]",
+          "(1, 3)",
+          "{1, 3}",
+          "1 < x < 3"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Intervalul deschis este reprezentat cu paranteze rotunde. Simbolul ( indică excluderea extremităților."
+      }
+    },
+    {
+      "id": "intervale-numere-reale-video-2",
+      "numar": 2,
+      "titlu": "Reguli si metoda de lucru pentru intervale de numere reale",
+      "durataMinute": 5,
+      "descriere": "În această lecție, vom explora conceptul de interval de numere reale și cum să-l folosim corect în rezolvarea problemelor. Vom defini tipurile de intervale, vom vedea cum se reprezintă grafic fiecare dintre ele și vom analiza câteva exemple practice pentru a ne asigura că înțelegem bine noțiunea.",
+      "scenariu": [
+        "În matematică, conceptul de interval este esențial atunci când lucrăm cu numere reale. Un interval este o mulțime de numere reale care se află între două valori extreme. Aceste valori pot fi inclusă sau excludută din interval, în funcție de tipul acestuia.",
+        "Există mai multe tipuri de intervale: intervalul închis, deschis și semiînchis. Intervalul închis include ambele extreme, iar simbolul folosit este [ (ex: [a, b]). În schimb, intervalul deschis exclude ambele extreme, iar simbolul corespunzător este ( (ex: (a, b)).",
+        "Un exemplu clar este intervalul [2, 5]. Acesta include toate numerele reale între 2 și 5, inclusiv valorile 2 și 5. Dacă vrem să excludem una dintre capete, putem folosi simbolul ( pentru a indica excluderea acesteia.",
+        "Reprezentarea grafică este foarte importantă pentru înțelegerea intervalelor. Pe axa numerelor, punctele extreme ale intervalului sunt marcate cu cercurițe pline dacă sunt incluse sau cu cercurițe goale dacă sunt excluse. Segmentul dintre aceste puncte arată toate valorile din interval.",
+        "Să luăm un exemplu concret: intervalul (-3, 4]. Acesta este semiînchis, adică -3 este excludut, iar 4 este inclus. Pe axa numerelor, vom marca -3 cu un cercuriță goală și 4 cu un cercuriță plină, iar segmentul dintre ele va fi desenat.",
+        "Este important să reținem că simbolurile [ și ( sunt esențiale pentru a exprima corect tipul intervalului. Confuzia între acestea poate duce la erori în reprezentarea grafică sau în rezolvarea problemelor. De exemplu, dacă am confunda [ cu (, ar putea apărea o eroare majoră în interpretarea condițiilor problemei.",
+        "În plus, semnul de infinit (∞) este folosit doar pentru intervale nesfârșite. Dacă un interval are un capăt fix, nu putem folosi semnul ∞. De exemplu, intervalul (-∞, 5] include toate numerele mai mici decât 5, dar nu include valoarea -∞.",
+        "Un alt lucru important este verificarea dacă un anumit număr aparține unui interval. Să zicem că avem intervalul [2, 7]. Dacă vrem să vedem dacă 5 aparține acestuia, trebuie să verificăm dacă 5 este inclus în interval. În această situație, da, pentru că 5 este între 2 și 7, iar ambele capete sunt incluse.",
+        "În practică, intervalele sunt folosite pentru a exprima condiții pe numere reale. De exemplu, în rezolvarea unor inecuații, soluțiile pot fi exprimate sub forma unui interval. Acest lucru ne ajută să vizualizăm mai ușor soluțiile și să le comparăm cu alte intervale.",
+        "Pentru a evita greșelile frecvente, este recomandat să repetați simbolurile [ și ( și să asociați-le cu semnificația lor. De asemenea, desenați întotdeauna reprezentările grafice chiar dacă problema pare simplă. Verificați întotdeauna dacă un număr aparține intervalului și folosiți corect semnul de infinit.",
+        "În concluzie, înțelegerea intervalelor de numere reale este esențială pentru a rezolva problemele matematice în mod eficient. Prin definirea corectă a tipurilor de intervale, reprezentarea grafică adecvată și verificarea condițiilor, putem evita greșelile comune și obține rezultate precise."
+      ],
+      "ideiDeRetinut": [
+        "Intervalul închis include ambele extreme.",
+        "Intervalul deschis exclude ambele extreme.",
+        "Simbolurile [ și ( indică inclusiv sau excluderea capetelor.",
+        "Reprezentarea grafică este esențială pentru înțelegerea vizuală a intervalelor."
+      ],
+      "exemplu": {
+        "titlu": "Reprezentarea intervalului (-3, 4]",
+        "enunt": "Reprezentați grafic intervalul (-3, 4].",
+        "rezolvareScurta": [
+          "Identificați tipul intervalului: semiînchis.",
+          "Marcați -3 cu un cercuriță goală și 4 cu un cercuriță plină pe axa numerelor.",
+          "Desenați segmentul între aceste două puncte."
+        ],
+        "raspuns": "Intervalul (-3, 4] este reprezentat pe axa numerelor cu -3 marcat cu un cercuriță goală și 4 cu un cercuriță plină, iar segmentul dintre ele este desenat."
+      },
+      "verificareRapida": {
+        "intrebare": "Care din următoarele reprezintă corect intervalul [2, 5)?",
+        "variante": [
+          "Punctele 2 și 5 sunt marcate cu cercurițe pline.",
+          "Punctul 2 este marcat cu un cercuriță goală, iar punctul 5 cu un cercuriță plină.",
+          "Punctul 2 este marcat cu un cercuriță plină, iar punctul 5 cu un cercuriță goală.",
+          "Punctele 2 și 5 sunt marcate cu cercurițe goale."
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Intervalul [2, 5) este semiînchis: 2 este inclus (cercuriță plină), iar 5 este excludut (cercuriță goală)."
+      }
+    },
+    {
+      "id": "intervale-numere-reale-video-3",
+      "numar": 3,
+      "titlu": "Intervale de numere reale: Definiție, tipuri și utilizări",
+      "durataMinute": 5,
+      "descriere": "În această lecție vom explora conceptul de interval de numere reale. Vom învăța ce înseamnă un interval, cum se definesc diferitele tipuri de intervale (închis, deschis, semiînchis), cum se reprezintă grafic acestea și cum pot fi folosite pentru a rezolva probleme simple. Vom analiza și o problemă practică care implică utilizarea intervalelor în rezolvarea unei inecuații.",
+      "scenariu": [
+        "În matematică, conceptul de interval este fundamental pentru înțelegerea numerelor reale. Un interval este o mulțime de numere reale care se află între două valori extreme. Acestea pot fi inclusive sau exclusive, în funcție de tipul intervalului.",
+        "Există mai multe tipuri de intervale: intervalul închis, care include ambele capete; intervalul deschis, care exclude ambele capete; și intervalele semiînchise, care includ unul dintre capete și exclud celălalt. Fiecare tip are o reprezentare grafică specifică.",
+        "Pentru a reprezenta un interval grafic pe axa numerelor, folosim cercurițe pline pentru capetele incluse și cercurițe goale pentru cele excluse. De exemplu, intervalul [2, 5] este reprezentat cu cercurițe pline la 2 și la 5, în timp ce (2, 5) are cercurițe goale la ambele capete.",
+        "În practică, intervalele sunt folosite pentru a exprima condiții pe numere reale. De exemplu, atunci când rezolvăm o inecuație, soluțiile pot fi exprimate sub forma unui interval. Acest lucru ne ajută să înțelegem mai bine domeniul de valori posibile pentru variabilele problemei.",
+        "Să luăm un exemplu concret: inecuația 2x - 1 ≤ 5. Pentru a o rezolva, adunăm 1 în ambele părți și obținem 2x ≤ 6. Împărțind apoi prin 2, găsim x ≤ 3. Acest lucru ne arată că toate numerele reale mai mici sau egale cu 3 sunt soluții ale inecuației.",
+        "Reprezentarea acestui interval pe axa numerelor este (-∞, 3]. Semnul ∞ indică faptul că intervalul nu are un capăt fix în partea stângă. Deoarece x ≤ 3, valoarea 3 este inclusă în interval, iar semnul ] arată acest lucru.",
+        "Este important să evităm confuzia între simbolurile [ și ( pentru intervale. Simbolul [ indică că capătul este inclus, în timp ce ( indică excluderea acestuia. Confuzia poate duce la erori în reprezentarea grafică sau în rezolvarea problemelor.",
+        "Un alt lucru care trebuie evitat este neglijarea reprezentării grafice a intervalelor. Aceasta este esențială pentru înțelegerea vizuală a intervalelor și pentru rezolvarea problemelor care implică intersecții sau reuniuni de mulțimi.",
+        "De asemenea, trebuie să fim atenți la utilizarea semnului de infinit (∞) doar în cazul intervalelor nesfârșite. În intervalele finite, acest simbol nu este folosit, pentru a evita confuziile.",
+        "În final, este important să verificăm dacă un număr aparține unui interval. De exemplu, în cazul intervalului (-∞, 3], valoarea 3 este inclusă, dar 4 nu este. Verificați întotdeauna dacă valoarea respectivă este inclusă sau excludută din interval.",
+        "În concluzie, intervalele de numere reale sunt un concept esențial în matematică. Înțelegerea lor implică cunoașterea tipurilor de intervale, a reprezentării grafice și a modului în care pot fi folosite pentru a rezolva probleme simple. Prin exerciții practice, putem dezvolta abilitatea de a lucra cu intervalele în diverse contexte matematice."
+      ],
+      "ideiDeRetinut": [
+        "Intervalul este o mulțime de numere reale care se află între două valori extreme.",
+        "Există tipuri de intervale: închis, deschis și semiînchis, fiecare având o reprezentare grafică specifică.",
+        "Simbolurile [ și ( indică dacă capetele sunt incluse sau excluse din interval.",
+        "Reprezentarea grafică este esențială pentru înțelegerea vizuală a intervalelor.",
+        "Semnul de infinit (∞) este folosit doar pentru intervale nesfârșite."
+      ],
+      "exemplu": {
+        "titlu": "Rezolvarea unei inecuații prin intermediul unui interval",
+        "enunt": "Scrieți intervalul soluțiilor inecuației 2x - 1 ≤ 5.",
+        "rezolvareScurta": [
+          "Se adună 1 în ambele părți: 2x ≤ 6.",
+          "Se împarte prin 2: x ≤ 3.",
+          "Soluția este toate numerele reale mai mici sau egale cu 3, deci intervalul este (-∞, 3]."
+        ],
+        "raspuns": "(-∞, 3]"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele reprezintă corect intervalul [2, 5]?",
+        "variante": [
+          "Un segment deschis între 2 și 5 cu cercurițe goale la ambele capete.",
+          "Un segment închis între 2 și 5 cu cercurițe pline la ambele capete.",
+          "Un segment semiînchis între 2 și 5 cu cercuriță plină la 2 și goală la 5.",
+          "Un segment deschis între 2 și 5 cu cercuriță plină la 2 și goală la 5."
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Intervalul [2, 5] este închis, deci ambele capete sunt incluse. Acest lucru se reprezintă cu cercurițe pline la ambele capete."
+      }
+    },
+    {
+      "id": "intervale-numere-reale-video-4",
+      "numar": 4,
+      "titlu": "Intervale de numere reale - Aplicare tip Bac",
+      "durataMinute": 5,
+      "descriere": "În această lecție, vom aplica noțiunea de interval în probleme care pot apărea la examenul de bacalaureat. Vom analiza greselile frecvente și vom consolida metoda corectă de rezolvare. În final, vom verifica rapid cunoștințele prin un exercițiu cu variante de răspuns.",
+      "scenariu": [
+        "În această lecție, ne concentrăm pe aplicarea practică a noțiunii de interval în contextul examenului de bacalaureat. Deși conceptul pare simplu, este esențial să-l înțelegem corect pentru a evita greșeli frecvente. În primul rând, vom recapitula tipurile de intervale și cum se reprezintă grafic fiecare dintre ele.",
+        "Intervalul închis [a, b] include ambele capete, adică numerele a și b. Pe axa numerelor reale, acestea sunt marcate cu cercuri pline. În schimb, intervalul deschis (a, b) exclude ambele capete, iar punctele sunt marcate cu cercuri goale. Este important să nu confundăm simbolurile [ și (, deoarece acestea pot duce la erori majore în rezolvarea problemelor.",
+        "Un alt aspect esențial este reprezentarea grafică a intervalelor. Deși pare simplu, multe elevi neglijează acest pas, ceea ce poate duce la greșeli în determinarea intersecțiilor sau reuniunilor dintre intervale. De exemplu, dacă avem intervalele [1, 5] și (2, 7], intersecția lor este mulțimea numerelor care aparțin ambelor intervale, adică (2, 5].",
+        "În plus, este important să verificăm dacă un număr aparține unui interval. De exemplu, dacă avem intervalul [3, 7], atunci numărul 3 aparține acestuia, dar 7 nu aparține intervalului deschis (3, 7). Acest lucru este esențial în problemele care implică inecuații sau condiții pe numere reale.",
+        "O altă greșeală frecventă este utilizarea incorectă a semnului de infinit (∞) în intervale. Semnul ∞ se folosește doar pentru intervale nesfârșite, cum ar fi (-∞, 5] sau (3, +∞). Utilizarea lui în intervale finite poate duce la confuzii și erori de interpretare.",
+        "Pentru a evita aceste greșeli, este recomandat să repetați simbolurile [ și (, să desenați întotdeauna reprezentările grafice ale intervalelor și să verificați dacă un număr aparține intervalului. De asemenea, evitați utilizarea semnului de infinit în cazuri inapropriate.",
+        "Vom analiza acum un exemplu concret pentru a ne asigura că am înțeles corect metoda. Să presupunem că avem intervalele [1, 5] și (2, 7]. Intersecția lor este mulțimea numerelor care aparțin ambelor intervale. Începem prin a identifica fiecare interval: primul include numerele de la 1 la 5, inclusiv, iar al doilea exclude 2 și include până la 7.",
+        "Pentru a determina intersecția, trebuie să găsim numerele care aparțin ambelor intervale. Acestea sunt numerele din (2, 5], deoarece acestea sunt mai mari decât 2 și mai mici sau egale cu 5. Așadar, intersecția este intervalul (2, 5].",
+        "În concluzie, înțelegerea corectă a intervalelor este esențială pentru rezolvarea problemelor de tip Bac. Este important să evităm greșelile frecvente legate de simboluri, reprezentare grafică și verificarea apartenenței unui număr la un interval. Prin exerciții repetate și o atitudine riguroasă, putem consolida această noțiune.",
+        "În final, vom verifica rapid cunoștințele prin un exercițiu cu variante de răspuns."
+      ],
+      "ideiDeRetinut": [
+        "Intervalul închis [a, b] include ambele capete, iar intervalul deschis (a, b) le exclude.",
+        "Reprezentarea grafică este esențială pentru înțelegerea vizuală a intervalelor și pentru rezolvarea problemelor complexe.",
+        "Verificați întotdeauna dacă un număr aparține intervalului, indiferent de tipul acestuia."
+      ],
+      "exemplu": {
+        "titlu": "Intersecția a două intervale",
+        "enunt": "Determinați intersecția intervalelor [1, 5] și (2, 7].",
+        "rezolvareScurta": [
+          "Identificați cele două intervale: [1, 5] și (2, 7].",
+          "Aflați numerele care aparțin ambelor intervale: acestea sunt din (2, 5].",
+          "Intersecția este intervalul (2, 5]."
+        ],
+        "raspuns": "(2, 5]"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele intervale reprezintă intersecția intervalelor [1, 5] și (2, 7]?",
+        "variante": [
+          "(2, 5]",
+          "[1, 7]",
+          "(1, 5]",
+          "[2, 7]"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Intersecția intervalelor [1, 5] și (2, 7] este mulțimea numerelor care aparțin ambelor intervale. Acestea sunt numerele din (2, 5], deci răspunsul corect este (2, 5]."
+      }
+    }
+  ],
+  "definitii": [
+    {
+      "termen": "interval",
+      "definitie": "O mulțime de numere reale care se află între două valori date, inclusiv sau excluzând aceste valori.",
+      "observatie": "Intervalul este definit prin două extreme și tipul său (închis, deschis sau semiînchis)."
+    },
+    {
+      "termen": "mulțime",
+      "definitie": "O colecție de elemente distincte care pot fi numere reale, litere, obiecte etc.",
+      "observatie": "În contextul intervalelor, mulțimea este formată din toate numerele reale cuprinse între două valori."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "intervale-numere-reale-teorie-1",
+      "titlu": "Tipuri de intervale",
+      "explicatie": "Intervalul poate fi închis, deschis sau semiînchis, în funcție de includerea sau excluderea valorilor extreme.",
+      "ideiCheie": [
+        "Intervalul închis include ambele extreme.",
+        "Intervalul deschis exclude ambele extreme."
+      ]
+    },
+    {
+      "id": "intervale-numere-reale-teorie-2",
+      "titlu": "Reprezentarea grafică a intervalelor",
+      "explicatie": "Fiecare tip de interval se reprezintă pe axa numerelor folosind semne specifice pentru a arăta dacă valorile extreme sunt incluse sau excluse.",
+      "ideiCheie": [
+        "Punctul închis este marcat cu un cercuriță plină.",
+        "Punctul deschis este marcat cu un cercuriță goală."
+      ]
+    },
+    {
+      "id": "intervale-numere-reale-teorie-3",
+      "titlu": "Utilizarea intervalelor în probleme simple",
+      "explicatie": "Intervalul poate fi folosit pentru a descrie domeniul de definiție al unei funcții sau pentru a reprezenta soluțiile unor inecuații.",
+      "ideiCheie": [
+        "Intervalul este folosit pentru a exprima condiții pe numere reale.",
+        "Soluțiile unor inecuații pot fi exprimate sub forma unui interval."
+      ]
+    }
+  ],
+  "formule": [],
+  "exempleRezolvate": [
+    {
+      "id": "intervale-numere-reale-exemplu-1",
+      "titlu": "Determinarea tipului intervalului",
+      "enunt": "Scrieți tipul intervalului [2, 5].",
+      "nivel": "fundament",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea simbolurilor",
+          "continut": "Simbolul [ indică că extremitățile sunt incluse în interval."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea tipului de interval",
+          "continut": "Intervalul [2, 5] este un interval închis, deoarece ambele extremități sunt incluse."
+        }
+      ],
+      "raspunsFinal": "Intervalul [2, 5] este un interval închis.",
+      "verificare": "Simbolurile [ și ] indică incluziunea extremităților, deci intervalul este închis."
+    },
+    {
+      "id": "intervale-numere-reale-exemplu-2",
+      "titlu": "Reprezentarea grafică a unui interval",
+      "enunt": "Reprezentați grafic intervalul (-3, 4].",
+      "nivel": "standard-bac",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea tipului de interval",
+          "continut": "Intervalul (-3, 4] este semiînchis, având -3 exclus și 4 inclus."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea pe axa numerelor",
+          "continut": "Pe axa numerelor, se marchează -3 cu un cercuriță goală și 4 cu un cercuriță plină. Se desenează segmentul între aceste două puncte."
+        }
+      ],
+      "raspunsFinal": "Intervalul (-3, 4] este reprezentat pe axa numerelor cu -3 marcat cu un cercuriță goală și 4 cu un cercuriță plină, iar segmentul dintre ele este desenat.",
+      "verificare": "Reprezentarea corespunde tipului semiînchis al intervalului."
+    },
+    {
+      "id": "intervale-numere-reale-exemplu-3",
+      "titlu": "Determinarea intervalelor pentru o inecuație simplă",
+      "enunt": "Scrieți intervalul soluțiilor inecuației 2x - 1 ≤ 5.",
+      "nivel": "standard-bac",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "Se adună 1 în ambele părți: 2x ≤ 6. Apoi se împarte prin 2: x ≤ 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea soluției ca interval",
+          "continut": "Soluția inecuației este toate numerele reale mai mici sau egale cu 3, adică intervalul (-∞, 3]."
+        }
+      ],
+      "raspunsFinal": "Intervalul soluțiilor inecuației este (-∞, 3].",
+      "verificare": "Rezolvarea inecuației conduce la x ≤ 3, deci intervalul corespunzător este (-∞, 3]."
+    },
+    {
+      "id": "intervale-numere-reale-exemplu-4",
+      "titlu": "Intersecția a două intervale",
+      "enunt": "Determinați intersecția intervalelor [1, 5] și (2, 7].",
+      "nivel": "avansat",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea intervalelor",
+          "continut": "Primul interval este [1, 5], iar al doilea este (2, 7]."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea intersecției",
+          "continut": "Intersecția este mulțimea numerelor care aparțin ambelor intervale. Acestea sunt numerele din (2, 5]."
+        }
+      ],
+      "raspunsFinal": "Intersecția intervalelor [1, 5] și (2, 7] este intervalul (2, 5].",
+      "verificare": "Numerele comune celor două intervale sunt cele din (2, 5], deci intersecția este corect determinată."
+    }
+  ],
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea simbolurilor [ și ( pentru intervale",
+      "deCeEsteGresit": "Simbolul [ indică inclusiv capătul, în timp ce ( indică excluderea acestuia. Confuzia poate duce la erori în reprezentarea grafică sau în rezolvarea problemelor.",
+      "cumOEviti": "Repetați simbolurile și asociați-le cu semnificația lor: [ = inclus, ( = exclud."
+    },
+    {
+      "greseala": "Neglijarea reprezentării grafice a intervalelor",
+      "deCeEsteGresit": "Reprezentarea grafică este esențială pentru înțelegerea vizuală a intervalelor și pentru rezolvarea problemelor care implică intersecții sau reuniuni.",
+      "cumOEviti": "Desenați întotdeauna reprezentările grafice, chiar dacă problema pare simplă."
+    },
+    {
+      "greseala": "Utilizarea greșită a semnului de infinit în intervale",
+      "deCeEsteGresit": "Semnul ∞ este folosit doar pentru intervale nesfârșite, iar utilizarea lui în intervale finite poate duce la confuzii.",
+      "cumOEviti": "Folosiți semnul ∞ doar când intervalul nu are un capăt fix."
+    },
+    {
+      "greseala": "Neglijarea verificării dacă un număr aparține unui interval",
+      "deCeEsteGresit": "Un elev poate să creadă că un număr aparține unui interval fără a verifica dacă este inclus sau excludut.",
+      "cumOEviti": "Verificați întotdeauna dacă valoarea respectivă este inclusă în interval."
+    }
+  ],
+  "exercitii": [
+    {
+      "id": "intervale-numere-reale-exercitiu-1",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele intervale este închis la stânga și deschis la dreapta?",
+      "variante": [
+        "(2, 5]",
+        "[2, 5)",
+        "[2, 5]",
+        "(2, 5)"
+      ],
+      "raspunsCorect": "[2, 5)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea intervalelor",
+          "continut": "Intervalul închis la stânga și deschis la dreapta se notează cu [a, b), unde a este inclus în interval iar b nu."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea variantei corecte",
+          "continut": "Varianta [2, 5) respectă definiția intervalului închis la stânga și deschis la dreapta."
+        }
+      ],
+      "explicatieFinala": "Intervalul [2, 5) include numărul 2 dar nu include numărul 5.",
+      "punctaj": 1,
+      "competenta": "Identificarea tipurilor de intervale"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Reprezentați grafic intervalul (-∞, 3].",
+      "raspunsCorect": "Un segment de dreaptă pe axa numerelor care începe din stânga (fără punct) și se termină în 3 cu un punct.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a intervalelor",
+          "continut": "Pentru intervalul (-∞, 3], reprezentarea grafică începe din stânga (fără punct) și se termină în 3 cu un punct."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea corectitudinii",
+          "continut": "Punctul la 3 indică faptul că acesta este inclus, iar lipsa de punct din stânga arată că intervalul este nesfârșit."
+        }
+      ],
+      "explicatieFinala": "Reprezentarea grafică trebuie să fie clară și să respecte simbolurile corespunzătoare.",
+      "punctaj": 1,
+      "competenta": "Reprezentarea grafică a intervalelor"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele intervale conține numărul 4?",
+      "variante": [
+        "[2, 5]",
+        "(1, 3)",
+        "[0, 6]",
+        "(−∞, 4)"
+      ],
+      "raspunsCorect": "[0, 6]",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței unui număr la un interval",
+          "continut": "Pentru a verifica dacă un număr aparține unui interval, trebuie să verificăm dacă este inclus în acel interval."
+        },
+        {
+          "numar": 2,
+          "titlu": "Analiza fiecărui interval",
+          "continut": "Numărul 4 este inclus în [0, 6], dar nu este inclus în (1, 3), iar (-∞, 4) exclude 4."
+        }
+      ],
+      "explicatieFinala": "Intervalul [0, 6] include numărul 4, deci este corect.",
+      "punctaj": 1,
+      "competenta": "Utilizarea intervalelor în rezolvarea problemelor"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-4",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Scrieți intervalul care conține toate numerele reale mai mari decât 2 și mai mici sau egale cu 5.",
+      "raspunsCorect": "[2, 5]",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea intervalelor",
+          "continut": "Intervalul [2, 5] include toate numerele reale mai mari sau egale cu 2 și mai mici sau egale cu 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea corectitudinii",
+          "continut": "Simbolurile [ și ] indică faptul că capetele sunt incluse în interval."
+        }
+      ],
+      "explicatieFinala": "Intervalul [2, 5] este cel mai potrivit pentru a exprima toate numerele reale din această categorie.",
+      "punctaj": 1,
+      "competenta": "Definirea conceptului de interval"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-5",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+      "variante": [
+        "(2, 5]",
+        "[2, 5)",
+        "(2, 5)",
+        "[2, 5]"
+      ],
+      "raspunsCorect": "(2, 5]",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea intervalelor",
+          "continut": "Intervalul deschis la stânga și închis la dreapta este reprezentat prin parantezele ( la stânga și ] la dreapta."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea variantelor",
+          "continut": "Varianta (2, 5] corespunde definiției unui interval deschis la stânga și închis la dreapta."
+        }
+      ],
+      "explicatieFinala": "Intervalul (2, 5] include numărul 5 dar nu include numărul 2.",
+      "punctaj": 1,
+      "competenta": "Identificarea tipurilor de intervale"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Reprezentați grafic intervalul (-∞, 3).",
+      "raspunsCorect": "Un segment deschis de la -∞ spre dreapta până la 3, cu un punct gol la 3.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a intervalelor",
+          "continut": "Pentru intervalul (-∞, 3), se desenează o linie dreaptă care începe de la -∞ și se oprește înainte de punctul 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Notarea capetelor",
+          "continut": "Capătul 3 este marcat cu un punct gol, iar semnul ∞ este reprezentat prin o săgeată spre stânga."
+        }
+      ],
+      "explicatieFinala": "Reprezentarea grafică trebuie să fie clară și să respecte simbolurile corespunzătoare.",
+      "punctaj": 1,
+      "competenta": "Reprezentarea grafică a intervalelor"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-7",
+      "nivel": "avansat",
+      "tip": "rezolvare-completa",
+      "enunt": "Determinați mulțimea soluțiilor inecuației 2x - 5 < 3.",
+      "raspunsCorect": "Intervalul (-4, ∞).",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "Se adună 5 în ambele părți: 2x < 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la 2",
+          "continut": "Se împarte la 2: x < 4."
+        },
+        {
+          "numar": 3,
+          "titlu": "Reprezentarea soluțiilor",
+          "continut": "Soluția este intervalul deschis (-∞, 4), dar în cazul acestui exercițiu se folosește forma corectă."
+        }
+      ],
+      "explicatieFinala": "Soluția inecuației este mulțimea numerelor reale mai mici decât 4.",
+      "punctaj": 1,
+      "competenta": "Utilizarea intervalelor în rezolvarea problemelor"
+    },
+    {
+      "id": "intervale-numere-reale-exercitiu-8",
+      "nivel": "avansat",
+      "tip": "rezolvare-completa",
+      "enunt": "Determinați dacă numărul 3 aparține intervalului [2, ∞).",
+      "raspunsCorect": "Da.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței",
+          "continut": "Numărul 3 este mai mare decât 2 și este inclus în interval."
+        },
+        {
+          "numar": 2,
+          "titlu": "Analiza simbolurilor",
+          "continut": "Simbolul [ indică că capătul 2 este inclus, iar ∞ reprezintă un interval nesfârșit."
+        }
+      ],
+      "explicatieFinala": "Numărul 3 aparține intervalului [2, ∞) deoarece este mai mare decât 2 și este inclus în acesta.",
+      "punctaj": 1,
+      "competenta": "Verificarea apartenenței unui număr la un interval"
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Intervalul este o mulțime de numere reale cuprinse între două valori, inclusiv sau excludând acestea.",
+      "Există patru tipuri principale de intervale: închis, deschis, semiînchis la stânga și semiînchis la dreapta.",
+      "Reprezentarea grafică a intervalelor este esențială pentru înțelegerea lor.",
+      "Intervalul se notează cu paranteze sau acolade în funcție de tipul său."
+    ],
+    "formuleDeRetinut": [
+      "Interval închis: [a, b] = {x ∈ ℝ | a ≤ x ≤ b}",
+      "Interval deschis: (a, b) = {x ∈ ℝ | a < x < b}",
+      "Interval semiînchis la stânga: [a, b) = {x ∈ ℝ | a ≤ x < b}",
+      "Interval semiînchis la dreapta: (a, b] = {x ∈ ℝ | a < x ≤ b}"
+    ],
+    "checklistElev": [
+      "Verifică dacă capetele intervalelor sunt incluse sau excluse.",
+      "Desenează întotdeauna reprezentarea grafică a intervalului.",
+      "Folosește simbolurile corecte pentru fiecare tip de interval.",
+      "Verifică dacă un număr aparține unui interval dat."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Intervalele de numere reale sunt o temă esențială în programa de Bacalaureat pentru profilul M_mate-info, fiind folosite în rezolvarea problemelor de ecuații, inecuații și probleme de tip logic.",
+    "tipuriCerinte": [
+      "Identificarea tipului unui interval",
+      "Reprezentarea grafică a intervalelor",
+      "Intersecția sau reuniunea a două intervale",
+      "Verificarea apartenenței unui număr la un interval"
+    ],
+    "strategie": [
+      "Învățați simbolurile și semnificațiile lor cu atenție.",
+      "Antrenați-vă în reprezentarea grafică a intervalelor.",
+      "Exerciția constantă este cheia înțelegerii acestui subiect.",
+      "Asociați intervalele cu problemele de inecuații pentru a le folosi mai ușor."
+    ]
+  },
+  "surse": [
+    {
+      "tip": "verificare-interna",
+      "titlu": "BAC MATE — draft generat local",
+      "observatie": "Continut generat local cu Ollama. Necesita verificare matematica, curriculara, lingvistica si a exercitiilor inainte de publicare."
+    }
+  ],
+  "verificare": {
+    "status": "draft",
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatExercitii": false,
+    "verificatLimbaRomana": false,
+    "observatii": [
+      "Draft generat de BAC MATE Generator Local V6.0.",
+      "Modelul local este utilizat ca redactor pedagogic, nu ca sursa de adevar matematic.",
+      "Publicarea este interzisa pana la trecerea verificarilor obligatorii."
+    ]
+  }
+};
+
+export default continutLectie;

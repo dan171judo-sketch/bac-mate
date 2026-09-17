@@ -1,0 +1,7 @@
+Ce înseamnă paritatea unei funcții?
+
+Cum se verifică paritatea unei funcții?
+
+Ce se întâmplă cu f(-x) în cazul funcției absolute?
+
+Ce concluzie putem trage despre paritatea funcției absolute?

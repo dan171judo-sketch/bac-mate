@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Vom folosi simbolurile logice pentru a exprima negația, conjuncția, disjuncția și implicația. Negarea unei propoziții este notată cu ¬, conjuncția cu ∧, disjuncția cu ∨, iar implicația cu →.
+
+2
+00:02:30.000 --> 00:05:00.000
+Vom analiza fiecare operație pas cu pas. Pentru negație, schimbăm adevărul. Pentru conjuncție, ambele trebuie adevărate. Pentru disjuncție, cel puțin una trebuie adevărată. Pentru implicație, dacă prima este adevărată, a doua trebuie să fie adevărată.
+

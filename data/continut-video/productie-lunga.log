@@ -1,0 +1,462 @@
+[2026-09-09T17:54:51.281Z] Pornim producția. Lecții selectate: 3
+[2026-09-09T17:54:51.282Z] NU folosim --regenereaza.
+[2026-09-09T17:54:51.283Z] [1/3] m1-l01 - Mulțimi de numere și operații cu numere reale
+[2026-09-09T17:54:51.540Z] ✅ m1-l01 terminată/acceptată.
+[2026-09-09T17:54:51.541Z] Progres: 1/3 | bune: 1 | probleme: 0
+[2026-09-09T17:54:51.541Z] [2/3] m1-l02 - Estimări și aproximări
+[2026-09-09T17:54:51.835Z] ✅ m1-l02 terminată/acceptată.
+[2026-09-09T17:54:51.836Z] Progres: 2/3 | bune: 2 | probleme: 0
+[2026-09-09T17:54:51.837Z] [3/3] m1-l03 - Modulul unui număr real
+[2026-09-09T17:54:52.090Z] ✅ m1-l03 terminată/acceptată.
+[2026-09-09T17:54:52.091Z] Progres: 3/3 | bune: 3 | probleme: 0
+[10.09.2026, 16:59:51] 
+[10.09.2026, 16:59:51] ##################################################
+[10.09.2026, 16:59:51] BAC MATE — FABRICĂ AUTOMATĂ PE TERMEN LUNG
+[10.09.2026, 16:59:51] ##################################################
+[10.09.2026, 16:59:51] Module: 17
+[10.09.2026, 16:59:51] Treceri automate: 3
+[10.09.2026, 16:59:51] Erorile unui modul NU vor opri întreaga producție.
+[10.09.2026, 16:59:51] Conținutul deja finalizat va fi sărit de scripturile existente.
+[10.09.2026, 16:59:51] 
+[10.09.2026, 16:59:51] ******** ÎNCEPE TRECEREA 1/3 ********
+[10.09.2026, 16:59:51] 
+[10.09.2026, 16:59:51] ==================================================
+[10.09.2026, 16:59:51] TRECERE 1/3 | MODUL 1/17
+[10.09.2026, 16:59:51] ==================================================
+[10.09.2026, 16:59:51] 
+[10.09.2026, 16:59:51] Pornesc: node completeaza-video-content.mjs --modul=1
+[10.09.2026, 17:41:20] 
+[10.09.2026, 17:41:20] Oprire manuală cerută. Starea este păstrată.
+[10.09.2026, 17:55:45] 
+[10.09.2026, 17:55:45] ##################################################
+[10.09.2026, 17:55:45] BAC MATE — FABRICĂ AUTOMATĂ PE TERMEN LUNG
+[10.09.2026, 17:55:45] ##################################################
+[10.09.2026, 17:55:45] Module: 17
+[10.09.2026, 17:55:45] Treceri automate: 3
+[10.09.2026, 17:55:45] Erorile unui modul NU vor opri întreaga producție.
+[10.09.2026, 17:55:45] Conținutul deja finalizat va fi sărit de scripturile existente.
+[10.09.2026, 17:55:45] 
+[10.09.2026, 17:55:45] ******** ÎNCEPE TRECEREA 1/3 ********
+[10.09.2026, 17:55:45] 
+[10.09.2026, 17:55:45] ==================================================
+[10.09.2026, 17:55:45] TRECERE 1/3 | MODUL 1/17
+[10.09.2026, 17:55:45] ==================================================
+[10.09.2026, 17:55:45] 
+[10.09.2026, 17:55:45] Pornesc: node completeaza-video-content.mjs --modul=1
+[10.09.2026, 19:04:14] Terminat cu succes: completeaza-video-content.mjs
+[10.09.2026, 19:04:14] 
+[10.09.2026, 19:04:14] Pornesc: node ruleaza-productie-lectii.mjs --modul=1 --fara-generare
+[10.09.2026, 19:06:33] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[10.09.2026, 19:06:33] Modul 1: producția media a avut probleme.
+[10.09.2026, 19:06:33] Continuăm cu următorul modul și revenim la următoarea trecere.
+[10.09.2026, 19:07:03] Modul 1 terminat pentru trecerea 1.
+[10.09.2026, 19:07:03] Pauză 15 secunde...
+[10.09.2026, 19:07:18] 
+[10.09.2026, 19:07:18] ==================================================
+[10.09.2026, 19:07:18] TRECERE 1/3 | MODUL 2/17
+[10.09.2026, 19:07:18] ==================================================
+[10.09.2026, 19:07:18] 
+[10.09.2026, 19:07:18] Pornesc: node completeaza-video-content.mjs --modul=2
+[10.09.2026, 22:04:01] Terminat cu succes: completeaza-video-content.mjs
+[10.09.2026, 22:04:01] 
+[10.09.2026, 22:04:01] Pornesc: node ruleaza-productie-lectii.mjs --modul=2 --fara-generare
+[10.09.2026, 22:09:22] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[10.09.2026, 22:09:22] Modul 2: producția media a avut probleme.
+[10.09.2026, 22:09:22] Continuăm cu următorul modul și revenim la următoarea trecere.
+[10.09.2026, 22:09:52] Modul 2 terminat pentru trecerea 1.
+[10.09.2026, 22:09:52] Pauză 15 secunde...
+[10.09.2026, 22:10:07] 
+[10.09.2026, 22:10:07] ==================================================
+[10.09.2026, 22:10:07] TRECERE 1/3 | MODUL 3/17
+[10.09.2026, 22:10:07] ==================================================
+[10.09.2026, 22:10:07] 
+[10.09.2026, 22:10:07] Pornesc: node completeaza-video-content.mjs --modul=3
+[11.09.2026, 01:01:05] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 01:01:05] 
+[11.09.2026, 01:01:06] Pornesc: node ruleaza-productie-lectii.mjs --modul=3 --fara-generare
+[11.09.2026, 01:02:11] Terminat cu succes: ruleaza-productie-lectii.mjs
+[11.09.2026, 01:02:11] Modul 3 terminat pentru trecerea 1.
+[11.09.2026, 01:02:11] Pauză 15 secunde...
+[11.09.2026, 01:02:26] 
+[11.09.2026, 01:02:26] ==================================================
+[11.09.2026, 01:02:26] TRECERE 1/3 | MODUL 4/17
+[11.09.2026, 01:02:26] ==================================================
+[11.09.2026, 01:02:26] 
+[11.09.2026, 01:02:26] Pornesc: node completeaza-video-content.mjs --modul=4
+[11.09.2026, 03:51:27] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 03:51:27] 
+[11.09.2026, 03:51:27] Pornesc: node ruleaza-productie-lectii.mjs --modul=4 --fara-generare
+[11.09.2026, 03:51:28] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 03:51:28] Modul 4: producția media a avut probleme.
+[11.09.2026, 03:51:28] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 03:51:58] Modul 4 terminat pentru trecerea 1.
+[11.09.2026, 03:51:58] Pauză 15 secunde...
+[11.09.2026, 03:52:13] 
+[11.09.2026, 03:52:13] ==================================================
+[11.09.2026, 03:52:13] TRECERE 1/3 | MODUL 5/17
+[11.09.2026, 03:52:13] ==================================================
+[11.09.2026, 03:52:13] 
+[11.09.2026, 03:52:13] Pornesc: node completeaza-video-content.mjs --modul=5
+[11.09.2026, 08:29:50] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 08:29:50] 
+[11.09.2026, 08:29:50] Pornesc: node ruleaza-productie-lectii.mjs --modul=5 --fara-generare
+[11.09.2026, 08:29:51] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 08:29:51] Modul 5: producția media a avut probleme.
+[11.09.2026, 08:29:51] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 08:30:21] Modul 5 terminat pentru trecerea 1.
+[11.09.2026, 08:30:21] Pauză 15 secunde...
+[11.09.2026, 08:30:36] 
+[11.09.2026, 08:30:36] ==================================================
+[11.09.2026, 08:30:36] TRECERE 1/3 | MODUL 6/17
+[11.09.2026, 08:30:36] ==================================================
+[11.09.2026, 08:30:36] 
+[11.09.2026, 08:30:36] Pornesc: node completeaza-video-content.mjs --modul=6
+[11.09.2026, 10:23:03] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 10:23:03] 
+[11.09.2026, 10:23:03] Pornesc: node ruleaza-productie-lectii.mjs --modul=6 --fara-generare
+[11.09.2026, 10:23:04] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 10:23:04] Modul 6: producția media a avut probleme.
+[11.09.2026, 10:23:04] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 10:23:34] Modul 6 terminat pentru trecerea 1.
+[11.09.2026, 10:23:34] Pauză 15 secunde...
+[11.09.2026, 10:23:49] 
+[11.09.2026, 10:23:49] ==================================================
+[11.09.2026, 10:23:49] TRECERE 1/3 | MODUL 7/17
+[11.09.2026, 10:23:49] ==================================================
+[11.09.2026, 10:23:49] 
+[11.09.2026, 10:23:49] Pornesc: node completeaza-video-content.mjs --modul=7
+[11.09.2026, 12:00:49] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 12:00:49] 
+[11.09.2026, 12:00:49] Pornesc: node ruleaza-productie-lectii.mjs --modul=7 --fara-generare
+[11.09.2026, 12:00:51] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 12:00:51] Modul 7: producția media a avut probleme.
+[11.09.2026, 12:00:51] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 12:01:21] Modul 7 terminat pentru trecerea 1.
+[11.09.2026, 12:01:21] Pauză 15 secunde...
+[11.09.2026, 12:01:36] 
+[11.09.2026, 12:01:36] ==================================================
+[11.09.2026, 12:01:36] TRECERE 1/3 | MODUL 8/17
+[11.09.2026, 12:01:36] ==================================================
+[11.09.2026, 12:01:36] 
+[11.09.2026, 12:01:36] Pornesc: node completeaza-video-content.mjs --modul=8
+[11.09.2026, 13:21:04] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 13:21:04] 
+[11.09.2026, 13:21:04] Pornesc: node ruleaza-productie-lectii.mjs --modul=8 --fara-generare
+[11.09.2026, 13:21:06] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 13:21:06] Modul 8: producția media a avut probleme.
+[11.09.2026, 13:21:06] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 13:21:36] Modul 8 terminat pentru trecerea 1.
+[11.09.2026, 13:21:36] Pauză 15 secunde...
+[11.09.2026, 13:21:51] 
+[11.09.2026, 13:21:51] ==================================================
+[11.09.2026, 13:21:51] TRECERE 1/3 | MODUL 9/17
+[11.09.2026, 13:21:51] ==================================================
+[11.09.2026, 13:21:51] 
+[11.09.2026, 13:21:51] Pornesc: node completeaza-video-content.mjs --modul=9
+[11.09.2026, 15:28:57] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 15:28:57] 
+[11.09.2026, 15:28:57] Pornesc: node ruleaza-productie-lectii.mjs --modul=9 --fara-generare
+[11.09.2026, 15:28:58] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 15:28:58] Modul 9: producția media a avut probleme.
+[11.09.2026, 15:28:58] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 15:29:28] Modul 9 terminat pentru trecerea 1.
+[11.09.2026, 15:29:28] Pauză 15 secunde...
+[11.09.2026, 15:29:43] 
+[11.09.2026, 15:29:43] ==================================================
+[11.09.2026, 15:29:43] TRECERE 1/3 | MODUL 10/17
+[11.09.2026, 15:29:43] ==================================================
+[11.09.2026, 15:29:43] 
+[11.09.2026, 15:29:43] Pornesc: node completeaza-video-content.mjs --modul=10
+[11.09.2026, 16:58:32] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 16:58:32] 
+[11.09.2026, 16:58:32] Pornesc: node ruleaza-productie-lectii.mjs --modul=10 --fara-generare
+[11.09.2026, 16:58:33] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 16:58:33] Modul 10: producția media a avut probleme.
+[11.09.2026, 16:58:33] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 16:59:03] Modul 10 terminat pentru trecerea 1.
+[11.09.2026, 16:59:03] Pauză 15 secunde...
+[11.09.2026, 16:59:18] 
+[11.09.2026, 16:59:18] ==================================================
+[11.09.2026, 16:59:18] TRECERE 1/3 | MODUL 11/17
+[11.09.2026, 16:59:18] ==================================================
+[11.09.2026, 16:59:18] 
+[11.09.2026, 16:59:18] Pornesc: node completeaza-video-content.mjs --modul=11
+[11.09.2026, 18:34:09] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 18:34:09] 
+[11.09.2026, 18:34:09] Pornesc: node ruleaza-productie-lectii.mjs --modul=11 --fara-generare
+[11.09.2026, 18:34:10] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 18:34:10] Modul 11: producția media a avut probleme.
+[11.09.2026, 18:34:10] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 18:34:40] Modul 11 terminat pentru trecerea 1.
+[11.09.2026, 18:34:40] Pauză 15 secunde...
+[11.09.2026, 18:34:55] 
+[11.09.2026, 18:34:55] ==================================================
+[11.09.2026, 18:34:55] TRECERE 1/3 | MODUL 12/17
+[11.09.2026, 18:34:55] ==================================================
+[11.09.2026, 18:34:55] 
+[11.09.2026, 18:34:55] Pornesc: node completeaza-video-content.mjs --modul=12
+[11.09.2026, 19:22:29] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 19:22:29] 
+[11.09.2026, 19:22:29] Pornesc: node ruleaza-productie-lectii.mjs --modul=12 --fara-generare
+[11.09.2026, 19:22:30] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 19:22:30] Modul 12: producția media a avut probleme.
+[11.09.2026, 19:22:30] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 19:23:00] Modul 12 terminat pentru trecerea 1.
+[11.09.2026, 19:23:00] Pauză 15 secunde...
+[11.09.2026, 19:23:15] 
+[11.09.2026, 19:23:15] ==================================================
+[11.09.2026, 19:23:15] TRECERE 1/3 | MODUL 13/17
+[11.09.2026, 19:23:15] ==================================================
+[11.09.2026, 19:23:15] 
+[11.09.2026, 19:23:15] Pornesc: node completeaza-video-content.mjs --modul=13
+[11.09.2026, 21:04:17] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 21:04:17] 
+[11.09.2026, 21:04:17] Pornesc: node ruleaza-productie-lectii.mjs --modul=13 --fara-generare
+[11.09.2026, 21:04:18] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 21:04:18] Modul 13: producția media a avut probleme.
+[11.09.2026, 21:04:18] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 21:04:48] Modul 13 terminat pentru trecerea 1.
+[11.09.2026, 21:04:48] Pauză 15 secunde...
+[11.09.2026, 21:05:03] 
+[11.09.2026, 21:05:03] ==================================================
+[11.09.2026, 21:05:03] TRECERE 1/3 | MODUL 14/17
+[11.09.2026, 21:05:03] ==================================================
+[11.09.2026, 21:05:03] 
+[11.09.2026, 21:05:03] Pornesc: node completeaza-video-content.mjs --modul=14
+[11.09.2026, 22:57:42] Terminat cu succes: completeaza-video-content.mjs
+[11.09.2026, 22:57:42] 
+[11.09.2026, 22:57:42] Pornesc: node ruleaza-productie-lectii.mjs --modul=14 --fara-generare
+[11.09.2026, 22:57:43] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[11.09.2026, 22:57:43] Modul 14: producția media a avut probleme.
+[11.09.2026, 22:57:43] Continuăm cu următorul modul și revenim la următoarea trecere.
+[11.09.2026, 22:58:13] Modul 14 terminat pentru trecerea 1.
+[11.09.2026, 22:58:13] Pauză 15 secunde...
+[11.09.2026, 22:58:28] 
+[11.09.2026, 22:58:28] ==================================================
+[11.09.2026, 22:58:28] TRECERE 1/3 | MODUL 15/17
+[11.09.2026, 22:58:28] ==================================================
+[11.09.2026, 22:58:28] 
+[11.09.2026, 22:58:28] Pornesc: node completeaza-video-content.mjs --modul=15
+[12.09.2026, 00:42:41] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 00:42:41] 
+[12.09.2026, 00:42:41] Pornesc: node ruleaza-productie-lectii.mjs --modul=15 --fara-generare
+[12.09.2026, 00:42:42] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 00:42:42] Modul 15: producția media a avut probleme.
+[12.09.2026, 00:42:42] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 00:43:12] Modul 15 terminat pentru trecerea 1.
+[12.09.2026, 00:43:12] Pauză 15 secunde...
+[12.09.2026, 00:43:27] 
+[12.09.2026, 00:43:27] ==================================================
+[12.09.2026, 00:43:27] TRECERE 1/3 | MODUL 16/17
+[12.09.2026, 00:43:27] ==================================================
+[12.09.2026, 00:43:27] 
+[12.09.2026, 00:43:27] Pornesc: node completeaza-video-content.mjs --modul=16
+[12.09.2026, 03:01:14] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 03:01:14] 
+[12.09.2026, 03:01:14] Pornesc: node ruleaza-productie-lectii.mjs --modul=16 --fara-generare
+[12.09.2026, 03:01:15] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 03:01:15] Modul 16: producția media a avut probleme.
+[12.09.2026, 03:01:15] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 03:01:45] Modul 16 terminat pentru trecerea 1.
+[12.09.2026, 03:01:45] Pauză 15 secunde...
+[12.09.2026, 03:02:00] 
+[12.09.2026, 03:02:00] ==================================================
+[12.09.2026, 03:02:00] TRECERE 1/3 | MODUL 17/17
+[12.09.2026, 03:02:00] ==================================================
+[12.09.2026, 03:02:00] 
+[12.09.2026, 03:02:00] Pornesc: node completeaza-video-content.mjs --modul=17
+[12.09.2026, 04:31:53] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 04:31:53] 
+[12.09.2026, 04:31:53] Pornesc: node ruleaza-productie-lectii.mjs --modul=17 --fara-generare
+[12.09.2026, 04:31:54] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 04:31:54] Modul 17: producția media a avut probleme.
+[12.09.2026, 04:31:54] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 04:32:24] Modul 17 terminat pentru trecerea 1.
+[12.09.2026, 04:32:24] 
+[12.09.2026, 04:32:24] ******** TRECEREA 1 TERMINATĂ ********
+[12.09.2026, 04:32:24] 
+[12.09.2026, 04:32:24] ******** ÎNCEPE TRECEREA 2/3 ********
+[12.09.2026, 04:32:24] 
+[12.09.2026, 04:32:24] ==================================================
+[12.09.2026, 04:32:24] TRECERE 2/3 | MODUL 1/17
+[12.09.2026, 04:32:24] ==================================================
+[12.09.2026, 04:32:24] 
+[12.09.2026, 04:32:24] Pornesc: node completeaza-video-content.mjs --modul=1
+[12.09.2026, 05:33:12] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 05:33:12] 
+[12.09.2026, 05:33:12] Pornesc: node ruleaza-productie-lectii.mjs --modul=1 --fara-generare
+[12.09.2026, 05:37:01] Terminat cu succes: ruleaza-productie-lectii.mjs
+[12.09.2026, 05:37:01] Modul 1 terminat pentru trecerea 2.
+[12.09.2026, 05:37:01] Pauză 15 secunde...
+[12.09.2026, 05:37:16] 
+[12.09.2026, 05:37:16] ==================================================
+[12.09.2026, 05:37:16] TRECERE 2/3 | MODUL 2/17
+[12.09.2026, 05:37:16] ==================================================
+[12.09.2026, 05:37:16] 
+[12.09.2026, 05:37:16] Pornesc: node completeaza-video-content.mjs --modul=2
+[12.09.2026, 08:50:48] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 08:50:48] 
+[12.09.2026, 08:50:48] Pornesc: node ruleaza-productie-lectii.mjs --modul=2 --fara-generare
+[12.09.2026, 08:55:42] Terminat cu succes: ruleaza-productie-lectii.mjs
+[12.09.2026, 08:55:42] Modul 2 terminat pentru trecerea 2.
+[12.09.2026, 08:55:42] Pauză 15 secunde...
+[12.09.2026, 08:55:57] 
+[12.09.2026, 08:55:57] ==================================================
+[12.09.2026, 08:55:57] TRECERE 2/3 | MODUL 3/17
+[12.09.2026, 08:55:57] ==================================================
+[12.09.2026, 08:55:57] 
+[12.09.2026, 08:55:57] Pornesc: node completeaza-video-content.mjs --modul=3
+[12.09.2026, 11:49:22] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 11:49:22] 
+[12.09.2026, 11:49:22] Pornesc: node ruleaza-productie-lectii.mjs --modul=3 --fara-generare
+[12.09.2026, 11:49:41] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 11:49:41] Modul 3: producția media a avut probleme.
+[12.09.2026, 11:49:41] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 11:50:11] Modul 3 terminat pentru trecerea 2.
+[12.09.2026, 11:50:11] Pauză 15 secunde...
+[12.09.2026, 11:50:26] 
+[12.09.2026, 11:50:26] ==================================================
+[12.09.2026, 11:50:26] TRECERE 2/3 | MODUL 4/17
+[12.09.2026, 11:50:26] ==================================================
+[12.09.2026, 11:50:26] 
+[12.09.2026, 11:50:26] Pornesc: node completeaza-video-content.mjs --modul=4
+[12.09.2026, 14:42:40] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 14:42:40] 
+[12.09.2026, 14:42:40] Pornesc: node ruleaza-productie-lectii.mjs --modul=4 --fara-generare
+[12.09.2026, 14:42:42] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 14:42:42] Modul 4: producția media a avut probleme.
+[12.09.2026, 14:42:42] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 14:43:12] Modul 4 terminat pentru trecerea 2.
+[12.09.2026, 14:43:12] Pauză 15 secunde...
+[12.09.2026, 14:43:27] 
+[12.09.2026, 14:43:27] ==================================================
+[12.09.2026, 14:43:27] TRECERE 2/3 | MODUL 5/17
+[12.09.2026, 14:43:27] ==================================================
+[12.09.2026, 14:43:27] 
+[12.09.2026, 14:43:27] Pornesc: node completeaza-video-content.mjs --modul=5
+[12.09.2026, 19:32:54] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 19:32:54] 
+[12.09.2026, 19:32:54] Pornesc: node ruleaza-productie-lectii.mjs --modul=5 --fara-generare
+[12.09.2026, 19:32:55] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 19:32:55] Modul 5: producția media a avut probleme.
+[12.09.2026, 19:32:55] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 19:33:25] Modul 5 terminat pentru trecerea 2.
+[12.09.2026, 19:33:25] Pauză 15 secunde...
+[12.09.2026, 19:33:40] 
+[12.09.2026, 19:33:40] ==================================================
+[12.09.2026, 19:33:40] TRECERE 2/3 | MODUL 6/17
+[12.09.2026, 19:33:40] ==================================================
+[12.09.2026, 19:33:40] 
+[12.09.2026, 19:33:40] Pornesc: node completeaza-video-content.mjs --modul=6
+[12.09.2026, 21:16:32] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 21:16:32] 
+[12.09.2026, 21:16:32] Pornesc: node ruleaza-productie-lectii.mjs --modul=6 --fara-generare
+[12.09.2026, 21:16:33] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 21:16:33] Modul 6: producția media a avut probleme.
+[12.09.2026, 21:16:33] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 21:17:03] Modul 6 terminat pentru trecerea 2.
+[12.09.2026, 21:17:03] Pauză 15 secunde...
+[12.09.2026, 21:17:18] 
+[12.09.2026, 21:17:18] ==================================================
+[12.09.2026, 21:17:18] TRECERE 2/3 | MODUL 7/17
+[12.09.2026, 21:17:18] ==================================================
+[12.09.2026, 21:17:18] 
+[12.09.2026, 21:17:18] Pornesc: node completeaza-video-content.mjs --modul=7
+[12.09.2026, 22:55:21] Terminat cu succes: completeaza-video-content.mjs
+[12.09.2026, 22:55:21] 
+[12.09.2026, 22:55:21] Pornesc: node ruleaza-productie-lectii.mjs --modul=7 --fara-generare
+[12.09.2026, 22:55:22] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[12.09.2026, 22:55:22] Modul 7: producția media a avut probleme.
+[12.09.2026, 22:55:22] Continuăm cu următorul modul și revenim la următoarea trecere.
+[12.09.2026, 22:55:52] Modul 7 terminat pentru trecerea 2.
+[12.09.2026, 22:55:52] Pauză 15 secunde...
+[12.09.2026, 22:56:07] 
+[12.09.2026, 22:56:07] ==================================================
+[12.09.2026, 22:56:07] TRECERE 2/3 | MODUL 8/17
+[12.09.2026, 22:56:07] ==================================================
+[12.09.2026, 22:56:07] 
+[12.09.2026, 22:56:07] Pornesc: node completeaza-video-content.mjs --modul=8
+[13.09.2026, 00:14:54] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 00:14:54] 
+[13.09.2026, 00:14:54] Pornesc: node ruleaza-productie-lectii.mjs --modul=8 --fara-generare
+[13.09.2026, 00:14:55] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 00:14:55] Modul 8: producția media a avut probleme.
+[13.09.2026, 00:14:55] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 00:15:25] Modul 8 terminat pentru trecerea 2.
+[13.09.2026, 00:15:25] Pauză 15 secunde...
+[13.09.2026, 00:15:40] 
+[13.09.2026, 00:15:40] ==================================================
+[13.09.2026, 00:15:40] TRECERE 2/3 | MODUL 9/17
+[13.09.2026, 00:15:40] ==================================================
+[13.09.2026, 00:15:40] 
+[13.09.2026, 00:15:40] Pornesc: node completeaza-video-content.mjs --modul=9
+[13.09.2026, 02:31:55] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 02:31:55] 
+[13.09.2026, 02:31:55] Pornesc: node ruleaza-productie-lectii.mjs --modul=9 --fara-generare
+[13.09.2026, 02:31:56] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 02:31:56] Modul 9: producția media a avut probleme.
+[13.09.2026, 02:31:56] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 02:32:26] Modul 9 terminat pentru trecerea 2.
+[13.09.2026, 02:32:26] Pauză 15 secunde...
+[13.09.2026, 02:32:41] 
+[13.09.2026, 02:32:41] ==================================================
+[13.09.2026, 02:32:41] TRECERE 2/3 | MODUL 10/17
+[13.09.2026, 02:32:41] ==================================================
+[13.09.2026, 02:32:41] 
+[13.09.2026, 02:32:41] Pornesc: node completeaza-video-content.mjs --modul=10
+[13.09.2026, 04:08:09] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 04:08:09] 
+[13.09.2026, 04:08:09] Pornesc: node ruleaza-productie-lectii.mjs --modul=10 --fara-generare
+[13.09.2026, 04:08:10] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 04:08:10] Modul 10: producția media a avut probleme.
+[13.09.2026, 04:08:10] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 04:08:40] Modul 10 terminat pentru trecerea 2.
+[13.09.2026, 04:08:40] Pauză 15 secunde...
+[13.09.2026, 04:08:55] 
+[13.09.2026, 04:08:55] ==================================================
+[13.09.2026, 04:08:55] TRECERE 2/3 | MODUL 11/17
+[13.09.2026, 04:08:55] ==================================================
+[13.09.2026, 04:08:55] 
+[13.09.2026, 04:08:55] Pornesc: node completeaza-video-content.mjs --modul=11
+[13.09.2026, 05:36:06] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 05:36:06] 
+[13.09.2026, 05:36:06] Pornesc: node ruleaza-productie-lectii.mjs --modul=11 --fara-generare
+[13.09.2026, 05:36:07] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 05:36:07] Modul 11: producția media a avut probleme.
+[13.09.2026, 05:36:07] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 05:36:37] Modul 11 terminat pentru trecerea 2.
+[13.09.2026, 05:36:37] Pauză 15 secunde...
+[13.09.2026, 05:36:52] 
+[13.09.2026, 05:36:52] ==================================================
+[13.09.2026, 05:36:52] TRECERE 2/3 | MODUL 12/17
+[13.09.2026, 05:36:52] ==================================================
+[13.09.2026, 05:36:52] 
+[13.09.2026, 05:36:52] Pornesc: node completeaza-video-content.mjs --modul=12
+[13.09.2026, 06:24:29] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 06:24:29] 
+[13.09.2026, 06:24:29] Pornesc: node ruleaza-productie-lectii.mjs --modul=12 --fara-generare
+[13.09.2026, 06:24:30] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 06:24:30] Modul 12: producția media a avut probleme.
+[13.09.2026, 06:24:30] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 06:25:00] Modul 12 terminat pentru trecerea 2.
+[13.09.2026, 06:25:00] Pauză 15 secunde...
+[13.09.2026, 06:25:15] 
+[13.09.2026, 06:25:15] ==================================================
+[13.09.2026, 06:25:15] TRECERE 2/3 | MODUL 13/17
+[13.09.2026, 06:25:15] ==================================================
+[13.09.2026, 06:25:15] 
+[13.09.2026, 06:25:15] Pornesc: node completeaza-video-content.mjs --modul=13
+[13.09.2026, 08:06:21] Terminat cu succes: completeaza-video-content.mjs
+[13.09.2026, 08:06:21] 
+[13.09.2026, 08:06:21] Pornesc: node ruleaza-productie-lectii.mjs --modul=13 --fara-generare
+[13.09.2026, 08:06:22] Scriptul ruleaza-productie-lectii.mjs s-a închis cu cod 1. Continuăm.
+[13.09.2026, 08:06:22] Modul 13: producția media a avut probleme.
+[13.09.2026, 08:06:22] Continuăm cu următorul modul și revenim la următoarea trecere.
+[13.09.2026, 08:06:52] Modul 13 terminat pentru trecerea 2.
+[13.09.2026, 08:06:52] Pauză 15 secunde...
+[13.09.2026, 08:07:07] 
+[13.09.2026, 08:07:07] ==================================================
+[13.09.2026, 08:07:07] TRECERE 2/3 | MODUL 14/17
+[13.09.2026, 08:07:07] ==================================================
+[13.09.2026, 08:07:07] 
+[13.09.2026, 08:07:07] Pornesc: node completeaza-video-content.mjs --modul=14

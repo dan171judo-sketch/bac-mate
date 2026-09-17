@@ -1,0 +1,7 @@
+În această lecție vom învăța cum să verificăm dacă două funcții sunt egale.
+
+Vom folosi definiția egalității funcțiilor pentru a rezolva un exercițiu.
+
+Vom analiza domeniul de definiție al funcțiilor.
+
+Vom compara valorile funcțiilor pentru fiecare x din domeniu.

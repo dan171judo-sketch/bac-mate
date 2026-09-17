@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Vom studia funcția f(x) = 1/x. Domeniul de definiție este toate numerele reale mai mari decât 0. Dar dacă restricționăm domeniul la [1, 3], obținem o funcție nouă, numită restricție.
+
+2
+00:02:30.000 --> 00:05:00.000
+Dacă restricționăm domeniul la [-2, 0), obținem o altă funcție. Este important să reținem că intervalul trebuie să fie inclusiv la stânga și exclusiv la dreapta, pentru a evita valoarea 0.
+

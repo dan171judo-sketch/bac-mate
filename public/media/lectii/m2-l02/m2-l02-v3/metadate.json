@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l02",
+  "videoId": "m2-l02-v3",
+  "modul": 2,
+  "numarLectie": 2,
+  "numarVideo": 3,
+  "titluLectie": "Noțiunea de funcție",
+  "titluVideo": "Funcția de tip Bac",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

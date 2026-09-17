@@ -1,0 +1,346 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l04",
+  "modul": 1,
+  "numarLectie": 4,
+  "titlu": "Intervale de numere reale",
+  "slugContinut": "intervale-de-numere-reale",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Intervale de numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l04-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Intervale de numere reale",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă un interval?",
+        "Cum se reprezintă pe axa numerelor?",
+        "Ce tipuri de intervale există?",
+        "Cum se scrie un interval?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Axa numerelor cu puncte reprezentând numere",
+          "naratiune": "Imaginează-ți axa numerelor. Un interval este o mulțime de numere reale dintre două valori. De exemplu, toate numerele între 1 și 3."
+        },
+        {
+          "numar": 2,
+          "vizual": "Reprezentarea grafică a unui interval",
+          "naratiune": "Pentru a reprezenta un interval, folosim paranteze și semnul de șapte. De exemplu, [1, 3] include 1 și 3, iar (1, 3) nu include aceste valori."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intervalul este o mulțime de numere reale între două valori",
+        "Parantezele indică dacă capetele sunt incluse sau nu"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Reprezentarea intervalului [2, 5]",
+        "enunt": "Scrie intervalul care conține toate numerele reale mai mari decât 2 și mai mici decât 5",
+        "rezolvare": [
+          "Identificăm capetele intervalului: 2 și 5",
+          "Pentru că numerele sunt mai mari decât 2 și mai mici decât 5, folosim paranteze rotunde în loc de drepte"
+        ],
+        "raspuns": "(2, 5)"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este intervalul care conține toate numerele reale mai mari decât 1 și mai mici decât 4?",
+        "variante": [
+          "A) [1, 4]",
+          "B) (1, 4)",
+          "C) [1, 4)"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Intervalul (1, 4) include toate numerele reale mai mari decât 1 și mai mici decât 4, fără a include capetele."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l04/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l04/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l04/m1-l04-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l04/m1-l04-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l04/m1-l04-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 4,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 4,
+        "titluLectie": "Intervale de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:51:49.212Z"
+      }
+    },
+    {
+      "id": "m1-l04-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Intervale de numere reale: reguli și metoda",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția intervalului de numere reale.",
+        "Vom învăța cum să reprezentăm intervale pe axa numerelor.",
+        "Vom vedea cum se definesc intervalele în funcție de limite.",
+        "În final, vom rezolva un exercițiu de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Axa numerelor cu intervale desenate",
+          "naratiune": "Un interval de numere reale este o mulțime de numere cuprinse între două valori. De exemplu, intervalul [a, b] include toate numerele reale cuprinse între a și b, inclusiv a și b."
+        },
+        {
+          "numar": 2,
+          "vizual": "Reprezentarea intervalelor pe axa numerelor",
+          "naratiune": "Există mai multe tipuri de intervale: închise, deschise, semiînchise. De exemplu, intervalul (a, b) nu include capetele, iar [a, b) include a dar nu include b."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intervalul [a, b] include a și b.",
+        "Intervalul (a, b) nu include nici a, nici b."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Reprezentarea intervalului [2, 5]",
+        "enunt": "Reprezintă pe axa numerelor intervalul [2, 5].",
+        "rezolvare": [
+          "Desenezi axa numerelor.",
+          "Markezi punctele 2 și 5.",
+          "Unii segmentul între 2 și 5 cu linie plină, inclusiv capetele.",
+          "Reprezintă capetele cu cercuri pline."
+        ],
+        "raspuns": "Intervalul [2, 5] este reprezentat pe axa numerelor cu un segment între 2 și 5, inclusiv capetele."
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele reprezintă corect intervalul [1, 3] pe axa numerelor?",
+        "variante": [
+          "A) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri pline.",
+          "B) Linie deschisă între 1 și 3 cu capetele desenate cu cercuri goale.",
+          "C) Linie închisă între 1 și 3 cu capetele desenate cu cercuri pline."
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Intervalul [1, 3] este închis, deci capetele sunt incluse. Așadar, linia este închisă între 1 și 3, iar capetele sunt marcate cu cercuri pline."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l04/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l04/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l04/m1-l04-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l04/m1-l04-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l04/m1-l04-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 4,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 4,
+        "titluLectie": "Intervale de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:57:54.876Z"
+      }
+    },
+    {
+      "id": "m1-l04-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Intervale de numere reale - exercițiu de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu un exercițiu de tip Bac care implică intervale de numere reale.",
+        "Vom identifica intervalele și vom rezolva cerința pas cu pas.",
+        "Vom verifica dacă răspunsul este corect.",
+        "Vom recapitula ideile importante pentru a înțelege mai bine."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor care scrie pe tablă intervalele de numere reale.",
+          "naratiune": "Vom rezolva un exercițiu de tip Bac. În acest caz, trebuie să identificăm intervalele de numere reale și să le reprezentăm corect."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul arată rezolvarea pas cu pas pe tablă.",
+          "naratiune": "Vom analiza fiecare pas al rezolvării, pentru a înțelege cum se aplică metoda corect."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intervalele se definesc prin extremitățile lor.",
+        "Reprezentarea grafică este esențială pentru a înțelege intervalele."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Reprezentarea intervalelor de numere reale",
+        "enunt": "Scrieți intervalele de numere reale care corespund următoarelor descrieri: a) intervalul deschis între -2 și 3; b) intervalul închis între 1 și 5; c) intervalul deschis la stânga și închis la dreapta între -1 și 2.",
+        "rezolvare": [
+          "a) Intervalul deschis între -2 și 3 se notează (-2, 3).",
+          "b) Intervalul închis între 1 și 5 se notează [1, 5].",
+          "c) Intervalul deschis la stânga și închis la dreapta între -1 și 2 se notează (-1, 2]."
+        ],
+        "raspuns": "a) (-2, 3); b) [1, 5]; c) (-1, 2]"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele intervale este deschis la stânga și închis la dreapta?",
+        "variante": [
+          "A) (-3, 4]",
+          "B) [2, 5)",
+          "C) (-1, 2]"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Varianta corectă este C) (-1, 2], deoarece paranteza deschisă la stânga indică că -1 nu aparține intervalului, iar paranteza închisă la dreapta indică că 2 aparține intervalului."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l04/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l04/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l04/m1-l04-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l04/m1-l04-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l04/m1-l04-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 4,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 4,
+        "titluLectie": "Intervale de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T15:04:55.544Z"
+      }
+    },
+    {
+      "id": "m1-l04-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Intervale de numere reale - Bac și greșeli",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom învăța cum să definim intervale de numere reale",
+        "Vom vedea cum se reprezintă intervalele pe axa numerelor",
+        "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac",
+        "Vom rezolva un exemplu complet pentru a înțelege cum se aplică"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Axa numerelor cu intervale desenate",
+          "naratiune": "Un interval este o mulțime de numere reale cuprinse între două valori. De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele."
+        },
+        {
+          "numar": 2,
+          "vizual": "Exemplu de intervale desenate pe axa numerelor",
+          "naratiune": "Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității. De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intervalul [a, b] include capetele a și b",
+        "Intervalul (a, b) nu include capetele a și b"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Rezolvare exemplu de interval",
+        "enunt": "Scrieți intervalul care conține toate numerele reale mai mari decât -2 și mai mici decât 3.",
+        "rezolvare": [
+          "Identificăm capetele intervalului: -2 și 3",
+          "Deoarece numerele sunt mai mari decât -2 și mai mici decât 3, folosim paranteze rotunde pentru ambele capete"
+        ],
+        "raspuns": "(−2, 3)"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este intervalul corect pentru numerele mai mari decât -2 și mai mici decât 3?",
+        "variante": [
+          "A) [−2, 3]",
+          "B) (−2, 3]",
+          "C) (−2, 3)"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Intervalul trebuie să includă numere mai mari decât -2 și mai mici decât 3. Paranteza rotundă la -2 indică că -2 nu este inclus, iar paranteza rotundă la 3 indică că 3 nu este inclus."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l04/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l04/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l04/m1-l04-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l04/m1-l04-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l04/m1-l04-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 4,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 4,
+        "titluLectie": "Intervale de numere reale",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T15:12:21.987Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T15:12:21.987Z",
+    "necesitaVerificareUmana": true
+  }
+}

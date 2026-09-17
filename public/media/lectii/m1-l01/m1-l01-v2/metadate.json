@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l01",
+  "videoId": "m1-l01-v2",
+  "modul": 1,
+  "numarLectie": 1,
+  "numarVideo": 2,
+  "titluLectie": "Mulțimi de numere și operații cu numere reale",
+  "titluVideo": "Operații cu numere reale",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

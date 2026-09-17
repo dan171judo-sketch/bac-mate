@@ -1,0 +1,373 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l08",
+  "modul": 1,
+  "numarLectie": 8,
+  "titlu": "Operații cu mulțimi",
+  "slugContinut": "operatii-cu-multimi",
+  "status": "generat-neverificat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l08-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Operații cu mulțimi - Introducere",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În matematică, mulțimile sunt seturi de elemente distincte. Pentru a înțelege cum se pot combina, trebuie să ne gândim la ele ca la colecții de obiecte. De exemplu, dacă avem două colecții de fructe, una cu mere și una cu pere, putem studia cum se pot uni, intersecta sau diferenția aceste colecții. Aceste operații sunt esențiale pentru a rezolva probleme complexe, inclusiv cele de tip Bac. În această lecție, vom explora cele trei operații principale: reuniunea, intersecția și diferența.",
+        "Reuniunea a două mulțimi este operația care combină toate elementele din ambele mulțimi, fără a le repeta. De exemplu, dacă avem mulțimile A = {1, 2, 3} și B = {2, 3, 4}, reuniunea lor este {1, 2, 3, 4}. Acest proces implică scrierea tuturor elementelor din ambele mulțimi și eliminarea duplicatelor. Este important să reținem că într-o mulțime, fiecare element este unic, deci nu putem avea două copii ale aceluiași element. Acest lucru este esențial pentru a evita greșeli în rezolvarea problemelor de tip Bac.",
+        "Intersecția a două mulțimi este mulțimea elementelor care aparțin amânduror mulțimilor. În cazul mulțimilor A = {1, 2, 3} și B = {2, 3, 4}, intersecția lor este {2, 3}. Acest concept este important pentru a identifica elementele comune între mulțimi, ceea ce este frecvent în problemele de logică. Este esențial să reținem că intersecția nu include elemente care aparțin doar unei singure mulțimi, ci doar cele care sunt comune.",
+        "Diferența a două mulțimi este mulțimea elementelor care aparțin primei mulțimi, dar nu aparțin celei de a doua. În cazul mulțimilor A = {1, 2, 3} și B = {2, 3, 4}, diferența A \\ B este {1}. Acest concept este util pentru a elimina elemente inutile dintr-o mulțime, ceea ce este frecvent în problemele de tip Bac. Este important să reținem că diferența nu include elemente din a doua mulțime, ci doar cele din prima care nu sunt prezentă în a doua.",
+        "Aceste operații sunt fundamentale pentru a înțelege cum funcționează mulțimile în matematică și sunt esențiale pentru a rezolva probleme complexe, inclusiv cele de tip Bac. Prin înțelegerea corectă a reuniunii, intersecției și diferenței, elevii pot evita greșeli comune și pot rezolva probleme cu mai multă ușurință. Este important să practicăm aceste concepte prin exerciții și probleme de tip Bac, pentru a ne asigura că înțelegem perfect fiecare pas.",
+        "În concluzie, operațiile cu mulțimi sunt esențiale pentru a dezvolta gândirea logică și pentru a rezolva probleme complexe în matematică. Prin înțelegerea corectă a reuniunii, intersecției și diferenței, elevii pot evita greșeli comune și pot rezolva probleme cu mai multă ușurință. Este important să practicăm aceste concepte prin exerciții și probleme de tip Bac, pentru a ne asigura că înțelegem perfect fiecare pas."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu două mulțimi reprezentate prin cercuri Venn",
+          "naratiune": "Vom începe cu reuniunea, care este toate elementele din ambele mulțimi."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu două cercuri Venn intersectate",
+          "naratiune": "Intersecția este elementul comun dintre cele două mulțimi."
+        },
+        {
+          "numar": 3,
+          "vizual": "Imagine cu două cercuri Venn, unul inclus în altul",
+          "naratiune": "Diferența este elementul din prima mulțime care nu aparține celei de a doua."
+        },
+        {
+          "numar": 4,
+          "vizual": "Imagine cu simbolurile matematice ale operațiilor",
+          "naratiune": "Vom folosi simbolurile matematice pentru a reprezenta aceste operații."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reuniunea este toate elementele din ambele mulțimi",
+        "Intersecția este elementul comun dintre cele două mulțimi"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Exemplu de reuniune",
+        "enunt": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∪ B.",
+        "rezolvare": [
+          "Pasul 1: Scriem toate elementele din A și B",
+          "Pasul 2: Combinăm elementele fără a repeta",
+          "Pasul 3: Obținem mulțimea {1, 2, 3, 4}"
+        ],
+        "raspuns": "{1, 2, 3, 4}"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este reuniunea mulțimilor A = {1, 2} și B = {2, 3}?",
+        "variante": [
+          "A) {1, 2, 3}",
+          "B) {1, 2}",
+          "C) {2, 3}"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Reuniunea este toate elementele din ambele mulțimi, deci {1, 2, 3}."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l08/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l08/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l08/m1-l08-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l08/m1-l08-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l08/m1-l08-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 8,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 8,
+        "titluLectie": "Operații cu mulțimi",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-10T11:16:31.084Z",
+        "generatorVersion": "bac-mate-video-grounded-v6",
+        "sourceHash": "92c050b2f7429001e8e8f918344c597a25919742f9df25937fe0a53424e075eb",
+        "grounded": true,
+        "autoDurata": true
+      },
+      "metrici": {
+        "cuvinteScenariu": 449,
+        "durataEstimataMinute": 3.68,
+        "durataTintaMinute": 4,
+        "cuvinteMin": 440,
+        "cuvinteTinta": 500,
+        "cuvinteMax": 570,
+        "verificatDurataV6": true
+      }
+    },
+    {
+      "id": "m1-l08-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Operații cu mulțimi: reguli și metoda",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu regulile de bază ale operațiilor cu mulțimi.",
+        "Vom învăța cum să aplicăm corect aceste reguli.",
+        "Vom rezolva un exemplu pas cu pas.",
+        "Vom verifica rapid pentru a ne asigura că am înțeles."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor desenează două cercuri pe tablă, reprezentând mulțimile A și B.",
+          "naratiune": "Vom începe cu operațiile de reuniune, intersecție și diferență. Acestea sunt cele mai frecvente în subiectele de Bac."
+        },
+        {
+          "numar": 2,
+          "vizual": "Profesorul desenează un diagramă Venn cu trei cercuri, A, B și C.",
+          "naratiune": "Vom vedea cum se aplică regulile în cazuri mai complexe, cum ar fi reuniunea a trei mulțimi."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reuniunea este mulțimea cu toate elementele din ambele mulțimi.",
+        "Diferența este mulțimea elementelor din prima mulțime care nu sunt în a doua."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul reuniunii și diferenței de mulțimi",
+        "enunt": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A \\ B.",
+        "rezolvare": [
+          "Pasul 1: A ∪ B = {1, 2, 3, 4} (toate elementele din ambele mulțimi).",
+          "Pasul 2: A \\ B = {1} (elementele din A care nu sunt în B)."
+        ],
+        "raspuns": "A ∪ B = {1, 2, 3, 4} și A \\ B = {1}"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+        "variante": [
+          "A) {1, 2, 3, 4}",
+          "B) {2, 3}",
+          "C) {1, 4}"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Reuniunea include toate elementele din ambele mulțimi, deci răspunsul corect este A) {1, 2, 3, 4}."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l08/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l08/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l08/m1-l08-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l08/m1-l08-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l08/m1-l08-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 8,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 8,
+        "titluLectie": "Operații cu mulțimi",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T17:55:46.851Z"
+      }
+    },
+    {
+      "id": "m1-l08-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Operații cu mulțimi - Intersecție",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o mulțime A și o mulțime B.",
+        "Vom afla intersecția lor.",
+        "Vom folosi simbolul ∩.",
+        "Vom verifica dacă elementele sunt comune."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Două mulțimi A = {1, 2, 3} și B = {2, 3, 4}",
+          "naratiune": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla intersecția lor."
+        },
+        {
+          "numar": 2,
+          "vizual": "Intersecția mulțimilor A și B este {2, 3}",
+          "naratiune": "Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intersecția este mulțimea elementelor comune.",
+        "Simbolul ∩ reprezintă intersecția."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Intersecția mulțimilor A și B",
+        "enunt": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B.",
+        "rezolvare": [
+          "Pasul 1: Identificăm elementele comune dintre A și B.",
+          "Pasul 2: Scriem intersecția ca {2, 3}."
+        ],
+        "raspuns": "{2, 3}"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ?",
+        "variante": [
+          "A) {1, 2}",
+          "B) {2, 3}",
+          "C) {3, 4}"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Răspunsul corect este B) {2, 3} deoarece acestea sunt elementele comune dintre A și B."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l08/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l08/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l08/m1-l08-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l08/m1-l08-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l08/m1-l08-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 8,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 8,
+        "titluLectie": "Operații cu mulțimi",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T18:08:23.881Z"
+      }
+    },
+    {
+      "id": "m1-l08-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Operații cu mulțimi - Bac și greșeli comune",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom învăța cum se rezolvă exerciții de tip Bac cu operații cu mulțimi",
+        "Vom vedea ce greșeli fac elevii frecvent și cum să le evităm",
+        "Vom analiza un exemplu complet rezolvat pas cu pas",
+        "Vom face o verificare rapidă pentru a testa cunoștințele"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă operații cu mulțimi",
+          "naratiune": "Vom începe cu cele trei operații esențiale: reuniune, intersecție și diferență."
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul rezolvă un exercițiu pe caiet",
+          "naratiune": "Vom analiza un exercițiu de tip Bac și vom vedea greșelile comune în rezolvare."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Reuniunea este mulțimea cu toate elementele din ambele mulțimi",
+        "Diferența este mulțimea cu elementele din prima mulțime care nu sunt în a doua"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Exemplu de tip Bac",
+        "enunt": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Calculați A ∪ B și A - B.",
+        "rezolvare": [
+          "Reuniunea A ∪ B conține toate elementele din A și B: {1, 2, 3, 4}",
+          "Diferența A - B conține elementele din A care nu sunt în B: {1}"
+        ],
+        "raspuns": "{1, 2, 3, 4} și {1}"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Care este A ∪ B?",
+        "variante": [
+          "A) {1, 2, 3}",
+          "B) {2, 3, 4}",
+          "C) {1, 2, 3, 4}"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Reuniunea conține toate elementele din ambele mulțimi, deci răspunsul corect este C) {1, 2, 3, 4}."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l08/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l08/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l08/m1-l08-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l08/m1-l08-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l08/m1-l08-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 8,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 8,
+        "titluLectie": "Operații cu mulțimi",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T18:14:56.086Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "versiuneGenerator": "bac-mate-video-grounded-v6",
+    "grounded": true,
+    "autoDurata": true,
+    "sourceHash": "92c050b2f7429001e8e8f918344c597a25919742f9df25937fe0a53424e075eb",
+    "dataGenerare": "2026-09-10T11:16:31.084Z",
+    "necesitaVerificareUmana": true
+  }
+}

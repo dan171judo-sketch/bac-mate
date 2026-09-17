@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l03",
+  "modul": 1,
+  "numarLectie": 3,
+  "titlu": "Modulul unui număr real",
+  "slugContinut": "modulul-unui-numar-real",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Modulul unui număr real”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l03-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Modulul unui număr real",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă modulul unui număr?",
+        "Cum se calculează modulul unui număr negativ?",
+        "Ce se întâmplă cu modulul unui număr pozitiv?",
+        "De ce este important să știm modulul unui număr?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un număr real pe axa numerelor",
+          "naratiune": "Modulul unui număr real este distanța de la origine până la acel număr pe axa numerelor. Deci, modulul este întotdeauna pozitiv."
+        },
+        {
+          "numar": 2,
+          "vizual": "Exemplu cu numere pozitive și negative",
+          "naratiune": "Dacă numărul este pozitiv, modulul este acel număr. Dacă numărul este negativ, modulul este opusul lui, adică se schimbă semnul."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Modulul este întotdeauna pozitiv",
+        "Modulul unui număr negativ este opusul lui"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul modulului unui număr negativ",
+        "enunt": "Calculați |−7|",
+        "rezolvare": [
+          "Pentru numărul negativ, modulul este opusul lui.",
+          "|−7| = 7"
+        ],
+        "raspuns": "7"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este modulul numărului −5?",
+        "variante": [
+          "A) −5",
+          "B) 5",
+          "C) 0"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Modulul unui număr negativ este opusul lui, deci |−5| = 5."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l03/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l03/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l03/m1-l03-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l03/m1-l03-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l03/m1-l03-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 3,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 3,
+        "titluLectie": "Modulul unui număr real",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:31:16.714Z"
+      }
+    },
+    {
+      "id": "m1-l03-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Modulul unui număr real",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția modulului",
+        "Vom vedea cum se calculează modulul unui număr",
+        "Vom învăța cum să rezolvăm exerciții de tip Bac",
+        "Vom învăța cum să folosim proprietățile modulului"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Pe ecran apare definiția modulului",
+          "naratiune": "Modulul unui număr real este distanța dintre număr și zero pe axa numerelor. Deci, dacă numărul este pozitiv, modulul este același cu numărul. Dacă numărul este negativ, modulul este opusul lui."
+        },
+        {
+          "numar": 2,
+          "vizual": "Pe ecran apare un exemplu de calcul",
+          "naratiune": "Vom calcula modulul lui -5. Deoarece -5 este negativ, modulul este opusul lui, adică 5."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Modulul unui număr pozitiv este acel număr",
+        "Modulul unui număr negativ este opusul lui"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul modulului unui număr",
+        "enunt": "Calculați modulul numărului -7",
+        "rezolvare": [
+          "Pentru numărul -7, care este negativ, modulul este opusul lui.",
+          "Deci, modulul lui -7 este 7."
+        ],
+        "raspuns": "7"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este modulul numărului -3?",
+        "variante": [
+          "A) -3",
+          "B) 3",
+          "C) 0"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Modulul unui număr negativ este opusul lui, deci modulul lui -3 este 3."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l03/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l03/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l03/m1-l03-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l03/m1-l03-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l03/m1-l03-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 3,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 3,
+        "titluLectie": "Modulul unui număr real",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:35:06.700Z"
+      }
+    },
+    {
+      "id": "m1-l03-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Modulul unui număr real",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția modulului",
+        "Vom vedea cum se calculează modulul unui număr",
+        "Vom rezolva un exercițiu de tip Bac",
+        "Vom verifica dacă răspunsul este corect"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un număr real pe axa numerelor",
+          "naratiune": "Modulul unui număr real este distanța de la origine până la acel număr. Deci, modulul unui număr pozitiv este acel număr, iar modulul unui număr negativ este opusul lui."
+        },
+        {
+          "numa": 2,
+          "vizual": "Calculul modulului unui număr negativ",
+          "naratiune": "Pentru un număr negativ, modulul este opusul lui. De exemplu, modulul lui -5 este 5."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Modulul unui număr pozitiv este acel număr",
+        "Modulul unui număr negativ este opusul lui"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul modulului unui număr",
+        "enunt": "Calculați modulul numărului -3,5.",
+        "rezolvare": [
+          "Pentru numărul -3,5, care este negativ, modulul este opusul lui.",
+          "Deci, modulul lui -3,5 este 3,5."
+        ],
+        "raspuns": "3,5"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este modulul numărului -4?",
+        "variante": [
+          "A) -4",
+          "B) 4",
+          "C) 0"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Modulul unui număr negativ este opusul lui, deci modulul lui -4 este 4."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l03/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l03/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l03/m1-l03-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l03/m1-l03-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l03/m1-l03-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 3,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 3,
+        "titluLectie": "Modulul unui număr real",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:40:03.659Z"
+      }
+    },
+    {
+      "id": "m1-l03-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Modulul unui număr real - Bac și greșeli",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom învăța despre modulul unui număr real.",
+        "Vom vedea cum se calculează modulul unui număr.",
+        "Vom analiza greșelile frecvente în rezolvarea problemelor de tip Bac.",
+        "Vom rezolva un exemplu complet pentru a înțelege mai bine."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește dintr-o carte de matematică.",
+          "naratiune": "Modulul unui număr real este o valoare pozitivă egală cu numărul dacă este pozitiv, și egală cu opusul numărului dacă este negativ."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un profesor care desenează pe tablă un grafic cu modulul unui număr.",
+          "naratiune": "Vom vedea cum se aplică definiția modulului în practică și cum să evităm greșelile comune."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Modulul unui număr este întotdeauna pozitiv sau zero.",
+        "Pentru numerele negative, modulul este opusul lor."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul modulului unui număr negativ",
+        "enunt": "Calculați |−7|.",
+        "rezolvare": [
+          "Pentru numărul negativ −7, modulul este opusul lui, adică 7.",
+          "Deci, |−7| = 7."
+        ],
+        "raspuns": "7"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este modulul numărului −5?",
+        "variante": [
+          "A) −5",
+          "B) 5",
+          "C) 0"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Modulul unui număr negativ este opusul lui, deci |−5| = 5."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l03/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l03/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l03/m1-l03-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l03/m1-l03-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l03/m1-l03-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 3,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 3,
+        "titluLectie": "Modulul unui număr real",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T14:46:13.999Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T14:46:13.999Z",
+    "necesitaVerificareUmana": true
+  }
+}

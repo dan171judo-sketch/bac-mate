@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l08",
+    "modul": 1,
+    "numarLectie": 8,
+    "titlu": "Operații cu mulțimi",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l08-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Operații cu mulțimi - Intersecție",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu mulțimi - Intersecție",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu mulțimi - Intersecție",
+      "naratiune": "Începem cu o mulțime A și o mulțime B.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu mulțimi - Intersecție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu mulțimi - Intersecție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o mulțime A și o mulțime B.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102535,
+      "procentDurata": 10.2535
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}",
+      "subtitlu": "Două mulțimi A = {1, 2, 3} și B = {2, 3, 4}",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla…",
+      "naratiune": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla intersecția lor.",
+      "vizual": "Două mulțimi A = {1, 2, 3} și B = {2, 3, 4}",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Vom afla intersecția lor.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102535,
+      "endProcent": 0.20507,
+      "procentDurata": 10.2535
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Intersecția mulțimilor A și B este mulțimea formată…",
+      "subtitlu": "Intersecția mulțimilor A și B este {2, 3}",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Intersecția mulțimilor A și B este mulțimea formată din ele…",
+      "naratiune": "Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}.",
+      "vizual": "Intersecția mulțimilor A și B este {2, 3}",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.20507,
+      "endProcent": 0.284819,
+      "procentDurata": 7.9749
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o mulțime A și o mulțime B.",
+      "naratiune": "Începem cu o mulțime A și o mulțime B. Vom afla intersecția lor. Vom folosi simbolul ∩. Vom verifica dacă elementele sunt comune.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o mulțime A și o mulțime B.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom afla intersecția lor.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom folosi simbolul ∩.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă elementele sunt comune.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.284819,
+      "endProcent": 0.415836,
+      "procentDurata": 13.1017
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Intersecția mulțimilor A și B",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "{2, 3}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B. Pasul 1: Identificăm elementele comune dintre A și B. Pasul 2: Scriem intersecția ca {2, 3}. Răspunsul final este {2, 3}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Identificăm elementele comune dintre A și B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Scriem intersecția ca {2, 3}.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: {2, 3}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.415836,
+      "endProcent": 0.658217,
+      "procentDurata": 24.2381
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) {2, 3}",
+      "naratiune": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ? A) {1, 2} B) {2, 3} C) {3, 4} Răspunsul corect este B) {2, 3} deoarece acestea sunt elementele comune dintre A și B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {1, 2}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {2, 3}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {3, 4}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) {2, 3}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.658217,
+      "endProcent": 0.897465,
+      "procentDurata": 23.9248
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intersecția este mulțimea elementelor comune.",
+      "naratiune": "Intersecția este mulțimea elementelor comune. Simbolul ∩ reprezintă intersecția.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intersecția este mulțimea elementelor comune.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Simbolul ∩ reprezintă intersecția.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897465,
+      "endProcent": 1,
+      "procentDurata": 10.2535
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu mulțimi - Intersecție",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Operații cu mulțimi”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu mulțimi - Intersecție",
+      "naratiune": "Începem cu o mulțime A și o mulțime B.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu mulțimi - Intersecție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu mulțimi - Intersecție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o mulțime A și o mulțime B.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.102535,
+      "procentDurata": 10.2535
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}",
+      "subtitlu": "Două mulțimi A = {1, 2, 3} și B = {2, 3, 4}",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla…",
+      "naratiune": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}. Vom afla intersecția lor.",
+      "vizual": "Două mulțimi A = {1, 2, 3} și B = {2, 3, 4}",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Avem două mulțimi: A = {1, 2, 3} și B = {2, 3, 4}.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Vom afla intersecția lor.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.102535,
+      "endProcent": 0.20507,
+      "procentDurata": 10.2535
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Intersecția mulțimilor A și B este mulțimea formată…",
+      "subtitlu": "Intersecția mulțimilor A și B este {2, 3}",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Intersecția mulțimilor A și B este mulțimea formată din ele…",
+      "naratiune": "Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}.",
+      "vizual": "Intersecția mulțimilor A și B este {2, 3}",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Intersecția mulțimilor A și B este mulțimea formată din elementele comune, adică {2, 3}.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.20507,
+      "endProcent": 0.284819,
+      "procentDurata": 7.9749
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o mulțime A și o mulțime B.",
+      "naratiune": "Începem cu o mulțime A și o mulțime B. Vom afla intersecția lor. Vom folosi simbolul ∩. Vom verifica dacă elementele sunt comune.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o mulțime A și o mulțime B.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom afla intersecția lor.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom folosi simbolul ∩.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom verifica dacă elementele sunt comune.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.284819,
+      "endProcent": 0.415836,
+      "procentDurata": 13.1017
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Intersecția mulțimilor A și B",
+      "subtitlu": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "{2, 3}",
+      "naratiune": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B. Pasul 1: Identificăm elementele comune dintre A și B. Pasul 2: Scriem intersecția ca {2, 3}. Răspunsul final este {2, 3}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie A = {1, 2, 3} și B = {2, 3, 4}. Aflați A ∩ B.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Identificăm elementele comune dintre A și B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Scriem intersecția ca {2, 3}.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: {2, 3}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.415836,
+      "endProcent": 0.658217,
+      "procentDurata": 24.2381
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) {2, 3}",
+      "naratiune": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ? A) {1, 2} B) {2, 3} C) {3, 4} Răspunsul corect este B) {2, 3} deoarece acestea sunt elementele comune dintre A și B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Ce este A ∩ B dacă A = {1, 2, 3} și B = {2, 3, 4} ?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) {1, 2}",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) {2, 3}",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) {3, 4}",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) {2, 3}",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.658217,
+      "endProcent": 0.897465,
+      "procentDurata": 23.9248
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Intersecția este mulțimea elementelor comune.",
+      "naratiune": "Intersecția este mulțimea elementelor comune. Simbolul ∩ reprezintă intersecția.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Intersecția este mulțimea elementelor comune.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Simbolul ∩ reprezintă intersecția.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.897465,
+      "endProcent": 1,
+      "procentDurata": 10.2535
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-08.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.558Z"
+  }
+}

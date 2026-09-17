@@ -1,0 +1,7 @@
+Lectura grafică este o metodă esențială pentru Bac.
+
+În examen, se pot întreba despre intersecții, valori maxime, domenii de definire.
+
+Unele greșeli sunt frecvente și trebuie evitate.
+
+Vom analiza un exemplu de tip Bac.

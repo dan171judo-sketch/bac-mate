@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definirea și clasificarea intervalelor de numere reale",
+  "descriere": "Lecția introduce conceptul de interval în mulțimea numerelor reale, precum și modurile de exprimare a acestora.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe despre mulțimea numerelor reale",
+    "Reprezentarea numerelor reale pe axa numerelor",
+    "Operații cu intervale"
+  ],
+  "obiective": [
+    "Să definească intervalul de numere reale",
+    "Să clasifice intervalele în funcție de extremități",
+    "Să identifice intervalele deschise, închise și semiînchise",
+    "Să folosească notația intervalului în exerciții simple"
+  ],
+  "termeniCheie": [
+    "interval deschis",
+    "interval închis",
+    "interval semiînchis",
+    "reprezentare grafică"
+  ]
+}

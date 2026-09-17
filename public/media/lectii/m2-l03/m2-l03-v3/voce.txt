@@ -1,0 +1,7 @@
+Începem cu o funcție simplă
+
+Vom identifica domeniul
+
+Vom determina codomeniul
+
+Vom găsi imaginea funcției

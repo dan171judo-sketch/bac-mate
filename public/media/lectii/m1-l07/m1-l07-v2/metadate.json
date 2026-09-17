@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l07",
+  "videoId": "m1-l07-v2",
+  "modul": 1,
+  "numarLectie": 7,
+  "numarVideo": 2,
+  "titluLectie": "Negație, conjuncție, disjuncție și implicație",
+  "titluVideo": "Negație, conjuncție, disjuncție și implicație",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

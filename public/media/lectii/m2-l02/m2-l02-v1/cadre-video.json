@@ -1,0 +1,627 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l02",
+    "modul": 2,
+    "numarLectie": 2,
+    "titlu": "Noțiunea de funcție",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l02-v1",
+    "numar": 1,
+    "rol": "intuitie-si-concept",
+    "titlu": "Noțiunea de funcție",
+    "durataTintaMinute": 4
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Noțiunea de funcție",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Noțiunea de funcție",
+      "naratiune": "Ce înseamnă o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Noțiunea de funcție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Noțiunea de funcție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09179,
+      "procentDurata": 9.179
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, unde f…",
+      "subtitlu": "Un grafic cu două variabile x și y",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, unde fiecare e…",
+      "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulțime.",
+      "vizual": "Un grafic cu două variabile x și y",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulț…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.09179,
+      "endProcent": 0.209077,
+      "procentDurata": 11.7287
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru fiecare x, funcția ne dă un singur f(x)",
+      "subtitlu": "Un tabel cu valori x și f(x)",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru fiecare x, funcția ne dă un singur f(x). Nu există d…",
+      "naratiune": "Pentru fiecare x, funcția ne dă un singur f(x). Nu există două valori ale lui f(x) pentru același x.",
+      "vizual": "Un tabel cu valori x și f(x)",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru fiecare x, funcția ne dă un singur f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Nu există două valori ale lui f(x) pentru același x.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.209077,
+      "endProcent": 0.305966,
+      "procentDurata": 9.6889
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă o funcție?",
+      "naratiune": "Ce înseamnă o funcție? Cum se definește o funcție? De ce este importantă funcția? Cum se folosește în probleme?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "De ce este importantă funcția?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum se folosește în probleme?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.305966,
+      "endProcent": 0.402856,
+      "procentDurata": 9.6889
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determină dacă relația este funcție",
+      "subtitlu": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da",
+      "naratiune": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție? Verificăm dacă fiecare element din A are un singur element în B. Elementele 1, 2, 3 din A au fiecare un element în B. R este o funcție. Răspunsul final este Da.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Verificăm dacă fiecare element din A are un singur element în B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Elementele 1, 2, 3 din A au fiecare un element în B.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. R este o funcție.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.402856,
+      "endProcent": 0.719531,
+      "procentDurata": 31.6675
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da",
+      "naratiune": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție? A) Da B) Nu C) Nu știu Da, pentru fiecare x din A, există un singur f(x) în B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu știu",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.719531,
+      "endProcent": 0.90821,
+      "procentDurata": 18.8679
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție leagă două mulțimi prin o regulă.",
+      "naratiune": "O funcție leagă două mulțimi prin o regulă. Fiecare x are un singur f(x).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție leagă două mulțimi prin o regulă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare x are un singur f(x).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.90821,
+      "endProcent": 1,
+      "procentDurata": 9.179
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Noțiunea de funcție",
+      "subtitlu": "Înțelegem ideea principală",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Noțiunea de funcție",
+      "naratiune": "Ce înseamnă o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Noțiunea de funcție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Noțiunea de funcție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.09179,
+      "procentDurata": 9.179
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, unde f…",
+      "subtitlu": "Un grafic cu două variabile x și y",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, unde fiecare e…",
+      "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulțime.",
+      "vizual": "Un grafic cu două variabile x și y",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulț…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.09179,
+      "endProcent": 0.209077,
+      "procentDurata": 11.7287
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru fiecare x, funcția ne dă un singur f(x)",
+      "subtitlu": "Un tabel cu valori x și f(x)",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru fiecare x, funcția ne dă un singur f(x). Nu există d…",
+      "naratiune": "Pentru fiecare x, funcția ne dă un singur f(x). Nu există două valori ale lui f(x) pentru același x.",
+      "vizual": "Un tabel cu valori x și f(x)",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru fiecare x, funcția ne dă un singur f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Nu există două valori ale lui f(x) pentru același x.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.209077,
+      "endProcent": 0.305966,
+      "procentDurata": 9.6889
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă o funcție?",
+      "naratiune": "Ce înseamnă o funcție? Cum se definește o funcție? De ce este importantă funcția? Cum se folosește în probleme?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "De ce este importantă funcția?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum se folosește în probleme?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.305966,
+      "endProcent": 0.402856,
+      "procentDurata": 9.6889
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determină dacă relația este funcție",
+      "subtitlu": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da",
+      "naratiune": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție? Verificăm dacă fiecare element din A are un singur element în B. Elementele 1, 2, 3 din A au fiecare un element în B. R este o funcție. Răspunsul final este Da.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie mulțimea A = {1, 2, 3} și B = {a, b}. Relația R = {(1,a), (2,a), (3,b)}. Este R o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Verificăm dacă fiecare element din A are un singur element în B.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Elementele 1, 2, 3 din A au fiecare un element în B.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. R este o funcție.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.402856,
+      "endProcent": 0.719531,
+      "procentDurata": 31.6675
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da",
+      "naratiune": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție? A) Da B) Nu C) Nu știu Da, pentru fiecare x din A, există un singur f(x) în B.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie A = {1, 2}, B = {a, b}. Relația R = {(1,a), (2,a)}. Este R o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu știu",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.719531,
+      "endProcent": 0.90821,
+      "procentDurata": 18.8679
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție leagă două mulțimi prin o regulă.",
+      "naratiune": "O funcție leagă două mulțimi prin o regulă. Fiecare x are un singur f(x).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție leagă două mulțimi prin o regulă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare x are un singur f(x).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.90821,
+      "endProcent": 1,
+      "procentDurata": 9.179
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.613Z"
+  }
+}

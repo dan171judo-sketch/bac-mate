@@ -1,0 +1,18 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:01:00.000
+Funcția de gradul I este o funcție liniară, care are graficul o dreaptă. Aceasta se poate scrie sub forma f(x) = ax + b, unde a și b sunt numere reale.
+
+2
+00:01:00.000 --> 00:02:00.000
+Pentru a construi graficul, putem folosi două puncte. De exemplu, dacă luăm x = 0, obținem f(0) = b, deci punctul (0, b). Apoi, dacă luăm x = 1, obținem f(1) = a + b, deci punctul (1, a + b).
+
+3
+00:02:00.000 --> 00:03:00.000
+După ce avem cele două puncte, le unim cu o dreaptă. Astfel, obținem graficul funcției de gradul I.
+
+4
+00:03:00.000 --> 00:04:00.000
+Această dreaptă este graficul funcției de gradul I. Este important să știm cum să o construim pentru a rezolva probleme de tip Bac.
+

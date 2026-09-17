@@ -1,0 +1,299 @@
+{
+  "versiuneSchema": 1,
+  "id": "m3-l03",
+  "modul": 3,
+  "numarLectie": 3,
+  "titlu": "Monotonia funcției de gradul I",
+  "slugContinut": "monotonia-functiei-de-gradul-i",
+  "status": "generat-neverificat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Monotonia funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m3-l03-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Monotonia funcției de gradul I",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă ca o funcție să fie crescătoare?",
+        "Cum se comportă graficul unei funcții crescătoare?",
+        "Ce se întâmplă cu o funcție descrescătoare?",
+        "Cum putem determina monotonia unei funcții de gradul I?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o dreaptă crescătoare",
+          "naratiune": "Vizualizăm o dreaptă care se ridică de la stânga la dreapta. Acesta este graficul unei funcții crescătoare."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu o dreaptă descrescătoare",
+          "naratiune": "Acum vedem o dreaptă care se coboară de la stânga la dreapta. Acesta este graficul unei funcții descrescătoare."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Funcția de gradul I este o funcție liniară, deci graficul ei este o dreaptă.",
+        "Monotonia funcției depinde de coeficientul a al funcției f(x) = ax + b."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determina monotonia funcției f(x) = -2x + 3",
+        "enunt": "Fie funcția f: R → R, f(x) = -2x + 3. Determina monotonia funcției.",
+        "rezolvare": [
+          "Calculăm coeficientul a = -2.",
+          "Deoarece a < 0, funcția este descrescătoare."
+        ],
+        "raspuns": "Funcția este descrescătoare."
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare sau descrescătoare?",
+        "variante": [
+          "A) Crescătoare",
+          "B) Descrescătoare",
+          "C) Constantă"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Coeficientul a = 4 > 0, deci funcția este crescătoare."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l03/video-1.mp4",
+        "audioUrl": "/videos/modul-3/m3-l03/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l03/m3-l03-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l03/m3-l03-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l03/m3-l03-v1/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 3,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 3,
+        "titluLectie": "Monotonia funcției de gradul I",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:50:21.518Z"
+      }
+    },
+    {
+      "id": "m3-l03-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Monotonia funcției de gradul I",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția funcției de gradul I",
+        "Vom vedea cum se comportă graficul acesteia",
+        "Vom înțelege ce înseamnă monotonia",
+        "Vom rezolva un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții de gradul I",
+          "naratiune": "Funcția de gradul I este de forma f(x) = ax + b. Graficul ei este o dreaptă. Monotonia se referă la modul în care funcția crește sau scade."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel cu valori și graficul corespunzător",
+          "naratiune": "Dacă a > 0, funcția este crescătoare. Dacă a < 0, funcția este descrescătoare. Dacă a = 0, funcția este constantă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Monotonia funcției de gradul I depinde de semnul coeficientului a",
+        "Dacă a > 0, funcția este crescătoare; dacă a < 0, funcția este descrescătoare"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determina monotonia funcției f(x) = -2x + 3",
+        "enunt": "Fie funcția f(x) = -2x + 3. Determina dacă este crescătoare, descrescătoare sau constantă.",
+        "rezolvare": [
+          "Identificăm coeficientul a: a = -2",
+          "Deoarece a < 0, funcția este descrescătoare"
+        ],
+        "raspuns": "Descrescătoare"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 4x - 5. Este funcția crescătoare, descrescătoare sau constantă?",
+        "variante": [
+          "A) Crescătoare",
+          "B) Descrescătoare",
+          "C) Constantă"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Coeficientul a = 4 > 0, deci funcția este crescătoare."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l03/video-2.mp4",
+        "audioUrl": "/videos/modul-3/m3-l03/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l03/m3-l03-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l03/m3-l03-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l03/m3-l03-v2/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 3,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 3,
+        "titluLectie": "Monotonia funcției de gradul I",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:56:02.289Z"
+      }
+    },
+    {
+      "id": "m3-l03-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Monotonia funcției de gradul I",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom studia cum se comportă o funcție de gradul I",
+        "Vom vedea cum se determină dacă este crescătoare sau descrescătoare",
+        "Vom folosi coeficientul pentru a concluziona",
+        "Vom rezolva un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Funcția f(x) = 2x + 3",
+          "naratiune": "Vom analiza funcția f(x) = 2x + 3. Coeficientul a este 2, care este pozitiv."
+        },
+        {
+          "numar": 2,
+          "vizual": "Graficul funcției f(x) = 2x + 3",
+          "naratiune": "Graficul este o dreaptă care crește de la stânga la dreapta, deci funcția este crescătoare."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Dacă a > 0, funcția este crescătoare",
+        "Dacă a < 0, funcția este descrescătoare"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea monotonicității",
+        "enunt": "Fie funcția f(x) = -4x + 5. Este funcția crescătoare sau descrescătoare?",
+        "rezolvare": [
+          "Identificăm coeficientul a = -4",
+          "Deoarece a < 0, funcția este descrescătoare"
+        ],
+        "raspuns": "Descrescătoare"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 3x - 2. Este funcția crescătoare sau descrescătoare?",
+        "variante": [
+          "A) Crescătoare",
+          "B) Descrescătoare",
+          "C) Constantă"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Coeficientul a = 3 > 0, deci funcția este crescătoare."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l03/video-3.mp4",
+        "audioUrl": "/videos/modul-3/m3-l03/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l03/m3-l03-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l03/m3-l03-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l03/m3-l03-v3/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 3,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 3,
+        "titluLectie": "Monotonia funcției de gradul I",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T17:00:56.152Z"
+      }
+    },
+    {
+      "id": "m3-l03-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l03/video-4.mp4",
+        "audioUrl": "/videos/modul-3/m3-l03/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-3/m3-l03/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-3/m3-l03/video-4.png"
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 3,
+        "titluLectie": "Monotonia funcției de gradul I"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T17:00:56.152Z",
+    "necesitaVerificareUmana": true
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l09",
+  "modul": 1,
+  "numarLectie": 9,
+  "titlu": "Inducția matematică",
+  "slugContinut": "inductia-matematica",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Inducția matematică”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l09-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Inducția matematică",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă să demonstrăm o propoziție pentru toate numerele naturale?",
+        "Cum putem face asta fără să verificăm toate numerele?",
+        "Ce se întâmplă dacă propoziția e adevărată pentru un număr, dar nu pentru următorul?",
+        "De ce este important să verificăm cazul inițial?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un șir de cutii cu numere 1, 2, 3, 4...",
+          "naratiune": "Să presupunem că vrem să demonstrăm că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2. Cum putem face asta fără să verificăm toate numerele?"
+        },
+        {
+          "numar": 2,
+          "vizual": "Un șir de cutii cu numere 1, 2, 3, 4... și un șir de cutii cu numere 1, 2, 3, 4...",
+          "naratiune": "Inducția matematică este ca un lanț de cutii. Dacă prima cutie e închisă (verificăm cazul n=1), și dacă fiecare cutie următoare e închisă dacă cea precedentă e închisă (presupunem adevărul pentru n=k), atunci toate cutiile sunt închise."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Inducția matematică este o metodă de demonstrație pentru toate numerele naturale.",
+        "Metoda are două pași: verificarea cazului inițial și demonstrarea pașului inductiv."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea formulei sumei numerelor naturale",
+        "enunt": "Demonstrează că pentru orice număr natural n, suma 1+2+...+n este egală cu n(n+1)/2.",
+        "rezolvare": [
+          "Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat.",
+          "Pasul 2: Presupunem adevărat pentru n=k, adică 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = k(k+1)/2 + (k+1) = (k+1)(k/2 + 1) = (k+1)(k+2)/2."
+        ],
+        "raspuns": "Adevărat pentru orice număr natural n."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este pasul inițial în demonstrația formulei sumei numerelor naturale?",
+        "variante": [
+          "A) n=0",
+          "B) n=1",
+          "C) n=2"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Pasul inițial este n=1, deoarece n este număr natural, iar cel mai mic număr natural este 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l09/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l09/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l09/m1-l09-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l09/m1-l09-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l09/m1-l09-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 9,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 9,
+        "titluLectie": "Inducția matematică",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:18:17.461Z"
+      }
+    },
+    {
+      "id": "m1-l09-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Inducția matematică: reguli și metodă",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Inducția matematică este o metodă de demonstrație folosită pentru propoziții care depind de un număr natural.",
+        "Pentru a demonstra o propoziție, trebuie să verificăm două pași esențiali.",
+        "Prima etapă este verificarea pentru n=1, apoi presupunem adevărat pentru n=k.",
+        "În al doilea pas, demonstrăm că este adevărat și pentru n=k+1."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă pașii inducției matematice",
+          "naratiune": "Pentru a demonstra o propoziție folosind inducția matematică, trebuie să verificăm două pași esențiali: pasul de bază și pasul de inducție."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev rezolvă un exercițiu de inducție pe caiet",
+          "naratiune": "În pasul de bază, verificăm dacă propoziția este adevărată pentru n=1. Apoi, presupunem că este adevărată pentru n=k și demonstrăm că este adevărată și pentru n=k+1."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Pasul de bază: verificăm pentru n=1",
+        "Pasul de inducție: demonstrăm pentru n=k+1 presupunând adevărat pentru n=k"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea egalității 1+2+...+n = n(n+1)/2",
+        "enunt": "Demonstrați că pentru orice număr natural n ≥ 1, 1+2+...+n = n(n+1)/2.",
+        "rezolvare": [
+          "Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat.",
+          "Pasul 2: Presupunem adevărat pentru n=k: 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = [k(k+1)/2] + (k+1) = (k+1)(k+2)/2. Adevărat."
+        ],
+        "raspuns": "Adevărat pentru orice n ≥ 1"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este pasul de bază în inducția matematică?",
+        "variante": [
+          "A) Verificăm pentru n=1",
+          "B) Demonstrația pentru n=k+1",
+          "C) Presupunem adevărat pentru n=k"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pasul de bază este verificarea pentru n=1, care este prima etapă a inducției matematice."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l09/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l09/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l09/m1-l09-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l09/m1-l09-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l09/m1-l09-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 9,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 9,
+        "titluLectie": "Inducția matematică",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:24:42.602Z"
+      }
+    },
+    {
+      "id": "m1-l09-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Inducția matematică - exercițiu de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu verificarea pentru n=1",
+        "Următorul pas este ipoteza de inducție",
+        "Trebuie să demonstrăm pentru n=k+1",
+        "În final, concluzia este demonstrată"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Elevul vede un exercițiu de demonstrare prin inducție",
+          "naratiune": "Vom demonstra că suma primelor n numere naturale pare este egală cu n(n+1)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul vede pașii de rezolvare ai exemplului",
+          "naratiune": "Vom aplica pașii inducției matematice pas cu pas"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Verificăm pentru n=1",
+        "Ipoteza de inducție este pentru n=k",
+        "Trebuie să demonstrăm pentru n=k+1"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Suma primelor n numere naturale pare",
+        "enunt": "Demonstrați că 2 + 4 + 6 + ... + 2n = n(n+1).",
+        "rezolvare": [
+          "Pasul 1: Verificăm pentru n=1. 2 = 1(1+1) → 2 = 2. Adevărat.",
+          "Pasul 2: Presupunem că pentru n=k, 2 + 4 + ... + 2k = k(k+1). Demonstrăm pentru n=k+1. Suma devine 2 + 4 + ... + 2k + 2(k+1) = k(k+1) + 2(k+1) = (k+1)(k + 2) = (k+1)((k+1)+1)."
+        ],
+        "raspuns": "Demonstrat cu inducția matematică."
+      },
+      "verificareRapida": {
+        "intrebare": "Ce pas este al doilea în inducția matematică?",
+        "variante": [
+          "A) Verificarea pentru n=1",
+          "B) Ipoteza de inducție",
+          "C) Demonstrația pentru n=k+1"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Al doilea pas este ipoteza de inducție, adică presupunerea că afirmația este adevărată pentru n=k."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l09/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l09/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l09/m1-l09-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l09/m1-l09-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l09/m1-l09-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 9,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 9,
+        "titluLectie": "Inducția matematică",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:28:56.002Z"
+      }
+    },
+    {
+      "id": "m1-l09-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Inducția matematică - cum se aplică corect",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Inducția matematică este o metodă de demonstrație importantă pentru Bac",
+        "Elevii adesea greșesc în pasul de bază sau în pasul inductiv",
+        "Este esențial să verificăm ambele pași",
+        "Vom rezolva un exercițiu de tip Bac cu explicații"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Elevul vede un exercițiu cu sume de numere naturale",
+          "naratiune": "Vom demonstra că 1+2+3+...+n = n(n+1)/2 folosind inducția matematică"
+        },
+        {
+          "numar": 2,
+          "vizual": "Elevul vede pașii de demonstrație",
+          "naratiune": "Vom verifica pasul de bază și apoi pasul inductiv"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Pasul de bază este verificarea pentru n=1",
+        "Pasul inductiv presupune demonstrarea pentru n=k+1"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Demonstrarea formulei sumei",
+        "enunt": "Demonstrați că 1+2+3+...+n = n(n+1)/2 pentru orice număr natural n ≥ 1",
+        "rezolvare": [
+          "Pasul 1: Verificăm pentru n=1. 1 = 1(1+1)/2 = 1. Adevărat.",
+          "Pasul 2: Presupunem adevărată pentru n=k: 1+2+...+k = k(k+1)/2. Demonstrăm pentru n=k+1: 1+2+...+k+(k+1) = [k(k+1)/2] + (k+1) = (k+1)(k+2)/2. Adevărat."
+        ],
+        "raspuns": "Demonstrat"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este pasul de bază în inducția matematică?",
+        "variante": [
+          "A) Verificarea pentru n=0",
+          "B) Verificarea pentru n=1",
+          "C) Verificarea pentru n=2"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Pasul de bază este verificarea pentru n=1, deoarece n ≥ 1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l09/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l09/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l09/m1-l09-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l09/m1-l09-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l09/m1-l09-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 9,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 9,
+        "titluLectie": "Inducția matematică",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T06:35:28.355Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T06:35:28.355Z",
+    "necesitaVerificareUmana": true
+  }
+}

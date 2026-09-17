@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l09",
+    "modul": 2,
+    "numarLectie": 9,
+    "titlu": "Paritate și imparitate",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l09-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Paritatea funcției f(x)=|x|",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Paritatea funcției f(x)=|x|",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Paritatea funcției f(x)=|x|",
+      "naratiune": "Ce înseamnă paritatea unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Paritatea funcției f(x)=|x|”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Paritatea funcției f(x)=|x|",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.107335,
+      "procentDurata": 10.7335
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a verifica dacă o funcție este pară sau impa…",
+      "subtitlu": "Imaginea unei funcții absolute pe axa x",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a verifica dacă o funcție este pară sau impară, treb…",
+      "naratiune": "Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x).",
+      "vizual": "Imaginea unei funcții absolute pe axa x",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.107335,
+      "endProcent": 0.250447,
+      "procentDurata": 14.3113
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Calculăm f(-x) înlocuind x cu -x în funcție",
+      "subtitlu": "Calculul f(-x) pentru funcția f(x)=|x|",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=…",
+      "naratiune": "Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=|-x|=|x|=f(x).",
+      "vizual": "Calculul f(-x) pentru funcția f(x)=|x|",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Calculăm f(-x) înlocuind x cu -x în funcție.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Așadar, f(-x)=|-x|=|x|=f(x).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.250447,
+      "endProcent": 0.310078,
+      "procentDurata": 5.963
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă paritatea unei funcții?",
+      "naratiune": "Ce înseamnă paritatea unei funcții? Cum se verifică paritatea unei funcții? Ce se întâmplă cu f(-x) în cazul funcției absolute? Ce concluzie putem trage despre paritatea funcției absolute?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică paritatea unei funcții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu f(-x) în cazul funcției absolute?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce concluzie putem trage despre paritatea funcției absolute?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.310078,
+      "endProcent": 0.477042,
+      "procentDurata": 16.6965
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea parității funcției f(x)=|x|",
+      "subtitlu": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este pară.",
+      "naratiune": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară. Pasul 1: Calculăm f(-x) înlocuind x cu -x în funcție: f(-x)=|-x|=|x|. Pasul 2: Comparăm f(-x) cu f(x). Deoarece |x|=f(x), rezultă că f(-x)=f(x). Răspunsul final este Funcția este pară..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Calculăm f(-x) înlocuind x cu -x în funcție: f(-x)=|-x|=|x|.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Comparăm f(-x) cu f(x). Deoarece |x|=f(x), rezultă că f(-x)=f(x).",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este pară.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477042,
+      "endProcent": 0.737627,
+      "procentDurata": 26.0584
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Pară",
+      "naratiune": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două? A) Pară B) Impară C) Nici una dintre cele două Deoarece f(-x)=f(x), funcția este pară.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Pară",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Impară",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nici una dintre cele două",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Pară",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.737627,
+      "endProcent": 0.892665,
+      "procentDurata": 15.5039
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu.",
+      "naratiune": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu. Funcția f(x)=|x| este pară deoarece f(-x)=f(x).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Funcția f(x)=|x| este pară deoarece f(-x)=f(x).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.892665,
+      "endProcent": 1,
+      "procentDurata": 10.7335
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Paritatea funcției f(x)=|x|",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Paritate și imparitate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Paritatea funcției f(x)=|x|",
+      "naratiune": "Ce înseamnă paritatea unei funcții?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Paritatea funcției f(x)=|x|”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Paritatea funcției f(x)=|x|",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.107335,
+      "procentDurata": 10.7335
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Pentru a verifica dacă o funcție este pară sau impa…",
+      "subtitlu": "Imaginea unei funcții absolute pe axa x",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Pentru a verifica dacă o funcție este pară sau impară, treb…",
+      "naratiune": "Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x).",
+      "vizual": "Imaginea unei funcții absolute pe axa x",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Pentru a verifica dacă o funcție este pară sau impară, trebuie să calculăm f(-x) și să vedem dacă este egal cu f(x) sau -f(x).",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.107335,
+      "endProcent": 0.250447,
+      "procentDurata": 14.3113
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Calculăm f(-x) înlocuind x cu -x în funcție",
+      "subtitlu": "Calculul f(-x) pentru funcția f(x)=|x|",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=…",
+      "naratiune": "Calculăm f(-x) înlocuind x cu -x în funcție. Așadar, f(-x)=|-x|=|x|=f(x).",
+      "vizual": "Calculul f(-x) pentru funcția f(x)=|x|",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Calculăm f(-x) înlocuind x cu -x în funcție.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "formula",
+          "text": "Așadar, f(-x)=|-x|=|x|=f(x).",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.250447,
+      "endProcent": 0.310078,
+      "procentDurata": 5.963
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce înseamnă paritatea unei funcții?",
+      "naratiune": "Ce înseamnă paritatea unei funcții? Cum se verifică paritatea unei funcții? Ce se întâmplă cu f(-x) în cazul funcției absolute? Ce concluzie putem trage despre paritatea funcției absolute?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce înseamnă paritatea unei funcții?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se verifică paritatea unei funcții?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă cu f(-x) în cazul funcției absolute?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Ce concluzie putem trage despre paritatea funcției absolute?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.310078,
+      "endProcent": 0.477042,
+      "procentDurata": 16.6965
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea parității funcției f(x)=|x|",
+      "subtitlu": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Funcția este pară.",
+      "naratiune": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară. Pasul 1: Calculăm f(-x) înlocuind x cu -x în funcție: f(-x)=|-x|=|x|. Pasul 2: Comparăm f(-x) cu f(x). Deoarece |x|=f(x), rezultă că f(-x)=f(x). Răspunsul final este Funcția este pară..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Se dă funcția f(x)=|x|. Verificați dacă este pară sau impară.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pasul 1: Calculăm f(-x) înlocuind x cu -x în funcție: f(-x)=|-x|=|x|.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pasul 2: Comparăm f(-x) cu f(x). Deoarece |x|=f(x), rezultă că f(-x)=f(x).",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Funcția este pară.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.477042,
+      "endProcent": 0.737627,
+      "procentDurata": 26.0584
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Pară",
+      "naratiune": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două? A) Pară B) Impară C) Nici una dintre cele două Deoarece f(-x)=f(x), funcția este pară.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Funcția f(x)=|x| este pară, impară sau nici una dintre cele două?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Pară",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Impară",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nici una dintre cele două",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Pară",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.737627,
+      "endProcent": 0.892665,
+      "procentDurata": 15.5039
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu.",
+      "naratiune": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu. Funcția f(x)=|x| este pară deoarece f(-x)=f(x).",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "formula-principala",
+          "text": "O funcție este pară dacă f(-x)=f(x) pentru orice x din domeniu.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "formula-principala",
+          "text": "Funcția f(x)=|x| este pară deoarece f(-x)=f(x).",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.892665,
+      "endProcent": 1,
+      "procentDurata": 10.7335
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-09.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.809Z"
+  }
+}

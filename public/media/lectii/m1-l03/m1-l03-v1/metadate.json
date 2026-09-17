@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l03",
+  "videoId": "m1-l03-v1",
+  "modul": 1,
+  "numarLectie": 3,
+  "numarVideo": 1,
+  "titluLectie": "Modulul unui număr real",
+  "titluVideo": "Modulul unui număr real",
+  "durataTintaMinute": 4,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

@@ -1,0 +1,7 @@
+Vom rezolva un exercițiu de tip Bac cu progresii geometrice
+
+Vom identifica termenii progresiei și vom aplica formula generală
+
+Vom calcula termenul cerut folosind relațiile dintre termeni
+
+Vom verifica dacă progresia este corectă

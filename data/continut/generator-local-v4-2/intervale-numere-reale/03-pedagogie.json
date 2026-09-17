@@ -1,0 +1,59 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea notatiei intervalului deschis cu cea a intervalului închis",
+      "deCeEsteGresit": "Aceste două tipuri de intervale se diferențiază prin includerea sau excluderea capetelor, iar confuzia poate duce la erori în reprezentarea grafică și în rezolvarea problemelor.",
+      "cumOEviti": "Repetați cu atenție notatiile și faceți exerciții de identificare a tipurilor de intervale."
+    },
+    {
+      "greseala": "Neglijarea reprezentării grafice în problemele care implică intervale",
+      "deCeEsteGresit": "Reprezentarea grafică este esențială pentru înțelegerea corectă a intervalelor și pentru verificarea soluțiilor.",
+      "cumOEviti": "Asigurați-vă că reprezentați întotdeauna intervalele pe axa numerelor."
+    },
+    {
+      "greseala": "Includerea unui capăt într-un interval deschis",
+      "deCeEsteGresit": "Intervalul deschis exclude ambele capete, iar includerea lor este o greșeală majoră.",
+      "cumOEviti": "Rețineți că parantezele rotunde indică excluderea valorilor."
+    },
+    {
+      "greseala": "Folosirea notatiei [a, b] pentru un interval semi-deschis",
+      "deCeEsteGresit": "Intervalul semi-deschis are un capăt inclus și altul exclus, iar notatia trebuie să reflecte acest lucru.",
+      "cumOEviti": "Verificați cu atenție dacă ambele capete sunt incluse sau nu."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Intervalul deschis exclude capetele, iar intervalul închis le include.",
+      "Notatiile (a, b), [a, b], [a, b), (a, b] sunt folosite pentru a defini tipurile de intervale.",
+      "Reprezentarea grafică este esențială pentru înțelegerea și rezolvarea problemelor cu intervale.",
+      "Intervalul poate fi definit prin două numere reale a și b, unde a < b."
+    ],
+    "formuleDeRetinut": [
+      "Notatia (a, b) reprezintă intervalul deschis.",
+      "Notatia [a, b] reprezintă intervalul închis.",
+      "Notatia [a, b) reprezintă intervalul semi-deschis cu capătul a inclus și b exclus.",
+      "Notatia (a, b] reprezintă intervalul semi-deschis cu capătul a exclus și b inclus."
+    ],
+    "checklistElev": [
+      "Verifică dacă capetele sunt incluse sau excluse într-un interval.",
+      "Reprezintă grafic fiecare tip de interval pe axa numerelor.",
+      "Identifică corect notatia corespunzătoare pentru fiecare tip de interval.",
+      "Asigură-te că ai reținut diferența între intervalele deschise și închise."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Intervalele de numere reale sunt un concept fundamental care apare frecvent în cerințele de matematică la Bacalaureat, mai ales în problemele legate de ecuații, inecuații și funcții.",
+    "tipuriCerinte": [
+      "Identificarea tipului de interval dintr-o notatie dată",
+      "Reprezentarea unui interval pe axa numerelor",
+      "Intersecția sau reuniunea a două intervale",
+      "Utilizarea intervalelor în rezolvarea unei inecuații"
+    ],
+    "strategie": [
+      "Învățați cu atenție notatiile și diferențele dintre tipurile de intervale.",
+      "Exercați reprezentarea grafică a intervalelor pentru a viza cerințele de tip desen sau interpretare vizuală.",
+      "Asociați intervalele cu inecuații și rezolvați probleme simple care implică acestea.",
+      "Verificați întotdeauna dacă capetele sunt incluse sau excluse într-un interval."
+    ]
+  }
+}

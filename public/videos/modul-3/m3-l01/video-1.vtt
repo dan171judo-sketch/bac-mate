@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:00.000
+Funcția f(x) = ax + b este o funcție liniară, care se reprezintă printr-o dreaptă în plan. Parametrul a este panta dreptei, iar b este coordonata y a punctului unde dreapta intersectează axa ordonatelor.
+
+2
+00:02:00.000 --> 00:04:00.000
+Pentru a înțelege mai bine, să luăm câteva valori ale lui x și să calculăm f(x). De exemplu, dacă a = 2 și b = 3, atunci f(0) = 3, f(1) = 5, f(2) = 7. Vom vedea că valorile cresc linear.
+

@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l01",
+    "modul": 1,
+    "numarLectie": 1,
+    "titlu": "Mulțimi de numere și operații cu numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l01-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Operații cu fracții și ordonare",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu fracții și ordonare",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu fracții și ordonare",
+      "naratiune": "Începem cu o fracție simplă",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu fracții și ordonare”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu fracții și ordonare",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o fracție simplă",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.098738,
+      "procentDurata": 9.8738
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom aduna fracțiile 1/2 și 1/3",
+      "subtitlu": "Un elev scrie pe tablă fracțiile 1/2 și 1/3",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "1/2",
+      "naratiune": "Vom aduna fracțiile 1/2 și 1/3",
+      "vizual": "Un elev scrie pe tablă fracțiile 1/2 și 1/3",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom aduna fracțiile 1/2 și 1/3",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.098738,
+      "endProcent": 0.131651,
+      "procentDurata": 3.2913
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a aduna fracțiile, trebuie să le aducem la a…",
+      "subtitlu": "Elevul adună fracțiile și obține 5/6",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a aduna fracțiile, trebuie să le aducem la același n…",
+      "naratiune": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor",
+      "vizual": "Elevul adună fracțiile și obține 5/6",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.131651,
+      "endProcent": 0.191991,
+      "procentDurata": 6.034
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o fracție simplă",
+      "naratiune": "Începem cu o fracție simplă Adunăm fracții cu numitori diferiți Comparam rezultatul cu un număr dat Verificăm dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o fracție simplă",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Adunăm fracții cu numitori diferiți",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Comparam rezultatul cu un număr dat",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Verificăm dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191991,
+      "endProcent": 0.307186,
+      "procentDurata": 11.5195
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Adunarea fracțiilor 1/2 și 1/3",
+      "subtitlu": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "5/6 < 1",
+      "naratiune": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1. Pentru a aduna fracțiile, găsim cel mai mic multiplu comun al numitorilor 2 și 3, care este 6. Transformăm fracțiile: 1/2 = 3/6 și 1/3 = 2/6. Adunăm: 3/6 + 2/6 = 5/6. Comparam 5/6 cu 1: 5/6 < 1, deci rezultatul este mai mic decât 1. Răspunsul final este 5/6 < 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a aduna fracțiile, găsim cel mai mic multiplu comun al numitorilor 2 și 3, care este 6.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Transformăm fracțiile: 1/2 = 3/6 și 1/3 = 2/6. Adunăm: 3/6 + 2/6 = 5/6.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Comparam 5/6 cu 1: 5/6 < 1, deci rezultatul este mai mic decât 1.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 5/6 < 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.307186,
+      "endProcent": 0.6983,
+      "procentDurata": 39.1114
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este adevărat?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1/2 + 1/3 = 5/6",
+      "naratiune": "Care dintre următoarele este adevărat? A) 1/2 + 1/3 = 5/6 B) 1/2 + 1/3 = 15/4 C) 1/2 + 1/3 = 2/5 Răspunsul corect este A, deoarece 1/2 + 1/3 = 3/6 + 2/6 = 5/6.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este adevărat?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1/2 + 1/3 = 5/6",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1/2 + 1/3 = 15/4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 1/2 + 1/3 = 2/5",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1/2 + 1/3 = 5/6",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.6983,
+      "endProcent": 0.901262,
+      "procentDurata": 20.2962
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Adunarea fracțiilor necesită același numitor",
+      "naratiune": "Adunarea fracțiilor necesită același numitor Compararea fracțiilor se face prin transformare în fracții echivalente",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Adunarea fracțiilor necesită același numitor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Compararea fracțiilor se face prin transformare în fracții echivalente",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.901262,
+      "endProcent": 1,
+      "procentDurata": 9.8738
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu fracții și ordonare",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu fracții și ordonare",
+      "naratiune": "Începem cu o fracție simplă",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu fracții și ordonare”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu fracții și ordonare",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o fracție simplă",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.098738,
+      "procentDurata": 9.8738
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom aduna fracțiile 1/2 și 1/3",
+      "subtitlu": "Un elev scrie pe tablă fracțiile 1/2 și 1/3",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "1/2",
+      "naratiune": "Vom aduna fracțiile 1/2 și 1/3",
+      "vizual": "Un elev scrie pe tablă fracțiile 1/2 și 1/3",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom aduna fracțiile 1/2 și 1/3",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.098738,
+      "endProcent": 0.131651,
+      "procentDurata": 3.2913
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a aduna fracțiile, trebuie să le aducem la a…",
+      "subtitlu": "Elevul adună fracțiile și obține 5/6",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a aduna fracțiile, trebuie să le aducem la același n…",
+      "naratiune": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor",
+      "vizual": "Elevul adună fracțiile și obține 5/6",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.131651,
+      "endProcent": 0.191991,
+      "procentDurata": 6.034
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o fracție simplă",
+      "naratiune": "Începem cu o fracție simplă Adunăm fracții cu numitori diferiți Comparam rezultatul cu un număr dat Verificăm dacă răspunsul este corect",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o fracție simplă",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Adunăm fracții cu numitori diferiți",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Comparam rezultatul cu un număr dat",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Verificăm dacă răspunsul este corect",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.191991,
+      "endProcent": 0.307186,
+      "procentDurata": 11.5195
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Adunarea fracțiilor 1/2 și 1/3",
+      "subtitlu": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "5/6 < 1",
+      "naratiune": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1. Pentru a aduna fracțiile, găsim cel mai mic multiplu comun al numitorilor 2 și 3, care este 6. Transformăm fracțiile: 1/2 = 3/6 și 1/3 = 2/6. Adunăm: 3/6 + 2/6 = 5/6. Comparam 5/6 cu 1: 5/6 < 1, deci rezultatul este mai mic decât 1. Răspunsul final este 5/6 < 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați 1/2 + 1/3 și comparați rezultatul cu 1.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru a aduna fracțiile, găsim cel mai mic multiplu comun al numitorilor 2 și 3, care este 6.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Transformăm fracțiile: 1/2 = 3/6 și 1/3 = 2/6. Adunăm: 3/6 + 2/6 = 5/6.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Comparam 5/6 cu 1: 5/6 < 1, deci rezultatul este mai mic decât 1.",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 5/6 < 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.307186,
+      "endProcent": 0.6983,
+      "procentDurata": 39.1114
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este adevărat?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1/2 + 1/3 = 5/6",
+      "naratiune": "Care dintre următoarele este adevărat? A) 1/2 + 1/3 = 5/6 B) 1/2 + 1/3 = 15/4 C) 1/2 + 1/3 = 2/5 Răspunsul corect este A, deoarece 1/2 + 1/3 = 3/6 + 2/6 = 5/6.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este adevărat?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1/2 + 1/3 = 5/6",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 1/2 + 1/3 = 15/4",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 1/2 + 1/3 = 2/5",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1/2 + 1/3 = 5/6",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.6983,
+      "endProcent": 0.901262,
+      "procentDurata": 20.2962
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Adunarea fracțiilor necesită același numitor",
+      "naratiune": "Adunarea fracțiilor necesită același numitor Compararea fracțiilor se face prin transformare în fracții echivalente",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Adunarea fracțiilor necesită același numitor",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Compararea fracțiilor se face prin transformare în fracții echivalente",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.901262,
+      "endProcent": 1,
+      "procentDurata": 9.8738
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-01.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T09:03:46.164Z"
+  }
+}

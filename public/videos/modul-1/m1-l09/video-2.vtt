@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Pentru a demonstra o propoziție folosind inducția matematică, trebuie să verificăm două pași esențiali: pasul de bază și pasul de inducție.
+
+2
+00:02:30.000 --> 00:05:00.000
+În pasul de bază, verificăm dacă propoziția este adevărată pentru n=1. Apoi, presupunem că este adevărată pentru n=k și demonstrăm că este adevărată și pentru n=k+1.
+

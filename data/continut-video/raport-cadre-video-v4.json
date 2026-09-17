@@ -1,0 +1,404 @@
+{
+  "proiect": "BAC MATE",
+  "generator": "genereaza-cadre-video.mjs",
+  "versiune": "4.0",
+  "generatLa": "2026-09-12T05:53:07.933Z",
+  "total": 56,
+  "create": 56,
+  "existente": 0,
+  "erori": 0,
+  "rezultate": [
+    {
+      "id": "m2-l01-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l01\\m2-l01-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l01-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l01\\m2-l01-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l01-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l01\\m2-l01-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l01-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l01\\m2-l01-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l02-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l02\\m2-l02-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l02-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l02\\m2-l02-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l02-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l02\\m2-l02-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l02-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l02\\m2-l02-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l03-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l03\\m2-l03-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l03-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l03\\m2-l03-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l03-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l03\\m2-l03-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l03-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l03\\m2-l03-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l04-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l04\\m2-l04-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l04-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l04\\m2-l04-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l04-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l04\\m2-l04-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l04-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l04\\m2-l04-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l05-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l05\\m2-l05-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l05-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l05\\m2-l05-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l05-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l05\\m2-l05-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l05-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l05\\m2-l05-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l06-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l06\\m2-l06-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l06-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l06\\m2-l06-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l06-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l06\\m2-l06-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l06-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l06\\m2-l06-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l07-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l07\\m2-l07-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l07-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l07\\m2-l07-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l07-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l07\\m2-l07-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l07-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l07\\m2-l07-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l08-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l08\\m2-l08-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l08-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l08\\m2-l08-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l08-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l08\\m2-l08-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l08-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l08\\m2-l08-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l09-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l09\\m2-l09-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l09-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l09\\m2-l09-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l09-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l09\\m2-l09-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l09-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l09\\m2-l09-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l10-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l10\\m2-l10-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l10-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l10\\m2-l10-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l10-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l10\\m2-l10-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l10-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l10\\m2-l10-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l11-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l11\\m2-l11-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l11-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l11\\m2-l11-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l11-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l11\\m2-l11-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l11-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l11\\m2-l11-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l12-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l12\\m2-l12-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l12-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l12\\m2-l12-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l12-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l12\\m2-l12-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l12-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l12\\m2-l12-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l13-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l13\\m2-l13-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l13-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l13\\m2-l13-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l13-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l13\\m2-l13-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l13-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l13\\m2-l13-v4\\cadre-video.json"
+    },
+    {
+      "id": "m2-l14-v1",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l14\\m2-l14-v1\\cadre-video.json"
+    },
+    {
+      "id": "m2-l14-v2",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l14\\m2-l14-v2\\cadre-video.json"
+    },
+    {
+      "id": "m2-l14-v3",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l14\\m2-l14-v3\\cadre-video.json"
+    },
+    {
+      "id": "m2-l14-v4",
+      "status": "creat",
+      "scene": 7,
+      "avertismente": 0,
+      "cale": "public\\media\\lectii\\m2-l14\\m2-l14-v4\\cadre-video.json"
+    }
+  ]
+}

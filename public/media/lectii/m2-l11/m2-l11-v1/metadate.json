@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l11",
+  "videoId": "m2-l11-v1",
+  "modul": 2,
+  "numarLectie": 11,
+  "numarVideo": 1,
+  "titluLectie": "Compunerea funcțiilor",
+  "titluVideo": "Compunerea funcțiilor",
+  "durataTintaMinute": 4,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

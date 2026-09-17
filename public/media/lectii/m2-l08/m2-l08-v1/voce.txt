@@ -1,0 +1,7 @@
+Ce înseamnă că o funcție este crescătoare?
+
+Cum putem verifica dacă o funcție este descrescătoare?
+
+Ce înseamnă că o funcție este mărginită?
+
+Cum putem determina dacă o funcție are valori mărginite?

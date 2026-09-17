@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m2-l05",
+  "modul": 2,
+  "numarLectie": 5,
+  "titlu": "Lecturi grafice",
+  "slugContinut": "lecturi-grafice",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Lecturi grafice”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m2-l05-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Lecturi grafice - Ce înseamnă?",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă o lectură grafică?",
+        "De ce este importantă în matematică?",
+        "Cum se aplică în problemele de Bac?",
+        "Ce tipuri de grafice se întâlnesc cel mai des?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu linii și puncte",
+          "naratiune": "O lectură grafică este când folosim un grafic pentru a înțelege o situație matematică. De exemplu, un grafic care arată cum se schimbă temperatura într-o zi."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu două axe și puncte",
+          "naratiune": "Într-un grafic, axa orizontală arată timpul, iar axa verticală arată temperatura. Punctele arată valoarea temperaturii la un moment dat."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O lectură grafică este folosită pentru a înțelege o situație matematică prin grafic.",
+        "Graficul are două axe: una pentru timp, alta pentru valoare."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Cât a fost temperatura la ora 12?",
+        "enunt": "Într-o zi, temperatura a fost înregistrată la diferite ore. La ora 8, temperatura era 15°C, la ora 12 era 20°C, iar la ora 18 era 18°C. Reprezentarea grafică arată aceste valori.",
+        "rezolvare": [
+          "Vom căuta pe grafic ora 12.",
+          "Vom citi temperatura corespunzătoare acestei ore."
+        ],
+        "raspuns": "20°C"
+      },
+      "verificareRapida": {
+        "intrebare": "Cât a fost temperatura la ora 12?",
+        "variante": [
+          "A) 15°C",
+          "B) 20°C",
+          "C) 18°C"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "La ora 12, temperatura este citită pe grafic ca fiind 20°C."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l05/video-1.mp4",
+        "audioUrl": "/videos/modul-2/m2-l05/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l05/m2-l05-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l05/m2-l05-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l05/m2-l05-v1/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 5,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 5,
+        "titluLectie": "Lecturi grafice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:22:13.017Z"
+      }
+    },
+    {
+      "id": "m2-l05-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Lecturi grafice: reguli și metodă",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu regulile de bază pentru lectura graficelor.",
+        "Vom analiza cum să identificăm corect valorile din grafic.",
+        "Vom vedea cum să interpretăm graficele în contextul problemelor de Bac.",
+        "În final, vom rezolva un exemplu practic."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu două curbe reprezentând funcții.",
+          "naratiune": "Pentru a face o lectură grafică corectă, trebuie să identificăm punctele de intersecție, valorile funcției în puncte speciale și să analizăm comportamentul funcțiilor."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un grafic cu două curbe și puncte marcate.",
+          "naratiune": "Vom folosi metoda de a compara valorile funcțiilor în puncte comune și să determinăm intersecțiile prin citirea directă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Identificați punctele de intersecție între funcții.",
+        "Analizați valorile funcțiilor în puncte speciale."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea valorii funcției într-un punct",
+        "enunt": "Fie funcțiile f și g reprezentate grafic. Determinați f(2) și g(2).",
+        "rezolvare": [
+          "Pentru f(2), citim valoarea funcției f în punctul x=2. Din grafic, f(2)=3.",
+          "Pentru g(3), citim valoarea funcției g în punctul x=3. Din grafic, g(3)=4."
+        ],
+        "raspuns": "f(2)=3 și g(3)=4"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea f(2) din grafic?",
+        "variante": [
+          "A) 2",
+          "B) 3",
+          "C) 4"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Din grafic, la x=2, valoarea funcției f este 3, deci răspunsul corect este B) 3."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l05/video-2.mp4",
+        "audioUrl": "/videos/modul-2/m2-l05/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l05/m2-l05-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l05/m2-l05-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l05/m2-l05-v2/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 5,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 5,
+        "titluLectie": "Lecturi grafice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:31:27.802Z"
+      }
+    },
+    {
+      "id": "m2-l05-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Lecturi grafice - funcții",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom analiza o funcție reprezentată grafic",
+        "Identificăm puncte importante de pe grafic",
+        "Calculăm valori folosind lectura grafică",
+        "Verificăm rezultatele cu un quiz rapid"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții f(x) cu puncte notate A(1,3), B(2,1), C(4,0), D(5,2)",
+          "naratiune": "Vom analiza graficul funcției f(x). Observăm că graficul intersectează axa Oy în punctul (0,2) și are puncte notate A(1,3), B(2,1), C(4,0), D(5,2)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Graficul funcției f(x) cu segmente de drepte între punctele A, B, C, D",
+          "naratiune": "Funcția este reprezentată prin segmente de drepte. Vom folosi lectura grafică pentru a determina anumite valori."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Lectura grafică implică identificarea coordonatelor punctelor",
+        "Pentru funcții reprezentate grafic, valorile se citesc direct din grafic"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinarea valorii f(3)",
+        "enunt": "Fie funcția f: R → R reprezentată grafic. Determinați f(3).",
+        "rezolvare": [
+          "Observăm că graficul funcției trece prin punctul C(4,0) și D(5,2).",
+          "Pentru x=3, valoarea f(3) este egală cu ordonata punctului de pe grafic cu abscisă 3. Din grafic, f(3)=1."
+        ],
+        "raspuns": "1"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea f(3)?",
+        "variante": [
+          "A) 0",
+          "B) 1",
+          "C) 2"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Din grafic, pentru x=3, ordonata corespunzătoare este 1, deci f(3)=1."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l05/video-3.mp4",
+        "audioUrl": "/videos/modul-2/m2-l05/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l05/m2-l05-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l05/m2-l05-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l05/m2-l05-v3/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 5,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 5,
+        "titluLectie": "Lecturi grafice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:38:01.548Z"
+      }
+    },
+    {
+      "id": "m2-l05-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Lecturi grafice - Bac și greșeli",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Lectura grafică este o metodă esențială pentru Bac.",
+        "În examen, se pot întreba despre intersecții, valori maxime, domenii de definire.",
+        "Unele greșeli sunt frecvente și trebuie evitate.",
+        "Vom analiza un exemplu de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții f(x) cu intersecții cu axe.",
+          "naratiune": "Vom analiza graficul funcției f(x). Observăm intersecțiile cu axele de coordonate."
+        },
+        {
+          "numar": 2,
+          "vizual": "Graficul funcției f(x) cu intersecții și puncte de extrem.",
+          "naratiune": "Vom identifica punctele de extrem și intersecțiile cu axe pentru a răspunde la întrebări de tip Bac."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Intersecțiile cu axe sunt puncte de forma (a, 0) sau (0, b).",
+        "Punctele de extrem sunt unde graficul schimbă direcția."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Intersecția cu axa OX",
+        "enunt": "Fie funcția f(x) = x² - 4. Determinați intersecțiile graficului cu axa Ox.",
+        "rezolvare": [
+          "Pentru a găsi intersecțiile cu Ox, setăm f(x) = 0.",
+          "Rezolvăm ecuația x² - 4 = 0 → x² = 4 → x = ±2."
+        ],
+        "raspuns": "x = -2 și x = 2"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce valori ale lui x satisfac f(x) = 0 pentru f(x) = x² - 4?",
+        "variante": [
+          "A) x = 2",
+          "B) x = -2",
+          "C) x = ±2"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Ecuația x² - 4 = 0 are soluțiile x = ±2, deci varianta corectă este C."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-2/m2-l05/video-4.mp4",
+        "audioUrl": "/videos/modul-2/m2-l05/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m2-l05/m2-l05-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m2-l05/m2-l05-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m2-l05/m2-l05-v4/voce.txt",
+        "pregatit": true,
+        "modul": 2,
+        "numarLectie": 5,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 2,
+        "lectie": 5,
+        "titluLectie": "Lecturi grafice",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T08:42:36.595Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T08:42:36.595Z",
+    "necesitaVerificareUmana": true
+  }
+}

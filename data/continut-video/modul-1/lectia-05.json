@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m1-l05",
+  "modul": 1,
+  "numarLectie": 5,
+  "titlu": "Propoziții și predicate",
+  "slugContinut": "propozitii-si-predicate",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Propoziții și predicate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m1-l05-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Propoziții și predicate",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă o propoziție?",
+        "Cum se diferențiază de predicate?",
+        "De ce sunt importante pentru Bac?",
+        "Cum se rezolvă exercițiile?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește o propoziție dintr-un text.",
+          "naratiune": "O propoziție este o afirmație care are un sens complet și poate fi adevărată sau falsă. De exemplu, '2 + 2 = 4' este o propoziție adevărată."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care analizează o propoziție cu variabile.",
+          "naratiune": "Predicatele sunt propoziții care conțin variabile. De exemplu, 'x + 2 = 4' este un predicat, pentru că x poate lua valori diferite."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O propoziție este o afirmație completă care poate fi adevărată sau falsă.",
+        "Predicatele sunt propoziții cu variabile care pot fi adevărate sau false pentru anumite valori."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Verificare dacă o propoziție este adevărată",
+        "enunt": "Verifică dacă propoziția '3 + 5 = 8' este adevărată.",
+        "rezolvare": [
+          "Calculăm 3 + 5 = 8",
+          "Rezultatul este 8, deci propoziția este adevărată"
+        ],
+        "raspuns": "Adevărat"
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este o propoziție adevărată?",
+        "variante": [
+          "A) 2 + 2 = 5",
+          "B) x + 2 = 4",
+          "C) 3 + 5 = 8"
+        ],
+        "raspunsCorect": 2,
+        "explicatie": "Varianta C este adevărată, deoarece 3 + 5 = 8."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l05/video-1.mp4",
+        "audioUrl": "/videos/modul-1/m1-l05/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l05/m1-l05-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l05/m1-l05-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l05/m1-l05-v1/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 5,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 5,
+        "titluLectie": "Propoziții și predicate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T15:16:58.136Z"
+      }
+    },
+    {
+      "id": "m1-l05-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Propoziții și predicate",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția propoziției și a predicatei.",
+        "Vom analiza cum se diferențiază o propoziție de o propoziție deschisă.",
+        "Vom vedea cum se transformă predicatele în propoziții prin substituire.",
+        "În final, vom rezolva un exercițiu de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un profesor explică pe tablă cuvintele 'propoziție' și 'predicat'.",
+          "naratiune": "O propoziție este o afirmație care are un sens complet. O propoziție deschisă conține variabile și nu are valoare de adevăr. Predicatul este parte dintr-o propoziție deschisă, care exprimă o proprietate."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev rezolvă un exercițiu pe caiet, în timp ce profesorul explică.",
+          "naratiune": "Pentru a transforma o propoziție deschisă într-o propoziție închisă, trebuie să substituim variabilele cu valori concrete. Astfel, obținem o propoziție care are valoare de adevăr."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Propoziția deschisă conține variabile și nu are valoare de adevăr.",
+        "Predicatul exprimă o proprietate și se scrie cu litere mari."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Transformarea unei propoziții deschise în propoziție închisă",
+        "enunt": "Fie propoziția deschisă: P(x): x + 2 = 5. Care este valoarea de adevăr a propoziției P(3)?",
+        "rezolvare": [
+          "Înlocuim x cu 3 în predicat: 3 + 2 = 5.",
+          "Calculăm: 3 + 2 = 5 → 5 = 5, deci propoziția este adevărată."
+        ],
+        "raspuns": "Adevărat"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea de adevăr a propoziției P(2) pentru predicatul P(x): x + 2 = 5?",
+        "variante": [
+          "A) Adevărat",
+          "B) Fals",
+          "C) Nu se poate determina"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Înlocuim x cu 2: 2 + 2 = 5 → 4 = 5, deci propoziția este falsă."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l05/video-2.mp4",
+        "audioUrl": "/videos/modul-1/m1-l05/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l05/m1-l05-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l05/m1-l05-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l05/m1-l05-v2/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 5,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 5,
+        "titluLectie": "Propoziții și predicate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T15:52:46.840Z"
+      }
+    },
+    {
+      "id": "m1-l05-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Propoziții și predicate - exercițiu de tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu o propoziție simplă și o verificăm.",
+        "Vom analiza ce este o propoziție și ce este un predicat.",
+        "Vom vedea cum se formează propoziții din predicate.",
+        "Vom rezolva un exercițiu de tip Bac."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Pe ecran apare propoziția: 'Numărul 5 este mai mare decât 3.'",
+          "naratiune": "Vom analiza propoziția: 'Numărul 5 este mai mare decât 3.' Aceasta este o propoziție adevărată, deoarece 5 > 3."
+        },
+        {
+          "numar": 2,
+          "vizual": "Pe ecran apare propoziția: 'x este mai mare decât 3.'",
+          "naratiune": "Propoziția 'x este mai mare decât 3.' nu este o propoziție completă, deoarece conține variabila x. Aceasta este un predicat."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă.",
+        "Un predicat este o propoziție care conține variabile și nu are valoare de adevăr."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Exercițiu de tip Bac",
+        "enunt": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3'",
+        "rezolvare": [
+          "P(x) este un predicat, deoarece conține variabila x și nu are valoare de adevăr.",
+          "Pentru x = 4, propoziția devine: '4 este un număr natural mai mare decât 3', care este adevărată."
+        ],
+        "raspuns": "Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'."
+      },
+      "verificareRapida": {
+        "intrebare": "Care dintre următoarele este o propoziție?",
+        "variante": [
+          "A) x este mai mare decât 3.",
+          "B) 5 este mai mare decât 3.",
+          "C) x + 2 = 5."
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Varianta B este o propoziție, deoarece este o afirmație completă și are valoare de adevăr. Variantele A și C sunt predicate, deoarece conțin variabile."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l05/video-3.mp4",
+        "audioUrl": "/videos/modul-1/m1-l05/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l05/m1-l05-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l05/m1-l05-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l05/m1-l05-v3/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 5,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 5,
+        "titluLectie": "Propoziții și predicate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T16:27:36.141Z"
+      }
+    },
+    {
+      "id": "m1-l05-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Propoziții și predicate - tip Bac",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este o propoziție?",
+        "Ce este un predicat?",
+        "Cum se diferențiază?",
+        "De ce sunt importante pentru Bac?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un elev care citește o propoziție dintr-un subiect de Bac",
+          "naratiune": "O propoziție este o afirmație care are un sens complet și poate fi adevărată sau falsă. De exemplu, '2 + 2 = 4' este o propoziție adevărată."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un elev care analizează o propoziție cu variabile",
+          "naratiune": "Un predicat este o propoziție care conține variabile. De exemplu, 'x + 2 = 4' este un predicat, unde x este variabilă."
+        }
+      ],
+      "ideiDeRetinut": [
+        "O propoziție este o afirmație completă.",
+        "Un predicat are variabile și nu este complet definit."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Identificarea propoziției și predicatului",
+        "enunt": "Analizează propoziția 'x + 3 = 5' și spune dacă este propoziție sau predicat.",
+        "rezolvare": [
+          "Propoziția 'x + 3 = 5' conține variabila x.",
+          "Deoarece x nu are valoare specifică, propoziția nu este complet definită."
+        ],
+        "raspuns": "Predicat"
+      },
+      "verificareRapida": {
+        "intrebare": "Ce este 'x + 3 = 5' în logica propozițiilor?",
+        "variante": [
+          "A) Propoziție",
+          "B) Predicat",
+          "C) Propoziție deschisă"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "'x + 3 = 5' este un predicat, deoarece conține variabila x și nu este complet definită."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-1/m1-l05/video-4.mp4",
+        "audioUrl": "/videos/modul-1/m1-l05/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m1-l05/m1-l05-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m1-l05/m1-l05-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m1-l05/m1-l05-v4/voce.txt",
+        "pregatit": true,
+        "modul": 1,
+        "numarLectie": 5,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 1,
+        "lectie": 5,
+        "titluLectie": "Propoziții și predicate",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-08T16:33:03.089Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-08T16:33:03.089Z",
+    "necesitaVerificareUmana": true
+  }
+}

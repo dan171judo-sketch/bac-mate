@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l03",
+    "modul": 2,
+    "numarLectie": 3,
+    "titlu": "Domeniu, codomeniu și imagine",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l03-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Domeniu, codomeniu și imagine",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Domeniu, codomeniu și imagine”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Domeniu, codomeniu și imagine”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Domeniu, codomeniu și imagine",
+      "naratiune": "Începem cu noțiunile de bază despre funcții.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Domeniu, codomeniu și imagine”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Domeniu, codomeniu și imagine",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu noțiunile de bază despre funcții.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.086538,
+      "procentDurata": 8.6538
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția f are domeniu A și codomeniu B",
+      "subtitlu": "Un desen cu o funcție f: A → B, cu A și B reprezentate ca mulțimi.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția f are domeniu A și codomeniu B. Imaginea este mulți…",
+      "naratiune": "Funcția f are domeniu A și codomeniu B. Imaginea este mulțimea valorilor care se obțin prin aplicarea funcției.",
+      "vizual": "Un desen cu o funcție f: A → B, cu A și B reprezentate ca mulțimi.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Funcția f are domeniu A și codomeniu B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Imaginea este mulțimea valorilor care se obțin prin aplicarea funcției.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.086538,
+      "endProcent": 0.173077,
+      "procentDurata": 8.6538
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = x², domeniul este toate numer…",
+      "subtitlu": "Un grafic al funcției f(x) = x², cu axa x și y.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = x², domeniul este toate numerele real…",
+      "naratiune": "Pentru funcția f(x) = x², domeniul este toate numerele reale, iar imaginea este toate numerele reale pozitive.",
+      "vizual": "Un grafic al funcției f(x) = x², cu axa x și y.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = x², domeniul este toate numerele reale, iar imaginea este toate numerele reale pozitive.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.173077,
+      "endProcent": 0.254808,
+      "procentDurata": 8.1731
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu noțiunile de bază despre funcții.",
+      "naratiune": "Începem cu noțiunile de bază despre funcții. Vom înțelege diferența dintre domeniu și codomeniu. Vom vedea cum se calculează imaginea funcției. Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu noțiunile de bază despre funcții.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom înțelege diferența dintre domeniu și codomeniu.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează imaginea funcției.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.254808,
+      "endProcent": 0.413462,
+      "procentDurata": 15.8654
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea domeniului și imaginii funcției f(x) =…",
+      "subtitlu": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Domeniu: R\\{0}, Imagine: R\\{0}",
+      "naratiune": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției. Domeniul funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x nu este definit pentru x = 0. Imaginea funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x poate lua orice valoare reală, cu excepția 0. Răspunsul final este Domeniu: R\\{0}, Imagine: R\\{0}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Domeniul funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x nu este definit pentru x = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Imaginea funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x poate lua orice valoare reală, cu excepția 0.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Domeniu: R\\{0}, Imagine: R\\{0}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.413462,
+      "endProcent": 0.745192,
+      "procentDurata": 33.1731
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = x². Care este imaginea funcției?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) [0, ∞)",
+      "naratiune": "Fie funcția f(x) = x². Care este imaginea funcției? A) [0, ∞) B) (-∞, 0) C) R Imaginea funcției f(x) = x² este [0, ∞), deoarece pătratul oricărui număr real este un număr real nenegativ.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = x². Care este imaginea funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [0, ∞)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (-∞, 0)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) R",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) [0, ∞)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.745192,
+      "endProcent": 0.913462,
+      "procentDurata": 16.8269
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Domeniul este mulțimea valorilor posibile pentru x.",
+      "naratiune": "Domeniul este mulțimea valorilor posibile pentru x. Imaginea este mulțimea valorilor obținute prin aplicarea funcției.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Domeniul este mulțimea valorilor posibile pentru x.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Imaginea este mulțimea valorilor obținute prin aplicarea funcției.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.913462,
+      "endProcent": 1,
+      "procentDurata": 8.6538
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Domeniu, codomeniu și imagine",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Domeniu, codomeniu și imagine”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Domeniu, codomeniu și imagine",
+      "naratiune": "Începem cu noțiunile de bază despre funcții.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Domeniu, codomeniu și imagine”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Domeniu, codomeniu și imagine",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu noțiunile de bază despre funcții.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.086538,
+      "procentDurata": 8.6538
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Funcția f are domeniu A și codomeniu B",
+      "subtitlu": "Un desen cu o funcție f: A → B, cu A și B reprezentate ca mulțimi.",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Funcția f are domeniu A și codomeniu B. Imaginea este mulți…",
+      "naratiune": "Funcția f are domeniu A și codomeniu B. Imaginea este mulțimea valorilor care se obțin prin aplicarea funcției.",
+      "vizual": "Un desen cu o funcție f: A → B, cu A și B reprezentate ca mulțimi.",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Funcția f are domeniu A și codomeniu B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "Imaginea este mulțimea valorilor care se obțin prin aplicarea funcției.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.086538,
+      "endProcent": 0.173077,
+      "procentDurata": 8.6538
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru funcția f(x) = x², domeniul este toate numer…",
+      "subtitlu": "Un grafic al funcției f(x) = x², cu axa x și y.",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru funcția f(x) = x², domeniul este toate numerele real…",
+      "naratiune": "Pentru funcția f(x) = x², domeniul este toate numerele reale, iar imaginea este toate numerele reale pozitive.",
+      "vizual": "Un grafic al funcției f(x) = x², cu axa x și y.",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "formula",
+          "text": "Pentru funcția f(x) = x², domeniul este toate numerele reale, iar imaginea este toate numerele reale pozitive.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.173077,
+      "endProcent": 0.254808,
+      "procentDurata": 8.1731
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu noțiunile de bază despre funcții.",
+      "naratiune": "Începem cu noțiunile de bază despre funcții. Vom înțelege diferența dintre domeniu și codomeniu. Vom vedea cum se calculează imaginea funcției. Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu noțiunile de bază despre funcții.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom înțelege diferența dintre domeniu și codomeniu.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se calculează imaginea funcției.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac pentru a ne verifica cunoștințele.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.254808,
+      "endProcent": 0.413462,
+      "procentDurata": 15.8654
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determinarea domeniului și imaginii funcției f(x) =…",
+      "subtitlu": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției.",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Domeniu: R\\{0}, Imagine: R\\{0}",
+      "naratiune": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției. Domeniul funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x nu este definit pentru x = 0. Imaginea funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x poate lua orice valoare reală, cu excepția 0. Răspunsul final este Domeniu: R\\{0}, Imagine: R\\{0}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = 1/x. Determinați domeniul și imaginea funcției.",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Domeniul funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x nu este definit pentru x = 0.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Imaginea funcției este toate numerele reale, cu excepția lui 0, deoarece 1/x poate lua orice valoare reală, cu excepția 0.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Domeniu: R\\{0}, Imagine: R\\{0}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.413462,
+      "endProcent": 0.745192,
+      "procentDurata": 33.1731
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f(x) = x². Care este imaginea funcției?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) [0, ∞)",
+      "naratiune": "Fie funcția f(x) = x². Care este imaginea funcției? A) [0, ∞) B) (-∞, 0) C) R Imaginea funcției f(x) = x² este [0, ∞), deoarece pătratul oricărui număr real este un număr real nenegativ.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f(x) = x². Care este imaginea funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [0, ∞)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (-∞, 0)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) R",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) [0, ∞)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.745192,
+      "endProcent": 0.913462,
+      "procentDurata": 16.8269
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Domeniul este mulțimea valorilor posibile pentru x.",
+      "naratiune": "Domeniul este mulțimea valorilor posibile pentru x. Imaginea este mulțimea valorilor obținute prin aplicarea funcției.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Domeniul este mulțimea valorilor posibile pentru x.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Imaginea este mulțimea valorilor obținute prin aplicarea funcției.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.913462,
+      "endProcent": 1,
+      "procentDurata": 8.6538
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-03.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.650Z"
+  }
+}

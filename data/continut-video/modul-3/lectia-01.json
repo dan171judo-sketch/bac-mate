@@ -1,0 +1,343 @@
+{
+  "versiuneSchema": 1,
+  "id": "m3-l01",
+  "modul": 3,
+  "numarLectie": 1,
+  "titlu": "Funcția f(x) = ax + b",
+  "slugContinut": "functia-fx-ax-b",
+  "status": "generat-verificat-automat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Funcția f(x) = ax + b”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m3-l01-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Funcția f(x) = ax + b",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce înseamnă o funcție liniară?",
+        "De ce este important să știm cum se comportă această funcție?",
+        "Cum putem reprezenta grafic această funcție?",
+        "Ce rol joacă parametrii a și b în funcție?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic cu o dreaptă pe axa carteziană",
+          "naratiune": "Funcția f(x) = ax + b este o funcție liniară, care se reprezintă printr-o dreaptă în plan. Parametrul a este panta dreptei, iar b este coordonata y a punctului unde dreapta intersectează axa ordonatelor."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel cu valori ale funcției pentru diferite x",
+          "naratiune": "Pentru a înțelege mai bine, să luăm câteva valori ale lui x și să calculăm f(x). De exemplu, dacă a = 2 și b = 3, atunci f(0) = 3, f(1) = 5, f(2) = 7. Vom vedea că valorile cresc linear."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Funcția f(x) = ax + b este o funcție liniară care se reprezintă printr-o dreaptă.",
+        "Parametrul a reprezintă panta dreptei, iar b este punctul de intersecție cu axa ordonatelor."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calcularea valorii funcției",
+        "enunt": "Fie funcția f(x) = 3x - 2. Calculați f(4).",
+        "rezolvare": [
+          "Înlocuim x cu 4 în formula funcției: f(4) = 3*4 - 2",
+          "Executăm calculele: 3*4 = 12, 12 - 2 = 10"
+        ],
+        "raspuns": "10"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = -2x + 5. Care este valoarea f(3)?",
+        "variante": [
+          "A) 1",
+          "B) -1",
+          "C) -7"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "Înlocuim x cu 3: f(3) = -2*3 + 5 = -6 + 5 = -1"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l01/video-1.mp4",
+        "audioUrl": "/videos/modul-3/m3-l01/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l01/m3-l01-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l01/m3-l01-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l01/m3-l01-v1/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 1,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 1,
+        "titluLectie": "Funcția f(x) = ax + b",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T15:52:23.630Z"
+      }
+    },
+    {
+      "id": "m3-l01-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Funcția f(x) = ax + b",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția funcției",
+        "Vom vedea cum se reprezintă grafic",
+        "Învațăm să identificăm panta și trecerea prin origine",
+        "Vom rezolva un exercițiu de tip Bac"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Imagine cu graficul unei funcții afine",
+          "naratiune": "Funcția f(x) = ax + b este o funcție afină. Graficul ei este o dreaptă. Parametrul a reprezintă panta dreptei, iar b este trecerea prin punctul (0, b)."
+        },
+        {
+          "numar": 2,
+          "vizual": "Imagine cu graficul funcției f(x) = 2x + 3",
+          "naratiune": "Pentru funcția f(x) = 2x + 3, panta este 2, iar dreapta trece prin (0, 3). Acesta este un exemplu de funcție de tip Bac."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Panta a indică direcția dreptei",
+        "Trecerea prin (0, b) este dată de parametrul b"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinați panta și trecerea prin origine",
+        "enunt": "Fie funcția f(x) = -4x + 5. Determinați panta și trecerea prin origine.",
+        "rezolvare": [
+          "Panta funcției este coeficientul lui x, adică -4.",
+          "Trecerea prin origine este dată de termenul liber, adică 5."
+        ],
+        "raspuns": "Panta: -4, trecerea prin origine: 5"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie funcția f(x) = 3x - 2. Care este panta și trecerea prin origine?",
+        "variante": [
+          "A) Panta: 3, trecere: -2",
+          "B) Panta: -3, trecere: 2",
+          "C) Panta: 2, trecere: 3"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Panta este coeficientul lui x, adică 3. Trecerea prin origine este termenul liber, adică -2."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l01/video-2.mp4",
+        "audioUrl": "/videos/modul-3/m3-l01/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l01/m3-l01-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l01/m3-l01-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l01/m3-l01-v2/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 1,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 1,
+        "titluLectie": "Funcția f(x) = ax + b",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T15:58:14.344Z"
+      }
+    },
+    {
+      "id": "m3-l01-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Funcția f(x) = ax + b - Exemplu rezolvat",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Vom învăța cum să rezolvăm exerciții cu funcția f(x) = ax + b",
+        "Vom vedea cum se calculează f(2) pentru o funcție dată",
+        "Vom înțelege cum se identifică coeficienții a și b",
+        "Vom verifica dacă răspunsul este corect"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Ecranul arată funcția f(x) = 3x - 2",
+          "naratiune": "Vom rezolva exercițiul: Determinați f(2) pentru funcția f(x) = 3x - 2"
+        },
+        {
+          "numar": 2,
+          "vizual": "Ecranul arată pasul 1 de calcul",
+          "naratiune": "Înlocuim x cu 2 în funcție: f(2) = 3*2 - 2"
+        }
+      ],
+      "ideiDeRetinut": [
+        "Pentru a calcula f(x), înlocuim x cu valoarea dată",
+        "Funcția f(x) = ax + b are două coeficienți: a și b"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Calculul valorii funcției",
+        "enunt": "Determinați f(2) pentru funcția f(x) = 3x - 2",
+        "rezolvare": [
+          "Înlocuim x cu 2: f(2) = 3*2 - 2",
+          "Calculăm: 3*2 = 6; 6 - 2 = 4"
+        ],
+        "raspuns": "4"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este valoarea f(2) pentru funcția f(x) = 3x - 2?",
+        "variante": [
+          "A) 4",
+          "B) 6",
+          "C) 2"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Înlocuim x cu 2: 3*2 - 2 = 6 - 2 = 4"
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l01/video-3.mp4",
+        "audioUrl": "/videos/modul-3/m3-l01/audio-3.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l01/m3-l01-v3/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l01/m3-l01-v3/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l01/m3-l01-v3/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 1,
+        "numarVideo": 3
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 1,
+        "titluLectie": "Funcția f(x) = ax + b",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:04:38.895Z"
+      }
+    },
+    {
+      "id": "m3-l01-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Funcția f(x)=ax+b - Aplicație și greșeli",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "În această lecție vom studia funcția f(x)=ax+b, importantă pentru Bac.",
+        "Vom vedea cum se rezolvă exerciții de tip Bac cu această funcție.",
+        "Vom analiza greșelile frecvente și cum să le evităm.",
+        "Vom rezolva un exemplu complet pentru a înțelege mai bine."
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții de tip f(x)=ax+b",
+          "naratiune": "Funcția f(x)=ax+b este o funcție liniară. Graficul ei este o dreaptă. Coeficientul a indică panta dreptei, iar b este ordonata la origine."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un exercițiu de tip Bac cu funcția f(x)=ax+b",
+          "naratiune": "Vom rezolva un exercițiu în care trebuie să determinăm a și b, apoi să calculăm f(2)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Funcția f(x)=ax+b are grafic o dreaptă.",
+        "Pentru a determina a și b, folosim ecuații cu cele două condiții date."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Determinare a și b",
+        "enunt": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine a și b, apoi să se calculeze f(2).",
+        "rezolvare": [
+          "Pasul 1: Înlocuim x=1 în funcție: a*1 + b = 3 => a + b = 3",
+          "Pasul 2: Înlocuim x=3 în funcție: a*3 + b = 7 => 3a + b = 7. Rezolvăm sistemul de ecuații: a + b = 3 și 3a + b = 7. Scădem prima ecuație din a doua: 2a = 4 => a = 2. Înlocuim a=2 în prima ecuație: 2 + b = 3 => b = 1."
+        ],
+        "raspuns": "f(2)=2*2 + 1 = 5"
+      },
+      "verificareRapida": {
+        "intrebare": "Fie f(x)=ax+b. Știind că f(1)=3 și f(3)=7, să se determine f(2).",
+        "variante": [
+          "A) 4",
+          "B) 5",
+          "C) 6"
+        ],
+        "raspunsCorect": 1,
+        "explicatie": "După determinarea a=2 și b=1, f(2)=2*2 + 1 = 5."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l01/video-4.mp4",
+        "audioUrl": "/videos/modul-3/m3-l01/audio-4.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l01/m3-l01-v4/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l01/m3-l01-v4/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l01/m3-l01-v4/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 1,
+        "numarVideo": 4
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 1,
+        "titluLectie": "Funcția f(x) = ax + b",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:11:30.496Z"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": true,
+    "verificatAutomat": true,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T16:11:30.496Z",
+    "necesitaVerificareUmana": true
+  }
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Cuantificatorul universal, notat cu ∀, spune că o propoziție este adevărată pentru toate valorile. De exemplu, ∀x ∈ ℝ, x² ≥ 0. Cuantificatorul existențial, notat cu ∃, spune că o propoziție este adevărată pentru cel puțin o valoare. De exemplu, ∃x ∈ ℕ, x² = 4.
+
+2
+00:02:30.000 --> 00:05:00.000
+Pentru a nega o propoziție cu cuantificator universal, folosim cuantificatorul existențial și negăm propoziția. De exemplu, ¬(∀x ∈ ℝ, x² ≥ 0) devine ∃x ∈ ℝ, x² < 0. În mod similar, negarea unui cuantificator existențial folosește cuantificatorul universal și negăm propoziția.
+

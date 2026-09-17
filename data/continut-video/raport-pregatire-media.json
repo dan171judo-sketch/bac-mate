@@ -1,0 +1,4393 @@
+{
+  "proiect": "BAC MATE",
+  "generatLa": "2026-09-13T05:06:22.148Z",
+  "totalLectii": 219,
+  "lectiiCuScenariu": 27,
+  "totalMiniVideoGasite": 876,
+  "miniVideoPregatite": 105,
+  "miniVideoFaraScenariu": 771,
+  "erori": 0,
+  "folderMedia": "public/media/lectii",
+  "detalii": [
+    {
+      "lectie": "m1-l01",
+      "video": "m1-l01-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l01",
+      "video": "m1-l01-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l01",
+      "video": "m1-l01-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l01",
+      "video": "m1-l01-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l02",
+      "video": "m1-l02-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l02",
+      "video": "m1-l02-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l02",
+      "video": "m1-l02-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l02",
+      "video": "m1-l02-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l03",
+      "video": "m1-l03-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l03",
+      "video": "m1-l03-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l03",
+      "video": "m1-l03-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l03",
+      "video": "m1-l03-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l04",
+      "video": "m1-l04-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l04",
+      "video": "m1-l04-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l04",
+      "video": "m1-l04-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l04",
+      "video": "m1-l04-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l05",
+      "video": "m1-l05-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l05",
+      "video": "m1-l05-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l05",
+      "video": "m1-l05-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l05",
+      "video": "m1-l05-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l06",
+      "video": "m1-l06-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l06",
+      "video": "m1-l06-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l06",
+      "video": "m1-l06-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l06",
+      "video": "m1-l06-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l07",
+      "video": "m1-l07-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l07",
+      "video": "m1-l07-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l07",
+      "video": "m1-l07-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l07",
+      "video": "m1-l07-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l08",
+      "video": "m1-l08-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l08",
+      "video": "m1-l08-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l08",
+      "video": "m1-l08-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l08",
+      "video": "m1-l08-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l09",
+      "video": "m1-l09-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l09",
+      "video": "m1-l09-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l09",
+      "video": "m1-l09-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l09",
+      "video": "m1-l09-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l10",
+      "video": "m1-l10-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l10",
+      "video": "m1-l10-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l10",
+      "video": "m1-l10-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m1-l10",
+      "video": "m1-l10-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l01",
+      "video": "m2-l01-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l01",
+      "video": "m2-l01-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l01",
+      "video": "m2-l01-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l01",
+      "video": "m2-l01-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l02",
+      "video": "m2-l02-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l02",
+      "video": "m2-l02-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l02",
+      "video": "m2-l02-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l02",
+      "video": "m2-l02-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l03",
+      "video": "m2-l03-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l03",
+      "video": "m2-l03-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l03",
+      "video": "m2-l03-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l03",
+      "video": "m2-l03-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l04",
+      "video": "m2-l04-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l04",
+      "video": "m2-l04-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l04",
+      "video": "m2-l04-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l04",
+      "video": "m2-l04-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l05",
+      "video": "m2-l05-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l05",
+      "video": "m2-l05-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l05",
+      "video": "m2-l05-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l05",
+      "video": "m2-l05-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l06",
+      "video": "m2-l06-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l06",
+      "video": "m2-l06-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l06",
+      "video": "m2-l06-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l06",
+      "video": "m2-l06-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l07",
+      "video": "m2-l07-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l07",
+      "video": "m2-l07-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l07",
+      "video": "m2-l07-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l07",
+      "video": "m2-l07-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l08",
+      "video": "m2-l08-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l08",
+      "video": "m2-l08-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l08",
+      "video": "m2-l08-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l08",
+      "video": "m2-l08-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l09",
+      "video": "m2-l09-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l09",
+      "video": "m2-l09-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l09",
+      "video": "m2-l09-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l09",
+      "video": "m2-l09-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l10",
+      "video": "m2-l10-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l10",
+      "video": "m2-l10-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l10",
+      "video": "m2-l10-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l10",
+      "video": "m2-l10-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l11",
+      "video": "m2-l11-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l11",
+      "video": "m2-l11-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l11",
+      "video": "m2-l11-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l11",
+      "video": "m2-l11-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l12",
+      "video": "m2-l12-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l12",
+      "video": "m2-l12-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l12",
+      "video": "m2-l12-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l12",
+      "video": "m2-l12-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l13",
+      "video": "m2-l13-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l13",
+      "video": "m2-l13-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l13",
+      "video": "m2-l13-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l13",
+      "video": "m2-l13-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l14",
+      "video": "m2-l14-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l14",
+      "video": "m2-l14-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l14",
+      "video": "m2-l14-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m2-l14",
+      "video": "m2-l14-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l01",
+      "video": "m3-l01-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l01",
+      "video": "m3-l01-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l01",
+      "video": "m3-l01-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l01",
+      "video": "m3-l01-v4",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l02",
+      "video": "m3-l02-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l02",
+      "video": "m3-l02-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l02",
+      "video": "m3-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l02",
+      "video": "m3-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l03",
+      "video": "m3-l03-v1",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l03",
+      "video": "m3-l03-v2",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l03",
+      "video": "m3-l03-v3",
+      "status": "pregatit"
+    },
+    {
+      "lectie": "m3-l03",
+      "video": "m3-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l04",
+      "video": "m3-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l04",
+      "video": "m3-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l04",
+      "video": "m3-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l04",
+      "video": "m3-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l05",
+      "video": "m3-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l05",
+      "video": "m3-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l05",
+      "video": "m3-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l05",
+      "video": "m3-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l06",
+      "video": "m3-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l06",
+      "video": "m3-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l06",
+      "video": "m3-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l06",
+      "video": "m3-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l07",
+      "video": "m3-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l07",
+      "video": "m3-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l07",
+      "video": "m3-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l07",
+      "video": "m3-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l08",
+      "video": "m3-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l08",
+      "video": "m3-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l08",
+      "video": "m3-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l08",
+      "video": "m3-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l09",
+      "video": "m3-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l09",
+      "video": "m3-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l09",
+      "video": "m3-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m3-l09",
+      "video": "m3-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l01",
+      "video": "m4-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l01",
+      "video": "m4-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l01",
+      "video": "m4-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l01",
+      "video": "m4-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l02",
+      "video": "m4-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l02",
+      "video": "m4-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l02",
+      "video": "m4-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l02",
+      "video": "m4-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l03",
+      "video": "m4-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l03",
+      "video": "m4-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l03",
+      "video": "m4-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l03",
+      "video": "m4-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l04",
+      "video": "m4-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l04",
+      "video": "m4-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l04",
+      "video": "m4-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l04",
+      "video": "m4-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l05",
+      "video": "m4-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l05",
+      "video": "m4-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l05",
+      "video": "m4-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l05",
+      "video": "m4-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l06",
+      "video": "m4-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l06",
+      "video": "m4-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l06",
+      "video": "m4-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l06",
+      "video": "m4-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l07",
+      "video": "m4-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l07",
+      "video": "m4-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l07",
+      "video": "m4-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l07",
+      "video": "m4-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l08",
+      "video": "m4-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l08",
+      "video": "m4-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l08",
+      "video": "m4-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l08",
+      "video": "m4-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l09",
+      "video": "m4-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l09",
+      "video": "m4-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l09",
+      "video": "m4-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l09",
+      "video": "m4-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l10",
+      "video": "m4-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l10",
+      "video": "m4-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l10",
+      "video": "m4-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l10",
+      "video": "m4-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l11",
+      "video": "m4-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l11",
+      "video": "m4-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l11",
+      "video": "m4-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l11",
+      "video": "m4-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l12",
+      "video": "m4-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l12",
+      "video": "m4-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l12",
+      "video": "m4-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l12",
+      "video": "m4-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l13",
+      "video": "m4-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l13",
+      "video": "m4-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l13",
+      "video": "m4-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m4-l13",
+      "video": "m4-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l01",
+      "video": "m5-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l01",
+      "video": "m5-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l01",
+      "video": "m5-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l01",
+      "video": "m5-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l02",
+      "video": "m5-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l02",
+      "video": "m5-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l02",
+      "video": "m5-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l02",
+      "video": "m5-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l03",
+      "video": "m5-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l03",
+      "video": "m5-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l03",
+      "video": "m5-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l03",
+      "video": "m5-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l04",
+      "video": "m5-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l04",
+      "video": "m5-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l04",
+      "video": "m5-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l04",
+      "video": "m5-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l05",
+      "video": "m5-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l05",
+      "video": "m5-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l05",
+      "video": "m5-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l05",
+      "video": "m5-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l06",
+      "video": "m5-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l06",
+      "video": "m5-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l06",
+      "video": "m5-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l06",
+      "video": "m5-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l07",
+      "video": "m5-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l07",
+      "video": "m5-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l07",
+      "video": "m5-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l07",
+      "video": "m5-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l08",
+      "video": "m5-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l08",
+      "video": "m5-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l08",
+      "video": "m5-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l08",
+      "video": "m5-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l09",
+      "video": "m5-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l09",
+      "video": "m5-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l09",
+      "video": "m5-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l09",
+      "video": "m5-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l10",
+      "video": "m5-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l10",
+      "video": "m5-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l10",
+      "video": "m5-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l10",
+      "video": "m5-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l11",
+      "video": "m5-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l11",
+      "video": "m5-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l11",
+      "video": "m5-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l11",
+      "video": "m5-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l12",
+      "video": "m5-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l12",
+      "video": "m5-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l12",
+      "video": "m5-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l12",
+      "video": "m5-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l13",
+      "video": "m5-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l13",
+      "video": "m5-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l13",
+      "video": "m5-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l13",
+      "video": "m5-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l14",
+      "video": "m5-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l14",
+      "video": "m5-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l14",
+      "video": "m5-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l14",
+      "video": "m5-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l15",
+      "video": "m5-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l15",
+      "video": "m5-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l15",
+      "video": "m5-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l15",
+      "video": "m5-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l16",
+      "video": "m5-l16-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l16",
+      "video": "m5-l16-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l16",
+      "video": "m5-l16-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l16",
+      "video": "m5-l16-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l17",
+      "video": "m5-l17-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l17",
+      "video": "m5-l17-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l17",
+      "video": "m5-l17-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l17",
+      "video": "m5-l17-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l18",
+      "video": "m5-l18-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l18",
+      "video": "m5-l18-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l18",
+      "video": "m5-l18-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m5-l18",
+      "video": "m5-l18-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l01",
+      "video": "m6-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l01",
+      "video": "m6-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l01",
+      "video": "m6-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l01",
+      "video": "m6-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l02",
+      "video": "m6-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l02",
+      "video": "m6-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l02",
+      "video": "m6-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l02",
+      "video": "m6-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l03",
+      "video": "m6-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l03",
+      "video": "m6-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l03",
+      "video": "m6-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l03",
+      "video": "m6-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l04",
+      "video": "m6-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l04",
+      "video": "m6-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l04",
+      "video": "m6-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l04",
+      "video": "m6-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l05",
+      "video": "m6-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l05",
+      "video": "m6-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l05",
+      "video": "m6-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l05",
+      "video": "m6-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l06",
+      "video": "m6-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l06",
+      "video": "m6-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l06",
+      "video": "m6-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l06",
+      "video": "m6-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l07",
+      "video": "m6-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l07",
+      "video": "m6-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l07",
+      "video": "m6-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l07",
+      "video": "m6-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l08",
+      "video": "m6-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l08",
+      "video": "m6-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l08",
+      "video": "m6-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l08",
+      "video": "m6-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l09",
+      "video": "m6-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l09",
+      "video": "m6-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l09",
+      "video": "m6-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l09",
+      "video": "m6-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l10",
+      "video": "m6-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l10",
+      "video": "m6-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l10",
+      "video": "m6-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m6-l10",
+      "video": "m6-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l01",
+      "video": "m7-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l01",
+      "video": "m7-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l01",
+      "video": "m7-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l01",
+      "video": "m7-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l02",
+      "video": "m7-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l02",
+      "video": "m7-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l02",
+      "video": "m7-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l02",
+      "video": "m7-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l03",
+      "video": "m7-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l03",
+      "video": "m7-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l03",
+      "video": "m7-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l03",
+      "video": "m7-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l04",
+      "video": "m7-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l04",
+      "video": "m7-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l04",
+      "video": "m7-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l04",
+      "video": "m7-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l05",
+      "video": "m7-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l05",
+      "video": "m7-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l05",
+      "video": "m7-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l05",
+      "video": "m7-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l06",
+      "video": "m7-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l06",
+      "video": "m7-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l06",
+      "video": "m7-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l06",
+      "video": "m7-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l07",
+      "video": "m7-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l07",
+      "video": "m7-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l07",
+      "video": "m7-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l07",
+      "video": "m7-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l08",
+      "video": "m7-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l08",
+      "video": "m7-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l08",
+      "video": "m7-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l08",
+      "video": "m7-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l09",
+      "video": "m7-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l09",
+      "video": "m7-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l09",
+      "video": "m7-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l09",
+      "video": "m7-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l10",
+      "video": "m7-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l10",
+      "video": "m7-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l10",
+      "video": "m7-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l10",
+      "video": "m7-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l11",
+      "video": "m7-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l11",
+      "video": "m7-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l11",
+      "video": "m7-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l11",
+      "video": "m7-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l12",
+      "video": "m7-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l12",
+      "video": "m7-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l12",
+      "video": "m7-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l12",
+      "video": "m7-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l13",
+      "video": "m7-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l13",
+      "video": "m7-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l13",
+      "video": "m7-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l13",
+      "video": "m7-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l14",
+      "video": "m7-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l14",
+      "video": "m7-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l14",
+      "video": "m7-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l14",
+      "video": "m7-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l15",
+      "video": "m7-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l15",
+      "video": "m7-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l15",
+      "video": "m7-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m7-l15",
+      "video": "m7-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l01",
+      "video": "m8-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l01",
+      "video": "m8-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l01",
+      "video": "m8-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l01",
+      "video": "m8-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l02",
+      "video": "m8-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l02",
+      "video": "m8-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l02",
+      "video": "m8-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l02",
+      "video": "m8-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l03",
+      "video": "m8-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l03",
+      "video": "m8-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l03",
+      "video": "m8-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l03",
+      "video": "m8-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l04",
+      "video": "m8-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l04",
+      "video": "m8-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l04",
+      "video": "m8-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l04",
+      "video": "m8-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l05",
+      "video": "m8-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l05",
+      "video": "m8-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l05",
+      "video": "m8-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l05",
+      "video": "m8-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l06",
+      "video": "m8-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l06",
+      "video": "m8-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l06",
+      "video": "m8-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l06",
+      "video": "m8-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l07",
+      "video": "m8-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l07",
+      "video": "m8-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l07",
+      "video": "m8-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l07",
+      "video": "m8-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l08",
+      "video": "m8-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l08",
+      "video": "m8-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l08",
+      "video": "m8-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l08",
+      "video": "m8-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l09",
+      "video": "m8-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l09",
+      "video": "m8-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l09",
+      "video": "m8-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m8-l09",
+      "video": "m8-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l01",
+      "video": "m9-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l01",
+      "video": "m9-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l01",
+      "video": "m9-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l01",
+      "video": "m9-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l02",
+      "video": "m9-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l02",
+      "video": "m9-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l02",
+      "video": "m9-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l02",
+      "video": "m9-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l03",
+      "video": "m9-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l03",
+      "video": "m9-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l03",
+      "video": "m9-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l03",
+      "video": "m9-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l04",
+      "video": "m9-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l04",
+      "video": "m9-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l04",
+      "video": "m9-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l04",
+      "video": "m9-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l05",
+      "video": "m9-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l05",
+      "video": "m9-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l05",
+      "video": "m9-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l05",
+      "video": "m9-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l06",
+      "video": "m9-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l06",
+      "video": "m9-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l06",
+      "video": "m9-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l06",
+      "video": "m9-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l07",
+      "video": "m9-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l07",
+      "video": "m9-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l07",
+      "video": "m9-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l07",
+      "video": "m9-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l08",
+      "video": "m9-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l08",
+      "video": "m9-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l08",
+      "video": "m9-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l08",
+      "video": "m9-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l09",
+      "video": "m9-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l09",
+      "video": "m9-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l09",
+      "video": "m9-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l09",
+      "video": "m9-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l10",
+      "video": "m9-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l10",
+      "video": "m9-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l10",
+      "video": "m9-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l10",
+      "video": "m9-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l11",
+      "video": "m9-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l11",
+      "video": "m9-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l11",
+      "video": "m9-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m9-l11",
+      "video": "m9-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l01",
+      "video": "m10-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l01",
+      "video": "m10-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l01",
+      "video": "m10-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l01",
+      "video": "m10-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l02",
+      "video": "m10-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l02",
+      "video": "m10-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l02",
+      "video": "m10-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l02",
+      "video": "m10-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l03",
+      "video": "m10-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l03",
+      "video": "m10-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l03",
+      "video": "m10-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l03",
+      "video": "m10-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l04",
+      "video": "m10-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l04",
+      "video": "m10-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l04",
+      "video": "m10-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l04",
+      "video": "m10-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l05",
+      "video": "m10-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l05",
+      "video": "m10-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l05",
+      "video": "m10-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l05",
+      "video": "m10-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l06",
+      "video": "m10-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l06",
+      "video": "m10-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l06",
+      "video": "m10-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l06",
+      "video": "m10-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l07",
+      "video": "m10-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l07",
+      "video": "m10-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l07",
+      "video": "m10-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l07",
+      "video": "m10-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l08",
+      "video": "m10-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l08",
+      "video": "m10-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l08",
+      "video": "m10-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l08",
+      "video": "m10-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l09",
+      "video": "m10-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l09",
+      "video": "m10-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l09",
+      "video": "m10-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l09",
+      "video": "m10-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l10",
+      "video": "m10-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l10",
+      "video": "m10-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l10",
+      "video": "m10-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m10-l10",
+      "video": "m10-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l01",
+      "video": "m11-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l01",
+      "video": "m11-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l01",
+      "video": "m11-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l01",
+      "video": "m11-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l02",
+      "video": "m11-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l02",
+      "video": "m11-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l02",
+      "video": "m11-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l02",
+      "video": "m11-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l03",
+      "video": "m11-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l03",
+      "video": "m11-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l03",
+      "video": "m11-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l03",
+      "video": "m11-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l04",
+      "video": "m11-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l04",
+      "video": "m11-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l04",
+      "video": "m11-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l04",
+      "video": "m11-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l05",
+      "video": "m11-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l05",
+      "video": "m11-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l05",
+      "video": "m11-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l05",
+      "video": "m11-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l06",
+      "video": "m11-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l06",
+      "video": "m11-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l06",
+      "video": "m11-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l06",
+      "video": "m11-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l07",
+      "video": "m11-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l07",
+      "video": "m11-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l07",
+      "video": "m11-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l07",
+      "video": "m11-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l08",
+      "video": "m11-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l08",
+      "video": "m11-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l08",
+      "video": "m11-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l08",
+      "video": "m11-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l09",
+      "video": "m11-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l09",
+      "video": "m11-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l09",
+      "video": "m11-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l09",
+      "video": "m11-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l10",
+      "video": "m11-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l10",
+      "video": "m11-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l10",
+      "video": "m11-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l10",
+      "video": "m11-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l11",
+      "video": "m11-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l11",
+      "video": "m11-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l11",
+      "video": "m11-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l11",
+      "video": "m11-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l12",
+      "video": "m11-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l12",
+      "video": "m11-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l12",
+      "video": "m11-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l12",
+      "video": "m11-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l13",
+      "video": "m11-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l13",
+      "video": "m11-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l13",
+      "video": "m11-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m11-l13",
+      "video": "m11-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l01",
+      "video": "m12-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l01",
+      "video": "m12-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l01",
+      "video": "m12-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l01",
+      "video": "m12-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l02",
+      "video": "m12-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l02",
+      "video": "m12-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l02",
+      "video": "m12-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l02",
+      "video": "m12-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l03",
+      "video": "m12-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l03",
+      "video": "m12-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l03",
+      "video": "m12-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l03",
+      "video": "m12-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l04",
+      "video": "m12-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l04",
+      "video": "m12-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l04",
+      "video": "m12-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l04",
+      "video": "m12-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l05",
+      "video": "m12-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l05",
+      "video": "m12-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l05",
+      "video": "m12-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l05",
+      "video": "m12-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l06",
+      "video": "m12-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l06",
+      "video": "m12-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l06",
+      "video": "m12-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l06",
+      "video": "m12-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l07",
+      "video": "m12-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l07",
+      "video": "m12-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l07",
+      "video": "m12-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l07",
+      "video": "m12-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l08",
+      "video": "m12-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l08",
+      "video": "m12-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l08",
+      "video": "m12-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m12-l08",
+      "video": "m12-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l01",
+      "video": "m13-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l01",
+      "video": "m13-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l01",
+      "video": "m13-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l01",
+      "video": "m13-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l02",
+      "video": "m13-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l02",
+      "video": "m13-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l02",
+      "video": "m13-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l02",
+      "video": "m13-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l03",
+      "video": "m13-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l03",
+      "video": "m13-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l03",
+      "video": "m13-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l03",
+      "video": "m13-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l04",
+      "video": "m13-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l04",
+      "video": "m13-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l04",
+      "video": "m13-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l04",
+      "video": "m13-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l05",
+      "video": "m13-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l05",
+      "video": "m13-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l05",
+      "video": "m13-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l05",
+      "video": "m13-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l06",
+      "video": "m13-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l06",
+      "video": "m13-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l06",
+      "video": "m13-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l06",
+      "video": "m13-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l07",
+      "video": "m13-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l07",
+      "video": "m13-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l07",
+      "video": "m13-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l07",
+      "video": "m13-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l08",
+      "video": "m13-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l08",
+      "video": "m13-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l08",
+      "video": "m13-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l08",
+      "video": "m13-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l09",
+      "video": "m13-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l09",
+      "video": "m13-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l09",
+      "video": "m13-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l09",
+      "video": "m13-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l10",
+      "video": "m13-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l10",
+      "video": "m13-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l10",
+      "video": "m13-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l10",
+      "video": "m13-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l11",
+      "video": "m13-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l11",
+      "video": "m13-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l11",
+      "video": "m13-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l11",
+      "video": "m13-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l12",
+      "video": "m13-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l12",
+      "video": "m13-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l12",
+      "video": "m13-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l12",
+      "video": "m13-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l13",
+      "video": "m13-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l13",
+      "video": "m13-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l13",
+      "video": "m13-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l13",
+      "video": "m13-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l14",
+      "video": "m13-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l14",
+      "video": "m13-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l14",
+      "video": "m13-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l14",
+      "video": "m13-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l15",
+      "video": "m13-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l15",
+      "video": "m13-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l15",
+      "video": "m13-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l15",
+      "video": "m13-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l16",
+      "video": "m13-l16-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l16",
+      "video": "m13-l16-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l16",
+      "video": "m13-l16-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l16",
+      "video": "m13-l16-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l17",
+      "video": "m13-l17-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l17",
+      "video": "m13-l17-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l17",
+      "video": "m13-l17-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m13-l17",
+      "video": "m13-l17-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l01",
+      "video": "m14-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l01",
+      "video": "m14-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l01",
+      "video": "m14-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l01",
+      "video": "m14-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l02",
+      "video": "m14-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l02",
+      "video": "m14-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l02",
+      "video": "m14-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l02",
+      "video": "m14-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l03",
+      "video": "m14-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l03",
+      "video": "m14-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l03",
+      "video": "m14-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l03",
+      "video": "m14-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l04",
+      "video": "m14-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l04",
+      "video": "m14-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l04",
+      "video": "m14-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l04",
+      "video": "m14-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l05",
+      "video": "m14-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l05",
+      "video": "m14-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l05",
+      "video": "m14-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l05",
+      "video": "m14-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l06",
+      "video": "m14-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l06",
+      "video": "m14-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l06",
+      "video": "m14-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l06",
+      "video": "m14-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l07",
+      "video": "m14-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l07",
+      "video": "m14-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l07",
+      "video": "m14-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l07",
+      "video": "m14-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l08",
+      "video": "m14-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l08",
+      "video": "m14-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l08",
+      "video": "m14-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l08",
+      "video": "m14-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l09",
+      "video": "m14-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l09",
+      "video": "m14-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l09",
+      "video": "m14-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l09",
+      "video": "m14-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l10",
+      "video": "m14-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l10",
+      "video": "m14-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l10",
+      "video": "m14-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l10",
+      "video": "m14-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l11",
+      "video": "m14-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l11",
+      "video": "m14-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l11",
+      "video": "m14-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l11",
+      "video": "m14-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l12",
+      "video": "m14-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l12",
+      "video": "m14-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l12",
+      "video": "m14-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l12",
+      "video": "m14-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l13",
+      "video": "m14-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l13",
+      "video": "m14-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l13",
+      "video": "m14-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l13",
+      "video": "m14-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l14",
+      "video": "m14-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l14",
+      "video": "m14-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l14",
+      "video": "m14-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l14",
+      "video": "m14-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l15",
+      "video": "m14-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l15",
+      "video": "m14-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l15",
+      "video": "m14-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l15",
+      "video": "m14-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l16",
+      "video": "m14-l16-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l16",
+      "video": "m14-l16-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l16",
+      "video": "m14-l16-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l16",
+      "video": "m14-l16-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l17",
+      "video": "m14-l17-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l17",
+      "video": "m14-l17-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l17",
+      "video": "m14-l17-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m14-l17",
+      "video": "m14-l17-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l01",
+      "video": "m15-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l01",
+      "video": "m15-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l01",
+      "video": "m15-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l01",
+      "video": "m15-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l02",
+      "video": "m15-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l02",
+      "video": "m15-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l02",
+      "video": "m15-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l02",
+      "video": "m15-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l03",
+      "video": "m15-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l03",
+      "video": "m15-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l03",
+      "video": "m15-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l03",
+      "video": "m15-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l04",
+      "video": "m15-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l04",
+      "video": "m15-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l04",
+      "video": "m15-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l04",
+      "video": "m15-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l05",
+      "video": "m15-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l05",
+      "video": "m15-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l05",
+      "video": "m15-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l05",
+      "video": "m15-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l06",
+      "video": "m15-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l06",
+      "video": "m15-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l06",
+      "video": "m15-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l06",
+      "video": "m15-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l07",
+      "video": "m15-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l07",
+      "video": "m15-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l07",
+      "video": "m15-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l07",
+      "video": "m15-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l08",
+      "video": "m15-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l08",
+      "video": "m15-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l08",
+      "video": "m15-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l08",
+      "video": "m15-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l09",
+      "video": "m15-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l09",
+      "video": "m15-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l09",
+      "video": "m15-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l09",
+      "video": "m15-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l10",
+      "video": "m15-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l10",
+      "video": "m15-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l10",
+      "video": "m15-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l10",
+      "video": "m15-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l11",
+      "video": "m15-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l11",
+      "video": "m15-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l11",
+      "video": "m15-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l11",
+      "video": "m15-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l12",
+      "video": "m15-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l12",
+      "video": "m15-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l12",
+      "video": "m15-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l12",
+      "video": "m15-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l13",
+      "video": "m15-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l13",
+      "video": "m15-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l13",
+      "video": "m15-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l13",
+      "video": "m15-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l14",
+      "video": "m15-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l14",
+      "video": "m15-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l14",
+      "video": "m15-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l14",
+      "video": "m15-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l15",
+      "video": "m15-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l15",
+      "video": "m15-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l15",
+      "video": "m15-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m15-l15",
+      "video": "m15-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l01",
+      "video": "m16-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l01",
+      "video": "m16-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l01",
+      "video": "m16-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l01",
+      "video": "m16-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l02",
+      "video": "m16-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l02",
+      "video": "m16-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l02",
+      "video": "m16-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l02",
+      "video": "m16-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l03",
+      "video": "m16-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l03",
+      "video": "m16-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l03",
+      "video": "m16-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l03",
+      "video": "m16-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l04",
+      "video": "m16-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l04",
+      "video": "m16-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l04",
+      "video": "m16-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l04",
+      "video": "m16-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l05",
+      "video": "m16-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l05",
+      "video": "m16-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l05",
+      "video": "m16-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l05",
+      "video": "m16-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l06",
+      "video": "m16-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l06",
+      "video": "m16-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l06",
+      "video": "m16-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l06",
+      "video": "m16-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l07",
+      "video": "m16-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l07",
+      "video": "m16-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l07",
+      "video": "m16-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l07",
+      "video": "m16-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l08",
+      "video": "m16-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l08",
+      "video": "m16-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l08",
+      "video": "m16-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l08",
+      "video": "m16-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l09",
+      "video": "m16-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l09",
+      "video": "m16-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l09",
+      "video": "m16-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l09",
+      "video": "m16-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l10",
+      "video": "m16-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l10",
+      "video": "m16-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l10",
+      "video": "m16-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l10",
+      "video": "m16-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l11",
+      "video": "m16-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l11",
+      "video": "m16-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l11",
+      "video": "m16-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l11",
+      "video": "m16-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l12",
+      "video": "m16-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l12",
+      "video": "m16-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l12",
+      "video": "m16-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l12",
+      "video": "m16-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l13",
+      "video": "m16-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l13",
+      "video": "m16-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l13",
+      "video": "m16-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l13",
+      "video": "m16-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l14",
+      "video": "m16-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l14",
+      "video": "m16-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l14",
+      "video": "m16-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l14",
+      "video": "m16-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l15",
+      "video": "m16-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l15",
+      "video": "m16-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l15",
+      "video": "m16-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m16-l15",
+      "video": "m16-l15-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l01",
+      "video": "m17-l01-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l01",
+      "video": "m17-l01-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l01",
+      "video": "m17-l01-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l01",
+      "video": "m17-l01-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l02",
+      "video": "m17-l02-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l02",
+      "video": "m17-l02-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l02",
+      "video": "m17-l02-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l02",
+      "video": "m17-l02-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l03",
+      "video": "m17-l03-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l03",
+      "video": "m17-l03-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l03",
+      "video": "m17-l03-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l03",
+      "video": "m17-l03-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l04",
+      "video": "m17-l04-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l04",
+      "video": "m17-l04-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l04",
+      "video": "m17-l04-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l04",
+      "video": "m17-l04-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l05",
+      "video": "m17-l05-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l05",
+      "video": "m17-l05-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l05",
+      "video": "m17-l05-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l05",
+      "video": "m17-l05-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l06",
+      "video": "m17-l06-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l06",
+      "video": "m17-l06-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l06",
+      "video": "m17-l06-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l06",
+      "video": "m17-l06-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l07",
+      "video": "m17-l07-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l07",
+      "video": "m17-l07-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l07",
+      "video": "m17-l07-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l07",
+      "video": "m17-l07-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l08",
+      "video": "m17-l08-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l08",
+      "video": "m17-l08-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l08",
+      "video": "m17-l08-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l08",
+      "video": "m17-l08-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l09",
+      "video": "m17-l09-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l09",
+      "video": "m17-l09-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l09",
+      "video": "m17-l09-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l09",
+      "video": "m17-l09-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l10",
+      "video": "m17-l10-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l10",
+      "video": "m17-l10-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l10",
+      "video": "m17-l10-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l10",
+      "video": "m17-l10-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l11",
+      "video": "m17-l11-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l11",
+      "video": "m17-l11-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l11",
+      "video": "m17-l11-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l11",
+      "video": "m17-l11-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l12",
+      "video": "m17-l12-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l12",
+      "video": "m17-l12-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l12",
+      "video": "m17-l12-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l12",
+      "video": "m17-l12-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l13",
+      "video": "m17-l13-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l13",
+      "video": "m17-l13-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l13",
+      "video": "m17-l13-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l13",
+      "video": "m17-l13-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l14",
+      "video": "m17-l14-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l14",
+      "video": "m17-l14-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l14",
+      "video": "m17-l14-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l14",
+      "video": "m17-l14-v4",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l15",
+      "video": "m17-l15-v1",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l15",
+      "video": "m17-l15-v2",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l15",
+      "video": "m17-l15-v3",
+      "status": "fara-scenariu"
+    },
+    {
+      "lectie": "m17-l15",
+      "video": "m17-l15-v4",
+      "status": "fara-scenariu"
+    }
+  ]
+}

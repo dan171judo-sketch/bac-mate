@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l05",
+    "modul": 1,
+    "numarLectie": 5,
+    "titlu": "Propoziții și predicate",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l05-v3",
+    "numar": 3,
+    "rol": "exemplu-rezolvat",
+    "titlu": "Propoziții și predicate - exercițiu de tip Bac",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Propoziții și predicate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Propoziții și predicate - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Propoziții și predicate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Propoziții și predicate - exercițiu de tip Bac",
+      "naratiune": "Începem cu o propoziție simplă și o verificăm.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Propoziții și predicate - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Propoziții și predicate - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o propoziție simplă și o verificăm.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.074596,
+      "procentDurata": 7.4596
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: 'Numărul 5 este mai mare de…",
+      "subtitlu": "Pe ecran apare propoziția: 'Numărul 5 este mai mare decât 3.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "5 > 3",
+      "naratiune": "Vom analiza propoziția: 'Numărul 5 este mai mare decât 3.' Aceasta este o propoziție adevărată, deoarece 5 > 3.",
+      "vizual": "Pe ecran apare propoziția: 'Numărul 5 este mai mare decât 3.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza propoziția: 'Numărul 5 este mai mare decât 3.' Aceasta este o propoziție adevărată, deoarece 5 > 3.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.074596,
+      "endProcent": 0.153336,
+      "procentDurata": 7.874
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Propoziția 'x este mai mare decât 3",
+      "subtitlu": "Pe ecran apare propoziția: 'x este mai mare decât 3.'",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Propoziția 'x este mai mare decât 3.' nu este o propoziție…",
+      "naratiune": "Propoziția 'x este mai mare decât 3.' nu este o propoziție completă, deoarece conține variabila x. Aceasta este un predicat.",
+      "vizual": "Pe ecran apare propoziția: 'x este mai mare decât 3.'",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Propoziția 'x este mai mare decât 3.' nu este o propoziție completă, deoarece conține variabila x.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este un predicat.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.153336,
+      "endProcent": 0.23622,
+      "procentDurata": 8.2884
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o propoziție simplă și o verificăm.",
+      "naratiune": "Începem cu o propoziție simplă și o verificăm. Vom analiza ce este o propoziție și ce este un predicat. Vom vedea cum se formează propoziții din predicate. Vom rezolva un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o propoziție simplă și o verificăm.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza ce este o propoziție și ce este un predicat.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se formează propoziții din predicate.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.23622,
+      "endProcent": 0.377124,
+      "procentDurata": 14.0903
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Exercițiu de tip Bac",
+      "subtitlu": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3'",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'.",
+      "naratiune": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3' P(x) este un predicat, deoarece conține variabila x și nu are valoare de adevăr. Pentru x = 4, propoziția devine: '4 este un număr natural mai mare decât 3', care este adevărată. Răspunsul final este Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3'",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. P(x) este un predicat, deoarece conține variabila x și nu are valoare de adevăr.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x = 4, propoziția devine: '4 este un număr natural mai mare decât 3', care este adevărată.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.377124,
+      "endProcent": 0.672607,
+      "procentDurata": 29.5483
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este o propoziție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5 este mai mare decât 3.",
+      "naratiune": "Care dintre următoarele este o propoziție? A) x este mai mare decât 3. B) 5 este mai mare decât 3. C) x + 2 = 5. Varianta B este o propoziție, deoarece este o afirmație completă și are valoare de adevăr. Variantele A și C sunt predicate, deoarece conțin variabile.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este o propoziție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x este mai mare decât 3.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5 este mai mare decât 3.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x + 2 = 5.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5 este mai mare decât 3.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.672607,
+      "endProcent": 0.879818,
+      "procentDurata": 20.7211
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă.",
+      "naratiune": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă. Un predicat este o propoziție care conține variabile și nu are valoare de adevăr.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Un predicat este o propoziție care conține variabile și nu are valoare de adevăr.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.879818,
+      "endProcent": 1,
+      "procentDurata": 12.0182
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Propoziții și predicate - exercițiu de tip Bac",
+      "subtitlu": "Rezolvăm împreună",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Propoziții și predicate”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Propoziții și predicate - exercițiu de tip Bac",
+      "naratiune": "Începem cu o propoziție simplă și o verificăm.",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Propoziții și predicate - exercițiu de tip Bac”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Propoziții și predicate - exercițiu de tip Bac",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu o propoziție simplă și o verificăm.",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.074596,
+      "procentDurata": 7.4596
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Vom analiza propoziția: 'Numărul 5 este mai mare de…",
+      "subtitlu": "Pe ecran apare propoziția: 'Numărul 5 este mai mare decât 3.'",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "5 > 3",
+      "naratiune": "Vom analiza propoziția: 'Numărul 5 este mai mare decât 3.' Aceasta este o propoziție adevărată, deoarece 5 > 3.",
+      "vizual": "Pe ecran apare propoziția: 'Numărul 5 este mai mare decât 3.'",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "formula",
+          "text": "Vom analiza propoziția: 'Numărul 5 este mai mare decât 3.' Aceasta este o propoziție adevărată, deoarece 5 > 3.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.074596,
+      "endProcent": 0.153336,
+      "procentDurata": 7.874
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Propoziția 'x este mai mare decât 3",
+      "subtitlu": "Pe ecran apare propoziția: 'x este mai mare decât 3.'",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Propoziția 'x este mai mare decât 3.' nu este o propoziție…",
+      "naratiune": "Propoziția 'x este mai mare decât 3.' nu este o propoziție completă, deoarece conține variabila x. Aceasta este un predicat.",
+      "vizual": "Pe ecran apare propoziția: 'x este mai mare decât 3.'",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Propoziția 'x este mai mare decât 3.' nu este o propoziție completă, deoarece conține variabila x.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Aceasta este un predicat.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.153336,
+      "endProcent": 0.23622,
+      "procentDurata": 8.2884
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu o propoziție simplă și o verificăm.",
+      "naratiune": "Începem cu o propoziție simplă și o verificăm. Vom analiza ce este o propoziție și ce este un predicat. Vom vedea cum se formează propoziții din predicate. Vom rezolva un exercițiu de tip Bac.",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu o propoziție simplă și o verificăm.",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom analiza ce este o propoziție și ce este un predicat.",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se formează propoziții din predicate.",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu de tip Bac.",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.23622,
+      "endProcent": 0.377124,
+      "procentDurata": 14.0903
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Exercițiu de tip Bac",
+      "subtitlu": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3'",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'.",
+      "naratiune": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3' P(x) este un predicat, deoarece conține variabila x și nu are valoare de adevăr. Pentru x = 4, propoziția devine: '4 este un număr natural mai mare decât 3', care este adevărată. Răspunsul final este Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Scrieți propoziția corespunzătoare predicatului: P(x) = 'x este un număr natural mai mare decât 3'",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. P(x) este un predicat, deoarece conține variabila x și nu are valoare de adevăr.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Pentru x = 4, propoziția devine: '4 este un număr natural mai mare decât 3', care este adevărată.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Propoziția corespunzătoare este: '4 este un număr natural mai mare decât 3'.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.377124,
+      "endProcent": 0.672607,
+      "procentDurata": 29.5483
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Care dintre următoarele este o propoziție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "B) 5 este mai mare decât 3.",
+      "naratiune": "Care dintre următoarele este o propoziție? A) x este mai mare decât 3. B) 5 este mai mare decât 3. C) x + 2 = 5. Varianta B este o propoziție, deoarece este o afirmație completă și are valoare de adevăr. Variantele A și C sunt predicate, deoarece conțin variabile.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Care dintre următoarele este o propoziție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) x este mai mare decât 3.",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 5 este mai mare decât 3.",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) x + 2 = 5.",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: B) 5 este mai mare decât 3.",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.672607,
+      "endProcent": 0.879818,
+      "procentDurata": 20.7211
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă.",
+      "naratiune": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă. Un predicat este o propoziție care conține variabile și nu are valoare de adevăr.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O propoziție este o afirmație care are un sens și poate fi adevărată sau falsă.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Un predicat este o propoziție care conține variabile și nu are valoare de adevăr.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.879818,
+      "endProcent": 1,
+      "procentDurata": 12.0182
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-05.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T02:34:44.498Z"
+  }
+}

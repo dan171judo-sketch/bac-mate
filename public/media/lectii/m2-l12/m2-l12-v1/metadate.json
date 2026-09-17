@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m2-l12",
+  "videoId": "m2-l12-v1",
+  "modul": 2,
+  "numarLectie": 12,
+  "numarVideo": 1,
+  "titluLectie": "Șiruri de numere reale",
+  "titluVideo": "Ce sunt șiruri de numere reale?",
+  "durataTintaMinute": 4,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

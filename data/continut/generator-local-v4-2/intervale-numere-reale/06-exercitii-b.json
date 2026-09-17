@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați: 12 + (8 × 3) − 6.",
+      "variante": [],
+      "raspunsCorect": "30",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Evaluarea înmulțirii",
+          "continut": "Se calculează înmulțirea: 8 × 3 = 24."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea și scăderea",
+          "continut": "Se adună și se scade: 12 + 24 − 6 = 30."
+        }
+      ],
+      "explicatieFinala": "Calculul se face în ordinea operațiilor, înmulțirea fiind efectuată înainte de adunare și scădere, rezultând 30.",
+      "competenta": "Evaluarea expresiilor aritmetice cu paranteze folosind ordinea corectă a operațiilor.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: (12 − 4) × 3 + 7?",
+      "variante": [
+        "25",
+        "29",
+        "30",
+        "35"
+      ],
+      "raspunsCorect": "25",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Evaluarea parantezei",
+          "continut": "Se calculează diferența: 12 − 4 = 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înmulțirea și adunarea",
+          "continut": "Se înmulțește și se adună: 8 × 3 + 7 = 24 + 7 = 25."
+        }
+      ],
+      "explicatieFinala": "Calculul se face în ordinea operațiilor, paranteza fiind evaluată prima, urmată de înmulțire și adunare, rezultând 25.",
+      "competenta": "Evaluarea expresiilor aritmetice cu paranteze folosind ordinea corectă a operațiilor.",
+      "punctaj": 10
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați: (25 ÷ 5) + (9 − 4).",
+      "variante": [],
+      "raspunsCorect": "10",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Evaluarea împărțirii și scăderii",
+          "continut": "Se calculează împărțirea: 25 ÷ 5 = 5, apoi scăderea: 9 − 4 = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea rezultatelor",
+          "continut": "Se adună cele două rezultate: 5 + 5 = 10."
+        }
+      ],
+      "explicatieFinala": "Calculul se face în ordinea operațiilor, împărțirea și scăderea fiind evaluate separat, apoi adunate, obținând 10.",
+      "competenta": "Evaluarea expresiilor aritmetice cu paranteze folosind ordinea corectă a operațiilor.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: (10 + 2) × (6 − 4)?",
+      "variante": [
+        "12",
+        "18",
+        "20",
+        "24"
+      ],
+      "raspunsCorect": "24",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Evaluarea parantezelor",
+          "continut": "Se calculează fiecare paranteză: (10 + 2) = 12 și (6 − 4) = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înmulțirea rezultatelor",
+          "continut": "Se înmulțesc cele două rezultate: 12 × 2 = 24."
+        }
+      ],
+      "explicatieFinala": "Calculul se face în ordinea operațiilor, parantezele fiind evaluate separat, apoi înmulțite, obținând 24.",
+      "competenta": "Evaluarea expresiilor aritmetice cu paranteze folosind ordinea corectă a operațiilor.",
+      "punctaj": 10
+    }
+  ]
+}

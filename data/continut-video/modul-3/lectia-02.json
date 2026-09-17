@@ -1,0 +1,265 @@
+{
+  "versiuneSchema": 1,
+  "id": "m3-l02",
+  "modul": 3,
+  "numarLectie": 2,
+  "titlu": "Graficul funcției de gradul I",
+  "slugContinut": "graficul-functiei-de-gradul-i",
+  "status": "generat-neverificat",
+  "standardCalitate": {
+    "nivel": "ridicat",
+    "videoFirst": true,
+    "necesitaVerificareMatematica": true,
+    "necesitaVerificarePrograma": true,
+    "necesitaVerificareLimbaRomana": true,
+    "poateFiPublicatAutomat": false
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Graficul funcției de gradul I”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "videoLectii": [
+    {
+      "id": "m3-l02-v1",
+      "numar": 1,
+      "rol": "intuitie-si-concept",
+      "titlu": "Graficul funcției de gradul I",
+      "durataTintaMinute": 4,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Ce este o funcție de gradul I?",
+        "Cum arată graficul ei?",
+        "De ce este important să știm acest lucru?",
+        "Ce ne ajută să construim graficul?"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic în coordonate carteziene cu o dreaptă",
+          "naratiune": "Funcția de gradul I este o funcție liniară, care are graficul o dreaptă. Aceasta se poate scrie sub forma f(x) = ax + b, unde a și b sunt numere reale."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel de valori și graficul corespunzător",
+          "naratiune": "Pentru a construi graficul, putem folosi două puncte. De exemplu, dacă luăm x = 0, obținem f(0) = b, deci punctul (0, b). Apoi, dacă luăm x = 1, obținem f(1) = a + b, deci punctul (1, a + b)."
+        },
+        {
+          "numar": 3,
+          "vizual": "Un grafic cu două puncte marcate",
+          "naratiune": "După ce avem cele două puncte, le unim cu o dreaptă. Astfel, obținem graficul funcției de gradul I."
+        },
+        {
+          "numar": 4,
+          "vizual": "Un grafic cu două puncte și dreapta care le leagă",
+          "naratiune": "Această dreaptă este graficul funcției de gradul I. Este important să știm cum să o construim pentru a rezolva probleme de tip Bac."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Graficul funcției de gradul I este o dreaptă.",
+        "Pentru a construi graficul, folosim două puncte."
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Construirea graficului funcției f(x) = 2x + 1",
+        "enunt": "Scrieți graficul funcției f(x) = 2x + 1.",
+        "rezolvare": [
+          "Pentru x = 0, f(0) = 2*0 + 1 = 1, deci punctul (0, 1).",
+          "Pentru x = 1, f(1) = 2*1 + 1 = 3, deci punctul (1, 3)."
+        ],
+        "raspuns": "Graficul este dreapta care trece prin punctele (0, 1) și (1, 3)."
+      },
+      "verificareRapida": {
+        "intrebare": "Care este graficul funcției f(x) = -3x + 2?",
+        "variante": [
+          "A) Dreapta care trece prin (0, 2) și (1, -1)",
+          "B) Dreapta care trece prin (0, -3) și (1, 2)",
+          "C) Dreapta care trece prin (0, 2) și (1, -3)"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Pentru x = 0, f(0) = -3*0 + 2 = 2, deci punctul (0, 2). Pentru x = 1, f(1) = -3*1 + 2 = -1, deci punctul (1, -1). Dreapta care trece prin aceste puncte este varianta A."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l02/video-1.mp4",
+        "audioUrl": "/videos/modul-3/m3-l02/audio-1.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l02/m3-l02-v1/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l02/m3-l02-v1/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l02/m3-l02-v1/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 2,
+        "numarVideo": 1
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 2,
+        "titluLectie": "Graficul funcției de gradul I",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:19:56.235Z"
+      }
+    },
+    {
+      "id": "m3-l02-v2",
+      "numar": 2,
+      "rol": "reguli-si-metoda",
+      "titlu": "Graficul funcției de gradul I",
+      "durataTintaMinute": 5,
+      "status": "generat-neverificat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [
+        "Începem cu definiția funcției de gradul I",
+        "Vom vedea cum se construiește graficul",
+        "Vom învăța cum să recunoaștem graficul în exerciții",
+        "Vom rezolva un exemplu practic"
+      ],
+      "cadre": [
+        {
+          "numar": 1,
+          "vizual": "Un grafic al unei funcții de gradul I",
+          "naratiune": "Graficul unei funcții de gradul I este o dreaptă. Pentru a-l construi, trebuie să știm două puncte pe dreaptă."
+        },
+        {
+          "numar": 2,
+          "vizual": "Un tabel cu valori pentru funcția f(x) = 2x + 1",
+          "naratiune": "Vom folosi două valori ale lui x pentru a calcula corespunzătoarele valori ale lui f(x)."
+        }
+      ],
+      "ideiDeRetinut": [
+        "Graficul funcției de gradul I este o dreaptă",
+        "Pentru a construi graficul, trebuie să știm două puncte pe dreaptă"
+      ],
+      "formule": [],
+      "exemplu": {
+        "titlu": "Construirea graficului funcției f(x) = 2x + 1",
+        "enunt": "Scrieți ecuația dreptei care trece prin punctele A(1, 3) și B(2, 5).",
+        "rezolvare": [
+          "Calculăm panta m = (5 - 3)/(2 - 1) = 2/1 = 2",
+          "Utilizăm ecuația punct-pantă: y - 3 = 2(x - 1) => y = 2x + 1"
+        ],
+        "raspuns": "y = 2x + 1"
+      },
+      "verificareRapida": {
+        "intrebare": "Care este ecuația dreptei care trece prin punctele A(0, 3) și B(1, 5)?",
+        "variante": [
+          "A) y = 2x + 3",
+          "B) y = 3x + 2",
+          "C) y = 2x + 1"
+        ],
+        "raspunsCorect": 0,
+        "explicatie": "Calculăm panta m = (5 - 3)/(1 - 0) = 2/1 = 2. Folosim punctul A(0, 3): y - 3 = 2(x - 0) => y = 2x + 3."
+      },
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l02/video-2.mp4",
+        "audioUrl": "/videos/modul-3/m3-l02/audio-2.mp3",
+        "subtitrareUrl": "/media/lectii/m3-l02/m3-l02-v2/subtitrare.vtt",
+        "thumbnailUrl": "/media/lectii/m3-l02/m3-l02-v2/thumbnail.svg",
+        "textVoceUrl": "/media/lectii/m3-l02/m3-l02-v2/voce.txt",
+        "pregatit": true,
+        "modul": 3,
+        "numarLectie": 2,
+        "numarVideo": 2
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 2,
+        "titluLectie": "Graficul funcției de gradul I",
+        "generator": "Ollama local",
+        "model": "qwen3:8b",
+        "generatLa": "2026-09-09T16:29:41.270Z"
+      }
+    },
+    {
+      "id": "m3-l02-v3",
+      "numar": 3,
+      "rol": "exemplu-rezolvat",
+      "titlu": "Exemplu rezolvat pas cu pas",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l02/video-3.mp4",
+        "audioUrl": "/videos/modul-3/m3-l02/audio-3.mp3",
+        "subtitrareUrl": "/videos/modul-3/m3-l02/video-3.vtt",
+        "thumbnailUrl": "/videos/modul-3/m3-l02/video-3.png"
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 2,
+        "titluLectie": "Graficul funcției de gradul I"
+      }
+    },
+    {
+      "id": "m3-l02-v4",
+      "numar": 4,
+      "rol": "bac-si-greseli",
+      "titlu": "Aplicare la Bac și greșeli frecvente",
+      "durataTintaMinute": 5,
+      "status": "de-generat",
+      "verificare": {
+        "matematic": false,
+        "programa": false,
+        "limbaRomana": false,
+        "exemplu": false,
+        "audio": false,
+        "video": false
+      },
+      "scenariu": [],
+      "cadre": [],
+      "ideiDeRetinut": [],
+      "formule": [],
+      "exemplu": null,
+      "verificareRapida": null,
+      "media": {
+        "videoUrl": "/videos/modul-3/m3-l02/video-4.mp4",
+        "audioUrl": "/videos/modul-3/m3-l02/audio-4.mp3",
+        "subtitrareUrl": "/videos/modul-3/m3-l02/video-4.vtt",
+        "thumbnailUrl": "/videos/modul-3/m3-l02/video-4.png"
+      },
+      "metadata": {
+        "modul": 3,
+        "lectie": 2,
+        "titluLectie": "Graficul funcției de gradul I"
+      }
+    }
+  ],
+  "controlCalitate": {
+    "continutGenerat": false,
+    "verificatAutomat": false,
+    "verificatMatematic": false,
+    "verificatPrograma": false,
+    "verificatManual": false,
+    "gataPentruRandare": false,
+    "gataPentruPublicare": false
+  },
+  "generareAI": {
+    "provider": "Ollama local",
+    "model": "qwen3:8b",
+    "dataGenerare": "2026-09-09T16:29:41.270Z",
+    "necesitaVerificareUmana": true
+  }
+}

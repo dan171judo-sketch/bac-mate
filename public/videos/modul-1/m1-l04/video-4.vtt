@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Un interval este o mulțime de numere reale cuprinse între două valori. De exemplu, intervalul [1, 5] include toate numerele reale de la 1 la 5, inclusiv capetele.
+
+2
+00:02:30.000 --> 00:05:00.000
+Vom analiza greșelile frecvente: uneori elevii confundă parantezele rotunde cu drepte, sau nu țin cont de semnul inegalității. De exemplu, (1, 5) nu include 1 și 5, în timp ce [1, 5] le include.
+

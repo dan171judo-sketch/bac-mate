@@ -1,0 +1,25 @@
+{
+  "proiect": "BAC MATE",
+  "lectieId": "m1-l04",
+  "videoId": "m1-l04-v2",
+  "modul": 1,
+  "numarLectie": 4,
+  "numarVideo": 2,
+  "titluLectie": "Intervale de numere reale",
+  "titluVideo": "Intervale de numere reale: reguli și metoda",
+  "durataTintaMinute": 5,
+  "fisiere": {
+    "voce": "voce.txt",
+    "subtitrare": "subtitrare.vtt",
+    "thumbnail": "thumbnail.svg",
+    "audio": "audio.mp3",
+    "video": "video.mp4"
+  },
+  "stare": {
+    "scenariu": true,
+    "subtitrare": true,
+    "thumbnail": true,
+    "audio": true,
+    "video": false
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l02",
+    "modul": 2,
+    "numarLectie": 2,
+    "titlu": "Noțiunea de funcție",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l02-v4",
+    "numar": 4,
+    "rol": "bac-si-greseli",
+    "titlu": "Funcția: definiție și greșeli comune",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția: definiție și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția: definiție și greșeli comune",
+      "naratiune": "Ce este o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția: definiție și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția: definiție și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.085127,
+      "procentDurata": 8.5127
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, A și B…",
+      "subtitlu": "Un profesor explică pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, A și B, astfel…",
+      "naratiune": "O funcție este o relație între două mulțimi, A și B, astfel încât fiecare element din A are exact un element corespunzător din B.",
+      "vizual": "Un profesor explică pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, A și B, astfel încât fiecare element din A are exact un element corespunzător din B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.085127,
+      "endProcent": 0.198629,
+      "procentDurata": 11.3502
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Atenție la domeniul de definiție și la codomeniul f…",
+      "subtitlu": "Un elev rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Atenție la domeniul de definiție și la codomeniul funcției.…",
+      "naratiune": "Atenție la domeniul de definiție și la codomeniul funcției. O greșeală comună este să considerăm o funcție fără a specifica domeniul.",
+      "vizual": "Un elev rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Atenție la domeniul de definiție și la codomeniul funcției.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "O greșeală comună este să considerăm o funcție fără a specifica domeniul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.198629,
+      "endProcent": 0.297943,
+      "procentDurata": 9.9314
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este o funcție?",
+      "naratiune": "Ce este o funcție? Cum se definește o funcție? Ce se întâmplă dacă nu respectăm definiția? Cum să evităm greșelile la Bac?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă nu respectăm definiția?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să evităm greșelile la Bac?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.297943,
+      "endProcent": 0.401986,
+      "procentDurata": 10.4044
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea domeniului de definiție",
+      "subtitlu": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "R\\{0}",
+      "naratiune": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției? Pentru ca funcția să fie definită, numitorul trebuie să fie diferit de zero. Deci x ≠ 0, deci domeniul de definiție este R\\{0}. Răspunsul final este R\\{0}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru ca funcția să fie definită, numitorul trebuie să fie diferit de zero.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deci x ≠ 0, deci domeniul de definiție este R\\{0}.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: R\\{0}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.401986,
+      "endProcent": 0.635848,
+      "procentDurata": 23.3861
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) [1, ∞)",
+      "naratiune": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției? A) [1, ∞) B) (-∞, 1) C) (1, ∞) Pentru ca radicalul să aibă sens, x - 1 ≥ 0 ⇒ x ≥ 1. Deci domeniul este [1, ∞). Varianta A este corectă.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [1, ∞)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (-∞, 1)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (1, ∞)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) [1, ∞)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.635848,
+      "endProcent": 0.877039,
+      "procentDurata": 24.1192
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B",
+      "naratiune": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B Domeniul de definiție este esențial pentru a defini corect o funcție",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Domeniul de definiție este esențial pentru a defini corect o funcție",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.877039,
+      "endProcent": 1,
+      "procentDurata": 12.2961
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Funcția: definiție și greșeli comune",
+      "subtitlu": "Aplicăm la Bac și evităm greșelile",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Funcția: definiție și greșeli comune",
+      "naratiune": "Ce este o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Funcția: definiție și greșeli comune”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Funcția: definiție și greșeli comune",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.085127,
+      "procentDurata": 8.5127
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, A și B…",
+      "subtitlu": "Un profesor explică pe tablă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, A și B, astfel…",
+      "naratiune": "O funcție este o relație între două mulțimi, A și B, astfel încât fiecare element din A are exact un element corespunzător din B.",
+      "vizual": "Un profesor explică pe tablă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, A și B, astfel încât fiecare element din A are exact un element corespunzător din B.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.085127,
+      "endProcent": 0.198629,
+      "procentDurata": 11.3502
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Atenție la domeniul de definiție și la codomeniul f…",
+      "subtitlu": "Un elev rezolvă un exercițiu pe caiet",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Atenție la domeniul de definiție și la codomeniul funcției.…",
+      "naratiune": "Atenție la domeniul de definiție și la codomeniul funcției. O greșeală comună este să considerăm o funcție fără a specifica domeniul.",
+      "vizual": "Un elev rezolvă un exercițiu pe caiet",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Atenție la domeniul de definiție și la codomeniul funcției.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "O greșeală comună este să considerăm o funcție fără a specifica domeniul.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.198629,
+      "endProcent": 0.297943,
+      "procentDurata": 9.9314
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "concept",
+      "titlu": "Ideile principale",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este o funcție?",
+      "naratiune": "Ce este o funcție? Cum se definește o funcție? Ce se întâmplă dacă nu respectăm definiția? Cum să evităm greșelile la Bac?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se întâmplă dacă nu respectăm definiția?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să evităm greșelile la Bac?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.297943,
+      "endProcent": 0.401986,
+      "procentDurata": 10.4044
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Verificarea domeniului de definiție",
+      "subtitlu": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "R\\{0}",
+      "naratiune": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției? Pentru ca funcția să fie definită, numitorul trebuie să fie diferit de zero. Deci x ≠ 0, deci domeniul de definiție este R\\{0}. Răspunsul final este R\\{0}.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: R → R, f(x) = 1/x. Care este domeniul de definiție al funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Pentru ca funcția să fie definită, numitorul trebuie să fie diferit de zero.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Deci x ≠ 0, deci domeniul de definiție este R\\{0}.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: R\\{0}",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.401986,
+      "endProcent": 0.635848,
+      "procentDurata": 23.3861
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) [1, ∞)",
+      "naratiune": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției? A) [1, ∞) B) (-∞, 1) C) (1, ∞) Pentru ca radicalul să aibă sens, x - 1 ≥ 0 ⇒ x ≥ 1. Deci domeniul este [1, ∞). Varianta A este corectă.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f: R → R, f(x) = √(x - 1). Care este domeniul de definiție al funcției?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) [1, ∞)",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) (-∞, 1)",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) (1, ∞)",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) [1, ∞)",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.635848,
+      "endProcent": 0.877039,
+      "procentDurata": 24.1192
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B",
+      "naratiune": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B Domeniul de definiție este esențial pentru a defini corect o funcție",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție trebuie să asocieze fiecare element din A cu un singur element din B",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Domeniul de definiție este esențial pentru a defini corect o funcție",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.877039,
+      "endProcent": 1,
+      "procentDurata": 12.2961
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.639Z"
+  }
+}

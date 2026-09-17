@@ -1,0 +1,4334 @@
+import fs from "node:fs";
+import path from "node:path";
+import http from "node:http";
+import https from "node:https";
+
+import {
+  valideazaExercitiuMatematic,
+} from "./math-qa.mjs";
+
+/* =========================================================
+   BAC MATE — GENERATOR LOCAL CONTENT ENGINE V6.0
+
+   Scop:
+   - cost API 0
+   - Ollama local + qwen3:8b
+   - catalog canonic = sursa identitatii lectiei
+   - AI local = redactor, NU sursa de adevar matematic
+   - tot continutul generat ramane DRAFT
+   - checkpoint + resume
+   - autoreparare pe baza erorilor validatorului
+   - streaming Ollama prin http/https nativ
+   - reutilizeaza doar checkpoint-urile care trec validatorii V6
+   - ID-uri deterministe la asamblare
+   - self-test structural fara Ollama
+   - inlocuire controlata doar pentru drafturi locale (--replace-draft)
+   - fara suprascriere
+   - fara modificare automata a registrului
+========================================================= */
+
+const ROOT = process.cwd();
+const DIRECTOR_CONTINUT = path.join(ROOT, "data", "continut");
+const DIRECTOR_LECTII = path.join(DIRECTOR_CONTINUT, "lectii");
+const CALE_CATALOG = path.join(
+  DIRECTOR_CONTINUT,
+  "catalog-content-engine.json"
+);
+
+/*
+ * IMPORTANT:
+ * Pastram exact directorul V4.2 pentru a reutiliza checkpoint-urile
+ * 01-meta si 02-teorie deja generate si validate.
+ */
+const DIRECTOR_GENERATOR = path.join(
+  DIRECTOR_CONTINUT,
+  "generator-local-v4-2"
+);
+
+const CALE_RAPORT = path.join(
+  DIRECTOR_GENERATOR,
+  "raport-generare.json"
+);
+
+const NUMAR_LECTII_ASTEPTAT = 219;
+
+const MODEL_IMPLICIT =
+  process.env.BAC_MATE_OLLAMA_MODEL ||
+  "qwen3:8b";
+
+const OLLAMA_URL =
+  process.env.BAC_MATE_OLLAMA_URL ||
+  "http://127.0.0.1:11434";
+
+const NUM_CTX = 4096;
+const THINK = false;
+
+const MAX_INCERCARI_HTTP = 3;
+const MAX_INCERCARI_STRUCTURA = 3;
+const PAUZA_RETRY_MS = 5000;
+const TIMEOUT_APEL_MS = 20 * 60 * 1000;
+
+const VIDEO_MIN_CUVINTE = {
+  1: 340,
+  2: 425,
+  3: 425,
+  4: 425,
+};
+
+const VIDEO_MAX_CUVINTE = {
+  1: 620,
+  2: 720,
+  3: 720,
+  4: 720,
+};
+
+const VERSIUNE_GENERATOR = "6.0";
+
+const NIVELURI_PERMISE = new Set([
+  "fundament",
+  "standard-bac",
+  "avansat",
+]);
+
+const TIPURI_EXERCITII_PERMISE = new Set([
+  "alegere-multipla",
+  "raspuns-scurt",
+  "rezolvare-completa",
+]);
+
+/* =========================================================
+   UTILITARE
+========================================================= */
+
+function titlu(text) {
+  console.log("");
+  console.log("=".repeat(72));
+  console.log(text);
+  console.log("=".repeat(72));
+}
+
+function exista(cale) {
+  return fs.existsSync(cale);
+}
+
+function asiguraDirector(cale) {
+  fs.mkdirSync(cale, {
+    recursive: true,
+  });
+}
+
+function citesteText(cale) {
+  return fs.readFileSync(cale, "utf8");
+}
+
+function citesteJson(cale) {
+  return JSON.parse(citesteText(cale));
+}
+
+function scrieJson(cale, valoare) {
+  asiguraDirector(path.dirname(cale));
+
+  fs.writeFileSync(
+    cale,
+    JSON.stringify(valoare, null, 2) + "\n",
+    "utf8"
+  );
+}
+
+function acum() {
+  return new Date().toISOString();
+}
+
+function relativ(cale) {
+  return path.relative(ROOT, cale);
+}
+
+function asteapta(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function esteText(valoare) {
+  return (
+    typeof valoare === "string" &&
+    valoare.trim().length > 0
+  );
+}
+
+function esteArray(valoare) {
+  return Array.isArray(valoare);
+}
+
+function numaraCuvinte(text) {
+  return String(text ?? "")
+    .replace(/[\n\r\t]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .length;
+}
+
+/* =========================================================
+   ARGUMENTE CLI
+========================================================= */
+
+function citesteArgumente() {
+  const rezultat = {
+    dryRun: false,
+    all: false,
+    limit: null,
+    slug: null,
+    restart: false,
+    replaceDraft: false,
+    selfTest: false,
+    validateCheckpoints: false,
+    model: MODEL_IMPLICIT,
+  };
+
+  const argumente = process.argv.slice(2);
+
+  for (const argument of argumente) {
+    if (argument === "--dry-run") {
+      rezultat.dryRun = true;
+      continue;
+    }
+
+    if (argument === "--all") {
+      rezultat.all = true;
+      continue;
+    }
+
+    if (argument === "--restart") {
+      rezultat.restart = true;
+      continue;
+    }
+
+    if (argument === "--replace-draft") {
+      rezultat.replaceDraft = true;
+      continue;
+    }
+
+    if (argument === "--self-test") {
+      rezultat.selfTest = true;
+      continue;
+    }
+
+    if (argument === "--validate-checkpoints") {
+      rezultat.validateCheckpoints = true;
+      continue;
+    }
+
+    if (argument.startsWith("--limit=")) {
+      const valoare = Number(
+        argument.slice("--limit=".length)
+      );
+
+      if (
+        !Number.isInteger(valoare) ||
+        valoare <= 0
+      ) {
+        throw new Error(
+          "--limit trebuie sa fie numar intreg pozitiv."
+        );
+      }
+
+      rezultat.limit = valoare;
+      continue;
+    }
+
+    if (argument.startsWith("--slug=")) {
+      const slug = argument
+        .slice("--slug=".length)
+        .trim();
+
+      if (!slug) {
+        throw new Error(
+          "--slug nu poate fi gol."
+        );
+      }
+
+      rezultat.slug = slug;
+      continue;
+    }
+
+    if (argument.startsWith("--model=")) {
+      const model = argument
+        .slice("--model=".length)
+        .trim();
+
+      if (!model) {
+        throw new Error(
+          "--model nu poate fi gol."
+        );
+      }
+
+      rezultat.model = model;
+      continue;
+    }
+
+    throw new Error(
+      `Argument necunoscut: ${argument}`
+    );
+  }
+
+  if (rezultat.all && rezultat.limit) {
+    throw new Error(
+      "Nu folosi --all si --limit simultan."
+    );
+  }
+
+  return rezultat;
+}
+
+/* =========================================================
+   CATALOG CANONIC
+========================================================= */
+
+function incarcaCatalogul() {
+  if (!exista(CALE_CATALOG)) {
+    throw new Error(
+      [
+        "Lipseste catalogul canonic:",
+        relativ(CALE_CATALOG),
+        "",
+        "Ruleaza:",
+        "npm.cmd run content:generate",
+      ].join("\n")
+    );
+  }
+
+  const document = citesteJson(CALE_CATALOG);
+
+  if (
+    !document ||
+    !Array.isArray(document.lectii)
+  ) {
+    throw new Error(
+      "catalog-content-engine.json nu contine array-ul lectii."
+    );
+  }
+
+  const lectii = document.lectii;
+
+  if (
+    lectii.length !== NUMAR_LECTII_ASTEPTAT
+  ) {
+    throw new Error(
+      `Catalog invalid: ${lectii.length}/${NUMAR_LECTII_ASTEPTAT}.`
+    );
+  }
+
+  const slugs = new Set();
+  const pozitii = new Set();
+
+  for (const lectie of lectii) {
+    if (!esteText(lectie.slug)) {
+      throw new Error(
+        "Exista o lectie fara slug valid."
+      );
+    }
+
+    if (
+      !Number.isInteger(lectie.modul) ||
+      !Number.isInteger(lectie.numarLectie)
+    ) {
+      throw new Error(
+        `Pozitie invalida: ${lectie.slug}`
+      );
+    }
+
+    if (!esteText(lectie.titlu)) {
+      throw new Error(
+        `Titlu invalid: ${lectie.slug}`
+      );
+    }
+
+    if (slugs.has(lectie.slug)) {
+      throw new Error(
+        `Slug duplicat: ${lectie.slug}`
+      );
+    }
+
+    const pozitie =
+      `${lectie.modul}:${lectie.numarLectie}`;
+
+    if (pozitii.has(pozitie)) {
+      throw new Error(
+        `Pozitie duplicata: ${pozitie}`
+      );
+    }
+
+    slugs.add(lectie.slug);
+    pozitii.add(pozitie);
+  }
+
+  return lectii;
+}
+
+/* =========================================================
+   LECTII EXISTENTE
+========================================================= */
+
+function obtineSluguriExistente() {
+  if (!exista(DIRECTOR_LECTII)) {
+    return new Set();
+  }
+
+  const fisiere = fs.readdirSync(
+    DIRECTOR_LECTII
+  );
+
+  return new Set(
+    fisiere
+      .filter((fisier) =>
+        fisier.endsWith(".ts")
+      )
+      .map((fisier) =>
+        fisier.slice(0, -3)
+      )
+  );
+}
+
+/* =========================================================
+   SELECTIE
+========================================================= */
+
+function esteDraftLocalInlocuibil(slug) {
+  const cale = caleFinalaLectie(slug);
+
+  if (!exista(cale)) {
+    return false;
+  }
+
+  const text = citesteText(cale);
+
+  const areMarkerLocal =
+    text.includes(
+      "Draft generat de BAC MATE Generator Local"
+    );
+
+  const esteDraft =
+    text.includes('"status": "draft"');
+
+  const portiFalse = [
+    '"verificatMatematic": false',
+    '"verificatPrograma": false',
+    '"verificatExercitii": false',
+    '"verificatLimbaRomana": false',
+  ].every((fragment) =>
+    text.includes(fragment)
+  );
+
+  return (
+    areMarkerLocal &&
+    esteDraft &&
+    portiFalse
+  );
+}
+
+function selecteazaLectii(
+  catalog,
+  existente,
+  argumente
+) {
+  if (argumente.slug) {
+    const lectie = catalog.find(
+      (element) =>
+        element.slug === argumente.slug
+    );
+
+    if (!lectie) {
+      throw new Error(
+        `Slug inexistent in catalog: ${argumente.slug}`
+      );
+    }
+
+    if (existente.has(lectie.slug)) {
+      if (!argumente.replaceDraft) {
+        throw new Error(
+          [
+            `Lectia exista deja: ${lectie.slug}`,
+            "Generatorul refuza suprascrierea implicita.",
+            "Pentru un draft generat local, foloseste explicit --replace-draft.",
+          ].join("\n")
+        );
+      }
+
+      if (
+        !esteDraftLocalInlocuibil(
+          lectie.slug
+        )
+      ) {
+        throw new Error(
+          [
+            `REFUZ INLOCUIRE: ${lectie.slug}`,
+            "Fisierul existent nu este un draft local sigur de inlocuit.",
+            "Nu sterge fisierul automat.",
+          ].join("\n")
+        );
+      }
+    }
+
+    return [lectie];
+  }
+
+  const lipsa = catalog.filter(
+    (lectie) =>
+      !existente.has(lectie.slug)
+  );
+
+  if (argumente.all) {
+    return lipsa;
+  }
+
+  if (argumente.limit) {
+    return lipsa.slice(0, argumente.limit);
+  }
+
+  return lipsa.slice(0, 1);
+}
+
+/* =========================================================
+   CHECKPOINT PATHS
+========================================================= */
+
+function directorLectieGenerator(slug) {
+  return path.join(
+    DIRECTOR_GENERATOR,
+    slug
+  );
+}
+
+function caleCheckpoint(slug, nume) {
+  return path.join(
+    directorLectieGenerator(slug),
+    `${nume}.json`
+  );
+}
+
+function caleFinalaLectie(slug) {
+  return path.join(
+    DIRECTOR_LECTII,
+    `${slug}.ts`
+  );
+}
+
+function stergeCheckpointuri(slug) {
+  const director =
+    directorLectieGenerator(slug);
+
+  if (exista(director)) {
+    fs.rmSync(director, {
+      recursive: true,
+      force: true,
+    });
+  }
+}
+
+/* =========================================================
+   OLLAMA CHECK
+========================================================= */
+
+async function verificaOllama(model) {
+  let raspuns;
+
+  try {
+    raspuns = await fetch(
+      `${OLLAMA_URL}/api/tags`,
+      {
+        signal: AbortSignal.timeout(10000),
+      }
+    );
+  } catch (eroare) {
+    throw new Error(
+      `Nu ma pot conecta la Ollama. Detaliu: ${eroare.message}`
+    );
+  }
+
+  if (!raspuns.ok) {
+    throw new Error(
+      `Ollama /api/tags -> HTTP ${raspuns.status}`
+    );
+  }
+
+  const date = await raspuns.json();
+  const modele = date.models ?? [];
+
+  const instalat = modele.some(
+    (element) =>
+      element.name === model
+  );
+
+  if (!instalat) {
+    throw new Error(
+      `Modelul ${model} nu este instalat. Ruleaza: ollama pull ${model}`
+    );
+  }
+}
+
+/* =========================================================
+   JSON MODEL
+========================================================= */
+
+function parseazaJsonModel(continut) {
+  if (!esteText(continut)) {
+    throw new Error(
+      "Modelul a returnat content gol."
+    );
+  }
+
+  let text = continut.trim();
+
+  text = text.replace(
+    /^```(?:json)?\s*/i,
+    ""
+  );
+
+  text = text.replace(
+    /\s*```$/,
+    ""
+  );
+
+  try {
+    return JSON.parse(text);
+  } catch {
+    const inceput = text.indexOf("{");
+    const sfarsit = text.lastIndexOf("}");
+
+    if (
+      inceput === -1 ||
+      sfarsit === -1 ||
+      sfarsit <= inceput
+    ) {
+      throw new Error(
+        "Nu am gasit un obiect JSON valid in raspuns."
+      );
+    }
+
+    const candidat = text.slice(
+      inceput,
+      sfarsit + 1
+    );
+
+    return JSON.parse(candidat);
+  }
+}
+
+/* =========================================================
+   OLLAMA STREAMING NATIV
+========================================================= */
+
+function apeleazaOllamaStreaming(payload) {
+  return new Promise((resolve, reject) => {
+    let url;
+
+    try {
+      url = new URL("/api/chat", OLLAMA_URL);
+    } catch (eroare) {
+      reject(
+        new Error(
+          `BAC_MATE_OLLAMA_URL invalid: ${eroare.message}`
+        )
+      );
+      return;
+    }
+
+    const transport =
+      url.protocol === "https:"
+        ? https
+        : http;
+
+    const corp = JSON.stringify(payload);
+
+    const optiuni = {
+      protocol: url.protocol,
+      hostname: url.hostname,
+      port:
+        url.port ||
+        (url.protocol === "https:"
+          ? 443
+          : 80),
+      path: url.pathname + url.search,
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Content-Length": Buffer.byteLength(corp),
+      },
+    };
+
+    let finalizat = false;
+
+    const inchideCuEroare = (eroare) => {
+      if (finalizat) {
+        return;
+      }
+
+      finalizat = true;
+      reject(eroare);
+    };
+
+    const req = transport.request(
+      optiuni,
+      (res) => {
+        let buffer = "";
+        let continut = "";
+        let eroareApi = "";
+        let chunkuri = 0;
+        let ultimulProgres = Date.now();
+
+        console.log(
+          `  ↳ Ollama streaming conectat: HTTP ${res.statusCode}`
+        );
+
+        if (
+          !res.statusCode ||
+          res.statusCode < 200 ||
+          res.statusCode >= 300
+        ) {
+          res.setEncoding("utf8");
+
+          res.on("data", (chunk) => {
+            eroareApi += chunk;
+          });
+
+          res.on("end", () => {
+            inchideCuEroare(
+              new Error(
+                `Ollama HTTP ${res.statusCode}: ${eroareApi.slice(0, 1000)}`
+              )
+            );
+          });
+
+          return;
+        }
+
+        res.setEncoding("utf8");
+
+        res.on("data", (chunk) => {
+          buffer += chunk;
+
+          let pozitieLinieNoua;
+
+          while (
+            (pozitieLinieNoua = buffer.indexOf("\n")) !== -1
+          ) {
+            const linie = buffer
+              .slice(0, pozitieLinieNoua)
+              .trim();
+
+            buffer = buffer.slice(
+              pozitieLinieNoua + 1
+            );
+
+            if (!linie) {
+              continue;
+            }
+
+            let eveniment;
+
+            try {
+              eveniment = JSON.parse(linie);
+            } catch (eroare) {
+              req.destroy(
+                new Error(
+                  `Chunk Ollama invalid JSON: ${eroare.message}`
+                )
+              );
+              return;
+            }
+
+            if (eveniment.error) {
+              req.destroy(
+                new Error(
+                  `Ollama: ${eveniment.error}`
+                )
+              );
+              return;
+            }
+
+            if (
+              typeof eveniment?.message?.content ===
+              "string"
+            ) {
+              continut +=
+                eveniment.message.content;
+            }
+
+            /*
+             * message.thinking este ignorat intentionat.
+             */
+
+            chunkuri++;
+
+            const acumMs = Date.now();
+
+            if (
+              acumMs - ultimulProgres >= 10000
+            ) {
+              process.stdout.write(".");
+              ultimulProgres = acumMs;
+            }
+          }
+        });
+
+        res.on("end", () => {
+          if (finalizat) {
+            return;
+          }
+
+          if (buffer.trim()) {
+            try {
+              const eveniment = JSON.parse(
+                buffer.trim()
+              );
+
+              if (eveniment.error) {
+                inchideCuEroare(
+                  new Error(
+                    `Ollama: ${eveniment.error}`
+                  )
+                );
+                return;
+              }
+
+              if (
+                typeof eveniment?.message?.content ===
+                "string"
+              ) {
+                continut +=
+                  eveniment.message.content;
+              }
+            } catch (eroare) {
+              inchideCuEroare(
+                new Error(
+                  `Ultimul chunk Ollama este invalid JSON: ${eroare.message}`
+                )
+              );
+              return;
+            }
+          }
+
+          if (chunkuri > 0) {
+            process.stdout.write("\n");
+          }
+
+          if (!esteText(continut)) {
+            inchideCuEroare(
+              new Error(
+                "Ollama a terminat streaming-ul fara message.content."
+              )
+            );
+            return;
+          }
+
+          finalizat = true;
+          resolve(continut);
+        });
+
+        res.on("error", (eroare) => {
+          inchideCuEroare(eroare);
+        });
+      }
+    );
+
+    req.setTimeout(
+      TIMEOUT_APEL_MS,
+      () => {
+        req.destroy(
+          new Error(
+            `Timeout Ollama dupa ${Math.round(
+              TIMEOUT_APEL_MS / 60000
+            )} minute.`
+          )
+        );
+      }
+    );
+
+    req.on("error", (eroare) => {
+      inchideCuEroare(eroare);
+    });
+
+    req.write(corp);
+    req.end();
+  });
+}
+/* =========================================================
+   APEL OLLAMA
+========================================================= */
+
+async function cereJsonDeLaOllama({
+  model,
+  sistem,
+  prompt,
+  numPredict,
+  temperature = 0.12,
+}) {
+  let ultimaEroare = null;
+
+  for (
+    let incercare = 1;
+    incercare <= MAX_INCERCARI_HTTP;
+    incercare++
+  ) {
+    try {
+      const continut =
+        await apeleazaOllamaStreaming({
+          model,
+          stream: true,
+          think: THINK,
+          format: "json",
+          keep_alive: "30m",
+          options: {
+            temperature,
+            top_p: 0.9,
+            repeat_penalty: 1.08,
+            num_ctx: NUM_CTX,
+            num_predict: numPredict,
+          },
+          messages: [
+            {
+              role: "system",
+              content: sistem,
+            },
+            {
+              role: "user",
+              content: prompt,
+            },
+          ],
+        });
+
+      return parseazaJsonModel(continut);
+    } catch (eroare) {
+      ultimaEroare = eroare;
+
+      console.log(
+        `  ⚠ HTTP/stream ${incercare}/${MAX_INCERCARI_HTTP}: ${eroare.message}`
+      );
+
+      if (
+        incercare < MAX_INCERCARI_HTTP
+      ) {
+        console.log(
+          `  Astept ${PAUZA_RETRY_MS / 1000} secunde...`
+        );
+
+        await asteapta(PAUZA_RETRY_MS);
+      }
+    }
+  }
+
+  throw (
+    ultimaEroare ??
+    new Error(
+      "Apelul Ollama a esuat."
+    )
+  );
+}
+
+/* =========================================================
+   SYSTEM PROMPT
+========================================================= */
+
+function mesajSistem() {
+  return [
+    "Esti redactor educational pentru BAC MATE.",
+    "Scrii pentru elevi romani care se pregatesc la matematica.",
+    "Raspunzi exclusiv prin JSON valid.",
+    "Nu utiliza Markdown.",
+    "Nu inventa surse oficiale.",
+    "Nu inventa subiecte oficiale de Bac.",
+    "Nu inventa bareme sau ani de examen.",
+    "Continutul este DRAFT si necesita verificare umana.",
+    "Nu pretinde ca materialul a fost verificat oficial.",
+    "Foloseste limba romana clara si corecta.",
+    "Fii conservator cu afirmatiile matematice.",
+  ].join(" ");
+}
+
+/* =========================================================
+   CONTEXT CANONIC
+========================================================= */
+
+function contextCanonic(lectie) {
+  return {
+    slug: lectie.slug,
+    modul: lectie.modul,
+    numarLectie: lectie.numarLectie,
+    titlu: lectie.titlu,
+    profil: "M_mate-info",
+    clasa: lectie.clasa ?? null,
+    numeModul: lectie.numeModul ?? null,
+  };
+}
+
+function blocCanonic(lectie) {
+  return `
+DATE CANONICE.
+
+NU modifica slug-ul, modulul,
+numarul lectiei sau titlul canonic.
+
+${JSON.stringify(
+  contextCanonic(lectie),
+  null,
+  2
+)}
+
+REGULI:
+- profil = M_mate-info;
+- continutul este DRAFT;
+- raspunde numai JSON valid;
+- fara Markdown;
+- fara afirmatii ca materialul este verificat;
+- fara surse inventate;
+- fara subiecte Bac inventate.
+`.trim();
+}
+
+/* =========================================================
+   CHECKPOINT + AUTOREPARARE
+========================================================= */
+
+async function obtineCheckpoint({
+  lectie,
+  argumente,
+  nume,
+  prompt,
+  validator,
+  numPredict,
+}) {
+  const cale = caleCheckpoint(
+    lectie.slug,
+    nume
+  );
+
+  if (exista(cale)) {
+    try {
+      const existent = citesteJson(cale);
+      const erori = validator(existent);
+
+      if (erori.length === 0) {
+        console.log(
+          `  ↷ ${nume}: checkpoint valid reutilizat.`
+        );
+
+        return existent;
+      }
+
+      console.log(
+        `  ⚠ ${nume}: checkpoint vechi invalid, il refacem.`
+      );
+    } catch {
+      console.log(
+        `  ⚠ ${nume}: checkpoint corupt, il refacem.`
+      );
+    }
+
+    fs.rmSync(cale, {
+      force: true,
+    });
+  }
+
+  let ultimeErori = [];
+  let promptCurent = prompt;
+
+  for (
+    let incercare = 1;
+    incercare <= MAX_INCERCARI_STRUCTURA;
+    incercare++
+  ) {
+    console.log(
+      `  → ${nume}: ${argumente.model} (${incercare}/${MAX_INCERCARI_STRUCTURA})...`
+    );
+
+    const rezultat =
+      await cereJsonDeLaOllama({
+        model: argumente.model,
+        sistem: mesajSistem(),
+        prompt: promptCurent,
+        numPredict,
+      });
+
+    const erori = validator(rezultat);
+
+    if (erori.length === 0) {
+      scrieJson(cale, rezultat);
+
+      console.log(
+        `  ✓ ${nume}: checkpoint salvat.`
+      );
+
+      return rezultat;
+    }
+
+    ultimeErori = erori;
+
+    console.log(
+      `  ⚠ ${nume}: structura respinsa.`
+    );
+
+    for (const eroare of erori) {
+      console.log(
+        `    - ${eroare}`
+      );
+    }
+
+    const caleRespins = path.join(
+      directorLectieGenerator(
+        lectie.slug
+      ),
+      `${nume}-respins-${incercare}.json`
+    );
+
+    scrieJson(
+      caleRespins,
+      rezultat
+    );
+
+    if (
+      incercare < MAX_INCERCARI_STRUCTURA
+    ) {
+      promptCurent = `
+${prompt}
+
+RASPUNSUL ANTERIOR A FOST RESPINS DE VALIDATOR.
+
+ERORI EXACTE:
+
+${erori
+  .map((eroare) => `- ${eroare}`)
+  .join("\n")}
+
+CORECTEAZA TOATE ERORILE DE MAI SUS.
+
+REGULI OBLIGATORII PENTRU REINCERCARE:
+- returneaza din nou obiectul JSON COMPLET;
+- nu returna doar sectiunea corectata;
+- nu explica ce ai modificat;
+- nu folosi Markdown;
+- nu folosi blocuri de cod;
+- pastreaza toate campurile cerute in schema initiala;
+- fiecare camp obligatoriu trebuie completat;
+- fiecare array trebuie sa respecte numarul minim sau exact cerut;
+- raspunsul final trebuie sa poata fi parsata direct cu JSON.parse.
+`.trim();
+
+      console.log(
+        "  ↻ Urmatoarea incercare primeste erorile validatorului pentru autoreparare."
+      );
+    }
+  }
+
+  throw new Error(
+    [
+      `Checkpoint invalid: ${nume}`,
+      ...ultimeErori.map(
+        (eroare) => `- ${eroare}`
+      ),
+    ].join("\n")
+  );
+}
+
+/* =========================================================
+   CONTRACT STRUCTURAL COMUN
+========================================================= */
+
+function valideazaPasi(pasi, eticheta, minim = 1) {
+  const erori = [];
+
+  if (
+    !Array.isArray(pasi) ||
+    pasi.length < minim
+  ) {
+    return [
+      `${eticheta}: minimum ${minim} pasi`,
+    ];
+  }
+
+  const numere = new Set();
+
+  pasi.forEach((pas, index) => {
+    if (!pas || typeof pas !== "object") {
+      erori.push(
+        `${eticheta}.pasi[${index}]: obiect invalid`
+      );
+      return;
+    }
+
+    if (!Number.isInteger(pas.numar)) {
+      erori.push(
+        `${eticheta}.pasi[${index}].numar: lipsa sau invalid`
+      );
+    } else {
+      if (numere.has(pas.numar)) {
+        erori.push(
+          `${eticheta}.pasi[${index}].numar: duplicat (${pas.numar})`
+        );
+      }
+
+      numere.add(pas.numar);
+    }
+
+    if (!esteText(pas.titlu)) {
+      erori.push(
+        `${eticheta}.pasi[${index}].titlu: lipsa sau invalid`
+      );
+    }
+
+    if (!esteText(pas.continut)) {
+      erori.push(
+        `${eticheta}.pasi[${index}].continut: lipsa sau invalid`
+      );
+    }
+  });
+
+  return erori;
+}
+
+function varianteNormalizateUnice(variante) {
+  if (!Array.isArray(variante)) {
+    return false;
+  }
+
+  const normalizate = variante.map(
+    (varianta) =>
+      String(varianta)
+        .trim()
+        .toLowerCase()
+  );
+
+  return (
+    new Set(normalizate).size ===
+    normalizate.length
+  );
+}
+
+function continePlaceholder(valoare) {
+  const expresii = [
+    "todo",
+    "tbd",
+    "placeholder",
+    "de completat",
+    "urmează completarea",
+    "urmeaza completarea",
+    "lorem ipsum",
+  ];
+
+  const texte = [];
+
+  function parcurge(x) {
+    if (typeof x === "string") {
+      texte.push(x.toLowerCase());
+      return;
+    }
+
+    if (Array.isArray(x)) {
+      x.forEach(parcurge);
+      return;
+    }
+
+    if (x && typeof x === "object") {
+      Object.values(x).forEach(parcurge);
+    }
+  }
+
+  parcurge(valoare);
+
+  return texte.some((text) =>
+    expresii.some((expresie) =>
+      text.includes(expresie)
+    )
+  );
+}
+
+/* =========================================================
+   VALIDATOR META
+========================================================= */
+
+function valideazaMeta(x) {
+  const erori = [];
+
+  if (!x || typeof x !== "object") {
+    return [
+      "Rezultatul nu este obiect."
+    ];
+  }
+
+  for (const camp of [
+    "clasa",
+    "subtitlu",
+    "descriere",
+  ]) {
+    if (!esteText(x[camp])) {
+      erori.push(`${camp} lipsa`);
+    }
+  }
+
+  const niveluri = new Set([
+    "fundament",
+    "standard-bac",
+    "avansat",
+  ]);
+
+  if (!niveluri.has(x.nivelPrincipal)) {
+    erori.push(
+      "nivelPrincipal invalid"
+    );
+  }
+
+  if (
+    !Number.isFinite(
+      x.durataEstimataMinute
+    ) ||
+    x.durataEstimataMinute < 15 ||
+    x.durataEstimataMinute > 120
+  ) {
+    erori.push(
+      "durataEstimataMinute invalida"
+    );
+  }
+
+  if (!esteArray(x.prerechizite)) {
+    erori.push(
+      "prerechizite invalid"
+    );
+  }
+
+  if (
+    !esteArray(x.obiective) ||
+    x.obiective.length < 4
+  ) {
+    erori.push(
+      "minimum 4 obiective"
+    );
+  }
+
+  if (
+    !esteArray(x.termeniCheie) ||
+    x.termeniCheie.length < 4
+  ) {
+    erori.push(
+      "minimum 4 termeniCheie"
+    );
+  }
+
+  return erori;
+}
+
+/* =========================================================
+   VALIDATOR TEORIE
+========================================================= */
+
+function valideazaTeorie(x) {
+  const erori = [];
+
+  if (!x || typeof x !== "object") {
+    return [
+      "Rezultatul nu este obiect."
+    ];
+  }
+
+  if (
+    !Array.isArray(x.definitii) ||
+    x.definitii.length < 2
+  ) {
+    erori.push(
+      "definitii: minimum 2"
+    );
+  }
+
+  if (
+    !Array.isArray(x.teorie) ||
+    x.teorie.length < 3
+  ) {
+    erori.push(
+      "teorie: minimum 3 sectiuni"
+    );
+  }
+
+  if (!Array.isArray(x.formule)) {
+    erori.push(
+      "formule: trebuie array"
+    );
+  }
+
+  (x.definitii ?? []).forEach(
+    (definitie, index) => {
+      if (!esteText(definitie?.termen)) {
+        erori.push(
+          `definitii[${index}].termen: lipsa sau invalid`
+        );
+      }
+
+      if (!esteText(definitie?.definitie)) {
+        erori.push(
+          `definitii[${index}].definitie: lipsa sau invalid`
+        );
+      }
+
+      if (
+        definitie?.observatie !== undefined &&
+        !esteText(definitie.observatie)
+      ) {
+        erori.push(
+          `definitii[${index}].observatie: invalid`
+        );
+      }
+    }
+  );
+
+  const iduriTeorie = new Set();
+
+  (x.teorie ?? []).forEach(
+    (sectiune, index) => {
+      const baza = `teorie[${index}]`;
+
+      if (!esteText(sectiune?.id)) {
+        erori.push(
+          `${baza}.id: lipsa sau invalid`
+        );
+      } else if (
+        iduriTeorie.has(sectiune.id)
+      ) {
+        erori.push(
+          `${baza}.id: duplicat (${sectiune.id})`
+        );
+      } else {
+        iduriTeorie.add(sectiune.id);
+      }
+
+      if (!esteText(sectiune?.titlu)) {
+        erori.push(
+          `${baza}.titlu: lipsa sau invalid`
+        );
+      }
+
+      if (!esteText(sectiune?.explicatie)) {
+        erori.push(
+          `${baza}.explicatie: lipsa sau invalid`
+        );
+      }
+
+      if (
+        !Array.isArray(
+          sectiune?.ideiCheie
+        ) ||
+        sectiune.ideiCheie.length < 2 ||
+        sectiune.ideiCheie.some(
+          (idee) => !esteText(idee)
+        )
+      ) {
+        erori.push(
+          `${baza}.ideiCheie: minimum 2 texte valide`
+        );
+      }
+    }
+  );
+
+  const iduriFormule = new Set();
+
+  (x.formule ?? []).forEach(
+    (formula, index) => {
+      const baza = `formule[${index}]`;
+
+      if (!esteText(formula?.id)) {
+        erori.push(
+          `${baza}.id: lipsa sau invalid`
+        );
+      } else if (
+        iduriFormule.has(formula.id)
+      ) {
+        erori.push(
+          `${baza}.id: duplicat (${formula.id})`
+        );
+      } else {
+        iduriFormule.add(formula.id);
+      }
+
+      for (const [camp, valoare] of [
+        ["nume", formula?.nume],
+        ["formula", formula?.formula],
+        ["explicatie", formula?.explicatie],
+      ]) {
+        if (!esteText(valoare)) {
+          erori.push(
+            `${baza}.${camp}: lipsa sau invalid`
+          );
+        }
+      }
+
+      if (
+        formula?.conditii !== undefined &&
+        (
+          !Array.isArray(formula.conditii) ||
+          formula.conditii.some(
+            (item) => !esteText(item)
+          )
+        )
+      ) {
+        erori.push(
+          `${baza}.conditii: invalid`
+        );
+      }
+
+      if (
+        formula?.exempluScurt !== undefined &&
+        !esteText(formula.exempluScurt)
+      ) {
+        erori.push(
+          `${baza}.exempluScurt: invalid`
+        );
+      }
+    }
+  );
+
+  return erori;
+}
+
+/* =========================================================
+   VALIDATOR PEDAGOGIE
+========================================================= */
+
+function valideazaPedagogie(x) {
+  const erori = [];
+
+  if (!x || typeof x !== "object") {
+    return [
+      "Rezultatul nu este obiect."
+    ];
+  }
+
+  if (
+    !Array.isArray(x.greseliFrecvente) ||
+    x.greseliFrecvente.length < 4
+  ) {
+    erori.push(
+      "greseliFrecvente: minimum 4 elemente"
+    );
+  }
+
+  (x.greseliFrecvente ?? []).forEach(
+    (greseala, index) => {
+      for (const [camp, valoare] of [
+        ["greseala", greseala?.greseala],
+        ["deCeEsteGresit", greseala?.deCeEsteGresit],
+        ["cumOEviti", greseala?.cumOEviti],
+      ]) {
+        if (!esteText(valoare)) {
+          erori.push(
+            `greseliFrecvente[${index}].${camp}: lipsa sau invalid`
+          );
+        }
+      }
+    }
+  );
+
+  const rezumat = x.rezumat;
+
+  if (!rezumat || typeof rezumat !== "object") {
+    erori.push(
+      "rezumat: obiect lipsa"
+    );
+  } else {
+    if (
+      !Array.isArray(
+        rezumat.ideiDeRetinut
+      ) ||
+      rezumat.ideiDeRetinut.length < 4 ||
+      rezumat.ideiDeRetinut.some(
+        (idee) => !esteText(idee)
+      )
+    ) {
+      erori.push(
+        "rezumat.ideiDeRetinut: minimum 4 texte valide"
+      );
+    }
+
+    if (
+      !Array.isArray(
+        rezumat.formuleDeRetinut
+      ) ||
+      rezumat.formuleDeRetinut.some(
+        (formula) => !esteText(formula)
+      )
+    ) {
+      erori.push(
+        "rezumat.formuleDeRetinut: array de texte invalid"
+      );
+    }
+
+    if (
+      !Array.isArray(
+        rezumat.checklistElev
+      ) ||
+      rezumat.checklistElev.length < 4 ||
+      rezumat.checklistElev.some(
+        (item) => !esteText(item)
+      )
+    ) {
+      erori.push(
+        "rezumat.checklistElev: minimum 4 texte valide"
+      );
+    }
+  }
+
+  const legatura = x.legaturaCuBac;
+
+  if (
+    !legatura ||
+    typeof legatura !== "object"
+  ) {
+    erori.push(
+      "legaturaCuBac: obiect lipsa"
+    );
+  } else {
+    if (
+      !esteText(
+        legatura.importanta
+      )
+    ) {
+      erori.push(
+        "legaturaCuBac.importanta: lipsa sau invalid"
+      );
+    }
+
+    if (
+      !Array.isArray(
+        legatura.tipuriCerinte
+      ) ||
+      legatura.tipuriCerinte.length < 1 ||
+      legatura.tipuriCerinte.some(
+        (item) => !esteText(item)
+      )
+    ) {
+      erori.push(
+        "legaturaCuBac.tipuriCerinte: minimum 1 text valid"
+      );
+    }
+
+    if (
+      !Array.isArray(
+        legatura.strategie
+      ) ||
+      legatura.strategie.length < 1 ||
+      legatura.strategie.some(
+        (item) => !esteText(item)
+      )
+    ) {
+      erori.push(
+        "legaturaCuBac.strategie: minimum 1 text valid"
+      );
+    }
+  }
+
+  return erori;
+}
+
+/* =========================================================
+   VALIDATOR EXEMPLE
+========================================================= */
+
+function valideazaExemple(x) {
+  if (
+    !x ||
+    !Array.isArray(
+      x.exempleRezolvate
+    ) ||
+    x.exempleRezolvate.length !== 4
+  ) {
+    return [
+      "exempleRezolvate: trebuie exact 4"
+    ];
+  }
+
+  const erori = [];
+  const iduri = new Set();
+
+  x.exempleRezolvate.forEach(
+    (exemplu, index) => {
+      const baza =
+        `exempleRezolvate[${index}]`;
+
+      if (!esteText(exemplu?.id)) {
+        erori.push(
+          `${baza}.id: lipsa sau invalid`
+        );
+      } else if (
+        iduri.has(exemplu.id)
+      ) {
+        erori.push(
+          `${baza}.id: duplicat (${exemplu.id})`
+        );
+      } else {
+        iduri.add(exemplu.id);
+      }
+
+      for (const [camp, valoare] of [
+        ["titlu", exemplu?.titlu],
+        ["enunt", exemplu?.enunt],
+        ["raspunsFinal", exemplu?.raspunsFinal],
+      ]) {
+        if (!esteText(valoare)) {
+          erori.push(
+            `${baza}.${camp}: lipsa sau invalid`
+          );
+        }
+      }
+
+      if (
+        exemplu?.verificare !== undefined &&
+        !esteText(
+          exemplu.verificare
+        )
+      ) {
+        erori.push(
+          `${baza}.verificare: invalid`
+        );
+      }
+
+      if (
+        !NIVELURI_PERMISE.has(
+          exemplu?.nivel
+        )
+      ) {
+        erori.push(
+          `${baza}.nivel: invalid`
+        );
+      }
+
+      erori.push(
+        ...valideazaPasi(
+          exemplu?.pasi,
+          baza,
+          2
+        )
+      );
+    }
+  );
+
+  return erori;
+}
+
+/* =========================================================
+   VALIDATOR EXERCITII
+========================================================= */
+
+function valideazaLotExercitii(x) {
+  if (
+    !x ||
+    !Array.isArray(x.exercitii) ||
+    x.exercitii.length !== 4
+  ) {
+    return [
+      "exercitii: lotul trebuie sa contina exact 4"
+    ];
+  }
+
+  const erori = [];
+  const iduri = new Set();
+
+  x.exercitii.forEach(
+    (exercitiu, index) => {
+      const baza =
+        `exercitii[${index}]`;
+
+      if (
+        !esteText(
+          exercitiu?.id
+        )
+      ) {
+        erori.push(
+          `${baza}.id: lipsa sau invalid`
+        );
+      } else if (
+        iduri.has(
+          exercitiu.id
+        )
+      ) {
+        erori.push(
+          `${baza}.id: duplicat (${exercitiu.id})`
+        );
+      } else {
+        iduri.add(
+          exercitiu.id
+        );
+      }
+
+      if (
+        !NIVELURI_PERMISE.has(
+          exercitiu?.nivel
+        )
+      ) {
+        erori.push(
+          `${baza}.nivel: invalid`
+        );
+      }
+
+      if (
+        !TIPURI_EXERCITII_PERMISE.has(
+          exercitiu?.tip
+        )
+      ) {
+        erori.push(
+          `${baza}.tip: invalid`
+        );
+      }
+
+      for (
+        const [
+          camp,
+          valoare,
+        ] of [
+          [
+            "enunt",
+            exercitiu?.enunt,
+          ],
+          [
+            "raspunsCorect",
+            exercitiu?.raspunsCorect,
+          ],
+          [
+            "explicatieFinala",
+            exercitiu?.explicatieFinala,
+          ],
+          [
+            "competenta",
+            exercitiu?.competenta,
+          ],
+        ]
+      ) {
+        if (!esteText(valoare)) {
+          erori.push(
+            `${baza}.${camp}: lipsa sau invalid`
+          );
+        }
+      }
+
+      erori.push(
+        ...valideazaPasi(
+          exercitiu?.rezolvare,
+          `${baza}.rezolvare`,
+          2
+        )
+      );
+
+      if (
+        !Number.isFinite(
+          exercitiu?.punctaj
+        ) ||
+        exercitiu.punctaj <= 0
+      ) {
+        erori.push(
+          `${baza}.punctaj: invalid`
+        );
+      }
+
+      if (
+        exercitiu?.tip ===
+        "alegere-multipla"
+      ) {
+        if (
+          !Array.isArray(
+            exercitiu.variante
+          ) ||
+          exercitiu.variante.length !==
+            4 ||
+          exercitiu.variante.some(
+            (varianta) =>
+              !esteText(varianta)
+          )
+        ) {
+          erori.push(
+            `${baza}.variante: alegere-multipla necesita exact 4 texte valide`
+          );
+        } else {
+          if (
+            !varianteNormalizateUnice(
+              exercitiu.variante
+            )
+          ) {
+            erori.push(
+              `${baza}.variante: variante duplicate`
+            );
+          }
+
+          const raspuns =
+            String(
+              exercitiu.raspunsCorect ??
+                ""
+            )
+              .trim()
+              .toLowerCase();
+
+          const raspunsExista =
+            exercitiu.variante.some(
+              (varianta) =>
+                varianta
+                  .trim()
+                  .toLowerCase() ===
+                raspuns
+            );
+
+          if (!raspunsExista) {
+            erori.push(
+              `${baza}.raspunsCorect: nu apare in variante`
+            );
+          }
+        }
+      }
+      const eroriMathQa =
+        valideazaExercitiuMatematic(
+          exercitiu
+        );
+
+      for (
+        const eroareMathQa
+        of eroriMathQa
+      ) {
+        erori.push(
+          `${baza}: ${eroareMathQa}`
+        );
+      }
+    }
+  );
+
+  return erori;
+}
+/* =========================================================
+   VALIDATOR VIDEO
+========================================================= */
+
+function valideazaVideo(x, numar) {
+  const video = x?.video;
+
+  if (
+    !video ||
+    typeof video !== "object"
+  ) {
+    return [
+      "video: obiect lipsa"
+    ];
+  }
+
+  const erori = [];
+  const durata = numar === 1 ? 4 : 5;
+  const baza = `video${numar}`;
+
+  if (video.numar !== numar) {
+    erori.push(
+      `${baza}.numar: trebuie ${numar}`
+    );
+  }
+
+  if (video.durataMinute !== durata) {
+    erori.push(
+      `${baza}.durataMinute: trebuie ${durata}`
+    );
+  }
+
+  for (const [camp, valoare] of [
+    ["id", video.id],
+    ["titlu", video.titlu],
+    ["descriere", video.descriere],
+  ]) {
+    if (!esteText(valoare)) {
+      erori.push(
+        `${baza}.${camp}: lipsa sau invalid`
+      );
+    }
+  }
+
+  if (
+    !Array.isArray(video.scenariu) ||
+    video.scenariu.length < 10 ||
+    video.scenariu.some(
+      (paragraf) => !esteText(paragraf)
+    )
+  ) {
+    erori.push(
+      `${baza}.scenariu: minimum 10 paragrafe text valide`
+    );
+  }
+
+  const totalCuvinte = numaraCuvinte(
+    (video.scenariu ?? []).join(" ")
+  );
+
+  if (
+    totalCuvinte <
+    VIDEO_MIN_CUVINTE[numar]
+  ) {
+    erori.push(
+      `${baza}.scenariu: prea scurt ${totalCuvinte}/${VIDEO_MIN_CUVINTE[numar]} cuvinte`
+    );
+  }
+
+  if (
+    totalCuvinte >
+    VIDEO_MAX_CUVINTE[numar]
+  ) {
+    erori.push(
+      `${baza}.scenariu: prea lung ${totalCuvinte}/${VIDEO_MAX_CUVINTE[numar]} cuvinte`
+    );
+  }
+
+  if (
+    !Array.isArray(
+      video.ideiDeRetinut
+    ) ||
+    video.ideiDeRetinut.length < 3 ||
+    video.ideiDeRetinut.some(
+      (idee) => !esteText(idee)
+    )
+  ) {
+    erori.push(
+      `${baza}.ideiDeRetinut: minimum 3 texte valide`
+    );
+  }
+
+  const exemplu = video.exemplu;
+
+  if (
+    !exemplu ||
+    typeof exemplu !== "object"
+  ) {
+    erori.push(
+      `${baza}.exemplu: obiect lipsa`
+    );
+  } else {
+    for (const [camp, valoare] of [
+      ["titlu", exemplu.titlu],
+      ["enunt", exemplu.enunt],
+      ["raspuns", exemplu.raspuns],
+    ]) {
+      if (!esteText(valoare)) {
+        erori.push(
+          `${baza}.exemplu.${camp}: lipsa sau invalid`
+        );
+      }
+    }
+
+    if (
+      !Array.isArray(
+        exemplu.rezolvareScurta
+      ) ||
+      exemplu.rezolvareScurta.length < 1 ||
+      exemplu.rezolvareScurta.some(
+        (pas) => !esteText(pas)
+      )
+    ) {
+      erori.push(
+        `${baza}.exemplu.rezolvareScurta: minimum 1 text valid`
+      );
+    }
+  }
+
+  const verificare =
+    video.verificareRapida;
+
+  if (
+    !verificare ||
+    typeof verificare !== "object"
+  ) {
+    erori.push(
+      `${baza}.verificareRapida: obiect lipsa`
+    );
+  } else {
+    if (!esteText(verificare.intrebare)) {
+      erori.push(
+        `${baza}.verificareRapida.intrebare: lipsa sau invalid`
+      );
+    }
+
+    if (
+      !Array.isArray(verificare.variante) ||
+      verificare.variante.length !== 4 ||
+      verificare.variante.some(
+        (varianta) => !esteText(varianta)
+      )
+    ) {
+      erori.push(
+        `${baza}.verificareRapida.variante: exact 4 texte valide`
+      );
+    } else if (
+      !varianteNormalizateUnice(
+        verificare.variante
+      )
+    ) {
+      erori.push(
+        `${baza}.verificareRapida.variante: variante duplicate`
+      );
+    }
+
+    if (
+      !Number.isInteger(
+        verificare.raspunsCorect
+      ) ||
+      verificare.raspunsCorect < 0 ||
+      verificare.raspunsCorect > 3
+    ) {
+      erori.push(
+        `${baza}.verificareRapida.raspunsCorect: trebuie index 0..3`
+      );
+    }
+
+    if (!esteText(verificare.explicatie)) {
+      erori.push(
+        `${baza}.verificareRapida.explicatie: lipsa sau invalid`
+      );
+    }
+  }
+
+  return erori;
+}
+
+/* =========================================================
+   PROMPT META
+========================================================= */
+
+function promptMeta(lectie) {
+  return `
+${blocCanonic(lectie)}
+
+Genereaza numai metadatele pedagogice ale lectiei.
+
+Returneaza EXACT structura:
+
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "...",
+  "descriere": "...",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "..."
+  ],
+  "obiective": [
+    "...",
+    "..."
+  ],
+  "termeniCheie": [
+    "...",
+    "..."
+  ]
+}
+
+CERINTE:
+- minimum 4 obiective;
+- minimum 4 termeniCheie;
+- prerechizite poate fi [];
+- nivelPrincipal este exact unul dintre:
+  fundament
+  standard-bac
+  avansat;
+- descriere clara si scurta;
+- nu genera teoria;
+- nu genera exercitii;
+- nu genera video.
+`.trim();
+}
+
+/* =========================================================
+   PROMPT TEORIE
+========================================================= */
+
+function promptTeorie(lectie, meta) {
+  return `
+${blocCanonic(lectie)}
+
+OBIECTIVE:
+
+${JSON.stringify(
+  meta.obiective,
+  null,
+  2
+)}
+
+TERMENI CHEIE:
+
+${JSON.stringify(
+  meta.termeniCheie,
+  null,
+  2
+)}
+
+Genereaza partea teoretica.
+
+Returneaza EXACT:
+
+{
+  "definitii": [
+    {
+      "termen": "...",
+      "definitie": "...",
+      "observatie": "..."
+    }
+  ],
+
+  "teorie": [
+    {
+      "id": "...",
+      "titlu": "...",
+      "explicatie": "...",
+      "ideiCheie": [
+        "...",
+        "..."
+      ]
+    }
+  ],
+
+  "formule": [
+    {
+      "id": "...",
+      "nume": "...",
+      "formula": "...",
+      "explicatie": "...",
+      "conditii": [
+        "..."
+      ],
+      "exempluScurt": "..."
+    }
+  ]
+}
+
+CERINTE:
+- minimum 2 definitii;
+- minimum 3 sectiuni teorie;
+- FIECARE sectiune teorie trebuie sa aiba:
+  id,
+  titlu,
+  explicatie,
+  minimum 2 ideiCheie NEGOALE;
+- formule poate fi [] daca lectia nu necesita formule;
+- nu inventa formule doar pentru a umple array-ul;
+- foloseste notatie matematica simpla si lizibila;
+- nu genera exemplele mari inca.
+`.trim();
+}
+
+/* =========================================================
+   PROMPT PEDAGOGIE
+========================================================= */
+
+function promptPedagogie(
+  lectie,
+  meta,
+  teorie
+) {
+  const context = {
+    obiective: meta.obiective,
+    definitii: teorie.definitii,
+    formule: teorie.formule,
+  };
+
+  return `
+${blocCanonic(lectie)}
+
+CONTEXT:
+
+${JSON.stringify(
+  context,
+  null,
+  2
+)}
+
+Genereaza partea pedagogica de consolidare.
+
+Returneaza EXACT:
+
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "...",
+      "deCeEsteGresit": "...",
+      "cumOEviti": "..."
+    }
+  ],
+
+  "rezumat": {
+    "ideiDeRetinut": [
+      "..."
+    ],
+    "formuleDeRetinut": [
+      "..."
+    ],
+    "checklistElev": [
+      "..."
+    ]
+  },
+
+  "legaturaCuBac": {
+    "importanta": "...",
+    "tipuriCerinte": [
+      "..."
+    ],
+    "strategie": [
+      "..."
+    ]
+  }
+}
+
+CERINTE:
+- minimum 4 greseliFrecvente;
+- minimum 4 ideiDeRetinut;
+- minimum 4 elemente checklistElev;
+- nu pretinde ca un anumit exercitiu a aparut oficial la Bac;
+- descrie numai tipuri generale de cerinte relevante.
+`.trim();
+}
+
+/* =========================================================
+   PROMPT EXEMPLE
+========================================================= */
+
+function promptExemple(
+  lectie,
+  meta,
+  teorie
+) {
+  const context = {
+    obiective: meta.obiective,
+    definitii: teorie.definitii,
+    formule: teorie.formule,
+    teorie: teorie.teorie.map(
+      (sectiune) => ({
+        titlu: sectiune.titlu,
+        ideiCheie: sectiune.ideiCheie,
+      })
+    ),
+  };
+
+  return `
+${blocCanonic(lectie)}
+
+CONTEXT TEORETIC:
+
+${JSON.stringify(
+  context,
+  null,
+  2
+)}
+
+Genereaza EXACT 4 exemple rezolvate,
+progresive si diferite.
+
+Returneaza:
+
+{
+  "exempleRezolvate": [
+    {
+      "id": "...",
+      "titlu": "...",
+      "enunt": "...",
+      "nivel": "fundament",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "...",
+          "continut": "..."
+        }
+      ],
+      "raspunsFinal": "...",
+      "verificare": "..."
+    }
+  ]
+}
+
+REGULI:
+- exact 4 exemple;
+- minimum 2 pasi/exemplu;
+- cel putin un exemplu fundament;
+- cel putin doua exemple standard-bac;
+- nivel permis:
+  fundament
+  standard-bac
+  avansat;
+- verificarea trebuie sa justifice rezultatul;
+- evita calculele inutil de complicate.
+`.trim();
+}
+
+/* =========================================================
+   PROMPT EXERCITII
+========================================================= */
+
+function promptLotExercitii(
+  lectie,
+  meta,
+  teorie,
+  pedagogie,
+  lot
+) {
+  const context = {
+    obiective: meta.obiective,
+    formule: teorie.formule,
+    greseliFrecvente:
+      pedagogie.greseliFrecvente,
+  };
+
+  const nivele =
+    lot === 1
+      ? [
+          "fundament",
+          "fundament",
+          "standard-bac",
+          "standard-bac",
+        ]
+      : [
+          "standard-bac",
+          "standard-bac",
+          "avansat",
+          "avansat",
+        ];
+
+  return `
+${blocCanonic(lectie)}
+
+CONTEXT:
+
+${JSON.stringify(
+  context,
+  null,
+  2
+)}
+
+Genereaza LOTUL ${lot}/2,
+cu EXACT 4 exercitii.
+
+Nivelurile dorite:
+
+${JSON.stringify(
+  nivele,
+  null,
+  2
+)}
+
+Returneaza:
+
+{
+  "exercitii": [
+    {
+      "id": "...",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "...",
+      "variante": [
+        "...",
+        "...",
+        "...",
+        "..."
+      ],
+      "raspunsCorect": "...",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "...",
+          "continut": "..."
+        }
+      ],
+      "explicatieFinala": "...",
+      "punctaj": 1,
+      "competenta": "..."
+    }
+  ]
+}
+
+TIPURI PERMISE:
+- alegere-multipla
+- raspuns-scurt
+- rezolvare-completa
+
+REGULI:
+- exact 4 exercitii;
+- FIECARE exercitiu, indiferent de tip, trebuie sa contina explicit:
+  id, nivel, tip, enunt, raspunsCorect, rezolvare,
+  explicatieFinala, punctaj si competenta;
+- raspunsCorect este OBLIGATORIU inclusiv pentru raspuns-scurt si rezolvare-completa;
+- fiecare pas din rezolvare are obligatoriu numar, titlu si continut;
+- numerotarea pasilor incepe de la 1 si nu contine duplicate;
+- minimum 2 pasi de rezolvare;
+- daca tip=alegere-multipla:
+  exact 4 variante;
+- la alegere-multipla,
+  raspunsCorect trebuie sa fie IDENTIC
+  cu una dintre variante;
+- variantele de raspuns trebuie sa fie distincte intre ele;
+- pentru alte tipuri,
+  campul variante poate fi omis;
+- id-urile lotului trebuie sa fie distincte;
+- problemele trebuie sa poata fi verificate manual.
+`.trim();
+}
+
+/* =========================================================
+   VIDEO
+========================================================= */
+
+function rolVideo(numar) {
+  if (numar === 1) {
+    return (
+      "Intuitie si concept. " +
+      "Explica de ce apare notiunea si ce inseamna."
+    );
+  }
+
+  if (numar === 2) {
+    return (
+      "Reguli si metoda. " +
+      "Organizeaza pasii de lucru si conditiile importante."
+    );
+  }
+
+  if (numar === 3) {
+    return (
+      "Exemplu complet. " +
+      "Rezolva o problema pas cu pas si verifica rezultatul."
+    );
+  }
+
+  return (
+    "Aplicare tip Bac si greseli frecvente. " +
+    "Consolideaza metoda si arata capcanele tipice."
+  );
+}
+
+function promptVideo(
+  lectie,
+  meta,
+  teorie,
+  pedagogie,
+  exemple,
+  numar
+) {
+  const durata = numar === 1 ? 4 : 5;
+
+  const context = {
+    obiective: meta.obiective,
+    termeniCheie: meta.termeniCheie,
+    teorie: teorie.teorie.map(
+      (sectiune) => ({
+        titlu: sectiune.titlu,
+        ideiCheie: sectiune.ideiCheie,
+      })
+    ),
+    formule: teorie.formule,
+    greseliFrecvente:
+      pedagogie.greseliFrecvente,
+    exempluModel:
+      exemple.exempleRezolvate[
+        Math.min(
+          numar - 1,
+          exemple.exempleRezolvate.length - 1
+        )
+      ],
+  };
+
+  return `
+${blocCanonic(lectie)}
+
+GENEREAZA VIDEO ${numar}/4.
+
+ROL:
+${rolVideo(numar)}
+
+DURATA:
+${durata} minute.
+
+CONTEXT:
+
+${JSON.stringify(
+  context,
+  null,
+  2
+)}
+
+Returneaza EXACT:
+
+{
+  "video": {
+    "id": "...",
+    "numar": ${numar},
+    "titlu": "...",
+    "durataMinute": ${durata},
+    "descriere": "...",
+
+    "scenariu": [
+      "paragraf 1",
+      "paragraf 2"
+    ],
+
+    "ideiDeRetinut": [
+      "...",
+      "...",
+      "..."
+    ],
+
+    "exemplu": {
+      "titlu": "...",
+      "enunt": "...",
+      "rezolvareScurta": [
+        "..."
+      ],
+      "raspuns": "..."
+    },
+
+    "verificareRapida": {
+      "intrebare": "...",
+      "variante": [
+        "...",
+        "...",
+        "...",
+        "..."
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "..."
+    }
+  }
+}
+
+REGULI:
+- scenariul are OBLIGATORIU minimum
+  ${VIDEO_MIN_CUVINTE[numar]}
+  cuvinte si maximum
+  ${VIDEO_MAX_CUVINTE[numar]}
+  cuvinte;
+
+TINTA PRACTICA DE LUNGIME:
+- NU urmari minimul exact;
+- scrie aproximativ
+  ${Math.min(
+    VIDEO_MIN_CUVINTE[numar] + 80,
+    VIDEO_MAX_CUVINTE[numar] - 20
+  )}
+  cuvinte pentru scenariu;
+- daca esti sub aceasta tinta, continua explicatia inainte de a inchide JSON-ul;
+- scenariul este partea principala si trebuie sa fie substantial mai lung decat descrierea, exemplul si verificarea rapida;
+
+STRUCTURA SCENARIULUI:
+- minimum 10 paragrafe;
+- fiecare paragraf dezvolta o idee reala;
+- explica pas cu pas;
+- include tranzitii naturale intre idei;
+- include cel putin un mini-exemplu explicat;
+- include o recapitulare la final;
+- fara repetitii mecanice;
+
+ALTE REGULI:
+- limbaj natural pentru un elev;
+- verificareRapida are exact 4 variante DISTINCTE;
+- raspunsCorect = index 0, 1, 2 sau 3;
+- nu inventa un subiect oficial Bac;
+- nu afirma ca exercitiul a aparut la examen.
+`.trim();
+}
+
+/* =========================================================
+   NORMALIZARE DETERMINISTA SIGURA
+========================================================= */
+
+function normalizeazaPasi(pasi) {
+  return (pasi ?? []).map(
+    (pas, index) => ({
+      ...pas,
+      numar: index + 1,
+    })
+  );
+}
+
+function normalizeazaIduriSiMetadate(
+  continut
+) {
+  const slug = continut.slug;
+
+  continut.videoLectii =
+    (continut.videoLectii ?? []).map(
+      (video, index) => ({
+        ...video,
+        id: `${slug}-video-${index + 1}`,
+        numar: index + 1,
+        durataMinute:
+          index === 0 ? 4 : 5,
+      })
+    );
+
+  continut.teorie =
+    (continut.teorie ?? []).map(
+      (sectiune, index) => ({
+        ...sectiune,
+        id: `${slug}-teorie-${index + 1}`,
+      })
+    );
+
+  continut.formule =
+    (continut.formule ?? []).map(
+      (formula, index) => ({
+        ...formula,
+        id: `${slug}-formula-${index + 1}`,
+      })
+    );
+
+  continut.exempleRezolvate =
+    (
+      continut.exempleRezolvate ??
+      []
+    ).map(
+      (exemplu, index) => ({
+        ...exemplu,
+        id: `${slug}-exemplu-${index + 1}`,
+        pasi: normalizeazaPasi(
+          exemplu.pasi
+        ),
+      })
+    );
+
+  continut.exercitii =
+    (continut.exercitii ?? []).map(
+      (exercitiu, index) => ({
+        ...exercitiu,
+        id: `${slug}-exercitiu-${index + 1}`,
+        rezolvare: normalizeazaPasi(
+          exercitiu.rezolvare
+        ),
+      })
+    );
+
+  return continut;
+}
+
+/* =========================================================
+   ASAMBLARE
+========================================================= */
+
+function asambleazaLectie({
+  lectie,
+  meta,
+  teorie,
+  pedagogie,
+  exemple,
+  exercitii1,
+  exercitii2,
+  videos,
+}) {
+  const clasaCanonica =
+    esteText(lectie.clasa)
+      ? lectie.clasa
+      : meta.clasa;
+
+  const continut = {
+    id: lectie.slug,
+    slug: lectie.slug,
+    modul: lectie.modul,
+    numarLectie: lectie.numarLectie,
+    clasa: clasaCanonica,
+    profil: "M_mate-info",
+    titlu: lectie.titlu,
+    subtitlu: meta.subtitlu,
+    descriere: meta.descriere,
+    nivelPrincipal:
+      meta.nivelPrincipal,
+    durataEstimataMinute:
+      meta.durataEstimataMinute,
+    prerechizite:
+      meta.prerechizite,
+    obiective: meta.obiective,
+    termeniCheie: meta.termeniCheie,
+    videoLectii: videos.map(
+      (element) => element.video
+    ),
+    definitii: teorie.definitii,
+    teorie: teorie.teorie,
+    formule: teorie.formule,
+    exempleRezolvate:
+      exemple.exempleRezolvate,
+    greseliFrecvente:
+      pedagogie.greseliFrecvente,
+    exercitii: [
+      ...exercitii1.exercitii,
+      ...exercitii2.exercitii,
+    ],
+    rezumat: pedagogie.rezumat,
+    legaturaCuBac:
+      pedagogie.legaturaCuBac,
+    surse: [
+      {
+        tip: "verificare-interna",
+        titlu:
+          "BAC MATE — draft generat local",
+        observatie:
+          "Continut generat local cu Ollama. Necesita verificare matematica, curriculara, lingvistica si a exercitiilor inainte de publicare.",
+      },
+    ],
+    verificare: {
+      status: "draft",
+      verificatMatematic: false,
+      verificatPrograma: false,
+      verificatExercitii: false,
+      verificatLimbaRomana: false,
+      observatii: [
+        "Draft generat de BAC MATE Generator Local V6.0.",
+        "Modelul local este utilizat ca redactor pedagogic, nu ca sursa de adevar matematic.",
+        "Publicarea este interzisa pana la trecerea verificarilor obligatorii.",
+      ],
+    },
+  };
+
+  return normalizeazaIduriSiMetadate(
+    continut
+  );
+}
+/* =========================================================
+   VALIDARE FINALA
+========================================================= */
+
+function valideazaFinal(
+  continut,
+  lectie
+) {
+  const erori = [];
+
+  function cereText(cale, valoare) {
+    if (!esteText(valoare)) {
+      erori.push(
+        `${cale}: lipsa sau invalid`
+      );
+    }
+  }
+
+  function cereArrayText(
+    cale,
+    valoare,
+    minim = 1
+  ) {
+    if (
+      !Array.isArray(valoare) ||
+      valoare.length < minim ||
+      valoare.some(
+        (item) => !esteText(item)
+      )
+    ) {
+      erori.push(
+        `${cale}: minimum ${minim} texte valide`
+      );
+    }
+  }
+
+  if (continut.slug !== lectie.slug) {
+    erori.push(
+      "slug diferit de catalog"
+    );
+  }
+
+  if (continut.id !== lectie.slug) {
+    erori.push(
+      "id diferit de slug"
+    );
+  }
+
+  if (
+    continut.modul !== lectie.modul
+  ) {
+    erori.push(
+      "modul diferit de catalog"
+    );
+  }
+
+  if (
+    continut.numarLectie !==
+    lectie.numarLectie
+  ) {
+    erori.push(
+      "numarLectie diferit de catalog"
+    );
+  }
+
+  if (
+    continut.titlu !== lectie.titlu
+  ) {
+    erori.push(
+      "titlu diferit de catalog"
+    );
+  }
+
+  if (
+    continut.profil !== "M_mate-info"
+  ) {
+    erori.push(
+      "profil trebuie M_mate-info"
+    );
+  }
+
+  for (const [cale, valoare] of [
+    ["clasa", continut.clasa],
+    ["subtitlu", continut.subtitlu],
+    ["descriere", continut.descriere],
+  ]) {
+    cereText(cale, valoare);
+  }
+
+  if (
+    !NIVELURI_PERMISE.has(
+      continut.nivelPrincipal
+    )
+  ) {
+    erori.push(
+      "nivelPrincipal invalid"
+    );
+  }
+
+  if (
+    !Number.isFinite(
+      continut.durataEstimataMinute
+    ) ||
+    continut.durataEstimataMinute < 15 ||
+    continut.durataEstimataMinute > 120
+  ) {
+    erori.push(
+      "durataEstimataMinute invalida"
+    );
+  }
+
+  if (
+    !Array.isArray(
+      continut.prerechizite
+    )
+  ) {
+    erori.push(
+      "prerechizite trebuie array"
+    );
+  }
+
+  cereArrayText(
+    "obiective",
+    continut.obiective,
+    4
+  );
+
+  cereArrayText(
+    "termeniCheie",
+    continut.termeniCheie,
+    4
+  );
+
+  if (
+    !Array.isArray(
+      continut.videoLectii
+    ) ||
+    continut.videoLectii.length !== 4
+  ) {
+    erori.push(
+      "videoLectii: trebuie exact 4"
+    );
+  } else {
+    continut.videoLectii.forEach(
+      (video, index) => {
+        const rezultate =
+          valideazaVideo(
+            {
+              video,
+            },
+            index + 1
+          );
+
+        erori.push(
+          ...rezultate.map(
+            (eroare) =>
+              `videoLectii[${index}]: ${eroare}`
+          )
+        );
+      }
+    );
+  }
+
+  if (
+    !Array.isArray(
+      continut.definitii
+    ) ||
+    continut.definitii.length < 2
+  ) {
+    erori.push(
+      "definitii: minimum 2"
+    );
+  }
+
+  if (
+    !Array.isArray(continut.teorie) ||
+    continut.teorie.length < 3
+  ) {
+    erori.push(
+      "teorie: minimum 3 sectiuni"
+    );
+  }
+
+  if (
+    !Array.isArray(
+      continut.formule
+    )
+  ) {
+    erori.push(
+      "formule trebuie array"
+    );
+  }
+
+  const eroriTeorie =
+    valideazaTeorie({
+      definitii:
+        continut.definitii,
+      teorie:
+        continut.teorie,
+      formule:
+        continut.formule,
+    });
+
+  erori.push(
+    ...eroriTeorie.map(
+      (eroare) =>
+        `teorieFinala: ${eroare}`
+    )
+  );
+
+  const eroriExemple =
+    valideazaExemple({
+      exempleRezolvate:
+        continut.exempleRezolvate,
+    });
+
+  erori.push(
+    ...eroriExemple.map(
+      (eroare) =>
+        `exempleFinale: ${eroare}`
+    )
+  );
+
+  const exercitii =
+    continut.exercitii ?? [];
+
+  if (
+    !Array.isArray(exercitii) ||
+    exercitii.length !== 8
+  ) {
+    erori.push(
+      "exercitii: trebuie exact 8"
+    );
+  } else {
+    const lot1 = {
+      exercitii:
+        exercitii.slice(0, 4),
+    };
+
+    const lot2 = {
+      exercitii:
+        exercitii.slice(4, 8),
+    };
+
+    erori.push(
+      ...valideazaLotExercitii(
+        lot1
+      ).map(
+        (eroare) =>
+          `exercitii[0..3]: ${eroare}`
+      )
+    );
+
+    erori.push(
+      ...valideazaLotExercitii(
+        lot2
+      ).map(
+        (eroare) =>
+          `exercitii[4..7]: ${eroare}`
+      )
+    );
+
+    const niveluri =
+      new Set(
+        exercitii.map(
+          (exercitiu) =>
+            exercitiu.nivel
+        )
+      );
+
+    for (const nivel of [
+      "fundament",
+      "standard-bac",
+      "avansat",
+    ]) {
+      if (!niveluri.has(nivel)) {
+        erori.push(
+          `exercitii: lipseste nivelul ${nivel}`
+        );
+      }
+    }
+  }
+
+  const eroriPedagogie =
+    valideazaPedagogie({
+      greseliFrecvente:
+        continut.greseliFrecvente,
+      rezumat:
+        continut.rezumat,
+      legaturaCuBac:
+        continut.legaturaCuBac,
+    });
+
+  erori.push(
+    ...eroriPedagogie.map(
+      (eroare) =>
+        `pedagogieFinala: ${eroare}`
+    )
+  );
+
+  if (
+    !Array.isArray(
+      continut.surse
+    ) ||
+    continut.surse.length < 1
+  ) {
+    erori.push(
+      "surse: minimum 1"
+    );
+  } else {
+    continut.surse.forEach(
+      (sursa, index) => {
+        if (!esteText(sursa?.tip)) {
+          erori.push(
+            `surse[${index}].tip: lipsa`
+          );
+        }
+
+        if (!esteText(sursa?.titlu)) {
+          erori.push(
+            `surse[${index}].titlu: lipsa`
+          );
+        }
+      }
+    );
+  }
+
+  if (
+    continePlaceholder(continut)
+  ) {
+    erori.push(
+      "continutul contine placeholder"
+    );
+  }
+
+  /* -------------------------------------------------------
+     ID-uri globale
+  ------------------------------------------------------- */
+
+  const iduri = new Map();
+
+  function adaugaId(
+    id,
+    locatie
+  ) {
+    if (!esteText(id)) {
+      erori.push(
+        `${locatie}: id lipsa`
+      );
+      return;
+    }
+
+    if (iduri.has(id)) {
+      erori.push(
+        `ID global duplicat "${id}" intre ${iduri.get(
+          id
+        )} si ${locatie}`
+      );
+      return;
+    }
+
+    iduri.set(id, locatie);
+  }
+
+  adaugaId(
+    continut.id,
+    "lectie.id"
+  );
+
+  (continut.videoLectii ?? []).forEach(
+    (video, index) => {
+      adaugaId(
+        video.id,
+        `videoLectii[${index}].id`
+      );
+    }
+  );
+
+  (continut.teorie ?? []).forEach(
+    (sectiune, index) => {
+      adaugaId(
+        sectiune.id,
+        `teorie[${index}].id`
+      );
+    }
+  );
+
+  (continut.formule ?? []).forEach(
+    (formula, index) => {
+      adaugaId(
+        formula.id,
+        `formule[${index}].id`
+      );
+    }
+  );
+
+  (
+    continut.exempleRezolvate ??
+    []
+  ).forEach(
+    (exemplu, index) => {
+      adaugaId(
+        exemplu.id,
+        `exempleRezolvate[${index}].id`
+      );
+    }
+  );
+
+  (continut.exercitii ?? []).forEach(
+    (exercitiu, index) => {
+      adaugaId(
+        exercitiu.id,
+        `exercitii[${index}].id`
+      );
+    }
+  );
+
+  /* -------------------------------------------------------
+     Gate publicare
+  ------------------------------------------------------- */
+
+  const verificare =
+    continut.verificare;
+
+  if (
+    !verificare ||
+    typeof verificare !== "object"
+  ) {
+    erori.push(
+      "verificare: obiect lipsa"
+    );
+  } else {
+    if (
+      verificare.status !== "draft"
+    ) {
+      erori.push(
+        "verificare.status trebuie draft"
+      );
+    }
+
+    for (const camp of [
+      "verificatMatematic",
+      "verificatPrograma",
+      "verificatExercitii",
+      "verificatLimbaRomana",
+    ]) {
+      if (
+        verificare[camp] !== false
+      ) {
+        erori.push(
+          `verificare.${camp} trebuie false`
+        );
+      }
+    }
+  }
+
+  return erori;
+}
+
+/* =========================================================
+   SERIALIZARE TYPESCRIPT
+========================================================= */
+
+function stringifyPentruTs(
+  valoare
+) {
+  return JSON.stringify(
+    valoare,
+    null,
+    2
+  );
+}
+
+function construiesteFisierTs(
+  continut
+) {
+  return `import type { ContinutLectie } from "../tipuri";
+
+/*
+ * Draft generat de BAC MATE Generator Local V6.0.
+ *
+ * IMPORTANT:
+ * - AI local = redactor, NU sursa de adevar matematic.
+ * - Continutul necesita verificare umana.
+ * - Nu publica automat acest fisier.
+ */
+
+export const continutLectie: ContinutLectie = ${stringifyPentruTs(
+    continut
+  )};
+
+export default continutLectie;
+`;
+}
+/* =========================================================
+   SCRIERE SIGURA
+========================================================= */
+
+function backupDraftExistent(slug) {
+  const cale = caleFinalaLectie(slug);
+
+  if (!exista(cale)) {
+    return null;
+  }
+
+  const directorBackup = path.join(
+    DIRECTOR_GENERATOR,
+    "backup-drafturi"
+  );
+
+  asiguraDirector(directorBackup);
+
+  const stamp = new Date()
+    .toISOString()
+    .replace(/[:.]/g, "-");
+
+  const caleBackup = path.join(
+    directorBackup,
+    `${slug}-${stamp}.backup`
+  );
+
+  fs.copyFileSync(
+    cale,
+    caleBackup
+  );
+
+  return caleBackup;
+}
+
+function scrieAtomic(cale, text) {
+  asiguraDirector(
+    path.dirname(cale)
+  );
+
+  const temporar =
+    `${cale}.tmp-${process.pid}-${Date.now()}`;
+
+  fs.writeFileSync(
+    temporar,
+    text,
+    "utf8"
+  );
+
+  fs.renameSync(
+    temporar,
+    cale
+  );
+}
+
+function scrieLectieFinala(
+  continut,
+  argumente
+) {
+  const cale =
+    caleFinalaLectie(
+      continut.slug
+    );
+
+  if (exista(cale)) {
+    if (
+      !argumente.replaceDraft
+    ) {
+      throw new Error(
+        [
+          `REFUZ SCRIERE: ${continut.slug}`,
+          "Fisierul exista deja.",
+          "Foloseste --replace-draft numai pentru un draft local verificat ca sigur de inlocuit.",
+        ].join("\n")
+      );
+    }
+
+    if (
+      !esteDraftLocalInlocuibil(
+        continut.slug
+      )
+    ) {
+      throw new Error(
+        [
+          `REFUZ SCRIERE: ${continut.slug}`,
+          "Fisierul existent nu este un draft local sigur de inlocuit.",
+        ].join("\n")
+      );
+    }
+
+    const backup =
+      backupDraftExistent(
+        continut.slug
+      );
+
+    console.log(
+      `  ✓ Backup draft existent: ${relativ(backup)}`
+    );
+  }
+
+  const text =
+    construiesteFisierTs(
+      continut
+    );
+
+  scrieAtomic(
+    cale,
+    text
+  );
+
+  return cale;
+}
+
+/* =========================================================
+   RAPORT
+========================================================= */
+
+function incarcaRaport() {
+  if (!exista(CALE_RAPORT)) {
+    return {
+      versiuneGenerator:
+        VERSIUNE_GENERATOR,
+      actualizatLa: acum(),
+      lectii: {},
+    };
+  }
+
+  try {
+    const raport =
+      citesteJson(CALE_RAPORT);
+
+    if (
+      !raport ||
+      typeof raport !== "object"
+    ) {
+      throw new Error(
+        "raport invalid"
+      );
+    }
+
+    if (
+      !raport.lectii ||
+      typeof raport.lectii !== "object"
+    ) {
+      raport.lectii = {};
+    }
+
+    raport.versiuneGenerator =
+      VERSIUNE_GENERATOR;
+
+    return raport;
+  } catch {
+    return {
+      versiuneGenerator:
+        VERSIUNE_GENERATOR,
+      actualizatLa: acum(),
+      lectii: {},
+    };
+  }
+}
+
+function salveazaRaport(raport) {
+  raport.actualizatLa = acum();
+
+  scrieJson(
+    CALE_RAPORT,
+    raport
+  );
+}
+
+function marcheazaRaport({
+  raport,
+  slug,
+  status,
+  detalii = {},
+}) {
+  raport.lectii[slug] = {
+    ...(raport.lectii[slug] ?? {}),
+    status,
+    actualizatLa: acum(),
+    ...detalii,
+  };
+
+  salveazaRaport(raport);
+}
+
+/* =========================================================
+   GENERARE O LECTIE
+========================================================= */
+
+async function genereazaLectie({
+  lectie,
+  argumente,
+  raport,
+}) {
+  titlu(
+    `LECTIE: ${lectie.slug}`
+  );
+
+  const director =
+    directorLectieGenerator(
+      lectie.slug
+    );
+
+  asiguraDirector(director);
+
+  if (argumente.restart) {
+    console.log(
+      "Restart solicitat: sterg checkpoint-urile lectiei."
+    );
+
+    stergeCheckpointuri(
+      lectie.slug
+    );
+
+    asiguraDirector(
+      directorLectieGenerator(
+        lectie.slug
+      )
+    );
+  }
+
+  marcheazaRaport({
+    raport,
+    slug: lectie.slug,
+    status: "in-lucru",
+    detalii: {
+      model: argumente.model,
+    },
+  });
+
+  try {
+    const meta =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "01-meta",
+        prompt: promptMeta(
+          lectie
+        ),
+        validator:
+          valideazaMeta,
+        numPredict: 1800,
+      });
+
+    const teorie =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "02-teorie",
+        prompt: promptTeorie(
+          lectie,
+          meta
+        ),
+        validator:
+          valideazaTeorie,
+        numPredict: 3200,
+      });
+
+    const pedagogie =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "03-pedagogie",
+        prompt:
+          promptPedagogie(
+            lectie,
+            meta,
+            teorie
+          ),
+        validator:
+          valideazaPedagogie,
+        numPredict: 2600,
+      });
+
+    const exemple =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "04-exemple",
+        prompt:
+          promptExemple(
+            lectie,
+            meta,
+            teorie
+          ),
+        validator:
+          valideazaExemple,
+        numPredict: 3200,
+      });
+
+    const exercitii1 =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "05-exercitii-a",
+        prompt:
+          promptLotExercitii(
+            lectie,
+            meta,
+            teorie,
+            pedagogie,
+            1
+          ),
+        validator:
+          valideazaLotExercitii,
+        numPredict: 3400,
+      });
+
+    const exercitii2 =
+      await obtineCheckpoint({
+        lectie,
+        argumente,
+        nume: "06-exercitii-b",
+        prompt:
+          promptLotExercitii(
+            lectie,
+            meta,
+            teorie,
+            pedagogie,
+            2
+          ),
+        validator:
+          valideazaLotExercitii,
+        numPredict: 3400,
+      });
+
+    const videos = [];
+
+    for (
+      let numar = 1;
+      numar <= 4;
+      numar++
+    ) {
+      const checkpoint =
+        await obtineCheckpoint({
+          lectie,
+          argumente,
+          nume:
+            `${String(
+              numar + 6
+            ).padStart(
+              2,
+              "0"
+            )}-video-${numar}`,
+          prompt:
+            promptVideo(
+              lectie,
+              meta,
+              teorie,
+              pedagogie,
+              exemple,
+              numar
+            ),
+          validator:
+            (x) =>
+              valideazaVideo(
+                x,
+                numar
+              ),
+          numPredict: 5200,
+        });
+
+      videos.push(
+        checkpoint
+      );
+    }
+
+    const continut =
+      asambleazaLectie({
+        lectie,
+        meta,
+        teorie,
+        pedagogie,
+        exemple,
+        exercitii1,
+        exercitii2,
+        videos,
+      });
+
+    const eroriFinale =
+      valideazaFinal(
+        continut,
+        lectie
+      );
+
+    if (
+      eroriFinale.length > 0
+    ) {
+      const caleRespins =
+        path.join(
+          directorLectieGenerator(
+            lectie.slug
+          ),
+          "99-final-respins.json"
+        );
+
+      scrieJson(
+        caleRespins,
+        continut
+      );
+
+      throw new Error(
+        [
+          "Validarea finala a esuat:",
+          ...eroriFinale.map(
+            (eroare) =>
+              `- ${eroare}`
+          ),
+        ].join("\n")
+      );
+    }
+
+    const cale =
+      scrieLectieFinala(
+        continut,
+        argumente
+      );
+
+    marcheazaRaport({
+      raport,
+      slug: lectie.slug,
+      status: "draft-generat",
+      detalii: {
+        cale:
+          relativ(cale),
+        verificatMatematic:
+          false,
+        verificatPrograma:
+          false,
+        verificatExercitii:
+          false,
+        verificatLimbaRomana:
+          false,
+      },
+    });
+
+    console.log("");
+    console.log(
+      `✓ DRAFT scris: ${relativ(cale)}`
+    );
+
+    console.log(
+      "✓ status = draft"
+    );
+
+    console.log(
+      "✓ verificatMatematic = false"
+    );
+
+    console.log(
+      "✓ verificatPrograma = false"
+    );
+
+    console.log(
+      "✓ verificatExercitii = false"
+    );
+
+    console.log(
+      "✓ verificatLimbaRomana = false"
+    );
+
+    return {
+      ok: true,
+      slug:
+        lectie.slug,
+      cale,
+    };
+  } catch (eroare) {
+    marcheazaRaport({
+      raport,
+      slug: lectie.slug,
+      status: "eroare",
+      detalii: {
+        eroare:
+          eroare.message,
+      },
+    });
+
+    console.error("");
+    console.error(
+      `✗ EROARE ${lectie.slug}`
+    );
+
+    console.error(
+      eroare.message
+    );
+
+    return {
+      ok: false,
+      slug:
+        lectie.slug,
+      eroare:
+        eroare.message,
+    };
+  }
+}
+/* =========================================================
+   SELF TEST
+========================================================= */
+
+function ruleazaSelfTest() {
+  titlu(
+    "BAC MATE — SELF-TEST GENERATOR V6"
+  );
+
+  let trecute = 0;
+  let total = 0;
+
+  function test(
+    nume,
+    conditie
+  ) {
+    total++;
+
+    if (conditie) {
+      trecute++;
+      console.log(
+        `✓ ${nume}`
+      );
+    } else {
+      console.log(
+        `✗ ${nume}`
+      );
+    }
+  }
+
+  const pasiValizi = [
+    {
+      numar: 1,
+      titlu: "Pas 1",
+      continut: "Continut 1",
+    },
+    {
+      numar: 2,
+      titlu: "Pas 2",
+      continut: "Continut 2",
+    },
+  ];
+
+  test(
+    "pasi valizi",
+    valideazaPasi(
+      pasiValizi,
+      "test",
+      2
+    ).length === 0
+  );
+
+  const pasiDuplicati = [
+    {
+      numar: 1,
+      titlu: "Pas 1",
+      continut: "Continut 1",
+    },
+    {
+      numar: 1,
+      titlu: "Pas 2",
+      continut: "Continut 2",
+    },
+  ];
+
+  test(
+    "detecteaza numar pas duplicat",
+    valideazaPasi(
+      pasiDuplicati,
+      "test",
+      2
+    ).some(
+      (eroare) =>
+        eroare.includes(
+          "duplicat"
+        )
+    )
+  );
+
+  const exercitiuValid = {
+    exercitii: [
+      {
+        id: "e1",
+        nivel: "fundament",
+        tip: "alegere-multipla",
+        enunt: "Cat face 1 + 1?",
+        variante: [
+          "1",
+          "2",
+          "3",
+          "4",
+        ],
+        raspunsCorect: "2",
+        rezolvare: [
+          {
+            numar: 1,
+            titlu: "Calcul",
+            continut:
+              "Adunam 1 si 1.",
+          },
+          {
+            numar: 2,
+            titlu: "Rezultat",
+            continut:
+              "Obtinem 2.",
+          },
+        ],
+        explicatieFinala:
+          "Rezultatul este 2.",
+        punctaj: 1,
+        competenta:
+          "Calcul elementar",
+      },
+      {
+        id: "e2",
+        nivel: "fundament",
+        tip: "raspuns-scurt",
+        enunt: "Scrie numarul 2.",
+        raspunsCorect: "2",
+        rezolvare: [
+          {
+            numar: 1,
+            titlu: "Identificare",
+            continut:
+              "Numarul cerut este 2.",
+          },
+          {
+            numar: 2,
+            titlu: "Raspuns",
+            continut:
+              "Scriem 2.",
+          },
+        ],
+        explicatieFinala:
+          "Raspunsul este 2.",
+        punctaj: 1,
+        competenta:
+          "Identificare",
+      },
+      {
+        id: "e3",
+        nivel: "standard-bac",
+        tip: "rezolvare-completa",
+        enunt: "Calculeaza 2 + 2.",
+        raspunsCorect: "4",
+        rezolvare: [
+          {
+            numar: 1,
+            titlu: "Calcul",
+            continut:
+              "Adunam 2 si 2.",
+          },
+          {
+            numar: 2,
+            titlu: "Rezultat",
+            continut:
+              "Obtinem 4.",
+          },
+        ],
+        explicatieFinala:
+          "Raspunsul este 4.",
+        punctaj: 1,
+        competenta:
+          "Calcul",
+      },
+      {
+        id: "e4",
+        nivel: "avansat",
+        tip: "raspuns-scurt",
+        enunt: "Scrie 5.",
+        raspunsCorect: "5",
+        rezolvare: [
+          {
+            numar: 1,
+            titlu: "Identificare",
+            continut:
+              "Valoarea ceruta este 5.",
+          },
+          {
+            numar: 2,
+            titlu: "Raspuns",
+            continut:
+              "Scriem 5.",
+          },
+        ],
+        explicatieFinala:
+          "Raspunsul este 5.",
+        punctaj: 1,
+        competenta:
+          "Identificare",
+      },
+    ],
+  };
+
+  test(
+    "exercitiu valid",
+    valideazaLotExercitii(
+      exercitiuValid
+    ).length === 0
+  );
+
+  const exercitiuFaraRaspuns =
+    structuredClone(
+      exercitiuValid
+    );
+
+  exercitiuFaraRaspuns.exercitii[
+    0
+  ].raspunsCorect = "";
+
+  test(
+    "detecteaza raspunsCorect lipsa",
+    valideazaLotExercitii(
+      exercitiuFaraRaspuns
+    ).some(
+      (eroare) =>
+        eroare.includes(
+          "raspunsCorect"
+        )
+    )
+  );
+
+  const exercitiuVarianteDuplicate =
+    structuredClone(
+      exercitiuValid
+    );
+
+  exercitiuVarianteDuplicate.exercitii[
+    0
+  ].variante = [
+    "2",
+    "2",
+    "3",
+    "4",
+  ];
+
+  test(
+    "detecteaza variante duplicate",
+    valideazaLotExercitii(
+      exercitiuVarianteDuplicate
+    ).some(
+      (eroare) =>
+        eroare.includes(
+          "variante duplicate"
+        )
+    )
+  );
+
+  const textVideo =
+    Array.from(
+      {
+        length:
+          VIDEO_MIN_CUVINTE[1] +
+          20,
+      },
+      () => "cuvant"
+    ).join(" ");
+
+  const videoValid = {
+    video: {
+      id: "video-1",
+      numar: 1,
+      titlu: "Test",
+      durataMinute: 4,
+      descriere:
+        "Descriere test.",
+      scenariu: [
+        textVideo,
+        "Paragraf doi suficient.",
+        "Paragraf trei suficient.",
+        "Paragraf patru suficient.",
+        "Paragraf cinci suficient.",
+        "Paragraf sase suficient.",
+        "Paragraf sapte suficient.",
+        "Paragraf opt suficient.",
+        "Paragraf noua suficient.",
+        "Paragraf zece suficient.",
+      ],
+      ideiDeRetinut: [
+        "Idee 1",
+        "Idee 2",
+        "Idee 3",
+      ],
+      exemplu: {
+        titlu:
+          "Exemplu",
+        enunt:
+          "Enunt",
+        rezolvareScurta: [
+          "Pas simplu",
+        ],
+        raspuns:
+          "Raspuns",
+      },
+      verificareRapida: {
+        intrebare:
+          "Intrebare?",
+        variante: [
+          "A",
+          "B",
+          "C",
+          "D",
+        ],
+        raspunsCorect: 1,
+        explicatie:
+          "Explicatie.",
+      },
+    },
+  };
+
+  test(
+    "video valid peste prag",
+    valideazaVideo(
+      videoValid,
+      1
+    ).length === 0
+  );
+
+  const videoScurt =
+    structuredClone(
+      videoValid
+    );
+
+  videoScurt.video.scenariu =
+    Array.from(
+      {
+        length: 10,
+      },
+      () =>
+        "Prea scurt."
+    );
+
+  test(
+    "detecteaza video prea scurt",
+    valideazaVideo(
+      videoScurt,
+      1
+    ).some(
+      (eroare) =>
+        eroare.includes(
+          "prea scurt"
+        )
+    )
+  );
+
+  const videoQuizDuplicat =
+    structuredClone(
+      videoValid
+    );
+
+  videoQuizDuplicat.video.verificareRapida.variante =
+    [
+      "A",
+      "A",
+      "C",
+      "D",
+    ];
+
+  test(
+    "detecteaza quiz duplicat",
+    valideazaVideo(
+      videoQuizDuplicat,
+      1
+    ).some(
+      (eroare) =>
+        eroare.includes(
+          "duplicate"
+        )
+    )
+  );
+
+  console.log("");
+
+  if (trecute !== total) {
+    throw new Error(
+      `SELF-TEST ESUAT: ${trecute}/${total}`
+    );
+  }
+
+  console.log(
+    `✓ SELF-TEST trecut: ${trecute}/${total}`
+  );
+}
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+async function main() {
+  const argumente =
+    citesteArgumente();
+
+  if (
+    argumente.selfTest
+  ) {
+    ruleazaSelfTest();
+    return;
+  }
+
+  titlu(
+    "BAC MATE — Generator Local Content Engine V6.0"
+  );
+
+  console.log(
+    `Model: ${argumente.model}`
+  );
+
+  console.log(
+    `Ollama: ${OLLAMA_URL}`
+  );
+
+  console.log(
+    `Generator: V${VERSIUNE_GENERATOR}`
+  );
+
+  console.log("");
+
+  const catalog =
+    incarcaCatalogul();
+
+  console.log(
+    `Catalog canonic: ${catalog.length}`
+  );
+
+  console.log(
+    `✓ Gate catalog ${catalog.length}/${NUMAR_LECTII_ASTEPTAT}`
+  );
+
+  const existente =
+    obtineSluguriExistente();
+
+  console.log(
+    `Content Engine existent: ${existente.size}`
+  );
+
+  const selectate =
+    selecteazaLectii(
+      catalog,
+      existente,
+      argumente
+    );
+
+  console.log("");
+  console.log(
+    `Lectii selectate: ${selectate.length}`
+  );
+
+  for (
+    const lectie of selectate
+  ) {
+    console.log(
+      `- Modul ${lectie.modul}, Lectia ${lectie.numarLectie}: ${lectie.slug}`
+    );
+  }
+
+  if (
+    selectate.length === 0
+  ) {
+    console.log("");
+    console.log(
+      "Nu exista lectii de generat."
+    );
+    return;
+  }
+
+  if (argumente.dryRun) {
+    console.log("");
+    console.log(
+      "DRY RUN: Ollama nu a fost apelat si nu s-a scris nicio lectie."
+    );
+    return;
+  }
+
+  await verificaOllama(
+    argumente.model
+  );
+
+  console.log("");
+  console.log(
+    "✓ Ollama disponibil."
+  );
+
+  asiguraDirector(
+    DIRECTOR_GENERATOR
+  );
+
+  asiguraDirector(
+    DIRECTOR_LECTII
+  );
+
+  const raport =
+    incarcaRaport();
+
+  let generate = 0;
+  let erori = 0;
+
+  for (
+    const lectie of selectate
+  ) {
+    const rezultat =
+      await genereazaLectie({
+        lectie,
+        argumente,
+        raport,
+      });
+
+    if (rezultat.ok) {
+      generate++;
+    } else {
+      erori++;
+    }
+  }
+
+  titlu(
+    "REZUMAT"
+  );
+
+  console.log(
+    `Generate draft: ${generate}`
+  );
+
+  console.log(
+    `Erori: ${erori}`
+  );
+
+  console.log("");
+  console.log(
+    "IMPORTANT:"
+  );
+
+  console.log(
+    "- Generatorul NU modifica registrul data/continut/index.ts."
+  );
+
+  console.log(
+    "- Generatorul NU publica automat."
+  );
+
+  console.log(
+    "- Toate cele 4 verificari raman false."
+  );
+
+  console.log(
+    "- Continutul matematic trebuie verificat separat."
+  );
+
+  if (erori > 0) {
+    process.exitCode = 1;
+  }
+}
+
+main().catch(
+  (eroare) => {
+    console.error("");
+    console.error(
+      "EROARE FATALA:"
+    );
+
+    console.error(
+      eroare?.stack ??
+        eroare
+    );
+
+    process.exitCode = 1;
+  }
+);

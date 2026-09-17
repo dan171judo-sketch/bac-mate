@@ -1,0 +1,7 @@
+Începem cu definiția modulului
+
+Vom vedea cum se calculează modulul unui număr
+
+Vom rezolva un exercițiu de tip Bac
+
+Vom verifica dacă răspunsul este corect

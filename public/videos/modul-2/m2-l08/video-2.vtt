@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+Funcția este crescătoare dacă pentru orice x1 < x2, f(x1) ≤ f(x2).
+
+2
+00:02:30.000 --> 00:05:00.000
+Pentru mărginire, verificăm dacă funcția are valori maxime și minime.
+

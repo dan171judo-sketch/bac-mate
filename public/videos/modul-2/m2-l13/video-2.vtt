@@ -1,0 +1,10 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:02:30.000
+O progresie aritmetică este o mulțime de numere în care fiecare termen, începând cu al doilea, se obține adăugând la termenul precedent o constantă numită rație.
+
+2
+00:02:30.000 --> 00:05:00.000
+Termenul general al unei progresii aritmetice se calculează cu formula: aₙ = a₁ + (n-1)r, unde a₁ este primul termen, r este rația și n este poziția termenului.
+

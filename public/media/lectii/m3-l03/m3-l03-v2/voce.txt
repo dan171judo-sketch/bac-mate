@@ -1,0 +1,7 @@
+Începem cu definiția funcției de gradul I
+
+Vom vedea cum se comportă graficul acesteia
+
+Vom înțelege ce înseamnă monotonia
+
+Vom rezolva un exercițiu de tip Bac

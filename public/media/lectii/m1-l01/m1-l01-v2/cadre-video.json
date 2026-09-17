@@ -1,0 +1,655 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m1-l01",
+    "modul": 1,
+    "numarLectie": 1,
+    "titlu": "Mulțimi de numere și operații cu numere reale",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m1-l01-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Operații cu numere reale",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu numere reale",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu numere reale",
+      "naratiune": "Începem cu definiția mulțimilor de numere",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu numere reale”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu numere reale",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția mulțimilor de numere",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.087934,
+      "procentDurata": 8.7934
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Mulțimea numerelor naturale, întregi, raționale și…",
+      "subtitlu": "Imagine cu mulțimile de numere: ℕ, ℤ, ℚ, ℝ",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Mulțimea numerelor naturale, întregi, raționale și reale su…",
+      "naratiune": "Mulțimea numerelor naturale, întregi, raționale și reale sunt fundamentale. ℕ include numerele 0,1,2,...; ℤ adaugă numerele negative; ℚ este formată din fracții; ℝ este mulțimea tuturor numerelor reale.",
+      "vizual": "Imagine cu mulțimile de numere: ℕ, ℤ, ℚ, ℝ",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Mulțimea numerelor naturale, întregi, raționale și reale sunt fundamentale.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "ℕ include numerele 0,1,2,...; ℤ adaugă numerele negative; ℚ este formată din fracții; ℝ este mulțimea tuturor numerelor reale.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.087934,
+      "endProcent": 0.224719,
+      "procentDurata": 13.6786
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Operațiile cu numere reale se aplică după regulile…",
+      "subtitlu": "Imagine cu operații aritmetice: adunare, scădere, înmulțire, împărțire",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Operațiile cu numere reale se aplică după regulile aritmeti…",
+      "naratiune": "Operațiile cu numere reale se aplică după regulile aritmeticii. Adunarea și înmulțirea sunt comutative, iar scăderea și împărțirea nu. Este important să verificăm dacă rezultatul este în mulțimea corectă.",
+      "vizual": "Imagine cu operații aritmetice: adunare, scădere, înmulțire, împărțire",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Operațiile cu numere reale se aplică după regulile aritmeticii.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Adunarea și înmulțirea sunt comutative, iar scăderea și împărțirea nu.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Este important să verificăm dacă rezultatul este în mulțimea corectă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.224719,
+      "endProcent": 0.36639,
+      "procentDurata": 14.1671
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția mulțimilor de numere",
+      "naratiune": "Începem cu definiția mulțimilor de numere Vom vedea cum se adună, scade, înmulțește și împarte numere reale Vom analiza exemple de tip Bac Vom rezolva un exercițiu pas cu pas",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția mulțimilor de numere",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se adună, scade, înmulțește și împarte numere reale",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza exemple de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu pas cu pas",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.36639,
+      "endProcent": 0.512946,
+      "procentDurata": 14.6556
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul unei expresii",
+      "subtitlu": "Calculați: (1/2 + 1/3) * 6 - 4",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1",
+      "naratiune": "Calculați: (1/2 + 1/3) * 6 - 4 Calculăm fracțiile: 1/2 + 1/3 = 3/6 + 2/6 = 5/6 Înmulțim cu 6: 5/6 * 6 = 5 Scădem 4: 5 - 4 = 1 Răspunsul final este 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați: (1/2 + 1/3) * 6 - 4",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm fracțiile: 1/2 + 1/3 = 3/6 + 2/6 = 5/6",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înmulțim cu 6: 5/6 * 6 = 5",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Scădem 4: 5 - 4 = 1",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.512946,
+      "endProcent": 0.726429,
+      "procentDurata": 21.3483
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1",
+      "naratiune": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este: A) 1 B) 2 C) 3 Calculăm fracțiile: 1/2 + 1/3 = 5/6. Înmulțim cu 6: 5/6 * 6 = 5. Scădem 4: 5 - 4 = 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 3",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.726429,
+      "endProcent": 0.912066,
+      "procentDurata": 18.5638
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Operațiile cu numere reale se aplică după regulile aritmeticii",
+      "naratiune": "Operațiile cu numere reale se aplică după regulile aritmeticii Verificăm dacă rezultatul este în mulțimea corectă",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Operațiile cu numere reale se aplică după regulile aritmeticii",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verificăm dacă rezultatul este în mulțimea corectă",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.912066,
+      "endProcent": 1,
+      "procentDurata": 8.7934
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Operații cu numere reale",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Mulțimi de numere și operații cu numere reale”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Operații cu numere reale",
+      "naratiune": "Începem cu definiția mulțimilor de numere",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Operații cu numere reale”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Operații cu numere reale",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Începem cu definiția mulțimilor de numere",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.087934,
+      "procentDurata": 8.7934
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "Mulțimea numerelor naturale, întregi, raționale și…",
+      "subtitlu": "Imagine cu mulțimile de numere: ℕ, ℤ, ℚ, ℝ",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "Mulțimea numerelor naturale, întregi, raționale și reale su…",
+      "naratiune": "Mulțimea numerelor naturale, întregi, raționale și reale sunt fundamentale. ℕ include numerele 0,1,2,...; ℤ adaugă numerele negative; ℚ este formată din fracții; ℝ este mulțimea tuturor numerelor reale.",
+      "vizual": "Imagine cu mulțimile de numere: ℕ, ℤ, ℚ, ℝ",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "Mulțimea numerelor naturale, întregi, raționale și reale sunt fundamentale.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-1-e2",
+          "tip": "mesaj",
+          "text": "ℕ include numerele 0,1,2,...; ℤ adaugă numerele negative; ℚ este formată din fracții; ℝ este mulțimea tuturor numerelor reale.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.087934,
+      "endProcent": 0.224719,
+      "procentDurata": 13.6786
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Operațiile cu numere reale se aplică după regulile…",
+      "subtitlu": "Imagine cu operații aritmetice: adunare, scădere, înmulțire, împărțire",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Operațiile cu numere reale se aplică după regulile aritmeti…",
+      "naratiune": "Operațiile cu numere reale se aplică după regulile aritmeticii. Adunarea și înmulțirea sunt comutative, iar scăderea și împărțirea nu. Este important să verificăm dacă rezultatul este în mulțimea corectă.",
+      "vizual": "Imagine cu operații aritmetice: adunare, scădere, înmulțire, împărțire",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Operațiile cu numere reale se aplică după regulile aritmeticii.",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "concept-2-e2",
+          "tip": "mesaj",
+          "text": "Adunarea și înmulțirea sunt comutative, iar scăderea și împărțirea nu.",
+          "apareLa": 0.33,
+          "importanta": "normala"
+        },
+        {
+          "id": "concept-2-e3",
+          "tip": "mesaj",
+          "text": "Este important să verificăm dacă rezultatul este în mulțimea corectă.",
+          "apareLa": 0.56,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.224719,
+      "endProcent": 0.36639,
+      "procentDurata": 14.1671
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Începem cu definiția mulțimilor de numere",
+      "naratiune": "Începem cu definiția mulțimilor de numere Vom vedea cum se adună, scade, înmulțește și împarte numere reale Vom analiza exemple de tip Bac Vom rezolva un exercițiu pas cu pas",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Începem cu definiția mulțimilor de numere",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Vom vedea cum se adună, scade, înmulțește și împarte numere reale",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Vom analiza exemple de tip Bac",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Vom rezolva un exercițiu pas cu pas",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.36639,
+      "endProcent": 0.512946,
+      "procentDurata": 14.6556
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Calculul unei expresii",
+      "subtitlu": "Calculați: (1/2 + 1/3) * 6 - 4",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "1",
+      "naratiune": "Calculați: (1/2 + 1/3) * 6 - 4 Calculăm fracțiile: 1/2 + 1/3 = 3/6 + 2/6 = 5/6 Înmulțim cu 6: 5/6 * 6 = 5 Scădem 4: 5 - 4 = 1 Răspunsul final este 1.",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Calculați: (1/2 + 1/3) * 6 - 4",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Calculăm fracțiile: 1/2 + 1/3 = 3/6 + 2/6 = 5/6",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Înmulțim cu 6: 5/6 * 6 = 5",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-3",
+          "tip": "pas",
+          "text": "3. Scădem 4: 5 - 4 = 1",
+          "apareLa": 0.56,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: 1",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.512946,
+      "endProcent": 0.726429,
+      "procentDurata": 21.3483
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este:",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) 1",
+      "naratiune": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este: A) 1 B) 2 C) 3 Calculăm fracțiile: 1/2 + 1/3 = 5/6. Înmulțim cu 6: 5/6 * 6 = 5. Scădem 4: 5 - 4 = 1.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Rezultatul expresiei (1/2 + 1/3) * 6 - 4 este:",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) 1",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) 2",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) 3",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) 1",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.726429,
+      "endProcent": 0.912066,
+      "procentDurata": 18.5638
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "Operațiile cu numere reale se aplică după regulile aritmeticii",
+      "naratiune": "Operațiile cu numere reale se aplică după regulile aritmeticii Verificăm dacă rezultatul este în mulțimea corectă",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "Operațiile cu numere reale se aplică după regulile aritmeticii",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Verificăm dacă rezultatul este în mulțimea corectă",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.912066,
+      "endProcent": 1,
+      "procentDurata": 8.7934
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-1\\lectia-01.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-10T09:03:46.157Z"
+  }
+}

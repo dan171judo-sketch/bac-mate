@@ -1,0 +1,599 @@
+{
+  "proiect": "BAC MATE",
+  "standard": {
+    "nume": "BAC MATE Premium Video Standard",
+    "versiune": "4.0",
+    "rezolutie": {
+      "latime": 1280,
+      "inaltime": 720
+    },
+    "fps": 30,
+    "audio": {
+      "limba": "ro-RO",
+      "vocePreferata": "ro-RO-AlinaNeural",
+      "rate": "-2%",
+      "stil": "profesor calm, natural, clar și explicativ"
+    },
+    "vizual": {
+      "safeMarginPx": 64,
+      "fontMinimTextPx": 22,
+      "fontMinimFormulaPx": 34,
+      "maxCaractereTitlu": 52,
+      "maxCaractereSubtitlu": 125,
+      "maxElementePerScena": 5,
+      "contrastRidicat": true,
+      "tranzitiiDiscrete": true,
+      "rezolutie": "1280x720",
+      "animatii": {
+        "progresive": true,
+        "decorative": false
+      }
+    },
+    "pedagogie": {
+      "minScene": 5,
+      "maxScene": 9,
+      "necesitaIntro": true,
+      "necesitaExemplu": true,
+      "necesitaConcluzie": true,
+      "maxIdeiPrincipalePerScena": 1
+    },
+    "publicare": {
+      "necesitaVerificareMatematica": true,
+      "necesitaVerificarePrograma": true,
+      "necesitaVerificareLimba": true,
+      "necesitaVerificareAudio": true,
+      "necesitaVerificareSincronizare": true,
+      "necesitaVerificareVizuala": true,
+      "necesitaVerificareUmanaFinala": true
+    }
+  },
+  "lectie": {
+    "id": "m2-l02",
+    "modul": 2,
+    "numarLectie": 2,
+    "titlu": "Noțiunea de funcție",
+    "profil": "M_mate-info"
+  },
+  "video": {
+    "id": "m2-l02-v2",
+    "numar": 2,
+    "rol": "reguli-si-metoda",
+    "titlu": "Noțiunea de funcție",
+    "durataTintaMinute": 5
+  },
+  "obiectivGeneral": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+  "voce": {
+    "limba": "ro-RO",
+    "vocePreferata": "ro-RO-AlinaNeural",
+    "rate": "-2%",
+    "text": "voce.txt",
+    "audio": "audio.mp3"
+  },
+  "subtitrare": {
+    "fisier": "subtitrare.vtt"
+  },
+  "scene": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Noțiunea de funcție",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Noțiunea de funcție",
+      "naratiune": "Ce este o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Noțiunea de funcție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Noțiunea de funcție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.092688,
+      "procentDurata": 9.2688
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, unde f…",
+      "subtitlu": "Un grafic cu două axe și o curbă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, unde fiecare e…",
+      "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător în a doua mulțime.",
+      "vizual": "Un grafic cu două axe și o curbă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător în a doua mulți…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.092688,
+      "endProcent": 0.211123,
+      "procentDurata": 11.8435
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a defini o funcție, trebuie să avem o rețetă…",
+      "subtitlu": "Un tabel cu valori și corespondențe",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a defini o funcție, trebuie să avem o rețetă care, p…",
+      "naratiune": "Pentru a defini o funcție, trebuie să avem o rețetă care, pentru fiecare valoare din domeniu, să ne dea o singură valoare din codomeniu.",
+      "vizual": "Un tabel cu valori și corespondențe",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a defini o funcție, trebuie să avem o rețetă care, pentru fiecare valoare din domeniu, să ne dea o singură valoare din codomeni…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.211123,
+      "endProcent": 0.334706,
+      "procentDurata": 12.3584
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este o funcție?",
+      "naratiune": "Ce este o funcție? Cum se definește o funcție? Ce se cere la Bac? Cum să abordezi exercițiile?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se cere la Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să abordezi exercițiile?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.334706,
+      "endProcent": 0.427394,
+      "procentDurata": 9.2688
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determină dacă următoarea corespondență este funcție",
+      "subtitlu": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da, f este o funcție.",
+      "naratiune": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție? Verificăm dacă fiecare element din domeniu are o singură imagine. Elementele 1, 2, 3 au fiecare o imagine unică în codomeniu. Răspunsul final este Da, f este o funcție..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Verificăm dacă fiecare element din domeniu are o singură imagine.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Elementele 1, 2, 3 au fiecare o imagine unică în codomeniu.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da, f este o funcție.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.427394,
+      "endProcent": 0.711637,
+      "procentDurata": 28.4243
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da",
+      "naratiune": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție? A) Da B) Nu C) Nu știu Da, deoarece fiecare element din domeniu are o singură imagine în codomeniu.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu știu",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.711637,
+      "endProcent": 0.891864,
+      "procentDurata": 18.0227
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este o corespondență univocă între două mulțimi.",
+      "naratiune": "O funcție este o corespondență univocă între două mulțimi. Fiecare valoare din domeniu trebuie să aibă exact o imagine în codomeniu.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție este o corespondență univocă între două mulțimi.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare valoare din domeniu trebuie să aibă exact o imagine în codomeniu.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.891864,
+      "endProcent": 1,
+      "procentDurata": 10.8136
+    }
+  ],
+  "cadre": [
+    {
+      "id": "intro",
+      "ordine": 1,
+      "tip": "intro",
+      "titlu": "Noțiunea de funcție",
+      "subtitlu": "Construim metoda pas cu pas",
+      "obiectiv": "Elevul trebuie să înțeleagă tema „Noțiunea de funcție”, să poată aplica metoda corect și să recunoască cerințele tipice de Bac.",
+      "accentPrincipal": "Noțiunea de funcție",
+      "naratiune": "Ce este o funcție?",
+      "vizual": "Titlul lecției și o reprezentare matematică simplă pentru tema „Noțiunea de funcție”.",
+      "elemente": [
+        {
+          "id": "intro-tema",
+          "tip": "titlu-principal",
+          "text": "Noțiunea de funcție",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "intro-obiectiv",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.52,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0,
+      "endProcent": 0.092688,
+      "procentDurata": 9.2688
+    },
+    {
+      "id": "concept-1",
+      "ordine": 2,
+      "tip": "concept",
+      "titlu": "O funcție este o relație între două mulțimi, unde f…",
+      "subtitlu": "Un grafic cu două axe și o curbă",
+      "obiectiv": "Elevul urmărește ideea 1 pas cu pas.",
+      "accentPrincipal": "O funcție este o relație între două mulțimi, unde fiecare e…",
+      "naratiune": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător în a doua mulțime.",
+      "vizual": "Un grafic cu două axe și o curbă",
+      "elemente": [
+        {
+          "id": "concept-1-e1",
+          "tip": "mesaj",
+          "text": "O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător în a doua mulți…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.092688,
+      "endProcent": 0.211123,
+      "procentDurata": 11.8435
+    },
+    {
+      "id": "concept-2",
+      "ordine": 3,
+      "tip": "explicatie",
+      "titlu": "Pentru a defini o funcție, trebuie să avem o rețetă…",
+      "subtitlu": "Un tabel cu valori și corespondențe",
+      "obiectiv": "Elevul urmărește ideea 2 pas cu pas.",
+      "accentPrincipal": "Pentru a defini o funcție, trebuie să avem o rețetă care, p…",
+      "naratiune": "Pentru a defini o funcție, trebuie să avem o rețetă care, pentru fiecare valoare din domeniu, să ne dea o singură valoare din codomeniu.",
+      "vizual": "Un tabel cu valori și corespondențe",
+      "elemente": [
+        {
+          "id": "concept-2-e1",
+          "tip": "mesaj",
+          "text": "Pentru a defini o funcție, trebuie să avem o rețetă care, pentru fiecare valoare din domeniu, să ne dea o singură valoare din codomeni…",
+          "apareLa": 0.1,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.211123,
+      "endProcent": 0.334706,
+      "procentDurata": 12.3584
+    },
+    {
+      "id": "idei-principale",
+      "ordine": 4,
+      "tip": "metoda",
+      "titlu": "Metoda",
+      "subtitlu": "Construim înțelegerea pas cu pas.",
+      "obiectiv": "Elevul vede ordinea logică a ideilor.",
+      "accentPrincipal": "Ce este o funcție?",
+      "naratiune": "Ce este o funcție? Cum se definește o funcție? Ce se cere la Bac? Cum să abordezi exercițiile?",
+      "vizual": "Ideile apar progresiv, una câte una, fără a încărca ecranul.",
+      "elemente": [
+        {
+          "id": "idee-1",
+          "tip": "mesaj",
+          "text": "Ce este o funcție?",
+          "apareLa": 0.08,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "idee-2",
+          "tip": "mesaj",
+          "text": "Cum se definește o funcție?",
+          "apareLa": 0.31,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-3",
+          "tip": "mesaj",
+          "text": "Ce se cere la Bac?",
+          "apareLa": 0.54,
+          "importanta": "normala"
+        },
+        {
+          "id": "idee-4",
+          "tip": "mesaj",
+          "text": "Cum să abordezi exercițiile?",
+          "apareLa": 0.77,
+          "importanta": "normala"
+        }
+      ],
+      "startProcent": 0.334706,
+      "endProcent": 0.427394,
+      "procentDurata": 9.2688
+    },
+    {
+      "id": "exemplu",
+      "ordine": 5,
+      "tip": "exemplu",
+      "titlu": "Determină dacă următoarea corespondență este funcție",
+      "subtitlu": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție?",
+      "obiectiv": "Elevul aplică metoda într-un exemplu concret.",
+      "accentPrincipal": "Da, f este o funcție.",
+      "naratiune": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție? Verificăm dacă fiecare element din domeniu are o singură imagine. Elementele 1, 2, 3 au fiecare o imagine unică în codomeniu. Răspunsul final este Da, f este o funcție..",
+      "vizual": "Enunțul rămâne vizibil, iar pașii soluției apar progresiv.",
+      "elemente": [
+        {
+          "id": "exemplu-enunt",
+          "tip": "problema",
+          "text": "Fie funcția f: {1, 2, 3} → {a, b, c} definită prin f(1)=a, f(2)=b, f(3)=b. Este f o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "exemplu-pas-1",
+          "tip": "pas",
+          "text": "1. Verificăm dacă fiecare element din domeniu are o singură imagine.",
+          "apareLa": 0.24,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-pas-2",
+          "tip": "pas",
+          "text": "2. Elementele 1, 2, 3 au fiecare o imagine unică în codomeniu.",
+          "apareLa": 0.4,
+          "importanta": "ridicata"
+        },
+        {
+          "id": "exemplu-raspuns",
+          "tip": "raspuns",
+          "text": "Răspuns: Da, f este o funcție.",
+          "apareLa": 0.88,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.427394,
+      "endProcent": 0.711637,
+      "procentDurata": 28.4243
+    },
+    {
+      "id": "verificare-rapida",
+      "ordine": 6,
+      "tip": "verificare",
+      "titlu": "Verifică dacă ai înțeles",
+      "subtitlu": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție?",
+      "obiectiv": "Elevul își verifică imediat înțelegerea.",
+      "accentPrincipal": "A) Da",
+      "naratiune": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție? A) Da B) Nu C) Nu știu Da, deoarece fiecare element din domeniu are o singură imagine în codomeniu.",
+      "vizual": "Întrebarea apare prima, apoi variantele, iar răspunsul corect este evidențiat la final.",
+      "elemente": [
+        {
+          "id": "verificare-intrebare",
+          "tip": "intrebare",
+          "text": "Fie funcția f: {1, 2} → {a, b} definită prin f(1)=a, f(2)=a. Este f o funcție?",
+          "apareLa": 0.05,
+          "importanta": "maxima"
+        },
+        {
+          "id": "verificare-varianta-1",
+          "tip": "varianta",
+          "text": "A) Da",
+          "apareLa": 0.32,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-2",
+          "tip": "varianta",
+          "text": "B) Nu",
+          "apareLa": 0.46,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-varianta-3",
+          "tip": "varianta",
+          "text": "C) Nu știu",
+          "apareLa": 0.6000000000000001,
+          "importanta": "normala"
+        },
+        {
+          "id": "verificare-raspuns",
+          "tip": "raspuns-corect",
+          "text": "Corect: A) Da",
+          "apareLa": 0.83,
+          "importanta": "maxima"
+        }
+      ],
+      "startProcent": 0.711637,
+      "endProcent": 0.891864,
+      "procentDurata": 18.0227
+    },
+    {
+      "id": "concluzie",
+      "ordine": 7,
+      "tip": "concluzie",
+      "titlu": "Ce trebuie să reții",
+      "subtitlu": "Fixăm ideea principală înainte de următorul pas.",
+      "obiectiv": "Elevul fixează informațiile esențiale.",
+      "accentPrincipal": "O funcție este o corespondență univocă între două mulțimi.",
+      "naratiune": "O funcție este o corespondență univocă între două mulțimi. Fiecare valoare din domeniu trebuie să aibă exact o imagine în codomeniu.",
+      "vizual": "Rezumat curat, cu ideile esențiale afișate progresiv.",
+      "elemente": [
+        {
+          "id": "retine-1",
+          "tip": "mesaj-retine",
+          "text": "O funcție este o corespondență univocă între două mulțimi.",
+          "apareLa": 0.1,
+          "importanta": "maxima"
+        },
+        {
+          "id": "retine-2",
+          "tip": "mesaj-retine",
+          "text": "Fiecare valoare din domeniu trebuie să aibă exact o imagine în codomeniu.",
+          "apareLa": 0.35,
+          "importanta": "ridicata"
+        }
+      ],
+      "startProcent": 0.891864,
+      "endProcent": 1,
+      "procentDurata": 10.8136
+    }
+  ],
+  "verificareAutomata": {
+    "erori": [],
+    "avertismente": [],
+    "trecut": true
+  },
+  "controlCalitate": {
+    "structuraTehnica": true,
+    "scenariuDisponibil": true,
+    "audioDisponibil": true,
+    "subtitrareDisponibila": true,
+    "exempluInclus": true,
+    "concluzieInclusa": true,
+    "matematicaVerificata": false,
+    "programaVerificata": false,
+    "limbaRomanaVerificata": false,
+    "audioVerificat": false,
+    "videoVerificat": false,
+    "sincronizareVerificata": false,
+    "pronuntieVerificata": false,
+    "vizualVerificat": false,
+    "subtitrareVerificata": false,
+    "videoFinalVerificatUman": false,
+    "poateFiPublicat": false
+  },
+  "sursa": {
+    "fisierLectie": "data\\continut-video\\modul-2\\lectia-02.json",
+    "generatorContinut": "Ollama local",
+    "model": "qwen3:8b",
+    "generatCadreLa": "2026-09-12T05:53:07.620Z"
+  }
+}
