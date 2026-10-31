@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Un tren parcurge 180 km în 3 ore. Ce distanță va parcurge în 2 ore cu aceeași viteză?",
+      "variante": [],
+      "raspunsCorect": "120 km",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea vitezei trenului",
+          "continut": "V = d / t = 180 km / 3 h = 60 km/h."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea distanței pentru 2 ore",
+          "continut": "d = V × t = 60 km/h × 2 h = 120 km."
+        }
+      ],
+      "explicatieFinala": "Viteza este constantă, deci se folosește formula d = V × t pentru a calcula distanța parcurgută într-un interval de timp.",
+      "competenta": "Calcularea distanței cu viteza constantă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Un biciclist parcurge 40 km în 2 ore. Care este viteza medie?",
+      "variante": [
+        "15 km/h",
+        "20 km/h",
+        "30 km/h",
+        "40 km/h"
+      ],
+      "raspunsCorect": "20 km/h",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea vitezei medii",
+          "continut": "V = d / t = 40 km / 2 h = 20 km/h."
+        }
+      ],
+      "explicatieFinala": "Viteza medie se calculează prin împărțirea distanței parcurse la timpul total.",
+      "competenta": "Calcularea vitezei medii",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Un automobil parcurge 240 km în 4 ore. Cât timp va dura să parcurgă 180 km cu aceeași viteză?",
+      "variante": [],
+      "raspunsCorect": "3 ore",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea vitezei automobilului",
+          "continut": "V = d / t = 240 km / 4 h = 60 km/h."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea timpului pentru 180 km",
+          "continut": "t = d / V = 180 km / 60 km/h = 3 h."
+        }
+      ],
+      "explicatieFinala": "Viteza este constantă, deci se folosește formula t = d / V pentru a calcula timpul necesar parcurgerii unei distanțe.",
+      "competenta": "Calcularea timpului cu viteza constantă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Un avion parcurge 1200 km în 2 ore. Care este viteza medie?",
+      "variante": [
+        "450 km/h",
+        "600 km/h",
+        "750 km/h",
+        "900 km/h"
+      ],
+      "raspunsCorect": "600 km/h",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea vitezei medii",
+          "continut": "V = d / t = 1200 km / 2 h = 600 km/h."
+        }
+      ],
+      "explicatieFinala": "Viteza medie se calculează prin împărțirea distanței parcurse la timpul total.",
+      "competenta": "Calcularea vitezei medii",
+      "punctaj": 5
+    }
+  ]
+}

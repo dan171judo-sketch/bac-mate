@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați: 2 + 3 × 4.",
+      "variante": [],
+      "raspunsCorect": "14",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Executarea înmulțirii înainte de adunare",
+          "continut": "Înmulțim 3 × 4 = 12."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea rezultatului cu 2",
+          "continut": "Adunăm 2 + 12 = 14."
+        }
+      ],
+      "explicatieFinala": "Operația a fost rezolvată respectând ordinea corectă a prioritarității operatiilor.",
+      "competenta": "Ordinea efectuării operațiilor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația: 2(x - 1) = 4.",
+      "variante": [],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfășurarea parantezei",
+          "continut": "Înmulțim 2 cu fiecare termen din paranteză: 2x - 2 = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea termenului liber în partea opusă",
+          "continut": "Adunăm 2 în ambele părți: 2x = 6."
+        }
+      ],
+      "explicatieFinala": "Ecuația a fost rezolvată prin desfășurarea parantezei și reducerea termenilor.",
+      "competenta": "Rezolvarea ecuațiilor liniare cu paranteze",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este soluția ecuației: 3x + 2 = 11?",
+      "variante": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 5"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber din ambele părți",
+          "continut": "Scădem 2 din ambele părți: 3x = 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 3",
+          "continut": "Împărțim 3x/3 = 9/3 → x = 3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației a fost găsită prin reducerea termenilor.",
+      "competenta": "Rezolvarea ecuațiilor liniare simple",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația: (2x + 1)/3 = 5.",
+      "variante": [],
+      "raspunsCorect": "x = 7",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înmulțirea ambelor părți cu 3",
+          "continut": "Înmulțim fiecare parte a ecuației cu 3: 2x + 1 = 15."
+        },
+        {
+          "numar": 2,
+          "titlu": "Scăderea termenului liber și împărțirea la coeficientul lui x",
+          "continut": "Scădem 1 din ambele părți: 2x = 14. Împărțim la 2: x = 7."
+        }
+      ],
+      "explicatieFinala": "Ecuația a fost rezolvată prin reducerea termenilor și împărțirea finală.",
+      "competenta": "Rezolvarea ecuațiilor liniare cu fracții",
+      "punctaj": 5
+    }
+  ]
+}

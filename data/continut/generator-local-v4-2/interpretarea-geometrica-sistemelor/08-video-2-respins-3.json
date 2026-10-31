@@ -1,0 +1,40 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "Învățăm cum să adunăm numere pozitive și negative, folosind reguli clare și exemple practice. Vom învăța și cum să verificăm dacă rezultatul este corect.",
+    "scenariu": [
+      "În această lecție vom discuta despre adunarea numerelor cu semn, adică numerele care pot fi pozitive sau negative. Acest lucru este important pentru a înțelege cum se comportă numerele atunci când sunt adunate.",
+      "Regula principală este următoarea: dacă adunăm două numere cu același semn, rezultatul va avea acelasi semn, iar valoarea absolută se obține prin adunarea valorilor absolute. Dacă semnele sunt diferite, vom scădea valorile absolute și vom păstra semnul numărului cu valoarea mai mare.",
+      "De exemplu, dacă avem +5 și +3, ambele pozitive, rezultatul este +8. Dacă avem -2 și -7, ambele negative, rezultatul este -9. În schimb, dacă avem +4 și -6, semnele sunt diferite, deci vom scădea 4 din 6 și vom păstra semnul lui -6, adică -2.",
+      "Această regulă funcționează pentru că numerele pozitive reprezintă creșteri, iar cele negative reprezintă scăderi. Când adunăm două creșteri, rezultatul este o creștere mai mare. Când adunăm două scăderi, rezultatul este o scădere mai mare.",
+      "Când semnele sunt diferite, se comportă ca un echilibru: dacă una este mai mare decât cealaltă, diferența va fi semnul numărului mai mare. Acest lucru ne ajută să înțelegem cum se compensează valorile.",
+      "Pentru a aplica această regulă, trebuie să identificăm semnele numerelor și să adunăm sau să scădem valorile absolute corespunzător. Este important să nu uitați să păstrați semnul corect în final.",
+      "Să luăm un exemplu concret: +12 și -8. Semnele sunt diferite, deci vom scădea 8 din 12, obținând 4. Deoarece numărul cu valoarea mai mare este pozitiv, rezultatul va fi +4.",
+      "Verificăm dacă acest rezultat este corect: dacă avem o creștere de 12 și o scădere de 8, în total am obținut o creștere de 4. Acest lucru confirmă că regula funcționează.",
+      "O greșeală frecventă este să uitați să păstrați semnul corect sau să adunați valorile absolute chiar dacă semnele sunt diferite. De exemplu, dacă adunați +5 și -3 ca fiind +8, acest lucru este greșit.",
+      "Pentru a evita această greșeală, puteți folosi o metodă simplă: scrieți semnele, adunați sau scadeți valorile absolute în funcție de regulă și păstrați semnul final. Astfel, nu veți confunda semnele.",
+      "În concluzie, adunarea numerelor cu semn se bazează pe identificarea semnelor și aplicarea regulii corespunzătoare. Este important să verificăm rezultatul pentru a ne asigura că am folosit corect regula."
+    ],
+    "ideiDeRetinut": [
+      "Regula adunării numerelor cu același semn: semnul rămâne, valoarea absolută se adună.",
+      "Când semnele sunt diferite, scădem valorile absolute și păstrăm semnul numărului mai mare.",
+      "Verificarea rezultatului este esențială pentru a evita greșelile comune."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: +12 + (-8).",
+      "raspunsCorect": 4,
+      "explicatie": "Numerele au semne diferite, deci scădem valorile absolute (12 - 8 = 4) și păstrăm semnul numărului mai mare (+12), rezultatul fiind +4."
+    },
+    "verificareRapida": {
+      "intrebare": "Calculați: -7 + (-5).",
+      "variante": [
+        "-12",
+        "+12",
+        "-2",
+        "+2"
+      ],
+      "raspunsCorect": 0
+    }
+  }
+}

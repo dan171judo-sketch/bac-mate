@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 2,
+  "id": "bac-2026-model-M_mate-info",
+  "profile": "M_mate-info",
+  "sourceDraft": "bac-2026-model-M_mate-info.json",
+  "sourceDraftSha256": "ee7f57502e3672c4432b0a8f5f9367ab710d4c6c9a5a1687745e0a75199931db",
+  "policy": "HUMAN_VERIFICATION_REQUIRED",
+  "verification": {
+    "humanVerified": false,
+    "mathVerified": false,
+    "answerKeyVerified": false,
+    "verifiedBy": null,
+    "verifiedAt": null
+  },
+  "slots": [
+    {
+      "slot": "S1-1",
+      "subjectNumber": 1,
+      "problemNumber": 1,
+      "subitem": null,
+      "points": 5,
+      "statement": "Determinați numărul real x pentru care numerele x, 8 și 2x + 1 sunt, în această ordine, termeni consecutivi ai unei progresii aritmetice.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "(x + 2x + 1) / 2 = 8",
+          "points": 3
+        },
+        {
+          "text": "x = 5",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S1-2",
+      "subjectNumber": 1,
+      "problemNumber": 2,
+      "subitem": null,
+      "points": 5,
+      "statement": "Se consideră funcțiile f: ℝ → ℝ, f(x) = 2x + 1 și g: ℝ → ℝ, g(x) = x + 4. Determinați numărul real a pentru care (f ∘ g)(a) = −a.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "g(a) = a + 4 și (f ∘ g)(a) = 2a + 9",
+          "points": 3
+        },
+        {
+          "text": "2a + 9 = −a, deci a = −3",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S1-3",
+      "subjectNumber": 1,
+      "problemNumber": 3,
+      "subitem": null,
+      "points": 5,
+      "statement": "Rezolvați în mulțimea numerelor reale ecuația 2 log₅ x = log₅(4x + 5).",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "log₅ x² = log₅(4x + 5), deci x² − 4x − 5 = 0",
+          "points": 2
+        },
+        {
+          "text": "x = −1 sau x = 5; condiția de existență păstrează x = 5",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S1-4",
+      "subjectNumber": 1,
+      "problemNumber": 4,
+      "subitem": null,
+      "points": 5,
+      "statement": "Se consideră mulțimea A = {1, 3, 5, 7, 8}. Determinați câte numere naturale de două cifre distincte, cu cifra zecilor impară, se pot forma cu cifre din mulțimea A.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Cifra zecilor se poate alege în 4 moduri",
+          "points": 2
+        },
+        {
+          "text": "Pentru fiecare alegere, cifra unităților are 4 posibilități; în total 4·4 = 16",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S1-5",
+      "subjectNumber": 1,
+      "problemNumber": 5,
+      "subitem": null,
+      "points": 5,
+      "statement": "În reperul cartezian xOy se consideră punctele A(0, 5) și B(3, 4). Determinați coordonatele punctului C pentru care 3·OC⃗ = OA⃗ + OB⃗.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "OA⃗ = 5j⃗, OB⃗ = 3i⃗ + 4j⃗, deci OA⃗ + OB⃗ = 3i⃗ + 9j⃗",
+          "points": 3
+        },
+        {
+          "text": "OC⃗ = 1/3(OA⃗ + OB⃗) = i⃗ + 3j⃗, deci C(1,3)",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S1-6",
+      "subjectNumber": 1,
+      "problemNumber": 6,
+      "subitem": null,
+      "points": 5,
+      "statement": "Se consideră triunghiul ABC, cu A = π/2, C = π/3 și AE = 2, unde E este punctul în care bisectoarea unghiului C intersectează latura AB. Arătați că distanța de la punctul B la dreapta CE este egală cu 2√3.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "∠ECB = π/6 = ∠EBC, deci EB = EC și d(B,CE) = d(C,BE) = CA",
+          "points": 3
+        },
+        {
+          "text": "tg ∠ACE = AE/AC, deci 1/√3 = 2/AC și d(B,CE) = 2√3",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-1-a",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "a",
+      "points": 5,
+      "statement": "Se consideră matricea A(a) = [[a, 0, −2], [1, 1, 1−a], [2, 1, −2]] și sistemul de ecuații ax − 2z = 4, x + y + (1−a)z = 3, 2x + y − 2z = 5, unde a este număr real. Arătați că det(A(0)) = 2.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Se scrie A(0) și determinantul corespunzător",
+          "points": 2
+        },
+        {
+          "text": "Calculul determinantului dă 2",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-1-b",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "b",
+      "points": 5,
+      "statement": "Pentru matricea A(a) = [[a, 0, −2], [1, 1, 1−a], [2, 1, −2]], determinați mulțimea numerelor reale a pentru care matricea A(a) este inversabilă.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "det(A(a)) = a² − 3a + 2",
+          "points": 2
+        },
+        {
+          "text": "det(A(a)) = 0 ⇔ a = 1 sau a = 2; A(a) este inversabilă ⇔ a ∈ ℝ \\ {1,2}",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-1-c",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "c",
+      "points": 5,
+      "statement": "Pentru a = 2, arătați că x₀z₀ + y₀ ≥ 0, pentru orice soluție (x₀, y₀, z₀) a sistemului ax − 2z = 4, x + y + (1−a)z = 3, 2x + y − 2z = 5, cu x₀, y₀ și z₀ numere reale.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Pentru a = 2, soluțiile sunt (x₀,y₀,z₀) = (α,1,α−2), α ∈ ℝ",
+          "points": 3
+        },
+        {
+          "text": "x₀z₀ + y₀ = (α−1)² ≥ 0",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-2-a",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "a",
+      "points": 5,
+      "statement": "Pe mulțimea M = (1, +∞) se definește legea de compoziție x ∗ y = (xy − 1) / ((x − 1)(y − 1)). Arătați că 3 ∗ 5 = 7/4.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "3 ∗ 5 = (3·5−1)/((3−1)(5−1))",
+          "points": 3
+        },
+        {
+          "text": "3 ∗ 5 = 14/(2·4) = 7/4",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 1
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-2-b",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "b",
+      "points": 5,
+      "statement": "Pe mulțimea M = (1, +∞), cu legea x ∗ y = (xy − 1) / ((x − 1)(y − 1)), determinați x ∈ M pentru care x ∗ x = 3.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "x ∗ x = (x²−1)/(x−1)² = (x+1)/(x−1), pentru x ∈ M",
+          "points": 3
+        },
+        {
+          "text": "(x+1)/(x−1) = 3, de unde x = 2",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 2,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S2-2-c",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "c",
+      "points": 5,
+      "statement": "Pe mulțimea M = (1, +∞), cu legea x ∗ y = (xy − 1) / ((x − 1)(y − 1)), demonstrați că (x ∗ 2) ∗ x > 2, pentru orice x ∈ M.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "x ∗ 2 = (2x−1)/(x−1), apoi (x ∗ 2) ∗ x = (2x²−2x+1)/(x(x−1))",
+          "points": 3
+        },
+        {
+          "text": "(x ∗ 2) ∗ x = 2 + 1/(x(x−1)) > 2, pentru x ∈ M",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 2,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-1-a",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "a",
+      "points": 5,
+      "statement": "Se consideră funcția f: (0, +∞) → ℝ, f(x) = x + ln²x − x ln x. Arătați că f′(x) = ((2 − x) ln x) / x, x ∈ (0, +∞).",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "f′(x) = 1 + 2 ln x / x − ln x − 1",
+          "points": 3
+        },
+        {
+          "text": "f′(x) = (2 ln x − x ln x)/x = ((2−x)ln x)/x",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-1-b",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "b",
+      "points": 5,
+      "statement": "Pentru funcția f(x) = x + ln²x − x ln x, determinați abscisele punctelor situate pe graficul funcției f în care tangenta la graficul funcției f este paralelă cu axa Ox.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Tangenta este paralelă cu Ox ⇔ f′(a)=0, a>0",
+          "points": 2
+        },
+        {
+          "text": "((2−a)ln a)/a = 0, deci a = 1 sau a = 2",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-1-c",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "c",
+      "points": 5,
+      "statement": "Pentru funcția f(x) = x + ln²x − x ln x, demonstrați că ecuația f(x) = 0 are soluție unică.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Din semnul lui f′: f descrescătoare pe (0,1], crescătoare pe [1,2], strict descrescătoare pe (2,+∞)",
+          "points": 2
+        },
+        {
+          "text": "f(1)=1, lim(x→+∞) f(x)=−∞ și continuitatea implică existența și unicitatea soluției",
+          "points": 3
+        }
+      ],
+      "evidence": {
+        "subjectPage": 1,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-2-a",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "a",
+      "points": 5,
+      "statement": "Se consideră funcția f: ℝ → ℝ, f(x) = x² − 2 + √(x² + 4). Arătați că ∫₀³ (f(x) − √(x² + 4)) dx = 3.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Integrandul se reduce la x²−2 și se integrează pe [0,3]",
+          "points": 3
+        },
+        {
+          "text": "[x³/3 − 2x]₀³ = 9−6 = 3",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 2,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-2-b",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "b",
+      "points": 5,
+      "statement": "Pentru funcția f(x) = x² − 2 + √(x² + 4), arătați că ∫₀^√5 x / (f(x) − x² + 2) dx = 1.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "f(x)−x²+2 = √(x²+4), iar integrala devine ∫₀^√5 x/√(x²+4) dx",
+          "points": 3
+        },
+        {
+          "text": "[√(x²+4)]₀^√5 = 3−2 = 1",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 2,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    },
+    {
+      "slot": "S3-2-c",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "c",
+      "points": 5,
+      "statement": "Demonstrați că lim(x→0) [1/x² · ∫₀ˣ F(t) dt] = 0, unde F: ℝ → ℝ este o primitivă a funcției f(x) = x² − 2 + √(x² + 4), pentru care F(0) = 0.",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [
+        {
+          "text": "Prin l'Hôpital: lim [∫₀ˣF(t)dt]/x² = lim F(x)/(2x) = lim F′(x)/2",
+          "points": 3
+        },
+        {
+          "text": "F′=f, deci limita este f(0)/2 = 0",
+          "points": 2
+        }
+      ],
+      "evidence": {
+        "subjectPage": 2,
+        "rubricPage": 2
+      },
+      "checks": {
+        "statementMatchesOfficial": true,
+        "mathNotationChecked": true,
+        "rubricMatchesOfficial": true,
+        "pointsChecked": true
+      },
+      "assisted": {
+        "status": "verified-benchmark-migration",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Verification inherited from the existing verified benchmark bank; not newly auto-verified from PDF extraction."
+      }
+    }
+  ],
+  "sourceEvidence": {
+    "manifest": "data/bac/manifests/bac-2026-model-M_mate-info.json",
+    "subject": {
+      "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_var_model.pdf",
+      "sha256": "afefbfe1ec6ca0ed8eb342692f265fd2740cab85e197e188b3979a1522224714",
+      "ok": true,
+      "pageCount": 2,
+      "pages": [
+        {
+          "page": 1,
+          "textChars": 2710,
+          "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.  Timpul de lu",
+          "hintOnly": true
+        },
+        {
+          "page": 2,
+          "textChars": 588,
+          "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 2 . Se consideră funcția : f  ℝ ℝ ,   2 2 2 4 f x x x     . 5p a) Arătați că     3 2 0 4 3 f x x dx     . 5p b) Arătați că   5 2 0 1 2 x dx f x x     . 5p c) Demonstrați că   2 0 0 1 lim 0 x x F t dt x    , unde : F  ℝ ℝ este primitiva funcției f pentru care   0 0 F  .",
+          "hintOnly": true
+        }
+      ]
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_bar_model.pdf",
+      "sha256": "6360867d159a71cc0cd912ad441c8d9de852633058c05e541c5c8f04b3c99950",
+      "ok": true,
+      "pageCount": 2,
+      "pages": [
+        {
+          "page": 1,
+          "textChars": 2457,
+          "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info BAREM DE EVALUARE ŞI DE NOTARE Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Pentru orice soluție ",
+          "hintOnly": true
+        },
+        {
+          "page": 2,
+          "textChars": 1714,
+          "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 b)   2 2 1 1 1 1 x x x x x x        , pentru orice x M  3p 1 3 1 x x    , de unde obținem 2 x  , care convine 2p c) 2 1 2 1 x x x     , deci     2 2 2 1 2 1 x x x x x x        3p   1 2 2 1 x x     , pentru orice x M  2p SUBIECTUL al III-lea (30",
+          "hintOnly": true
+        }
+      ]
+    },
+    "textExtractionPolicy": "HINT_ONLY_NEVER_MATH_TRUTH"
+  },
+  "automation": {
+    "populated": true,
+    "populatedAt": "2026-09-23T07:33:00.391Z",
+    "requiresHumanMathVerification": true,
+    "autoPublish": false
+  },
+  "assistedExtraction": {
+    "version": "08C.2",
+    "policy": "pdf-text-and-page-mapping-are-hints-only",
+    "autoMathVerification": false,
+    "autoPublish": false,
+    "sourceEvidenceInventory": [
+      {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+        "sha256": "1898e9b3b8ffe80e1d000242dfc1af33965740cb9205284712b1c7c5116225aa"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+        "sha256": "f2d942047ba99d36c06d18ce8bf87bab7dc027a69af8dc76d6b703f2f87a0bd6"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_bar_model.pdf",
+        "sha256": "6360867d159a71cc0cd912ad441c8d9de852633058c05e541c5c8f04b3c99950"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_var_model.pdf",
+        "sha256": "afefbfe1ec6ca0ed8eb342692f265fd2740cab85e197e188b3979a1522224714"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+        "sha256": "6a27a9e3fccde58fddaf0c429e48f05fd2c4df822aa14f837453980d0a4c76c9"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+        "sha256": "fcf3ef4e4ede7ded4463a387ee4292452dbaa2b91d3b4b2ef3233def1e3fe6dd"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+        "sha256": "5c64be892479b7ff09e873a1a012a6e930ddd8fe86ea2cf3a3fc60ad4b15db74"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+        "sha256": "f5d650f5b34717745eeee097a8b8161a83298304327e8132dd0935907bc558ea"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+        "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+        "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+        "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+        "sha256": "0c90e20cc3df0d40d8674c53f8bcfa4e8259ee3d1fc310081bc8346c478c828c"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+        "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+        "sha256": "2814b1edcf94dfa3bc0a3ca865ddde6de62fc146abeb566ef4a311dc00428ffc"
+      }
+    ]
+  },
+  "reviewQueue": [
+    {
+      "slotId": "slot-1",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-2",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-3",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-4",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-5",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-6",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-7",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-8",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-9",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-10",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-11",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-12",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-13",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-14",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-15",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-16",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-17",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-18",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    }
+  ],
+  "updatedByAutomation": "08C.2"
+}

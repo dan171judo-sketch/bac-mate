@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru intersecție și reuniune",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile, proprietățile și metoda de lucru pentru a calcula intersecția și reuniunea dintre mulțimi. Vom învăța cum să aplicăm corect aceste operații matematice și vom analiza greșelile frecvente pe care le putem face.",
+    "scenariu": [
+      "În videoclipul precedent, am introdus conceptele de intersecție și reuniune. Acum, în acest videoclip, vom explora regulile, proprietățile și metoda de lucru pentru a calcula corect aceste operații. Este important să înțelegem nu doar ce înseamnă intersecția și reuniunea, ci și cum le aplicăm în mod eficient.",
+      "Intersecția dintre două mulțimi este o mulțime care conține doar elementele comune celor două mulțimi. Reuniunea, pe de altă parte, este o mulțime care conține toate elementele din ambele mulțimi, fără a se repeta. Aceste definiții sunt esențiale pentru a înțelege cum să le folosim corect.",
+      "Pentru a calcula intersecția, trebuie să identificăm elementele care apar în ambele mulțimi. De exemplu, dacă avem A = {1, 2} și B = {2, 3}, intersecția este {2}. Pentru reuniune, adunăm toate elementele din ambele mulțimi, dar fără a le repeta. În acest caz, reuniunea ar fi {1, 2, 3}.",
+      "Este important să înțelegem că intersecția este o operație care reduce numărul de elemente, în timp ce reuniunea crește numărul de elemente. Acest lucru poate duce la confuzii dacă nu se aplică corect regulile.",
+      "Metoda de lucru pentru intersecție este următoarea: identificăm toate elementele din prima mulțime, apoi verificăm care dintre ele apar și în a doua mulțime. Acestea vor forma intersecția. Pentru reuniune, adunăm toate elementele din ambele mulțimi, dar fără să le repetăm.",
+      "Pentru a evita greșelile comune, este important să ne concentrăm pe fiecare pas al operației. De exemplu, în cazul reuniunii, trebuie să verificăm dacă un element apare deja în mulțimea rezultat pentru a evita duplicarea.",
+      "Să luăm un exemplu concret: Fie A = {1, 2}, B = {2, 3} și C = {3, 4}. Intersecția dintre A și B este {2}, iar reuniunea dintre această intersecție și mulțimea C este {2, 3, 4}. Vom analiza pas cu pas cum se ajunge la acest rezultat.",
+      "În primul pas, calculăm intersecția dintre A și B. Elementele comune sunt doar 2, deci intersecția este {2}. În al doilea pas, luăm această mulțime și o reuniune cu C = {3, 4}, adăugând elementele care nu există deja în rezultat. Astfel, obținem {2, 3, 4}.",
+      "O greșeală frecventă este să uiteți să verificați dacă un element apare deja în mulțimea rezultat. De exemplu, dacă adăugați 3 din C la intersecția {2}, trebuie să vă asigurați că nu există deja în mulțimea finală.",
+      "Un alt tip de greșeală este să confundați intersecția cu reuniunea. De exemplu, dacă gândiți că intersecția este o mulțime care conține toate elementele din ambele mulțimi, atunci veți obține un rezultat greșit. Este esențial să înțelegeți diferența dintre cele două operații.",
+      "Pentru a evita aceste greșeli, este important să lucrați pas cu pas și să verificați fiecare etapă. De asemenea, puteți folosi un tabel sau o listă pentru a urmări elementele care au fost deja adăugate.",
+      "În concluzie, metoda de lucru pentru intersecție și reuniune este să identificați corect elementele comune sau totale, să le adăugați în mod ordonat și să evitați duplicarea. Prin exerciții repetate și verificare constantă, veți dezvolta un adevărat simț matematic."
+    ],
+    "ideiDeRetinut": [
+      "Intersecția este mulțimea elementelor comune dintre două mulțimi.",
+      "Reuniunea este mulțimea care conține toate elementele din ambele mulțimi, fără repetiție.",
+      "Verificați fiecare pas al operației pentru a evita greșelile comune."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu de intersecție și reuniune",
+      "enunt": "Fie mulțimile A = {1, 2}, B = {2, 3}. Calculați reuniunea intersecției dintre A și B cu mulțimea C = {3, 4}.",
+      "rezolvareScurta": [
+        "Intersecția dintre A și B este {2}.",
+        "Reuniunea dintre {2} și {3, 4} este {2, 3, 4}."
+      ],
+      "raspuns": "{2, 3, 4}"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie A = {1, 2}, B = {2, 3} și C = {3, 4}. Care este reuniunea intersecției dintre A și B cu mulțimea C?",
+      "variante": [
+        "{1, 2, 3}",
+        "{2, 3, 4}",
+        "{1, 2, 3, 4}",
+        "{2, 3}"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Intersecția dintre A și B este {2}, iar reuniunea cu C = {3, 4} este {2, 3, 4}."
+    }
+  }
+}

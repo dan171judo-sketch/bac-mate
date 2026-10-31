@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-23T07:33:01.433Z",
+  "policy": "HUMAN_VERIFICATION_REQUIRED",
+  "autoPublish": false,
+  "totalWorkspaces": 6,
+  "totalSlots": 108,
+  "items": [
+    {
+      "id": "bac-2026-model-M_mate-info",
+      "workspace": "data/bac/verification-workspaces/bac-2026-model-M_mate-info.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_var_model.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_bar_model.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    },
+    {
+      "id": "bac-2026-oficial-M_mate-info-2",
+      "workspace": "data/bac/verification-workspaces/bac-2026-oficial-M_mate-info-2.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    },
+    {
+      "id": "bac-2026-oficial-M_mate-info-3",
+      "workspace": "data/bac/verification-workspaces/bac-2026-oficial-M_mate-info-3.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    },
+    {
+      "id": "bac-2026-oficial-M_mate-info-4",
+      "workspace": "data/bac/verification-workspaces/bac-2026-oficial-M_mate-info-4.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    },
+    {
+      "id": "bac-2026-oficial-M_mate-info",
+      "workspace": "data/bac/verification-workspaces/bac-2026-oficial-M_mate-info.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    },
+    {
+      "id": "bac-2026-simulare-M_mate-info",
+      "workspace": "data/bac/verification-workspaces/bac-2026-simulare-M_mate-info.json",
+      "profile": "M_mate-info",
+      "slots": 18,
+      "subjectPdf": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+      "rubricPdf": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+      "subjectPages": 2,
+      "rubricPages": 2,
+      "status": "needs-human-verification"
+    }
+  ]
+}

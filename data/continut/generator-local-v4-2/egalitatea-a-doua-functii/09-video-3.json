@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 3,
+    "id": "video-3",
+    "titlu": "Calcularea valorii unei funcții într-un punct dat – Exemplu complet rezolvat",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom explora cum se calculează valoarea unei funcții într-un punct specific. Vom folosi un exemplu concret și pas cu pas pentru a înțelege procesul matematic. Vom analiza greșelile comune și vom oferi o verificare rapidă pentru a testa cunoștințele.",
+    "scenariu": [
+      "În acest videoclip, vom explora cum se calculează valoarea unei funcții într-un punct dat. Acesta este un concept esențial din matematică și apare frecvent în problemele de algebră. Înțelegerea acestui proces te va ajuta să rezolvi exerciții mai complexe, inclusiv cele de la Bacalaureat.",
+      "Pentru a începe, trebuie să știți ce este o funcție. O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime (domeniul de definiție) are exact un element corespunzător în a doua mulțime (codomeniul). În cazul nostru, funcția f: R → R este definită prin o expresie matematică.",
+      "Când spunem că vrem să calculăm valoarea funcției într-un punct, ne referim la a găsi imaginea acelui element din domeniul de definiție. De exemplu, dacă avem f(x) = 3x + 2 și vrem să aflăm f(4), înseamnă că trebuie să înlocuim x cu valoarea 4.",
+      "Este important să înțelegi că această înlocuire nu este doar o simplă substituție, ci un proces logic care implică respectarea ordinei operațiilor. În cazul nostru, vom folosi înmulțirea înaintea adunării sau scăderii.",
+      "Vom folosi un exemplu concret pentru a ilustra acest proces. Fie funcția f(x) = 2x² − 5x + 3. Vrem să calculăm valoarea acestei funcții în punctul x = −1. În primul pas, vom înlocui variabila x cu valoarea −1.",
+      "După înlocuirea valorii, trebuie să efectuăm toate operațiile aritmetice. Astfel, f(−1) devine 2·(−1)² − 5·(−1) + 3. Acum vom calcula fiecare termen separat: (−1) la puterea a doua este 1, înmulțit cu 2 dă 2; apoi, −5 înmulțit cu −1 dă 5.",
+      "După ce am calculat fiecare parte, adunăm toate rezultatele: 2 + 5 + 3 = 10. Deci, valoarea funcției f în punctul x = −1 este 10. Acest proces trebuie urmat cu atenție pentru a evita greșelile comune.",
+      "O greșeală frecventă este să se uite la semnul valorii introduse în funcție și să o ignore. De exemplu, dacă x = −1, elevii pot confunda (−1)² cu −(1)², ceea ce duce la erori. Este important să rețineți că ridicarea la putere se aplică întregului număr, inclusiv semnul.",
+      "Pentru a verifica dacă rezultatul este corect, putem repeta calculul pas cu pas sau folosi o altă metodă de verificare. De exemplu, putem înlocui x = −1 din nou și să vedem dacă obținem același rezultat.",
+      "Un alt lucru important este să știți că această metodă se aplică pentru orice funcție, indiferent de complexitatea ei. De la funcții liniare până la funcții cu radicali sau logaritmi, procesul rămâne același: înlocuirea variabilei și efectuarea operațiilor.",
+      "Pentru a consolida cunoștințele, vom face o verificare rapidă. Vom oferi o întrebare cu patru variante de răspuns și voi aveți 30 de secunde pentru a alege varianta corectă. Acest lucru vă va ajuta să testați dacă înțelegeți conceptul.",
+      "În concluzie, calcularea valorii unei funcții într-un punct dat este un proces logic și precis. Este esențial să urmați pașii corect și să evitați greșelile comune. Prin exerciții repetate și verificări rapide, veți dezvolta o înțelegere solidă a acestui concept."
+    ],
+    "ideiDeRetinut": [
+      "Calcularea valorii unei funcții într-un punct implică înlocuirea variabilei cu valoarea dată.",
+      "Este important să respectăm ordinea operațiilor și să avem grijă de semnul valorii introduse.",
+      "Verificarea rezultatului este esențială pentru a evita greșelile comune."
+    ],
+    "exemplu": {
+      "titlu": "Calcularea valorii funcției f(x) = 2x² − 5x + 3 în punctul x = −1",
+      "enunt": "Fie funcția f: R → R, f(x) = 2x² − 5x + 3. Calculați valoarea funcției în punctul x = −1.",
+      "rezolvareScurta": [
+        "Înlocuim x cu −1: f(−1) = 2·(−1)² − 5·(−1) + 3",
+        "Calculăm fiecare termen: 2·1 = 2, −5·(−1) = 5, iar 3 rămâne așa. Adunăm: 2 + 5 + 3 = 10"
+      ],
+      "raspuns": "10"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie funcția f(x) = 4x − 7. Care este valoarea funcției în punctul x = 2?",
+      "variante": [
+        "1",
+        "−1",
+        "11",
+        "−11"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Pentru a calcula f(2), înlocuim x cu 2: f(2) = 4·2 − 7 = 8 − 7 = 1."
+    }
+  }
+}

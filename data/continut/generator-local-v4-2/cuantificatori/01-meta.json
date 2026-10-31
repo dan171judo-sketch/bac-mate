@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Introducere în cuantificatori",
+  "descriere": "Lectia introduce conceptul de cuantificatori in logica matematica, precum si modurile lor de utilizare.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoasterea notiunii de propozitie"
+  ],
+  "obiective": [
+    "Sa identifice cuantificatorii in diverse contexte logice",
+    "Sa distinga intre cuantificatorul universal si existențial",
+    "Sa foloseasca corect cuantificatorii in enunturi matematice",
+    "Sa formuleze propozitii cu utilizarea cuantificatorilor"
+  ],
+  "termeniCheie": [
+    "Cuantificator universal",
+    "Cuantificator existențial",
+    "Propozitie cuantificata",
+    "Logica matematica"
+  ]
+}

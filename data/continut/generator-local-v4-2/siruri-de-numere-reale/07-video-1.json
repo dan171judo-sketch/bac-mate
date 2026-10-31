@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea ecuațiilor liniare",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora intuitia și importanța înțelegerii conceptului de ecuație liniară. Vom vedea cum putem transforma o problemă din viața reală într-o ecuație matematică și cum putem rezolva aceasta pas cu pas, fără a ne pierde în detalii.",
+    "scenariu": [
+      "Începem prin a ne gândi la ce înseamnă o ecuație. O ecuație este ca o balanță: dacă adăugăm același lucru pe ambele părți, echilibrul rămâne neschimbat. Acesta este principiul de bază al rezolvării ecuațiilor.",
+      "Să ne imaginăm că avem o cutie cu mere și încă un măr în afară. Dacă știm că total sunt 10 mere, putem scrie: cutie + 1 = 10. Acesta este un exemplu simplu de ecuație, unde necunoscuta este numărul de mere din cutie.",
+      "În matematică, această idee se exprimă folosind litere pentru valori cunoscute sau necunoscute. De exemplu, în loc de „cutie”, putem scrie „x”. Astfel, ecuația devine x + 1 = 10.",
+      "Acum, să ne întrebăm: cum putem afla câte mere sunt în cutie? Răspunsul este simplu: scădem 1 din ambele părți ale ecuației. Astfel, obținem x = 9. Acest pas este esențial pentru a rezolva orice ecuație liniară.",
+      "De ce funcționează acest mod de gândire? Deoarece egalitatea trebuie menținută între cele două părți. Dacă facem același lucru în ambele părți, echilibrul rămâne neschimbat, iar ecuația este corectă.",
+      "Este important să înțelegem că rezolvarea unei ecuații nu este doar o listă de pași mecanici. Este mai mult decât atât: este o metodă logică de a gândi și de a deduce valoarea necunoscutei.",
+      "Să luăm un exemplu concret: „Un elev are 3 mere, iar prietenul său îi dă încă 2. Câte mere are acum?” Putem scrie această problemă ca x + 2 = 5, unde x este numărul de mere pe care le are elevul inițial.",
+      "Rezolvarea ecuației se face prin scăderea lui 2 din ambele părți: x = 3. Acest rezultat ne arată că elevul avea deja 3 mere înainte de a primi cele 2.",
+      "O greșeală frecventă este să adunăm sau să scădem doar pe o parte a ecuației, fără a face același lucru și pe cealaltă. De exemplu, dacă scădem 2 doar din partea stângă, obținem x = 5 - 2 = 3, dar nu am menținut echilibrul corect.",
+      "Pentru a evita această greșeală, este important să ne amintim că orice operație pe care o facem trebuie aplicată în mod egal și pe ambele părți ale ecuației. Acest principiu este cheia înțelegerii.",
+      "În concluzie, rezolvarea unei ecuații liniare este un proces logic și intuitiv. Începem cu o problemă reală, o traducem într-o ecuație matematică, aplicăm reguli de echilibru și obținem răspunsul dorit.",
+      "Prin înțelegerea acestui concept, elevii pot rezolva nu doar probleme matematice, ci și situații din viața reală folosind gândirea logică și metoda ecuațiilor."
+    ],
+    "ideiDeRetinut": [
+      "O ecuație este ca o balanță: echilibrul trebuie menținut între cele două părți.",
+      "Rezolvarea unei ecuații implică aplicarea aceluiași pas în ambele părți.",
+      "Înțelegerea conceptului este mai importantă decât memorarea formulelor."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Câte mere are elevul?",
+      "enunt": "Un elev are 3 mere, iar prietenul său îi dă încă 2. Câte mere are acum?",
+      "rezolvareScurta": [
+        "x + 2 = 5",
+        "x = 5 - 2"
+      ],
+      "raspuns": "x = 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați ecuația: x + 4 = 7.",
+      "variante": [
+        "x = 1",
+        "x = 2",
+        "x = 3",
+        "x = 4"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "Scădem 4 din ambele părți: x = 7 - 4 → x = 3."
+    }
+  }
+}

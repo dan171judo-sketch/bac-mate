@@ -1,0 +1,1418 @@
+{
+  "version": "08D",
+  "generatedAt": "2026-09-23T07:46:59.783Z",
+  "workspaces": 6,
+  "slots": 108,
+  "mechanicalReady": 0,
+  "humanReview": 108,
+  "eligible": 0,
+  "autoVerification": false,
+  "autoPromotion": false,
+  "queue": [
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-1",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-2",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-3",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-4",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-5",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-6",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-7",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-8",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-9",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-10",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-11",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-12",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-13",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-14",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-15",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-16",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-17",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-model-M_mate-info",
+      "slotId": "slot-18",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-19",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-20",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-21",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-22",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-23",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-24",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-25",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-26",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-27",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-28",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-29",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-30",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-31",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-32",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-33",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-34",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-35",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-2",
+      "slotId": "slot-36",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-37",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-38",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-39",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-40",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-41",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-42",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-43",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-44",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-45",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-46",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-47",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-48",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-49",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-50",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-51",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-52",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-53",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-3",
+      "slotId": "slot-54",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-55",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-56",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-57",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-58",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-59",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-60",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-61",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-62",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-63",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-64",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-65",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-66",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-67",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-68",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-69",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-70",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-71",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info-4",
+      "slotId": "slot-72",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-73",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-74",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-75",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-76",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-77",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-78",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-79",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-80",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-81",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-82",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-83",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-84",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-85",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-86",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-87",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-88",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-89",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-oficial-M_mate-info",
+      "slotId": "slot-90",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-91",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-92",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-93",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-94",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-95",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-96",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-97",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-98",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-99",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-100",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-101",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-102",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-103",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-104",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-105",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-106",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-107",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    },
+    {
+      "sourceId": "bac-2026-simulare-M_mate-info",
+      "slotId": "slot-108",
+      "status": "needs-review",
+      "mechanicalChecks": {
+        "statementPresent": false,
+        "rubricStepsPresent": false,
+        "pointsAre5": true,
+        "evidencePresent": false
+      },
+      "humanGates": false,
+      "autoPromoted": false
+    }
+  ],
+  "integrity": "66b7f1a7ae360ac290bd2189722566b875d928bf4c95c107bca83e9f976b1c64"
+}

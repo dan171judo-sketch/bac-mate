@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă semnul funcției cu semnul coeficientului a.",
+      "deCeEsteGresit": "Semnul funcției depinde de valoarea lui x și nu doar de semnul lui a. De exemplu, dacă a > 0, funcția poate fi pozitivă sau negativă în funcție de intervalul în care se află x.",
+      "cumOEviti": "Analizează întotdeauna intersecția graficului cu axa absciselor și verifică semnul funcției în fiecare interval."
+    },
+    {
+      "greseala": "Neglijă intersecția cu axa absciselor la determinarea semnului.",
+      "deCeEsteGresit": "Intersecția cu axa absciselor (x = -b/a) este punctul în care funcția se anulează, deci este esențială pentru împărțirea domeniului în intervale.",
+      "cumOEviti": "Calculați întotdeauna x = -b/a și folosiți-l ca punct de separare al intervalului."
+    },
+    {
+      "greseala": "Aplică semnul funcției fără a analiza valorile din fiecare interval.",
+      "de, CeEsteGresit": "Fără analiza valorilor dintr-un interval, nu poți determina corect semnul funcției. De exemplu, în intervalul (-∞, -b/a), semnul poate fi diferit față de intervalul (-b/a, ∞).",
+      "cumOEviti": "Folosiți o valoare test din fiecare interval și calculați f(x) pentru a determina semnul."
+    },
+    {
+      "greseala": "Crede că funcția are același semn în toate intervalele.",
+      "deCeEsteGresit": "Funcția de gradul I schimbă semnul la intersecția cu axa absciselor, deci nu are același semn în toate intervalele.",
+      "cumOEviti": "Analizați fiecare interval separat și determinați semnul funcției în fiecare."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Semnul unei funcții liniare se schimbă la intersecția cu axa absciselor.",
+      "Funcția este pozitivă într-un interval dacă f(x) > 0, negativă dacă f(x) < 0 și zero în punctul de intersecție cu axa absciselor.",
+      "Pentru a determina semnul funcției, trebuie să analizezi fiecare interval separat.",
+      "Reprezentarea grafică ajută la interpretarea semnului funcției."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identific intersecția cu axa absciselor (x = -b/a).",
+      "Împarte domeniul în intervale definite de punctul de intersecție.",
+      "Alege o valoare test din fiecare interval și calculează f(x).",
+      "Determină semnul funcției în fiecare interval."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Semnul funcției de gradul I este un concept esențial pentru examenul de Bacalaureat, în special în subiectele care implică analiza semnului unei funcții sau interpretarea grafică.",
+    "tipuriCerinte": [
+      "Determinarea intersecției cu axa absciselor",
+      "Analiza semnului funcției într-un interval dat",
+      "Interpretarea grafică a semnului funcției",
+      "Compararea semnului funcției în două intervale diferite"
+    ],
+    "strategie": [
+      "Începe întotdeauna prin a determina punctul de intersecție cu axa absciselor.",
+      "Împarte domeniul în intervale și analizează semnul funcției în fiecare interval.",
+      "Folosește valori test pentru a verifica semnul funcției în fiecare interval.",
+      "Verifică dacă reprezentarea grafică este consistentă cu analiza făcută."
+    ]
+  }
+}

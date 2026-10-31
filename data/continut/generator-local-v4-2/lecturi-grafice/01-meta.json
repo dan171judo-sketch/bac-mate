@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Interpretarea grafică a funcțiilor",
+  "descriere": "Lectia se concentrează pe identificarea caracteristicilor unei funcții prin analiza graficului său.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Reprezentarea grafică a funcțiilor în coordonate carteziene",
+    "Identificarea domeniului de definiție și al codomeniului"
+  ],
+  "obiective": [
+    "Să identifice intersecțiile graficului cu axele de coordonate",
+    "Să determine monotonia funcției dintr-un grafic dat",
+    "Să recunoască simetria graficului față de origine sau față de axa Oy",
+    "Să interpreteze semnul funcției în funcție de poziția punctelor pe grafic"
+  ],
+  "termeniCheie": [
+    "grafic al funcției",
+    "monotonia",
+    "intersecție cu axe",
+    "simetrie"
+  ]
+}

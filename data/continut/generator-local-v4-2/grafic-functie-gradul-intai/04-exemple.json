@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Reprezentarea grafică a unei funcții liniare",
+      "nivel": "fundament",
+      "enunt": "Se dă funcția f(x) = 2x + 3. Reprezentați grafic funcția într-un sistem de axe perpendiculare.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea punctului de intersecție cu axa Oy",
+          "continut": "Punctul de intersecție cu axa Oy este dat de coordonata (0, b). În cazul funcției f(x) = 2x + 3, avem b = 3. Deci punctul este (0, 3)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea unui al doilea punct pe grafic",
+          "continut": "Alegem o valoare pentru x, de exemplu x = 1. Calculăm f(1) = 2*1 + 3 = 5. Deci punctul este (1, 5)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f(x) = 2x + 3 este o dreaptă care trece prin punctele (0, 3) și (1, 5).",
+      "verificare": "Punctele sunt corecte. Dreapta este crescătoare deoarece a > 0."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Reprezentarea grafică a unei funcții liniare cu coeficient negativ",
+      "nivel": "fundament",
+      "enunt": "Se dă funcția f(x) = -3x + 1. Reprezentați grafic funcția într-un sistem de axe perpendiculare.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea punctului de intersecție cu axa Oy",
+          "continut": "Punctul de intersecție cu axa Oy este dat de coordonata (0, b). În cazul funcției f(x) = -3x + 1, avem b = 1. Deci punctul este (0, 1)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea unui al doilea punct pe grafic",
+          "continut": "Alegem o valoare pentru x, de exemplu x = 1. Calculăm f(1) = -3*1 + 1 = -2. Deci punctul este (1, -2)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f(x) = -3x + 1 este o dreaptă care trece prin punctele (0, 1) și (1, -2).",
+      "verificare": "Punctele sunt corecte. Dreapta este descrescătoare deoarece a < 0."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Interpretarea graficului funcției liniare într-un context practic",
+      "nivel": "standard-bac",
+      "enunt": "O firmă produce produse cu un cost fix de 500 lei și un cost variabil de 10 lei/unitate. Determinați graficul funcției care exprimă costul total în funcție de numărul de unități produse.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea formei funcției",
+          "continut": "Costul total este dat de formula C(x) = cost fix + cost variabil * x. Deci, C(x) = 10x + 500."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea grafică a funcției",
+          "continut": "Punctul de intersecție cu axa Oy este (0, 500). Alegem x = 10. Calculăm C(10) = 10*10 + 500 = 600. Deci punctul este (10, 600)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției C(x) = 10x + 500 este o dreaptă care trece prin punctele (0, 500) și (10, 600).",
+      "verificare": "Punctele sunt corecte. Dreapta este crescătoare deoarece a > 0."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Reprezentarea grafică a unei funcții liniare cu coeficient nul",
+      "nivel": "standard-bac",
+      "enunt": "Se dă funcția f(x) = 5. Reprezentați grafic funcția într-un sistem de axe perpendiculare.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea formei funcției",
+          "continut": "Funcția f(x) = 5 este o funcție constantă, iar graficul ei este o dreaptă orizontală."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea punctului de intersecție cu axa Oy",
+          "continut": "Punctul de intersecție cu axa Oy este dat de coordonata (0, b). În cazul funcției f(x) = 5, avem b = 5. Deci punctul este (0, 5)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f(x) = 5 este o dreaptă orizontală care trece prin punctul (0, 5).",
+      "verificare": "Punctul este corect. Dreapta este orizontală deoarece a = 0."
+    }
+  ]
+}

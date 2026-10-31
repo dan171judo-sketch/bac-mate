@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea restricției cu imaginea funcției",
+      "deCeEsteGresit": "Imaginea funcției este mulțimea valorilor atinse de funcție, în timp ce restricția este o funcție parțială cu același codomeniu.",
+      "cumOEviti": "Reaminti-te că restricția se referă la domeniul de definiție, nu la valorile atinse."
+    },
+    {
+      "greseala": "Creșterea neintenționată a codomeniului în restricție",
+      "deCeEsteGresit": "Codomeniul trebuie să rămână același ca al funcției inițiale, nu se poate extinde.",
+      "cumOEviti": "Verifică întotdeauna dacă codomeniul este menținut la fel."
+    },
+    {
+      "greseala": "Neglijarea verificării domeniului de definiție al restricției",
+      "deCeEsteGresit": "Dacă nu identifici corect submulțimea din domeniul inițial, restricția nu este corect definită.",
+      "cumOEviti": "Folosește un exemplu concret și verifică dacă submulțimea este într-adevăr inclusă."
+    },
+    {
+      "greseala": "Creșterea neintenționată a domeniului de definiție al restricției",
+      "deCeEsteGresit": "Domeniul de definiție al restricției trebuie să fie o submulțime, nu o mulțime mai mare.",
+      "cumOEviti": "Asigură-te că domeniul este strict inclus în cel inițial."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Restricția unei funcții are același codomeniu, dar un domeniu de definiție mai mic.",
+      "O funcție parțială este un caz particular de restricție.",
+      "Restricția permite analiza comportamentului funcției pe o submulțime a domeniului inițial.",
+      "În practică, restricția se folosește pentru a studia anumite proprietăți ale funcției."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă domeniul de definiție al restricției este o submulțime a celui inițial.",
+      "Asigură-te că codomeniul rămâne același ca în funcția inițială.",
+      "Identifică corect rolul restricției în studierea comportamentului funcției.",
+      "Rezumă ideile principale din lecție într-un tabel simplu."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptul de restricție este esențial pentru înțelegerea comportamentului funcțiilor pe anumite intervale, ceea ce apare frecvent în subiectele de Bac.",
+    "tipuriCerinte": [
+      "Definirea restricției unei funcții",
+      "Identificarea domeniului de definiție al restricției",
+      "Analizarea rolului restricției în studierea funcției",
+      "Aplicarea conceptului în exemple simple"
+    ],
+    "strategie": [
+      "Reamintește-te definițiile esențiale din lecție.",
+      "Folosește exemple concrete pentru a înțelege mai bine noțiunea.",
+      "Verifică întotdeauna dacă domeniul și codomeniul sunt corect menținuți.",
+      "Asociază conceptul cu alte noțiuni studiate, cum ar fi graficul funcției."
+    ]
+  }
+}

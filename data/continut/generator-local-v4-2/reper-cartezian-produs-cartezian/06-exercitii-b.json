@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea A = {x | x ∈ ℕ, x < 4}. Determinați elementele mulțimii A × A.",
+      "variante": [],
+      "raspunsCorect": "{(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Determinarea elementelor mulțimii A",
+          "continut": "Mulțimea A este formată din numerele naturale mai mici decât 4, adică A = {1, 2, 3}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea produsului cartezian A × A",
+          "continut": "Produsul cartezian A × A este format din toate perechile ordonate (a, b) unde a și b aparțin mulțimii A."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin enumerarea tuturor perechilor posibile din mulțimea A.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea B = {x | x ∈ ℕ, 1 ≤ x ≤ 3}. Determinați elementele mulțimii B × B.",
+      "variante": [],
+      "raspunsCorect": "{(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii B",
+          "continut": "Elementele mulțimii B sunt {1, 2, 3}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian B × B este format din toate perechile (a, b) unde a și b aparțin mulțimii B."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin enumerarea tuturor perechilor posibile din mulțimea B.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea C = {x | x ∈ ℕ, x ≤ 2}. Determinați elementele mulțimii C × C.",
+      "variante": [],
+      "raspunsCorect": "{(1, 1), (1, 2), (2, 1), (2, 2)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii C",
+          "continut": "Elementele mulțimii C sunt {1, 2}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian C × C este format din toate perechile (a, b) unde a și b aparțin mulțimii C."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin enumerarea tuturor perechilor posibile din mulțimea C.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea D = {x | x ∈ ℕ, x < 3}. Determinați elementele mulțimii D × D.",
+      "variante": [],
+      "raspunsCorect": "{(1, 1), (1, 2), (2, 1), (2, 2)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii D",
+          "continut": "Elementele mulțimii D sunt {1, 2}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian D × D este format din toate perechile (a, b) unde a și b aparțin mulțimii D."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin enumerarea tuturor perechilor posibile din mulțimea D.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    }
+  ]
+}

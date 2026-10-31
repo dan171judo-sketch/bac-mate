@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați aria unui dreptunghi cu lungimea de 8 cm și lățimea de 5 cm.",
+      "variante": [],
+      "raspunsCorect": "40",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula ariei dreptunghiului",
+          "continut": "Aria unui dreptunghi se calculează prin înmulțirea lungimii cu lățimea."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul ariei",
+          "continut": "A = 8 cm × 5 cm = 40 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria dreptunghiului este de 40 cm².",
+      "competenta": "Calcularea ariei unui dreptunghi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați perimetrul unui pătrat cu latura de 7 cm.",
+      "variante": [],
+      "raspunsCorect": "28",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula perimetrului pătratului",
+          "continut": "Perimetrul unui pătrat se calculează prin înmulțirea laturii cu 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul perimetrului",
+          "continut": "P = 7 cm × 4 = 28 cm."
+        }
+      ],
+      "explicatieFinala": "Perimetrul pătratului este de 28 cm.",
+      "competenta": "Calcularea perimetrului unui pătrat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: 12 + (8 × 3) - 6?",
+      "variante": [
+        "30",
+        "24",
+        "36",
+        "28"
+      ],
+      "raspunsCorect": "30",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Prioritatea operatiilor",
+          "continut": "Înmulțirea are prioritate față de adunare și scădere."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul final",
+          "continut": "12 + (24) - 6 = 30."
+        }
+      ],
+      "explicatieFinala": "Rezultatul calculului este 30.",
+      "competenta": "Efectuarea calculelor cu paranteze",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați suma numerelor: 14, 9 și 6.",
+      "variante": [],
+      "raspunsCorect": "29",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea numerelor",
+          "continut": "Suma se obține prin adunarea tuturor termenilor."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul sumei",
+          "continut": "14 + 9 + 6 = 29."
+        }
+      ],
+      "explicatieFinala": "Suma numerelor este de 29.",
+      "competenta": "Adunarea a trei numere naturale",
+      "punctaj": 5
+    }
+  ]
+}

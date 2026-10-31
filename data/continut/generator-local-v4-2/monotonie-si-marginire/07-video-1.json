@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea conceptului de aria triunghiului dreptunghic",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 este dedicat intuitiei si intelesului conceptului de aria unui triunghi dreptunghic. Acesta explica pas cu pas cum se poate ajunge la formula ariei, pornind de la o imagine concreta si o logica intuitiva, pentru ca elevul sa inteleaga de ce formula este corecta si de ce functioneaza.",
+    "scenariu": [
+      "Vom incepe cu un concept foarte familiar: un dreptunghi. Dacă îți imaginezi un dreptunghi care are lungimea de 6 cm și lățimea de 8 cm, atunci aria lui este 48 cm². Acest lucru e ușor de înțeles, pentru că aria unui dreptunghi se calculează prin înmulțirea lungimii cu lățimea.",
+      "Acum, să ne gândim la un triunghi dreptunghic. Dacă îți imaginezi acest triunghi ca fiind jumatate dintr-un dreptunghi, atunci aria lui ar trebui să fie jumătate din aria dreptunghiului. Așadar, dacă dreptunghiul are 48 cm², triunghiul va avea 24 cm².",
+      "Această idee este foarte importantă pentru a înțelege de ce formula ariei unui triunghi dreptunghic este (cateta1 × cateta2) / 2. Nu e doar o regulă matematică, ci o consecință logică a unei imagini intuitive.",
+      "Dar de ce se împarte prin 2? Pentru că triunghiul dreptunghic este exact jumătate dintr-un dreptunghi. Dacă desenezi un dreptunghi și îl împarți în două cu o diagonală, obții doi triunghiuri identici. Așadar, aria fiecărui triunghi va fi jumătate din aria dreptunghiului.",
+      "Această logică este esențială pentru a înțelege nu doar formula, ci și sensul ei. Nu e o regulă care se aplică la întâmplare, ci o consecință a unei relații geometrice clare.",
+      "Pentru a ne asigura că am înțeles corect, să luăm un exemplu concret: un triunghi dreptunghic cu catetele de 6 cm și 8 cm. Aria dreptunghiului care îl conține este 48 cm², iar aria triunghiului va fi jumătate din aceasta, adică 24 cm².",
+      "Este important să înțelegem că formula nu e doar o regulă de memorat, ci o consecință a unei relații geometrice. Așadar, dacă vrem să calculăm aria unui triunghi dreptunghic, trebuie să înmulțim cele două catete și să împărțim rezultatul la 2.",
+      "Dar cum putem verifica dacă am înțeles corect? Să luăm un alt exemplu: un triunghi cu catetele de 3 cm și 4 cm. Aria dreptunghiului care îl conține este 12 cm², iar aria triunghiului va fi 6 cm². Dacă aplicăm formula, obținem (3 × 4) / 2 = 12 / 2 = 6 cm². Așadar, formula funcționează.",
+      "O greșeală frecventă este să uiteți să împărțiți prin 2. De exemplu, dacă un elev calculează aria ca fiind doar produsul catetelor, va obține o valoare dublă față de cea corectă. Așadar, este esențial să ne amintim că triunghiul este jumătate din dreptunghi.",
+      "Pentru a evita această greșeală, putem folosi o metodă simplă: înmulțim cele două catete și împărțim rezultatul la 2. Astfel, ne asigurăm că luăm în considerare doar jumătate din aria dreptunghiului.",
+      "În concluzie, aria unui triunghi dreptunghic este o consecință a unei relații geometrice intuitive. Nu e doar o regulă de memorat, ci o logică care ne ajută să înțelegem de ce formula funcționează.",
+      "Așadar, dacă vrem să calculăm aria unui triunghi dreptunghic, trebuie să înmulțim cele două catete și să împărțim rezultatul la 2. Acest lucru ne ajută să avem o înțelegere profundă a conceptului."
+    ],
+    "ideiDeRetinut": [
+      "Aria unui triunghi dreptunghic este jumătate din aria dreptunghiului care îl conține.",
+      "Formula se obține prin înmulțirea catetelor și împărțirea la 2.",
+      "Este important să ne amintim că triunghiul este jumătate din dreptunghi."
+    ],
+    "exemplu": {
+      "titlu": "Calcularea ariei unui triunghi dreptunghic cu catete de 6 cm și 8 cm",
+      "enunt": "Un triunghi dreptunghic are catetele de 6 cm și 8 cm. Cât este aria acestuia?",
+      "rezolvareScurta": [
+        "Înmulțim cele două catete: 6 × 8 = 48.",
+        "Împărțim rezultatul la 2: 48 / 2 = 24."
+      ],
+      "raspuns": "Aria triunghiului este de 24 cm²."
+    },
+    "verificareRapida": {
+      "intrebare": "Un triunghi dreptunghic are catetele de 3 cm și 4 cm. Cât este aria acestuia?",
+      "variante": [
+        "6 cm²",
+        "12 cm²",
+        "8 cm²",
+        "7 cm²"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Aria se calculează prin (3 × 4) / 2 = 12 / 2 = 6 cm²."
+    }
+  }
+}

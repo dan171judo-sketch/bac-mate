@@ -1,0 +1,23 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Structura și tipuri de raționamente logice",
+  "descriere": "Lectia explorează conceptele de demonstrație și raționament logic, precum și modurile în care se construiesc argumente matematice.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre propoziții și enunțuri logice",
+    "Noțiuni de mulțimi și relații logice"
+  ],
+  "obiective": [
+    "Să identifice tipurile de raționamente logice folosite în matematică",
+    "Să definească noțiunea de demonstrație matematică",
+    "Să recunoască rolul logicii în construcția unor teoreme",
+    "Să exemplifice diferite forme de raționament"
+  ],
+  "termeniCheie": [
+    "Demonstrație",
+    "Raționament logic",
+    "Enunț matematic",
+    "Propoziție"
+  ]
+}

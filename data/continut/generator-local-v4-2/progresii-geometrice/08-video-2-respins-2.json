@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă importantă din matematică care se aplică într-un context specific. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva exerciții eficient.",
+    "Regula pe care o discutăm se referă la ordinea operațiilor matematice. Este esențial să înțelegem cum trebuie să abordăm expresiile matematice pentru a obține un rezultat corect. În mod special, vom vedea cum se aplică prioritatea înmulțirii și împărțirii față de adunarea și scăderea.",
+    "Pentru ca elevul să poată înțelege această regulă, este important să cunoască ce înseamnă ordinea operațiilor. Aceasta este o metodă standardizată care asigură că toți calculii sunt efectuați în același mod, indiferent de cine face calculele.",
+    "Regula funcționează pentru a evita confuziile și erorile care pot apărea atunci când se ignoră ordinea corectă. De exemplu, dacă nu respectăm această regulă, un exercițiu simplu poate duce la un rezultat complet greșit.",
+    "Metoda de lucru implică parcurgerea fiecărui pas în mod clar și sistematic. Începem cu identificarea tuturor operațiilor din expresie, apoi le grupăm după prioritatea lor. După aceea, efectuăm calculele în ordinea stabilită.",
+    "Vom aplica această metodă pe un exemplu concret pentru a vedea cum funcționează în practică. Vom analiza fiecare pas al rezolvării și vom verifica dacă rezultatul este corect sau nu.",
+    "Exemplul nostru va fi următorul: 6 + 3 × 2. În această expresie, înmulțirea are prioritate față de adunare, deci trebuie să calculăm întâi 3 × 2 = 6, apoi să adunăm rezultatul cu 6.",
+    "După ce am efectuat calculele pas cu pas, vom verifica dacă rezultatul este corect. În acest caz, 6 + (3 × 2) = 6 + 6 = 12. Acesta este răspunsul final al exercițiului.",
+    "O greșeală frecventă este să se execute adunarea înainte de înmulțire, ceea ce duce la un rezultat incorect. De exemplu, dacă cineva face 6 + 3 = 9 și apoi înmulțește cu 2, obține 18, care este greșit.",
+    "Pentru a evita această greșeală, elevul trebuie să se concentreze pe prioritatea operațiilor. Este util să folosească paranteze pentru a clarifica ordinea în care se efectuează calculele, mai ales atunci când expresia este complexă.",
+    "În concluzie, regula ordonării operațiilor este esențială pentru a rezolva corect exercițiile matematice. Este important să o înțelegem și să aplicăm metoda pas cu pas, verificând mereu rezultatul obținut.",
+    "Prin urmare, elevul trebuie să-și antreneze gândirea logică și să respecte regulile matematice pentru a evita greșelile. Acest lucru nu doar că îl ajută în lecțiile de matematică, ci și în alte domenii unde se folosesc calcule structurate."
+  ],
+  "ideiDeRetinut": [
+    "Ordinea operațiilor este esențială pentru a obține rezultate corecte.",
+    "Înmulțirea și împărțirea au prioritate față de adunare și scădere.",
+    "Parantezele pot fi folosite pentru a clarifica ordinea calculelor.",
+    "Este important să verificăm rezultatul la fiecare pas."
+  ],
+  "exemplu": {
+    "titlu": "Exemplu: 6 + 3 × 2",
+    "enunt": "Calculați expresia 6 + 3 × 2.",
+    "rezolvareScurta": [
+      "Identificăm operațiile: adunare și înmulțire.",
+      "Înmulțim întâi: 3 × 2 = 6.",
+      "Adunăm rezultatul cu 6: 6 + 6 = 12."
+    ],
+    "raspuns": "12"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este rezultatul expresiei 8 + 4 × 2?",
+    "variante": [
+      "12",
+      "24",
+      "16",
+      "8"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Înmulțirea are prioritate, deci 4 × 2 = 8. Apoi adunăm: 8 + 8 = 16."
+  }
+}

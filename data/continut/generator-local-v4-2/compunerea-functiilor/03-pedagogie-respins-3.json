@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă compunerea funcțiilor cu înmulțirea funcțiilor",
+      "deCeEsteGresit": "Compunerea funcțiilor implică aplicarea unei funcții pe rezultatul celeilalte, în timp ce înmulțirea funcțiilor este o operație separată care presupune produsul dintre valorile funcțiilor.",
+      "cumOEviti": "Repetă definiția compunerii și analizează diferențele între cele două concepte."
+    },
+    {
+      "greseala": "Neglijează verificarea condițiilor de domeniu pentru funcția compusă",
+      "deCeEsteGresit": "Funcția compusă f ∘ g este definită doar dacă imaginea funcției g este inclusă în domeniul de definiție al funcției f. Neglijarea acestui lucru duce la erori în calcul.",
+      "cumOEviti": "Înainte de a compune funcțiile, verifică dacă codomeniul funcției interioare este inclus în domeniul funcției exterioare."
+    },
+    {
+      "greseala": "Confundă ordinea aplicării funcțiilor în compunere",
+      "de șiEsteGresit": "Compunerea f ∘ g implică aplicarea funcției g pe x, apoi a funcției f pe rezultatul obținut. Confuzia între f ∘ g și g ∘ f duce la erori majore.",
+      "cumOEviti": "Repetă ordinea de compunere: întotdeauna aplici mai întâi funcția din dreapta, apoi cea din stânga."
+    },
+    {
+      "greseala": "Nu respectă condițiile pentru existența funcției compuse",
+      "deCeEsteGresit": "Dacă imaginea funcției g nu este inclusă în domeniul de definiție al funcției f, compunerea nu are sens. Aceasta duce la o funcție compusă nevalidă.",
+      "cumOEviti": "Verifică întotdeauna dacă imaginea funcției interioare este inclusă în domeniul funcției exterioare."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Compunerea funcțiilor se notează f ∘ g și implică aplicarea funcției g pe x, apoi a funcției f pe rezultatul obținut.",
+      "Funcția compusă este definită doar dacă imaginea funcției interioare este inclusă în domeniul funcției exterioare.",
+      "Compunerea funcțiilor nu este comutativă, adică f ∘ g ≠ g ∘ f în general.",
+      "Funcțiile compuse sunt folosite pentru a modela relații complexe între variabile."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă imaginea funcției interioare este inclusă în domeniul funcției exterioare.",
+      "Repetă ordinea de compunere: întotdeauna aplici mai întâi funcția din dreapta, apoi cea din stânga.",
+      "Evită confuzia între compunerea funcțiilor și înmulțirea funcțiilor.",
+      "Verifică dacă funcția compusă este corect definită înainte de a o folosi."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Compunerea funcțiilor este un concept esențial pentru înțelegerea modelelor matematice complexe, frecvent întâlnite în subiectele de Bacalaureat.",
+    "tipuriCerinte": [
+      "Să se definească compunerea funcțiilor",
+      "Să se identifice condițiile necesare pentru a compune două funcții",
+      "Să se calculeze o funcție compusă dată două funcții",
+      "Să se analizeze dacă o funcție compusă este corect definită"
+    ],
+    "strategie": [
+      "Repetă definiția și condițiile pentru existența funcției compuse.",
+      "Exersează identificarea domeniului de definiție al funcției compuse.",
+      "Analizează diferențele între compunerea funcțiilor și alte operații cu funcții.",
+      "Verifică întotdeauna dacă imaginea funcției interioare este inclusă în domeniul funcției exterioare."
+    ]
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "schemaVersion": 2,
+  "id": "bac-2026-oficial-M_mate-info-4",
+  "profile": "M_mate-info",
+  "sourceDraft": "bac-2026-oficial-M_mate-info-4.json",
+  "sourceDraftSha256": "2f82a18aa8ee9127c8a815f31d91a86cacdc04959901693769097de2f99a67c6",
+  "policy": "HUMAN_VERIFICATION_REQUIRED",
+  "verification": {
+    "humanVerified": false,
+    "mathVerified": false,
+    "answerKeyVerified": false,
+    "verifiedBy": null,
+    "verifiedAt": null
+  },
+  "slots": [
+    {
+      "slot": "S1-1",
+      "subjectNumber": 1,
+      "problemNumber": 1,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S1-2",
+      "subjectNumber": 1,
+      "problemNumber": 2,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S1-3",
+      "subjectNumber": 1,
+      "problemNumber": 3,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S1-4",
+      "subjectNumber": 1,
+      "problemNumber": 4,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S1-5",
+      "subjectNumber": 1,
+      "problemNumber": 5,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S1-6",
+      "subjectNumber": 1,
+      "problemNumber": 6,
+      "subitem": null,
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-1-a",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "a",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-1-b",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "b",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-1-c",
+      "subjectNumber": 2,
+      "problemNumber": 1,
+      "subitem": "c",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-2-a",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "a",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-2-b",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "b",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S2-2-c",
+      "subjectNumber": 2,
+      "problemNumber": 2,
+      "subitem": "c",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-1-a",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "a",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-1-b",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "b",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-1-c",
+      "subjectNumber": 3,
+      "problemNumber": 1,
+      "subitem": "c",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-2-a",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "a",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-2-b",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "b",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    },
+    {
+      "slot": "S3-2-c",
+      "subjectNumber": 3,
+      "problemNumber": 2,
+      "subitem": "c",
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "acceptedEquivalentForms": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "assisted": {
+        "status": "needs-review",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Automation may prepare hints/evidence only; verification flags remain human-gated."
+      }
+    }
+  ],
+  "sourceEvidence": {
+    "manifest": "data/bac/manifests/bac-2026-oficial-M_mate-info-4.json",
+    "subject": {
+      "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+      "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2",
+      "ok": true,
+      "pageCount": 2,
+      "pages": [
+        {
+          "page": 1,
+          "textChars": 2763,
+          "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Toate subiectele sunt obligatorii. ",
+          "hintOnly": true
+        },
+        {
+          "page": 2,
+          "textChars": 784,
+          "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 2. Se consider ă func ț ia ( ) : 0, f +∞ → ℝ , ( ) 2 1 ln 6 x f x x x = + + . 5p a) Ar ă ta ț i c ă ( ) 3 2 1 ln 12 ln 3 x f x dx x   − = +        . 5p b) Ar ă ta ț i c ă ( ) 1 1 1 6 3 e f x dx x   − − =      . 5p c) Determina ț i num ă rul real m pentru care aria su",
+          "hintOnly": true
+        }
+      ]
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+      "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d",
+      "ok": true,
+      "pageCount": 2,
+      "pages": [
+        {
+          "page": 1,
+          "textChars": 2619,
+          "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info BAREM DE EVALUARE Ş I DE NOTARE Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea",
+          "hintOnly": true
+        },
+        {
+          "page": 2,
+          "textChars": 2132,
+          "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 2.a) ( ) ( ) ( ) ( ) 4 2 1 1 1 1 1 f m m − = − − − + − + = 3p 1 1 0 m m = − − + = , pentru orice num ă r real nenul m 2p b) ( ) 2 12 1 f m − = − , pentru orice num ă r real nenul m 3p 12 1 11 m − = , de unde ob ț inem 1 m = 2p c) 1 2 3 4 0 x x x x + +",
+          "hintOnly": true
+        }
+      ]
+    },
+    "textExtractionPolicy": "HINT_ONLY_NEVER_MATH_TRUTH"
+  },
+  "automation": {
+    "populated": true,
+    "populatedAt": "2026-09-23T07:33:01.042Z",
+    "requiresHumanMathVerification": true,
+    "autoPublish": false
+  },
+  "assistedExtraction": {
+    "version": "08C.2",
+    "policy": "pdf-text-and-page-mapping-are-hints-only",
+    "autoMathVerification": false,
+    "autoPublish": false,
+    "sourceEvidenceInventory": [
+      {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+        "sha256": "1898e9b3b8ffe80e1d000242dfc1af33965740cb9205284712b1c7c5116225aa"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+        "sha256": "f2d942047ba99d36c06d18ce8bf87bab7dc027a69af8dc76d6b703f2f87a0bd6"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_bar_model.pdf",
+        "sha256": "6360867d159a71cc0cd912ad441c8d9de852633058c05e541c5c8f04b3c99950"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_var_model.pdf",
+        "sha256": "afefbfe1ec6ca0ed8eb342692f265fd2740cab85e197e188b3979a1522224714"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+        "sha256": "6a27a9e3fccde58fddaf0c429e48f05fd2c4df822aa14f837453980d0a4c76c9"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+        "sha256": "fcf3ef4e4ede7ded4463a387ee4292452dbaa2b91d3b4b2ef3233def1e3fe6dd"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+        "sha256": "5c64be892479b7ff09e873a1a012a6e930ddd8fe86ea2cf3a3fc60ad4b15db74"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+        "sha256": "f5d650f5b34717745eeee097a8b8161a83298304327e8132dd0935907bc558ea"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+        "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+        "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+        "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+        "sha256": "0c90e20cc3df0d40d8674c53f8bcfa4e8259ee3d1fc310081bc8346c478c828c"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+        "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2"
+      },
+      {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+        "sha256": "2814b1edcf94dfa3bc0a3ca865ddde6de62fc146abeb566ef4a311dc00428ffc"
+      }
+    ]
+  },
+  "reviewQueue": [
+    {
+      "slotId": "slot-1",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-2",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-3",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-4",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-5",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-6",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-7",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-8",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-9",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-10",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-11",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-12",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-13",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-14",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-15",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-16",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-17",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    },
+    {
+      "slotId": "slot-18",
+      "status": "needs-review",
+      "checks": [
+        "statementMatchesOfficial",
+        "mathNotationChecked",
+        "rubricMatchesOfficial",
+        "pointsChecked"
+      ]
+    }
+  ],
+  "updatedByAutomation": "08C.2"
+}

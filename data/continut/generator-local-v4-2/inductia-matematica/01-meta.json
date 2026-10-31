@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Metoda inducției matematice",
+  "descriere": "Lectia introduce metoda inducției matematice ca metodă de demonstrație folosită în rezolvarea unor probleme matematice.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre mulțimi și relații logice",
+    "Cunoștințe despre propoziții și demonstrații simple",
+    "Cunoștințe despre inducția ca proces logic"
+  ],
+  "obiective": [
+    "Să înțeleagă conceptul de inducție matematică",
+    "Să identifice condițiile necesare pentru aplicarea metodei",
+    "Să aplice metoda inducției matematice în demonstrații simple",
+    "Să analizeze rolul pasului de bază și al pasului inductiv"
+  ],
+  "termeniCheie": [
+    "Inducție matematică",
+    "Pasul de bază",
+    "Pasul inductiv",
+    "Demonstrație"
+  ]
+}

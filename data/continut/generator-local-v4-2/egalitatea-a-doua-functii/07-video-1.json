@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Ce înseamnă să calculezi valoarea unei funcții într-un punct?",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora conceptul de funcție și cum se calculează valoarea ei într-un punct dat. Vom începe cu o explicație intuitivă, apoi vom trece la metoda de lucru, exemplificare și verificare rapidă.",
+    "scenariu": [
+      "În matematică, funcțiile sunt instrumente foarte utile pentru a descrie relații între variabile. O funcție este ca o mașină care ia un număr de intrare și îl transformă într-un alt număr de ieșire, conform unei reguli bine definite.",
+      "Să ne gândim la o situație din viața reală. Să zicem că ai o mașină care transformă banii pe care îi pui în ea într-un număr de bilete de metrou. Dacă pui 10 lei, obții 2 bilete; dacă pui 20 lei, obții 4 bilete. Aici, suma de bani este intrarea, iar numărul de bilete este ieșirea.",
+      "În matematică, această idee se traduce prin funcția f(x) = 2x. Aici, x reprezintă intrarea (suma de bani), iar f(x) reprezintă ieșirea (numărul de bilete).",
+      "Acum, să ne întrebăm: ce înseamnă să calculăm valoarea funcției într-un punct? Să zicem că vrem să știm câte bilete obținem dacă punem 5 lei. Acest lucru se face prin înlocuirea valorii x cu 5 în funcție.",
+      "Deci, f(5) = 2·5 = 10. Astfel, dacă pui 5 lei, vei obține 10 bilete de metrou. Acest proces este esențial pentru a înțelege cum funcționează funcțiile.",
+      "De ce este important să știm să calculăm valoarea unei funcții într-un punct? Pentru că ne permite să prevedem rezultatele în situații concrete. De exemplu, dacă vrem să știm cât va costa un produs după o reducere, sau cât va crește temperatura la un anumit moment.",
+      "Pentru a calcula valoarea funcției într-un punct, trebuie să înlocuim variabila x cu valoarea dată. Apoi, efectuăm toate operațiile aritmetice conform regulilor matematice.",
+      "Să luăm un exemplu mai concret. Fie funcția f(x) = 3x + 2. Vrem să calculăm f(4). Înlocuim x cu 4: f(4) = 3·4 + 2 = 12 + 2 = 14. Astfel, valoarea funcției în punctul x = 4 este 14.",
+      "O greșeală frecventă este să uiteți să înlocuiți variabila cu valoarea dată. De exemplu, dacă cineva calculează f(4) ca fiind 3 + 2 = 5, atunci a uitat să înlocuiască x cu 4.",
+      "Cum putem evita această greșeală? Prin exerciții repetate și prin atenție la pasul de înlocuire. Este important să ne asigurăm că am înlocuit variabila cu valoarea corectă înainte de a efectua calculele.",
+      "În concluzie, calcularea valorii unei funcții într-un punct este un proces simplu dar esențial. Începe cu înlocuirea variabilei x cu valoarea dată, apoi efectuează operațiile aritmetice conform regulilor matematice.",
+      "În videoclipul următor vom vedea cum se aplică această metodă în exerciții mai complexe și vom analiza alte tipuri de funcții."
+    ],
+    "ideiDeRetinut": [
+      "O funcție este ca o mașină care transformă intrarea în ieșire.",
+      "Calculul valorii unei funcții într-un punct implică înlocuirea variabilei cu valoarea dată.",
+      "Este important să evităm greșeala de a uita să înlocuim variabila cu valoarea corectă."
+    ],
+    "exemplu": {
+      "titlu": "Calculul valorii funcției f(x) = 3x + 2 în punctul x = 4",
+      "enunt": "Fie funcția f: R → R, f(x) = 3x + 2. Calculați valoarea funcției în punctul x = 4.",
+      "rezolvareScurta": [
+        "Înlocuim x cu 4: f(4) = 3·4 + 2.",
+        "Efectuăm operațiile: 12 + 2 = 14."
+      ],
+      "raspuns": "14"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie funcția f(x) = 5x − 3. Care este valoarea funcției în punctul x = 2?",
+      "variante": [
+        "7",
+        "−1",
+        "10",
+        "−10"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Pentru a calcula f(2), înlocuim x cu 2: f(2) = 5·2 − 3 = 10 − 3 = 7."
+    }
+  }
+}

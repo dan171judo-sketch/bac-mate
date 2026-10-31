@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Nu se respecta semnul inecuației la împărțire sau înmulțire cu un număr negativ.",
+      "deCeEsteGresit": "Semnul inecuației se schimbă atunci când se înmulțește sau împarte cu un număr negativ, iar ignorarea acestui lucru duce la soluții incorecte.",
+      "cumOEviti": "Să rețineți că semnul inecuației se inversează atunci când înmulțiți sau împărțiți ambele părți cu un număr negativ."
+    },
+    {
+      "greseala": "Se aplică regulile egalităților în loc de regulile inecuațiilor.",
+      "deCeEsteGresit": "Inecuațiile nu sunt echivalente cu egalitățile, iar folosirea regulilor pentru egalități poate duce la soluții eronate.",
+      "cumOEviti": "Să rețineți că inecuațiile au reguli specifice, în special atunci când se împarte sau se înmulțește cu un număr negativ."
+    },
+    {
+      "greseala": "Nu se verifică dacă soluția găsită este corectă prin înlocuire.",
+      "dețiEsteGresit": "Fără verificare, nu se știe dacă soluția obținută este corectă sau nu, ceea ce poate duce la erori de calcul.",
+      "cumOEviti": "Să înlocuiți întotdeauna soluția în inecuație pentru a verifica dacă aceasta satisface condiția."
+    },
+    {
+      "greseala": "Se neglijează cazul când coeficientul de gradul I este zero.",
+      "deCeEsteGresit": "Dacă a = 0, inecuația devine o inecuație de forma b < 0 sau b > 0, care poate fi adevarată sau falsă în funcție de valoarea lui b.",
+      "cumOEviti": "Să analizați întotdeauna cazul când a = 0 și să rezolvați inecuația corespunzător."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Inecuația de gradul I este o inecuație care poate fi scrisă sub forma ax + b < 0, ax + b > 0, ax + b ≤ 0 sau ax + b ≥ 0.",
+      "Rezolvarea unei inecuații de gradul I se face prin împărțirea la a (cu atenție la semnul lui) și apoi prin rezolvarea inecuației obținute.",
+      "Soluția unei inecuații este o mulțime de valori care satisfac condiția exprimată în inecuație.",
+      "Interpretarea soluției pe axa numerelor implică reprezentarea intervalului corespunzător."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificați dacă a ≠ 0 înainte de a începe rezolvarea inecuației.",
+      "Rețineți că semnul inecuației se schimbă la împărțire sau înmulțire cu un număr negativ.",
+      "Înlocuiți soluția în inecuație pentru a verifica dacă este corectă.",
+      "Reprezentați soluția pe axa numerelor pentru a interpreta rezultatul."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Inecuațiile de gradul I sunt un subiect frecvent în examenul de Bacalaureat, fiind cerute în diverse forme, cum ar fi rezolvarea unei inecuații sau interpretarea soluției pe axa numerelor.",
+    "tipuriCerinte": [
+      "Rezolvarea unei inecuații de gradul I în mulțimea numerelor reale.",
+      "Interpretarea soluției pe axa numerelor.",
+      "Analiza cazurilor particulare (ex: a = 0)."
+    ],
+    "strategie": [
+      "Să rețineți forma generală a inecuației de gradul I și să o aplicați corect.",
+      "Să analizați atenționat semnul coeficientului a în timpul rezolvării.",
+      "Să verificați întotdeauna soluția prin înlocuire.",
+      "Să reprezentați soluția pe axa numerelor pentru a evita greșeli de interpretare."
+    ]
+  }
+}

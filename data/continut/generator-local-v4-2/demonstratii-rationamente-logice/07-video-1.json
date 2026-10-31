@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducere în inecuații: Ce înseamnă să rezolvăm o inecuație?",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora conceptul de inecuație și cum putem rezolva acestea într-un mod intuitiv. Vom începe cu un exemplu concret pentru a înțelege ce înseamnă să avem o inecuație și apoi vom vedea cum putem găsi soluțiile ei.",
+    "scenariu": [
+      "Începem prin a ne întreba: Ce înseamnă să rezolvăm o ecuație? Răspunsul este simplu – găsim valoarea variabilei care face ca egalitatea să fie adevărată. Dar ce se întâmplă dacă, în loc de semnul egal, avem un semn mai mare sau mai mic? În această situație, ne confruntăm cu o inecuație.",
+      "O inecuație este ca o ecuație, dar în loc de a fi exactă, ea exprimă o relație între două expresii. De exemplu, dacă spunem că 2x + 1 > 7, aceasta nu ne spune ce valoare exactă are x, ci că x trebuie să fie mai mare decât un anumit număr.",
+      "Pentru a înțelege mai bine, să luăm un exemplu din viața de zi cu zi. Să presupunem că ai 10 lei și vrei să cumpări ceva care costă mai mult de 7 lei. În acest caz, nu știi exact cât costă produsul, dar știi că trebuie să fie mai mare decât 7 lei.",
+      "Acest tip de relație este exact ce reprezintă o inecuație. Nu ne dă o soluție unică, ci un interval de valori posibile pentru variabilă. Așadar, rezolvarea unei inecuații presupune găsirea tuturor valorilor care îndeplinesc această condiție.",
+      "Pentru a rezolva o inecuație, trebuie să folosim reguli similare cu cele ale ecuațiilor. De exemplu, putem aduna sau scădea același număr din ambele părți, sau înmulți și împărți prin aceeași valoare, dar trebuie să ținem cont de semnul inecuației.",
+      "Un lucru important este că, atunci când înmulțim sau împărțim o inecuație prin un număr negativ, semnul inecuației se schimbă. De exemplu, dacă avem -2x > 4 și înmulțim ambele părți cu -1, obținem x < -2. Acest lucru este esențial pentru a nu greși în rezolvare.",
+      "Vom folosi un exemplu simplu pentru a vedea cum se aplică aceste reguli. Să luăm inecuația 3x + 5 < 14. Prima etapă este să scădem 5 din ambele părți, obținând 3x < 9. Apoi împărțim ambii termeni la 3 și găsim x < 3.",
+      "Acest proces este similar cu rezolvarea unei ecuații, dar în loc de a obține o singură soluție, obținem un interval de valori. De exemplu, x poate fi 2, 1 sau chiar 0, dar nu poate fi 3 sau mai mare.",
+      "O greșeală frecventă este să uitați să schimbați semnul inecuației atunci când înmulțiți sau împărțiți prin un număr negativ. De exemplu, dacă aveți -2x > 6 și împărțiți prin -2 fără a schimba semnul, veți obține x > -3, ceea ce este incorect. Corect ar fi x < -3.",
+      "Pentru a evita această greșeală, este important să rețineți că atunci când înmulțiți sau împărțiți o inecuație prin un număr negativ, semnul inecuației se inversează. Acest lucru este esențial pentru a obține soluții corecte.",
+      "În concluzie, rezolvarea unei inecuații implică găsirea tuturor valorilor care îndeplinesc condiția exprimată de ea. Acest proces este similar cu cel al ecuațiilor, dar trebuie să ținem cont de semnul inecuației și de regulile specifice.",
+      "În videoclipul următor vom vedea cum putem reprezenta soluțiile unei inecuații pe axa numerelor și vom analiza mai multe tipuri de inecuații."
+    ],
+    "ideiDeRetinut": [
+      "O inecuație exprimă o relație între două expresii, nu o egalitate exactă.",
+      "Rezolvarea unei inecuații implică găsirea tuturor valorilor care îndeplinesc condiția exprimată.",
+      "Atunci când înmulțiți sau împărțiți o inecuație prin un număr negativ, semnul inecuației se schimbă."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea inecuației 3x + 5 < 14",
+      "enunt": "Să rezolvm inecuația 3x + 5 < 14.",
+      "rezolvareScurta": [
+        "Scădem 5 din ambele părți: 3x < 9.",
+        "Împărțim ambii termeni la 3: x < 3."
+      ],
+      "raspuns": "x < 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Dacă 2x + 1 > 7, atunci x este egal cu:",
+      "variante": [
+        "x > 3",
+        "x < 4",
+        "x = 3",
+        "x > 4"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Scădem 1 din ambele părți: 2x > 6. Împărțim ambii termeni la 2: x > 3."
+    }
+  }
+}

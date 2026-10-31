@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Criteriul de egalitate a funcțiilor",
+  "descriere": "Conținutul explică condițiile necesare și suficiente pentru egalitatea a două funcții.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Noțiunea de funcție",
+    "Definiția graficului unei funcții",
+    "Operații cu funcții"
+  ],
+  "obiective": [
+    "Să definească egalitatea a două funcții",
+    "Să identifice condițiile pentru egalitatea funcțiilor",
+    "Să aplice criteriul de egalitate în exemple simple",
+    "Să înțeleagă diferența dintre egalitatea funcțiilor și egalitatea valorilor"
+  ],
+  "termeniCheie": [
+    "funcție",
+    "egalitate a funcțiilor",
+    "domeniu",
+    "codomeniu"
+  ]
+}

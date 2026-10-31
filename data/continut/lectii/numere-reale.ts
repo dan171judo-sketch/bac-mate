@@ -12,11 +12,13 @@ export const continutNumereReale: ContinutLectie = {
   "descriere": "Lecția prezintă principalele mulțimi de numere folosite în liceu: numere naturale, întregi, raționale, iraționale și reale. Elevul învață relațiile de incluziune dintre aceste mulțimi, clasificarea numerelor și ordinea efectuării operațiilor.",
   "nivelPrincipal": "fundament",
   "durataEstimataMinute": 25,
+
   "prerechizite": [
     "Operații aritmetice elementare",
     "Fracții",
     "Puteri și radicali elementari"
   ],
+
   "obiective": [
     "Să recunoști mulțimile de numere naturale, întregi, raționale și reale.",
     "Să clasifici corect un număr în una sau mai multe mulțimi numerice.",
@@ -24,6 +26,7 @@ export const continutNumereReale: ContinutLectie = {
     "Să folosești relația de incluziune N ⊂ Z ⊂ Q ⊂ R.",
     "Să efectuezi corect calcule elementare cu numere reale respectând ordinea operațiilor."
   ],
+
   "termeniCheie": [
     "număr natural",
     "număr întreg",
@@ -36,13 +39,16 @@ export const continutNumereReale: ContinutLectie = {
     "zecimală finită",
     "zecimală periodică"
   ],
+
   "videoLectii": [
     {
       "id": "m1-nr-video-1",
       "numar": 1,
       "titlu": "N, Z, Q și R explicate simplu",
       "durataMinute": 4,
+      "videoUrl": "/videos/m1-l01-v1.mp4",
       "descriere": "Pornim de la mulțimile numerice cunoscute și înțelegem relația dintre numere naturale, întregi, raționale și reale.",
+
       "scenariu": [
         "În matematică întâlnim multe tipuri de numere, dar ele nu sunt organizate la întâmplare.",
         "Pentru început avem numerele naturale. În această mulțime găsim numerele folosite în mod obișnuit pentru numărare.",
@@ -79,11 +85,13 @@ export const continutNumereReale: ContinutLectie = {
         "Apoi poți folosi relațiile de incluziune pentru a stabili automat apartenența la mulțimile mai mari.",
         "Reține lanțul N, Z, Q, R. Îl vom folosi pe tot parcursul acestei lecții."
       ],
+
       "ideiDeRetinut": [
         "N ⊂ Z ⊂ Q ⊂ R.",
         "Orice număr întreg este și rațional.",
         "Numerele iraționale sunt reale, dar nu sunt raționale."
       ],
+
       "exemplu": {
         "titlu": "Exemplu rapid",
         "enunt": "Clasifică numărul −7.",
@@ -94,6 +102,7 @@ export const continutNumereReale: ContinutLectie = {
         ],
         "raspuns": "−7 ∈ Z, −7 ∈ Q și −7 ∈ R."
       },
+
       "verificareRapida": {
         "intrebare": "Care relație de incluziune este corectă?",
         "variante": [
@@ -106,12 +115,15 @@ export const continutNumereReale: ContinutLectie = {
         "explicatie": "Numerele naturale sunt incluse în întregi, întregii în raționale, iar raționalele în reale."
       }
     },
+
     {
       "id": "m1-nr-video-2",
       "numar": 2,
       "titlu": "Rațional sau irațional?",
       "durataMinute": 4,
+      "videoUrl": "/video/lectia-1/video-2.mp4",
       "descriere": "Învățăm criteriile simple prin care putem decide dacă un număr este rațional sau irațional.",
+
       "scenariu": [
         "Una dintre cele mai importante clasificări este diferența dintre numere raționale și numere iraționale.",
         "Începem cu definiția numărului rațional.",
@@ -148,11 +160,13 @@ export const continutNumereReale: ContinutLectie = {
         "Când primești un exercițiu de clasificare, nu te grăbi să judeci doar după aspectul numărului.",
         "Simplifică mai întâi și apoi aplică definiția."
       ],
+
       "ideiDeRetinut": [
         "Fracțiile dintre întregi cu numitor nenul sunt raționale.",
         "Zecimalele finite și zecimalele periodice sunt raționale.",
         "Un radical nu este automat irațional; trebuie mai întâi simplificat."
       ],
+
       "exemplu": {
         "titlu": "Exemplu rapid",
         "enunt": "Numerele 0,25 și √2 sunt raționale sau iraționale?",
@@ -162,6 +176,7 @@ export const continutNumereReale: ContinutLectie = {
         ],
         "raspuns": "0,25 este rațional, iar √2 este irațional."
       },
+
       "verificareRapida": {
         "intrebare": "Care dintre următoarele numere este irațional?",
         "variante": [
@@ -174,12 +189,15 @@ export const continutNumereReale: ContinutLectie = {
         "explicatie": "0,25, −3 și 7/5 sunt raționale. √2 este irațional."
       }
     },
+
     {
       "id": "m1-nr-video-3",
       "numar": 3,
       "titlu": "Cum clasifici corect un număr",
       "durataMinute": 4,
+      "videoUrl": "/video/lectia-1/video-3.mp4",
       "descriere": "Aplicăm sistematic relațiile dintre N, Z, Q și R pentru a clasifica diferite tipuri de numere.",
+
       "scenariu": [
         "Acum vom transforma teoria într-o metodă rapidă de clasificare.",
         "Atunci când vezi un număr, primul pas este să îl simplifici dacă este posibil.",
@@ -219,11 +237,13 @@ export const continutNumereReale: ContinutLectie = {
         "Pentru radical din doi, dintre aceste mulțimi enumerate, este R, cu precizarea că numărul este irațional.",
         "Metoda poate fi rezumată astfel: simplifică, identifică tipul numărului și apoi folosește incluziunile."
       ],
+
       "ideiDeRetinut": [
         "Simplifică expresia înainte de clasificare.",
         "Caută mai întâi cea mai mică mulțime potrivită.",
         "Folosește N ⊂ Z ⊂ Q ⊂ R pentru apartenențele suplimentare."
       ],
+
       "exemplu": {
         "titlu": "Exemplu rapid",
         "enunt": "Clasifică numărul √9.",
@@ -234,6 +254,7 @@ export const continutNumereReale: ContinutLectie = {
         ],
         "raspuns": "√9 = 3 ∈ N, Z, Q și R."
       },
+
       "verificareRapida": {
         "intrebare": "Care este cea mai mică mulțime dintre N, Z, Q și R care conține numărul −8?",
         "variante": [
@@ -246,12 +267,15 @@ export const continutNumereReale: ContinutLectie = {
         "explicatie": "−8 este număr întreg. Este și rațional și real, dar dintre mulțimile date, Z este cea mai mică."
       }
     },
+
     {
       "id": "m1-nr-video-4",
       "numar": 4,
       "titlu": "Calcule cu numere reale și greșeli frecvente",
       "durataMinute": 5,
+      "videoUrl": "/video/lectia-1/video-4.mp4",
       "descriere": "Recapitulăm ordinea operațiilor și eliminăm câteva dintre cele mai frecvente greșeli din calculele elementare.",
+
       "scenariu": [
         "Ultima parte a lecției este despre calculele cu numere reale.",
         "Când avem mai multe operații într-o expresie, nu le efectuăm pur și simplu de la stânga la dreapta.",
@@ -294,11 +318,13 @@ export const continutNumereReale: ContinutLectie = {
         "De aceea ordinea operațiilor și semnele trebuie automatizate prin exercițiu.",
         "Reține: paranteze, puteri și radicali, înmulțiri și împărțiri, apoi adunări și scăderi."
       ],
+
       "ideiDeRetinut": [
         "Respectă ordinea operațiilor.",
         "La fracții, folosește numitor comun pentru adunare și scădere.",
         "Fii atent la semnele numerelor negative."
       ],
+
       "exemplu": {
         "titlu": "Exemplu rapid",
         "enunt": "Calculează 2 − 3 × (−4) + 5.",
@@ -310,6 +336,7 @@ export const continutNumereReale: ContinutLectie = {
         ],
         "raspuns": "19"
       },
+
       "verificareRapida": {
         "intrebare": "Care este primul calcul care trebuie efectuat în expresia 2 + 3 × 4?",
         "variante": [
@@ -323,6 +350,7 @@ export const continutNumereReale: ContinutLectie = {
       }
     }
   ],
+
   "definitii": [
     {
       "termen": "Număr natural",
@@ -346,6 +374,7 @@ export const continutNumereReale: ContinutLectie = {
       "definitie": "Număr care aparține mulțimii R. Numerele reale includ numerele raționale și numerele iraționale."
     }
   ],
+
   "teorie": [
     {
       "id": "m1-nr-teorie-1",
@@ -381,6 +410,7 @@ export const continutNumereReale: ContinutLectie = {
       ]
     }
   ],
+
   "formule": [
     {
       "id": "m1-nr-formula-1",
@@ -395,6 +425,7 @@ export const continutNumereReale: ContinutLectie = {
       "explicatie": "Un număr este rațional dacă poate fi exprimat ca raport al două numere întregi cu numitor nenul."
     }
   ],
+
   "exempleRezolvate": [
     {
       "id": "m1-nr-exemplu-1",
@@ -421,6 +452,7 @@ export const continutNumereReale: ContinutLectie = {
       "raspunsFinal": "−7 ∈ Z, Q și R.",
       "verificare": "−7 = −7/1, deci este rațional."
     },
+
     {
       "id": "m1-nr-exemplu-2",
       "titlu": "Clasificarea unui radical",
@@ -441,6 +473,7 @@ export const continutNumereReale: ContinutLectie = {
       "raspunsFinal": "√9 este număr rațional.",
       "verificare": "√9 = 3 = 3/1."
     },
+
     {
       "id": "m1-nr-exemplu-3",
       "titlu": "Adunarea a două fracții",
@@ -467,6 +500,7 @@ export const continutNumereReale: ContinutLectie = {
       "verificare": "19 și 12 nu au divizor comun mai mare decât 1."
     }
   ],
+
   "greseliFrecvente": [
     {
       "greseala": "Elevul consideră că un număr poate aparține unei singure mulțimi numerice.",
@@ -489,6 +523,7 @@ export const continutNumereReale: ContinutLectie = {
       "cumOEviti": "Adu fracțiile la același numitor înainte de adunare."
     }
   ],
+
   "exercitii": [
     {
       "id": "m1-nr-ex-1",
@@ -518,6 +553,7 @@ export const continutNumereReale: ContinutLectie = {
       "punctaj": 1,
       "competenta": "Clasificarea numerelor întregi."
     },
+
     {
       "id": "m1-nr-ex-2",
       "nivel": "fundament",
@@ -546,6 +582,7 @@ export const continutNumereReale: ContinutLectie = {
       "punctaj": 1,
       "competenta": "Diferențierea numerelor raționale și iraționale."
     },
+
     {
       "id": "m1-nr-ex-3",
       "nivel": "standard-bac",
@@ -574,6 +611,7 @@ export const continutNumereReale: ContinutLectie = {
       "punctaj": 1,
       "competenta": "Folosirea relațiilor de incluziune."
     },
+
     {
       "id": "m1-nr-ex-4",
       "nivel": "standard-bac",
@@ -596,6 +634,7 @@ export const continutNumereReale: ContinutLectie = {
       "punctaj": 1,
       "competenta": "Calcul cu numere raționale."
     },
+
     {
       "id": "m1-nr-ex-5",
       "nivel": "standard-bac",
@@ -623,6 +662,7 @@ export const continutNumereReale: ContinutLectie = {
       "punctaj": 1,
       "competenta": "Respectarea ordinii operațiilor."
     },
+
     {
       "id": "m1-nr-ex-6",
       "nivel": "avansat",
@@ -651,6 +691,7 @@ export const continutNumereReale: ContinutLectie = {
       "competenta": "Argumentarea clasificării unui număr."
     }
   ],
+
   "rezumat": {
     "ideiDeRetinut": [
       "N ⊂ Z ⊂ Q ⊂ R.",
@@ -673,6 +714,7 @@ export const continutNumereReale: ContinutLectie = {
       "Pot respecta ordinea operațiilor într-un calcul."
     ]
   },
+
   "legaturaCuBac": {
     "importanta": "Mulțimile numerice și calculele cu numere reale reprezintă baza pentru aproape toate capitolele ulterioare de algebră și analiză. Clasificarea corectă, lucrul cu fracții, radicali și semne sunt competențe necesare în numeroase exerciții de Bacalaureat.",
     "tipuriCerinte": [
@@ -690,6 +732,7 @@ export const continutNumereReale: ContinutLectie = {
       "Verifică semnele și simplifică rezultatul final."
     ]
   },
+
   "surse": [
     {
       "tip": "programa-oficiala",
@@ -702,6 +745,7 @@ export const continutNumereReale: ContinutLectie = {
       "observatie": "Conținut pilot generat controlat și menținut în verificare până la validarea matematică, curriculară, lingvistică și a exercițiilor."
     }
   ],
+
   "verificare": {
     "status": "verificare",
     "verificatMatematic": false,

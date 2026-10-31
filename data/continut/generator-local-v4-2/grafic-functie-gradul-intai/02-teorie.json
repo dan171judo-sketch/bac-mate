@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție liniară",
+      "definitie": "O funcție de forma f: R → R, definită prin f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0.",
+      "observatie": "Funcția liniară este o funcție de gradul I."
+    },
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Mulțimea punctelor din plan care au coordonatele (x, f(x)), unde x ∈ R.",
+      "observatie": "Graficul unei funcții de gradul I este o dreaptă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Forma graficului funcției liniare",
+      "explicatie": "Graficul oricărei funcții de gradul I este o dreaptă în planul cartezian. Dreapta poate fi paralelă cu axa Oy sau intersecta axele Ox și Oy.",
+      "ideiCheie": [
+        "Graficul unei funcții liniare este o dreaptă",
+        "Dreapta nu este verticală, ci are o pantă"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Rolul coeficienților în forma graficului",
+      "explicatie": "Parametrul a (coeficient unghiular) determină panta dreptei, iar parametrul b reprezintă coordonata y a punctului de intersecție al graficului cu axa Oy.",
+      "ideiCheie": [
+        "Coeficientul a indică direcția și înclinația dreptei",
+        "Parametrul b este valoarea funcției pentru x = 0"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Intersecția cu axa Oy",
+      "explicatie": "Punctul de intersecție al graficului cu axa Oy este dat de coordonata (0, b), unde b este termenul liber al funcției.",
+      "ideiCheie": [
+        "Intersecția cu Oy se obține pentru x = 0",
+        "Punctul (0, b) aparține graficului"
+      ]
+    }
+  ],
+  "formule": []
+}

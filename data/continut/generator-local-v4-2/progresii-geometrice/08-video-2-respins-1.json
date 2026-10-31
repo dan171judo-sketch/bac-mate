@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale pentru rezolvarea corectă a problemelor matematice. Vom vedea cum se aplică metoda de lucru, ce proprietăți trebuie respectate și cum putem evita greșelile frecvente.",
+    "scenariu": [
+      "În acest videoclip vom discuta despre reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice. Acestea sunt esențiale pentru a obține rezultate corecte și eficiente.",
+      "Prima regulă este să citim atent problema și să identificăm ce se cere. De exemplu, dacă ne întreabă „Cât este 12 minus 6?”, trebuie să înțelegem că ne ducem la o scădere simplă.",
+      "Următoarea regulă este să respectăm ordinea operațiilor. În matematică, parantezele se rezolvă întotdeauna prima, apoi ridicările la putere, înmulțirea și împărțirea, iar la final adunarea și scăderea.",
+      "De exemplu, dacă avem (12 - 6) × (4 + 2), trebuie să rezolvăm parantezele înainte de a face înmulțirea. Astfel, obținem 6 × 6 = 36.",
+      "Este important să ne amintim că fiecare pas trebuie scris clar și în ordine. Acest lucru ne ajută să evităm greșeli și să putem verifica ușor rezultatul.",
+      "Metoda de lucru implică mai multe pași: citirea atentă a problemei, identificarea datelor cunoscute și necunoscute, aplicarea regulilor matematice, efectuarea calculelor pas cu pas și verificarea rezultatului.",
+      "Un exemplu clar este rezolvarea unei ecuații. Să luăm ecuația 3x = 9. Pentru a găsi valoarea lui x, împărțim ambele părți la 3 și obținem x = 3.",
+      "Este important să verificăm întotdeauna rezultatul. Dacă înlocuim x cu 3 în ecuație, obținem 3 × 3 = 9, ceea ce este corect.",
+      "O greșeală frecventă este să neglijăm parantezele sau să aplicăm operațiile într-o ordine incorectă. De exemplu, dacă rezolvăm 12 - 6 × 4 fără a respecta ordinea, obținem un rezultat greșit.",
+      "Pentru a evita astfel de greșeli, este bine să scriem fiecare pas în mod clar și să ne amintim că parantezele au prioritate. De asemenea, putem folosi metoda „pas cu pas” pentru a nu confunda calculele.",
+      "Recapitulând, regulile matematice sunt esențiale pentru a rezolva corect problemele. Metoda de lucru implică citirea atentă, aplicarea regulilor în ordine și verificarea finală a rezultatului.",
+      "În concluzie, respectarea regulilor, utilizarea metodei de lucru corecte și evitarea greșelilor frecvente sunt cheia succesului în rezolvarea problemelor matematice."
+    ],
+    "ideiDeRetinut": [
+      "Respectați ordinea operațiilor: parantezele, apoi ridicările la putere, înmulțirea și împărțirea, iar la final adunarea și scăderea.",
+      "Cititi atent problema și identificați ce se cere pentru a evita greșeli.",
+      "Verificați întotdeauna rezultatul pentru a vă asigura că este corect."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea unei ecuații",
+      "enunt": "3x = 9. Cât este x?",
+      "rezolvareScurta": [
+        "Împărțim ambele părți la 3.",
+        "Obținem x = 3."
+      ],
+      "raspuns": "3"
+    },
+    "verificareRapida": {
+      "intrebare": "Cât este (12 - 6) × (4 + 2)?",
+      "variante": [
+        "36",
+        "24",
+        "18",
+        "12"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Rezolvăm parantezele: 12 - 6 = 6 și 4 + 2 = 6. Înmulțim rezultatele: 6 × 6 = 36."
+    }
+  }
+}

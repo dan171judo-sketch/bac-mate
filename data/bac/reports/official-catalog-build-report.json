@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T17:33:36.270Z",
+  "dryRun": true,
+  "inputCandidates": 69,
+  "pairedSources": 0,
+  "profileStats": {
+    "M_mate-info": 0,
+    "M_st-nat": 0,
+    "M_tehnologic": 0,
+    "M_pedagogic": 0
+  },
+  "unresolved": [
+    {
+      "id": "discovered-2026-001",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_Sesiune_speciala.zip"
+    },
+    {
+      "id": "discovered-2026-002",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip"
+    },
+    {
+      "id": "discovered-2026-003",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_speciala.zip"
+    },
+    {
+      "id": "discovered-2026-004",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_ses_speciala.zip"
+    },
+    {
+      "id": "discovered-2026-005",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie.zip"
+    },
+    {
+      "id": "discovered-2026-006",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie_rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-007",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip"
+    },
+    {
+      "id": "discovered-2026-008",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-009",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie.zip"
+    },
+    {
+      "id": "discovered-2026-010",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie_Rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-011",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_Bac_francofon_Limba_materna_Cultura_spaniola_ses_iunie.zip"
+    },
+    {
+      "id": "discovered-2026-012",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026.zip"
+    },
+    {
+      "id": "discovered-2026-013",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026_Rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-014",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip"
+    },
+    {
+      "id": "discovered-2026-015",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-016",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_d_sesiune_august_2026.zip"
+    },
+    {
+      "id": "discovered-2026-017",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_b_sesiune_august_2026.zip"
+    },
+    {
+      "id": "discovered-2026-018",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_Matematica_Istorie_rezerva_02-iulie-2024.zip"
+    },
+    {
+      "id": "discovered-2026-019",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_matematica_istorie_subiecte_si_bareme_26_august_2015_rezerva.zip"
+    },
+    {
+      "id": "discovered-2026-020",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_d_2023_ses_august_rezerve.zip"
+    },
+    {
+      "id": "discovered-2026-021",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/septembrie/E_d_scris_rezerva_subiect_barem_29_august_2014.zip"
+    },
+    {
+      "id": "discovered-2026-022",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Clasa_I.zip"
+    },
+    {
+      "id": "discovered-2026-023",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bacalaureat_roman_german.zip"
+    },
+    {
+      "id": "discovered-2026-024",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_bilingv_spaniol.zip"
+    },
+    {
+      "id": "discovered-2026-025",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Cultura_si_civilizatie_spaniola.zip"
+    },
+    {
+      "id": "discovered-2026-026",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Francofon_DNL.zip"
+    },
+    {
+      "id": "discovered-2026-027",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_sectii_bilingve_romano-italiene.zip"
+    },
+    {
+      "id": "discovered-2026-028",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_A_Limba_romana_oral_model.zip"
+    },
+    {
+      "id": "discovered-2026-029",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_B_Limba_materna_oral_model.zip"
+    },
+    {
+      "id": "discovered-2026-030",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_competente_lingvistice_model_limba_chineza.zip"
+    },
+    {
+      "id": "discovered-2026-031",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_ebraica.zip"
+    },
+    {
+      "id": "discovered-2026-032",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_engleza.zip"
+    },
+    {
+      "id": "discovered-2026-033",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_franceza.zip"
+    },
+    {
+      "id": "discovered-2026-034",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_germana_moderna.zip"
+    },
+    {
+      "id": "discovered-2026-035",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_italiana.zip"
+    },
+    {
+      "id": "discovered-2026-036",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_japoneza.zip"
+    },
+    {
+      "id": "discovered-2026-037",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_portugheza.zip"
+    },
+    {
+      "id": "discovered-2026-038",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_rusa.zip"
+    },
+    {
+      "id": "discovered-2026-039",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_spaniola.zip"
+    },
+    {
+      "id": "discovered-2026-040",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_D_Competente_digitale_model.zip"
+    },
+    {
+      "id": "discovered-2026-041",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_GE-RO_2026_modele.zip"
+    },
+    {
+      "id": "discovered-2026-042",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/proba%20C%20engleza%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-043",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20franceza%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-044",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20germana%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-045",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/C_competente_lingvistice_model_2024_limba_chineza.zip"
+    },
+    {
+      "id": "discovered-2026-046",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20italiana%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-047",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20japoneza%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-048",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20portugheza%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-049",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20rusa%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-050",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20spaniola%20model%20audio.zip"
+    },
+    {
+      "id": "discovered-2026-051",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana_modele.zip"
+    },
+    {
+      "id": "discovered-2026-052",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana__pt_minoritatea_maghiara_modele.zip"
+    },
+    {
+      "id": "discovered-2026-053",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_b_Limbi_materne_modele.zip"
+    },
+    {
+      "id": "discovered-2026-054",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Matematica_modele.zip"
+    },
+    {
+      "id": "discovered-2026-055",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Istorie_model.zip"
+    },
+    {
+      "id": "discovered-2026-056",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Anatomie_Biologie_modele.zip"
+    },
+    {
+      "id": "discovered-2026-057",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Chimie_modele.zip"
+    },
+    {
+      "id": "discovered-2026-058",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Socio_umane_modele.zip"
+    },
+    {
+      "id": "discovered-2026-059",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Fizica_modele.zip"
+    },
+    {
+      "id": "discovered-2026-060",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Geografie_model.zip"
+    },
+    {
+      "id": "discovered-2026-061",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Informatica_modele.zip"
+    },
+    {
+      "id": "discovered-2026-062",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_a_2026_Simulare.zip"
+    },
+    {
+      "id": "discovered-2026-063",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip"
+    },
+    {
+      "id": "discovered-2026-064",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_d_2026_Simulare.zip"
+    },
+    {
+      "id": "discovered-2026-065",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_b_2026_Simulare.zip"
+    },
+    {
+      "id": "discovered-2026-066",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ea_2026_simulare_II.zip"
+    },
+    {
+      "id": "discovered-2026-067",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip"
+    },
+    {
+      "id": "discovered-2026-068",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ed_2026_simulare_II.zip"
+    },
+    {
+      "id": "discovered-2026-069",
+      "reason": "non-pdf-asset",
+      "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/programe/Programe_Simulare_BAC_2025.zip"
+    }
+  ],
+  "ambiguous": []
+}

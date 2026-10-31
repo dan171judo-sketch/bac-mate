@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Analiza comportamentului funcțiilor",
+  "descriere": "Lectia exploreaza notiunea de monotonie si mărginire a functiilor, precum si aplicatiile acestora in studierea variatiei functiilor.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoasterea notiunii de functie",
+    "Cunoasterea conceptului de grafic al unei functii",
+    "Cunoasterea operatiilor cu functii"
+  ],
+  "obiective": [
+    "Definirea si identificarea functiilor monotone",
+    "Determinarea intervalelor de monotonie ale unei functii",
+    "Definirea si identificarea functiilor marginite",
+    "Stabilirea legaturii dintre mărginirea unei functii si comportamentul ei la infinit"
+  ],
+  "termeniCheie": [
+    "monotonie",
+    "crescatoare",
+    "descrescatoare",
+    "marginire"
+  ]
+}

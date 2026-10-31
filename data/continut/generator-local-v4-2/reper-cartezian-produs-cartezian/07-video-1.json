@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducerea produsului cartezian: de la intuitie la matematica",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora conceptul de produs cartezian prin intermediul unei abordări intuitive și a unui rationament pas cu pas. Vom înțelege ce înseamnă o pereche ordonată, cum se construiește produsul cartezian și de ce este important pentru matematică.",
+    "scenariu": [
+      "Produsul cartezian este un concept fundamental din matematică, dar nu este deloc complicat. Începem cu o idee simplă: imaginează-ți că ai două cutii, una cu mere și alta cu pere. Dacă vrei să combinăm toate posibilitățile de a lua un fruct din fiecare cutie, ce ar rezulta? O listă de perechi, unde prima componentă este un fruct din prima cutie, iar a doua este unul din a doua cutie.",
+      "Această idee este esențială pentru înțelegerea produsului cartezian. Nu este doar o listă de perechi, ci o mulțime formată din toate perechile posibile dintre elementele celor două mulțimi. În matematică, acestea se numesc perechi ordonate și sunt notate cu paranteze rotunde.",
+      "Pentru a înțelege mai bine, să luăm un exemplu concret. Fie mulțimea A = {1, 2} și mulțimea B = {3, 4}. Produsul cartezian A × B este format din toate perechile (a, b) unde a ∈ A și b ∈ B. Astfel, obținem {(1, 3), (1, 4), (2, 3), (2, 4)}.",
+      "Este important să înțelegem că ordinea este esențială într-o pereche. De exemplu, (1, 3) nu este același lucru cu (3, 1). Acest lucru ne arată că produsul cartezian nu este simetric, ci are o structură bine definită.",
+      "De ce este important să înțelegem acest concept? În matematică, produsul cartezian apare în multe contexte: de la reprezentarea grafică a funcțiilor până la definirea relațiilor între elemente. Este o bază pentru înțelegerea altor noțiuni mai avansate.",
+      "Pentru a construi produsul cartezian, putem folosi o metodă pas cu pas: începem cu primul element din prima mulțime și-l combinăm cu fiecare element din cea de-a doua mulțime. Apoi trecem la al doilea element din prima mulțime și repetăm procesul.",
+      "Să luăm un alt exemplu pentru a vedea cum funcționează această metodă. Fie A = {a, b} și B = {1, 2}. Produsul cartezian A × B va fi {(a, 1), (a, 2), (b, 1), (b, 2)}. Vom vedea că fiecare element din A este combinat cu toate elementele din B.",
+      "Un lucru important de reținut este că produsul cartezian nu se limitează la două mulțimi. Poate fi extins și pentru mai multe mulțimi, dar în acest videoclip vom aborda doar cazul cu două mulțimi, pentru a ne concentra pe fundament.",
+      "O greșeală frecventă este să omitem o pereche sau să o repetăm. De exemplu, dacă uităm să combinăm un element din A cu toate elementele din B, vom obține un produs cartezian incomplet. Este esențial să verificăm fiecare combinație.",
+      "Pentru a evita această greșeală, putem folosi o metodă de verificare: scriem toate elementele din prima mulțime și le combinăm cu fiecare element din cea de-a doua mulțime. Astfel, nu riscăm să omitem niciun caz.",
+      "În concluzie, produsul cartezian este o mulțime formată din toate perechile ordonate posibile dintre elementele a două mulțimi. Este un concept esențial în matematică și apare în multe aplicații practice.",
+      "În videoclipul următor, vom explora mai profund produsul cartezian prin rezolvarea unor exerciții concrete și vom vedea cum se aplică în practică."
+    ],
+    "ideiDeRetinut": [
+      "Produsul cartezian este o mulțime de perechi ordonate.",
+      "Ordinea elementelor într-o pereche este esențială.",
+      "Metoda pas cu pas asigură o construcție corectă a produsului cartezian."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Produsul cartezian A × B",
+      "enunt": "Fie mulțimea A = {1, 2} și mulțimea B = {3, 4}. Determinați produsul cartezian A × B.",
+      "rezolvareScurta": [
+        "Enumerăm elementele din A: {1, 2}.",
+        "Combinăm fiecare element din A cu toate elementele din B."
+      ],
+      "raspuns": "{(1, 3), (1, 4), (2, 3), (2, 4)}"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie mulțimea A = {x | x ∈ ℕ, x < 3} și B = {y | y ∈ ℕ, y ≤ 2}. Care este produsul cartezian A × B?",
+      "variante": [
+        "{(1, 1), (1, 2), (2, 1), (2, 2)}",
+        "{(1, 1), (1, 2), (2, 1), (2, 2), (3, 1), (3, 2)}",
+        "{(1, 1), (1, 2), (2, 1), (2, 2), (1, 3), (2, 3)}",
+        "{(1, 1), (1, 2), (2, 1), (2, 2), (1, 3), (2, 3), (3, 1), (3, 2)}"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Elementele mulțimii A sunt {1, 2}, iar cele ale mulțimii B sunt {1, 2}. Produsul cartezian A × B este format din toate perechile posibile dintre aceste elemente."
+    }
+  }
+}

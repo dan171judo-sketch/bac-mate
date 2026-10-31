@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "id": "bac-2026-august-M_st-nat-373929f779",
+  "profile": "M_st-nat",
+  "source": {
+    "authority": "Ministerul Educatiei / subiecte.edu.ro",
+    "year": 2026,
+    "session": "august",
+    "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+    "subject": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+      "sha256": "373929f779d66c6862f67751f2173c9ff0efe604697e6c7a6dc8b19f8dea07f9"
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+      "sha256": "c2abc8876c635aac2f03bc89ad3da60b2d931ca534413cd141c42689cdf6f55e"
+    }
+  },
+  "policy": {
+    "autoPublish": false,
+    "requireHumanVerification": true,
+    "requireMathVerification": true,
+    "requireAnswerKeyVerification": true
+  },
+  "verification": {
+    "humanVerified": false,
+    "mathVerified": false,
+    "answerKeyVerified": false,
+    "verifiedBy": null,
+    "verifiedAt": null
+  },
+  "slots": [
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-1",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-2",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-3",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-4",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-5",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S1-6",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-1-a",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-1-b",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-1-c",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-2-a",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-2-b",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S2-2-c",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-1-a",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-1-b",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-1-c",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-2-a",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-2-b",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    },
+    {
+      "points": 5,
+      "statement": "",
+      "expectedResults": [],
+      "rubricSteps": [],
+      "evidence": {
+        "subjectPage": null,
+        "rubricPage": null
+      },
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "status": "needs-review",
+      "slot": "S3-2-c",
+      "acceptedEquivalentForms": [],
+      "assisted": {
+        "status": "factory-prepared",
+        "statementHint": null,
+        "rubricHint": null,
+        "subjectPageCandidates": [],
+        "rubricPageCandidates": [],
+        "mathConfidence": "unverified",
+        "evidenceConfidence": "unverified",
+        "note": "Content Factory verified official PDF identity and prepared page candidates. Mathematical content remains human-gated; textHint is never mathematical source of truth."
+      }
+    }
+  ],
+  "sourceEvidence": {
+    "subject": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+      "sha256": "373929f779d66c6862f67751f2173c9ff0efe604697e6c7a6dc8b19f8dea07f9",
+      "verifiedByExtraction": true
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+      "sha256": "c2abc8876c635aac2f03bc89ad3da60b2d931ca534413cd141c42689cdf6f55e",
+      "verifiedByExtraction": true
+    }
+  },
+  "contentFactory": {
+    "version": 1,
+    "preparedAt": "2026-09-24T17:48:59.733Z",
+    "target": "bac-2026-august-M_st-nat-373929f779",
+    "policy": "FAIL_CLOSED_OFFICIAL_PDF_EVIDENCE",
+    "sourceDraft": null,
+    "sourceDraftSha256": null,
+    "subject": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+      "sha256": "373929f779d66c6862f67751f2173c9ff0efe604697e6c7a6dc8b19f8dea07f9",
+      "pageCount": 0
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+      "sha256": "c2abc8876c635aac2f03bc89ad3da60b2d931ca534413cd141c42689cdf6f55e",
+      "pageCount": 0
+    },
+    "rules": {
+      "officialPdfIdentityVerified": true,
+      "extractedTextIsHintOnly": true,
+      "autoMathVerification": false,
+      "autoHumanVerification": false,
+      "autoAnswerKeyVerification": false,
+      "autoPromotion": false
+    },
+    "workspaceBeforeSha256": "e9e70e9f472e0387c7e8c93a212cf4e903e74357279ceac78f87d65d4e381afc"
+  }
+}

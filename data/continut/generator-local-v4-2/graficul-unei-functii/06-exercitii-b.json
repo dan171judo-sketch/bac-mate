@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea funcției f(x) = 2x + 3 pentru x = -1.",
+      "variante": [],
+      "raspunsCorect": "1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Înlocuim x = -1 în expresia f(x) = 2x + 3: f(-1) = 2·(-1) + 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "f(-1) = -2 + 3 = 1."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = -1 este 1.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea funcției f(x) = -4x + 5 pentru x = 3.",
+      "variante": [],
+      "raspunsCorect": "-7",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Înlocuim x = 3 în expresia f(x) = -4x + 5: f(3) = -4·3 + 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "f(3) = -12 + 5 = -7."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = 3 este -7.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este valoarea funcției f(x) = x² - 4 pentru x = 2?",
+      "variante": [
+        "-1",
+        "0",
+        "3",
+        "4"
+      ],
+      "raspunsCorect": "0",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Înlocuim x = 2 în expresia f(x) = x² - 4: f(2) = 2² - 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "f(2) = 4 - 4 = 0."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = 2 este 0.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea funcției f(x) = 3x² - 2 pentru x = -1.",
+      "variante": [],
+      "raspunsCorect": "1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Înlocuim x = -1 în expresia f(x) = 3x² - 2: f(-1) = 3·(-1)² - 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "f(-1) = 3·1 - 2 = 3 - 2 = 1."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = -1 este 1.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    }
+  ]
+}

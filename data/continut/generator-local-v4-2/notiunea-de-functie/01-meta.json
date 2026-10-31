@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definirea și reprezentarea funcțiilor",
+  "descriere": "Lectia introduce noțiunea de funcție ca relație între două mulțimi, precum și modul de reprezentare a acesteia.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe despre mulțimi"
+  ],
+  "obiective": [
+    "Să definească funcția ca relație între două mulțimi",
+    "Să identifice domeniul de definiție și imaginea unei funcții",
+    "Să reprezinte grafic o funcție",
+    "Să folosească notația f: A → B pentru a descrie o funcție"
+  ],
+  "termeniCheie": [
+    "funcție",
+    "domeniu de definiție",
+    "imaginea funcției",
+    "graficul unei funcții"
+  ]
+}

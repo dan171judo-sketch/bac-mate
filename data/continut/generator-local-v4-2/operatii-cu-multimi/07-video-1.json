@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducere în conceptul de reuniune a mulțimilor",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora ideea de reuniune a mulțimilor. Vom începe cu o introducere intuitivă, apoi vom defini conceptul matematic, vom explica de ce este util și vom folosi exemple simple pentru a înțelege mai bine.",
+    "scenariu": [
+      "În matematică, mulțimile sunt un concept fundamental. Ele reprezintă colecții de elemente distincte. În această lecție, vom discuta despre o operație importantă cu mulțimi: reuniunea.",
+      "Să începem cu o idee intuitivă. Imaginează-ți că ai două seturi de obiecte: un set cu mere și un alt set cu pere. Dacă vrei să știi ce fructe ai în total, trebuie să aduni toate elementele din ambele seturi.",
+      "Aceasta este esența reuniunii a două mulțimi: o mulțime care conține toate elementele din ambele mulțimi, fără a repeta niciunul. Este ca și cum ai face un fel de „bucătarie” unde adaugi tot ce ai în fiecare set.",
+      "De ce este utilă această operație? Pentru că ne ajută să combinăm informații din mai multe surse. De exemplu, dacă vrei să știi toate elevii care au luat note mari la matematică și la română, reuniunea este modul în care îți potrivesti cele două liste.",
+      "Pentru a defini formal reuniunea, folosim simbolul ∪. Dacă avem mulțimile A și B, reuniunea lor se notează cu A ∪ B. Elementele din această mulțime sunt toate elementele care apar în A sau în B sau în ambele.",
+      "Este important să înțelegem că reuniunea nu se ocupă doar de elementele comune, ci și de cele distincte. Dacă un element apare într-o mulțime, el este automat inclus în reuniune.",
+      "Să luăm un exemplu concret: dacă A = {1, 2} și B = {2, 3}, atunci reuniunea lor este {1, 2, 3}. Vom vedea că elementul 2 apare în ambele mulțimi, dar nu se repetă în reuniune.",
+      "Vom folosi un alt exemplu pentru a ne asigura că înțelegem bine. Fie A = {a, b} și B = {b, c}. Reuniunea este {a, b, c}, iar elementul comun (b) apare doar o dată.",
+      "O greșeală frecventă este să considerăm că reuniunea include doar elementele comune. De fapt, ea include toate elementele din ambele mulțimi, indiferent dacă sunt comune sau nu.",
+      "Pentru a evita această confuzie, e important să ne gândim la reuniune ca la o „listă completă” de elemente. Nu doar cele care se repetă, ci toate cele din ambele mulțimi.",
+      "În concluzie, reuniunea a două mulțimi este un concept esențial în matematică. Ne ajută să combinăm informații și să obținem o imagine completă a unei situații.",
+      "Acum, să aplicăm ceea ce am învățat. Vom rezolva împreună un exercițiu simplu pentru a ne asigura că înțelegem bine ideea."
+    ],
+    "ideiDeRetinut": [
+      "Reuniunea este o mulțime care conține toate elementele din ambele mulțimi.",
+      "Elementele comune apar doar o dată în reuniune.",
+      "Simbolul reuniunii este ∪."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu de reuniune a două mulțimi",
+      "enunt": "Fie A = {1, 2} și B = {2, 3}. Calculați A ∪ B.",
+      "rezolvareScurta": [
+        "Pasul 1: Identificăm elementele din A: 1 și 2.",
+        "Pasul 2: Identificăm elementele din B: 2 și 3."
+      ],
+      "raspuns": "{1, 2, 3}"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie A = {a, b} și B = {b, c}. Care este reuniunea lor?",
+      "variante": [
+        "{a, b, c}",
+        "{a, b}",
+        "{b, c}",
+        "{a, c}"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Reuniunea include toate elementele din A și B. Elementul comun (b) apare doar o dată."
+    }
+  }
+}

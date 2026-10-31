@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea intersecției cu axa Oy cu cea cu axa Ox",
+      "deCeEsteGresit": "Intersecția cu axa Oy se obține pentru x = 0, iar cea cu axa Ox pentru f(x) = 0. Confuzia apare când elevul citește coordonatele greșit.",
+      "cumOEviti": "Identificați clar punctele de intersecție: pentru Oy este (0, y), iar pentru Ox este (x, 0)."
+    },
+    {
+      "greseala": "Interpretarea incorectă a semnului funcției din grafic",
+      "deCeEsteGresit": "Semnul funcției se deduce din poziția punctelor față de axa Ox. Dacă punctul este deasupra, f(x) > 0; dacă este sub axa Ox, f(x) < 0.",
+      "cumOEviti": "Analizați fiecare punct în raport cu axa Ox și notați semnul corespunzător."
+    },
+    {
+      "greseala": "Neglijarea simetriei graficului față de origine",
+      "deCeEsteGresit": "Simetria față de origine implică f(-x) = -f(x). Neglijarea acesteia poate duce la erori în interpretarea comportamentului funcției.",
+      "cumOEviti": "Verificați dacă punctele (-x, y) și (x, -y) sunt prezentate pe grafic."
+    },
+    {
+      "grese,ala": "Eroare în determinarea monotoniilor dintr-un grafic",
+      "deCeEsteGresit": "Monotonia se deduce prin analiza poziției punctelor. Dacă graficul este crescător, f(x) crește cu x; dacă este descrescător, f(x) scade cu x.",
+      "cumOEviti": "Analizați direcția graficului de la stânga la dreapta și notați monotonia corespunzătoare."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul unei funcții este mulțimea punctelor (x, f(x)).",
+      "Monotonia se deduce din poziția punctelor pe grafic.",
+      "Simetria față de origine implică f(-x) = -f(x).",
+      "Semnul funcției se determină în raport cu axa Ox."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identificați intersecțiile cu axele de coordonate.",
+      "Analizați monotonia graficului prin direcția punctelor.",
+      "Verificați simetria față de origine sau față de axa Oy.",
+      "Determinați semnul funcției în funcție de poziția punctelor."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Lectura graficului este esențială pentru interpretarea corectă a comportamentului unei funcții, ceea ce este frecvent cerut în subiectele de Bac.",
+    "tipuriCerinte": [
+      "Identificarea intersecțiilor cu axele de coordonate",
+      "Determinarea monotoniilor dintr-un grafic dat",
+      "Recunoașterea simetriei graficului",
+      "Interpretarea semnului funcției în funcție de poziția punctelor"
+    ],
+    "strategie": [
+      "Analizați graficul pas cu pas, identificând toate caracteristicile menționate.",
+      "Folosiți observațiile din definiții pentru a evita confuziile comune.",
+      "Verificați dacă simetria este respectată în toate punctele.",
+      "Notati clar semnul funcției în fiecare interval."
+    ]
+  }
+}

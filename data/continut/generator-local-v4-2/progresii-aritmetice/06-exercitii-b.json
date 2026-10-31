@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați perimetrul unui dreptunghi cu lungimea de 8 cm și lățimea de 5 cm.",
+      "variante": [],
+      "raspunsCorect": "26",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calculul perimetrului dreptunghiului",
+          "continut": "Perimetrul unui dreptunghi se calculează cu formula: P = 2 × (l + L)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei",
+          "continut": "P = 2 × (5 + 8) = 2 × 13 = 26."
+        }
+      ],
+      "explicatieFinala": "Perimetrul dreptunghiului este de 26 cm.",
+      "competenta": "Calcularea perimetrului unui dreptunghi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele fracții este echivalentă cu 3/4?",
+      "variante": [
+        "6/8",
+        "9/12",
+        "15/20",
+        "7/10"
+      ],
+      "raspunsCorect": "7/10",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea echivalenței fracțiilor",
+          "continut": "Pentru a verifica dacă două fracții sunt echivalente, se înmulțește numărătorul primei fracții cu numitorul celei de-a doua și invers."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea produselor",
+          "continut": "3 × 10 = 30; 4 × 7 = 28. Deoarece 30 ≠ 28, fracțiile nu sunt echivalente."
+        }
+      ],
+      "explicatieFinala": "Fracția 7/10 nu este echivalentă cu 3/4.",
+      "competenta": "Echivalența fracțiilor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Un elev a citit 120 de pagini dintr-o carte. Acest lucru reprezintă 40% din toate paginile cărții. Câte pagini are cartea?",
+      "variante": [],
+      "raspunsCorect": "300",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calculul procentului",
+          "continut": "40% din totalul paginilor reprezintă 120 de pagini."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea numărului total de pagini",
+          "continut": "Fie x = total pagini. 40% × x = 120 ⇒ 0,4x = 120 ⇒ x = 300."
+        }
+      ],
+      "explicatieFinala": "Cartea are 300 de pagini.",
+      "competenta": "Procente și probleme practice",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați aria unui pătrat cu latura de 6 cm.",
+      "variante": [],
+      "raspunsCorect": "36",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula ariei pătratului",
+          "continut": "Aria unui pătrat se calculează cu formula: A = l²."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei",
+          "continut": "A = 6² = 36 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria pătratului este de 36 cm².",
+      "competenta": "Calcularea ariei unui pătrat",
+      "punctaj": 5
+    }
+  ]
+}

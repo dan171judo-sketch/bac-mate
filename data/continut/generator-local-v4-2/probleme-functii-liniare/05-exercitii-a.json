@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 2000 lei și costuri variabile de 40 lei per unitate. Dacă prețul de vânzare este de 70 lei per unitate, să se calculeze profitul pentru 50 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 500 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 70 * 50 = 3500 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 40 * 50 = 2000 lei, iar costurile fixe sunt 2000 lei. Costul total este 2000 + 2000 = 4000 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 3500 - 4000 = -500 lei. Așadar, profitul este de 500 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Un producător are costuri fixe de 1500 lei și costuri variabile de 30 lei per unitate. Dacă prețul de vânzare este de 60 lei, să se determine profitul pentru 100 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 1500 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 60 * 100 = 6000 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 30 * 100 = 3000 lei, iar costurile fixe sunt 1500 lei. Costul total este 3000 + 1500 = 4500 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 6000 - 4500 = 1500 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 1200 lei și costuri variabile de 25 lei per unitate. Dacă prețul de vânzare este de 65 lei, să se determine profitul pentru 80 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 1000 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 65 * 80 = 5200 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 25 * 80 = 2000 lei, iar costurile fixe sunt 1200 lei. Costul total este 2000 + 1200 = 3200 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 5200 - 3200 = 1000 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 1800 lei și costuri variabile de 35 lei per unitate. Dacă prețul de vânzare este de 70 lei, să se determine profitul pentru 60 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 1200 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 70 * 60 = 4200 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 35 * 60 = 2100 lei, iar costurile fixe sunt 1800 lei. Costul total este 2100 + 1800 = 3900 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 4200 - 3900 = 1200 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    }
+  ]
+}

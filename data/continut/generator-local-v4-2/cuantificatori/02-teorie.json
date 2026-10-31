@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "Cuantificator universal",
+      "definitie": "Un cuantificator care indică că o propoziție este adevărată pentru toate valorile posibile ale variabilei.",
+      "observatie": "Se notează de obicei cu simbolul ∀."
+    },
+    {
+      "termen": "Cuantificator existențial",
+      "definitie": "Un cuantificator care indică că o propoziție este adevărată pentru cel puțin o valoare posibilă ale variabilei.",
+      "observatie": "Se notează de obicei cu simbolul ∃."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Cuantificatorii în logica matematică",
+      "explicatie": "În logica matematică, cuantificatorii sunt folosiți pentru a exprima generalități sau particularități ale propozițiilor. Ei permit formularea de enunțuri care se aplică în mod universal sau doar în anumite cazuri.",
+      "ideiCheie": [
+        "Cuantificatorul universal este folosit pentru a exprima afirmații generale.",
+        "Cuantificatorul existențial este folosit pentru a exprima afirmații particulare."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Propoziția cuantificată",
+      "explicatie": "O propoziție care conține un cuantificator este denumită propoziție cuantificată. Aceasta poate fi universală sau existențială, în funcție de tipul cuantificatorului folosit.",
+      "ideiCheie": [
+        "Propozițiile cuantificate pot fi adevărate sau false în funcție de context.",
+        "Folosirea corectă a cuantificatorilor este esențială pentru formularea logică a enunțurilor."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Diferența între cuantificatorii universal și existențial",
+      "explicatie": "Cuantificatorul universal afirmă că o propoziție este adevărată pentru toate valorile variabilei, în timp ce cuantificatorul existențial afirmă că este adevărată pentru cel puțin o valoare. Această diferență este esențială în formularea corectă a enunțurilor matematice.",
+      "ideiCheie": [
+        "Cuantificatorul universal implică validitatea propoziției pentru orice caz.",
+        "Cuantificatorul existențial implică existența cel puțin unui caz în care propoziția este adevărată."
+      ]
+    }
+  ],
+  "formule": []
+}

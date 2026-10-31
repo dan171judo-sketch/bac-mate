@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea inecuatiilor",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 oferă o introducere intuitivă în conceptul de inecuații, explicând de ce sunt utile și cum se pot rezolva. Elevii vor învăța să le înțeleagă ca reguli matematice care descriu relații între valori, nu doar ecuații.",
+    "scenariu": [
+      "Începem cu o întrebare simplă: Ce înseamnă să spunem că un număr este mai mare decât altul? De exemplu, dacă spui că 5 este mai mare decât 3, asta înseamnă că 5 se află la dreapta lui 3 pe axa numerelor. Acest lucru ne ajută să înțelegem ce înseamnă o inecuație.",
+      "O inecuație este ca o ecuație, dar nu spune că două expresii sunt egale, ci că una este mai mare sau mai mică decât alta. De exemplu, 2x + 3 > 7 este o inecuație care ne cere să găsim toate valorile lui x pentru care această relație este adevărată.",
+      "De ce sunt utile inecuațiile? Sunt folosite în multe situații din viața reală. De exemplu, dacă ai un buget de 100 de lei și cheltuieli de 30 de lei pe luna, vrei să știi câte produse poți cumpăra cu restul. Acest lucru se poate exprima printr-o inecuație.",
+      "Pentru a rezolva o inecuație, trebuie să izolăm variabila x. Acest proces este similar cu rezolvarea unei ecuații, dar trebuie să avem grijă la semnul coeficientului lui x. Dacă împărțim la un număr negativ, inecuația se schimbă de semn.",
+      "Să luăm un exemplu simplu: 2x + 4 ≥ 6. Vrem să aflăm toate valorile lui x pentru care această inecuație este adevărată. Începem prin scăderea 4 din ambele părți, obținând -2x ≥ 2.",
+      "Acum împărțim la -2. Aici trebuie să fim atenți: când împărțim la un număr negativ, inecuația se schimbă de semn. Astfel, x ≤ -1. Aceasta înseamnă că orice valoare mai mică sau egală cu -1 va satisface inecuația.",
+      "Este important să înțelegem de ce se schimbă semnul. Dacă împărțim la un număr negativ, axa numerelor se inversează. De exemplu, dacă x este mai mare decât 2 și împărțim la -1, atunci x devine mai mic decât -2.",
+      "Un alt lucru important este să ne gândim la inecuațiile ca reguli care descriu un interval de valori. De exemplu, x ≤ -1 înseamnă că x poate fi -1, -2, -3, etc., dar nu poate fi 0 sau 1.",
+      "O greșeală frecventă este să uiteți să schimbați semnul inecuației atunci când împărțiți la un număr negativ. De exemplu, dacă ai -2x ≥ 2 și nu schimbi semnul, vei obține x ≥ -1, care este gresit.",
+      "Pentru a evita această greșeală, e bine să te întrebi: „Când împart la un număr negativ, inecuația se schimbă de semn?” Răspunsul este da. Acest lucru este esențial pentru a obține o soluție corectă.",
+      "În concluzie, inecuațiile sunt reguli matematice care ne ajută să descriem relații între valori. Ele sunt utile în viața reală și pot fi rezolvate folosind metode similare cu cele ale ecuațiilor, dar cu atenție la semnul coeficientului.",
+      "În acest video am introdus conceptul de inecuații, am explicat de ce sunt utile și cum se rezolvă. În videourile următoare vom vedea mai multe exemple și vom învăța să le aplicăm în probleme concrete."
+    ],
+    "ideiDeRetinut": [
+      "Inecuațiile descriu relații între valori, nu doar egalități.",
+      "Atenție la semnul coeficientului când împărți la un număr negativ.",
+      "Soluția unei inecuații este un interval de valori."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea inecuației 2x + 4 ≥ 6",
+      "enunt": "Rezolvați inecuația: 2x + 4 ≥ 6.",
+      "rezolvareScurta": [
+        "Scade 4 din ambele părți: -2x ≥ 2.",
+        "Împarte la -2 și schimbă semnul inecuației: x ≤ -1."
+      ],
+      "raspuns": "x ≤ -1"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați inecuația: -2x + 4 ≥ 6.",
+      "variante": [
+        "x ≤ -1",
+        "x ≥ -1",
+        "x = -1",
+        "x < -1"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Scade 4 din ambele părți: -2x ≥ 2. Împarte la -2 și schimbă semnul inecuației: x ≤ -1."
+    }
+  }
+}

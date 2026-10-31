@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă sistemul de ecuații cu o singură ecuație.",
+      "deCeEsteGresit": "Un sistem are două ecuații, iar o singură ecuație nu reprezintă un sistem. Aceasta duce la neînțelegerea condițiilor de rezolvare a problemei.",
+      "cumOEviti": "Verifică întotdeauna dacă sistemul are două ecuații și două necunoscute."
+    },
+    {
+      "greseala": "Încearcă să rezolve ecuațiile separat, fără a le considera împreună.",
+      "deCeEsteGresit": "Soluția trebuie să fie comună pentru ambele ecuații. Rezolvarea separată nu garantează soluția corectă a sistemului.",
+      "cumOEviti": "Rezolvi ecuațiile într-un cadru integrat, folosind metode adecvate."
+    },
+    {
+      "greseala": "Neglijează verificarea soluției în ambele ecuații.",
+      "dețiEsteGresit": "O soluție corectă trebuie să satisfacă toate ecuațiile sistemului. Neglijarea verificării poate duce la soluții incorecte.",
+      "cumOEviti": "După găsirea unei soluții, substituie valorile în ambele ecuații pentru a verifica corectitudinea."
+    },
+    {
+      "greseala": "Confundă tipurile de sisteme (determinat, nedeterminat, imposibil).",
+      "deCeEsteGresit": "Fără o înțelegere clară a tipurilor de sisteme, elevul nu poate identifica corect natura soluției și nu poate aplica metodele adecvate.",
+      "cumOEviti": "Învață să recunoști caracteristicile fiecărui tip de sistem în funcție de determinantul matricei coeficienților."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Un sistem de ecuații liniare are două ecuații cu două necunoscute.",
+      "Soluția unui sistem este o pereche (x, y) care verifică ambele ecuații.",
+      "Tipurile de sisteme sunt determinat, nedeterminat sau imposibil.",
+      "Metoda substituției este una dintre metodele utilizate pentru rezolvarea sistemelor."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă sistemul are două ecuații și două necunoscute.",
+      "Aplică metoda substituției corect, înlocuind o variabilă dintr-o ecuație în cealaltă.",
+      "Verifică soluția în ambele ecuații pentru a asigura corectitudinea.",
+      "Identifică tipul sistemului (determinat, nedeterminat sau imposibil)."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Sistemele de ecuații liniare sunt o parte esențială a programului pentru Bacalaureatul la matematică. Înțelegerea acestor concepte este necesară pentru rezolvarea problemelor din diverse domenii, inclusiv algebră și geometrie.",
+    "tipuriCerinte": [
+      "Identificarea tipului de sistem",
+      "Rezolvarea unui sistem folosind metoda substituției",
+      "Interpretarea soluției în contextul problemei",
+      "Verificarea corectitudinii soluției"
+    ],
+    "strategie": [
+      "Învață să recunoști caracteristicile fiecărui tip de sistem.",
+      "Antrenează-te la rezolvarea sistemelor folosind metoda substituției.",
+      "Verifică întotdeauna soluțiile în ambele ecuații.",
+      "Asociază soluțiile cu contextul problemei pentru a interpreta corect rezultatele."
+    ]
+  }
+}

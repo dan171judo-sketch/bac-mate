@@ -1,0 +1,45 @@
+{
+  "video": {
+    "numar": 3,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică importantă care se aplică în multe situații din viața de zi cu zi. Regula este simplă, dar are un impact semnificativ asupra modului în care gândim și rezolvăm problemele.",
+    "Elevul trebuie să înțeleagă că această regulă nu este doar o formă abstractă de calcul, ci o metodă eficientă de a organiza informațiile și de a evita greșelile comune. Este esențial ca elevul să știe cum să o folosească corect în diverse contexte.",
+    "Regula se bazează pe principiul logicii matematice: dacă un lucru este adevărat pentru un caz, atunci trebuie să fie valabil și pentru toate cazurile similare. Acesta este motivul pentru care regula funcționează în mod consistent.",
+    "Pentru a aplica această regulă corect, elevul trebuie să urmeze o metodă pas cu pas. Începe cu identificarea problemei, apoi cu formularea unei ipoteze, urmată de verificarea ipotezei prin calcul sau demonstrație.",
+    "Este important ca elevul să înțeleagă că fiecare etapă a procesului este esențială. De exemplu, dacă se ignora pasul de verificare, pot apărea greșeli care nu sunt ușor de detectat.",
+    "Vom folosi un exemplu concret pentru a ilustra modul în care această regulă poate fi aplicată. Să presupunem că avem o problemă cu fracții și trebuie să aducem la același numitor. Regula ne ajută să găsim rapid soluția corectă.",
+    "În exemplul nostru, vom împărți fiecare fracție în mod egal pentru a obține un numitor comun. Acest proces este simplu, dar necesită atenție la detalii. Dacă se face o greșeală în calcul, rezultatul final va fi incorect.",
+    "După ce am aplicat regula, vom verifica rezultatul prin adunarea fracțiilor și compararea cu valoarea inițială. Acest pas este crucial pentru a asigura că soluția este corectă.",
+    "O greșeală frecventă pe care elevii o fac este să neglijeze verificarea finală. Uneori, ei se opresc la primul pas și nu se întreabă dacă rezultatul are sens în contextul problemei.",
+    "Pentru a evita această greșeală, elevul trebuie să își formeze obiceiul de a verifica întotdeauna soluția. O metodă eficientă este să reface calculele pas cu pas și să compara rezultatul cu valoarea inițială.",
+    "În concluzie, această regulă este o cheie pentru a înțelege mai bine matematica. Prin aplicarea corectă a metodei și verificarea rezultatului, elevii pot evita greșelile comune și dezvolta gândirea logică.",
+    "Acesta este un exemplu clar de cum o regulă simplă poate fi folosită pentru a rezolva probleme complexe. Prin înțelegerea pas cu pas a procesului, elevii pot aplica această metodă în alte situații din viața cotidiană."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru organizarea gândirii logice.",
+    "Verificarea rezultatului este pasul final care asigură corectitudinea soluției.",
+    "Greșelile comune apar când se neglijează pașii intermediari."
+  ],
+  "exemplu": {
+    "titlu": "Adunarea fracțiilor cu numitori diferiți",
+    "enunt": "Să adunăm fracțiile 1/2 și 1/3.",
+    "rezolvareScurta": [
+      "Pentru a aduna fracțiile, trebuie să le aducem la același numitor.",
+      "Cel mai mic multiplu comun al numerelor 2 și 3 este 6. Așadar, vom transforma fiecare fracție într-o fracție echivalentă cu numitorul 6."
+    ],
+    "raspuns": "1/2 + 1/3 = 3/6 + 2/6 = 5/6"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este rezultatul adunării fracțiilor 1/4 și 1/2?",
+    "variante": [
+      "3/8",
+      "3/4",
+      "5/8",
+      "5/4"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Pentru a aduna fracțiile, trebuie să le aducem la același numitor. Numitorul comun al numerelor 4 și 2 este 4. Transformăm 1/2 în 2/4. Apoi adunăm: 1/4 + 2/4 = 3/4."
+  }
+}

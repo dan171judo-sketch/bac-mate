@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = x² - 4. Determinați domeniul de definiție al funcției f.",
+      "variante": [],
+      "raspunsCorect": "Domeniul de definiție al funcției f este ℝ.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza expresiei funcției",
+          "continut": "Funcția f(x) = x² - 4 este o funcție polinomială, care este definită pentru orice număr real."
+        },
+        {
+          "numar": 2,
+          "titlu": "Concluzie privind domeniul de definiție",
+          "continut": "Deoarece expresia f(x) nu conține radicali, fracții sau logaritmi, domeniul de definiție este ℝ."
+        }
+      ],
+      "explicatieFinala": "Funcțiile polinomiale sunt definite pe întreg mulțimea numerelor reale.",
+      "competenta": "Înțelegerea domeniului de definiție al funcțiilor polinomiale",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = √(x - 1). Determinați domeniul de definiție al funcției f.",
+      "variante": [],
+      "raspunsCorect": "Domeniul de definiție al funcției f este [1, ∞).",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza condițiilor pentru radical",
+          "continut": "Pentru ca expresia √(x - 1) să fie reală, trebuie ca x - 1 ≥ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "Rezolvând inecuația x - 1 ≥ 0, obținem x ≥ 1. Deci domeniul de definiție este [1, ∞)."
+        }
+      ],
+      "explicatieFinala": "Radicalii de ordin par sunt definite doar pentru valori ale argumentului mai mari sau egale cu zero.",
+      "competenta": "Determinarea domeniului de definiție al funcțiilor cu radical",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = ln(x + 2). Care este domeniul de definiție al funcției f?",
+      "variante": [
+        "(-∞, -2]",
+        "[-2, ∞)",
+        "(-2, ∞)",
+        "(-∞, ∞)"
+      ],
+      "raspunsCorect": "(-2, ∞)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza condițiilor pentru logaritmul natural",
+          "continut": "Logaritmul natural este definit doar pentru valori ale argumentului strict mai mari decât zero."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "Pentru ca x + 2 > 0, rezultă x > -2. Deci domeniul de definiție este (-2, ∞)."
+        }
+      ],
+      "explicatieFinala": "Logaritmul natural este definit doar pentru valori ale argumentului pozitive.",
+      "competenta": "Determinarea domeniului de definiție al funcțiilor logaritmice",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = 1/(x² - 4). Determinați domeniul de definiție al funcției f.",
+      "variante": [],
+      "raspunsCorect": "Domeniul de definiție al funcției f este ℝ \\\\- {-2, 2}.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza condițiilor pentru fracția cu numitor",
+          "continut": "Pentru ca expresia 1/(x² - 4) să fie definită, trebuie ca x² - 4 ≠ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Rezolvând ecuația x² - 4 = 0, obținem x = ±2. Deci domeniul de definiție este ℝ \\\\- {-2, 2}."
+        }
+      ],
+      "explicatieFinala": "Funcțiile cu fracții sunt definite pe mulțimea numerelor reale, cu excepția valorilor care anulează numitorul.",
+      "competenta": "Determinarea domeniului de definiție al funcțiilor raționale",
+      "punctaj": 5
+    }
+  ]
+}

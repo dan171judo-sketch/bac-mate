@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă matematică importantă care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente. Este esențial să o înțelegem bine pentru a folosi corect metoda în problemele pe care le întâlnim.",
+    "Regula se referă la modul în care trebuie să abordăm anumite tipuri de exerciții, mai ales atunci când avem de lucru cu fracții sau cu numere. Este important să știm exact cum se aplică această regulă pentru a nu face greșeli la calcule.",
+    "Pentru a înțelege bine regula, trebuie să ne gândim la ce înseamnă o fracție și cum se adună sau se scade. O fracție este o parte dintr-un întreg, iar atunci când avem de lucru cu mai multe fracții, trebuie să le aducem la același numitor pentru a compara sau a efectua operații.",
+    "Regula spune că înainte de a face calculele cu fracțiile, trebuie să le transformăm în fracții echivalente cu același numitor. Acest lucru ne permite să adunăm sau să scădem ușor fracțiile, fără a greși la pasul de calcul.",
+    "De ce este important să facem asta? Pentru că dacă nu avem același numitor, nu putem compara corect valorile fracțiilor. De exemplu, dacă avem 1/2 și 1/3, nu putem aduna direct aceste două fracții fără a le transforma într-un format comun.",
+    "Metoda de lucru este următoarea: identificăm cel mai mic multiplu comun al numitorilor, apoi amplificăm fiecare fracție cu un factor corespunzător pentru a obține același numitor. După aceea, putem efectua operațiile aritmetice.",
+    "Să luăm un exemplu concret: să adunăm 1/2 și 1/3. În primul rând, identificăm cel mai mic multiplu comun al numerelor 2 și 3, care este 6. Apoi amplificăm fiecare fracție: 1/2 devine 3/6, iar 1/3 devine 2/6. Acum putem aduna ușor 3/6 + 2/6 = 5/6.",
+    "Verificarea rezultatului este esențială pentru a ne asigura că am făcut toate pașii corect. Dacă nu avem același numitor, adunarea ar fi fost greșită. De exemplu, dacă am fi adunat direct 1/2 + 1/3 = 2/5, ar fi fost o greșeală majoră.",
+    "O confuzie frecventă este să încercăm să adunăm fracțiile fără a le transforma în același numitor. Elevii pot face acest lucru din neatenție sau din lipsa de înțelegere a regulii. Acest tip de greșeală poate duce la răspunsuri incorecte.",
+    "Pentru a evita această greșeală, este important să ne amintim că adunarea fracțiilor necesită același numitor. Poți folosi un exemplu simplu pentru a te antrena: 1/4 + 1/2 = ? Transformând în același numitor, obținem 1/4 + 2/4 = 3/4.",
+    "Recapitulăm: înainte de a aduna sau scădea fracțiile, trebuie să le transformăm în fracții cu același numitor. Acest lucru ne permite să efectuăm calculele corect și să evităm greșeli comune.",
+    "Concluzia este că această regulă este esențială pentru a face calcule cu fracțiile în mod corect. Este important să o aplicăm mereu, mai ales atunci când lucrăm cu exerciții complexe sau cu mai multe fracții."
+  ],
+  "ideiDeRetinut": [
+    "Adunarea fracțiilor necesită același numitor.",
+    "Cel mai mic multiplu comun este esențial pentru transformarea fracțiilor.",
+    "Verificarea rezultatului este importantă pentru a evita greșeli.",
+    "Transformarea fracțiilor în același format este pasul cheie."
+  ],
+  "exemplu": {
+    "titlu": "Adunarea fracțiilor cu numitori diferiți",
+    "enunt": "Calculați: 1/2 + 1/3.",
+    "rezolvareScurta": [
+      "Identificăm cel mai mic multiplu comun al numerelor 2 și 3, care este 6.",
+      "Transformăm fracțiile în echivalente cu numitorul 6: 1/2 = 3/6 și 1/3 = 2/6."
+    ],
+    "raspuns": "5/6"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este cel mai mic multiplu comun al numerelor 4 și 6?",
+    "variante": [
+      "12",
+      "8",
+      "6",
+      "10"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Cel mai mic multiplu comun al numerelor 4 și 6 este 12, deoarece 12 este cel mai mic număr care se împarte exact atât la 4, cât și la 6."
+  }
+}

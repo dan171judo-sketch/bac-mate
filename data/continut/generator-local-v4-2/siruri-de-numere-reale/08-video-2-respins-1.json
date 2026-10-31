@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru rezolvarea ecuațiilor liniare",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a rezolva corect ecuații liniare. Vom învăța cum să aplicăm pașii corecți, să evităm greșelile frecvente și să verificăm dacă soluția găsită este corectă.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile fundamentale care ne permit să rezolvăm ecuații liniare. Aceste reguli sunt esențiale pentru a înțelege cum funcționează matematica și cum putem obține soluții corecte.",
+      "Prima regulă este că, într-o ecuație, orice operație pe care o aplicăm unui termen trebuie să o aplicăm și celuilalt termen. Acest lucru păstrează echilibrul ecuației și ne permite să obținem soluții exacte.",
+      "De exemplu, dacă adăugăm 3 la un termen dintr-o ecuație, trebuie să adăugăm și 3 la celălalt termen. Acest principiu este cunoscut ca „regula echilibrului” și este esențial pentru a menține valoarea egalității.",
+      "Al doilea element important este proprietatea de inversare: dacă înmulțim un termen cu o valoare, trebuie să împărțim celălalt termen la aceeași valoare. Acest lucru ne ajută să izolăm variabila și să obținem soluția finală.",
+      "Metoda de lucru implică pașii următori: identificarea variabilei, aplicarea operațiilor necesare pentru a reduce ecuația la o formă simplă, și în final, izolarea variabilei prin împărțire sau înmulțire cu coeficientul său.",
+      "Vom folosi un exemplu concret: 2x + 3 = 7. În primul pas, scădem 3 din ambele părți pentru a elimina termenul liber. Apoi, împărțim la 2 pentru a obține valoarea lui x.",
+      "După ce aplicăm acești pași, este important să verificăm dacă soluția găsită este corectă. Pentru asta, înlocuim x cu valoarea obținută în ecuație și vedem dacă egalitatea este adevărată.",
+      "O greșeală frecventă este să uiteți să aplicați operația pe ambele părți ale ecuației. De exemplu, dacă scădem 3 dintr-un termen, trebuie să facem același lucru și în celălalt termen altfel soluția va fi incorectă.",
+      "Alta confuzie este de a inversa operațiile. Dacă înmulțim un termen cu 2, nu putem adăuga 2 la celălalt termen, ci trebuie să împărțim la 2 pentru a menține echilibrul.",
+      "Pentru a evita aceste greșeli, este important să urmăm pașii în ordine și să verificăm soluția finală. De asemenea, este util să practicăm cu exerciții diverse pentru a consolida cunoștințele.",
+      "În concluzie, rezolvarea ecuațiilor liniare se bazează pe reguli clare și o metodă de lucru precisă. Prin urmare, este esențial să înțelegem fiecare pas și să aplicăm metoda corect.",
+      "Vom încheia cu un exemplu simplu pentru a recapitula pașii: 3x = 12. Împărțim ambele părți la 3 și obținem x = 4. Verificăm prin înlocuirea valorii în ecuație și constatăm că egalitatea este corectă."
+    ],
+    "ideiDeRetinut": [
+      "Orice operație aplicată unui termen trebuie să fie aplicată și celuilalt termen.",
+      "Proprietatea de inversare: înmulțire cu o valoare implică împărțire la aceeași valoare.",
+      "Verificarea soluției este esențială pentru a asigura corectitudinea."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: 2x + 3 = 7",
+      "enunt": "Rezolvați ecuația: 2x + 3 = 7.",
+      "rezolvareScurta": [
+        "Scădem 3 din ambele părți: 2x = 4.",
+        "Împărțim la 2: x = 2."
+      ],
+      "raspuns": "x = 2"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este soluția ecuației 3x - 5 = 10?",
+      "variante": [
+        "x = 4",
+        "x = 5",
+        "x = 6",
+        "x = 7"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "Scădem 5 din ambele părți: 3x = 15. Împărțim la 3: x = 5."
+    }
+  }
+}

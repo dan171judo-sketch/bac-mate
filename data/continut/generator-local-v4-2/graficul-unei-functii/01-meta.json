@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Reprezentarea grafică a funcțiilor reale de variabilă reală",
+  "descriere": "Lectia se concentrează pe înțelegerea conceptului de grafic al unei funcții și pe interpretarea acestuia în planul cartezian.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție reală de variabilă reală",
+    "Reprezentarea punctelor în planul cartezian",
+    "Interpretarea graficului unei funcții simple"
+  ],
+  "obiective": [
+    "Să definească graficul unei funcții reale de variabilă reală",
+    "Să identifice puncte de pe graficul unei funcții",
+    "Să interpreteze graficul unei funcții în contextul problemei date",
+    "Să construiască graficul unei funcții simple"
+  ],
+  "termeniCheie": [
+    "grafic al funcției",
+    "plan cartezian",
+    "punct de pe grafic",
+    "reprezentare grafică"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea dintre șir și funcție",
+      "deCeEsteGresit": "Un șir este o funcție cu domeniul de definiție N, în timp ce o funcție generală poate avea orice mulțime ca domeniu. Confuzia apare când elevii consideră că un șir poate fi definit pentru valori reale sau fracționare.",
+      "cumOEviti": "Reamintiți-vă întotdeauna că șirurile sunt definite doar pentru numere naturale."
+    },
+    {
+      "greseala": "Creșterea sau scăderea unui șir în funcție de termenii individuali",
+      "deCeEsteGresit": "Un șir nu este crescător dacă fiecare termen este mai mare decât precedentul, ci dacă toți termenii începând cu al doilea sunt mai mari decât cei dinainte.",
+      "cumOEviti": "Analizați întotdeauna șirul în ansamblu, nu doar prin comparație individuală a termenilor."
+    },
+    {
+      "greseala": "Confuzia între șir finit și infinit",
+      "deCeEsteGresit": "Un șir finit are un număr fix de termeni, în timp ce unul infinit are o infinitate de termeni. Elevii pot confunda cele două concepte atunci când nu se concentrează pe numărul de termeni.",
+      "cumOEviti": "Reamintiți-vă că șirurile finite au un ultim termen, în timp ce cele infinite nu au."
+    },
+    {
+      "greseala": "Folosirea formulei generale pentru termeni negativi",
+      "deCeEsteGresit": "Formula generală este definită pentru n ∈ N, deci nu se aplică pentru valori negative ale lui n. Elevii pot greși atunci când încercă să calculeze termeni care nu există în șir.",
+      "cumOEviti": "Verificați întotdeauna dacă formula generală este definită pentru toate valorile naturale ale lui n."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Un șir este o funcție cu domeniul de definiție N.",
+      "Șirurile pot fi definite prin formula generală, recurență sau enumerare.",
+      "Clasificarea șirurilor se face în funcție de termenii lor: crescătoare, descrescătoare, constantă, alternată.",
+      "Un șir finit are un număr fix de termeni, iar unul infinit are o infinitate."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă formula generală este definită pentru toate valorile naturale ale lui n.",
+      "Analizează șirul în ansamblu, nu doar prin comparație individuală a termenilor.",
+      "Reamintiți-vă că un șir finit are un ultim termen, iar unul infinit nu.",
+      "Clasifică șirul corect în funcție de termenii lui."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptul de șir este esențial pentru examenul de Bacalaureat, deoarece apare în mai multe subiecte, inclusiv în probleme de analiză a comportamentului unui șir sau în studiul convergenței.",
+    "tipuriCerinte": [
+      "Definirea unui șir prin formula generală sau recurență",
+      "Clasificarea unui șir în funcție de termenii lui",
+      "Identificarea dacă un șir este finit sau infinit",
+      "Analiza comportamentului unui șir"
+    ],
+    "strategie": [
+      "Învățați definițiile și clasificările corecte ale șirurilor.",
+      "Antrenați-vă să identificați modul de definire al unui șir (formula generală, recurență sau enumerare).",
+      "Repetați regulile de clasificare a șirurilor pentru a evita confuziile comune.",
+      "Exercați analiza comportamentului unui șir în contextul problemelor propuse."
+    ]
+  }
+}

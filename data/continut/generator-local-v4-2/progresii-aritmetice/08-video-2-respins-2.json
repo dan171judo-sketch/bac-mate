@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva probleme eficient.",
+    "Regula pe care o vom studia se referă la modul în care trebuie să abordăm anumite tipuri de exerciții. Este important să înțelegem exact ce ne cere regula, pentru a aplica corect metoda.",
+    "Această regulă este folosită în multe contexte matematice, cum ar fi adunarea și scăderea numerelor, compararea fracțiilor sau rezolvarea ecuațiilor. Înțelegerea ei ne ajută să gândim mai clar și să evităm confuziile.",
+    "Pentru a înțelege bine regula, trebuie să o analizăm pas cu pas. Vom începe prin a defini ce este regula, apoi vom vedea de ce funcționează, cum se aplică și cum putem verifica dacă am folosit-o corect.",
+    "Regula ne spune că în anumite cazuri, trebuie să urmăm o anumită ordine a pașilor. De exemplu, în unele probleme, este necesar să rezolvăm mai întâi ceva și apoi altceva, pentru a obține un rezultat corect.",
+    "De ce funcționează această regulă? Pentru că matematica este o disciplină logică. Dacă nu urmăm o ordine clară, putem obține răspunsuri greșite sau neconcludente. Regula ne oferă un cadru structurat pentru gândire.",
+    "Pentru a aplica regula corect, trebuie să identificăm ce pași sunt necesari și în ce ordine. De exemplu, dacă avem o ecuație cu paranteze, trebuie să rezolvăm întâi ceea ce este în paranteză, apoi restul.",
+    "Vom folosi un exemplu concret pentru a vedea cum se aplică regula. Vom analiza pas cu pas fiecare etapă și vom verifica dacă răspunsul obținut este corect. Acest lucru ne ajută să înțelegem mai bine metoda.",
+    "Un tip de greșeală frecventă este atunci când elevii aplică regula într-o ordine incorectă. De exemplu, pot rezolva parantezele dintr-o altă ordine decât cea cerută de regulă, ceea ce duce la răspunsuri eronate.",
+    "Pentru a evita această greșeală, este important să ne concentrăm pe pașii specificați de regula. De fiecare dată când întâlnim o problemă similară, trebuie să verificăm dacă am urmat exact ordinea cerută.",
+    "În concluzie, această regulă este esențială pentru a rezolva corect anumite tipuri de probleme. Prin înțelegerea ei și aplicarea pașilor specificați, putem evita greșelile și obține răspunsuri precise.",
+    "Pentru a consolida ceea ce am învățat, vom face o verificare rapidă. Vom analiza o întrebare simplă cu patru variante de răspuns, iar tu vei alege varianta corectă. Acest lucru ne ajută să consolidăm cunoștințele."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru a rezolva corect anumite tipuri de probleme.",
+    "Este important să urmăm ordinea pașilor cerută de regula.",
+    "Greșelile frecvente apar atunci când nu se respectă ordinea corectă.",
+    "Verificarea răspunsului este pasul final pentru a asigura precizia."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare exemplu",
+    "enunt": "Calculează: (5 + 3) × 2 - 4.",
+    "rezolvareScurta": [
+      "Începe cu paranteza: 5 + 3 = 8.",
+      "Înmulțește rezultatul cu 2: 8 × 2 = 16.",
+      "Scade 4 din rezultat: 16 - 4 = 12."
+    ],
+    "raspuns": "12"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este mai mare, 5 + 3 × 2 sau (5 + 3) × 2?",
+    "variante": [
+      "5 + 3 × 2",
+      "(5 + 3) × 2",
+      "Ambele sunt egale",
+      "Nu se pot compara"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "În primul caz, conform regulii, înmulțirea vine înainte adunării, deci 5 + (3 × 2) = 11. În al doilea caz, paranteza este rezolvată prima, deci (5 + 3) × 2 = 16. Așadar, al doilea răspuns este corect."
+  }
+}

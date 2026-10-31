@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Paranteza si ordinea operatiilor: Intuitia si intelegerea conceptului",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora cum funcționează paranteza într-un exercițiu matematic. Vom înțelege de ce este importantă ordinea efectuării operațiilor și cum putem folosi parantezele pentru a schimba această ordine. Vom vedea cum se rezolvă un exercițiu pas cu pas, vom analiza o greșeală comună și vom învăța cum să evităm ea.",
+    "scenariu": [
+      "Începem prin a ne gândi la matematica ca la o limbă. În orice limbă, există reguli care ne spun cum să folosim cuvintele pentru a comunica clar. În matematică, aceste reguli se numesc ordinea operațiilor și parantezele sunt un fel de cuvinte cheie care ne indică ce trebuie să facem mai întâi.",
+      "Să presupunem că vrem să calculăm 8 + 2 × 3. Dacă nu folosim paranteze, regula spune că înmulțirea vine prima, deci rezultatul este 14. Dar dacă vrem ca adunarea să fie făcută mai întâi, trebuie să o punem în paranteze: (8 + 2) × 3 = 30. Paranteza ne spune că această operație are prioritate.",
+      "Paranteza este un instrument foarte puternic în matematică. Ne permite să schimbăm ordinea naturală a calculelor și să obținem rezultate exacte. Fără paranteze, am putea greși dacă nu știm ce operație trebuie făcută mai întâi.",
+      "De ce este importantă această regulă? Pentru că matematica este o limbă precisă. Dacă nu respectăm ordinea operațiilor, putem obține rezultate greșite. Paranteza ne ajută să exprimăm ideile exact așa cum le avem în minte.",
+      "Să luăm un exemplu simplu: 5 + (3 × 2). Aici, paranteza ne spune că trebuie să facem înmulțirea mai întâi. Deci, 3 × 2 = 6, apoi adunăm 5 și obținem 11. Dacă nu ar fi fost paranteza, am fi făcut adunarea mai întâi și am fi avut 8 × 2 = 16.",
+      "Vom vedea acum cum se rezolvă un exercițiu pas cu pas. Să luăm (7 + 3) × 4. În primul rând, calculăm ce este în paranteză: 7 + 3 = 10. Apoi, înmulțim rezultatul cu 4 și obținem 40.",
+      "Este important să ne concentrăm pe paranteza întâi, apoi să trecem la celelalte operații. Acest lucru ne ajută să evităm greșelile comune, cum ar fi a face adunarea înainte de înmulțire fără a respecta regulile.",
+      "O greșeală frecventă este să neglijăm paranteza și să aplicăm operațiile în ordinea naturală. De exemplu, dacă avem 6 + (2 × 3), cineva ar putea face adunarea mai întâi și obține 8 × 3 = 24, ceea ce este greșit.",
+      "Cum putem evita această greșeală? Prin exerciții repetate și prin a ne aminti că paranteza are prioritate. De fiecare dată când vedem o paranteză, trebuie să calculăm ce este în ea înainte de orice altceva.",
+      "Vom reveni acum la exemplul nostru: (8 + 2) × 2 = 16. Aici, am adunat mai întâi și apoi am înmulțit. Dacă nu ar fi fost paranteza, am fi avut 8 × 2 = 16, dar rezultatul ar fi fost același. Așa că, în unele cazuri, paranteza poate să nu schimbe rezultatul, dar este totuși importantă pentru a exprima ideea corect.",
+      "În concluzie, paranteza ne permite să controlăm ordinea operațiilor și să obținem rezultate exacte. Este o parte esențială a matematicii și trebuie înțeleasă cu atenție. Prin exerciții repetate și prin a respecta regulile, putem evita greșelile comune și să ne descurcăm mai bine.",
+      "Așadar, paranteza este un instrument de bază în matematică. Ne ajută să exprimăm idei clare și să obținem rezultate corecte. Este important să o folosim cu atenție și să ne amintim că ea are prioritate față de alte operații."
+    ],
+    "ideiDeRetinut": [
+      "Paranteza indică ce operație trebuie făcută mai întâi.",
+      "Fără paranteze, se respectă ordinea naturală a operațiilor.",
+      "Paranteza este esențială pentru a exprima ideile corect."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: (8 + 2) × 2",
+      "enunt": "Calculați rezultatul expresiei: (8 + 2) × 2.",
+      "rezolvareScurta": [
+        "Adunăm 8 cu 2: 8 + 2 = 10.",
+        "Înmulțim rezultatul cu 2: 10 × 2 = 20."
+      ],
+      "raspuns": "20"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul calculului: (6 + 4) ÷ 2?",
+      "variante": [
+        "5",
+        "10",
+        "8",
+        "12"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Adunăm 6 cu 4, obținem 10. Apoi împărțim la 2 și obținem 5."
+    }
+  }
+}

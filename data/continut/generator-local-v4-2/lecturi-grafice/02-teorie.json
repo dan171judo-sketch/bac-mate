@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Este mulțimea punctelor din plan de forma (x, f(x)), unde x este domeniul de definiție al funcției și f(x) este valoarea corespunzătoare.",
+      "observatie": "Graficul oferă o reprezentare vizuală a comportamentului funcției."
+    },
+    {
+      "termen": "monotonia",
+      "definitie": "Este proprietatea unei funcții de a fi crescătoare, descrescătoare sau constantă pe un interval.",
+      "observatie": "Monotonia se poate deduce dintr-un grafic prin analiza poziției punctelor."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Intersecțiile cu axele de coordonate",
+      "explicatie": "Punctele în care graficul intersectează axa Ox au ordonata zero, iar cele care intersectează axa Oy au abscisa zero. Aceste puncte sunt importante pentru interpretarea funcției.",
+      "ideiCheie": [
+        "Intersecția cu Ox se obține prin rezolvarea ecuației f(x) = 0",
+        "Intersecția cu Oy se obține prin calculul f(0)"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Simetria graficului",
+      "explicatie": "Graficul unei funcții poate fi simetric față de originea sistemului de coordonate sau față de axa Oy. Aceste simetrii oferă informații despre proprietățile funcției.",
+      "ideiCheie": [
+        "Simetria față de origine implică f(-x) = -f(x)",
+        "Simetria față de axa Oy implică f(-x) = f(x)"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Semnul funcției pe grafic",
+      "explicatie": "Semnul funcției se determină prin poziția graficului față de axa Ox. Dacă graficul este deasupra acesteia, funcția are semn pozitiv; dacă este sub axa Ox, funcția are semn negativ.",
+      "ideiCheie": [
+        "Semnul funcției se citește în funcție de poziția graficului față de Ox",
+        "Punctele de intersecție cu Ox indică trecerea semnului funcției"
+      ]
+    }
+  ],
+  "formule": []
+}

@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru calculul procentului",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a calcula corect procentul. Vom învăța cum să aplicăm aceste reguli în exerciții practice și vom evita greșelile frecvente.",
+    "scenariu": [
+      "În acest videoclip, vom explora regulile esențiale pentru calculul procentului. Procentul este o metodă de exprimare a unei părți dintr-un întreg, folosită în multe situații din viața cotidiană și în matematică.",
+      "Este important să înțelegem că procentul se calculează prin împărțirea valorii respective la total, apoi înmulțită cu 100. Acest lucru ne permite să exprimăm o parte dintr-un întreg sub forma unei fracțiuni centrale.",
+      "De exemplu, dacă un elev obține 70 de puncte dintr-un test cu 100 de puncte, procentul este calculat prin (70 / 100) × 100 = 70%. Acest lucru ne arată că elevul a reușit să obțină 70% din total.",
+      "Regula principală pentru calculul procentului este: Procentul = (Valoarea / Total) × 100. Această formulă este esențială și trebuie înțeleasă bine, deoarece se folosește frecvent în probleme matematice.",
+      "De ce funcționează această regulă? Deoarece procentul reprezintă o fracțiune dintr-un întreg exprimată în centi (100). Prin urmare, împărțind valoarea la total, obținem o fracțiune, iar înmulțirea cu 100 transformă această fracțiune într-un procent.",
+      "Metoda de lucru pentru a calcula un procent este foarte simplă. Începem prin identificarea valorii și a totalului din problemă. Apoi, împărțim valoarea la total și înmulțim rezultatul cu 100.",
+      "Să luăm un exemplu concret: O companie are 500 de angajați, iar 200 dintre ei sunt femei. Cât procent reprezintă femeile din totalul angajaților?",
+      "Pentru a rezolva această problemă, identificăm valoarea (200) și totalul (500). Aplicăm formula: (200 / 500) × 100 = 40%. Așadar, femeile reprezintă 40% din angajații companiei.",
+      "O greșeală frecventă este să uiteți să înmulțiți cu 100 la final. De exemplu, dacă împărțiți doar 200 / 500 = 0.4 și nu înmulțiți cu 100, veți obține un rezultat greșit (0.4 în loc de 40%).",
+      "Pentru a evita această greșeală, este important să rețineți că procentul trebuie întotdeauna exprimat sub forma unei valori numerice cu semnul % la final. Acest lucru ne ajută să înțelegem mai bine ce reprezintă procentul.",
+      "Un alt tip de confuzie apare când elevii împart totalul la valoarea dată, în loc să împartă valoarea la total. De exemplu, dacă se calculează 500 / 200 = 2.5, aceasta este o greșeală majoră.",
+      "Pentru a evita astfel de greșeli, este important să rețineți că procentul este întotdeauna valoarea împărțită la total, nu invers."
+    ],
+    "ideiDeRetinut": [
+      "Procentul se calculează prin (Valoare / Total) × 100.",
+      "Este esențial să înmulțiți rezultatul cu 100 pentru a obține procentul corect.",
+      "Evitați greșeala de a inversa valoarea și totalul."
+    ],
+    "exemplu": {
+      "titlu": "Calculul procentului dintr-o problemă practică",
+      "enunt": "O companie are 500 de angajați, iar 200 dintre ei sunt femei. Cât procent reprezintă femeile din totalul angajaților?",
+      "rezolvareScurta": [
+        "Identificăm valoarea (200) și totalul (500).",
+        "(200 / 500) × 100 = 40%."
+      ],
+      "raspuns": "40%"
+    },
+    "verificareRapida": {
+      "intrebare": "Un elev obține 60 de puncte dintr-un test cu 80 de puncte. Cât procent reprezintă aceste puncte?",
+      "variante": [
+        "75%",
+        "60%",
+        "80%",
+        "45%"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Procentul se calculează prin (60 / 80) × 100 = 75%. Acesta este răspunsul corect."
+    }
+  }
+}

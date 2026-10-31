@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă produce 100 de produse la un cost variabil de 20 lei per unitate și are costuri fixe de 300 lei. Dacă prețul de vânzare este de 40 lei, să se determine profitul total.",
+      "variante": [],
+      "raspunsCorect": "Profitul total este de 1000 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 40 * 100 = 4000 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 20 * 100 = 2000 lei, iar costurile fixe sunt 300 lei. Costul total este 2000 + 300 = 2300 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 4000 - 2300 = 1700 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 2000 lei și costuri variabile de 15 lei per unitate. Dacă prețul de vânzare este de 30 lei, să se determine profitul pentru 80 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 600 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 30 * 80 = 2400 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 15 * 80 = 1200 lei, iar costurile fixe sunt 2000 lei. Costul total este 1200 + 2000 = 3200 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 2400 - 3200 = -800 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 1000 lei și costuri variabile de 25 lei per unitate. Dacă prețul de vânzare este de 40 lei, să se determine profitul pentru 50 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 750 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 40 * 50 = 2000 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 25 * 50 = 1250 lei, iar costurile fixe sunt 1000 lei. Costul total este 1250 + 1000 = 2250 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 2000 - 2250 = -250 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "O firmă are costuri fixe de 1200 lei și costuri variabile de 30 lei per unitate. Dacă prețul de vânzare este de 50 lei, să se determine profitul pentru 60 unități produse.",
+      "variante": [],
+      "raspunsCorect": "Profitul este de 1200 lei.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 50 * 60 = 3000 lei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile variabile sunt 30 * 60 = 1800 lei, iar costurile fixe sunt 1200 lei. Costul total este 1800 + 1200 = 3000 lei."
+        }
+      ],
+      "explicatieFinala": "Profitul se calculează ca diferență între venituri și costuri totale: 3000 - 3000 = 0 lei.",
+      "competenta": "Calcularea profitului într-o firmă",
+      "punctaj": 5
+    }
+  ]
+}

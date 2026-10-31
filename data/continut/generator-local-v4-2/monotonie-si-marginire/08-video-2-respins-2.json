@@ -1,0 +1,45 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă matematică importantă care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente. Vom vedea cum funcționează, de ce e importantă și cum putem folosi-o corect.",
+    "Regula pe care o vom analiza se referă la modul în care trebuie să abordăm anumite tipuri de probleme matematice. Deși pare simplă, multe elevi o aplică greșit, ceea ce duce la erori nedorite. Este important să înțelegem exact cum funcționează și unde se poate aplica.",
+    "Vom începe prin a defini clar regula. Regula spune că atunci când avem de rezolvat o ecuație sau un exercițiu, trebuie să urmăm pașii într-o anumită ordine. Acest lucru este esențial pentru a obține rezultate corecte și rapide.",
+    "De ce e importantă această regulă? Pentru că dacă nu urmăm pașii corecți, putem ajunge la răspunsuri greșite. De exemplu, dacă începem cu o operație care nu trebuie făcută prima, vom obține un rezultat incorect, chiar dacă restul calculelor sunt corecte.",
+    "Metoda de lucru implică mai multe pași: în primul rând, citim atent problema și identificăm ce ne cere. Apoi, stabilim ce operații trebuie efectuate și în ce ordine. În final, executăm calculele pas cu pas, verificând rezultatul la fiecare etapă.",
+    "Vom folosi un exemplu concret pentru a vedea cum funcționează această metodă. Să presupunem că avem de rezolvat o ecuație simplă, precum 2x + 4 = 10. În primul rând, trebuie să izolăm variabila x, ceea ce implică scăderea lui 4 din ambele părți ale egalității.",
+    "După aceea, împărțim ambii membri la 2 pentru a obține valoarea lui x. Astfel, obținem x = 3. Este important să verificăm rezultatul înlocuind x cu 3 în ecuație: 2*3 + 4 = 10, ceea ce este corect.",
+    "O greșeală frecventă este să se execute operațiile într-o ordine incorectă. De exemplu, dacă cineva adună 4 la 10 înainte de a scădea 4 din ambele părți, va obține un rezultat greșit. Acest lucru arată că este esențial să urmăm pașii corecți.",
+    "Cum putem evita această greșeală? Prin exercițiu constant și prin a ne aminti că ordinea operațiilor este crucială. De asemenea, este important să verificăm întotdeauna rezultatul final pentru a ne asigura că nu am făcut nicio greșeală.",
+    "În concluzie, regula pe care o discutăm azi este esențială pentru a rezolva corect problemele matematice. Este important să urmăm pașii în ordine și să verificăm rezultatul la fiecare etapă. Astfel, putem evita greșelile frecvente și obține răspunsuri corecte.",
+    "Pentru a ne asigura că am înțeles bine, vom face o verificare rapidă. Alege varianta corectă din cele patru oferite și vezi dacă ai reușit să aplici regula corect."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru a evita greșeli în rezolvarea problemelor matematice.",
+    "Pașii trebuie urmați într-o ordine specifică pentru a obține un rezultat corect.",
+    "Verificarea rezultatului la fiecare etapă este importantă pentru a preveni erori.",
+    "O greșeală frecventă este să se execute operațiile într-o ordine incorectă."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvarea unei ecuații simple",
+    "enunt": "Rezolvi ecuația: 2x + 4 = 10.",
+    "rezolvareScurta": [
+      "Scade 4 din ambele părți: 2x = 6.",
+      "Împarte ambii membri la 2: x = 3."
+    ],
+    "raspuns": "x = 3"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este rezultatul ecuației 2x + 4 = 10?",
+    "variante": [
+      "x = 6",
+      "x = 5",
+      "x = 3",
+      "x = 2"
+    ],
+    "raspunsCorect": 2,
+    "explicatie": "Pentru a rezolva ecuația, scădem 4 din ambele părți: 2x = 6. Apoi împărțim la 2 și obținem x = 3."
+  }
+}

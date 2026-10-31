@@ -1,0 +1,42 @@
+{
+  "definitii": [
+    {
+      "termen": "sistem de ecuații",
+      "definitie": "Un ansamblu format din două sau mai multe ecuații care trebuie rezolvate simultan, adică găsite valorile variabilelor care satisfac toate ecuațiile.",
+      "observatie": "Sistemul este compatibil dacă există soluții comune tuturor ecuațiilor."
+    },
+    {
+      "termen": "dreaptă în plan",
+      "definitie": "O mulțime de puncte din plan care pot fi descrise prin o ecuație liniară de forma ax + by + c = 0, unde a, b, c sunt numere reale și a ≠ 0 sau b ≠ 0.",
+      "observatie": "Fiecare dreaptă este determinată de un singur vector normal."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Reprezentarea geometrică a unei ecuații liniare",
+      "explicatie": "O ecuație liniară în două variabile, de forma ax + by + c = 0, reprezintă o dreaptă în planul cartezian. Fiecare punct (x, y) care satisface ecuația aparține acestei drepte.",
+      "ideiCheie": [
+        "O ecuație liniară definește o dreaptă în plan",
+        "Fiecare soluție a ecuației este un punct de pe dreaptă"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Interpretarea geometrică a sistemelor de două ecuații liniare",
+      "explicatie": "Un sistem format din două ecuații liniare reprezintă intersecția a două drepte în plan. Soluția sistemului este punctul comun al celor două drepte, dacă există.",
+      "ideiCheie": [
+        "Soluția sistemului este punctul de intersecție al dreptelor",
+        "Dacă dreptele nu se intersectează, sistemul nu are soluții"
+      ]
+    },
+    {
+      " ": "explicatie”: “Intersecția dintre două drepte poate fi un punct, o dreaptă (dacă sunt coincidente) sau niciun punct (dacă sunt paralele). Aceste cazuri corespund la sisteme compatibile, compatibile determinate și incompatibile.",
+      "ideiCheie": [
+        "Dreptele pot fi concurente, paralele sau coincidente",
+        "Cazurile geometrice definesc tipul de soluții ale sistemului"
+      ]
+    }
+  ],
+  "formule": []
+}

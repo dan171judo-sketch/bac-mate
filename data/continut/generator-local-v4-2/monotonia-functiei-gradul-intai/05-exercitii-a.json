@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați monotonia funcției f(x) = -2x + 5.",
+      "variante": [],
+      "raspunsCorect": "strict descrescătoare",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = -2x + 5 are forma generală f(x) = ax + b, unde a = -2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de monotonie",
+          "continut": "Pentru ca funcția să fie strict descrescătoare, trebuie ca a < 0. În cazul nostru, -2 < 0, deci funcția este strict descrescătoare."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director.",
+      "competenta": "Identificarea monotoniilor funcțiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați monotonia funcției f(x) = (3 - m)x + 7, pentru m ∈ R.",
+      "variante": [],
+      "raspunsCorect": "strict crescătoare dacă m < 3; strict descrescătoare dacă m > 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (3 - m)x + 7 are forma generală f(x) = ax + b, unde a = 3 - m."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de monotonie",
+          "continut": "Pentru ca funcția să fie strict crescătoare, trebuie ca a > 0 ⇒ 3 - m > 0 ⇒ m < 3. Pentru ca să fie strict descrescătoare, trebuie ca a < 0 ⇒ 3 - m < 0 ⇒ m > 3."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director, care depinde de parametrul m.",
+      "competenta": "Analiza monotoniilor funcțiilor liniare cu parametru",
+      "punctaj": 7
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f(x) = (2m - 1)x + 4. Care dintre următoarele afirmații este adevărată?",
+      "variante": [
+        "Funcția este strict crescătoare pentru orice m ∈ R.",
+        "Funcția este strict descrescătoare dacă m > 1/2.",
+        "Funcția este constantă dacă m = 1/2.",
+        "Funcția este strict descrescătoare pentru orice m ∈ R."
+      ],
+      "raspunsCorect": "Funcția este strict descrescătoare dacă m > 1/2.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (2m - 1)x + 4 are forma generală f(x) = ax + b, unde a = 2m - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de monotonie",
+          "continut": "Pentru ca funcția să fie strict descrescătoare, trebuie ca a < 0 ⇒ 2m - 1 < 0 ⇒ m < 1/2. Deci, afirmația corectă este: Funcția este strict descrescătoare dacă m > 1/2."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director, care depinde de parametrul m.",
+      "competenta": "Analiza monotoniilor funcțiilor liniare cu parametru",
+      "punctaj": 7
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f(x) = (m + 1)x - 3. Determinați valorile lui m pentru care funcția este strict crescătoare.",
+      "variante": [],
+      "raspunsCorect": "m > -1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (m + 1)x - 3 are forma generală f(x) = ax + b, unde a = m + 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de monotonie",
+          "continut": "Pentru ca funcția să fie strict crescătoare, trebuie ca a > 0 ⇒ m + 1 > 0 ⇒ m > -1."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director, care depinde de parametrul m.",
+      "competenta": "Analiza monotoniilor funcțiilor liniare cu parametru",
+      "punctaj": 8
+    }
+  ]
+}

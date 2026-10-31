@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducerea ecuațiilor liniare: de la intuitie la rezolvare",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 al lectiei despre ecuații liniare începe cu o explicație intuitivă a conceptului, urmată de o abordare pas cu pas pentru înțelegerea și rezolvarea acestora. Elevul va învăța cum să gândească matematică, nu doar să aplică formule.",
+    "scenariu": [
+      "Începem prin a ne întreba: ce înseamnă o ecuație? O ecuație este ca un joc de ghicire. Ai un număr ascuns și trebuie să-l descoperi. De exemplu, dacă spun că 2 ori x este egal cu 6, atunci x trebuie să fie 3. Acesta este un tip de ecuație simplă, pe care oamenii au folosit de mii de ani.",
+      "Ecuatia este o propozitie matematica in care apare o variabila necunoscuta. Scopul este sa gasim valoarea acestei variabile care face ca ecuatia sa fie adevarata. O ecuatie liniara este una in care variabila apare doar la puterea I, adica nu se ridică la patrat sau cub.",
+      "Pentru a înțelege mai bine, să ne gândim la o situație din viața de zi cu zi. Să zicem că ai 5 mere și îți dă un prieten încă 3 mere. Câte mere ai acum? Răspunsul este 8. Dar dacă nu cunoști numărul de mere pe care îți le-a dat prietenul, cum aș rezolva problema?",
+      "Aici intrăm în lumea ecuațiilor. Dacă notăm cu x numărul de mere pe care îți le-a dat prietenul, atunci 5 + x = 8. Acesta este un exemplu simplu de ecuație liniară. Soluția este x = 3, adică prietenul tău te-a dat 3 mere.",
+      "Acum să ne întrebăm: de ce este importantă înțelegerea acestor ecuații? Pentru că ele sunt folosite în multe situații din viața reală – de la calcularea unui salariu până la planificarea unei călătorii. Înțelegerea lor ne ajută să gândim logic și să luăm decizii bine fundamentate.",
+      "Pentru a rezolva o ecuație liniară, trebuie să izolăm variabila. Acest lucru înseamnă că trebuie să adunăm sau să scădem aceeași valoare din ambele părți ale ecuației, pentru a menține echilibrul matematic. De exemplu, dacă avem 2x = 6, putem împărți ambii termeni la 2 și obținem x = 3.",
+      "Este important să înțelegem de ce această metodă funcționează. Dacă adunăm sau scădem același număr din ambele părți, ecuația rămâne echilibrată. Acest principiu este esențial pentru a rezolva orice ecuație liniară.",
+      "Să luăm un exemplu concret: 3x + 2 = 11. Pentru a găsi x, trebuie să eliminăm 2 din partea stângă. Așadar, scădem 2 din ambele părți și obținem 3x = 9. Apoi împărțim ambii termeni la 3 și găsim că x = 3.",
+      "O greșeală frecventă este să se uite doar la un singur termen, fără a menține echilibrul între cele două părți ale ecuației. De exemplu, dacă cineva adună 2 doar din partea stângă, va obține o soluție incorectă. Este esențial să se opereze același lucru în ambele părți.",
+      "Pentru a evita această greșeală, elevul trebuie să se gândească la ecuație ca la o balanță. Dacă adaugi ceva pe un capăt, trebuie să adaugi același lucru și pe celălalt. Acest principiu este cheia rezolvării corecte a oricărei ecuații.",
+      "În concluzie, înțelegerea conceptului de ecuație liniară începe cu intuitia, apoi se construiește prin regula echilibrului matematic. Prin aplicarea corectă a acestei reguli, elevul poate rezolva orice ecuație simplă.",
+      "Acesta este doar începutul către înțelegerea completă a ecuațiilor liniare. În continuare vom vedea cum se aplică această metodă în exerciții concrete și cum să verificăm dacă soluția găsită este corectă."
+    ],
+    "ideiDeRetinut": [
+      "O ecuație este o propoziție matematică care conține o variabilă necunoscută.",
+      "Rezolvarea unei ecuații presupune găsirea valorii variabilei care face ca ecuația să fie adevărată.",
+      "Echilibrul matematic este esențial: același lucru trebuie făcut în ambele părți ale ecuației."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu de rezolvare a unei ecuații liniare",
+      "enunt": "Rezolvați ecuația 4x + 5 = 13.",
+      "rezolvareScurta": [
+        "Scădem 5 din ambele părți: 4x = 8.",
+        "Împărțim ambii termeni la 4: x = 2."
+      ],
+      "raspuns": "x = 2"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați ecuația 3x - 7 = 5.",
+      "variante": [
+        "x = 4",
+        "x = 6",
+        "x = 2",
+        "x = 8"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Adunăm 7 în ambele părți: 3x = 12. Împărțim la 3: x = 4."
+    }
+  }
+}

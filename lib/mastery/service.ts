@@ -24,6 +24,17 @@ export type SaveAttemptInput = {
     | "review"
     | "mascot"
     | "bac_simulation";
+
+  /*
+   * Identifică sesiunea care a produs încercarea.
+   *
+   * Pentru simulările BAC va conține ID-ul
+   * din bac_simulations.
+   *
+   * Pentru lecțiile și funcțiile vechi rămâne null,
+   * deci comportamentul existent nu este afectat.
+   */
+  sourceSessionId?: string | null;
 };
 
 type MasteryRow = {
@@ -93,6 +104,10 @@ export async function saveStudentAttempt(
 
   /*
    * 3. Salvăm încercarea.
+   *
+   * source_session_id este opțional.
+   * Pentru o simulare BAC primește ID-ul
+   * sesiunii din bac_simulations.
    */
 
   const {
@@ -125,6 +140,9 @@ export async function saveStudentAttempt(
 
       source:
         input.source ?? "lesson",
+
+      source_session_id:
+        input.sourceSessionId ?? null,
     })
     .select("id")
     .single();
@@ -363,8 +381,8 @@ export async function saveStudentAttempt(
   }
 
   /*
-   * 9. Returnăm rezultatul pentru interfață
-   * și, ulterior, pentru mascotă.
+   * 9. Returnăm rezultatul pentru interfață,
+   * mascotă și celelalte motoare BAC MATE.
    */
 
   return {

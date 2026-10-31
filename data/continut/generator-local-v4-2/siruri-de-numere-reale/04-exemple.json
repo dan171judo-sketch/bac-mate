@@ -1,0 +1,89 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Definirea unui șir prin formula generală",
+      "nivel": "fundament",
+      "enunt": "Se consideră șirul (aₙ) definit prin formula generală aₙ = 2n + 1. Calculați primii trei termeni ai șirului.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea primului termen",
+          "continut": "Pentru n = 1, avem a₁ = 2·1 + 1 = 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea celui de-al doilea termen",
+          "continut": "Pentru n = 2, avem a₂ = 2·2 + 1 = 5."
+        }
+      ],
+      "raspunsFinal": "Primii trei termeni ai șirului sunt: a₁ = 3, a₂ = 5, a₃ = 7.",
+      "verificare": "Formula generală este aplicată corect pentru fiecare valoare naturală a lui n."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Clasificarea unui șir crescător",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră șirul (aₙ) definit prin aₙ = n². Determinați dacă șirul este crescător.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea primilor termeni",
+          "continut": "Pentru n = 1, avem a₁ = 1² = 1. Pentru n = 2, avem a₂ = 2² = 4. Pentru n = 3, avem a₃ = 3² = 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Analiza creșterii",
+          "continut": "Observăm că fiecare termen este mai mare decât cel precedent: 1 < 4 < 9, deci șirul este crescător."
+        }
+      ],
+      "raspunsFinal": "Șirul (aₙ) = n² este un șir crescător.",
+      "verificare": "Termenii au fost calculați corect și compararea a fost făcută în ansamblu, nu doar individual."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Definirea unui șir prin recurență",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră șirul (aₙ) definit prin a₁ = 2 și aₙ₊₁ = aₙ + 3, pentru n ≥ 1. Calculați primii patru termeni ai șirului.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea celui de-al doilea termen",
+          "continut": "Pentru n = 1, avem a₂ = a₁ + 3 = 2 + 3 = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea celui de-al treilea termen",
+          "continut": "Pentru n = 2, avem a₃ = a₂ + 3 = 5 + 3 = 8."
+        },
+        {
+          "numar": 3,
+          "titlu": "Calcularea celui de-al patrulea termen",
+          "continut": "Pentru n = 3, avem a₄ = a₃ + 3 = 8 + 3 = 11."
+        }
+      ],
+      "raspunsFinal": "Primii patru termeni ai șirului sunt: a₁ = 2, a₂ = 5, a₃ = 8, a₄ = 11.",
+      "verificare": "Recurența a fost aplicată corect pentru fiecare termen următor."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Clasificarea unui șir alternat",
+      "nivel": "avansat",
+      "enunt": "Se consideră șirul (aₙ) definit prin aₙ = (-1)^n + n. Determinați dacă șirul este alternat.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea primilor termeni",
+          "continut": "Pentru n = 1, avem a₁ = (-1)^1 + 1 = -1 + 1 = 0. Pentru n = 2, avem a₂ = (-1)^2 + 2 = 1 + 2 = 3. Pentru n = 3, avem a₃ = (-1)^3 + 3 = -1 + 3 = 2. Pentru n = 4, avem a₄ = (-1)^4 + 4 = 1 + 4 = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Analiza alternării",
+          "continut": "Observăm că semnul termenilor nu se schimbă în mod alternat, ci variază în funcție de valoarea lui n. Deci șirul nu este alternat."
+        }
+      ],
+      "raspunsFinal": "Șirul (aₙ) = (-1)^n + n nu este un șir alternat.",
+      "verificare": "Termenii au fost calculați corect și analiza a fost făcută în ansamblu, nu doar individual."
+    }
+  ]
+}

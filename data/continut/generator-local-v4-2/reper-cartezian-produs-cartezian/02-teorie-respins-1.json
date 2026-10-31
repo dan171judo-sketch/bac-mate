@@ -1,0 +1,43 @@
+{
+  "definitii": [
+    {
+      "termen": "reper cartezian",
+      "definitie": "Un reper cartezian este o pereche formată dintr-un punct O, numit origine, și trei axe perpendiculare între ele, notate cu Ox, Oy și Oz, care formează un sistem de coordonate în spațiu.",
+      "observatie": "În plan, reperul cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy."
+    },
+    {
+      "termen": "produs cartezian",
+      "definitie": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b), unde a ∈ A și b ∈ B.",
+      "observatie": "În cazul spațiului tridimensional, produsul cartezian este format din toate tripleturile (x, y, z)."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Componentele reperului cartezian",
+      "explicatie": "Un reper cartezian este definit de un punct O și axe perpendiculare. În plan, se folosesc două axe Ox și Oy; în spațiu, se adaugă o a treia axă Oz.",
+      "ideiCheie": [
+        "Originea reperului este punctul O.",
+        "Axele sunt perpendiculare între ele."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Coordonatele unui punct într-un reper",
+      "explicatie": "Fiecare punct din plan sau spațiu se poate exprima prin coordonate, care sunt distanțele de la axele respective. În plan, un punct are două coordonate; în spațiu, trei.",
+      "ideiCheie": [
+        "Coordonata x reprezintă poziția pe axa Ox.",
+        "Coordonata z reprezintă poziția pe axa Oz în spațiu."
+      ]
+    },
+    {
+      "3, titlu": "Relația dintre puncte și coordonate",
+      "explicatie": "Fiecare punct dintr-un reper cartezian are o corespondență directă cu un element al produsului cartezian. Acest lucru permite reprezentarea geometrică a mulțimilor de perechi sau tripleturi.",
+      "ideiCheie": [
+        "Punctele se asociază cu perechi de coordonate.",
+        "Produsul cartezian este o mulțime de perechi ordonate."
+      ]
+    }
+  ],
+  "formule": []
+}

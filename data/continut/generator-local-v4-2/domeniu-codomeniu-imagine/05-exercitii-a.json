@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Un dreptunghi are lungimea de 8 cm si latimea de 5 cm. Calculati perimetrul dreptunghiului.",
+      "variante": [],
+      "raspunsCorect": "26 cm",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula perimetrului dreptunghiului",
+          "continut": "Perimetrul unui dreptunghi se calculeaza cu formula P = 2*(l + L), unde l este latimea si L este lungimea."
+        },
+        {
+          "numar": 2,
+          "titlu": "Inlocuirea valorilor in formula",
+          "continut": "Inlocuim valorile: P = 2*(5 + 8) = 2*13 = 26 cm."
+        }
+      ],
+      "explicatieFinala": "Perimetrul dreptunghiului este 26 cm, conform calculelor efectuate.",
+      "competenta": "Calcularea perimetrului unui dreptunghi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este solutia ecuatiei 3x - 7 = 2?",
+      "variante": [
+        "x = 1",
+        "x = 2",
+        "x = 3",
+        "x = 4"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea variabilei x",
+          "continut": "Adunam 7 la ambele parti: 3x = 2 + 7 => 3x = 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Divizare cu 3",
+          "continut": "Impartim ambii termeni prin 3: x = 9 / 3 => x = 3."
+        }
+      ],
+      "explicatieFinala": "Solutia ecuatiei este x = 3, conform rezolvarii pas cu pas.",
+      "competenta": "Rezolvarea ecuatiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "avansat",
+      "tip": "rezolvare-completa",
+      "enunt": "Un triunghi are laturile de 6 cm, 8 cm si 10 cm. Verificati daca este dreptunghic si calculati aria acestuia.",
+      "variante": [],
+      "raspunsCorect": "Este dreptunghic, aria = 24 cm²",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea daca este dreptunghic",
+          "continut": "Pentru a verifica daca triunghiul este dreptunghic, folosim teorema lui Pitagora: a² + b² = c². Inlocuim valorile: 6² + 8² = 36 + 64 = 100 = 10²."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea ariei triunghiului",
+          "continut": "Aria unui triunghi dreptunghic se calculeaza cu formula A = (cateta1 * cateta2)/2. Inlocuim valorile: A = (6*8)/2 = 48/2 = 24 cm²."
+        }
+      ],
+      "explicatieFinala": "Triunghiul este dreptunghic si aria sa este de 24 cm², conform calculelor efectuate.",
+      "competenta": "Verificarea unui triunghi dreptunghic si calcularea ariei",
+      "punctaj": 10
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculati media aritmetica a numerelor 2, 4 si 6.",
+      "variante": [],
+      "raspunsCorect": "4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula mediei aritmetice",
+          "continut": "Media aritmetica se calculeaza prin adunarea tuturor numerelor si impartirea la numarul de termeni: (2 + 4 + 6)/3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul final",
+          "continut": "Inlocuim valorile: (2 + 4 + 6)/3 = 12/3 = 4."
+        }
+      ],
+      "explicatieFinala": "Media aritmetica a numerelor este 4, conform calculelor efectuate.",
+      "competenta": "Calcularea mediei aritmetice",
+      "punctaj": 5
+    }
+  ]
+}

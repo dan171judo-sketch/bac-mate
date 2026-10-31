@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 3,
+    "id": "video-3",
+    "titlu": "Negația unei propoziții compuse prin disjuncție",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom explora negația unei propoziții compuse prin disjuncție. Vom învăța cum se aplică regula de negație pentru o propoziție de tipul p ∨ q și vom rezolva un exemplu complet pas cu pas, pentru a înțelege mai bine mecanismul logic al negației.",
+    "scenariu": [
+      "Bună ziua! În acest videoclip, vom discuta despre negația unei propoziții compuse prin disjuncție. Acest subiect este important pentru a înțelege cum se inversează valoarea logică a unor enunțuri complexe.",
+      "În matematică, o propoziție compusă poate fi formată din mai multe propoziții simple legate prin operatori logici. Printre aceștia se află și disjuncția, notată cu semnul ∨, care înseamnă „sau”.",
+      "Când avem o propoziție de tipul p ∨ q („p sau q”), negația ei nu este doar „nu p sau nu q”, ci trebuie să respecte o regulă specifică. Acest lucru se explică prin logica formală și este esențial pentru a evita greșeli comune.",
+      "Regula de negație pentru disjuncție spune că negația unei propoziții compuse prin „sau” este echivalentă cu negarea fiecărei componente legate prin „și”. Matematic, aceasta se scrie: ¬(p ∨ q) = ¬p ∧ ¬q.",
+      "De exemplu, dacă avem propoziția „7 este un număr impar sau 9 este un număr par”, negația ei va fi „7 nu este un număr impar și 9 nu este un număr par”. Acest lucru se explică prin faptul că pentru ca o disjuncție să fie falsă, ambele componente trebuie să fie false.",
+      "Vom rezolva acum un exemplu complet. Să presupunem că avem propoziția: „7 este un număr impar sau 9 este un număr par”. Vrem să găsim negația ei.",
+      "În primul pas, identificăm fiecare componentă a disjunciei. Primul termen este „7 este un număr impar”, iar al doilea este „9 este un număr par”.",
+      "Acum, negăm fiecare componentă în parte. Negarea lui p („7 este un număr impar”) este „7 nu este un număr impar”. Negarea lui q („9 este un număr par”) este „9 nu este un număr par”.",
+      "După ce am negat ambele componente, le conectăm prin operatorul logic „și”, conform regulii de negație. Astfel, obținem: „7 nu este un număr impar și 9 nu este un număr par”.",
+      "Este important să reținem că negarea unei disjuncii nu este doar negarea fiecărei componente separat, ci combinarea lor prin „și”. Acest lucru se datorează faptului că o propoziție compusă prin „sau” devine falsă doar dacă ambele componente sunt false.",
+      "O greșeală frecventă este să negăm doar una dintre componentele disjunciei, ceea ce duce la o interpretare incorectă a negației. De exemplu, cineva ar putea spune că negația este „7 nu este un număr impar sau 9 nu este un număr par”, dar acest lucru este greșit.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că negația unei disjuncii implică negarea ambelor componente și le conectăm prin „și”. Acest lucru se aplică în orice caz, indiferent de valorile logice ale componentelor."
+    ],
+    "ideiDeRetinut": [
+      "Negația unei propoziții compuse prin disjuncie este echivalentă cu negarea fiecărei componente și conectarea lor prin „și”.",
+      "Regula de negație pentru disjuncție: ¬(p ∨ q) = ¬p ∧ ¬q.",
+      "O greșeală frecventă este să negăm doar o componentă, în loc de ambele."
+    ],
+    "exemplu": {
+      "titlu": "Negația propoziției: „7 este un număr impar sau 9 este un număr par”",
+      "enunt": "Să se nega propoziția: „7 este un număr impar sau 9 este un număr par”.",
+      "rezolvareScurta": [
+        "Identificăm componentele: p = „7 este un număr impar”, q = „9 este un număr par”.",
+        "Negăm fiecare componentă: ¬p = „7 nu este un număr impar”, ¬q = „9 nu este un număr par”."
+      ],
+      "raspuns": "'7 nu este un număr impar și 9 nu este un număr par'"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este negația propoziției: „7 este un număr impar sau 9 este un număr par”?",
+      "variante": [
+        "'7 nu este un număr impar și 9 nu este un număr par'",
+        "'7 este un număr impar sau 9 este un număr par'",
+        "'7 este un număr impar și 9 este un număr par'",
+        "'7 nu este un număr impar sau 9 nu este un număr par'"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Negația unei disjuncii se obține prin negarea fiecărei componente și conectarea lor cu 'și'."
+    }
+  }
+}

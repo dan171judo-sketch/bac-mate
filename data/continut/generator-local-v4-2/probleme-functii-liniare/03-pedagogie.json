@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea funcției liniare cu funcția constantă",
+      "deCeEsteGresit": "Funcția constantă are forma f(x) = b, unde a = 0, în timp ce funcția liniară necesită ca a ≠ 0. Confuzia poate duce la erori în interpretarea graficului și a comportamentului funcției.",
+      "cumOEviti": "Rezolvați exerciții care diferențiază între cele două tipuri de funcții și verificați dacă coeficientul a este diferit de zero."
+    },
+    {
+      "greseala": "Neglijarea unităților de măsură în problemele practice",
+      "deCeEsteGresit": "În problemele modelate prin funcții liniare, unitățile de măsură sunt esențiale pentru interpretarea corectă a parametrilor. Neglijarea lor poate duce la soluții incorecte sau nesensibile.",
+      "cumOEviti": "Cititi atent enunțul problemei și scrieti unitățile de măsură în fiecare pas al rezolvării."
+    },
+    {
+      "greseala": "Interpretarea greșită a parametrilor funcției liniare",
+      "deCeEsteGresit": "Parametrul b reprezintă valoarea inițială, iar a este rata de schimbare. O interpretare incorectă poate duce la erori în modelarea problemei.",
+      "cumOEviti": "Asociați parametrii cu contextul problemei și verificați dacă valorile obținute au sens în acel context."
+    },
+    {
+      "greseala": "Neglijarea verificării soluției în raport cu contextul problemei",
+      "deCeEsteGresit": "O soluție matematic corectă poate fi inadecvată din punct de vedere practic. Verificați dacă rezultatul are sens în contextul dat.",
+      "cumOEviti": "După găsirea soluției, analizați dacă aceasta este compatibilă cu condițiile problemei."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția liniară este folosită pentru a modela situații practice în care există o variație constantă.",
+      "Parametrul b reprezintă valoarea inițială, iar parametrul a reprezintă rata de schimbare.",
+      "Modelul matematic trebuie să fie adaptat la contextul problemei și să ofere soluții relevante.",
+      "Soluțiile obținute trebuie analizate în raport cu contextul problemei."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identificați dacă problema poate fi modelată prin o funcție liniară.",
+      "Determinați parametrii funcției liniare în funcție de contextul problemei.",
+      "Rezolvați ecuații sau inecuații pentru a găsi soluția problemei.",
+      "Verificați dacă soluția obținută are sens în contextul dat."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Funcțiile liniare sunt un subiect esențial pentru examenul de Bacalaureat, fiind folosite frecvent în problemele practice și aplicative.",
+    "tipuriCerinte": [
+      "Interpretarea parametrilor funcției liniare în contexte practice",
+      "Rezolvarea ecuațiilor și inecuațiilor liniare pentru a modela o situație reală",
+      "Analiza soluțiilor obținute în raport cu contextul problemei",
+      "Modelarea unei situații practice prin funcția liniară"
+    ],
+    "strategie": [
+      "Învățați să recunoașteți când o problemă poate fi modelată prin funcția liniară.",
+      "Antrenați-vă în rezolvarea de probleme aplicative, folosind ecuații și inecuații liniare.",
+      "Verificați întotdeauna dacă soluția obținută este compatibilă cu contextul dat.",
+      "Asociați parametrii funcției cu elementele din enunțul problemei."
+    ]
+  }
+}

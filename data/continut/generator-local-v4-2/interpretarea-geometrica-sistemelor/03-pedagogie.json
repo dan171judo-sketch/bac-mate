@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă soluția unui sistem cu punctul de intersecție al dreptelor",
+      "deCeEsteGresit": "Soluția unui sistem este o pereche (x, y) care verifică toate ecuațiile. Punctul de intersecție reprezintă această soluție, dar nu este același lucru cu soluția în sine.",
+      "cumOEviti": "Repetă definiția soluției unui sistem și desenează grafic fiecare ecuație pentru a vedea dacă punctul de intersecție este corect."
+    },
+    {
+      "greseala": "Crede că orice două drepte se intersectează într-un singur punct",
+      "deCeEsteGresit": "Dreptele paralele nu au niciun punct comun, iar dreptele coincidente au infinit de multe puncte comune. Este esențial să verifici dacă cele două drepte sunt paralele sau coincidente.",
+      "cumOEviti": "Calculează coeficientul unghiular al fiecărei drepte și compara-le pentru a determina relația dintre ele."
+    },
+    {
+      "greseala": "Neglijează interpretarea geometrică în favoarea metodelor algebrice",
+      "deCeEsteGresit": "Interpretarea geometrică oferă o imagine clară a soluțiilor unui sistem, ceea ce poate ajuta la înțelegerea mai profundă a conceptului.",
+      "cumOEviti": "Desenează grafic fiecare ecuație și analizează intersecția pentru a verifica dacă soluția algebrică este corectă."
+    },
+    {
+      "greseala": "Nu recunoaște cazurile posibile ale unui sistem de două ecuații liniare",
+      "deCeEsteGresit": "Un sistem poate fi compatibil determinat (o soluție), compatibil nedeterminat (infinit de multe soluții) sau incompatibil (nu are soluții). Neglijarea acestor cazuri duce la erori în analiza sistemului.",
+      "cumOEviti": "Recapitulează cele trei tipuri de sisteme și verifică fiecare caz înainte de a rezolva un sistem."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Soluția unui sistem este punctul de intersecție al dreptelor reprezentate de ecuațiile sistemului.",
+      "Două drepte pot fi paralele, coincidente sau secante în funcție de coeficienții lor.",
+      "Interpretarea geometrică ajută la înțelegerea vizuală a soluțiilor unui sistem.",
+      "Un sistem poate avea o singură soluție, nicio soluție sau infinite soluții."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Desenează grafic fiecare ecuație din sistem.",
+      "Verifică dacă dreptele sunt paralele, secante sau coincidente.",
+      "Identifică tipul de sistem (compatibil determinat, compatibil nedeterminat, incompatibil).",
+      "Analizează soluția în funcție de interpretarea geometrică."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Interpretarea geometrică a sistemelor este o parte esențială din programa pentru Bacalaureat, fiind cerută frecvent în subiectele de matematică.",
+    "tipuriCerinte": [
+      "Reprezentarea grafică a unui sistem de ecuații liniare",
+      "Analiza compatibilității unui sistem prin interpretare geometrică",
+      "Identificarea tipului de soluție în funcție de poziția dreptelor",
+      "Interpretarea vizuală a soluțiilor unui sistem"
+    ],
+    "strategie": [
+      "Desenează grafic fiecare ecuație și analizează intersecția.",
+      "Recapitulează cele trei tipuri de sisteme (compatibil determinat, compatibil nedeterminat, incompatibil).",
+      "Verifică dacă dreptele sunt paralele sau secante înainte de a rezolva sistemul algebric.",
+      "Folosește interpretarea geometrică ca verificare a soluției găsite prin metode algebrice."
+    ]
+  }
+}

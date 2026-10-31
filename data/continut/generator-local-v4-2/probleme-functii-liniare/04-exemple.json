@@ -1,0 +1,94 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Modelarea unei probleme de costuri",
+      "nivel": "fundament",
+      "enunt": "O firmă oferă un serviciu cu un cost fix de 50 lei și un cost variabil de 20 lei per utilizator. Să se determine funcția care modelează costul total în funcție de numărul de utilizatori.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea parametrilor",
+          "continut": "Costul fix este 50 lei, deci b = 50. Costul variabil este 20 lei per utilizator, deci a = 20."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea funcției liniare",
+          "continut": "Funcția care modelează costul total este f(x) = 20x + 50, unde x reprezintă numărul de utilizatori."
+        }
+      ],
+      "raspunsFinal": "Funcția care modelează costul total este f(x) = 20x + 50.",
+      "verificare": "Verificați dacă pentru x = 0, f(0) = 50, ceea ce corespunde costului fix. Pentru fiecare utilizator, costul crește cu 20 lei."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Modelarea unei probleme de vânzări",
+      "nivel": "standard-bac",
+      "enunt": "Un comerciant vinde produse la prețul de 15 lei bucata. În plus, are o reducere de 200 lei pentru fiecare 100 de produse vândute. Să se determine funcția care exprimă profitul în funcție de numărul de produse vândute.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 15x, unde x reprezintă numărul de produse vândute."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea reducerii",
+          "continut": "Reducerea este 200 lei pentru fiecare 100 de produse, deci reducerea totală este (x / 100) * 200 = 2x."
+        },
+        {
+          "numar": 3,
+          "titlu": "Formarea funcției profitului",
+          "continut": "Profitul este venitul minus reducerea: f(x) = 15x - 2x = 13x."
+        }
+      ],
+      "raspunsFinal": "Funcția care exprimă profitul este f(x) = 13x.",
+      "verificare": "Verificați dacă pentru x = 0, profitul este 0. Pentru fiecare produs vândut, profitul crește cu 13 lei."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Modelarea unei probleme de consum de energie",
+      "nivel": "standard-bac",
+      "enunt": "Un aparat electric are un consum fix de 50 kWh pe lună și un consum suplimentar de 2 kWh pentru fiecare ora de funcționare. Să se determine funcția care exprimă consumul total în funcție de numărul de ore de funcționare.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea parametrilor",
+          "continut": "Consumul fix este 50 kWh, deci b = 50. Consumul suplimentar este 2 kWh per ora, deci a = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea funcției liniare",
+          "continut": "Funcția care modelează consumul total este f(x) = 2x + 50, unde x reprezintă numărul de ore de funcționare."
+        }
+      ],
+      "raspunsFinal": "Funcția care exprimă consumul total este f(x) = 2x + 50.",
+      "verificare": "Verificați dacă pentru x = 0, consumul este 50 kWh. Pentru fiecare ora de funcționare, consumul crește cu 2 kWh."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Modelarea unei probleme de economie",
+      "nivel": "avansat",
+      "enunt": "O firmă produce un produs cu costuri fixe de 1000 lei și costuri variabile de 50 lei per unitate. Dacă prețul de vânzare este de 80 lei per unitate, să se determine funcția care exprimă profitul în funcție de numărul de unități produse.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea veniturilor",
+          "continut": "Venitul total este dat de 80x, unde x reprezintă numărul de unități vândute."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea costurilor totale",
+          "continut": "Costurile fixe sunt 1000 lei, iar costurile variabile sunt 50x. Deci, costul total este 50x + 1000."
+        },
+        {
+          "numar": 3,
+          "titlu": "Formarea funcției profitului",
+          "continut": "Profitul este venitul minus costurile totale: f(x) = 80x - (50x + 1000) = 30x - 1000."
+        }
+      ],
+      "raspunsFinal": "Funcția care exprimă profitul este f(x) = 30x - 1000.",
+      "verificare": "Verificați dacă pentru x = 0, profitul este -1000 lei (costuri fixe). Pentru fiecare unitate produsă, profitul crește cu 30 lei."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "Învățăm cum să adunăm numere pozitive și negative corect, folosind reguli clare și exemple practice.",
+    "scenariu": [
+      "În această lecție vom învăța cum să adunăm numere cu semn. Adunarea numerelor este o operație importantă în matematică, dar când apar semnele plus și minus, lucrurile pot deveni mai complicate.",
+      "Regula principală pentru adunarea numerelor cu semn este următoarea: dacă avem două numere cu același semn, le adunăm și păstrăm semnul. Dacă au semne diferite, scădem valorile lor absolute și păstrăm semnul celui mai mare în valoare absolută.",
+      "De exemplu, dacă avem +5 și +3, le adunăm și obținem +8. Dacă avem -2 și -7, le adunăm și obținem -9. În schimb, dacă avem +4 și -1, scădem 4-1=3 și păstrăm semnul lui +4, deci rezultatul este +3.",
+      "Această regulă funcționează pentru că adunarea numerelor cu același semn se comportă ca o sumă într-un singur sens, iar când semnele sunt diferite, se produce o formă de scădere. Acest lucru este important pentru a evita greșelile comune.",
+      "Pentru a aplica această regulă corect, trebuie să identificăm mai întâi semnul fiecărui număr și apoi să urmăm pașii corespunzători. Dacă semnele sunt aceeași, adunăm și păstrăm semnul. Dacă sunt diferite, scădem și păstrăm semnul celui mai mare.",
+      "Să luăm un exemplu concret: +7 și -3. Semnele sunt diferite, deci scădem 7-3=4 și păstrăm semnul lui +7, rezultatul fiind +4. Dacă avem -6 și +2, scădem 6-2=4 și păstrăm semnul lui -6, deci obținem -4.",
+      "Este important să verificăm întotdeauna rezultatul pentru a ne asigura că am aplicat corect regula. De exemplu, dacă adunăm +5 și -2, trebuie să obținem +3, nu +7 sau -3. Verificarea este pasul final care ne ajută să evităm greșeli.",
+      "O greșeală frecventă este atunci când elevii adună direct numerele fără a ține cont de semne. De exemplu, ei pot confunda -3 + 5 cu -8 în loc de +2. Acest lucru se întâmplă pentru că nu respectă regula corectă.",
+      "Pentru a evita această greșeală, este important să identificăm semnele și să le tratăm separat. De asemenea, folosirea unui sistem de notare clară, cum ar fi scrierea semnelor în fața numerelor, poate ajuta foarte mult.",
+      "În concluzie, adunarea numerelor cu semn se bazează pe identificarea semnelor și aplicarea regulii corespunzătoare. Este esențial să verificăm întotdeauna rezultatul pentru a ne asigura că am folosit corect metoda."
+    ],
+    "ideiDeRetinut": [
+      "Dacă semnele sunt aceeași, adunăm și păstrăm semnul.",
+      "Dacă semnele sunt diferite, scădem și păstrăm semnul celui mai mare în valoare absolută.",
+      "Verificarea rezultatului este esențială pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: +9 + (-4).",
+      "raspunsCorect": 1,
+      "verificareRapida": [
+        "+9 + (-4) = +5",
+        "+9 - 4 = +5",
+        "-9 + (-4) = -13",
+        "+9 + 4 = +13"
+      ]
+    }
+  }
+}

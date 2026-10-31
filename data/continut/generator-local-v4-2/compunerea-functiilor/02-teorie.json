@@ -1,0 +1,51 @@
+{
+  "slug": "compunerea-functiilor",
+  "modul": 2,
+  "numarLectie": 11,
+  "titlu": "Compunerea funcțiilor",
+  "profil": "M_mate-info",
+  "clasa": null,
+  "numeModul": null,
+  "definitii": [
+    {
+      "termen": "Compunere de funcții",
+      "definitie": "Este operația prin care, din două funcții f și g, se obține o nouă funcție notată f ∘ g, definită pe mulțimea A × B, unde A este domeniul de definiție al funcției g și B este codomeniul funcției f.",
+      "observatie": "Compunerea funcțiilor nu este comutativă, adică f ∘ g ≠ g ∘ f în general."
+    },
+    {
+      "termen": "Funcție compusă",
+      "definitie": "Este funcția obținută prin compunerea a două funcții f și g, notată f ∘ g, care asociază fiecărui element x din domeniul de definiție al funcției g, elementul f(g(x)).",
+      "observatie": "Funcția compusă este definită doar dacă imaginea funcției g este inclusă în domeniul de definiție al funcției f."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea compunerii funcțiilor",
+      "explicatie": "Pentru a compune două funcții, este necesar ca imaginea funcției exterioare să fie inclusă în domeniul de definiție al funcției interioare. Astfel, dacă avem funcțiile f: A → B și g: B → C, atunci compunerea lor este funcția h = f ∘ g: A → C definită prin h(x) = f(g(x)).",
+      "ideiCheie": [
+        "Compunerea funcțiilor presupune o condiție de compatibilitate între domeniul de definiție al funcției interioare și imaginea funcției exterioare.",
+        "Funcția compusă este definită doar dacă imaginea funcției exterioare este inclusă în domeniul de definițiune al funcției interioare."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Notatia f ∘ g și rolul ei",
+      "explicatie": "Notatia f ∘ g reprezintă compunerea funcțiilor f și g, unde g este aplicată înainte de f. Această notatie permite o exprimare clară a relației dintre funcții și este folosită frecvent în matematică pentru a descrie transformări complexe.",
+      "ideiCheie": [
+        "Notatia f ∘ g indică f aplicată pe rezultatul lui g(x).",
+        "Această notatie este esențială în modelarea proceselor multiple în matematică și științele exacte."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Aplicații ale funcțiilor compuse",
+      "explicatie": "Funcțiile compuse sunt folosite pentru a modela situații practice în care o transformare este aplicată succesiv pe un element. De exemplu, în economie, putem avea mai multe etape de prelucrare a datelor, fiecare reprezentată printr-o funcție, iar compunerea acestora descrie procesul global.",
+      "ideiCheie": [
+        "Funcțiile compuse sunt utile în modelarea realității prin intermediul mai multor pași de transformare.",
+        "Acestea permit o analiză structurată a fenomenelor complexe."
+      ]
+    }
+  ],
+  "formule": []
+}

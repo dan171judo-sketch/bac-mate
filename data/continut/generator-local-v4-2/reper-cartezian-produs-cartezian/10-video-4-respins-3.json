@@ -1,0 +1,39 @@
+{
+  "video4": {
+    "id": "video4",
+    "titlu": "Regula pentru identificarea valorii minime a unei expresii algebrice",
+    "descriere": "Un exercitiu de pregatire pentru Bacalaureat, care implica identificarea valorii minime a unei expresii folosind metoda completarii patratului. Scenariul include explicatii pas cu pas, exemple si verificare rapidă.",
+    "scenariu": [
+      "Vrei să înveți cum să găsești valoarea minimă a unei expresii algebrice? Acest exercitiu este ideal pentru pregătirea pentru Bacalaureat. În această lecție, vom analiza o expresie care conține un pătrat perfect și vom vedea cum putem simplifica-o pentru a identifica valoarea minimă.",
+      "Expresia pe care o vom studia este de forma: x² + 6x + 5. Vrei să înțelegi de ce această expresie are o valoare minimă și cum să o găsești fără a folosi grafice sau tabele?",
+      "Regula pe care o vom folosi este completarea pătratului. Aceasta presupune transformarea unei expresii de forma x² + bx într-un pătrat perfect, adică (x + c)². Pentru a face acest lucru, trebuie să găsim un număr c care îndeplinește anumite condiții.",
+      "Pentru a completa pătratul, luăm coeficientul lui x, care este 6 în exemplul nostru, împărțim-l la 2 și ridicăm la pătrat. Astfel, obținem (6/2)² = 3² = 9. Acest pas ne ajută să transformăm expresia într-un pătrat perfect.",
+      "Acum, vom adăuga și scădem acel număr pentru a menține egalitatea. Astfel, x² + 6x + 5 devine (x² + 6x + 9) - 9 + 5. Acest pas este esențial pentru a păstra valoarea expresiei neschimbată.",
+      "După ce am completat pătratul, obținem: (x + 3)² - 4. Astfel, expresia devine mai simplă și ușor de analizat. Valoarea minimă a unui pătrat perfect este întotdeauna zero, deci valoarea minimă a expresiei este -4.",
+      "Vrei să verificăm dacă am făcut totul corect? Înlocuim x cu -3 în expresia originală: (-3)² + 6*(-3) + 5 = 9 - 18 + 5 = -4. Rezultatul este același, deci am găsit valoarea minimă corect.",
+      "O greșeală frecventă este să uiteți să adăugați și să scădeți acel număr la final. Dacă nu faceți acest pas, expresia va fi modificată incorect și veți obține o valoare gresită.",
+      "Cum poți evita această greșeală? Verifică întotdeauna dacă ai adăugat și scăzut acel număr la final. Acest pas este esențial pentru a păstra egalitatea în expresie.",
+      "În concluzie, completarea pătratului este o metodă eficientă pentru a găsi valoarea minimă a unei expresii algebrice. Este important să urmezi pașii corect și să verifici rezultatul la final."
+    ],
+    "ideiDeRetinut": [
+      "Valoarea minimă a unei expresii se găsește prin completarea pătratului.",
+      "Pentru a completa pătratul, luăm jumătate din coeficientul lui x și ridicăm la pătrat.",
+      "Adaugerea și scăderea acelui număr este esențială pentru a menține egalitatea."
+    ],
+    "exemplu": {
+      "expresie": "x² + 6x + 5",
+      "pas1": "Luăm jumătate din 6, adică 3, și ridicăm la pătrat: 3² = 9.",
+      "pas2": "Adăugăm și scădem 9: (x² + 6x + 9) - 9 + 5.",
+      "pas3": "Transformăm în pătrat perfect: (x + 3)² - 4.",
+      "valoareMinima": "-4"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este valoarea minimă a expresiei x² + 6x + 5?",
+      "varianta0": "-4",
+      "varianta1": "0",
+      "varianta2": "4",
+      "varianta3": "9",
+      "raspunsCorect": 0
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea graficului funcției de gradul I cu cel al funcției constante",
+      "deCeEsteGresit": "Funcția constantă are forma f(x) = b, iar graficul ei este o dreaptă orizontală. Funcția liniară are forma f(x) = ax + b și graficul ei este o dreaptă care nu este orizontală (dacă a ≠ 0).",
+      "cumOEviti": "Reamintește-te că funcția constantă are coeficientul a egal cu zero, iar funcția liniară are a ≠ 0."
+    },
+    {
+      "greseala": "Interpretarea greșită a semnului coeficientului a",
+      "deCeEsteGresit": "Coeficientul a determină direcția graficului. Dacă a > 0, graficul este crescător; dacă a < 0, graficul este descrescător. Confuzia apare când se interpretează semnul în mod greșit.",
+      "cumOEviti": "Desenează graficul pentru valori ale lui a pozitive și negative pentru a vizualiza corect direcția."
+    },
+    {
+      "greseala": "Neglijarea punctului de intersecție cu axa Oy",
+      "deCeEsteGresit": "Punctul de intersecție cu axa Oy este dat de coordonata (0, b), iar neglijarea acestuia duce la o reprezentare incompletă a graficului.",
+      "cumOEviti": "Înainte de a desena graficul, identifică întotdeauna punctul (0, b)."
+    },
+    {
+      "greseala": "Folosirea greșită a formei generale a funcției",
+      "deCeEsteGresit": "Forma generală este f(x) = ax + b. Folosirea unei forme incorecte, cum ar fi f(x) = a + bx, poate duce la erori în interpretarea graficului.",
+      "cumOEviti": "Rescrie întotdeauna funcția în forma standard f(x) = ax + b înainte de a desena graficul."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul unei funcții liniare este o dreaptă.",
+      "Funcția liniară are forma f(x) = ax + b, cu a ≠ 0.",
+      "Punctul de intersecție cu axa Oy este (0, b).",
+      "Semnul lui a indică direcția graficului: crescător dacă a > 0, descrescător dacă a < 0."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identifică forma generală a funcției liniare.",
+      "Determină punctul de intersecție cu axa Oy (0, b).",
+      "Desenează graficul folosind două puncte distincte.",
+      "Verifică direcția graficului în funcție de semnul lui a."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Graficul funcției de gradul I este un element esențial în examenul de Bacalaureat, fiind cerut frecvent în subiectele de matematică.",
+    "tipuriCerinte": [
+      "Reprezentarea grafică a unei funcții liniare",
+      "Interpretarea graficului în contexte practice",
+      "Identificarea coeficienților din ecuația funcției"
+    ],
+    "strategie": [
+      "Învață să desenezi graficul folosind două puncte cunoscute.",
+      "Repetă semnificația fiecărui coeficient în forma f(x) = ax + b.",
+      "Exersează identificarea direcției graficului în funcție de semnul lui a."
+    ]
+  }
+}

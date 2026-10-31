@@ -1,0 +1,1469 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T17:33:34.694Z",
+  "dryRun": false,
+  "years": [
+    2026,
+    2025,
+    2024,
+    2023
+  ],
+  "authority": "Ministerul Educatiei / subiecte.edu.ro",
+  "results": [
+    {
+      "year": 2026,
+      "pages": [
+        "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/",
+        "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+        "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/",
+        "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+        "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+        "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+        "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/",
+        "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#"
+      ],
+      "assets": [
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_Sesiune_speciala.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-speciala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-speciala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_speciala.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-speciala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_ses_speciala.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-speciala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-oficiala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie_rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "rezerva"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-oficiala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "rezerva"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-oficiala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie_Rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "rezerva"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_Bac_francofon_Limba_materna_Cultura_spaniola_ses_iunie.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "sesiune-oficiala"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026_Rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_d_sesiune_august_2026.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_b_sesiune_august_2026.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_Matematica_Istorie_rezerva_02-iulie-2024.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "rezerva"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_matematica_istorie_subiecte_si_bareme_26_august_2015_rezerva.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_d_2023_ses_august_rezerve.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/septembrie/E_d_scris_rezerva_subiect_barem_29_august_2014.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+          "session": "august"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Clasa_I.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bacalaureat_roman_german.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_bilingv_spaniol.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Cultura_si_civilizatie_spaniola.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Francofon_DNL.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_sectii_bilingve_romano-italiene.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_A_Limba_romana_oral_model.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_B_Limba_materna_oral_model.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_competente_lingvistice_model_limba_chineza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_ebraica.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_engleza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_franceza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_germana_moderna.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_italiana.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_japoneza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_portugheza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_rusa.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_spaniola.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_D_Competente_digitale_model.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_GE-RO_2026_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/proba%20C%20engleza%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20franceza%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20germana%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/C_competente_lingvistice_model_2024_limba_chineza.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20italiana%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20japoneza%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20portugheza%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20rusa%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20spaniola%20model%20audio.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana__pt_minoritatea_maghiara_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_b_Limbi_materne_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Matematica_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Istorie_model.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Anatomie_Biologie_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Chimie_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Socio_umane_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Fizica_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Geografie_model.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Informatica_modele.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+          "session": "model"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_a_2026_Simulare.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_d_2026_Simulare.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_b_2026_Simulare.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ea_2026_simulare_II.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ed_2026_simulare_II.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/programe/Programe_Simulare_BAC_2025.zip",
+          "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+          "session": "simulare"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "year": 2025,
+      "pages": [],
+      "assets": [],
+      "errors": [
+        {
+          "url": "https://subiecte.edu.ro/2025/bacalaureat/Subiecte_si_bareme/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2025/bacalaureat/Subiecte_si_bareme/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2025/bacalaureat/modeledesubiecte/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2025/bacalaureat/modeledesubiecte/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2025/simulare/simulare_bac_XII/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2025/simulare/simulare_bac_XII/"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "pages": [],
+      "assets": [],
+      "errors": [
+        {
+          "url": "https://subiecte.edu.ro/2024/bacalaureat/Subiecte_si_bareme/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2024/bacalaureat/Subiecte_si_bareme/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2024/bacalaureat/modeledesubiecte/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2024/bacalaureat/modeledesubiecte/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2024/simulare/simulare_bac_XII/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2024/simulare/simulare_bac_XII/"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "pages": [],
+      "assets": [],
+      "errors": [
+        {
+          "url": "https://subiecte.edu.ro/2023/bacalaureat/Subiecte_si_bareme/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2023/bacalaureat/Subiecte_si_bareme/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2023/bacalaureat/modeledesubiecte/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2023/bacalaureat/modeledesubiecte/"
+        },
+        {
+          "url": "https://subiecte.edu.ro/2023/simulare/simulare_bac_XII/",
+          "error": "HTTP 404: https://subiecte.edu.ro/2023/simulare/simulare_bac_XII/"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "discovered-2026-001",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_Sesiune_speciala.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-002",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-003",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_speciala.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-004",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_ses_speciala.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-005",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-006",
+      "year": 2026,
+      "session": "rezerva",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ea_2026_ses_iunie_rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-007",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-008",
+      "year": 2026,
+      "session": "rezerva",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-009",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-010",
+      "year": 2026,
+      "session": "rezerva",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ed_2026_ses_iunie-iulie_Rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-011",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Eb_2026_Bac_francofon_Limba_materna_Cultura_spaniola_ses_iunie.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-012",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-013",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_a_sesiune_august_2026_Rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-014",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-015",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-016",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_d_sesiune_august_2026.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-017",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_b_sesiune_august_2026.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-018",
+      "year": 2026,
+      "session": "rezerva",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_Matematica_Istorie_rezerva_02-iulie-2024.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-019",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_matematica_istorie_subiecte_si_bareme_26_august_2015_rezerva.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-020",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_d_2023_ses_august_rezerve.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-021",
+      "year": 2026,
+      "session": "august",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/septembrie/E_d_scris_rezerva_subiect_barem_29_august_2014.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-022",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Clasa_I.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-023",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bacalaureat_roman_german.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-024",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_bilingv_spaniol.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-025",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Cultura_si_civilizatie_spaniola.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-026",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_Francofon_DNL.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-027",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/BAC_sectii_bilingve_romano-italiene.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-028",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_A_Limba_romana_oral_model.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-029",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_B_Limba_materna_oral_model.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-030",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_competente_lingvistice_model_limba_chineza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-031",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_ebraica.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-032",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_engleza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-033",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_franceza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-034",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_germana_moderna.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-035",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_italiana.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-036",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_japoneza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-037",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_portugheza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-038",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_rusa.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-039",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_C_Competente_lingvistice_model_limba_spaniola.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-040",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_D_Competente_digitale_model.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-041",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_GE-RO_2026_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-042",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/proba%20C%20engleza%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-043",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20franceza%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-044",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20germana%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-045",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/C_competente_lingvistice_model_2024_limba_chineza.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-046",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20italiana%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-047",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20japoneza%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-048",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20portugheza%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-049",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20rusa%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-050",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/certificarecompetente",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Proba%20C%20spaniola%20model%20audio.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-051",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-052",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_a_Limba_si_literatura_romana__pt_minoritatea_maghiara_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-053",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_b_Limbi_materne_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-054",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Matematica_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-055",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Istorie_model.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-056",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Anatomie_Biologie_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-057",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Chimie_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-058",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Socio_umane_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-059",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Fizica_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-060",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Geografie_model.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-061",
+      "year": 2026,
+      "session": "model",
+      "sourcePage": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/probescrise",
+      "assetUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_d_Informatica_modele.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-062",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_a_2026_Simulare.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-063",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-064",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_d_2026_Simulare.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-065",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_b_2026_Simulare.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-066",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ea_2026_simulare_II.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-067",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-068",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ed_2026_simulare_II.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    },
+    {
+      "id": "discovered-2026-069",
+      "year": 2026,
+      "session": "simulare",
+      "sourcePage": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/#",
+      "assetUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/programe/Programe_Simulare_BAC_2025.zip",
+      "assetType": "zip",
+      "profileCandidates": [
+        "M_mate-info",
+        "M_st-nat",
+        "M_tehnologic",
+        "M_pedagogic"
+      ],
+      "status": "needs-inspection"
+    }
+  ]
+}

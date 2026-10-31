@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați suma numerelor naturale de la 1 la 10.",
+      "variante": [],
+      "raspunsCorect": "55",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula sumei aritmetice",
+          "continut": "Suma numerelor naturale de la 1 la n se calculează cu formula: S = n(n + 1)/2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei",
+          "continut": "Pentru n = 10, avem S = 10(10 + 1)/2 = 10 × 11 / 2 = 55."
+        }
+      ],
+      "explicatieFinala": "Suma numerelor naturale de la 1 la 10 este 55.",
+      "competenta": "Calcularea sumei unei progresii aritmetice simple",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați aria unui dreptunghi cu laturile de 8 cm și 12 cm.",
+      "variante": [],
+      "raspunsCorect": "96 cm²",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula ariei dreptunghiului",
+          "continut": "Aria unui dreptunghi se calculează prin înmulțirea lungimii cu lățimea."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul ariei",
+          "continut": "Aria = 8 cm × 12 cm = 96 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria dreptunghiului este de 96 cm².",
+      "competenta": "Calcularea ariei unui dreptunghi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este soluția ecuației 2x + 4 = 10?",
+      "variante": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 5"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea variabilei x",
+          "continut": "Scădem 4 din ambele părți ale ecuației: 2x = 10 - 4 → 2x = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la 2",
+          "continut": "Împărțim ambele părți la 2: x = 6 / 2 → x = 3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare simple",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați media aritmetică a numerelor 6, 8 și 10.",
+      "variante": [],
+      "raspunsCorect": "8",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula mediei aritmetice",
+          "continut": "Media aritmetică se calculează prin împărțirea sumei numerelor la numărul de termeni."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul mediei",
+          "continut": "Suma = 6 + 8 + 10 = 24; Media = 24 / 3 = 8."
+        }
+      ],
+      "explicatieFinala": "Media aritmetică a numerelor este 8.",
+      "competenta": "Calcularea mediei aritmetice",
+      "punctaj": 5
+    }
+  ]
+}

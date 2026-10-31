@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 4,
+    "id": "video-4",
+    "titlu": "Cerinta de tip Bac: Produs cartezian și greseli frecvente",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom analiza o cerință de tip Bac care implică produsul cartezian. Vom explica strategia de abordare, cum să identificăm informația importantă din cerință și cum să evităm greșelile frecvente. Vom oferi un exemplu clar, o verificare rapidă și recomandări practice pentru a rezolva sub presiunea timpului.",
+    "scenariu": [
+      "În pregătirea pentru examenul de Bac, este esențial să cunoști cum să abordezi cerințele care implică produsul cartezian. Aceste tipuri de probleme sunt frecvente în subiectele de matematică și pot fi dificile dacă nu se urmărește o strategie clară.",
+      "Produsul cartezian este un concept fundamental, dar uneori elevii întâmpină dificultăți în a-l aplica corect. De aceea, este important să înțelegem cum se construiește și ce semnificație are în contextul problemelor de tip Bac.",
+      "Pentru a rezolva o cerință de acest gen, începem prin a identifica mulțimile implicate. De exemplu, dacă avem o mulțime A = {1, 2} și o mulțime B = {3, 4}, produsul cartezian A × B va fi format din toate perechile ordonate (a, b) unde a ∈ A și b ∈ B.",
+      "Este important să reținem că ordinea este esențială într-o pereche. Deci, (1, 3) nu este același lucru cu (3, 1). Aceasta este o greșeală frecventă la elevi, care pot confunda perechile și obțin rezultate incorecte.",
+      "O strategie eficientă este să enumerăm toate elementele mulțimilor și apoi să formăm perechile ordonate pas cu pas. Acest lucru evită greșelile de tipul „omisiune” sau „confuzie între ordinele elementelor.”",
+      "Vom analiza acum un exemplu concret: Fie mulțimea D = {x | x ∈ ℕ, x < 3}. Acest lucru înseamnă că D este formată din numere naturale mai mici decât 3. Deci, elementele sunt {1, 2}.",
+      "Produsul cartezian D × D va fi format din toate perechile (a, b) unde a și b aparțin lui D. Astfel, avem (1, 1), (1, 2), (2, 1), (2, 2).",
+      "Este important să verificăm dacă am inclus toate perechile posibile. În acest caz, nu există alte elemente în D decât 1 și 2, deci nu putem avea alte perechi.",
+      "O greșeală comună este să omitem o pereche sau să o repetăm. De exemplu, un elev poate uita să adauge (2, 1) sau să scrie (1, 3), ceea ce este incorect.",
+      "Pentru a evita aceste greșeli, recomandăm să folosim o metodă de verificare rapidă: numărăm perechile și comparăm cu numărul total posibil. Dacă mulțimea A are n elemente și B are m, atunci produsul cartezian va avea n × m elemente.",
+      "În plus, este util să scriem toate perechile pe hârtie sau în minte, astfel încât să nu le uităm. Acest lucru este esențial în condiții de timp limitat, cum ar fi un examen.",
+      "În concluzie, produsul cartezian este o cerință frecventă la Bac, dar poate fi rezolvată cu o strategie clară și verificare atentă. Evitarea greșelilor de tipul confuzia ordonării sau omisiunea perechilor este cheia succesului."
+    ],
+    "ideiDeRetinut": [
+      "Produsul cartezian se construiește din toate perechile ordonate dintre elementele mulțimilor.",
+      "Ordinea într-o pereche este esențială și nu trebuie confundată.",
+      "Verificarea rapidă prin numărare este o metodă eficientă pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu de produs cartezian",
+      "enunt": "Fie mulțimea D = {x | x ∈ ℕ, x < 3}. Determinați elementele mulțimii D × D.",
+      "rezolvareScurta": [
+        "Elementele mulțimii D sunt {1, 2}.",
+        "Produsul cartezian D × D este format din perechile (1, 1), (1, 2), (2, 1), (2, 2)."
+      ],
+      "raspuns": "{(1, 1), (1, 2), (2, 1), (2, 2)}"
+    },
+    "verificareRapida": {
+      "intrebare": "Câte elemente are produsul cartezian D × D dacă D = {1, 2}?",
+      "variante": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Produsul cartezian D × D are 2 × 2 = 4 elemente."
+    }
+  }
+}

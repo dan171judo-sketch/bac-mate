@@ -1,0 +1,45 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip, vom învăța cum să adunăm numerele cu semn folosind o regulă clară și ușor de reținut. Vom explica pas cu pas cum funcționează această regulă, vom face un exemplu concret și vom verifica dacă rezultatul este corect.",
+    "scenariu": [
+      "În acest videoclip, vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o parte esențială a matematicii și apare frecvent în probleme de tipul: 5 + (-3) sau -2 + (-4).",
+      "Regula principală pentru adunarea numerelor cu semn este următoarea: când adunăm două numere cu același semn, rezultatul are acelasi semn, iar valoarea absolută se obține prin adunarea valorilor absolute. Dacă semnele sunt diferite, rezultatul are semnul numărului cu valoarea absolută mai mare, iar valoarea absolută este diferența dintre cele două.",
+      "De exemplu, dacă avem 5 + (-3), semnele sunt diferite. Valoarea absolută a lui 5 este 5, iar cea a lui -3 este 3. 5 e mai mare decât 3, deci rezultatul va fi pozitiv, iar valoarea absolută este 5 - 3 = 2. Deci, 5 + (-3) = 2.",
+      "Dacă avem două numere cu același semn, de exemplu -4 + (-6), atunci rezultatul va fi negativ, iar valoarea absolută este suma valorilor absolute: 4 + 6 = 10. Deci, -4 + (-6) = -10.",
+      "Este important să înțelegem de ce această regulă funcționează. Când adunăm două numere pozitive, le adunăm ca și cum ar fi obiecte, iar când adunăm două negative, le considerăm ca datorii. Așa că, dacă avem 5 datorii și încă 3 datorii, totalul este 8 datorii.",
+      "Pentru a aplica această regulă corect, trebuie să identificăm semnele numerelor, să adunăm sau să scădem valorile absolute în funcție de semn, și apoi să atribuim rezultatului semnul corespunzător.",
+      "Vom face acum un exemplu pas cu pas. Să calculăm -7 + 4. Semnele sunt diferite. Valoarea absolută a lui -7 este 7, iar cea a lui 4 este 4. 7 e mai mare decât 4, deci rezultatul va fi negativ. Valoarea absolută este 7 - 4 = 3. Deci, -7 + 4 = -3.",
+      "Verificăm dacă acest rezultat este corect. Dacă avem o datorie de 7 și încasăm 4 lei, rămânem cu o datorie de 3 lei. Așadar, -7 + 4 = -3 este corect.",
+      "O greșeală frecventă este să adunăm valorile absolute indiferent de semnele numerelor. De exemplu, cineva ar putea crede că -5 + (-3) = -8, ceea ce este corect, dar dacă se face 5 + 3 = 8 și se pune semnul negativ, rezultatul este corect.",
+      "O altă greșeală este să scadem valorile absolute în loc de a le aduna. De exemplu, cineva ar putea crede că -7 + (-4) = -3, ceea ce este incorect. Corect este -7 + (-4) = -11.",
+      "Pentru a evita aceste greșeli, trebuie să identificăm semnele numerelor, să adunăm sau să scădem valorile absolute în funcție de semn, și apoi să atribuim rezultatului semnul corespunzător."
+    ],
+    "ideiDeRetinut": [
+      "Când adunăm două numere cu același semn, rezultatul are acelasi semn, iar valoarea absolută este suma valorilor absolute.",
+      "Când semnele sunt diferite, rezultatul are semnul numărului cu valoarea absolută mai mare, iar valoarea absolută este diferența dintre cele două.",
+      "Este important să identificăm semnele numerelor și să aplicăm corect regula de adunare."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: -8 + 5",
+      "rezolvare": [
+        "Semnele sunt diferite.",
+        "Valoarea absolută a lui -8 este 8, iar cea a lui 5 este 5.",
+        "8 e mai mare decât 5, deci rezultatul va fi negativ.",
+        "Valoarea absolută este 8 - 5 = 3.",
+        "Deci, -8 + 5 = -3."
+      ]
+    },
+    "verificareRapida": {
+      "intrebare": "Calculați: -9 + (-4)",
+      "variante": [
+        "-13",
+        "-5",
+        "5",
+        "13"
+      ],
+      "raspunsCorect": 0
+    }
+  }
+}

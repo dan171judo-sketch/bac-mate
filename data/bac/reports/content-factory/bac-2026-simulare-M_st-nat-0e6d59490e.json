@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "target": "bac-2026-simulare-M_st-nat-0e6d59490e",
+  "profile": "M_st-nat",
+  "sourceIntegrity": {
+    "subject": {
+      "path": "data/bac/sources/2026/M_st-nat/simulare/E_c_matematica_M_st-nat_2026_var_simulare_LRO.pdf",
+      "sha256": "0e6d59490e323721d63a77970ecf3e9495986388c2731e1a6d213ee3c48758ae",
+      "pageCount": 0
+    },
+    "rubric": {
+      "path": "data/bac/sources/2026/M_st-nat/simulare/E_c_matematica_M_st-nat_2026_bar_simulare_LRO.pdf",
+      "sha256": "da98b23769cd97cecfea017b36625431d6df6f14db66deba4c7e60b505008443",
+      "pageCount": 0
+    }
+  },
+  "slots": [
+    {
+      "slot": "S1-1",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S1-2",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S1-3",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S1-4",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S1-5",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S1-6",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-1-a",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-1-b",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-1-c",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-2-a",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-2-b",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S2-2-c",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-1-a",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-1-b",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-1-c",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-2-a",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-2-b",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    },
+    {
+      "slot": "S3-2-c",
+      "points": 5,
+      "statementPresent": false,
+      "rubricPresent": false,
+      "subjectPage": null,
+      "rubricPage": null,
+      "subjectPageCandidates": [],
+      "rubricPageCandidates": [],
+      "checks": {
+        "statementMatchesOfficial": false,
+        "mathNotationChecked": false,
+        "rubricMatchesOfficial": false,
+        "pointsChecked": false
+      },
+      "readyForRelease": false
+    }
+  ],
+  "summary": {
+    "slots": 18,
+    "prepared": 18,
+    "alreadyVerified": 0,
+    "statementsPresent": 0,
+    "rubricsPresent": 0,
+    "verifiedSlots": 0
+  },
+  "workspaceSha256": "a54af8b54a1e9decce3a10a617a93cfd93bc1b5a84faf5cb3e88dda1d8255247"
+}

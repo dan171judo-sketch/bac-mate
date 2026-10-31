@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "propoziție",
+      "definitie": "O propoziție este o formulă care afirmă sau negă ceva și poate fi adevărată sau falsă.",
+      "observatie": "Propozițiile sunt elemente de bază ale logicii matematice."
+    },
+    {
+      "termen": "predicat",
+      "definitie": "Un predicat este o expresie care conține variabile și exprimă o proprietate sau o relație între obiecte.",
+      "observatie": "Predicatul nu devine o propoziție decât atunci când variabilele sunt înlocuite cu valori concrete."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Propoziții și predicate - diferențe",
+      "explicatie": "O propoziție este o afirmație care are un sens logic complet, în timp ce predicatul este o expresie incompletă care necesită variabile pentru a deveni o propoziție.",
+      "ideiCheie": [
+        "Propozițiile pot fi adevărate sau false",
+        "Predicatul nu are valoare de adevăr în sine"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Variabile în predicat",
+      "explicatie": "Variabilele sunt simboluri care reprezintă obiecte sau valori. Ele pot fi universale, particulare sau de tipul variabilului universal.",
+      "ideiCheie": [
+        "Variabilele permit generalizarea afirmațiilor matematice",
+        "Fiecare predicat conține cel puțin o variabilă"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Aplicații ale predicatelor în matematică",
+      "explicatie": "Predicatul este folosit pentru a exprima afirmații despre mulțimi, funcții sau relații. El permite formularea de enunțuri universale sau existențiale.",
+      "ideiCheie": [
+        "Predicatul poate fi universal sau existențial",
+        "Se folosesc simboluri specifice pentru a exprima tipurile de predicat"
+      ]
+    }
+  ],
+  "formule": []
+}

@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvi ecuația: 2(x + 3) = 14.",
+      "variante": [],
+      "raspunsCorect": "x = 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezei",
+          "continut": "Înmulțim 2 cu fiecare termen din paranteză: 2x + 6 = 14."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Scădem 6 din ambele părți: 2x = 8. Împărțim la 2: x = 4."
+        }
+      ],
+      "explicatieFinala": "S-a folosit metoda desfăcerea parantezei și a rezolvării ecuației liniare.",
+      "competenta": "Rezolvarea ecuațiilor liniare cu paranteze",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Dacă 3(x - 2) = 9, atunci x este egal cu:",
+      "variante": [
+        "x = 5",
+        "x = 4",
+        "x = 6",
+        "x = 3"
+      ],
+      "raspunsCorect": "x = 5",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezei",
+          "continut": "Înmulțim 3 cu fiecare termen din paranteză: 3x - 6 = 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Adunăm 6 în ambele părți: 3x = 15. Împărțim la 3: x = 5."
+        }
+      ],
+      "explicatieFinala": "S-a folosit metoda desfăcerea parantezei și a rezolvării ecuației liniare.",
+      "competenta": "Rezolvarea ecuațiilor liniare cu paranteze",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvi inecuația: 4x - 7 < 9.",
+      "variante": [],
+      "raspunsCorect": "x < 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea termenului opus",
+          "continut": "Adunăm 7 în ambele părți: 4x < 16."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 4",
+          "continut": "Obținem x < 4."
+        }
+      ],
+      "explicatieFinala": "S-a folosit metoda rezolvării inecuațiilor liniare.",
+      "competenta": "Rezolvarea inecuațiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Dacă 2x + 1 > 7, atunci x este egal cu:",
+      "variante": [
+        "x > 3",
+        "x < 4",
+        "x = 3",
+        "x > 4"
+      ],
+      "raspunsCorect": "x > 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului opus",
+          "continut": "Scădem 1 din ambele părți: 2x > 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 2",
+          "continut": "Obținem x > 3."
+        }
+      ],
+      "explicatieFinala": "S-a folosit metoda rezolvării inecuațiilor liniare.",
+      "competenta": "Rezolvarea inecuațiilor liniare",
+      "punctaj": 5
+    }
+  ]
+}

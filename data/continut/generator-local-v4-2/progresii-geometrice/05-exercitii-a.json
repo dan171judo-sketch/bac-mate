@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați media aritmetică a numerelor 6 și 14.",
+      "variante": [],
+      "raspunsCorect": "10",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Numerele sunt 6 și 14."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei mediei aritmetice",
+          "continut": "Media aritmetică se calculează prin adunarea numerelor și împărțirea la numărul de termeni: (6 + 14) / 2 = 20 / 2 = 10."
+        }
+      ],
+      "explicatieFinala": "Media aritmetică a două numere este egală cu jumătate din suma lor.",
+      "competenta": "Calcularea mediei aritmetice",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați numărul de litere din cuvântul „matematică”.",
+      "variante": [],
+      "raspunsCorect": "9",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea cuvântului dat",
+          "continut": "Cuvântul este „matematică”."
+        },
+        {
+          "numar": 2,
+          "titlu": "Numărarea literelor",
+          "continut": "Cuvântul „matematică” are 9 litere: m, a, t, e, m, a, t, i, c, a (nu, este 9)."
+        }
+      ],
+      "explicatieFinala": "Numărarea literelor se face prin citirea fiecărei litere din cuvânt.",
+      "competenta": "Numărare de elemente",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: 12 + 8 × 2?",
+      "variante": [
+        "40",
+        "28",
+        "20",
+        "36"
+      ],
+      "raspunsCorect": "28",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea operațiilor și a ordinei de execuție",
+          "continut": "În expresia dată, înmulțirea are prioritate față de adunare."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea calculelor pas cu pas",
+          "continut": "12 + (8 × 2) = 12 + 16 = 28."
+        }
+      ],
+      "explicatieFinala": "În expresii matematice, înmulțirea se efectuează înainte de adunare.",
+      "competenta": "Ordinea operațiilor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați perimetrul unui dreptunghi cu laturile de 5 cm și 7 cm.",
+      "variante": [],
+      "raspunsCorect": "24 cm",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Lungimea este de 7 cm, iar lățimea de 5 cm."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei perimetrului dreptunghiului",
+          "continut": "Perimetrul se calculează prin formula P = 2 × (l + L) = 2 × (5 + 7) = 2 × 12 = 24 cm."
+        }
+      ],
+      "explicatieFinala": "Perimetrul unui dreptunghi este egal cu dublul sumei lungimii și lățimii.",
+      "competenta": "Calcularea perimetrului",
+      "punctaj": 5
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea rației cu diferența dintre termeni neconsecutivi",
+      "deCeEsteGresit": "Rația se definește ca diferența dintre termeni consecutivi, nu oricare doi termeni. Diferența dintre termeni neconsecutivi nu este constantă.",
+      "cumOEviti": "Repetă definiția rației și verifică întotdeauna dacă termenii sunt consecutivi."
+    },
+    {
+      "greseala": "Calcularea greșită a termenului general folosind formula corectă",
+      "deCeEsteGresit": "Formula termenului general este $a_n = a_1 + (n-1)r$, dar elevii adună rația direct la termenul precedent fără a ține cont de poziția termenului.",
+      "cumOEviti": "Exersează cu exemple concrete și verifică pașii calculului."
+    },
+    {
+      "greseala": "Neglijarea semnului rației în calcule",
+      "deCeEsteGresit": "Rația poate fi negativă, ceea ce duce la scăderi în progresie. Neglijarea semnului poate duce la termeni incorecti.",
+      "cumOEviti": "Analizează semnul rației înainte de a calcula termenii."
+    },
+    {
+      "greseala": "Confunderea progresiei aritmetice cu progresia geometrică",
+      "deCeEsteGresit": "Progresia aritmetică se bazează pe adunarea rației, în timp ce progresia geometrică implică înmulțirea cu rația. Confuzia poate duce la erori majore.",
+      "cumOEviti": "Repetă diferențele esențiale între cele două tipuri de progresii."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Progresia aritmetică este o mulțime ordonată de numere reale, în care fiecare termen se obține din precedent prin adunarea unui număr real constant.",
+      "Rația este diferența dintre oricare doi termeni consecutivi și poate fi pozitivă, negativă sau nulă.",
+      "Termenul general al progresiei aritmetice se calculează cu formula $a_n = a_1 + (n-1)r$.",
+      "Progresia aritmetică este diferită de progresia geometrică, întrucât se bazează pe adunare, nu pe înmulțire."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă termenii sunt consecutivi atunci când calculezi rația.",
+      "Folosește formula corectă pentru termenul general $a_n = a_1 + (n-1)r$.",
+      "Analizează semnul rației înainte de a calcula termeni.",
+      "Diferențiază între progresia aritmetică și cea geometrică."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Progresiile aritmetice sunt un subiect frecvent în examenul de Bacalaureat, fiind cerută în probleme de tip aplicativ sau de recunoaștere a conceptelor.",
+    "tipuriCerinte": [
+      "Definirea progresiei aritmetice",
+      "Calcularea rației din termeni consecutivi",
+      "Determinarea unui termen general al progresiei",
+      "Interpretarea semnului rației în context"
+    ],
+    "strategie": [
+      "Repetă definițiile și formulele esențiale.",
+      "Exersează cu probleme de recunoaștere a progresiei aritmetice.",
+      "Analizează semnificația rației în contextul unei probleme.",
+      "Verifică pașii calculului pentru a evita greșeli frecvente."
+    ]
+  }
+}

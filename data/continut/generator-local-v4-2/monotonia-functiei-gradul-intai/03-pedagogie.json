@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă monotonia funcției de gradul I cu cea a funcției de gradul al doilea.",
+      "deCeEsteGresit": "Funcția de gradul I are o monotonie constantă pe tot domeniul, în timp ce funcția de gradul al doilea poate avea comportamente diferite în funcție de semnul coeficientului principal.",
+      "cumOEviti": "Reamintește-ți că funcția de gradul I este liniară și are o monotonie constantă, indiferent de valoarea lui a."
+    },
+    {
+      "greseala": "Crede că orice funcție cu coeficient pozitiv este crescătoare pe întreg domeniul real.",
+      "deCeEsteGresit": "Funcția de gradul I este strict crescătoare doar dacă este definită pe un interval, nu pe tot domeniul real. Este important să se respecte condițiile din definiție.",
+      "cumOEviti": "Verifică întotdeauna dacă funcția este definită pe un interval și aplica definiția corect."
+    },
+    {
+      "greseala": "Interpretează graficul funcției de gradul I fără a ține cont de semnul coeficientului director.",
+      "deCeEsteGresit": "Semnul lui a determină direcția graficului (crescătoare sau descrescătoare), iar o interpretare greșită poate duce la concluzii incorecte despre monotonie.",
+      "cumOEviti": "Desenează întotdeauna graficul funcției înainte de a interpreta comportamentul ei și verifică semnul lui a."
+    },
+    {
+      "greseala": "Nu distinge între funcția strict crescătoare și cea crescătoare (nestrict).",
+      "deCeEsteGresit": "În cadrul definiției, funcția strict crescătoare impune condiția f(x₁) < f(x₂), în timp ce funcția crescătoare permite egalitatea. Această diferență este esențială pentru rezolvarea problemelor.",
+      "cumOEviti": "Reamintește-ți că „strict” indică o inegalitate strictă, iar lipsa acestui cuvânt poate implica egalitate."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Monotonia funcției de gradul I este determinată de semnul coeficientului director.",
+      "Funcția de gradul I este strict crescătoare dacă a > 0 și strict descrescătoare dacă a < 0.",
+      "O funcție este strict crescătoare dacă pentru orice x₁ < x₂, f(x₁) < f(x₂).",
+      "Graficul funcției de gradul I este o dreaptă, iar monotonia se observă din panta acesteia."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică semnul coeficientului director pentru a determina monotonia funcției.",
+      "Reamintește-ți definiția funcției strict crescătoare și descrescătoare înainte de a rezolva probleme.",
+      "Desenează graficul funcției pentru a interpreta corect comportamentul ei.",
+      "Evită confuziile între funcțiile crescătoare și descrescătoare, respectând condițiile din definiție."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Monotonia funcției de gradul I este un concept esențial în studiul funcțiilor, iar în cadrul examenului de Bac MATE se pot întâlni cerințe care solicită identificarea monotoniei sau interpretarea grafică a acesteia.",
+    "tipuriCerinte": [
+      "Identificarea monotonicității funcției de gradul I în funcție de coeficientul director",
+      "Interpretarea comportamentului de monotonie al unei funcții liniare",
+      "Aplicarea definiției funcțiilor crescătoare și descrescătoare în probleme simple",
+      "Rezolvarea unor probleme care implică compararea valorilor funcției în puncte diferite"
+    ],
+    "strategie": [
+      "Învăță clar definițiile de funcții crescătoare și descrescătoare.",
+      "Practică identificarea monotoniei funcției de gradul I prin analiza semnului coeficientului director.",
+      "Desenează graficul funcției pentru a interpreta corect comportamentul ei.",
+      "Verifică întotdeauna dacă ai înțeles diferența dintre funcțiile crescătoare și strict crescătoare."
+    ]
+  }
+}

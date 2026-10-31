@@ -1,0 +1,39 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip vom învăța cum să adunăm numerele cu semn, folosind o regulă simplă și eficientă. Vom explica pas cu pas cum se aplică regula, vom da un exemplu clar și vom verifica dacă rezultatul este corect.",
+    "scenariu": [
+      "În această lecție, vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o operație importantă care apare frecvent în matematică și este esențială pentru a înțelege mai bine algebră.",
+      "Regula de bază este următoarea: când adunăm două numere cu același semn, rezultatul are acelasi semn, iar valoarea absolută se obține prin adunarea valorilor absolute. Dacă semnele sunt diferite, rezultatul are semnul numărului cu valoarea absolută mai mare, iar valoarea absolută este diferența dintre cele două.",
+      "De exemplu, dacă avem +5 și +3, ambele au același semn. Adunăm valorile absolute (5+3=8) și păstrăm semnul (+), deci rezultatul este +8. Dacă avem -2 și -4, adunăm 2+4=6 și păstrăm semnul (-), deci rezultatul este -6.",
+      "Dacă numerele au semne diferite, cum ar fi +7 și -3, trebuie să alegem semnul numărului cu valoarea absolută mai mare (7>3). Valoarea absolută este 7-3=4, iar semnul este pozitiv, deci rezultatul este +4.",
+      "Este important să înțelegem de ce regula funcționează. Când numerele au același semn, ele se adună ca forțe în aceeași direcție, iar când semnele sunt diferite, una dintre ele „împinge” pe cealaltă, deci trebuie să scădem și să alegem semnul celui mai mare.",
+      "Pentru a aplica regula corect, este necesar să identificăm semnele numerelor, să adunăm sau să scădem valorile absolute în funcție de semne, și apoi să păstrăm semnul corespunzător. Acest proces se aplică în mod constant, indiferent de numerele folosite.",
+      "Vom verifica acum exemplul cu +7 și -3. Semnele sunt diferite, deci trebuie să scădem valorile absolute (7-3=4) și să alegem semnul celui mai mare (7>3), deci rezultatul este +4. Dacă am fi avut -7 și +3, ar fi fost -4.",
+      "O greșeală frecventă este să adunăm valorile absolute chiar dacă semnele sunt diferite. De exemplu, cineva poate crede că -2 + 5 = 7, dar în realitate, rezultatul este +3, deoarece 5>2 și semnul este pozitiv.",
+      "Pentru a evita această greșeală, trebuie să ne concentrăm pe identificarea semnelor și pe aplicarea corectă a regulii. Este important să verificăm întotdeauna dacă rezultatul are sens în contextul problemei.",
+      "În concluzie, adunarea numerelor cu semn se face prin identificarea semnelor, adunarea sau scăderea valorilor absolute, și alegerea semnului corespunzător. Regula este simplă, dar trebuie aplicată cu atenție pentru a evita greșelile comune."
+    ],
+    "ideiDeRetinut": [
+      "Când adunăm două numere cu același semn, rezultatul are acelasi semn și valoarea absolută este suma valorilor absolute.",
+      "Când semnele sunt diferite, rezultatul are semnul numărului cu valoarea absolută mai mare, iar valoarea absolută este diferența dintre cele două.",
+      "Este important să verificăm întotdeauna dacă rezultatul are sens în contextul problemei."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: -8 + 5",
+      "pas1": "Identificăm semnele: unul este negativ, celălalt pozitiv.",
+      "pas2": "Alegem semnul numărului cu valoarea absolută mai mare (-8 > 5).",
+      "pas3": "Scădem valorile absolute: 8 - 5 = 3.",
+      "pas4": "Rezultatul este -3, deoarece semnul este negativ."
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul calculului: -7 + 2?",
+      "varianta0": "-5",
+      "varianta1": "+5",
+      "varianta2": "-9",
+      "varianta3": "+9",
+      "raspunsCorect": 0
+    }
+  }
+}

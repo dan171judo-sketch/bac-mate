@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Analiza comportamentului funcției de gradul I",
+  "descriere": "Lectia exploreaza proprietatile de monotonie ale functiei de gradul I, precum si modul in care variatia argumentului influenteaza variatia valorii functiei.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea reprezentării grafice a funcției de gradul I",
+    "Cunoașterea formei canonice a funcției de gradul I",
+    "Cunoașterea noțiunii de funcție crescută și descrescută"
+  ],
+  "obiective": [
+    "Să identifice monotonia funcției de gradul I în funcție de coeficientul director",
+    "Să interpreteze grafic comportamentul de monotonie al funcției de gradul I",
+    "Să definească noțiunea de funcție strict crescătoare și descrescătoare",
+    "Să aplice conceptul de monotonia în rezolvarea unor probleme simple"
+  ],
+  "termeniCheie": [
+    "funcție crescută",
+    "funcție descrescătoare",
+    "coeficient director",
+    "monotonia funcției"
+  ]
+}

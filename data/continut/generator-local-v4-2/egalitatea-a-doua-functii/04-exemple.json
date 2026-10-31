@@ -1,0 +1,89 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Egalitatea funcțiilor cu același domeniu și codomeniu",
+      "nivel": "fundament",
+      "enunt": "Fie funcțiile f: R → R, f(x) = 2x + 3 și g: R → R, g(x) = 2x + 3. Să se verifice dacă sunt egale.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea domeniului",
+          "continut": "Funcțiile f și g au același domeniu, care este mulțimea numerelor reale R."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea codomeniului",
+          "continut": "Funcțiile f și g au același codomeniu, care este mulțimea numerelor reale R."
+        }
+      ],
+      "raspunsFinal": "Funcțiile f și g sunt egale.",
+      "verificare": "Am verificat toate cele trei condiții: domeniu, codomeniu și valori. Valorile funcțiilor sunt identice pentru orice x ∈ R."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Egalitatea funcțiilor cu același domeniu dar diferit codomeniu",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcțiile f: R → R, f(x) = x² și g: R → [0, ∞), g(x) = x². Să se verifice dacă sunt egale.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea domeniului",
+          "continut": "Funcțiile f și g au același domeniu, care este mulțimea numerelor reale R."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea codomeniului",
+          "continut": "Codomeniul funcției f este R, iar al funcției g este [0, ∞). Deci, codomeniile sunt diferite."
+        }
+      ],
+      "raspunsFinal": "Funcțiile f și g nu sunt egale.",
+      "verificare": "Deși valorile funcțiilor sunt identice pentru orice x ∈ R, codomeniile sunt diferite. Prin urmare, funcțiile nu sunt egale."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Egalitatea funcțiilor cu același codomeniu dar diferit domeniu",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcțiile f: [0, ∞) → R, f(x) = √x și g: R → R, g(x) = √x. Să se verifice dacă sunt egale.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea domeniului",
+          "continut": "Domeniul funcției f este [0, ∞), iar al funcției g este R. Deci, domeniile sunt diferite."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea codomeniului",
+          "continut": "Funcțiile f și g au același codomeniu, care este mulțimea numerelor reale R."
+        }
+      ],
+      "raspunsFinal": "Funcțiile f și g nu sunt egale.",
+      "verificare": "Deși valorile funcțiilor sunt identice pentru x ≥ 0, domeniile sunt diferite. Prin urmare, funcțiile nu sunt egale."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Egalitatea funcțiilor cu același codomeniu și domeniu dar valori diferite",
+      "nivel": "avansat",
+      "enunt": "Fie funcțiile f: R → R, f(x) = 2x + 1 și g: R → R, g(x) = 3x - 1. Să se verifice dacă sunt egale.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea domeniului",
+          "continut": "Funcțiile f și g au același domeniu, care este mulțimea numerelor reale R."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea codomeniului",
+          "continut": "Funcțiile f și g au același codomeniu, care este mulțimea numerelor reale R."
+        },
+        {
+          "numar": 3,
+          "titlu": "Verificarea valorilor funcțiilor",
+          "continut": "Pentru a verifica egalitatea, trebuie să verificăm dacă f(x) = g(x) pentru orice x ∈ R. Avem: 2x + 1 ≠ 3x - 1, deci valorile sunt diferite."
+        }
+      ],
+      "raspunsFinal": "Funcțiile f și g nu sunt egale.",
+      "verificare": "Am verificat toate cele trei condiții: domeniu, codomeniu și valori. Valorile funcțiilor nu sunt identice pentru orice x ∈ R."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Operații logice cu propoziții",
+  "descriere": "Lectia introduce noțiunile de negație, conjuncție, disjuncție și implicație în cadrul logicii propoziționale.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea conceptului de propoziție"
+  ],
+  "obiective": [
+    "Să definească negația unei propoziții",
+    "Să identifice conjuncția și disjuncția dintre două propoziții",
+    "Să înțeleagă semnificația implicației logice",
+    "Să folosească simbolurile logice corespunzătoare"
+  ],
+  "termeniCheie": [
+    "negație",
+    "conjuncție",
+    "disjuncție",
+    "implicație"
+  ]
+}

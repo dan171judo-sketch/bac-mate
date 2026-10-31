@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Noțiuni de bază despre funcții",
+  "descriere": "Lectia introduce conceptele de domeniu, codomeniu și imagine ale unei funcții, esențiale pentru înțelegerea structurii unei funcții.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de mulțime",
+    "Cunoașterea relației dintre elemente din două mulțimi",
+    "Cunoașterea noțiunii de funcție"
+  ],
+  "obiective": [
+    "Definirea domeniului unei funcții",
+    "Definirea codomeniului unei funcții",
+    "Definirea imaginii unei funcții",
+    "Identificarea elementelor din domeniu, codomeniu și imagine"
+  ],
+  "termeniCheie": [
+    "domeniu",
+    "codomeniu",
+    "imagine",
+    "funcție"
+  ]
+}

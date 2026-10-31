@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care este folosită în multe contexte. Regula se referă la modul în care putem compara și ordona fracțiile, un subiect important pentru a înțelege mai bine operațiile cu fracții.",
+    "Elevii trebuie să înțeleagă că nu toate fracțiile sunt ușor de comparat doar prin numărători sau numitori. Uneori, este nevoie de o metodă clară pentru a determina care fracție este mai mare sau mai mică.",
+    "Regula pe care o vom studia se bazează pe transformarea fracțiilor într-o formă comună, astfel încât să putem compara ușor. Acest lucru implică găsirea unui numitor comun pentru ambele fracții.",
+    "De ce este importantă această regulă? Pentru că o folosim frecvent atunci când avem de a face cu probleme de comparație, adunare sau scădere a fracțiilor. Fără ea, compararea ar fi foarte complicată.",
+    "Metoda de lucru implică mai întâi identificarea numitorului comun al fracțiilor. Apoi, transformăm fiecare fracție într-o formă echivalentă cu același numitor. După aceea, comparam numărătorii pentru a vedea care fracție este mai mare.",
+    "Să luăm un exemplu concret: să comparăm fracțiile 2/3 și 3/4. Pentru a le compara, trebuie să găsim un numitor comun. În acest caz, cel mai mic numitor comun este 12. Transformăm fiecare fracție într-o formă echivalentă: 2/3 devine 8/12, iar 3/4 devine 9/12.",
+    "După transformare, comparam numărătorii: 8 < 9, deci 2/3 < 3/4. Acest lucru ne arată că fracția 3/4 este mai mare decât 2/3.",
+    "Este important să verificăm dacă transformarea a fost făcută corect. Dacă am greșit în calcul, atunci comparația va fi incorectă. De aceea, trebuie să ne asigurăm că fiecare pas este realizat cu atenție.",
+    "O greșeală frecventă este să comparăm direct numărătorii sau numitorii fără a transforma fracțiile într-o formă comună. De exemplu, dacă un elev vede că 3/4 are numărătorul mai mare decât 2/3 și concluzionează că este mai mare, acest lucru este corect, dar nu este o metodă general valabilă.",
+    "Pentru a evita această greșeală, elevii trebuie să înțeleagă că comparația fracțiilor necesită un proces sistematic. Acesta implică transformarea lor într-o formă comună și apoi compararea numărătorilor.",
+    "În concluzie, această regulă este esențială pentru a compara fracțiile corect. Este important să o aplicăm cu atenție și să verificăm fiecare pas al procesului de transformare și comparare.",
+    "Prin înțelegerea acestei reguli, elevii pot rezolva mai ușor problemele legate de fracții și pot evita greșelile comune care apar în timpul comparațiilor."
+  ],
+  "ideiDeRetinut": [
+    "Regula comparării fracțiilor se bazează pe transformarea lor într-o formă comună.",
+    "Numitorul comun este esențial pentru a face comparația corectă.",
+    "Transformarea fracțiilor trebuie făcută cu atenție pentru a evita greșelile.",
+    "Compararea directă a numărătorilor sau numitorilor nu este metoda corectă."
+  ],
+  "exemplu": {
+    "titlu": "Comparația fracțiilor 2/3 și 3/4",
+    "enunt": "Să se compare fracțiile 2/3 și 3/4.",
+    "rezolvareScurta": [
+      "Găsim numitorul comun al fracțiilor: 12.",
+      "Transformăm fiecare fracție într-o formă echivalentă: 2/3 = 8/12, 3/4 = 9/12.",
+      "Comparam numărătorii: 8 < 9, deci 2/3 < 3/4."
+    ],
+    "raspuns": "Fracția 3/4 este mai mare decât fracția 2/3."
+  },
+  "verificareRapida": {
+    "intrebare": "Care dintre următoarele fracții este mai mare: 1/2 sau 2/3?",
+    "variante": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "5/6"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Pentru a compara, găsim numitorul comun (6). Transformăm fracțiile: 1/2 = 3/6 și 2/3 = 4/6. Deci, 2/3 > 1/2."
+  }
+}

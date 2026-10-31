@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă graficul funcției de gradul I cu graficul unei funcții patratică.",
+      "deCeEsteGresit": "Funcția de gradul I are grafic o dreaptă, în timp ce funcția patratică are grafic o parabolă. Această confuzie poate duce la erori în interpretarea reprezentării grafice.",
+      "cumOEviti": "Repetă diferența între cele două tipuri de funcții și verifică forma graficului prin exemple concrete."
+    },
+    {
+      "greseala": "Neglijează punctul de intersecție cu axa Oy în reprezentarea grafică.",
+      "deCeEsteGresit": "Punctul de intersecție cu axa Oy este dat de valoarea lui b, adică f(0) = b. Neglijarea acestuia poate duce la o reprezentare incorectă a graficului.",
+      "cumOEviti": "Înainte de a desena graficul, calculează întotdeauna f(0) și notează punctul (0, b)."
+    },
+    {
+      "greseala": "Crede că coeficientul a este responsabil pentru poziția graficului față de origine.",
+      "de-CEEsteGresit": "Coeficientul a determină panta dreptei, nu poziția ei. Poziția graficului în raport cu originea se datorează atât lui a, cât și lui b.",
+      "cumOEviti": "Analizează rolul fiecărui coeficient separat și verifică cum influențează forma graficului."
+    },
+    {
+      "greseala": "Desenează dreapta fără a folosi o metodă corectă de reprezentare (ex: puncte în mod aleatoriu).",
+      "deCeEsteGresit": "Reprezentarea grafică trebuie să fie precisă și să respecte proporțiile sistemului de axe. Metodele aleatoare pot duce la erori de interpretare.",
+      "cumOEviti": "Folosește două puncte distincte, calculează valorile lor exacte și le unesti cu o linie dreaptă."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul funcției de gradul I este o dreaptă.",
+      "Punctul de intersecție cu axa Oy este (0, b).",
+      "Panta dreptei este dată de coeficientul a.",
+      "Funcția liniară se poate reprezenta grafic folosind două puncte."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Calculează f(0) pentru a găsi punctul de intersecție cu Oy.",
+      "Alege două valori ale lui x și calculează corespunzătoare valorile lui f(x).",
+      "Uneste cele două puncte cu o linie dreaptă.",
+      "Verifică dacă graficul respectă rolul coeficienților a și b."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Cunoașterea graficului funcției de gradul I este esențială pentru interpretarea corectă a datelor în probleme practice, precum și pentru reprezentarea grafică a unor fenomene din viața reală.",
+    "tipuriCerinte": [
+      "Reprezentarea grafică a unei funcții liniare",
+      "Interpretarea graficului în contexte practice",
+      "Identificarea pantei și a punctului de intersecție cu axele"
+    ],
+    "strategie": [
+      "Învață să identifici forma graficului funcției liniare.",
+      "Antrenează-te la reprezentarea grafică folosind metode corecte.",
+      "Analizează rolul fiecărui coeficient în forma graficului.",
+      "Verifică întotdeauna dacă graficul respectă cerințele problemei."
+    ]
+  }
+}

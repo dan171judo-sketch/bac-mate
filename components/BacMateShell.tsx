@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { ReactNode } from "react";
 import { usePathname } from "next/navigation";
@@ -138,6 +138,23 @@ function ProgramIcon() {
   );
 }
 
+function SubscriptionIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      className="h-5 w-5"
+      aria-hidden="true"
+    >
+      <path d="M12 3 20 7.5 12 12 4 7.5 12 3Z" />
+      <path d="M4 12l8 4.5 8-4.5" />
+      <path d="M4 16.5 12 21l8-4.5" />
+    </svg>
+  );
+}
+
 function SimulationIcon() {
   return (
     <svg
@@ -246,6 +263,10 @@ function isRouteActive(
     return pathname.startsWith("/lectii");
   }
 
+  if (href === "/abonamente") {
+    return pathname.startsWith("/abonamente");
+  }
+
   return pathname.startsWith(href);
 }
 
@@ -260,13 +281,13 @@ export default function BacMateShell({
 
   const navItems: NavItem[] = [
     {
-      label: "Dashboard",
+      label: "Acasă",
       href: "/dashboard",
       icon: <DashboardIcon />,
     },
     {
       label: "Lecții",
-      href: "/programa",
+      href: "/lectii",
       icon: <LessonsIcon />,
     },
     {
@@ -276,7 +297,7 @@ export default function BacMateShell({
     },
     {
       label: "Progres",
-      href: "/dashboard#progres",
+      href: "/progres",
       icon: <ProgressIcon />,
     },
     {
@@ -291,9 +312,10 @@ export default function BacMateShell({
       icon: <ProgramIcon />,
     },
     {
-      label: "Simulări BAC",
-      href: "/dashboard#simulari",
-      icon: <SimulationIcon />,
+      label: "Abonamente",
+      href: "/abonamente",
+      icon: <SubscriptionIcon />,
+      badge: "BETA",
     },
     {
       label: "Profil",
@@ -303,83 +325,122 @@ export default function BacMateShell({
   ];
 
   const initial =
-    studentName?.trim()?.charAt(0)?.toUpperCase() ||
-    "M";
+    studentName
+      ?.trim()
+      ?.charAt(0)
+      ?.toUpperCase() || "M";
 
   return (
-    <div className="min-h-screen bg-[#020817] text-white">
+    <div className="min-h-screen bg-[#03100b] text-white">
       {/* FUNDAL GENERAL */}
 
       <div
-        className="pointer-events-none fixed inset-0"
+        className="pointer-events-none fixed inset-0 overflow-hidden"
         aria-hidden="true"
       >
-        <div className="absolute left-[18%] top-0 h-[420px] w-[620px] rounded-full bg-blue-600/[0.06] blur-[130px]" />
-        <div className="absolute right-0 top-[20%] h-[500px] w-[500px] rounded-full bg-violet-600/[0.04] blur-[150px]" />
+        <div className="absolute left-[10%] top-[-180px] h-[650px] w-[760px] rounded-full bg-emerald-500/[0.10] blur-[150px]" />
+
+        <div className="absolute right-[-180px] top-[12%] h-[620px] w-[620px] rounded-full bg-orange-500/[0.07] blur-[170px]" />
+
+        <div className="absolute bottom-[-280px] left-[28%] h-[620px] w-[620px] rounded-full bg-emerald-400/[0.06] blur-[180px]" />
       </div>
 
       {/* SIDEBAR DESKTOP */}
 
-      <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] border-r border-slate-800/80 bg-[#030b1b]/95 lg:flex lg:flex-col">
-        <div className="border-b border-slate-800/80 px-8 py-7">
+      <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-emerald-300/[0.16] bg-[#04150f]/97 shadow-[12px_0_55px_rgba(0,0,0,.30),4px_0_35px_rgba(16,185,129,.055)] backdrop-blur-2xl lg:flex">
+        {/* LINIE LUMINOASĂ LATERALĂ */}
+
+        <div
+          className="pointer-events-none absolute inset-y-0 right-0 w-px bg-gradient-to-b from-emerald-300/5 via-emerald-300/45 to-orange-400/25"
+          aria-hidden="true"
+        />
+
+        {/* GLOW SIDEBAR */}
+
+        <div
+          className="pointer-events-none absolute -left-32 top-[10%] h-[360px] w-[360px] rounded-full bg-emerald-500/[0.07] blur-[120px]"
+          aria-hidden="true"
+        />
+
+        <div
+          className="pointer-events-none absolute -bottom-36 left-[-80px] h-[320px] w-[320px] rounded-full bg-orange-500/[0.055] blur-[120px]"
+          aria-hidden="true"
+        />
+
+        {/* LOGO */}
+
+        <div className="relative border-b border-emerald-300/[0.12] px-8 py-7">
           <a
             href="/dashboard"
-            className="block"
+            className="group block"
           >
             <div className="text-[27px] font-black tracking-tight text-white">
               BAC{" "}
-              <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-300 via-emerald-400 to-orange-400 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(16,185,129,.14)]">
                 MATE
               </span>
             </div>
 
-            <p className="mt-1 text-[9px] font-bold uppercase tracking-[0.26em] text-slate-500">
+            <p className="mt-1 text-[9px] font-bold uppercase tracking-[0.26em] text-emerald-100/30">
               Matematica. Pas cu pas.
             </p>
+
+            <div className="mt-3 h-px w-12 bg-gradient-to-r from-emerald-300/70 to-orange-400/40 transition-all duration-300 group-hover:w-20" />
           </a>
         </div>
 
-        <nav className="flex-1 overflow-y-auto px-3 py-6">
+        {/* NAVIGAȚIE */}
+
+        <nav className="relative flex-1 overflow-y-auto px-3 py-6">
           <div className="space-y-1.5">
             {navItems.map((item) => {
-              const active =
-                item.label === "Progres"
-                  ? pathname === "/dashboard"
-                  : isRouteActive(
-                      pathname,
-                      item.href.split("#")[0]
-                    );
+              const active = isRouteActive(
+                pathname,
+                item.href
+              );
 
               return (
                 <a
                   key={item.label}
                   href={item.href}
-                  className={`group relative flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-semibold transition-all ${
+                  className={`group relative flex items-center gap-3 overflow-hidden rounded-xl border px-4 py-3 text-sm font-semibold transition-all duration-200 ${
                     active
-                      ? "bg-blue-500/15 text-white"
-                      : "text-slate-400 hover:bg-slate-900 hover:text-white"
+                      ? "border-emerald-300/25 bg-gradient-to-r from-emerald-500/[0.18] via-emerald-400/[0.10] to-orange-500/[0.08] text-white shadow-[0_0_28px_rgba(16,185,129,.08),0_10px_30px_rgba(0,0,0,.16)]"
+                      : "border-transparent text-emerald-50/45 hover:border-emerald-300/[0.10] hover:bg-emerald-300/[0.045] hover:text-white"
                   }`}
                 >
                   {active && (
-                    <span className="absolute -left-3 top-2 bottom-2 w-1 rounded-r-full bg-blue-500 shadow-[0_0_18px_rgba(59,130,246,0.8)]" />
+                    <>
+                      <span className="absolute -left-[1px] bottom-2 top-2 w-1 rounded-r-full bg-gradient-to-b from-emerald-300 via-emerald-400 to-orange-400 shadow-[0_0_18px_rgba(52,211,153,.85)]" />
+
+                      <span
+                        className="pointer-events-none absolute right-[-28px] top-1/2 h-20 w-20 -translate-y-1/2 rounded-full bg-orange-400/[0.08] blur-2xl"
+                        aria-hidden="true"
+                      />
+
+                      <span
+                        className="pointer-events-none absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-emerald-200/40 to-orange-300/20"
+                        aria-hidden="true"
+                      />
+                    </>
                   )}
 
                   <span
-                    className={`transition ${
+                    className={`relative transition ${
                       active
-                        ? "text-blue-400"
-                        : "text-slate-500 group-hover:text-slate-300"
+                        ? "text-emerald-300 drop-shadow-[0_0_8px_rgba(52,211,153,.35)]"
+                        : "text-emerald-100/35 group-hover:text-orange-200"
                     }`}
                   >
                     {item.icon}
                   </span>
 
-                  <span className="flex-1">
+                  <span className="relative flex-1">
                     {item.label}
                   </span>
 
                   {item.badge && (
-                    <span className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-2 py-0.5 text-[9px] font-black tracking-wide text-cyan-300">
+                    <span className="relative rounded-full border border-orange-300/30 bg-gradient-to-r from-emerald-400/[0.12] to-orange-400/[0.16] px-2 py-0.5 text-[9px] font-black tracking-wide text-orange-200 shadow-[0_0_16px_rgba(249,115,22,.08)]">
                       {item.badge}
                     </span>
                   )}
@@ -389,28 +450,42 @@ export default function BacMateShell({
           </div>
         </nav>
 
-        <div className="px-4 pb-5">
-          <div className="rounded-2xl border border-blue-500/15 bg-blue-500/[0.04] p-4">
-            <p className="text-sm italic leading-6 text-slate-400">
+        {/* MESAJ MATE */}
+
+        <div className="relative px-4 pb-5">
+          <div className="relative overflow-hidden rounded-2xl border border-emerald-300/20 bg-gradient-to-br from-emerald-500/[0.08] via-[#061710] to-orange-500/[0.055] p-4 shadow-[0_0_28px_rgba(16,185,129,.055),0_14px_35px_rgba(0,0,0,.20)]">
+            <div
+              className="pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full bg-orange-400/[0.09] blur-2xl"
+              aria-hidden="true"
+            />
+
+            <div
+              className="pointer-events-none absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/35 to-orange-300/20"
+              aria-hidden="true"
+            />
+
+            <p className="relative text-sm italic leading-6 text-emerald-50/55">
               „Nu trebuie să fii perfect.
               Trebuie doar să fii consecvent.”
             </p>
 
-            <p className="mt-3 text-xs font-bold text-blue-400">
+            <p className="relative mt-3 text-xs font-black text-orange-300">
               — MATE
             </p>
           </div>
         </div>
 
+        {/* DECONECTARE */}
+
         {onSignOut && (
-          <div className="border-t border-slate-800/80 p-3">
+          <div className="relative border-t border-emerald-300/[0.12] p-3">
             <button
               type="button"
               onClick={() => {
                 void onSignOut();
               }}
               disabled={signingOut}
-              className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-semibold text-slate-500 transition hover:bg-red-500/10 hover:text-red-300 disabled:cursor-not-allowed disabled:opacity-50"
+              className="flex w-full items-center gap-3 rounded-xl border border-transparent px-4 py-3 text-left text-sm font-semibold text-emerald-100/35 transition hover:border-red-400/15 hover:bg-red-500/[0.08] hover:text-red-300 disabled:cursor-not-allowed disabled:opacity-50"
             >
               <LogoutIcon />
 
@@ -429,21 +504,35 @@ export default function BacMateShell({
       <div className="relative lg:pl-[232px]">
         {/* HEADER DESKTOP */}
 
-        <header className="sticky top-0 z-30 hidden h-[68px] border-b border-slate-800/80 bg-[#030b1b]/85 backdrop-blur-xl lg:block">
+        <header className="sticky top-0 z-30 hidden h-[68px] border-b border-emerald-300/[0.14] bg-[#04150f]/90 shadow-[0_8px_35px_rgba(0,0,0,.16),0_2px_24px_rgba(16,185,129,.035)] backdrop-blur-2xl lg:block">
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-emerald-300/35 to-orange-400/20"
+            aria-hidden="true"
+          />
+
           <div className="flex h-full items-center justify-end px-7 xl:px-10">
             <div className="flex items-center gap-4">
               <div className="hidden text-right sm:block">
-                <p className="max-w-[180px] truncate text-sm font-bold text-slate-100">
-                  {studentName || "Elev BAC MATE"}
+                <p className="max-w-[180px] truncate text-sm font-bold text-emerald-50">
+                  {studentName ||
+                    "Elev BAC MATE"}
                 </p>
 
-                <p className="mt-0.5 text-xs text-slate-500">
-                  {profileName || "Profil BAC"}
+                <p className="mt-0.5 text-xs text-emerald-100/30">
+                  {profileName ||
+                    "Profil BAC"}
                 </p>
               </div>
 
-              <div className="flex h-10 w-10 items-center justify-center rounded-full border border-blue-400/30 bg-gradient-to-br from-blue-500 to-indigo-600 text-sm font-black shadow-[0_0_22px_rgba(59,130,246,0.25)]">
-                {initial}
+              <div className="relative">
+                <div
+                  className="absolute -inset-2 rounded-full bg-emerald-400/[0.18] blur-xl"
+                  aria-hidden="true"
+                />
+
+                <div className="relative flex h-10 w-10 items-center justify-center rounded-full border border-orange-300/35 bg-gradient-to-br from-emerald-400 via-emerald-500 to-orange-500 text-sm font-black text-white shadow-[0_0_24px_rgba(16,185,129,.24),0_0_18px_rgba(249,115,22,.10)]">
+                  {initial}
+                </div>
               </div>
             </div>
           </div>
@@ -451,72 +540,123 @@ export default function BacMateShell({
 
         {/* HEADER MOBIL */}
 
-        <header className="sticky top-0 z-40 border-b border-slate-800/80 bg-[#030b1b]/95 px-4 py-3 backdrop-blur-xl lg:hidden">
+        <header className="sticky top-0 z-40 border-b border-emerald-300/[0.14] bg-[#04150f]/95 px-4 py-3 shadow-[0_8px_35px_rgba(0,0,0,.20),0_2px_22px_rgba(16,185,129,.04)] backdrop-blur-2xl lg:hidden">
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-emerald-300/40 to-orange-400/25"
+            aria-hidden="true"
+          />
+
           <div className="flex items-center justify-between">
             <a
               href="/dashboard"
-              className="text-xl font-black tracking-tight"
+              className="group text-xl font-black tracking-tight text-white"
             >
               BAC{" "}
-              <span className="text-blue-500">
+              <span className="bg-gradient-to-r from-emerald-300 via-emerald-400 to-orange-400 bg-clip-text text-transparent">
                 MATE
               </span>
             </a>
 
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 text-sm font-black">
-                {initial}
+              {/* AVATAR MOBIL */}
+
+              <div className="relative">
+                <div
+                  className="absolute -inset-2 rounded-full bg-emerald-400/[0.18] blur-xl"
+                  aria-hidden="true"
+                />
+
+                <div className="relative flex h-9 w-9 items-center justify-center rounded-full border border-orange-300/35 bg-gradient-to-br from-emerald-400 via-emerald-500 to-orange-500 text-sm font-black text-white shadow-[0_0_22px_rgba(16,185,129,.22),0_0_16px_rgba(249,115,22,.10)]">
+                  {initial}
+                </div>
               </div>
 
+              {/* MENIU MOBIL */}
+
               <details className="relative">
-                <summary className="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-xl border border-slate-800 bg-slate-900 text-slate-300">
+                <summary className="flex h-9 w-9 cursor-pointer list-none items-center justify-center rounded-xl border border-emerald-300/[0.16] bg-emerald-400/[0.055] text-emerald-100/60 shadow-[0_0_18px_rgba(16,185,129,.04)] transition hover:border-orange-300/30 hover:bg-orange-400/[0.08] hover:text-orange-100">
                   <MenuIcon />
                 </summary>
 
-                <div className="absolute right-0 mt-3 w-64 overflow-hidden rounded-2xl border border-slate-800 bg-[#07101f] p-2 shadow-2xl">
-                  <div className="border-b border-slate-800 px-3 py-3">
-                    <p className="font-bold text-white">
+                <div className="absolute right-0 mt-3 w-64 overflow-hidden rounded-2xl border border-emerald-300/20 bg-[#04150f]/98 p-2 shadow-[0_25px_80px_rgba(0,0,0,.55),0_0_40px_rgba(16,185,129,.08)] backdrop-blur-2xl">
+                  {/* GLOW DROPDOWN */}
+
+                  <div
+                    className="pointer-events-none absolute -left-20 -top-20 h-48 w-48 rounded-full bg-emerald-500/[0.12] blur-[80px]"
+                    aria-hidden="true"
+                  />
+
+                  <div
+                    className="pointer-events-none absolute -bottom-24 right-[-60px] h-48 w-48 rounded-full bg-orange-500/[0.10] blur-[80px]"
+                    aria-hidden="true"
+                  />
+
+                  <div
+                    className="pointer-events-none absolute inset-x-5 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-orange-300/30"
+                    aria-hidden="true"
+                  />
+
+                  {/* PROFIL */}
+
+                  <div className="relative border-b border-emerald-300/[0.12] px-3 py-3">
+                    <p className="truncate font-bold text-emerald-50">
                       {studentName ||
                         "Elev BAC MATE"}
                     </p>
 
-                    <p className="mt-1 text-xs text-slate-500">
+                    <p className="mt-1 truncate text-xs text-emerald-100/30">
                       {profileName ||
                         "Profil BAC"}
                     </p>
                   </div>
 
-                  <nav className="mt-2 space-y-1">
+                  {/* NAVIGAȚIE DROPDOWN */}
+
+                  <nav className="relative mt-2 space-y-1">
                     {navItems.map((item) => {
                       const active =
-                        item.label === "Progres"
-                          ? pathname ===
-                            "/dashboard"
-                          : isRouteActive(
-                              pathname,
-                              item.href.split(
-                                "#"
-                              )[0]
-                            );
+                        isRouteActive(
+                          pathname,
+                          item.href
+                        );
 
                       return (
                         <a
                           key={item.label}
                           href={item.href}
-                          className={`flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-semibold ${
+                          className={`group relative flex items-center gap-3 overflow-hidden rounded-xl border px-3 py-3 text-sm font-semibold transition ${
                             active
-                              ? "bg-blue-500/15 text-blue-300"
-                              : "text-slate-400 hover:bg-slate-900 hover:text-white"
+                              ? "border-emerald-300/25 bg-gradient-to-r from-emerald-500/[0.18] via-emerald-400/[0.10] to-orange-500/[0.08] text-white shadow-[0_0_22px_rgba(16,185,129,.07)]"
+                              : "border-transparent text-emerald-50/45 hover:border-emerald-300/[0.10] hover:bg-emerald-300/[0.045] hover:text-white"
                           }`}
                         >
-                          {item.icon}
+                          {active && (
+                            <>
+                              <span className="absolute bottom-2 left-0 top-2 w-[3px] rounded-r-full bg-gradient-to-b from-emerald-300 to-orange-400 shadow-[0_0_12px_rgba(52,211,153,.65)]" />
 
-                          <span className="flex-1">
+                              <span
+                                className="pointer-events-none absolute right-[-20px] top-1/2 h-16 w-16 -translate-y-1/2 rounded-full bg-orange-400/[0.07] blur-xl"
+                                aria-hidden="true"
+                              />
+                            </>
+                          )}
+
+                          <span
+                            className={`relative ${
+                              active
+                                ? "text-emerald-300"
+                                : "text-emerald-100/35 group-hover:text-orange-200"
+                            }`}
+                          >
+                            {item.icon}
+                          </span>
+
+                          <span className="relative flex-1">
                             {item.label}
                           </span>
 
                           {item.badge && (
-                            <span className="rounded-full bg-cyan-400/10 px-2 py-0.5 text-[9px] font-black text-cyan-300">
+                            <span className="relative rounded-full border border-orange-300/25 bg-gradient-to-r from-emerald-400/[0.12] to-orange-400/[0.16] px-2 py-0.5 text-[9px] font-black text-orange-200">
                               {item.badge}
                             </span>
                           )}
@@ -525,6 +665,8 @@ export default function BacMateShell({
                     })}
                   </nav>
 
+                  {/* DECONECTARE MOBIL */}
+
                   {onSignOut && (
                     <button
                       type="button"
@@ -532,7 +674,7 @@ export default function BacMateShell({
                         void onSignOut();
                       }}
                       disabled={signingOut}
-                      className="mt-2 flex w-full items-center gap-3 rounded-xl border-t border-slate-800 px-3 py-3 text-sm font-semibold text-red-300 disabled:opacity-50"
+                      className="relative mt-2 flex w-full items-center gap-3 border-t border-emerald-300/[0.12] px-3 py-3 text-sm font-semibold text-red-300/80 transition hover:bg-red-500/[0.07] hover:text-red-200 disabled:opacity-50"
                     >
                       <LogoutIcon />
 
@@ -555,72 +697,147 @@ export default function BacMateShell({
 
         {/* NAVIGAȚIE RAPIDĂ MOBIL */}
 
-        <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-slate-800/90 bg-[#030b1b]/95 px-2 py-2 backdrop-blur-xl lg:hidden">
-          <div className="mx-auto grid max-w-md grid-cols-5 gap-1">
+        <nav className="fixed bottom-0 left-0 right-0 z-30 border-t border-emerald-300/[0.16] bg-[#04150f]/97 px-2 py-2 shadow-[0_-12px_45px_rgba(0,0,0,.28),0_-2px_28px_rgba(16,185,129,.04)] backdrop-blur-2xl lg:hidden">
+          <div
+            className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-orange-400/30"
+            aria-hidden="true"
+          />
+
+          <div className="relative mx-auto grid max-w-md grid-cols-5 gap-1">
+            {/* ACASĂ */}
+
             <a
               href="/dashboard"
-              className={`flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold ${
+              className={`relative flex flex-col items-center gap-1 overflow-hidden rounded-xl border px-1 py-2 text-[10px] font-bold transition ${
                 pathname === "/dashboard"
-                  ? "bg-blue-500/15 text-blue-400"
-                  : "text-slate-500"
+                  ? "border-emerald-300/20 bg-gradient-to-b from-emerald-500/[0.16] to-emerald-400/[0.07] text-emerald-300 shadow-[0_0_18px_rgba(16,185,129,.07)]"
+                  : "border-transparent text-emerald-100/30 hover:bg-emerald-400/[0.04] hover:text-emerald-100"
               }`}
             >
+              {pathname ===
+                "/dashboard" && (
+                <span
+                  className="absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/70 to-transparent"
+                  aria-hidden="true"
+                />
+              )}
+
               <DashboardIcon />
               Acasă
             </a>
 
+            {/* LECȚII */}
+
             <a
               href="/programa"
-              className={`flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold ${
+              className={`relative flex flex-col items-center gap-1 overflow-hidden rounded-xl border px-1 py-2 text-[10px] font-bold transition ${
                 pathname === "/programa" ||
-                pathname.startsWith("/lectii")
-                  ? "bg-blue-500/15 text-blue-400"
-                  : "text-slate-500"
+                pathname.startsWith(
+                  "/lectii"
+                )
+                  ? "border-emerald-300/20 bg-gradient-to-b from-emerald-500/[0.16] to-emerald-400/[0.07] text-emerald-300 shadow-[0_0_18px_rgba(16,185,129,.07)]"
+                  : "border-transparent text-emerald-100/30 hover:bg-emerald-400/[0.04] hover:text-emerald-100"
               }`}
             >
+              {(pathname ===
+                "/programa" ||
+                pathname.startsWith(
+                  "/lectii"
+                )) && (
+                <span
+                  className="absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/70 to-transparent"
+                  aria-hidden="true"
+                />
+              )}
+
               <LessonsIcon />
               Lecții
             </a>
 
+            {/* MATE CENTRAL */}
+
             <a
               href="/mate"
-              className={`relative flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold ${
-                pathname.startsWith("/mate")
-                  ? "bg-blue-500/15 text-blue-400"
-                  : "text-slate-500"
+              className={`relative flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold transition ${
+                pathname.startsWith(
+                  "/mate"
+                )
+                  ? "text-orange-200"
+                  : "text-emerald-100/30"
               }`}
             >
-              <span className="absolute -top-4 flex h-11 w-11 items-center justify-center rounded-full border-4 border-[#030b1b] bg-gradient-to-br from-blue-500 to-violet-600 text-white shadow-[0_0_25px_rgba(59,130,246,0.4)]">
+              <span
+                className={`absolute -top-5 flex h-12 w-12 items-center justify-center rounded-full border-[4px] border-[#04150f] text-white transition ${
+                  pathname.startsWith(
+                    "/mate"
+                  )
+                    ? "bg-gradient-to-br from-emerald-300 via-emerald-500 to-orange-500 shadow-[0_0_28px_rgba(16,185,129,.38),0_0_22px_rgba(249,115,22,.20)]"
+                    : "bg-gradient-to-br from-emerald-500 to-emerald-700 shadow-[0_0_22px_rgba(16,185,129,.18)]"
+                }`}
+              >
                 <MateIcon />
               </span>
 
-              <span className="mt-5">
+              {pathname.startsWith(
+                "/mate"
+              ) && (
+                <span
+                  className="pointer-events-none absolute -top-7 h-16 w-16 rounded-full bg-orange-400/[0.10] blur-xl"
+                  aria-hidden="true"
+                />
+              )}
+
+              <span className="relative mt-5">
                 MATE
               </span>
             </a>
 
+            {/* EVALUĂRI */}
+
             <a
               href="/evaluare"
-              className={`flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold ${
+              className={`relative flex flex-col items-center gap-1 overflow-hidden rounded-xl border px-1 py-2 text-[10px] font-bold transition ${
                 pathname.startsWith(
                   "/evaluare"
                 )
-                  ? "bg-blue-500/15 text-blue-400"
-                  : "text-slate-500"
+                  ? "border-emerald-300/20 bg-gradient-to-b from-emerald-500/[0.16] to-emerald-400/[0.07] text-emerald-300 shadow-[0_0_18px_rgba(16,185,129,.07)]"
+                  : "border-transparent text-emerald-100/30 hover:bg-emerald-400/[0.04] hover:text-emerald-100"
               }`}
             >
+              {pathname.startsWith(
+                "/evaluare"
+              ) && (
+                <span
+                  className="absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/70 to-transparent"
+                  aria-hidden="true"
+                />
+              )}
+
               <EvaluationIcon />
               Evaluări
             </a>
 
+            {/* PROFIL */}
+
             <a
               href="/profil"
-              className={`flex flex-col items-center gap-1 rounded-xl px-1 py-2 text-[10px] font-bold ${
-                pathname.startsWith("/profil")
-                  ? "bg-blue-500/15 text-blue-400"
-                  : "text-slate-500"
+              className={`relative flex flex-col items-center gap-1 overflow-hidden rounded-xl border px-1 py-2 text-[10px] font-bold transition ${
+                pathname.startsWith(
+                  "/profil"
+                )
+                  ? "border-emerald-300/20 bg-gradient-to-b from-emerald-500/[0.16] to-emerald-400/[0.07] text-emerald-300 shadow-[0_0_18px_rgba(16,185,129,.07)]"
+                  : "border-transparent text-emerald-100/30 hover:bg-emerald-400/[0.04] hover:text-emerald-100"
               }`}
             >
+              {pathname.startsWith(
+                "/profil"
+              ) && (
+                <span
+                  className="absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/70 to-transparent"
+                  aria-hidden="true"
+                />
+              )}
+
               <ProfileIcon />
               Profil
             </a>

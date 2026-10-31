@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Negația unei propoziții simple",
+      "nivel": "fundament",
+      "enunt": "Fie p = '3 este un număr prim'. Să se nege propoziția p.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției simple",
+          "continut": "Propoziția p este o propoziție simplă, deci negația ei se obține prin adăugarea simbolului ¬ în fața ei."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea simbolului de negație",
+          "continut": "Negația propoziției p este ¬p = '3 nu este un număr prim'."
+        }
+      ],
+      "raspunsFinal": "¬p = '3 nu este un număr prim'.",
+      "verificare": "Propoziția p este adevărată, deci negația ei trebuie să fie falsă. Răspunsul corespunde cu definiția negației."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Conjuncția a două propoziții simple",
+      "nivel": "fundament",
+      "enunt": "Fie p = '4 este un număr par' și q = '5 este un număr impar'. Să se formeze conjuncția dintre p și q.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propozițiilor simple",
+          "continut": "Propozițiile p și q sunt ambele simple, deci pot fi unite prin conjuncție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea simbolului de conjuncție",
+          "continut": "Conjuncția dintre p și q este p ∧ q = '4 este un număr par și 5 este un număr impar'."
+        }
+      ],
+      "raspunsFinal": "p ∧ q = '4 este un număr par și 5 este un număr impar'.",
+      "verificare": "Conjuncția afirmă că ambele propoziții sunt adevărate în același timp. Răspunsul corespunde cu definiția conjuncției."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Negația unei propoziții compuse prin conjuncție",
+      "nivel": "standard-bac",
+      "enunt": "Fie p = '4 este un număr par' și q = '5 este un număr impar'. Să se nege propoziția p ∧ q.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției compuse",
+          "continut": "Propoziția p ∧ q este o propoziție compusă, deci negația ei nu este doar negarea fiecărui termen, ci implică regula logicii."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de negație pentru conjuncție",
+          "continut": "Negația unei conjuncții este disjuncția negațiilor fiecărui termen: ¬(p ∧ q) = ¬p ∨ ¬q."
+        }
+      ],
+      "raspunsFinal": "¬(p ∧ q) = '4 nu este un număr par sau 5 nu este un număr impar'.",
+      "verificare": "Regula de negație pentru conjuncție este corect aplicată. Răspunsul corespunde cu definiția negației unei propoziții compuse."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Implicația dintre două propoziții simple",
+      "nivel": "avansat",
+      "enunt": "Fie p = '2 este un număr prim' și q = '3 este un număr par'. Să se formeze implicația p → q.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propozițiilor simple",
+          "continut": "Propozițiile p și q sunt ambele simple, deci pot fi unite prin implicație."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea simbolului de implicație",
+          "continut": "Implicația dintre p și q este p → q = 'Dacă 2 este un număr prim, atunci 3 este un număr par'."
+        }
+      ],
+      "raspunsFinal": "p → q = 'Dacă 2 este un număr prim, atunci 3 este un număr par'.",
+      "verificare": "Implicația exprimă o relație logică între p și q. Răspunsul corespunde cu definiția implicației logice."
+    }
+  ]
+}

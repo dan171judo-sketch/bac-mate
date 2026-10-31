@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducere în adunarea numerelor naturale",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 oferă o introducere intuitivă și clară a conceptului de adunare a numerelor naturale. Acesta explică cum se adună două sau mai multe numere, folosind exemple simple care să fie ușor de înțeles pentru elevi.",
+    "scenariu": [
+      "Bună ziua! În această lecție, vom începe cu un concept fundamental al matematicii: adunarea numerelor naturale. Adunarea este o operație care ne ajută să găsim cât face dacă avem mai multe obiecte și le combinăm. De exemplu, dacă ai 3 mere și încă 2 mere, cum arată totalul?",
+      "Să ne gândim la un scenariu din viața de zi cu zi: imaginează-ți că mergi la magazin și cumpări 5 pâine. Apoi, mai cumpără încă 3 pâine. Câte pâini ai acum? Răspunsul este 8, dar cum ajungem la acest rezultat?",
+      "Adunarea este o operație care se face prin combinarea a două sau mai multe numere. În matematică, folosim semnul plus (+) pentru a arăta că adunăm. Așadar, 5 + 3 = 8. Aceasta înseamnă că dacă avem 5 obiecte și încă 3 obiecte, totalul este 8.",
+      "Este important să înțelegem de ce adunarea funcționează așa. Când combinăm două seturi de obiecte, numărul total este suma numerelor respective. De exemplu, dacă ai 2 mere și încă 4 mere, atunci ai 6 mere în total.",
+      "Pentru a aduna mai ușor, putem folosi o metodă simplă: scriem cele două numere unul lângă altul, le aliniem pe coloane (unitățile sub unitățile, zecile sub zecile etc.) și adunăm cifra din fiecare coloană. Dacă rezultatul este mai mare decât 9, trecem câtul la coloana următoare.",
+      "Să luăm un exemplu concret: să adunăm 14 și 9. Începem cu unitățile: 4 + 9 = 13. Scriem 3 în coloana unităților și trecem 1 la zecile. Apoi, adunăm zecile: 1 (din 14) + 0 (din 9) + 1 (trecut) = 2. Deci, rezultatul este 23.",
+      "Este important să verificăm dacă răspunsul nostru are sens. Dacă adunăm 14 și 9, ar trebui să obținem un număr mai mare decât fiecare dintre ele. În cazul acesta, 23 este mai mare decât atât 14, cât și 9, ceea ce confirmă că calculul este corect.",
+      "O greșeală frecventă este să nu trecem corect la coloana următoare. De exemplu, dacă adunăm 12 + 8, unele elevi pot scrie doar 0 în unități și neglija trecerea de la 10. Acest lucru duce la un răspuns greșit, cum ar fi 10 în loc de 20.",
+      "Pentru a evita această greșeală, este important să ne amintim că atunci când adunăm cifre dintr-o coloană și obținem mai mult de 9, trebuie să trecem câtul la coloana următoare. Acest lucru se aplică pentru toate coloanele, nu doar pentru unități.",
+      "Să ne întrebăm acum: ce se întâmplă dacă adunăm mai mult de două numere? De exemplu, 14 + 9 + 6. În acest caz, putem aduna două numere și apoi rezultatul cu al treilea. Să începem cu 14 + 9 = 23, apoi adunăm 6: 23 + 6 = 29.",
+      "În concluzie, adunarea este o operație esențială în matematică care ne ajută să combinăm obiecte sau valori. Este important să înțelegem cum funcționează și să evităm greșelile comune, cum ar fi neglijarea trecerii la coloana următoare.",
+      "Acum, să verificăm dacă ai înțeles ce am explicat. Ce este rezultatul adunării 14 + 9?"
+    ],
+    "ideiDeRetinut": [
+      "Adunarea combină două sau mai multe numere pentru a obține un total.",
+      "Semnul plus (+) indică operația de adunare.",
+      "Atunci când adunăm cifre dintr-o coloană și obținem mai mult de 9, trebuie să trecem câtul la coloana următoare."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Adunarea numerelor 14 și 9",
+      "enunt": "Calculați suma numerelor 14 și 9.",
+      "rezolvareScurta": [
+        "Adunăm unitățile: 4 + 9 = 13. Scriem 3 în coloana unităților și trecem 1 la zecile.",
+        "Adunăm zecile: 1 (din 14) + 0 (din 9) + 1 (trecut) = 2. Deci, rezultatul este 23."
+      ],
+      "raspuns": "23"
+    },
+    "verificareRapida": {
+      "intrebare": "Ce este rezultatul adunării 14 + 9?",
+      "variante": [
+        "20",
+        "23",
+        "25",
+        "28"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Rezultatul adunării 14 + 9 este 23."
+    }
+  }
+}

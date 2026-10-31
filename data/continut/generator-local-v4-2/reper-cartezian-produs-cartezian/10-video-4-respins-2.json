@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 4,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom analiza o regulă importantă pentru pregătirea examenului de Bacalaureat. Regula este legată de identificarea informației relevante dintr-o cerință și aplicarea corectă a metodei de rezolvare.",
+    "Elevul trebuie să înțeleagă că, în timpul examenului, nu are timp să citească toate detaliile, ci trebuie să identifice rapid ce este esențial pentru rezolvarea problemei. Acest lucru îl ajută să economisească timp și să evite greșelile comune.",
+    "Regula de bază este: citirea cerinței cu atenție, identificarea cheii problemei, apoi aplicarea metodei adecvate. De exemplu, dacă cerința spune „calculează aria unui triunghi”, elevul trebuie să știe că are nevoie de baza și înălțimea acestuia.",
+    "Motivul pentru care această regulă funcționează este că o problemă matematică, indiferent de complexitate, se rezolvă prin pași logici. Dacă elevul știe ce trebuie să caute, va putea găsi soluția mai repede și cu mai puține greșeli.",
+    "Metoda de lucru implică trei etape: citirea cerinței, identificarea datelor necesare și aplicarea formulelor corespunzătoare. Este important să se scrie toate pașii pe hârtie, chiar dacă par simpli, pentru a evita confuziile.",
+    "Vom folosi un exemplu concret: „Un dreptunghi are lungimea de 8 cm și lățimea de 5 cm. Aflați aria acestui dreptunghi.” Elevul trebuie să recunoască că aria se calculează prin înmulțirea lungimii cu lățimea, adică A = L × l.",
+    "În această situație, elevul va scrie: A = 8 cm × 5 cm = 40 cm². Este important să se verifice unitatea de măsură și să se asigure că răspunsul este exprimat corect.",
+    "O greșeală frecventă este atunci când elevul confunde aria cu perimetrul. Perimetrul se calculează prin adunarea tuturor laturilor, în timp ce aria este produsul dintre lungime și lățime. Acest lucru poate duce la răspunsuri incorecte.",
+    "Pentru a evita această greșeală, elevul trebuie să se întrebe: „Ce cerință are problema?” Dacă este aria, atunci înmulțește; dacă este perimetrul, adună. Este o diferență esențială.",
+    "În concluzie, identificarea corectă a cerinței și aplicarea metodei adecvate sunt cheia rezolvării problemelor matematice în timp util. Practică constantă și atenție la detalii vor duce la rezultate bune.",
+    "Pentru a verifica dacă ai înțeles, răspunde la întrebarea următoare: Ce se cere să calculezi când un exercițiu spune „aflați aria unui dreptunghi”? Alege varianta corectă.",
+    "În final, reține că în timpul examenului, fiecare secundă contează. Identificarea rapidă a cerinței și aplicarea metodei pot face diferența între un răspuns corect și unul greșit."
+  ],
+  "ideiDeRetinut": [
+    "Identificarea cerinței este esențială pentru rezolvare.",
+    "Aplicarea formulelor corespunzătoare datelor problemei.",
+    "Verificarea unităților de măsură și a răspunsului final.",
+    "Diferența între aria și perimetrul unui dreptunghi."
+  ],
+  "exemplu": {
+    "titlu": "Calcularea ariei unui dreptunghi",
+    "enunt": "Un dreptunghi are lungimea de 8 cm și lățimea de 5 cm. Aflați aria acestui dreptunghi.",
+    "rezolvareScurta": [
+      "Aria se calculează prin înmulțirea lungimii cu lățimea.",
+      "A = L × l = 8 cm × 5 cm."
+    ],
+    "raspuns": "40 cm²"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce se cere să calculezi când un exercițiu spune „aflați aria unui dreptunghi”?",
+    "variante": [
+      "Perimetrul",
+      "Aria",
+      "Lungimea",
+      "Lățimea"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Aria se calculează prin înmulțirea lungimii cu lățimea. Perimetrul este suma tuturor laturilor, iar lungimea și lățimea sunt date direct."
+  }
+}

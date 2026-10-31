@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "reper cartezian",
+      "definitie": "Un reper cartezian este o pereche formată dintr-un punct O, numit origine, și două axe perpendiculare, Ox și Oy, cu aceeași unitate de măsură.",
+      "observatie": "Reperul cartezian permite definirea poziției unui punct în plan prin coordonate."
+    },
+    {
+      "termen": "produs cartezian",
+      "definitie": "Produsul cartezian dintre două mulțimi A și B este mulțimea tuturor perechilor ordonate (a, b), unde a ∈ A și b ∈ B.",
+      "observatie": "Produsul cartezian reprezintă toate posibilitățile de combinare între elementele celor două mulțimi."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Reperul cartezian în plan",
+      "explicatie": "Un reper cartezian este format dintr-o origine și două axe perpendiculare, care permit definirea poziției unui punct prin coordonate. Axa Ox se numește axa absciselor, iar Oy se numește axa ordonatelor.",
+      "ideiCheie": [
+        "Originea este punctul de intersecție al celor două axe.",
+        "Coordonata x a unui punct reprezintă poziția pe axa Ox, iar coordonata y reprezintă poziția pe axa Oy."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Produsul cartezian și reprezentarea punctelor",
+      "explicatie": "Produsul cartezian dintre două mulțimi A și B este o mulțime de perechi ordonate. În contextul reperului cartezian, fiecare punct din plan poate fi reprezentat ca o pereche (x, y), unde x ∈ A și y ∈ B.",
+      "ideiCheie": [
+        "Fiecare punct în plan este asociat unei perechi de coordonate.",
+        "Produsul cartezian oferă un mod de a defini toate punctele posibile într-un reper."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Relația dintre coordonate și poziție",
+      "explicatie": "Coordonatele unui punct într-un reper cartezian indică distanța față de origine pe fiecare axă. Acestea permit identificarea unică a unui punct în plan.",
+      "ideiCheie": [
+        "Coordonata x este distanța orizontală față de origine.",
+        "Coordonata y este distanța verticală față de origine."
+      ]
+    }
+  ],
+  "formule": []
+}

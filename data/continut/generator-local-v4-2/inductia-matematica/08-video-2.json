@@ -1,0 +1,49 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în calculul cu paranteze",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale pentru efectuarea corectă a calculelor matematice, în special cele care implică paranteze. Vom vedea cum se aplică aceste reguli, de ce sunt importante și cum putem evita greșelile comune.",
+    "scenariu": [
+      "În acest videoclip vom explora regulile esențiale pentru efectuarea corectă a calculelor matematice. Parantezele sunt o parte importantă din aceste reguli, dar nu singura. Vom vedea cum se aplică regulile de ordine a operațiilor și cum putem evita greșelile comune.",
+      "Prima regulă pe care trebuie să o ținem minte este că într-un exercițiu matematic, operațiile nu sunt efectuate doar în ordinea în care apar. Există o prioritate specifică pentru fiecare tip de operație: înmulțirea și împărțirea au prioritate față de adunarea și scăderea.",
+      "Dar când apar parantezele, acestea devin prioritare. Orice operație din interiorul parantezelor trebuie efectuată înainte decât cele din afara lor. Acest lucru este esențial pentru a obține un rezultat corect.",
+      "De exemplu, dacă avem exercițiul 12 + (24 - 6), trebuie să calculăm întâi ce este în paranteze: 24 minus 6 este 18. Apoi adunăm 12 la rezultatul obținut, ceea ce ne dă 30. Fără paranteze, ordinea ar fi fost diferită și rezultatul ar fi fost greșit.",
+      "Este important să înțelegem de ce funcționează astfel regula. Parantezele sunt folosite pentru a schimba ordinea naturală a operațiilor. Ele ne permit să grupăm anumite părți ale exercițiului și să le calculăm separat, ceea ce face ca rezultatul final să fie corect.",
+      "Metoda de lucru este simplă: începem cu parantezele, apoi efectuăm înmulțirile și împărțirile, iar la final adunarea și scăderea. Acest pas cu pas ne ajută să nu greșim și să obținem un rezultat corect.",
+      "Pentru a vedea cum funcționează această metodă, să luăm un exemplu concret: 10 + (5 × 2) - 4. În paranteze avem 5 înmulțit cu 2, care este 10. Apoi adunăm 10 la 10 și scădem 4, obținând rezultatul final de 16.",
+      "După ce am calculat corect, trebuie să verificăm dacă rezultatul este logic. Dacă avem un exercițiu complex, putem repeta pas cu pas fiecare etapă pentru a ne asigura că nu am greșit niciunde.",
+      "O greșeală frecventă este să neglijăm parantezele și să efectuăm operațiile în ordinea în care apar. De exemplu, dacă calculăm 10 + 5 × 2 - 4 fără paranteze, am putea aduna întâi 10 cu 5, obținând 15, apoi înmulțim cu 2 și scădem 4, ceea ce ar da un rezultat greșit.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că parantezele sunt prioritare. De fiecare dată când întâlnim un exercițiu cu paranteze, începem cu ele, indiferent de ce operații sunt în afara lor.",
+      "În concluzie, regulile de ordine a operațiilor și utilizarea parantezelor sunt esențiale pentru a obține un rezultat corect. Metoda pas cu pas ne ajută să nu greșim și să răspundem corect la exercițiile matematice.",
+      "Așadar, învățăm să folosim parantezele ca o formă de organizare a calculelor, să respectăm ordinea operațiilor și să verificăm rezultatul final pentru a ne asigura că am făcut totul corect."
+    ],
+    "ideiDeRetinut": [
+      "Parantezele sunt prioritare într-un exercițiu matematic.",
+      "Operațiile de înmulțire și împărțire au prioritate față de adunare și scădere.",
+      "Metoda pas cu pas este esențială pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: 10 + (5 × 2) - 4",
+      "enunt": "Calculați rezultatul exercițiului: 10 + (5 × 2) - 4.",
+      "rezolvareScurta": [
+        "Începem cu paranteza: 5 × 2 = 10.",
+        "Apoi adunăm 10 la rezultatul obținut: 10 + 10 = 20.",
+        "Scădem apoi 4 din rezultat: 20 - 4 = 16."
+      ],
+      "raspuns": "16"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul exercițiului: 8 + (3 × 2) - 5?",
+      "variante": [
+        "7",
+        "11",
+        "13",
+        "16"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "În paranteze avem 3 × 2 = 6. Apoi adunăm 8 + 6 = 14, apoi scădem 5: 14 - 5 = 9. Așadar, varianta corectă este 9."
+    }
+  }
+}

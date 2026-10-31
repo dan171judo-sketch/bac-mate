@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă intersecția cu axa Oy cu intersecția cu axa Ox",
+      "deCeEsteGresit": "Intersecția cu axa Oy se obține pentru x = 0, iar intersecția cu axa Ox se obține pentru f(x) = 0. Confuzia poate duce la erori în interpretarea graficului.",
+      "cumOEviti": "Identificați clar punctul de intersecție cu Oy (y = f(0)) și cel cu Ox (x astfel încât f(x) = 0)."
+    },
+    {
+      "greseala": "Nu analizează monotonia corect pe întreg intervalul",
+      "deCeEsteGresit": "Monotonia se referă la comportamentul funcției pe un interval, nu doar într-un punct. O eroare aici poate duce la concluzii greșite despre tendința funcției.",
+      "cumOEviti": "Analizați graficul pe întreg intervalul și observați dacă punctele se ridică sau coboară."
+    },
+    {
+      "greseala": "Interpretează simetria față de origine ca simetrie față de axa Oy",
+      "deCeEsteGresit": "Simetria față de origine implică f(-x) = -f(x), în timp ce simetria față de Oy este f(-x) = f(x). Confuzia poate duce la erori în recunoașterea proprietăților funcției.",
+      "cumOEviti": "Verificați dacă graficul se suprapune cu imaginea sa simetrică față de origine sau față de Oy."
+    },
+    {
+      "greseala": "Neglijează semnul funcției în afara unui interval dat",
+      "deceaEsteGresit": "Semnul funcției depinde de poziția punctelor pe grafic. Neglijarea acestui aspect poate duce la erori în interpretarea valorilor funcției.",
+      "cumOEviti": "Analizați semnul funcției în fiecare interval unde este definită, folosind poziția graficului față de axa Ox."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul unei funcții reprezintă toate punctele (x, f(x)) din plan.",
+      "Monotonia se deduce prin analiza poziției punctelor pe grafic.",
+      "Simetria față de origine sau față de Oy este o proprietate importantă a funcției.",
+      "Semnul funcției poate fi determinat din poziția graficului față de axa Ox."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identificați intersecțiile cu axele de coordonate.",
+      "Analizați monotonia funcției pe fiecare interval.",
+      "Recunoașteți simetria graficului față de origine sau Oy.",
+      "Interpretați semnul funcției în funcție de poziția punctelor."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Lectura graficului este o competență esențială pentru examenul de Bacalaureat, unde se cer frecvent interpretări ale comportamentului funcțiilor prin intermediul reprezentărilor grafice.",
+    "tipuriCerinte": [
+      "Identificarea intersecțiilor cu axele de coordonate",
+      "Determinarea monotoniilor dintr-un grafic dat",
+      "Recunoașterea simetriei funcției",
+      "Interpretarea semnului funcției în funcție de poziția punctelor"
+    ],
+    "strategie": [
+      "Antrenați-vă să identificați rapid intersecțiile și comportamentul graficului.",
+      "Analizați graficul pe fiecare interval pentru a deduce monotonia corectă.",
+      "Verificați simetria funcției prin compararea valorilor f(x) și f(-x).",
+      "Observați poziția punctelor față de axa Ox pentru a determina semnul funcției."
+    ]
+  }
+}

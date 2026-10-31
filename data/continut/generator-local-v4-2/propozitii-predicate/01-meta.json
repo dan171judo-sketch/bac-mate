@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Elemente de logică matematică în contextul propozițiilor și predicatelor",
+  "descriere": "Lectia introduce conceptele de propoziție și predicat, precum și relația dintre ele în cadrul logicii matematice.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre mulțimi și elemente de logică"
+  ],
+  "obiective": [
+    "Să definească noțiunea de propoziție și să identifice exemple concrete",
+    "Să înțeleagă diferența dintre propoziții și predicate",
+    "Să recunoască rolul variabilelor în formarea predicatelor",
+    "Să folosească predicatele pentru a exprima afirmații matematice"
+  ],
+  "termeniCheie": [
+    "propoziție",
+    "predicat",
+    "variabilă",
+    "logica matematică"
+  ]
+}

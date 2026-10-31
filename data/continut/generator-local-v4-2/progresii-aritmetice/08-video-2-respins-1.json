@@ -1,0 +1,49 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile importante și metoda de lucru corectă pentru a rezolva problemele matematice. Vom învăța cum să abordăm o problemă pas cu pas, cum să evităm greșelile frecvente și cum să verificăm dacă răspunsul nostru este corect.",
+    "scenariu": [
+      "În această lecție, vom discuta despre reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice. Acestea sunt esențiale pentru a obține un răspuns corect și eficient.",
+      "Prima etapă este să înțelegem ce ne cere problema. De exemplu, dacă se cere să calculăm aria unui pătrat sau să determinăm procentul unei valori, trebuie să știm exact ce ne trebuie ca rezultat final.",
+      "După ce am înțeles cerința, următoarea regulă este să identificăm datele cunoscute și cele necunoscute. De exemplu, dacă problema spune că un pătrat are latura de 6 cm, atunci aria va fi calculată cu formula A = l².",
+      "Este important să ne amintim formulele matematice relevante pentru fiecare tip de problemă. Fără a le cunoaște, nu putem aplica corect metoda de lucru.",
+      "Metoda de lucru implică pași clari și structurați: înțelegerea problemei, identificarea datelor, aplicarea formulelor sau regulilor, calculul pas cu pas și verificarea rezultatului final.",
+      "Vom analiza un exemplu concret. Să presupunem că avem o problemă de procente: 40% dintr-un număr este egal cu 120. Ce număr reprezintă 100%? Pentru a rezolva, vom folosi regula proporționalității: 40% = 120 ⇒ 1% = 3 ⇒ 100% = 300.",
+      "După ce am aplicat formula corect și am calculat pas cu pas, trebuie să verificăm dacă răspunsul este logic. Dacă 40% dintr-un număr este 120, atunci 100% ar trebui să fie mai mare decât 120, ceea ce confirmă că 300 este corect.",
+      "O greșeală frecventă este să aplicăm formula invers. De exemplu, dacă cineva calculează 40% din 120 în loc de a determina numărul total, va obține un răspuns incorect. Este important să ne asigurăm că folosim corect fiecare pas.",
+      "Alte greșeli pot apărea atunci când nu transformăm procente în fracții sau nu luăm în considerare toate datele problemei. De exemplu, dacă problema spune că un produs a scăzut cu 20%, dar nu ne dă prețul inițial, nu putem calcula corect reducerea.",
+      "Pentru a evita aceste greșeli, este important să luăm notițe în timpul rezolvării și să verificăm fiecare etapă. De asemenea, ar fi bine să ne întrebăm dacă răspunsul are sens în contextul problemei.",
+      "În concluzie, metoda de lucru corectă implică înțelegerea problemei, aplicarea regulilor matematice, calculul pas cu pas și verificarea rezultatului. Astfel, putem evita greșelile frecvente și obține răspunsuri exacte.",
+      "Vom reveni la exemplul de mai sus pentru a recapitula pașii: înțelegerea problemei, identificarea datelor, aplicarea formulei, calculul corect și verificarea rezultatului. Astfel, putem aplica această metodă în orice problemă matematică."
+    ],
+    "ideiDeRetinut": [
+      "Înțelege întotdeauna cerința problemei.",
+      "Identifică datele cunoscute și cele necunoscute.",
+      "Aplică corect formulele matematice.",
+      "Verifică răspunsul pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Calcularea procentului unui număr",
+      "enunt": "40% dintr-un număr este egal cu 120. Ce număr reprezintă 100%?",
+      "rezolvareScurta": [
+        "40% = 120 ⇒ 1% = 3 ⇒ 100% = 300",
+        "Răspunsul final este 300."
+      ],
+      "raspuns": "300"
+    },
+    "verificareRapida": {
+      "intrebare": "25% dintr-un număr este egal cu 50. Ce număr reprezintă 100%?",
+      "variante": [
+        "100",
+        "150",
+        "200",
+        "250"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "25% = 50 ⇒ 1% = 2 ⇒ 100% = 200."
+    }
+  }
+}

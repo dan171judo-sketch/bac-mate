@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție strict crescătoare",
+      "definitie": "O funcție f: D → R se numește strict crescătoare pe un interval I ⊆ D dacă pentru orice x₁, x₂ ∈ I cu x₁ < x₂ avem f(x₁) < f(x₂).",
+      "observatie": "Această definiție este esențială în studiul monotoniei funcțiilor."
+    },
+    {
+      "termen": "funcție strict descrescătoare",
+      "definitie": "O funcție f: D → R se numește strict descrescătoare pe un interval I ⊆ D dacă pentru orice x₁, x₂ ∈ I cu x₁ < x3 avem f(x₁) > f(x₂).",
+      "observatie": "Este opusul funcției crescătoare și este important în analiza comportamentului funcțiilor."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Monotonia funcției de gradul I",
+      "explicatie": "Funcția de gradul I, adică f(x) = ax + b, este o funcție liniară. Monotonia acestei funcții depinde de semnul coeficientului director a.",
+      "ideiCheie": [
+        "Dacă a > 0, funcția este strict crescătoare pe ℝ.",
+        "Dacă a < 0, funcția este strict descrescătoare pe ℝ."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a funcției de gradul I",
+      "explicatie": "Graficul funcției de gradul I este o dreaptă. Monotonia acesteia se poate observa vizual: dacă dreapta este crescătoare, atunci funcția este strict crescătoare; dacă este descrescătoare, funcția este strict descrescătoare.",
+      "ideiCheie": [
+        "Panta dreptei reprezintă coeficientul director a.",
+        "Direcția graficului (ascendent sau descendent) indică monotonia funcției."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Aplicații ale monotонiei în probleme simple",
+      "explicatie": "Monotonia funcției de gradul I este folosită în rezolvarea unor probleme practice, cum ar fi determinarea intersecțiilor dintre două funcții sau compararea valorilor funcției în puncte diferite.",
+      "ideiCheie": [
+        "Monotonia permite compararea valorilor funcției fără a calcula direct imaginile.",
+        "Este utilă în studiul ecuațiilor și inecuațiilor."
+      ]
+    }
+  ],
+  "formule": []
+}

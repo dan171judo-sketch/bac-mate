@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă importantă în matematică, care este folosită frecvent atât în probleme simple, cât și în cele mai complexe. Regula se aplică într-un context specific, dar este esențială pentru a evita greșeli comune.",
+    "Elevul trebuie să înțeleagă nu doar ce regulă trebuie folosită, ci de ce această regulă funcționează. De exemplu, unele probleme pot părea simple la prima vedere, dar dacă se aplică greșit o metodă, rezultatul va fi incorect.",
+    "Regula pe care o vom analiza este legată de modul în care se calculează anumite tipuri de expresii. Este important să știm exact când și cum trebuie folosită această regulă pentru a obține un rezultat corect.",
+    "Pentru ca elevul să poată aplica corect regula, este necesar să înțeleagă pas cu pas ce se întâmplă. De exemplu, unele expresii pot fi confundate cu altele, dar diferența este crucială pentru rezultat.",
+    "Metoda de lucru implică identificarea corectă a elementelor din problemă și aplicarea regulii într-o ordine precisă. Este important să nu se sară peste niciun pas, deoarece o greșeală mică poate duce la un rezultat complet incorect.",
+    "Vom folosi un exemplu concret pentru a explica mai clar cum funcționează regula. Acesta va fi simplu și ușor de înțeles, dar va ilustra exact ce trebuie făcut într-o situație similară.",
+    "În exemplul nostru, vom vedea cum se aplică regula pas cu pas. Vom analiza fiecare etapă, vom verifica dacă rezultatul este corect și vom explica de ce această abordare funcționează.",
+    "După ce am înțeles exemplul, vom face o verificare rapidă pentru a ne asigura că elevul a captezat ideea. Acesta va fi un test scurt cu patru variante de răspuns, dintre care una este corectă.",
+    "Este posibil ca elevii să comită greșeli frecvente în această problemă. De exemplu, unele persoane pot confunda ordinea operațiilor sau să ignore o paranteză importantă. Este esențial să identificăm aceste greșeli și să le evităm.",
+    "Pentru a preveni astfel de erori, este important să se antreneze cu exerciții similare și să se verifice rezultatele în mod constant. Acest lucru dezvoltă o gândire critică și o atitudine responsabilă față de matematică.",
+    "În concluzie, regula pe care am discutat-o este esențială pentru a rezolva anumite tipuri de probleme. Este important să se înțeleagă nu doar cum se aplică, ci și de ce funcționează. Astfel, elevul va putea aplica corect această regulă în orice situație similară.",
+    "Vom recapitula rapid metoda de lucru: identificarea elementelor problemei, aplicarea regulii pas cu pas și verificarea rezultatului. Acesta este un proces esențial pentru a evita greșelile comune și a obține rezultate corecte."
+  ],
+  "ideiDeRetinut": [
+    "Regula se aplică într-un context specific.",
+    "Este important să înțelegem de ce funcționează regula.",
+    "Aplicarea trebuie făcută pas cu pas.",
+    "Verificarea rezultatului este esențială."
+  ],
+  "exemplu": {
+    "titlu": "Calculul unei expresii",
+    "enunt": "Calculează: (5 + 3) × 2 - 4 ÷ 2.",
+    "rezolvareScurta": [
+      "Se rezolvă paranteza: 5 + 3 = 8.",
+      "Se înmulțește rezultatul cu 2: 8 × 2 = 16.",
+      "Se împarte 4 la 2: 4 ÷ 2 = 2.",
+      "Se scade ultimul rezultat din primul: 16 - 2 = 14."
+    ],
+    "raspuns": "14"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este rezultatul expresiei (7 + 2) × 3 - 5 ÷ 5?",
+    "variante": [
+      "26",
+      "28",
+      "24",
+      "22"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Se rezolvă paranteza: 7 + 2 = 9. Se înmulțește cu 3: 9 × 3 = 27. Se împarte 5 la 5: 5 ÷ 5 = 1. Se scade: 27 - 1 = 26."
+  }
+}

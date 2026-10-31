@@ -1,0 +1,49 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru determinarea domeniului de definiție",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a determina corect domeniul de definiție al funcțiilor raționale. Vom analiza pașii necesari, vom oferi un exemplu clar și vom verifica în mod rapid dacă elevul a înțeles ideea principală.",
+    "scenariu": [
+      "În acest videoclip, ne concentrăm pe reguli, proprietăți și metoda de lucru pentru determinarea domeniului de definiție al funcțiilor. Acesta este un pas esențial în studiul matematicii, mai ales atunci când lucrăm cu funcții raționale.",
+      "Domeniul de definiție reprezintă mulțimea valorilor pentru care o funcție are sens. În cazul funcțiilor raționale, acestea sunt definite pe toate numerele reale, cu excepția valorilor care anulează numitorul.",
+      "Pentru a determina domeniul de definiție al unei funcții raționale, trebuie să identificăm valorile variabilei pentru care numitorul devine zero. Aceste valori sunt excluse din domeniu, deoarece împărțirea la zero nu este permisă.",
+      "Metoda de lucru implică următorii pași: 1) Identificăm expresia numitorului; 2) Rezolvăm ecuația numitor = 0; 3) Excludem aceste valori din mulțimea numerelor reale.",
+      "Este important să înțelegem de ce această metodă funcționează. Deoarece o fracție nu are sens atunci când numitorul este zero, orice valoare care anulează numitorul trebuie eliminată din domeniu.",
+      "Vom folosi un exemplu concret pentru a ilustra această metodă. Fie funcția f(x) = 1/(x² - 4). Pentru a determina domeniul de definiție, trebuie să găsim valorile lui x pentru care x² - 4 = 0.",
+      "Rezolvând ecuația x² - 4 = 0, obținem x = ±2. Aceste valori sunt excluse din domeniu, deci domeniul de definiție este toate numerele reale, cu excepția valorilor -2 și 2.",
+      "După ce am determinat domeniul de definiție, este important să verificăm dacă rezultatul este corect. În acest caz, putem verifica înlocuind x = 0 sau x = 1 în funcție și confirmând că nu există nicio problemă.",
+      "O greșeală frecventă este să uiteți să excludeți toate valorile care anulează numitorul. De exemplu, dacă aveți o funcție cu un numitor de forma (x - 1)(x + 2), trebuie să excludem atât 1, cât și -2.",
+      "Pentru a evita această greșeală, este important să rezolvi complet ecuația numitorului și să verifici fiecare soluție. Nu uita niciodată că orice valoare care face ca numitorul să devină zero trebuie eliminată.",
+      "În concluzie, metoda de lucru pentru determinarea domeniului de definiție a unei funcții raționale este clară și logică. Identificăm numitorul, rezolvăm ecuația, excludem valorile găsite și verificăm dacă toate pașii au fost urmați corect.",
+      "Prin înțelegerea acestor reguli și aplicarea metodei de lucru, elevii pot determina cu ușurință domeniul de definiție al oricărei funcții raționale."
+    ],
+    "ideiDeRetinut": [
+      "Domeniul de definiție este mulțimea valorilor pentru care o funcție are sens.",
+      "Pentru funcțiile raționale, domeniul de definiție exclude valorile care anulează numitorul.",
+      "Metoda de lucru implică identificarea numitorului, rezolvarea ecuației și excluderea soluțiilor."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Determinarea domeniului de definiție al funcției f(x) = 1/(x² - 4)",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = 1/(x² - 4). Determinați domeniul de definiție al funcției f.",
+      "rezolvareScurta": [
+        "Identificăm numitorul: x² - 4",
+        "Rezolvăm ecuația x² - 4 = 0 → x = ±2",
+        "Excludem valorile -2 și 2 din domeniu"
+      ],
+      "raspuns": "Domeniul de definiție al funcției f este ℝ \\\\- {-2, 2}."
+    },
+    "verificareRapida": {
+      "intrebare": "Fie funcția f(x) = 1/(x - 3). Care este domeniul de definiție?",
+      "variante": [
+        "ℝ",
+        "ℝ \\\\- {3}",
+        "ℝ \\\\\\ {0}",
+        "ℝ \\\\\\ {-3}"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Domeniul de definiție exclude valoarea care anulează numitorul, adică x = 3."
+    }
+  }
+}

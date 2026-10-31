@@ -1,26 +1,1857 @@
 @import "tailwindcss";
 
+/* =========================================================
+   BAC MATE — GLOBAL DESIGN SYSTEM
+   ========================================================= */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070816;
+  --foreground: #f8fafc;
+
+  --mate-cyan: #22d3ee;
+  --mate-blue: #3b82f6;
+  --mate-violet: #8b5cf6;
+  --mate-purple: #a855f7;
+  --mate-orange: #fb923c;
+  --mate-yellow: #facc15;
+  --mate-green: #34d399;
+  --mate-red: #fb7185;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+/* =========================================================
+   BASE
+   ========================================================= */
+
+html {
+  min-height: 100%;
+  background: var(--background);
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  margin: 0;
+
+  background:
+    radial-gradient(
+      circle at 12% 15%,
+      rgba(34, 211, 238, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 88% 20%,
+      rgba(139, 92, 246, 0.14),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at 55% 95%,
+      rgba(251, 146, 60, 0.06),
+      transparent 32%
+    ),
+    #070816;
+
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* =========================================================
+   GLOBAL SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050713;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #22d3ee,
+      #8b5cf6
+    );
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #a78bfa
+    );
+}
+
+
+/* =========================================================
+   GLOBAL TEXT SELECTION
+   ========================================================= */
+
+::selection {
+  color: #ffffff;
+  background: rgba(139, 92, 246, 0.45);
+}
+
+
+/* =========================================================
+   MATE GLOBAL EFFECTS
+   ========================================================= */
+
+.mate-grid {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px
+    );
+
+  background-size: 40px 40px;
+}
+
+.mate-glow {
+  box-shadow:
+    0 0 40px rgba(34, 211, 238, 0.25),
+    0 0 120px rgba(139, 92, 246, 0.15);
+}
+
+.mate-card {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.025)
+    );
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  backdrop-filter: blur(20px);
+}
+
+.mate-card-hover {
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.mate-card-hover:hover {
+  transform: translateY(-4px);
+
+  border-color: rgba(34, 211, 238, 0.35);
+
+  box-shadow:
+    0 20px 50px rgba(34, 211, 238, 0.15);
+}
+
+
+/* =========================================================
+   OLD MATE AVATAR EFFECTS
+   ========================================================= */
+
+.mate-avatar-glow {
+  animation: mateGlow 4s infinite ease-in-out;
+}
+
+@keyframes mateGlow {
+  0%,
+  100% {
+    filter:
+      drop-shadow(
+        0 0 20px
+        rgba(34, 211, 238, 0.25)
+      );
+  }
+
+  50% {
+    filter:
+      drop-shadow(
+        0 0 45px
+        rgba(139, 92, 246, 0.55)
+      );
+  }
+}
+
+.mate-speaking {
+  animation: mateSpeaking 1.2s infinite;
+}
+
+@keyframes mateSpeaking {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+.mate-thinking {
+  animation: mateThinking 2s infinite;
+}
+
+@keyframes mateThinking {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+
+/* =========================================================
+   FLOATING MATH SYMBOLS
+   ========================================================= */
+
+.math-symbol {
+  position: absolute;
+
+  color: rgba(34, 211, 238, 0.35);
+
+  font-weight: 900;
+
+  pointer-events: none;
+
+  animation: floatMath 8s infinite ease-in-out;
+}
+
+@keyframes floatMath {
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(0deg);
+
+    opacity: 0.3;
+  }
+
+  50% {
+    transform:
+      translateY(-25px)
+      rotate(10deg);
+
+    opacity: 0.8;
+  }
+}
+
+
+/* =========================================================
+   KATEX / MARKDOWN
+   ========================================================= */
+
+.katex {
+  color: #67e8f9;
+}
+
+.mate-markdown {
+  color: #e2e8f0;
+  line-height: 1.8;
+}
+
+.mate-markdown p {
+  margin-bottom: 0.75rem;
+}
+
+
+/* =========================================================
+   MATE TUTOR — HERO
+   ========================================================= */
+
+.mate-tutor-hero {
+  position: relative;
+
+  width: min(100%, 620px);
+  aspect-ratio: 1 / 1.02;
+
+  margin-inline: auto;
+
+  isolation: isolate;
+}
+
+.mate-tutor-aura {
+  position: absolute;
+
+  pointer-events: none;
+
+  border-radius: 999px;
+
+  filter: blur(80px);
+
+  z-index: -3;
+}
+
+.mate-tutor-aura-cyan {
+  width: 72%;
+  height: 68%;
+
+  left: 7%;
+  top: 15%;
+
+  background: rgba(34, 211, 238, 0.17);
+}
+
+.mate-tutor-aura-violet {
+  width: 62%;
+  height: 62%;
+
+  right: 0;
+  bottom: 8%;
+
+  background: rgba(168, 85, 247, 0.17);
+}
+
+.mate-tutor-orbit {
+  position: absolute;
+
+  pointer-events: none;
+
+  left: 50%;
+  top: 48%;
+
+  translate: -50% -50%;
+
+  border-radius: 999px;
+
+  z-index: -2;
+}
+
+.mate-tutor-orbit-one {
+  width: 84%;
+  height: 84%;
+
+  border: 1px solid rgba(34, 211, 238, 0.14);
+
+  box-shadow:
+    0 0 50px rgba(34, 211, 238, 0.04),
+    inset 0 0 40px rgba(34, 211, 238, 0.025);
+}
+
+.mate-tutor-orbit-two {
+  width: 69%;
+  height: 69%;
+
+  border: 1px solid rgba(167, 139, 250, 0.13);
+}
+
+.mate-tutor-orbit-three {
+  width: 55%;
+  height: 55%;
+
+  border: 1px dashed rgba(103, 232, 249, 0.15);
+
+  animation: mate-orbit-spin 32s linear infinite;
+}
+
+
+/* =========================================================
+   MATE TUTOR — CHARACTER
+   ========================================================= */
+
+.mate-tutor-character-stage {
+  position: absolute;
+
+  z-index: 5;
+
+  inset: 0;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  overflow: visible;
+
+  pointer-events: none;
+}
+
+.mate-tutor-character {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  transform-origin: 50% 82%;
+}
+
+.mate-tutor-character-image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: none;
+
+  object-fit: contain;
+  object-position: center bottom;
+
+  user-select: none;
+  pointer-events: none;
+
+  filter:
+    drop-shadow(
+      0 34px 42px
+      rgba(0, 0, 0, 0.38)
+    )
+    drop-shadow(
+      0 0 24px
+      rgba(34, 211, 238, 0.13)
+    );
+}
+
+
+/* =========================================================
+   MATE TUTOR — SYMBOLS
+   ========================================================= */
+
+.mate-tutor-symbol {
+  position: absolute;
+
+  z-index: 8;
+
+  display: flex;
+
+  min-width: 48px;
+  height: 48px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding-inline: 11px;
+
+  border:
+    1px solid
+    rgba(103, 232, 249, 0.17);
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(7, 25, 57, 0.82),
+      rgba(24, 10, 60, 0.78)
+    );
+
+  box-shadow:
+    0 14px 35px rgba(0, 0, 0, 0.3),
+    inset 0 0 18px rgba(34, 211, 238, 0.035);
+
+  backdrop-filter: blur(16px);
+
+  color: rgba(165, 243, 252, 0.82);
+
+  font-size: 20px;
+  font-weight: 900;
+
+  animation:
+    mate-symbol-float
+    7s
+    ease-in-out
+    infinite;
+}
+
+.mate-tutor-symbol-pi {
+  left: 3%;
+  top: 21%;
+}
+
+.mate-tutor-symbol-root {
+  right: 1%;
+  top: 18%;
+
+  animation-delay: -1.5s;
+
+  color: rgba(196, 181, 253, 0.86);
+
+  border-color:
+    rgba(196, 181, 253, 0.16);
+}
+
+.mate-tutor-symbol-sigma {
+  right: 2%;
+  bottom: 27%;
+
+  animation-delay: -3.2s;
+
+  color: rgba(240, 171, 252, 0.82);
+
+  border-color:
+    rgba(232, 121, 249, 0.15);
+}
+
+.mate-tutor-symbol-infinity {
+  left: 3%;
+  bottom: 23%;
+
+  animation-delay: -4.8s;
+}
+
+
+/* =========================================================
+   MATE TUTOR — STATUS
+   ========================================================= */
+
+.mate-tutor-state {
+  position: absolute;
+
+  z-index: 15;
+
+  left: 50%;
+  bottom: 1%;
+
+  translate: -50% 0;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  width: max-content;
+  max-width: 90%;
+
+  padding: 8px 14px 8px 8px;
+
+  border:
+    1px solid
+    rgba(103, 232, 249, 0.19);
+
+  border-radius: 999px;
+
+  background:
+    rgba(5, 18, 43, 0.82);
+
+  box-shadow:
+    0 14px 40px rgba(0, 0, 0, 0.34),
+    0 0 24px rgba(34, 211, 238, 0.07);
+
+  backdrop-filter: blur(18px);
+
+  color: #e2e8f0;
+
+  font-size: 10px;
+  font-weight: 900;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.mate-tutor-state-icon {
+  display: flex;
+
+  width: 28px;
+  height: 28px;
+
+  flex: 0 0 auto;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+}
+
+.mate-tutor-state-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.mate-tutor-state-icon-idle {
+  color: #6ee7b7;
+  background: rgba(52, 211, 153, 0.12);
+}
+
+.mate-tutor-state-icon-thinking {
+  color: #c4b5fd;
+  background: rgba(139, 92, 246, 0.14);
+}
+
+.mate-tutor-state-icon-listening {
+  color: #67e8f9;
+  background: rgba(34, 211, 238, 0.14);
+}
+
+.mate-tutor-state-icon-speaking {
+  color: #93c5fd;
+  background: rgba(59, 130, 246, 0.15);
+}
+
+.mate-tutor-state-light,
+.mate-tutor-status-dot {
+  display: block;
+
+  border-radius: 999px;
+}
+
+.mate-tutor-state-light {
+  width: 7px;
+  height: 7px;
+}
+
+.mate-tutor-status-idle {
+  background: #34d399;
+
+  box-shadow:
+    0 0 11px rgba(52, 211, 153, 0.9);
+}
+
+.mate-tutor-status-thinking {
+  background: #a78bfa;
+
+  box-shadow:
+    0 0 11px rgba(167, 139, 250, 0.9);
+
+  animation:
+    mate-status-pulse
+    1.4s
+    ease-in-out
+    infinite;
+}
+
+.mate-tutor-status-listening {
+  background: #22d3ee;
+
+  box-shadow:
+    0 0 11px rgba(34, 211, 238, 0.95);
+
+  animation:
+    mate-status-pulse
+    1s
+    ease-in-out
+    infinite;
+}
+
+.mate-tutor-status-speaking {
+  background: #60a5fa;
+
+  box-shadow:
+    0 0 11px rgba(96, 165, 250, 0.95);
+
+  animation:
+    mate-status-pulse
+    0.75s
+    ease-in-out
+    infinite;
+}
+
+
+/* =========================================================
+   MATE TUTOR — SMALL AVATAR
+   ========================================================= */
+
+.mate-tutor-small {
+  position: relative;
+
+  width: 52px;
+  height: 52px;
+
+  flex: 0 0 auto;
+}
+
+.mate-tutor-small-glow {
+  position: absolute;
+
+  inset: -4px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(34, 211, 238, 0.52),
+      rgba(59, 130, 246, 0.22),
+      rgba(217, 70, 239, 0.48)
+    );
+
+  filter: blur(8px);
+
+  opacity: 0.65;
+}
+
+.mate-tutor-small-frame {
+  position: absolute;
+
+  inset: 0;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    rgba(103, 232, 249, 0.42);
+
+  border-radius: 17px;
+
+  background: #06142e;
+
+  box-shadow:
+    0 0 24px rgba(34, 211, 238, 0.2),
+    inset 0 0 18px rgba(34, 211, 238, 0.04);
+}
+
+.mate-tutor-status-dot {
+  position: absolute;
+
+  z-index: 10;
+
+  right: -3px;
+  bottom: -3px;
+
+  width: 14px;
+  height: 14px;
+
+  border: 3px solid #061126;
+}
+
+
+/* =========================================================
+   MATE TUTOR — STATES
+   ========================================================= */
+
+.mate-avatar-idle {
+  animation:
+    mate-avatar-breathe
+    5s
+    ease-in-out
+    infinite;
+}
+
+.mate-avatar-thinking {
+  animation:
+    mate-avatar-thinking-motion
+    2.3s
+    ease-in-out
+    infinite;
+}
+
+.mate-avatar-listening {
+  animation:
+    mate-avatar-listening-motion
+    1.6s
+    ease-in-out
+    infinite;
+}
+
+.mate-avatar-speaking {
+  animation:
+    mate-avatar-speaking-motion
+    1.05s
+    ease-in-out
+    infinite;
+}
+
+
+/* =========================================================
+   MATE TUTOR — ANIMATIONS
+   ========================================================= */
+
+@keyframes mate-orbit-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes mate-symbol-float {
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(-2deg);
+  }
+
+  50% {
+    transform:
+      translateY(-13px)
+      rotate(2deg);
+  }
+}
+
+@keyframes mate-avatar-breathe {
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      scale(1);
+  }
+
+  50% {
+    transform:
+      translateY(-5px)
+      scale(1.008);
+  }
+}
+
+@keyframes mate-avatar-thinking-motion {
+  0%,
+  100% {
+    transform: translateY(0);
+
+    filter:
+      drop-shadow(
+        0 34px 42px
+        rgba(0, 0, 0, 0.38)
+      )
+      drop-shadow(
+        0 0 14px
+        rgba(139, 92, 246, 0.06)
+      );
+  }
+
+  50% {
+    transform: translateY(-7px);
+
+    filter:
+      drop-shadow(
+        0 34px 42px
+        rgba(0, 0, 0, 0.38)
+      )
+      drop-shadow(
+        0 0 28px
+        rgba(139, 92, 246, 0.26)
+      );
+  }
+}
+
+@keyframes mate-avatar-listening-motion {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.012);
+
+    filter:
+      drop-shadow(
+        0 34px 42px
+        rgba(0, 0, 0, 0.38)
+      )
+      drop-shadow(
+        0 0 30px
+        rgba(34, 211, 238, 0.24)
+      );
+  }
+}
+
+@keyframes mate-avatar-speaking-motion {
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      scale(1);
+  }
+
+  50% {
+    transform:
+      translateY(-4px)
+      scale(1.012);
+
+    filter:
+      drop-shadow(
+        0 34px 42px
+        rgba(0, 0, 0, 0.38)
+      )
+      drop-shadow(
+        0 0 32px
+        rgba(59, 130, 246, 0.27)
+      );
+  }
+}
+
+@keyframes mate-status-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(0.85);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+
+/* =========================================================
+   MATE MOBILE
+   ========================================================= */
+
+@media (max-width: 640px) {
+  .mate-tutor-hero {
+    width: min(100%, 440px);
+  }
+
+  .mate-tutor-symbol {
+    min-width: 40px;
+    height: 40px;
+
+    border-radius: 13px;
+
+    font-size: 16px;
+  }
+
+  .mate-tutor-state {
+    bottom: -2%;
+
+    font-size: 8px;
+
+    letter-spacing: 0.12em;
+  }
+
+  .mate-tutor-character-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+/* =========================================================
+   BAC MATE — LESSON DESIGN SYSTEM
+   Modern violet / turquoise / orange
+   ========================================================= */
+
+.bac-lesson-page {
+  --lesson-bg-top: #070817;
+  --lesson-bg-middle: #0a0d20;
+  --lesson-bg-bottom: #060713;
+
+  --lesson-panel: rgba(17, 22, 48, 0.92);
+  --lesson-panel-strong: rgba(22, 27, 59, 0.96);
+  --lesson-panel-soft: rgba(24, 31, 65, 0.68);
+
+  --lesson-border: rgba(196, 181, 253, 0.16);
+  --lesson-border-hover: rgba(103, 232, 249, 0.34);
+
+  --lesson-cyan: #22d3ee;
+  --lesson-cyan-soft: #67e8f9;
+
+  --lesson-violet: #8b5cf6;
+  --lesson-violet-soft: #c4b5fd;
+
+  --lesson-orange: #fb923c;
+  --lesson-orange-soft: #fdba74;
+
+  --lesson-green: #34d399;
+  --lesson-red: #fb7185;
+
+  --lesson-text: #f8fafc;
+  --lesson-muted: #a8b3c7;
+
+  position: relative;
+
+  isolation: isolate;
+
+  min-height: 100vh;
+
+  overflow-x: hidden;
+
+  color: var(--lesson-text);
+
+  background:
+    radial-gradient(
+      circle at 4% 7%,
+      rgba(139, 92, 246, 0.24),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 96% 17%,
+      rgba(34, 211, 238, 0.18),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 76% 72%,
+      rgba(251, 146, 60, 0.10),
+      transparent 24%
+    ),
+    linear-gradient(
+      180deg,
+      var(--lesson-bg-top) 0%,
+      var(--lesson-bg-middle) 48%,
+      var(--lesson-bg-bottom) 100%
+    ) !important;
+}
+
+
+/* =========================================================
+   LESSON AMBIENT LIGHT
+   ========================================================= */
+
+.bac-lesson-page::before {
+  content: "";
+
+  position: fixed;
+
+  z-index: -1;
+
+  width: 520px;
+  height: 520px;
+
+  left: -280px;
+  top: 180px;
+
+  border-radius: 999px;
+
+  pointer-events: none;
+
+  background:
+    rgba(139, 92, 246, 0.15);
+
+  filter: blur(110px);
+}
+
+.bac-lesson-page::after {
+  content: "";
+
+  position: fixed;
+
+  z-index: -1;
+
+  width: 520px;
+  height: 520px;
+
+  right: -290px;
+  top: 500px;
+
+  border-radius: 999px;
+
+  pointer-events: none;
+
+  background:
+    rgba(34, 211, 238, 0.10);
+
+  filter: blur(110px);
+}
+
+
+/* =========================================================
+   LESSON HEADER
+   ========================================================= */
+
+.bac-lesson-page > header {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(6, 7, 20, 0.96),
+      rgba(15, 16, 39, 0.94),
+      rgba(6, 7, 20, 0.96)
+    ) !important;
+
+  border-color:
+    rgba(167, 139, 250, 0.18) !important;
+
+  box-shadow:
+    0 14px 45px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(20px);
+}
+
+
+/* =========================================================
+   LESSON TYPOGRAPHY
+   ========================================================= */
+
+.bac-lesson-page h1,
+.bac-lesson-page h2,
+.bac-lesson-page h3,
+.bac-lesson-page h4 {
+  color: #f8fafc;
+}
+
+.bac-lesson-page .text-slate-200 {
+  color: #e9eef7 !important;
+}
+
+.bac-lesson-page .text-slate-300 {
+  color: #d3dbea !important;
+}
+
+.bac-lesson-page .text-slate-400 {
+  color: #a8b3c7 !important;
+}
+
+.bac-lesson-page .text-slate-500 {
+  color: #8190a8 !important;
+}
+
+
+/* =========================================================
+   LESSON NEUTRAL SURFACES
+   ========================================================= */
+
+.bac-lesson-page .bg-white\/\[0\.02\],
+.bac-lesson-page .bg-white\/\[0\.025\],
+.bac-lesson-page .bg-white\/\[0\.03\],
+.bac-lesson-page .bg-white\/\[0\.035\],
+.bac-lesson-page .bg-white\/\[0\.04\],
+.bac-lesson-page .bg-white\/\[0\.045\],
+.bac-lesson-page .bg-white\/\[0\.05\] {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(24, 30, 63, 0.88),
+      rgba(10, 14, 34, 0.92)
+    ) !important;
+}
+
+.bac-lesson-page .bg-black\/10,
+.bac-lesson-page .bg-black\/20,
+.bac-lesson-page .bg-black\/25,
+.bac-lesson-page .bg-black\/30,
+.bac-lesson-page .bg-black\/40 {
+  background:
+    rgba(4, 6, 20, 0.58) !important;
+}
+
+
+/* =========================================================
+   LESSON BORDERS
+   ========================================================= */
+
+.bac-lesson-page .border-white\/5 {
+  border-color:
+    rgba(196, 181, 253, 0.09) !important;
+}
+
+.bac-lesson-page .border-white\/10 {
+  border-color:
+    rgba(196, 181, 253, 0.16) !important;
+}
+
+.bac-lesson-page .border-white\/15 {
+  border-color:
+    rgba(196, 181, 253, 0.22) !important;
+}
+
+.bac-lesson-page .border-white\/20 {
+  border-color:
+    rgba(196, 181, 253, 0.28) !important;
+}
+
+
+/* =========================================================
+   LESSON MAIN CARDS
+   ========================================================= */
+
+.bac-lesson-page section[class*="rounded-"] {
+  border-color:
+    var(--lesson-border) !important;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(34, 211, 238, 0.055),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(139, 92, 246, 0.065),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(18, 23, 51, 0.95),
+      rgba(9, 13, 31, 0.96)
+    ) !important;
+
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+
+/* =========================================================
+   CYAN / TURQUOISE
+   ========================================================= */
+
+.bac-lesson-page .text-blue-200,
+.bac-lesson-page .text-blue-300,
+.bac-lesson-page .text-cyan-200,
+.bac-lesson-page .text-cyan-300 {
+  color:
+    var(--lesson-cyan-soft) !important;
+}
+
+.bac-lesson-page .text-blue-400,
+.bac-lesson-page .text-cyan-400 {
+  color:
+    var(--lesson-cyan) !important;
+}
+
+.bac-lesson-page .bg-blue-500,
+.bac-lesson-page .bg-cyan-500 {
+  background:
+    linear-gradient(
+      90deg,
+      #22d3ee,
+      #06b6d4,
+      #3b82f6
+    ) !important;
+}
+
+.bac-lesson-page .bg-blue-600,
+.bac-lesson-page .bg-cyan-600 {
+  background:
+    linear-gradient(
+      135deg,
+      #06b6d4,
+      #2563eb,
+      #7c3aed
+    ) !important;
+
+  box-shadow:
+    0 10px 30px rgba(34, 211, 238, 0.16);
+}
+
+.bac-lesson-page .bg-blue-500\/10,
+.bac-lesson-page .bg-cyan-500\/10 {
+  background:
+    rgba(34, 211, 238, 0.13) !important;
+}
+
+.bac-lesson-page .bg-blue-500\/20,
+.bac-lesson-page .bg-cyan-500\/20 {
+  background:
+    rgba(34, 211, 238, 0.19) !important;
+}
+
+.bac-lesson-page .border-blue-400\/10,
+.bac-lesson-page .border-blue-400\/15,
+.bac-lesson-page .border-blue-400\/20,
+.bac-lesson-page .border-cyan-400\/10,
+.bac-lesson-page .border-cyan-400\/15,
+.bac-lesson-page .border-cyan-400\/20 {
+  border-color:
+    rgba(34, 211, 238, 0.28) !important;
+}
+
+.bac-lesson-page .border-blue-400\/30,
+.bac-lesson-page .border-cyan-400\/30 {
+  border-color:
+    rgba(34, 211, 238, 0.45) !important;
+}
+
+
+/* =========================================================
+   VIOLET
+   ========================================================= */
+
+.bac-lesson-page .text-violet-200,
+.bac-lesson-page .text-purple-200 {
+  color: #ddd6fe !important;
+}
+
+.bac-lesson-page .text-violet-300,
+.bac-lesson-page .text-purple-300 {
+  color:
+    var(--lesson-violet-soft) !important;
+}
+
+.bac-lesson-page .text-violet-400,
+.bac-lesson-page .text-purple-400 {
+  color: #a78bfa !important;
+}
+
+.bac-lesson-page .bg-violet-500,
+.bac-lesson-page .bg-purple-500 {
+  background:
+    linear-gradient(
+      135deg,
+      #8b5cf6,
+      #7c3aed
+    ) !important;
+}
+
+.bac-lesson-page .bg-violet-600,
+.bac-lesson-page .bg-purple-600 {
+  background:
+    linear-gradient(
+      135deg,
+      #7c3aed,
+      #9333ea
+    ) !important;
+}
+
+.bac-lesson-page .bg-violet-500\/10,
+.bac-lesson-page .bg-purple-500\/10 {
+  background:
+    rgba(139, 92, 246, 0.14) !important;
+}
+
+.bac-lesson-page .bg-violet-500\/20,
+.bac-lesson-page .bg-purple-500\/20 {
+  background:
+    rgba(139, 92, 246, 0.20) !important;
+}
+
+.bac-lesson-page .border-violet-400\/10,
+.bac-lesson-page .border-violet-400\/15,
+.bac-lesson-page .border-violet-400\/20,
+.bac-lesson-page .border-purple-400\/10,
+.bac-lesson-page .border-purple-400\/15,
+.bac-lesson-page .border-purple-400\/20 {
+  border-color:
+    rgba(167, 139, 250, 0.30) !important;
+}
+
+.bac-lesson-page .border-violet-400\/30,
+.bac-lesson-page .border-purple-400\/30 {
+  border-color:
+    rgba(167, 139, 250, 0.46) !important;
+}
+
+
+/* =========================================================
+   ORANGE / XP
+   ========================================================= */
+
+.bac-lesson-page .text-amber-200,
+.bac-lesson-page .text-orange-200 {
+  color: #fed7aa !important;
+}
+
+.bac-lesson-page .text-amber-300,
+.bac-lesson-page .text-orange-300 {
+  color:
+    var(--lesson-orange-soft) !important;
+
+  text-shadow:
+    0 0 18px
+    rgba(251, 146, 60, 0.18);
+}
+
+.bac-lesson-page .text-amber-400,
+.bac-lesson-page .text-orange-400 {
+  color:
+    var(--lesson-orange) !important;
+}
+
+.bac-lesson-page .bg-amber-500,
+.bac-lesson-page .bg-orange-500 {
+  background:
+    linear-gradient(
+      135deg,
+      #fb923c,
+      #f97316
+    ) !important;
+}
+
+.bac-lesson-page .bg-amber-500\/10,
+.bac-lesson-page .bg-orange-500\/10 {
+  background:
+    rgba(251, 146, 60, 0.14) !important;
+}
+
+.bac-lesson-page .bg-amber-500\/20,
+.bac-lesson-page .bg-orange-500\/20 {
+  background:
+    rgba(251, 146, 60, 0.20) !important;
+}
+
+.bac-lesson-page .border-amber-400\/10,
+.bac-lesson-page .border-amber-400\/15,
+.bac-lesson-page .border-amber-400\/20,
+.bac-lesson-page .border-orange-400\/10,
+.bac-lesson-page .border-orange-400\/15,
+.bac-lesson-page .border-orange-400\/20 {
+  border-color:
+    rgba(251, 146, 60, 0.30) !important;
+}
+
+.bac-lesson-page .border-amber-400\/30,
+.bac-lesson-page .border-orange-400\/30 {
+  border-color:
+    rgba(251, 146, 60, 0.46) !important;
+}
+
+
+/* =========================================================
+   SUCCESS
+   ========================================================= */
+
+.bac-lesson-page .text-emerald-200 {
+  color: #a7f3d0 !important;
+}
+
+.bac-lesson-page .text-emerald-300 {
+  color: #6ee7b7 !important;
+}
+
+.bac-lesson-page .text-emerald-400 {
+  color: #34d399 !important;
+}
+
+.bac-lesson-page .bg-emerald-500\/10 {
+  background:
+    rgba(52, 211, 153, 0.12) !important;
+}
+
+.bac-lesson-page .bg-emerald-500\/20 {
+  background:
+    rgba(52, 211, 153, 0.18) !important;
+}
+
+.bac-lesson-page .border-emerald-400\/20 {
+  border-color:
+    rgba(52, 211, 153, 0.34) !important;
+}
+
+.bac-lesson-page .border-emerald-400\/30 {
+  border-color:
+    rgba(52, 211, 153, 0.48) !important;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.bac-lesson-page .text-red-200 {
+  color: #fecdd3 !important;
+}
+
+.bac-lesson-page .text-red-300 {
+  color: #fda4af !important;
+}
+
+.bac-lesson-page .bg-red-500\/10 {
+  background:
+    rgba(244, 63, 94, 0.11) !important;
+}
+
+.bac-lesson-page .bg-red-500\/20 {
+  background:
+    rgba(244, 63, 94, 0.17) !important;
+}
+
+.bac-lesson-page .border-red-400\/20 {
+  border-color:
+    rgba(251, 113, 133, 0.34) !important;
+}
+
+.bac-lesson-page .border-red-400\/30 {
+  border-color:
+    rgba(251, 113, 133, 0.48) !important;
+}
+
+
+/* =========================================================
+   VIDEO CARDS
+   ========================================================= */
+
+.bac-lesson-page article {
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(34, 211, 238, 0.09),
+      transparent 31%
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(139, 92, 246, 0.10),
+      transparent 34%
+    ),
+    linear-gradient(
+      125deg,
+      rgba(11, 19, 43, 0.97),
+      rgba(20, 19, 51, 0.96)
+    ) !important;
+
+  border-color:
+    rgba(139, 92, 246, 0.25) !important;
+
+  box-shadow:
+    0 20px 60px
+      rgba(0, 0, 0, 0.25),
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.04);
+
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.bac-lesson-page article:hover {
+  transform:
+    translateY(-2px);
+
+  border-color:
+    rgba(34, 211, 238, 0.40) !important;
+
+  box-shadow:
+    0 25px 70px
+      rgba(0, 0, 0, 0.30),
+    0 0 40px
+      rgba(34, 211, 238, 0.055),
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.05);
+}
+
+.bac-lesson-page video {
+  background: #030512;
+}
+
+
+/* =========================================================
+   VIDEO PLAY BUTTON
+   ========================================================= */
+
+.bac-lesson-page
+article
+button[class*="rounded-full"] {
+  background:
+    linear-gradient(
+      135deg,
+      #22d3ee 0%,
+      #3b82f6 45%,
+      #8b5cf6 100%
+    ) !important;
+
+  box-shadow:
+    0 0 0 7px
+      rgba(34, 211, 238, 0.06),
+    0 12px 32px
+      rgba(34, 211, 238, 0.22),
+    0 0 32px
+      rgba(139, 92, 246, 0.14);
+
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.bac-lesson-page
+article
+button[class*="rounded-full"]:hover {
+  transform: scale(1.07);
+
+  box-shadow:
+    0 0 0 9px
+      rgba(34, 211, 238, 0.08),
+    0 14px 36px
+      rgba(34, 211, 238, 0.28),
+    0 0 38px
+      rgba(139, 92, 246, 0.18);
+}
+
+
+/* =========================================================
+   PRIMARY BUTTONS
+   ========================================================= */
+
+.bac-lesson-page
+button[class*="bg-blue-"],
+.bac-lesson-page
+a[class*="bg-blue-"] {
+  background:
+    linear-gradient(
+      135deg,
+      #06b6d4 0%,
+      #2563eb 48%,
+      #7c3aed 100%
+    ) !important;
+
+  border-color:
+    rgba(103, 232, 249, 0.20) !important;
+
+  box-shadow:
+    0 10px 28px
+      rgba(37, 99, 235, 0.17),
+    0 0 24px
+      rgba(139, 92, 246, 0.08);
+}
+
+.bac-lesson-page
+button[class*="bg-blue-"]:hover,
+.bac-lesson-page
+a[class*="bg-blue-"]:hover {
+  filter: brightness(1.09);
+}
+
+
+/* =========================================================
+   MINI TEST
+   ========================================================= */
+
+.bac-lesson-page #verifica {
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(251, 146, 60, 0.15),
+      transparent 31%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      rgba(139, 92, 246, 0.18),
+      transparent 35%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(20, 23, 54, 0.98),
+      rgba(8, 12, 30, 0.98)
+    ) !important;
+
+  border-color:
+    rgba(251, 146, 60, 0.28) !important;
+
+  box-shadow:
+    0 30px 80px
+      rgba(0, 0, 0, 0.30),
+    0 0 50px
+      rgba(139, 92, 246, 0.06),
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.04);
+}
+
+
+/* =========================================================
+   MINI TEST ANSWERS
+   ========================================================= */
+
+.bac-lesson-page #verifica button {
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.bac-lesson-page
+#verifica
+button[class*="border-white"] {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(20, 27, 57, 0.90),
+      rgba(8, 13, 32, 0.94)
+    ) !important;
+
+  border-color:
+    rgba(167, 139, 250, 0.18) !important;
+}
+
+.bac-lesson-page
+#verifica
+button[class*="border-white"]:hover:not(:disabled) {
+  transform:
+    translateY(-1px);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(34, 211, 238, 0.09),
+      rgba(139, 92, 246, 0.11)
+    ) !important;
+
+  border-color:
+    rgba(34, 211, 238, 0.42) !important;
+
+  box-shadow:
+    0 10px 30px
+      rgba(34, 211, 238, 0.05);
+}
+
+
+/* =========================================================
+   FORM CONTROLS
+   ========================================================= */
+
+.bac-lesson-page input,
+.bac-lesson-page textarea {
+  color:
+    #f8fafc !important;
+
+  background:
+    rgba(4, 7, 23, 0.72) !important;
+
+  border-color:
+    rgba(139, 92, 246, 0.25) !important;
+}
+
+.bac-lesson-page input:focus,
+.bac-lesson-page textarea:focus {
+  border-color:
+    rgba(34, 211, 238, 0.60) !important;
+
+  box-shadow:
+    0 0 0 3px
+      rgba(34, 211, 238, 0.08);
+}
+
+
+/* =========================================================
+   LESSON ACCESSIBILITY
+   ========================================================= */
+
+.bac-lesson-page button:focus-visible,
+.bac-lesson-page a:focus-visible,
+.bac-lesson-page input:focus-visible,
+.bac-lesson-page textarea:focus-visible {
+  outline:
+    2px solid #22d3ee !important;
+
+  outline-offset: 3px;
+}
+
+.bac-lesson-page ::selection {
+  color: #ffffff;
+
+  background:
+    rgba(139, 92, 246, 0.42);
+}
+
+
+/* =========================================================
+   LESSON SCROLLBAR
+   ========================================================= */
+
+.bac-lesson-page * {
+  scrollbar-color:
+    #8b5cf6
+    #070916;
+}
+
+.bac-lesson-page *::-webkit-scrollbar {
+  width: 8px;
+}
+
+.bac-lesson-page *::-webkit-scrollbar-track {
+  background: #070916;
+}
+
+.bac-lesson-page *::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #22d3ee,
+      #8b5cf6,
+      #fb923c
+    );
+}
+
+
+/* =========================================================
+   LESSON MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .bac-lesson-page {
+    background:
+      radial-gradient(
+        circle at 15% 5%,
+        rgba(139, 92, 246, 0.18),
+        transparent 25%
+      ),
+      radial-gradient(
+        circle at 90% 25%,
+        rgba(34, 211, 238, 0.11),
+        transparent 25%
+      ),
+      radial-gradient(
+        circle at 50% 80%,
+        rgba(251, 146, 60, 0.06),
+        transparent 28%
+      ),
+      linear-gradient(
+        180deg,
+        #050713,
+        #080c1d
+      ) !important;
+  }
+
+  .bac-lesson-page article:hover {
+    transform: none;
+  }
+
+  .bac-lesson-page::before,
+  .bac-lesson-page::after {
+    opacity: 0.6;
+  }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .mate-tutor-orbit,
+  .mate-tutor-symbol,
+  .mate-avatar-idle,
+  .mate-avatar-thinking,
+  .mate-avatar-listening,
+  .mate-avatar-speaking,
+  .mate-tutor-status-thinking,
+  .mate-tutor-status-listening,
+  .mate-tutor-status-speaking {
+    animation: none !important;
+  }
+
+  .bac-lesson-page *,
+  .bac-lesson-page *::before,
+  .bac-lesson-page *::after {
+    scroll-behavior: auto !important;
+
+    transition-duration:
+      0.01ms !important;
+
+    animation-duration:
+      0.01ms !important;
+
+    animation-iteration-count:
+      1 !important;
+  }
 }

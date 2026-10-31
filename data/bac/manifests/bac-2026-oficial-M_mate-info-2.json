@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bac-2026-oficial-M_mate-info-2",
+  "authority": "Ministerul Educației / subiecte.edu.ro",
+  "exam": "bacalaureat",
+  "year": 2026,
+  "documentType": "oficial",
+  "session": "oficial",
+  "profileCode": "M_mate-info",
+  "documents": {
+    "subject": {
+      "fileName": "E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+      "sizeBytes": 108122,
+      "sha256": "FCF3EF4E4EDE7DED4463A387EE4292452DBAA2B91D3B4B2EF3233DEF1E3FE6DD"
+    },
+    "markingScheme": {
+      "fileName": "E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+      "sizeBytes": 284533,
+      "sha256": "6A27A9E3FCCDE58FDDAF0C429E48F05FD2C4DF822AA14F837453980D0A4C76C9"
+    }
+  },
+  "verification": {
+    "filesPresent": true,
+    "sizesRecorded": true,
+    "hashesRecorded": true,
+    "hashesVerifiedByPipeline": true,
+    "pairVerifiedByPipeline": true,
+    "sourceVerified": true
+  },
+  "publicationStatus": "draft"
+}

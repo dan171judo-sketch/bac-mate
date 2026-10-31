@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "../../../lib/supabase/server";
 
 export async function GET(request: NextRequest) {
@@ -32,6 +32,8 @@ export async function GET(request: NextRequest) {
       `${origin}/cont?eroare=confirmare`
     );
   }
+
+  // BETA: acces gratuit, fara activarea unui abonament.
 
   const { data: profil, error: profilError } = await supabase
     .from("profiles")

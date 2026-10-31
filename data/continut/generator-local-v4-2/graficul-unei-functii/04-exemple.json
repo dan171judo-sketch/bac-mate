@@ -1,0 +1,99 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Identificarea punctelor de pe graficul unei funcții",
+      "nivel": "fundament",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = 2x + 3. Verifica dacă punctul A(1, 5) aparține graficului funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea valorii funcției în x = 1",
+          "continut": "Calculăm f(1): f(1) = 2·1 + 3 = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea dacă y = f(x)",
+          "continut": "Punctul A are coordonatele (1, 5), iar f(1) = 5. Deci, punctul A aparține graficului funcției."
+        }
+      ],
+      "raspunsFinal": "Da, punctul A(1, 5) aparține graficului funcției f.",
+      "verificare": "Calculul valorii funcției în x = 1 este corect. Verificarea condiției y = f(x) este corectă."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Construcția graficului unei funcții liniare",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = -x + 4. Construiește graficul funcției folosind două puncte distincte.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Alegerea a două valori ale lui x",
+          "continut": "Alegem x = 0 și x = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea valorilor corespunzătoare ale funcției",
+          "continut": "Pentru x = 0: f(0) = -0 + 4 = 4. Pentru x = 2: f(2) = -2 + 4 = 2."
+        },
+        {
+          "numar": 3,
+          "titlu": "Determinarea punctelor de pe grafic",
+          "continut": "Punctele sunt A(0, 4) și B(2, 2)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f este format din punctele A(0, 4) și B(2, 2).",
+      "verificare": "Calculul valorilor funcției pentru x = 0 și x = 2 este corect. Punctele sunt determinate corect."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Interpretarea graficului unei funcții într-un context real",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f(x) = 3x, care reprezintă costul unui produs în funcție de cantitatea achiziționată. Verifica dacă punctul C(2, 6) aparține graficului funcției și interpretează rezultatul.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea valorii funcției în x = 2",
+          "continut": "Calculăm f(2): f(2) = 3·2 = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea dacă y = f(x)",
+          "continut": "Punctul C are coordonatele (2, 6), iar f(2) = 6. Deci, punctul C aparține graficului funcției."
+        },
+        {
+          "numar": 3,
+          "titlu": "Interpretarea rezultatului",
+          "continut": "Punctul C(2, 6) înseamnă că achiziționarea a 2 unități costă 6 lei."
+        }
+      ],
+      "raspunsFinal": "Da, punctul C(2, 6) aparține graficului funcției. Acesta înseamnă că achiziționarea a 2 unități costă 6 lei.",
+      "verificare": "Calculul valorii funcției pentru x = 2 este corect. Verificarea condiției y = f(x) și interpretarea sunt corecte."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Construcția graficului unei funcții cu domeniu restrâns",
+      "nivel": "avansat",
+      "enunt": "Fie funcția f: [1, 5] → R, definită prin f(x) = x² - 4. Construiește graficul funcției folosind trei puncte distincte din domeniul de definiție.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Alegerea a trei valori ale lui x din domeniul [1, 5]",
+          "continut": "Alegem x = 1, x = 3 și x = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea valorilor corespunzătoare ale funcției",
+          "continut": "Pentru x = 1: f(1) = 1² - 4 = -3. Pentru x = 3: f(3) = 9 - 4 = 5. Pentru x = 5: f(5) = 25 - 4 = 21."
+        },
+        {
+          "numar": 3,
+          "titlu": "Determinarea punctelor de pe grafic",
+          "continut": "Punctele sunt A(1, -3), B(3, 5) și C(5, 21)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f este format din punctele A(1, -3), B(3, 5) și C(5, 21).",
+      "verificare": "Alegerea valorilor x din domeniul [1, 5] este corectă. Calculul valorilor funcției pentru fiecare x este corect. Punctele sunt determinate corect."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă matematică importantă care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva probleme mai eficient.",
+    "Regula pe care o vom analiza se referă la modul în care trebuie să abordăm anumite tipuri de exerciții. Este important să înțelegem exact ce ne cere regula, pentru a aplica corect metoda.",
+    "În matematică, unele reguli sunt esențiale pentru a evita confuzii. De exemplu, când avem de rezolvat o ecuație sau un sistem de ecuații, este crucial să știm în ce ordine trebuie să efectuăm operațiile.",
+    "Această regulă se aplică atunci când avem mai multe pași de lucru și vrem să ne asigurăm că nu încurcăm pasul următor cu cel anterior. Este important ca fiecare etapă să fie clară și separată.",
+    "Pentru a înțelege mai bine, să luăm un exemplu concret. Să presupunem că avem de rezolvat o ecuație care implică adunare, scădere și înmulțire. Regula ne spune că trebuie să efectuăm întâi înmulțirea sau împărțirea, apoi adunarea sau scăderea.",
+    "Această metodologie este esențială pentru a evita erori care pot apărea dacă nu respectăm ordinea corectă. De exemplu, dacă efectuăm adunarea înainte de înmulțire, vom obține un rezultat greșit.",
+    "Este important să ne amintim că această regulă este valabilă doar atunci când avem paranteze sau operații care implică mai multe pași. Dacă nu există paranteze, ordinea se aplică automat în modul stabilit.",
+    "Pentru a verifica dacă am folosit corect regula, putem rezolva un exercițiu pas cu pas și să comparăm rezultatul cu cel așteptat. Acest lucru ne ajută să confirmăm că am aplicat metoda corect.",
+    "O greșeală frecventă este atunci când elevii încearcă să efectueze operațiile într-o ordine diferită decât cea stabilită de regulă. De exemplu, adunarea înainte de înmulțire fără a respecta paranteza.",
+    "Pentru a evita această greșeală, este important să ne concentrăm pe fiecare pas al rezolvării și să verificăm dacă am aplicat corect regula. De asemenea, putem folosi metoda de a scrie toate pașii într-un mod clar.",
+    "În concluzie, această regulă este esențială pentru a rezolva exercițiile matematice corect și eficient. Este important să o înțelegem bine și să o aplicăm în toate situațiile potrivite.",
+    "Prin urmare, trebuie să ne asigurăm că folosim metoda corectă, să verificăm rezultatul și să evităm greșelile frecvente. Astfel, vom putea rezolva orice exercițiu cu încredere."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru a evita erori.",
+    "Ordinea operațiilor trebuie respectată corect.",
+    "Este important să verificăm fiecare pas al rezolvării.",
+    "Evită greșelile frecvente prin atenție și exerciții."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare exemplu",
+    "enunt": "Calculați: 3 + 4 × 2",
+    "rezolvareScurta": [
+      "Efectuăm înmulțirea înainte de adunare.",
+      "3 + (4 × 2) = 3 + 8 = 11"
+    ],
+    "raspuns": "11"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este rezultatul expresiei: 6 + 3 × 2?",
+    "variante": [
+      "15",
+      "12",
+      "9",
+      "8"
+    ],
+    "raspunsCorect": 2,
+    "explicatie": "Înmulțirea se efectuează înainte de adunare: 3 × 2 = 6, apoi 6 + 6 = 12."
+  }
+}

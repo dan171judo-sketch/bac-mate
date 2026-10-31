@@ -1,0 +1,43 @@
+{
+  "definitii": [
+    {
+      "termen": "Compunere de funcții",
+      "definitie": "Este operația prin care, din două funcții f și g, se obține o nouă funcție notată f ∘ g, definită pe mulțimea tuturor x pentru care g(x) este în domeniul de definiție al funcției f.",
+      "observatie": "Compunerea funcțiilor este posibilă doar dacă imaginea funcției g este inclusă în domeniul de definiție al funcției f."
+    },
+    {
+      "termen": "Funcție compusă",
+      "definitie": "Este funcția obținută prin compunerea a două funcții, notată f ∘ g, și definită pentru x ∈ Dg astfel încât g(x) ∈ Df.",
+      "observatie": "Funcția compusă f ∘ g nu este aceeași cu g ∘ f, deci ordinea este importantă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea compunerii funcțiilor",
+      "explicatie": "Pentru a defini compunerea funcțiilor f și g, trebuie ca imaginea funcției g să fie inclusă în domeniul de definiție al funcției f. Astfel, pentru orice x din domeniul de definiție al lui g, valoarea g(x) este un element din Df, deci poate fi folosită ca argument pentru funcția f.",
+      "ideiCheie": [
+        "Compunerea funcțiilor presupune o condiție de compatibilitate între domeniul de definiție al funcției g și imaginea sa.",
+        "Funcția compusă f ∘ g este definită doar pentru x ∈ Dg cu proprietatea că g(x) ∈ Df."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Notatia funcțiilor compuse",
+      "explicatie": "Compunerea a două funcții se notează f ∘ g, unde f este funcția exterioară și g este funcția interioară. Acest lucru înseamnă că pentru fiecare x din domeniul de definiție al lui g, valoarea compusă este f(g(x)).",
+      "ideiCheie": [
+        "Notatia f ∘ g indică f aplicată pe rezultatul funcției g.",
+        "Ordinea funcțiilor în notatie este importantă, deoarece f ∘ g ≠ g ∘ f."
+      ]
+    },
+    {
+      "3": "titlu",
+      "explicatie": "Funcțiile compuse sunt folosite frecvent în modelarea realității, unde o situație complexă poate fi exprimată ca rezultatul aplicării succesive a mai multor funcții. De exemplu, temperatura la un moment dat poate fi exprimată ca funcție de ora zilei, iar aceasta, la rândul ei, poate fi o funcție de ziua din an.",
+      "ideiCheie": [
+        "Funcțiile compuse permit modelarea fenomenelor complexe prin intermediul mai multor etape logice.",
+        "În practică, compunerea funcțiilor este folosită pentru a descrie relații între variabile într-un mod structurat."
+      ]
+    }
+  ],
+  "formule": []
+}

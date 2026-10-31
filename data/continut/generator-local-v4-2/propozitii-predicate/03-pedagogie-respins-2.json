@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea predicatului cu propoziția",
+      "deCeEsteGresit": "Predicatul nu este o propoziție, ci o expresie care devine propoziție doar după înlocuirea variabilelor cu valori concrete.",
+      "cumOEviti": "Reamintiți-vă că predicatul conține variabile și nu afirmă nimic singur."
+    },
+    {
+      "greseala": "Creșterea valorii de adevăr a unei propoziții prin adăugarea de predicate",
+      "deCeEsteGresit": "Predicatele nu pot transforma o propoziție într-o altă propoziție, ci exprimă proprietăți sau relații între obiecte.",
+      "cumOEviti": "Folosiți predicatele doar pentru a descrie structura logică a afirmațiilor."
+    },
+    {
+      "greseala": "Neglijarea variabilelor în formarea predicatelor",
+      "de-CE-EsteGresit": "Variabilele sunt esențiale pentru exprimarea generală a predicatelor, iar lipsa lor duce la o exprimare incompletă sau incorectă.",
+      "cumOEviti": "Asigurați-vă că orice predicat conține cel puțin o variabilă."
+    },
+    {
+      "greseala": "Interpretarea greșită a rolului variabilelor în propoziții",
+      "deCeEsteGresit": "Variabilele nu pot fi înlocuite cu valori concrete într-o propoziție, deoarece aceasta ar transforma propoziția într-un predicat.",
+      "cumOEviti": "Reamintiți-vă că variabilele sunt folosite doar în contextul predicatelor."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Propoziția este o formulă care poate fi adevărată sau falsă.",
+      "Predicatul conține variabile și exprimă o proprietate sau relație între obiecte.",
+      "Predicatul devine propoziție doar după înlocuirea variabilelor cu valori concrete.",
+      "Variabilele sunt esențiale pentru exprimarea generală a predicatelor."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificați dacă o formulă este propoziție sau predicat.",
+      "Identificați variabilele dintr-un predicat.",
+      "Reamintiți-vă că predicatul nu devine propoziție fără valori concrete.",
+      "Exercitați recunoașterea diferenței dintre predicate și propoziții."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Noțiunile de propoziție și predicat sunt fundamentale în logica matematică, care este parte integrantă a programului pentru Bacalaureatul la Matematică M_tate-info.",
+    "tipuriCerinte": [
+      "Identificarea unui predicat dintr-o formulă dată",
+      "Transformarea unui predicat în propoziție prin substituirea variabilelor",
+      "Exemplificarea diferenței dintre predicate și propoziții",
+      "Analiza rolului variabilelor în formarea predicatelor"
+    ],
+    "strategie": [
+      "Reamintiți-vă definițiile de bază pentru a evita confuziile comune.",
+      "Exercitați identificarea corectă a predicatelor și propozițiilor în diverse contexte.",
+      "Asigurați-vă că variabilele sunt folosite doar în contextul predicatelor.",
+      "Repetați diferența dintre predicate și propoziții pentru a evita greșelile frecvente."
+    ]
+  }
+}

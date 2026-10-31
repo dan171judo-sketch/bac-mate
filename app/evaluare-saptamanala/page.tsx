@@ -3,470 +3,166 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 
-import BacMateShell from "../../components/BacMateShell";
 import { createClient } from "../../lib/supabase/client";
+
 import {
   createWeeklyAssessment,
   completeWeeklyAssessment,
+  type StudentMasterySnapshot,
 } from "../../lib/weekly-assessment/service";
 
-type AvatarGender = "male" | "female" | "standard";
+import {
+  lectii,
+  type Lectie,
+} from "../../data/lectii/index";
+
+import {
+  getQuestionsForLesson,
+} from "../../data/evaluari/question-bank";
+
+import {
+  buildAdaptiveAssessment,
+} from "../../data/evaluari/adaptive-generator";
+
+import type {
+  AdaptiveDifficulty,
+  AdaptiveQuestion,
+} from "../../data/evaluari/types";
 
 type ProfileRow = {
   nume: string | null;
   profil_bac: string | null;
-  avatar_gender: string | null;
-  evaluare_initiala_finalizata: boolean | null;
 };
 
-type MasteryRow = {
-  skill_id: string;
-  mastery_score: number | null;
-  total_attempts: number | null;
-  correct_attempts: number | null;
-  consecutive_correct: number | null;
-  next_review_at: string | null;
+type ProgressRow = {
+  lesson_id: string;
+  completed: boolean | null;
 };
 
-type WeeklyQuestion = {
-  id: string;
-  skillId: string;
-  title: string;
-  statement: string;
-  answers: string[];
-  correctIndex: number;
-  explanation: string;
-};
-
-type SessionQuestion = WeeklyQuestion & {
-  requestedSkillId: string;
-};
+type EvaluationQuestion = AdaptiveQuestion;
 
 type AnswerRecord = {
   questionId: string;
-  skillId: string;
-  isCorrect: boolean;
+  questionFamily: string;
+  difficulty: AdaptiveDifficulty;
+
+  lessonId: string;
+  lessonSlug: string;
+  lessonTitle: string;
+
   selectedIndex: number;
+  correctIndex: number;
+
+  isCorrect: boolean;
 };
 
-type WeeklyResult = {
+type LessonResult = {
+  lessonId: string;
+  lessonSlug: string;
+  lessonTitle: string;
+
+  total: number;
+  correct: number;
+  percentage: number;
+};
+
+type FinalResult = {
   totalQuestions: number;
   correctAnswers: number;
   score: number;
+
   strongestSkillId: string | null;
   weakestSkillId: string | null;
+
+  lessons: LessonResult[];
 };
 
-type AssessmentPlanLike = {
-  selectedSkills?: Array<
-    | string
-    | {
-        skillId?: string;
-        skill_id?: string;
-      }
-  >;
-  skills?: Array<
-    | string
-    | {
-        skillId?: string;
-        skill_id?: string;
-      }
-  >;
-  questions?: Array<{
-    skillId?: string;
-    skill_id?: string;
-  }>;
-};
+const MAX_QUESTIONS = 10;
 
-type CreatedAssessmentLike = {
-  assessmentId?: string;
-  assessment_id?: string;
-  id?: string;
-  plan?: AssessmentPlanLike;
-};
+function buildLessonResults(
+  answers: AnswerRecord[]
+): LessonResult[] {
+  const map = new Map<string, LessonResult>();
 
-const QUESTION_BANK: WeeklyQuestion[] = [
-  {
-    id: "weekly-modul-1",
-    skillId: "modul-numar-real",
-    title: "Modulul unui număr real",
-    statement: "Care este valoarea lui |−7|?",
-    answers: ["−7", "0", "7", "14"],
-    correctIndex: 2,
-    explanation:
-      "Modulul reprezintă distanța față de 0, deci |−7| = 7.",
-  },
-  {
-    id: "weekly-modul-2",
-    skillId: "modul-numar-real",
-    title: "Modulul unui număr real",
-    statement: "Care afirmație este corectă?",
-    answers: [
-      "|5| = −5",
-      "|−3| = 3",
-      "|0| = 1",
-      "|−8| = −8",
-    ],
-    correctIndex: 1,
-    explanation:
-      "Modulul unui număr negativ este opusul acelui număr. Prin urmare |−3| = 3.",
-  },
-  {
-    id: "weekly-intervale-1",
-    skillId: "intervale-numere-reale",
-    title: "Intervale de numere reale",
-    statement: "Care număr aparține intervalului [2, 5]?",
-    answers: ["1", "2", "6", "−2"],
-    correctIndex: 1,
-    explanation:
-      "Intervalul [2, 5] conține toate numerele de la 2 la 5, inclusiv capetele.",
-  },
-  {
-    id: "weekly-intervale-2",
-    skillId: "intervale-numere-reale",
-    title: "Intervale de numere reale",
-    statement: "Care descriere corespunde intervalului (−∞, 4)?",
-    answers: ["x < 4", "x ≤ 4", "x > 4", "x ≥ 4"],
-    correctIndex: 0,
-    explanation:
-      "Paranteza rotundă la 4 arată că 4 nu este inclus, deci x < 4.",
-  },
-  {
-    id: "weekly-numere-reale-1",
-    skillId: "numere-reale",
-    title: "Numere reale",
-    statement: "Care dintre următoarele numere este irațional?",
-    answers: ["0,5", "3", "√2", "−7"],
-    correctIndex: 2,
-    explanation:
-      "√2 este irațional. Celelalte variante sunt numere raționale.",
-  },
-  {
-    id: "weekly-estimari-1",
-    skillId: "estimari-aproximari",
-    title: "Estimări și aproximări",
-    statement: "Rotunjirea numărului 7,46 la o zecimală este:",
-    answers: ["7,4", "7,5", "7,46", "8"],
-    correctIndex: 1,
-    explanation:
-      "Cifra sutimilor este 6, deci cifra zecimilor crește de la 4 la 5.",
-  },
-  {
-    id: "weekly-procente-1",
-    skillId: "procente",
-    title: "Procente",
-    statement: "Cât reprezintă 20% din 150?",
-    answers: ["20", "25", "30", "35"],
-    correctIndex: 2,
-    explanation:
-      "20% din 150 înseamnă 0,20 × 150 = 30.",
-  },
-  {
-    id: "weekly-procente-2",
-    skillId: "procente",
-    title: "Procente",
-    statement: "Un produs costă 200 lei și se reduce cu 10%. Noul preț este:",
-    answers: ["180 lei", "190 lei", "210 lei", "220 lei"],
-    correctIndex: 0,
-    explanation:
-      "10% din 200 este 20, iar 200 − 20 = 180 lei.",
-  },
-  {
-    id: "weekly-ecuatii-1",
-    skillId: "ecuatii",
-    title: "Ecuații",
-    statement: "Soluția ecuației 2x + 3 = 11 este:",
-    answers: ["2", "3", "4", "7"],
-    correctIndex: 2,
-    explanation:
-      "2x + 3 = 11 ⇒ 2x = 8 ⇒ x = 4.",
-  },
-  {
-    id: "weekly-functii-1",
-    skillId: "functii",
-    title: "Funcții",
-    statement: "Dacă f(x) = 2x + 1, atunci f(3) este:",
-    answers: ["5", "6", "7", "8"],
-    correctIndex: 2,
-    explanation:
-      "Înlocuim x cu 3: f(3) = 2 × 3 + 1 = 7.",
-  },
-];
+  for (const answer of answers) {
+    const current =
+      map.get(answer.lessonId) ?? {
+        lessonId: answer.lessonId,
+        lessonSlug: answer.lessonSlug,
+        lessonTitle: answer.lessonTitle,
+        total: 0,
+        correct: 0,
+        percentage: 0,
+      };
 
-function normaliseGender(
-  value: string | null | undefined
-): AvatarGender {
-  if (value === "male") {
-    return "male";
-  }
+    current.total += 1;
 
-  if (value === "female") {
-    return "female";
-  }
-
-  return "standard";
-}
-
-function normaliseSkillId(value: string) {
-  return value
-    .trim()
-    .toLocaleLowerCase("ro-RO")
-    .replaceAll("_", "-")
-    .replace(/\s+/g, "-");
-}
-
-function formatSkill(skillId: string | null) {
-  if (!skillId) {
-    return "—";
-  }
-
-  return skillId
-    .replaceAll("-", " ")
-    .replaceAll("_", " ")
-    .replace(/\b\w/g, (letter) =>
-      letter.toLocaleUpperCase("ro-RO")
-    );
-}
-
-function extractPlanSkills(
-  plan: AssessmentPlanLike | undefined
-) {
-  if (!plan) {
-    return [];
-  }
-
-  const source =
-    plan.selectedSkills ??
-    plan.skills ??
-    plan.questions ??
-    [];
-
-  return source
-    .map((item) => {
-      if (typeof item === "string") {
-        return item;
-      }
-
-      return (
-        item.skillId ??
-        item.skill_id ??
-        ""
-      );
-    })
-    .filter(Boolean);
-}
-
-function findQuestionForSkill(
-  skillId: string,
-  alreadyUsed: Set<string>
-) {
-  const normalised =
-    normaliseSkillId(skillId);
-
-  const exact = QUESTION_BANK.find(
-    (question) =>
-      !alreadyUsed.has(question.id) &&
-      normaliseSkillId(
-        question.skillId
-      ) === normalised
-  );
-
-  if (exact) {
-    return exact;
-  }
-
-  const partial = QUESTION_BANK.find(
-    (question) => {
-      if (
-        alreadyUsed.has(question.id)
-      ) {
-        return false;
-      }
-
-      const questionSkill =
-        normaliseSkillId(
-          question.skillId
-        );
-
-      return (
-        questionSkill.includes(
-          normalised
-        ) ||
-        normalised.includes(
-          questionSkill
-        )
-      );
+    if (answer.isCorrect) {
+      current.correct += 1;
     }
-  );
 
-  return partial ?? null;
-}
-
-function buildQuestions(
-  requestedSkills: string[],
-  masteryRows: MasteryRow[],
-  maxQuestions = 5
-): SessionQuestion[] {
-  const used = new Set<string>();
-  const result: SessionQuestion[] = [];
-
-  const orderedSkills =
-    requestedSkills.length > 0
-      ? requestedSkills
-      : [...masteryRows]
-          .sort(
-            (a, b) =>
-              (a.mastery_score ?? 0) -
-              (b.mastery_score ?? 0)
+    current.percentage =
+      current.total > 0
+        ? Math.round(
+            (current.correct / current.total) * 100
           )
-          .map(
-            (row) => row.skill_id
-          );
+        : 0;
 
-  for (const skillId of orderedSkills) {
-    if (
-      result.length >= maxQuestions
-    ) {
-      break;
-    }
-
-    const question =
-      findQuestionForSkill(
-        skillId,
-        used
-      );
-
-    if (!question) {
-      continue;
-    }
-
-    used.add(question.id);
-
-    result.push({
-      ...question,
-      requestedSkillId: skillId,
-    });
+    map.set(answer.lessonId, current);
   }
 
-  if (result.length < maxQuestions) {
-    for (const question of QUESTION_BANK) {
-      if (
-        result.length >= maxQuestions
-      ) {
-        break;
-      }
+  return Array.from(map.values()).sort((a, b) => {
+    if (a.percentage !== b.percentage) {
+      return a.percentage - b.percentage;
+    }
 
-      if (
-        used.has(question.id)
-      ) {
-        continue;
-      }
+    return b.total - a.total;
+  });
+}
 
-      used.add(question.id);
+function getDatabaseErrorMessage(
+  databaseError: unknown
+) {
+  if (
+    databaseError &&
+    typeof databaseError === "object"
+  ) {
+    const error = databaseError as {
+      message?: string;
+      details?: string;
+      hint?: string;
+      code?: string;
+    };
 
-      result.push({
-        ...question,
-        requestedSkillId:
-          question.skillId,
-      });
+    const parts = [
+      error.message,
+      error.details,
+      error.hint,
+      error.code
+        ? `Cod: ${error.code}`
+        : null,
+    ].filter(
+      (value): value is string =>
+        Boolean(value)
+    );
+
+    if (parts.length > 0) {
+      return parts.join(" | ");
     }
   }
 
-  return result;
+  if (typeof databaseError === "string") {
+    return databaseError;
+  }
+
+  if (databaseError instanceof Error) {
+    return databaseError.message;
+  }
+
+  return "Eroare necunoscută la salvarea evaluării.";
 }
 
-function MateAssessmentAvatar({
-  gender,
-}: {
-  gender: AvatarGender;
-}) {
-  const isFemale =
-    gender === "female";
-
-  return (
-    <div className="relative h-24 w-24 shrink-0 sm:h-28 sm:w-28">
-      <div className="absolute inset-1 rounded-full bg-blue-500/20 blur-2xl" />
-
-      <div className="absolute inset-0 overflow-hidden rounded-[38%] border border-blue-400/20 bg-gradient-to-b from-[#101f42] via-[#08142c] to-[#06101f]">
-        <div className="absolute -bottom-[15%] left-1/2 h-[55%] w-[80%] -translate-x-1/2 rounded-t-[45%] bg-gradient-to-b from-blue-600 to-indigo-950" />
-
-        <div className="absolute left-1/2 top-[23%] h-[43%] w-[40%] -translate-x-1/2 rounded-[42%] bg-[#f0c5a6]" />
-
-        <div
-          className={`absolute left-1/2 top-[15%] -translate-x-1/2 bg-[#07101f] ${
-            isFemale
-              ? "h-[31%] w-[54%] rounded-t-[50%] rounded-bl-[75%] rounded-br-[35%]"
-              : "h-[26%] w-[48%] rounded-t-[55%] rounded-bl-[35%] rounded-br-[70%]"
-          }`}
-        />
-
-        {isFemale && (
-          <>
-            <div className="absolute left-[25%] top-[32%] h-[47%] w-[12%] rounded-full bg-[#07101f]" />
-            <div className="absolute right-[25%] top-[32%] h-[47%] w-[12%] rounded-full bg-[#07101f]" />
-          </>
-        )}
-
-        {!isFemale && (
-          <div className="absolute left-[31%] top-[18%] h-[13%] w-[18%] -rotate-[20deg] rounded-full bg-[#07101f]" />
-        )}
-
-        <div className="absolute left-[39%] top-[43%] h-1.5 w-1.5 rounded-full bg-[#07101f]" />
-        <div className="absolute right-[39%] top-[43%] h-1.5 w-1.5 rounded-full bg-[#07101f]" />
-
-        <div className="absolute left-1/2 top-[55%] h-[2px] w-[12%] -translate-x-1/2 rounded-full bg-[#b87567]" />
-      </div>
-
-      <div className="absolute bottom-0 right-0 flex h-7 w-7 items-center justify-center rounded-full border-4 border-[#07101f] bg-emerald-500">
-        <span className="h-2 w-2 rounded-full bg-white" />
-      </div>
-    </div>
-  );
-}
-
-function ProgressDots({
-  total,
-  current,
-  answers,
-}: {
-  total: number;
-  current: number;
-  answers: AnswerRecord[];
-}) {
-  return (
-    <div className="flex flex-wrap gap-2">
-      {Array.from({
-        length: total,
-      }).map((_, index) => {
-        const answer =
-          answers[index];
-
-        let className =
-          "border-slate-700 bg-slate-950 text-slate-500";
-
-        if (answer) {
-          className = answer.isCorrect
-            ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300"
-            : "border-rose-500/30 bg-rose-500/10 text-rose-300";
-        } else if (index === current) {
-          className =
-            "border-blue-500/40 bg-blue-500/15 text-blue-300";
-        }
-
-        return (
-          <div
-            key={index}
-            className={`flex h-9 w-9 items-center justify-center rounded-full border text-xs font-black ${className}`}
-          >
-            {index + 1}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-export default function WeeklyAssessmentPage() {
+export default function AdaptiveAssessmentPage() {
   const router = useRouter();
 
   const [supabase] = useState(
@@ -494,29 +190,21 @@ export default function WeeklyAssessmentPage() {
   const [profileName, setProfileName] =
     useState("");
 
-  const [gender, setGender] =
-    useState<AvatarGender>(
-      "standard"
-    );
-
   const [
-    masteryRows,
-    setMasteryRows,
-  ] = useState<MasteryRow[]>([]);
+    completedLessons,
+    setCompletedLessons,
+  ] = useState<Lectie[]>([]);
+
+  const [mastery, setMastery] =
+    useState<StudentMasterySnapshot[]>([]);
 
   const [
     assessmentId,
     setAssessmentId,
-  ] = useState<string | null>(
-    null
-  );
+  ] = useState<string | null>(null);
 
-  const [
-    questions,
-    setQuestions,
-  ] = useState<SessionQuestion[]>(
-    []
-  );
+  const [questions, setQuestions] =
+    useState<EvaluationQuestion[]>([]);
 
   const [
     currentIndex,
@@ -526,28 +214,18 @@ export default function WeeklyAssessmentPage() {
   const [
     selectedIndex,
     setSelectedIndex,
-  ] = useState<number | null>(
-    null
-  );
+  ] = useState<number | null>(null);
 
   const [
     answerChecked,
     setAnswerChecked,
   ] = useState(false);
 
-  const [
-    answers,
-    setAnswers,
-  ] = useState<AnswerRecord[]>(
-    []
-  );
+  const [answers, setAnswers] =
+    useState<AnswerRecord[]>([]);
 
-  const [
-    result,
-    setResult,
-  ] = useState<WeeklyResult | null>(
-    null
-  );
+  const [result, setResult] =
+    useState<FinalResult | null>(null);
 
   useEffect(() => {
     let active = true;
@@ -559,17 +237,13 @@ export default function WeeklyAssessmentPage() {
       const {
         data: { user },
         error: userError,
-      } =
-        await supabase.auth.getUser();
+      } = await supabase.auth.getUser();
 
       if (!active) {
         return;
       }
 
-      if (
-        userError ||
-        !user
-      ) {
+      if (userError || !user) {
         router.replace("/cont");
         return;
       }
@@ -579,9 +253,7 @@ export default function WeeklyAssessmentPage() {
         error: profileError,
       } = await supabase
         .from("profiles")
-        .select(
-          "nume, profil_bac, avatar_gender, evaluare_initiala_finalizata"
-        )
+        .select("nume, profil_bac")
         .eq("id", user.id)
         .maybeSingle();
 
@@ -594,7 +266,7 @@ export default function WeeklyAssessmentPage() {
         !profileData
       ) {
         console.error(
-          "Eroare profil evaluare săptămânală:",
+          "Eroare profil:",
           profileError
         );
 
@@ -621,25 +293,65 @@ export default function WeeklyAssessmentPage() {
         return;
       }
 
-      if (
-        !profile.evaluare_initiala_finalizata
-      ) {
-        router.replace("/evaluare");
+      setStudentName(profile.nume);
+      setProfileName(profile.profil_bac);
+
+      const {
+        data: progressData,
+        error: progressError,
+      } = await supabase
+        .from("student_progress")
+        .select(
+          "lesson_id, completed"
+        )
+        .eq("user_id", user.id)
+        .eq("completed", true);
+
+      if (!active) {
         return;
       }
 
-      setStudentName(
-        profile.nume
-      );
+      if (progressError) {
+        console.error(
+          "Eroare progres:",
+          progressError
+        );
 
-      setProfileName(
-        profile.profil_bac
-      );
+        setError(
+          "Lecțiile parcurse nu au putut fi încărcate."
+        );
 
-      setGender(
-        normaliseGender(
-          profile.avatar_gender
-        )
+        setLoading(false);
+        return;
+      }
+
+      const progressRows =
+        (progressData ??
+          []) as unknown as ProgressRow[];
+
+      const completedIds =
+        new Set(
+          progressRows
+            .filter(
+              (row) =>
+                row.completed === true
+            )
+            .map(
+              (row) =>
+                row.lesson_id
+            )
+        );
+
+      const eligibleLessons =
+        lectii.filter(
+          (lesson) =>
+            completedIds.has(
+              lesson.id
+            )
+        );
+
+      setCompletedLessons(
+        eligibleLessons
       );
 
       const {
@@ -648,7 +360,14 @@ export default function WeeklyAssessmentPage() {
       } = await supabase
         .from("student_mastery")
         .select(
-          "skill_id, mastery_score, total_attempts, correct_attempts, consecutive_correct, next_review_at"
+          [
+            "skill_id",
+            "mastery_score",
+            "total_attempts",
+            "correct_attempts",
+            "consecutive_correct",
+            "next_review_at",
+          ].join(",")
         )
         .eq("user_id", user.id);
 
@@ -661,10 +380,41 @@ export default function WeeklyAssessmentPage() {
           "Eroare Mastery:",
           masteryError
         );
+
+        setMastery([]);
       } else {
-        setMasteryRows(
+        const rows =
           (masteryData ??
-            []) as unknown as MasteryRow[]
+            []) as unknown as Array<{
+            skill_id: string;
+            mastery_score: number;
+            total_attempts: number;
+            correct_attempts: number;
+            consecutive_correct: number;
+            next_review_at:
+              | string
+              | null;
+          }>;
+
+        setMastery(
+          rows.map((row) => ({
+            skillId: row.skill_id,
+
+            masteryScore:
+              row.mastery_score ?? 0,
+
+            totalAttempts:
+              row.total_attempts ?? 0,
+
+            correctAttempts:
+              row.correct_attempts ?? 0,
+
+            consecutiveCorrect:
+              row.consecutive_correct ?? 0,
+
+            nextReviewAt:
+              row.next_review_at,
+          }))
         );
       }
 
@@ -678,48 +428,59 @@ export default function WeeklyAssessmentPage() {
     };
   }, [router, supabase]);
 
-  const averageMastery =
-    useMemo(() => {
-      if (
-        masteryRows.length === 0
-      ) {
-        return 0;
-      }
-
-      const total =
-        masteryRows.reduce(
-          (sum, row) =>
-            sum +
-            Math.max(
-              0,
-              Math.min(
-                100,
-                row.mastery_score ??
-                  0
-              )
-            ),
+  const availableQuestions =
+    useMemo(
+      () =>
+        completedLessons.reduce(
+          (total, lesson) =>
+            total +
+            getQuestionsForLesson(
+              lesson
+            ).length,
           0
-        );
+        ),
+      [completedLessons]
+    );
 
-      return Math.round(
-        total /
-          masteryRows.length
-      );
-    }, [masteryRows]);
+  const sessionQuestionCount =
+    Math.min(
+      MAX_QUESTIONS,
+      availableQuestions
+    );
 
   const currentQuestion =
-    questions[currentIndex] ??
-    null;
+    questions[currentIndex] ?? null;
 
-  const progress =
+  const sessionProgress =
     questions.length > 0
       ? Math.round(
-          ((currentIndex +
-            (answerChecked ? 1 : 0)) /
+          (answers.length /
             questions.length) *
             100
         )
       : 0;
+
+  const initial =
+    studentName
+      .trim()
+      .charAt(0)
+      .toUpperCase() || "M";
+
+  const weakLessons =
+    result
+      ? result.lessons.filter(
+          (lesson) =>
+            lesson.percentage < 70
+        )
+      : [];
+
+  const strongLessons =
+    result
+      ? result.lessons.filter(
+          (lesson) =>
+            lesson.percentage >= 70
+        )
+      : [];
 
   async function signOut() {
     setSigningOut(true);
@@ -764,60 +525,74 @@ export default function WeeklyAssessmentPage() {
       return;
     }
 
-    setStarting(true);
     setError("");
 
+    if (
+      completedLessons.length === 0
+    ) {
+      setError(
+        "Nu există încă lecții finalizate. Finalizează mai întâi o lecție."
+      );
+      return;
+    }
+
+    if (
+      sessionQuestionCount === 0
+    ) {
+      setError(
+        "Lecțiile finalizate nu au încă exerciții matematice verificate pentru evaluare."
+      );
+      return;
+    }
+
+    setStarting(true);
+
     try {
+      const session =
+        await createWeeklyAssessment(
+          supabase,
+          sessionQuestionCount
+        );
+
+      const adaptive =
+        buildAdaptiveAssessment({
+          completedLessonIds:
+            completedLessons.map(
+              (lesson) =>
+                lesson.id
+            ),
+
+          mastery:
+            session.mastery,
+
+          recentAttempts:
+            session.recentAttempts,
+
+          maxQuestions:
+            MAX_QUESTIONS,
+        });
+
       if (
-        masteryRows.length === 0
+        adaptive.questions.length ===
+        0
       ) {
         setError(
-          "MATE nu are încă suficiente date pentru evaluarea săptămânală. Rezolvă mai întâi câteva exerciții din lecții."
+          "Nu există încă exerciții matematice verificate din lecțiile finalizate."
         );
 
         return;
       }
 
-      const created =
-        (await createWeeklyAssessment(
-          supabase
-        )) as unknown as CreatedAssessmentLike;
+      setMastery(
+        session.mastery
+      );
 
-      const id =
-        created.assessmentId ??
-        created.assessment_id ??
-        created.id ??
-        null;
+      setAssessmentId(
+        session.assessmentId
+      );
 
-      if (!id) {
-        throw new Error(
-          "Evaluarea a fost creată fără identificator."
-        );
-      }
-
-      const requestedSkills =
-        extractPlanSkills(
-          created.plan
-        );
-
-      const builtQuestions =
-        buildQuestions(
-          requestedSkills,
-          masteryRows,
-          5
-        );
-
-      if (
-        builtQuestions.length === 0
-      ) {
-        throw new Error(
-          "Nu există încă întrebări verificate pentru competențele selectate."
-        );
-      }
-
-      setAssessmentId(id);
       setQuestions(
-        builtQuestions
+        adaptive.questions
       );
 
       setCurrentIndex(0);
@@ -825,16 +600,65 @@ export default function WeeklyAssessmentPage() {
       setAnswerChecked(false);
       setAnswers([]);
       setResult(null);
-    } catch (startError) {
+    } catch (databaseError) {
+      const databaseMessage =
+        getDatabaseErrorMessage(
+          databaseError
+        );
+
       console.error(
-        "Eroare pornire evaluare săptămânală:",
-        startError
+        "Sesiunea nu a putut fi salvată:",
+        databaseError
       );
 
+      console.error(
+        "DEBUG SUPABASE:",
+        databaseMessage
+      );
+
+      const adaptive =
+        buildAdaptiveAssessment({
+          completedLessonIds:
+            completedLessons.map(
+              (lesson) =>
+                lesson.id
+            ),
+
+          mastery,
+
+          recentAttempts: [],
+
+          maxQuestions:
+            MAX_QUESTIONS,
+        });
+
+      if (
+        adaptive.questions.length ===
+        0
+      ) {
+        setError(
+          "Evaluarea nu a putut fi pregătită."
+        );
+
+        return;
+      }
+
+      setAssessmentId(
+        `local-${Date.now()}`
+      );
+
+      setQuestions(
+        adaptive.questions
+      );
+
+      setCurrentIndex(0);
+      setSelectedIndex(null);
+      setAnswerChecked(false);
+      setAnswers([]);
+      setResult(null);
+
       setError(
-        startError instanceof Error
-          ? startError.message
-          : "Evaluarea săptămânală nu a putut fi pornită."
+        "Evaluarea poate continua, dar această sesiune nu va fi salvată în cloud."
       );
     } finally {
       setStarting(false);
@@ -850,23 +674,42 @@ export default function WeeklyAssessmentPage() {
       return;
     }
 
-    const isCorrect =
-      selectedIndex ===
-      currentQuestion.correctIndex;
-
     const record: AnswerRecord = {
       questionId:
         currentQuestion.id,
-      skillId:
-        currentQuestion.requestedSkillId ||
-        currentQuestion.skillId,
-      isCorrect,
+
+      questionFamily:
+        currentQuestion.questionFamily,
+
+      difficulty:
+        currentQuestion.difficulty,
+
+      lessonId:
+        currentQuestion.lessonId,
+
+      lessonSlug:
+        currentQuestion.lessonSlug,
+
+      lessonTitle:
+        currentQuestion.lessonTitle,
+
       selectedIndex,
+
+      correctIndex:
+        currentQuestion.correctIndex,
+
+      isCorrect:
+        selectedIndex ===
+        currentQuestion.correctIndex,
     };
 
     setAnswers(
       (current) => [
-        ...current,
+        ...current.filter(
+          (answer) =>
+            answer.questionId !==
+            record.questionId
+        ),
         record,
       ]
     );
@@ -888,95 +731,143 @@ export default function WeeklyAssessmentPage() {
     setError("");
 
     try {
-      const serviceResults =
-        finalAnswers.map(
-          (answer) => ({
-            skillId:
-              answer.skillId,
-            isCorrect:
-              answer.isCorrect,
-          })
+      const totalQuestions =
+        finalAnswers.length;
+
+      const correctAnswers =
+        finalAnswers.filter(
+          (answer) =>
+            answer.isCorrect
+        ).length;
+
+      const score =
+        totalQuestions > 0
+          ? Math.round(
+              (correctAnswers /
+                totalQuestions) *
+                100
+            )
+          : 0;
+
+      const lessons =
+        buildLessonResults(
+          finalAnswers
         );
 
-      const completed =
-        await completeWeeklyAssessment(
-          supabase,
-          assessmentId,
-          serviceResults
-        );
+      const strongestLesson =
+        [...lessons].sort(
+          (a, b) => {
+            if (
+              b.percentage !==
+              a.percentage
+            ) {
+              return (
+                b.percentage -
+                a.percentage
+              );
+            }
 
-      const completedResult =
-        completed as unknown as {
-          totalQuestions?: number;
-          correctAnswers?: number;
-          score?: number;
-          strongestSkillId?:
-            | string
-            | null;
-          weakestSkillId?:
-            | string
-            | null;
-          result?: WeeklyResult;
-        };
+            return (
+              b.total -
+              a.total
+            );
+          }
+        )[0];
 
-      const serviceResult =
-        completedResult.result;
+      const weakestLesson =
+        [...lessons].sort(
+          (a, b) => {
+            if (
+              a.percentage !==
+              b.percentage
+            ) {
+              return (
+                a.percentage -
+                b.percentage
+              );
+            }
 
-      if (serviceResult) {
-        setResult(
-          serviceResult
-        );
-      } else {
-        const correct =
-          finalAnswers.filter(
-            (answer) =>
-              answer.isCorrect
-          ).length;
+            return (
+              b.total -
+              a.total
+            );
+          }
+        )[0];
 
-        const total =
-          finalAnswers.length;
+      if (
+        !assessmentId.startsWith(
+          "local-"
+        )
+      ) {
+        try {
+          await completeWeeklyAssessment(
+            supabase,
+            assessmentId,
 
-        const score =
-          total > 0
-            ? Math.round(
-                (correct /
-                  total) *
-                  100
-              )
-            : 0;
+            finalAnswers.map(
+              (answer) => ({
+                questionId:
+                  answer.questionId,
 
-        setResult({
-          totalQuestions:
-            completedResult.totalQuestions ??
-            total,
+                skillId:
+                  answer.lessonId,
 
-          correctAnswers:
-            completedResult.correctAnswers ??
-            correct,
+                questionFamily:
+                  answer.questionFamily,
 
-          score:
-            completedResult.score ??
-            score,
+                difficulty:
+                  answer.difficulty,
 
-          strongestSkillId:
-            completedResult.strongestSkillId ??
-            null,
+                isCorrect:
+                  answer.isCorrect,
+              })
+            )
+          );
+        } catch (databaseError) {
+          const databaseMessage =
+            getDatabaseErrorMessage(
+              databaseError
+            );
 
-          weakestSkillId:
-            completedResult.weakestSkillId ??
-            null,
-        });
+          console.error(
+            "Rezultatul nu a putut fi salvat:",
+            databaseError
+          );
+
+          console.error(
+            "DEBUG SUPABASE FINALIZARE:",
+            databaseMessage
+          );
+
+          setError(
+            `Rezultatul este afișat, dar salvarea în cloud nu a reușit: ${databaseMessage}`
+          );
+        }
       }
+
+      setResult({
+        totalQuestions,
+        correctAnswers,
+        score,
+
+        strongestSkillId:
+          strongestLesson?.lessonId ??
+          null,
+
+        weakestSkillId:
+          weakestLesson?.lessonId ??
+          null,
+
+        lessons,
+      });
     } catch (finishError) {
       console.error(
-        "Eroare finalizare evaluare:",
+        "Eroare finalizare:",
         finishError
       );
 
       setError(
-        finishError instanceof Error
-          ? finishError.message
-          : "Rezultatul nu a putut fi salvat."
+        "Rezultatul evaluării nu a putut fi calculat."
       );
     } finally {
       setFinishing(false);
@@ -985,8 +876,9 @@ export default function WeeklyAssessmentPage() {
 
   async function nextQuestion() {
     if (
-      !answerChecked ||
-      !currentQuestion
+      !currentQuestion ||
+      selectedIndex === null ||
+      !answerChecked
     ) {
       return;
     }
@@ -1002,16 +894,53 @@ export default function WeeklyAssessmentPage() {
 
       setSelectedIndex(null);
       setAnswerChecked(false);
-
       return;
     }
 
+    const finalRecord: AnswerRecord = {
+      questionId:
+        currentQuestion.id,
+
+      questionFamily:
+        currentQuestion.questionFamily,
+
+      difficulty:
+        currentQuestion.difficulty,
+
+      lessonId:
+        currentQuestion.lessonId,
+
+      lessonSlug:
+        currentQuestion.lessonSlug,
+
+      lessonTitle:
+        currentQuestion.lessonTitle,
+
+      selectedIndex,
+
+      correctIndex:
+        currentQuestion.correctIndex,
+
+      isCorrect:
+        selectedIndex ===
+        currentQuestion.correctIndex,
+    };
+
+    const finalAnswers = [
+      ...answers.filter(
+        (answer) =>
+          answer.questionId !==
+          finalRecord.questionId
+      ),
+      finalRecord,
+    ];
+
     await finishAssessment(
-      answers
+      finalAnswers
     );
   }
 
-  function restartLocalView() {
+  function resetAssessment() {
     setAssessmentId(null);
     setQuestions([]);
     setCurrentIndex(0);
@@ -1024,608 +953,1124 @@ export default function WeeklyAssessmentPage() {
 
   if (loading) {
     return (
-      <main className="min-h-screen bg-[#020817] text-white">
-        <div className="mx-auto max-w-5xl px-6 py-24">
-          <div className="flex items-center gap-4">
-            <div className="h-11 w-11 animate-pulse rounded-full bg-blue-500/30" />
+      <main className="flex min-h-screen items-center justify-center bg-[#06120d] text-white">
+        <div className="text-center">
+          <div className="relative mx-auto h-16 w-16">
+            <div className="absolute inset-0 rounded-full bg-emerald-400/20 blur-2xl" />
 
-            <div>
-              <p className="font-black">
-                MATE pregătește evaluarea...
-              </p>
-
-              <p className="mt-1 text-sm text-slate-500">
-                Analizez progresul tău pentru a alege zonele potrivite.
-              </p>
-            </div>
+            <div className="relative h-16 w-16 animate-spin rounded-full border-[5px] border-white/10 border-t-emerald-300" />
           </div>
-        </div>
-      </main>
-    );
-  }
 
-  if (
-    error &&
-    !studentName
-  ) {
-    return (
-      <main className="min-h-screen bg-[#020817] text-white">
-        <div className="mx-auto max-w-3xl px-6 py-24">
-          <div className="rounded-3xl border border-red-500/30 bg-red-500/10 p-7">
-            <p className="text-sm font-black uppercase tracking-wider text-red-400">
-              Evaluare indisponibilă
-            </p>
+          <p className="mt-6 text-sm font-black text-slate-300">
+            Pregătim materia parcursă...
+          </p>
 
-            <h1 className="mt-3 text-3xl font-black">
-              Nu am putut încărca pagina.
-            </h1>
-
-            <p className="mt-4 text-slate-300">
-              {error}
-            </p>
-
-            <button
-              type="button"
-              onClick={() =>
-                window.location.reload()
-              }
-              className="mt-6 rounded-xl bg-blue-600 px-5 py-3 font-bold transition hover:bg-blue-500"
-            >
-              Încearcă din nou
-            </button>
-          </div>
+          <p className="mt-1 text-xs text-slate-600">
+            MATE construiește evaluarea.
+          </p>
         </div>
       </main>
     );
   }
 
   return (
-    <BacMateShell
-      studentName={studentName}
-      profileName={profileName}
-      onSignOut={signOut}
-      signingOut={signingOut}
-    >
-      <div className="mx-auto max-w-[1200px] px-5 py-7 pb-28 sm:px-7 lg:px-9 lg:pb-12">
-        <section className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-          <div>
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-amber-400">
-              MATE · verificare săptămânală
-            </p>
+    <main className="relative min-h-screen overflow-x-hidden bg-[#06120d] text-white">
+      <div className="pointer-events-none fixed inset-0">
+        <div className="absolute -left-52 top-20 h-[500px] w-[500px] rounded-full bg-emerald-500/[0.07] blur-[130px]" />
 
-            <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-4xl">
-              Evaluarea ta săptămânală
-            </h1>
+        <div className="absolute right-[-180px] top-[280px] h-[450px] w-[450px] rounded-full bg-orange-500/[0.06] blur-[120px]" />
 
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 sm:text-base">
-              O verificare scurtă construită din progresul tău. Scopul nu este să te noteze, ci să afle ce ai consolidat și ce merită repetat.
-            </p>
-          </div>
+        <div className="absolute bottom-[-240px] left-[30%] h-[500px] w-[500px] rounded-full bg-teal-500/[0.05] blur-[140px]" />
+      </div>
 
-          <button
-            type="button"
-            onClick={() =>
-              router.push("/mate")
-            }
-            className="self-start rounded-xl border border-slate-800 bg-slate-950/50 px-4 py-2.5 text-sm font-bold text-slate-400 transition hover:border-slate-700 hover:text-white"
-          >
-            ← Înapoi la MATE
-          </button>
-        </section>
+      <div className="relative min-h-screen lg:flex">
+        <aside className="border-b border-white/[0.07] bg-[#081710]/95 backdrop-blur-2xl lg:fixed lg:inset-y-0 lg:left-0 lg:z-40 lg:w-[230px] lg:border-b-0 lg:border-r">
+          <div className="flex h-full flex-col">
+            <div className="border-b border-white/[0.07] px-7 py-7">
+              <a
+                href="/dashboard"
+                className="inline-flex items-center gap-2 text-[21px] font-black tracking-tight"
+              >
+                <span>BAC</span>
 
-        {error && studentName && (
-          <div className="mt-6 rounded-2xl border border-red-500/30 bg-red-500/10 px-5 py-4 text-sm leading-6 text-red-300">
-            {error}
-          </div>
-        )}
+                <span className="bg-gradient-to-r from-emerald-300 via-teal-300 to-orange-300 bg-clip-text text-transparent">
+                  MATE
+                </span>
+              </a>
 
-        {!assessmentId &&
-          !result && (
-            <>
-              <section className="relative mt-7 overflow-hidden rounded-[30px] border border-blue-500/20 bg-gradient-to-br from-[#091a38] via-[#071225] to-[#080d1b]">
-                <div className="pointer-events-none absolute -left-20 top-0 h-72 w-72 rounded-full bg-blue-500/10 blur-[90px]" />
+              <p className="mt-2 text-[9px] font-black uppercase tracking-[0.28em] text-slate-500">
+                Matematică. Pas cu pas.
+              </p>
+            </div>
 
-                <div className="pointer-events-none absolute right-0 top-0 h-72 w-72 rounded-full bg-amber-500/[0.07] blur-[100px]" />
+            <nav className="flex gap-2 overflow-x-auto p-4 lg:flex-1 lg:flex-col lg:overflow-visible">
+              <NavItem
+                href="/dashboard"
+                icon="⌂"
+                text="Acasă"
+              />
 
-                <div className="relative grid gap-7 p-6 sm:p-8 md:grid-cols-[140px_1fr] md:items-center lg:p-10">
-                  <div className="flex justify-center">
-                    <MateAssessmentAvatar
-                      gender={gender}
-                    />
-                  </div>
+              <NavItem
+                href="/lectii"
+                icon="▣"
+                text="Lecții"
+              />
 
-                  <div>
-                    <div className="flex flex-wrap items-center gap-3">
-                      <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-blue-300">
-                        MATE
-                      </span>
+              <NavItem
+                href="/evaluari"
+                icon="✓"
+                text="Evaluări"
+                active
+              />
 
-                      <span className="text-xs font-semibold text-emerald-400">
-                        ● pregătit
-                      </span>
-                    </div>
+              <NavItem
+                href="/progres"
+                icon="▥"
+                text="Progres"
+              />
 
-                    <h2 className="mt-4 text-2xl font-black sm:text-3xl">
-                      Salut, {studentName}. Hai să vedem ce a rămas cu tine.
-                    </h2>
+              <NavItem
+                href="/mate"
+                icon="✦"
+                text="MATE"
+                badge="NOU"
+              />
 
-                    <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">
-                      Voi prioritiza competențele care au nevoie de verificare. După răspunsuri îți arăt rezultatul și zona pe care merită să o lucrăm în continuare.
-                    </p>
+              <NavItem
+                href="/programa"
+                icon="▤"
+                text="Programă"
+              />
 
-                    <button
-                      type="button"
-                      disabled={
-                        starting
-                      }
-                      onClick={() =>
-                        void startAssessment()
-                      }
-                      className="mt-6 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3.5 text-sm font-black text-white transition hover:opacity-90 disabled:cursor-wait disabled:opacity-60"
-                    >
-                      {starting
-                        ? "MATE pregătește întrebările..."
-                        : "Începe evaluarea →"}
-                    </button>
-                  </div>
-                </div>
-              </section>
+              <NavItem
+                href="/profil"
+                icon="♙"
+                text="Profil"
+              />
+            </nav>
 
-              <section className="mt-5 grid gap-4 sm:grid-cols-3">
-                <div className="rounded-2xl border border-slate-800 bg-[#07101f] p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Mastery actual
-                  </p>
+            <div className="hidden p-5 lg:block">
+              <div className="relative overflow-hidden rounded-[22px] border border-emerald-300/15 bg-gradient-to-br from-emerald-400/[0.1] via-transparent to-orange-400/[0.06] p-4">
+                <div className="absolute -right-12 -top-12 h-28 w-28 rounded-full bg-emerald-400/10 blur-2xl" />
 
-                  <p className="mt-3 text-3xl font-black text-cyan-400">
-                    {averageMastery}%
-                  </p>
-
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
-                    Media competențelor urmărite până acum.
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-slate-800 bg-[#07101f] p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Competențe urmărite
-                  </p>
-
-                  <p className="mt-3 text-3xl font-black text-violet-400">
-                    {masteryRows.length}
-                  </p>
-
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
-                    Date reale salvate de Mastery Engine.
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-slate-800 bg-[#07101f] p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Durată
-                  </p>
-
-                  <p className="mt-3 text-3xl font-black text-amber-400">
-                    ~5 min
-                  </p>
-
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
-                    O verificare scurtă, nu o simulare BAC.
-                  </p>
-                </div>
-              </section>
-
-              <section className="mt-5 rounded-[26px] border border-slate-800 bg-[#07101f] p-6">
-                <p className="text-xs font-black uppercase tracking-[0.16em] text-blue-400">
-                  Cum funcționează
+                <p className="relative text-sm italic leading-6 text-slate-300">
+                  „Evaluarea verifică doar materia pe care ai parcurs-o.”
                 </p>
 
-                <div className="mt-5 grid gap-4 md:grid-cols-3">
-                  <div className="rounded-2xl bg-slate-950/60 p-5">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-500/10 text-sm font-black text-blue-300">
-                      1
-                    </div>
+                <p className="relative mt-3 text-xs font-black text-emerald-300">
+                  — MATE
+                </p>
+              </div>
+            </div>
+          </div>
+        </aside>
 
-                    <h3 className="mt-4 font-black">
-                      MATE alege focusul
-                    </h3>
+        <div className="min-w-0 flex-1 lg:ml-[230px]">
+          <header className="sticky top-0 z-30 border-b border-white/[0.07] bg-[#06120d]/90 backdrop-blur-2xl">
+            <div className="flex min-h-[72px] items-center justify-between gap-4 px-5 sm:px-8 lg:px-10">
+              <div>
+                <p className="text-[10px] font-black uppercase tracking-[0.24em] text-emerald-400/70">
+                  BAC MATE
+                </p>
 
-                    <p className="mt-2 text-sm leading-6 text-slate-500">
-                      Mastery Engine prioritizează zonele care merită reverificate.
-                    </p>
-                  </div>
+                <p className="mt-1 text-sm font-black text-slate-200">
+                  Evaluare adaptivă
+                </p>
+              </div>
 
-                  <div className="rounded-2xl bg-slate-950/60 p-5">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-violet-500/10 text-sm font-black text-violet-300">
-                      2
-                    </div>
+              <div className="ml-auto flex items-center gap-3">
+                <div className="hidden text-right sm:block">
+                  <p className="text-sm font-black">
+                    {studentName}
+                  </p>
 
-                    <h3 className="mt-4 font-black">
-                      Tu răspunzi
-                    </h3>
-
-                    <p className="mt-2 text-sm leading-6 text-slate-500">
-                      Primești o sesiune scurtă cu întrebări controlate de BAC MATE.
-                    </p>
-                  </div>
-
-                  <div className="rounded-2xl bg-slate-950/60 p-5">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 text-sm font-black text-emerald-300">
-                      3
-                    </div>
-
-                    <h3 className="mt-4 font-black">
-                      Primești direcția
-                    </h3>
-
-                    <p className="mt-2 text-sm leading-6 text-slate-500">
-                      Rezultatul este salvat și folosit pentru următoarele recomandări.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            </>
-          )}
-
-        {assessmentId &&
-          !result &&
-          currentQuestion && (
-            <div className="mt-7 grid gap-5 xl:grid-cols-[minmax(0,1fr)_300px]">
-              <section className="overflow-hidden rounded-[28px] border border-slate-800 bg-[#07101f]">
-                <div className="border-b border-slate-800 px-6 py-5 sm:px-8">
-                  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                    <div>
-                      <p className="text-xs font-black uppercase tracking-[0.16em] text-blue-400">
-                        Întrebarea{" "}
-                        {currentIndex + 1} din{" "}
-                        {questions.length}
-                      </p>
-
-                      <p className="mt-1 text-sm font-semibold text-slate-500">
-                        {currentQuestion.title}
-                      </p>
-                    </div>
-
-                    <ProgressDots
-                      total={
-                        questions.length
-                      }
-                      current={
-                        currentIndex
-                      }
-                      answers={
-                        answers
-                      }
-                    />
-                  </div>
-
-                  <div className="mt-5 h-2 overflow-hidden rounded-full bg-slate-950">
-                    <div
-                      className="h-full rounded-full bg-gradient-to-r from-blue-600 via-cyan-400 to-emerald-400 transition-all duration-500"
-                      style={{
-                        width: `${progress}%`,
-                      }}
-                    />
-                  </div>
+                  <p className="mt-0.5 text-[10px] font-bold text-emerald-300">
+                    {profileName}
+                  </p>
                 </div>
 
-                <div className="p-6 sm:p-8">
-                  <h2 className="text-xl font-black leading-8 sm:text-2xl">
-                    {currentQuestion.statement}
-                  </h2>
+                <a
+                  href="/profil"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-300/30 bg-gradient-to-br from-emerald-400 via-teal-500 to-orange-400 text-sm font-black text-[#06130e] shadow-lg shadow-emerald-500/20"
+                >
+                  {initial}
+                </a>
 
-                  <div className="mt-7 grid gap-3">
-                    {currentQuestion.answers.map(
-                      (
-                        answer,
-                        index
-                      ) => {
-                        const selected =
-                          selectedIndex ===
-                          index;
+                <button
+                  type="button"
+                  onClick={signOut}
+                  disabled={signingOut}
+                  className="rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2 text-xs font-bold text-slate-400 transition hover:border-red-400/30 hover:bg-red-400/[0.06] hover:text-red-300 disabled:opacity-50"
+                >
+                  {signingOut
+                    ? "..."
+                    : "Ieșire"}
+                </button>
+              </div>
+            </div>
+          </header>
 
-                        const correct =
-                          index ===
-                          currentQuestion.correctIndex;
+          <div className="mx-auto max-w-[1240px] px-5 py-7 pb-20 sm:px-8 lg:px-10 lg:py-9">
+            {error && (
+              <div className="mb-6 rounded-2xl border border-red-400/25 bg-red-400/10 px-5 py-4 text-sm leading-6 text-red-200">
+                {error}
+              </div>
+            )}
 
-                        let style =
-                          "border-slate-800 bg-slate-950/60 text-slate-300 hover:border-blue-500/40 hover:bg-blue-500/[0.05]";
+            {!assessmentId &&
+              !result && (
+                <>
+                  <section className="relative overflow-hidden rounded-[34px] border border-emerald-300/20 bg-gradient-to-br from-[#0d3c2c] via-[#103329] to-[#4b2c17] p-7 shadow-[0_35px_100px_rgba(0,0,0,0.4)] sm:p-9 lg:p-10">
+                    <div className="pointer-events-none absolute -left-24 -top-28 h-96 w-96 rounded-full bg-emerald-300/20 blur-[100px]" />
 
-                        if (
-                          answerChecked &&
-                          correct
-                        ) {
-                          style =
-                            "border-emerald-500/40 bg-emerald-500/10 text-emerald-200";
-                        } else if (
-                          answerChecked &&
-                          selected &&
-                          !correct
-                        ) {
-                          style =
-                            "border-rose-500/40 bg-rose-500/10 text-rose-200";
-                        } else if (
-                          selected
-                        ) {
-                          style =
-                            "border-blue-500/50 bg-blue-500/10 text-white";
-                        }
+                    <div className="pointer-events-none absolute left-[45%] top-[-200px] h-96 w-96 rounded-full bg-teal-300/10 blur-[110px]" />
 
-                        return (
+                    <div className="pointer-events-none absolute -bottom-40 -right-20 h-[430px] w-[430px] rounded-full bg-orange-400/20 blur-[100px]" />
+
+                    <div className="relative grid gap-10 lg:grid-cols-[1fr_320px] lg:items-center">
+                      <div>
+                        <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200/20 bg-emerald-300/10 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.18em] text-emerald-100">
+                          <span className="h-2 w-2 rounded-full bg-emerald-300 shadow-[0_0_12px_rgba(110,231,183,0.7)]" />
+                          Doar din materia parcursă
+                        </span>
+
+                        <h1 className="mt-5 max-w-3xl text-4xl font-black leading-[1] tracking-[-0.04em] sm:text-5xl lg:text-[56px]">
+                          Verifică ce
+                          <span className="block bg-gradient-to-r from-emerald-200 via-lime-200 to-orange-200 bg-clip-text text-transparent">
+                            ai înțeles.
+                          </span>
+                        </h1>
+
+                        <p className="mt-5 max-w-3xl text-sm leading-7 text-slate-200/80 sm:text-base">
+                          Evaluarea conține maximum 10 întrebări și folosește exclusiv exerciții verificate din lecțiile pe care le-ai finalizat.
+                        </p>
+
+                        <div className="mt-7 flex flex-wrap gap-3">
                           <button
-                            key={
-                              answer
+                            type="button"
+                            onClick={() =>
+                              void startAssessment()
                             }
+                            disabled={
+                              starting ||
+                              sessionQuestionCount === 0
+                            }
+                            className="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-orange-300 via-amber-300 to-orange-400 px-6 py-3.5 text-sm font-black text-[#251406] shadow-[0_16px_40px_rgba(251,146,60,0.2)] transition hover:-translate-y-0.5 hover:shadow-[0_20px_50px_rgba(251,146,60,0.28)] disabled:cursor-not-allowed disabled:opacity-50"
+                          >
+                            {starting
+                              ? "Pregătesc evaluarea..."
+                              : sessionQuestionCount > 0
+                                ? `Începe ${sessionQuestionCount} întrebări`
+                                : "Nu există încă exerciții"}
+
+                            {!starting &&
+                              sessionQuestionCount >
+                                0 && (
+                                <span className="transition group-hover:translate-x-1">
+                                  →
+                                </span>
+                              )}
+                          </button>
+
+                          <a
+                            href="/lectii"
+                            className="inline-flex items-center rounded-2xl border border-emerald-200/15 bg-emerald-300/[0.07] px-6 py-3.5 text-sm font-black backdrop-blur-xl transition hover:bg-emerald-300/[0.12]"
+                          >
+                            Vezi lecțiile
+                          </a>
+                        </div>
+                      </div>
+
+                      <div className="relative mx-auto flex h-[240px] w-full max-w-[280px] items-center justify-center">
+                        <div className="absolute h-52 w-52 rounded-full border border-emerald-200/10" />
+                        <div className="absolute h-40 w-40 rounded-full border border-orange-200/10" />
+                        <div className="absolute h-28 w-28 rounded-full bg-emerald-300/10 blur-xl" />
+
+                        <div className="relative flex h-28 w-28 items-center justify-center rounded-[32px] border border-emerald-200/20 bg-gradient-to-br from-emerald-300 via-teal-400 to-emerald-500 text-5xl font-black text-[#062016] shadow-[0_25px_60px_rgba(52,211,153,0.25)]">
+                          ✓
+                        </div>
+
+                        <div className="absolute bottom-2 right-0 rounded-2xl border border-orange-300/20 bg-[#1e2115]/90 px-4 py-3 shadow-xl backdrop-blur-xl">
+                          <p className="text-[9px] font-black uppercase tracking-[0.16em] text-orange-300">
+                            Maximum
+                          </p>
+
+                          <p className="mt-1 text-2xl font-black">
+                            {sessionQuestionCount}
+                            <span className="ml-1 text-xs text-slate-500">
+                              întrebări
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section className="mt-5 grid gap-4 sm:grid-cols-3">
+                    <InfoCard
+                      icon="▣"
+                      label="Lecții parcurse"
+                      value={String(
+                        completedLessons.length
+                      )}
+                      helper="lecții finalizate"
+                      tone="emerald"
+                    />
+
+                    <InfoCard
+                      icon="✦"
+                      label="Exerciții disponibile"
+                      value={String(
+                        availableQuestions
+                      )}
+                      helper="exerciții verificate"
+                      tone="lime"
+                    />
+
+                    <InfoCard
+                      icon="✓"
+                      label="Evaluare"
+                      value={String(
+                        sessionQuestionCount
+                      )}
+                      helper="maximum 10 întrebări"
+                      tone="orange"
+                    />
+                  </section>
+
+                  <section className="relative mt-5 overflow-hidden rounded-[30px] border border-white/[0.08] bg-[#0c1c14] p-6 shadow-[0_20px_60px_rgba(0,0,0,0.16)] sm:p-7">
+                    <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-emerald-400/[0.08] blur-[80px]" />
+
+                    <div className="relative">
+                      <div className="flex items-center justify-between gap-4">
+                        <div>
+                          <p className="text-[10px] font-black uppercase tracking-[0.22em] text-emerald-300">
+                            Proces inteligent
+                          </p>
+
+                          <h2 className="mt-2 text-2xl font-black">
+                            Cum funcționează evaluarea
+                          </h2>
+                        </div>
+
+                        <div className="hidden h-12 w-12 items-center justify-center rounded-2xl border border-orange-300/15 bg-orange-400/10 text-xl text-orange-300 sm:flex">
+                          ⚡
+                        </div>
+                      </div>
+
+                      <div className="mt-6 grid gap-4 md:grid-cols-3">
+                        <HowCard
+                          number="01"
+                          title="Doar ce ai parcurs"
+                          text="Nicio întrebare nu poate veni dintr-o lecție pe care nu ai finalizat-o."
+                        />
+
+                        <HowCard
+                          number="02"
+                          title="Prioritate inteligentă"
+                          text="Mastery, greșelile și repetările programate stabilesc ce merită verificat."
+                        />
+
+                        <HowCard
+                          number="03"
+                          title="Înapoi la lecție"
+                          text="Dacă greșești, poți reveni direct la lecția exactă pentru consolidare."
+                        />
+                      </div>
+                    </div>
+                  </section>
+                </>
+              )}
+
+            {assessmentId &&
+              !result &&
+              currentQuestion && (
+                <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_310px]">
+                  <section className="overflow-hidden rounded-[30px] border border-emerald-300/15 bg-[#0c1c14] shadow-[0_30px_80px_rgba(0,0,0,0.3)]">
+                    <div className="relative border-b border-white/[0.07] bg-gradient-to-r from-emerald-400/[0.08] via-transparent to-orange-400/[0.05] px-6 py-5 sm:px-8">
+                      <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+                        <div>
+                          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-300">
+                            Întrebarea{" "}
+                            {currentIndex + 1}{" "}
+                            din{" "}
+                            {questions.length}
+                          </p>
+
+                          <p className="mt-2 text-sm font-bold text-slate-400">
+                            {
+                              currentQuestion.lessonTitle
+                            }
+                          </p>
+                        </div>
+
+                        <div className="flex flex-wrap gap-2">
+                          {questions.map(
+                            (
+                              question,
+                              index
+                            ) => {
+                              const answer =
+                                answers.find(
+                                  (item) =>
+                                    item.questionId ===
+                                    question.id
+                                );
+
+                              let dotClass =
+                                "border-white/[0.08] bg-black/15 text-slate-600";
+
+                              if (
+                                answer?.isCorrect
+                              ) {
+                                dotClass =
+                                  "border-emerald-300/30 bg-emerald-400/15 text-emerald-300 shadow-[0_0_15px_rgba(52,211,153,0.08)]";
+                              } else if (
+                                answer
+                              ) {
+                                dotClass =
+                                  "border-red-400/30 bg-red-400/10 text-red-300";
+                              } else if (
+                                index ===
+                                currentIndex
+                              ) {
+                                dotClass =
+                                  "border-orange-300/40 bg-orange-400/15 text-orange-200 shadow-[0_0_18px_rgba(251,146,60,0.12)]";
+                              }
+
+                              return (
+                                <div
+                                  key={
+                                    question.id
+                                  }
+                                  className={`flex h-9 w-9 items-center justify-center rounded-full border text-[11px] font-black transition ${dotClass}`}
+                                >
+                                  {index + 1}
+                                </div>
+                              );
+                            }
+                          )}
+                        </div>
+                      </div>
+
+                      <div className="mt-5 h-2 overflow-hidden rounded-full bg-black/25">
+                        <div
+                          className="h-full rounded-full bg-gradient-to-r from-emerald-400 via-lime-300 to-orange-300 shadow-[0_0_18px_rgba(52,211,153,0.25)] transition-all duration-500"
+                          style={{
+                            width: `${sessionProgress}%`,
+                          }}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="p-6 sm:p-8">
+                      <div className="mb-5 flex flex-wrap items-center gap-2">
+                        <span className="rounded-full border border-emerald-300/15 bg-emerald-400/[0.08] px-3 py-1.5 text-[9px] font-black uppercase tracking-[0.14em] text-emerald-300">
+                          {
+                            currentQuestion.lessonTitle
+                          }
+                        </span>
+
+                        {currentQuestion.masteryScore !==
+                          null && (
+                          <span className="rounded-full border border-orange-300/15 bg-orange-400/[0.08] px-3 py-1.5 text-[9px] font-black uppercase tracking-[0.14em] text-orange-300">
+                            Mastery{" "}
+                            {
+                              currentQuestion.masteryScore
+                            }
+                            %
+                          </span>
+                        )}
+                      </div>
+
+                      <h1 className="max-w-3xl text-2xl font-black leading-9 tracking-tight sm:text-3xl">
+                        {
+                          currentQuestion.question
+                        }
+                      </h1>
+
+                      <p className="mt-3 text-sm text-slate-500">
+                        Alege varianta corectă.
+                      </p>
+
+                      <div className="mt-7 grid gap-3">
+                        {currentQuestion.options.map(
+                          (
+                            option,
+                            index
+                          ) => {
+                            const selected =
+                              selectedIndex ===
+                              index;
+
+                            const correct =
+                              index ===
+                              currentQuestion.correctIndex;
+
+                            let style =
+                              "border-white/[0.08] bg-[#08150f] text-slate-300 hover:-translate-y-0.5 hover:border-emerald-300/25 hover:bg-emerald-400/[0.05]";
+
+                            let letterStyle =
+                              "border-white/10 bg-white/[0.04] text-slate-400";
+
+                            if (
+                              answerChecked &&
+                              correct
+                            ) {
+                              style =
+                                "border-emerald-300/40 bg-emerald-400/[0.11] text-emerald-50 shadow-[0_12px_35px_rgba(52,211,153,0.07)]";
+
+                              letterStyle =
+                                "border-emerald-300/30 bg-emerald-400/15 text-emerald-300";
+                            } else if (
+                              answerChecked &&
+                              selected &&
+                              !correct
+                            ) {
+                              style =
+                                "border-red-400/40 bg-red-400/[0.08] text-red-100";
+
+                              letterStyle =
+                                "border-red-400/30 bg-red-400/10 text-red-300";
+                            } else if (
+                              selected
+                            ) {
+                              style =
+                                "border-orange-300/45 bg-orange-400/[0.1] text-white shadow-[0_12px_35px_rgba(251,146,60,0.07)]";
+
+                              letterStyle =
+                                "border-orange-300/30 bg-orange-400/15 text-orange-200";
+                            }
+
+                            return (
+                              <button
+                                key={`${currentQuestion.id}-${index}`}
+                                type="button"
+                                disabled={
+                                  answerChecked
+                                }
+                                onClick={() =>
+                                  setSelectedIndex(
+                                    index
+                                  )
+                                }
+                                className={`group flex items-center gap-4 rounded-2xl border p-4 text-left transition duration-200 ${style}`}
+                              >
+                                <span
+                                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border text-sm font-black transition ${letterStyle}`}
+                                >
+                                  {String.fromCharCode(
+                                    65 + index
+                                  )}
+                                </span>
+
+                                <span className="flex-1 font-semibold">
+                                  {option}
+                                </span>
+
+                                {answerChecked &&
+                                  correct && (
+                                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-400/15 text-lg font-black text-emerald-300">
+                                      ✓
+                                    </span>
+                                  )}
+
+                                {answerChecked &&
+                                  selected &&
+                                  !correct && (
+                                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-red-400/10 text-lg font-black text-red-300">
+                                      ✕
+                                    </span>
+                                  )}
+                              </button>
+                            );
+                          }
+                        )}
+                      </div>
+
+                      {answerChecked && (
+                        <div
+                          className={`relative mt-6 overflow-hidden rounded-[22px] border p-5 ${
+                            selectedIndex ===
+                            currentQuestion.correctIndex
+                              ? "border-emerald-300/20 bg-emerald-400/[0.07]"
+                              : "border-orange-300/20 bg-orange-400/[0.07]"
+                          }`}
+                        >
+                          <div
+                            className={`absolute left-0 top-0 h-full w-1 ${
+                              selectedIndex ===
+                              currentQuestion.correctIndex
+                                ? "bg-emerald-300"
+                                : "bg-orange-300"
+                            }`}
+                          />
+
+                          <p
+                            className={`font-black ${
+                              selectedIndex ===
+                              currentQuestion.correctIndex
+                                ? "text-emerald-300"
+                                : "text-orange-300"
+                            }`}
+                          >
+                            {selectedIndex ===
+                            currentQuestion.correctIndex
+                              ? "Corect. Foarte bine ✓"
+                              : "Aici merită să consolidăm."}
+                          </p>
+
+                          <p className="mt-3 text-sm leading-7 text-slate-300">
+                            {
+                              currentQuestion.explanation
+                            }
+                          </p>
+
+                          {selectedIndex !==
+                            currentQuestion.correctIndex && (
+                            <a
+                              href={`/lectii/${currentQuestion.lessonSlug}`}
+                              className="mt-4 inline-flex items-center gap-2 text-xs font-black text-orange-300 transition hover:text-orange-200"
+                            >
+                              Revizuiește{" "}
+                              {
+                                currentQuestion.lessonTitle
+                              }
+                              <span>→</span>
+                            </a>
+                          )}
+                        </div>
+                      )}
+
+                      <div className="mt-7 flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.06] pt-6">
+                        <p className="text-xs leading-5 text-slate-600">
+                          Exercițiu verificat din materia parcursă.
+                        </p>
+
+                        {!answerChecked ? (
+                          <button
                             type="button"
                             disabled={
-                              answerChecked
+                              selectedIndex ===
+                              null
+                            }
+                            onClick={
+                              checkAnswer
+                            }
+                            className="rounded-2xl bg-gradient-to-r from-emerald-300 to-lime-300 px-6 py-3 text-sm font-black text-[#06150d] shadow-[0_12px_30px_rgba(52,211,153,0.13)] transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-40"
+                          >
+                            Verifică răspunsul
+                          </button>
+                        ) : (
+                          <button
+                            type="button"
+                            disabled={
+                              finishing
                             }
                             onClick={() =>
-                              setSelectedIndex(
-                                index
-                              )
+                              void nextQuestion()
                             }
-                            className={`flex items-center gap-4 rounded-2xl border p-4 text-left transition ${style}`}
+                            className="group rounded-2xl bg-gradient-to-r from-orange-300 via-amber-300 to-orange-400 px-6 py-3 text-sm font-black text-[#241306] shadow-[0_12px_30px_rgba(251,146,60,0.13)] transition hover:-translate-y-0.5 disabled:opacity-50"
                           >
-                            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-sm font-black">
-                              {String.fromCharCode(
-                                65 +
-                                  index
-                              )}
-                            </span>
-
-                            <span className="font-semibold">
-                              {answer}
-                            </span>
+                            {finishing
+                              ? "Salvez rezultatul..."
+                              : currentIndex ===
+                                  questions.length -
+                                    1
+                                ? "Vezi rezultatul →"
+                                : "Următoarea întrebare →"}
                           </button>
-                        );
-                      }
-                    )}
-                  </div>
+                        )}
+                      </div>
+                    </div>
+                  </section>
 
-                  {answerChecked && (
-                    <div
-                      className={`mt-6 rounded-2xl border p-5 ${
-                        selectedIndex ===
-                        currentQuestion.correctIndex
-                          ? "border-emerald-500/30 bg-emerald-500/[0.08]"
-                          : "border-amber-500/30 bg-amber-500/[0.07]"
-                      }`}
-                    >
-                      <p
-                        className={`font-black ${
-                          selectedIndex ===
-                          currentQuestion.correctIndex
-                            ? "text-emerald-300"
-                            : "text-amber-300"
-                        }`}
-                      >
-                        {selectedIndex ===
-                        currentQuestion.correctIndex
-                          ? "Corect ✓"
-                          : "Mai avem ceva de consolidat"}
+                  <aside className="space-y-5">
+                    <section className="relative overflow-hidden rounded-[28px] border border-emerald-300/20 bg-gradient-to-br from-emerald-400/[0.13] via-teal-400/[0.07] to-orange-400/[0.06] p-6">
+                      <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-emerald-400/10 blur-[60px]" />
+
+                      <div className="relative">
+                        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-[20px] border border-emerald-200/20 bg-gradient-to-br from-emerald-300 via-teal-400 to-emerald-500 text-2xl font-black text-[#062016] shadow-[0_15px_35px_rgba(52,211,153,0.2)]">
+                          M
+                        </div>
+
+                        <p className="mt-5 text-center text-[10px] font-black uppercase tracking-[0.2em] text-emerald-300">
+                          MATE
+                        </p>
+
+                        <h3 className="mt-2 text-center text-lg font-black">
+                          Verificăm ce ai înțeles.
+                        </h3>
+
+                        <p className="mt-3 text-center text-sm leading-6 text-slate-400">
+                          Dacă greșești, primești explicația și poți reveni direct la lecția potrivită.
+                        </p>
+                      </div>
+                    </section>
+
+                    <section className="rounded-[26px] border border-orange-300/12 bg-[#0c1c14] p-5">
+                      <div className="flex h-9 w-9 items-center justify-center rounded-xl border border-orange-300/15 bg-orange-400/10 text-sm text-orange-300">
+                        ▣
+                      </div>
+
+                      <p className="mt-4 text-[9px] font-black uppercase tracking-[0.17em] text-slate-600">
+                        Lecția verificată
                       </p>
 
-                      <p className="mt-2 text-sm leading-6 text-slate-300">
+                      <p className="mt-2 font-black leading-6">
                         {
-                          currentQuestion.explanation
+                          currentQuestion.lessonTitle
                         }
                       </p>
-                    </div>
-                  )}
 
-                  <div className="mt-7 flex flex-wrap items-center justify-between gap-3">
-                    <p className="text-xs leading-5 text-slate-600">
-                      Răspunsul este verificat determinist, nu decis de conversația AI.
+                      <a
+                        href={`/lectii/${currentQuestion.lessonSlug}`}
+                        className="mt-4 inline-flex items-center gap-2 text-xs font-black text-orange-300 transition hover:text-orange-200"
+                      >
+                        Deschide lecția
+                        <span>→</span>
+                      </a>
+                    </section>
+
+                    <section className="rounded-[26px] border border-emerald-300/12 bg-[#0c1c14] p-5">
+                      <p className="text-[9px] font-black uppercase tracking-[0.17em] text-slate-600">
+                        Progres sesiune
+                      </p>
+
+                      <div className="mt-4 flex items-end justify-between gap-3">
+                        <p className="text-4xl font-black text-emerald-300">
+                          {sessionProgress}%
+                        </p>
+
+                        <p className="pb-1 text-xs font-bold text-slate-500">
+                          {answers.length}/
+                          {questions.length}
+                        </p>
+                      </div>
+
+                      <div className="mt-4 h-2 overflow-hidden rounded-full bg-black/25">
+                        <div
+                          className="h-full rounded-full bg-gradient-to-r from-emerald-400 to-lime-300 transition-all duration-500"
+                          style={{
+                            width: `${sessionProgress}%`,
+                          }}
+                        />
+                      </div>
+
+                      <p className="mt-3 text-xs text-slate-600">
+                        întrebări verificate
+                      </p>
+                    </section>
+                  </aside>
+                </div>
+              )}
+
+            {result && (
+              <section className="space-y-5">
+                <div className="relative overflow-hidden rounded-[34px] border border-emerald-300/20 bg-gradient-to-br from-[#0d3c2c] via-[#103329] to-[#4b2c17] p-7 shadow-[0_35px_100px_rgba(0,0,0,0.35)] sm:p-9">
+                  <div className="pointer-events-none absolute -left-20 -top-28 h-80 w-80 rounded-full bg-emerald-300/20 blur-[100px]" />
+
+                  <div className="pointer-events-none absolute -bottom-32 -right-16 h-80 w-80 rounded-full bg-orange-400/20 blur-[90px]" />
+
+                  <div className="relative">
+                    <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200/20 bg-emerald-300/10 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.18em] text-emerald-100">
+                      <span className="h-2 w-2 rounded-full bg-emerald-300" />
+                      Evaluare finalizată
+                    </span>
+
+                    <h1 className="mt-5 max-w-4xl text-3xl font-black tracking-[-0.035em] sm:text-5xl">
+                      Acum știm unde merită
+                      <span className="block bg-gradient-to-r from-emerald-200 via-lime-200 to-orange-200 bg-clip-text text-transparent">
+                        să consolidezi.
+                      </span>
+                    </h1>
+
+                    <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-200/80">
+                      Rezultatul este calculat exclusiv din întrebările acestei evaluări.
                     </p>
 
-                    {!answerChecked ? (
-                      <button
-                        type="button"
-                        disabled={
-                          selectedIndex ===
-                          null
-                        }
-                        onClick={
-                          checkAnswer
-                        }
-                        className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-black transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-40"
-                      >
-                        Verifică răspunsul
-                      </button>
-                    ) : (
-                      <button
-                        type="button"
-                        disabled={
-                          finishing
-                        }
-                        onClick={() =>
-                          void nextQuestion()
-                        }
-                        className="rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 px-6 py-3 text-sm font-black transition hover:opacity-90 disabled:cursor-wait disabled:opacity-60"
-                      >
-                        {finishing
-                          ? "Salvez rezultatul..."
-                          : currentIndex ===
-                            questions.length -
-                              1
-                          ? "Finalizează evaluarea →"
-                          : "Următoarea întrebare →"}
-                      </button>
-                    )}
+                    <div className="mt-8 grid gap-4 sm:grid-cols-3">
+                      <ResultStat
+                        label="Scor"
+                        value={`${result.score}%`}
+                        tone="emerald"
+                      />
+
+                      <ResultStat
+                        label="Corecte"
+                        value={`${result.correctAnswers}/${result.totalQuestions}`}
+                        tone="lime"
+                      />
+
+                      <ResultStat
+                        label="Lecții verificate"
+                        value={String(
+                          result.lessons.length
+                        )}
+                        tone="orange"
+                      />
+                    </div>
                   </div>
+                </div>
+
+                {weakLessons.length >
+                  0 && (
+                  <section className="relative overflow-hidden rounded-[30px] border border-orange-300/18 bg-[#0c1c14] p-6 sm:p-7">
+                    <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-orange-400/[0.08] blur-[80px]" />
+
+                    <div className="relative">
+                      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-orange-300">
+                        De consolidat
+                      </p>
+
+                      <h2 className="mt-2 text-2xl font-black sm:text-3xl">
+                        Revino exact unde ai nevoie.
+                      </h2>
+
+                      <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500">
+                        Nu trebuie să reiei toată materia. Deschide direct lecțiile unde au apărut dificultăți.
+                      </p>
+
+                      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+                        {weakLessons.map(
+                          (lesson) => (
+                            <LessonResultCard
+                              key={
+                                lesson.lessonId
+                              }
+                              lesson={
+                                lesson
+                              }
+                              weak
+                            />
+                          )
+                        )}
+                      </div>
+                    </div>
+                  </section>
+                )}
+
+                {strongLessons.length >
+                  0 && (
+                  <section className="relative overflow-hidden rounded-[30px] border border-emerald-300/15 bg-[#0c1c14] p-6 sm:p-7">
+                    <div className="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-emerald-400/[0.07] blur-[80px]" />
+
+                    <div className="relative">
+                      <p className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-300">
+                        Consolidat
+                      </p>
+
+                      <h2 className="mt-2 text-2xl font-black sm:text-3xl">
+                        Zone care au mers bine.
+                      </h2>
+
+                      <p className="mt-3 text-sm leading-6 text-slate-500">
+                        Aceste lecții au avut rezultate bune în sesiunea curentă.
+                      </p>
+
+                      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+                        {strongLessons.map(
+                          (lesson) => (
+                            <LessonResultCard
+                              key={
+                                lesson.lessonId
+                              }
+                              lesson={
+                                lesson
+                              }
+                              weak={
+                                false
+                              }
+                            />
+                          )
+                        )}
+                      </div>
+                    </div>
+                  </section>
+                )}
+
+                <div className="flex flex-wrap gap-3 pb-8">
+                  <a
+                    href="/evaluari"
+                    className="rounded-2xl bg-gradient-to-r from-emerald-300 to-lime-300 px-6 py-3 text-sm font-black text-[#06150d] shadow-[0_12px_30px_rgba(52,211,153,0.13)] transition hover:-translate-y-0.5"
+                  >
+                    Înapoi la Evaluări
+                  </a>
+
+                  <a
+                    href="/progres"
+                    className="rounded-2xl border border-orange-300/15 bg-orange-400/[0.07] px-6 py-3 text-sm font-black text-orange-200 transition hover:bg-orange-400/[0.11]"
+                  >
+                    Vezi Progres
+                  </a>
+
+                  <a
+                    href="/mate"
+                    className="rounded-2xl border border-emerald-300/15 bg-emerald-400/[0.07] px-6 py-3 text-sm font-black text-emerald-200 transition hover:bg-emerald-400/[0.11]"
+                  >
+                    Discută cu MATE
+                  </a>
+
+                  <button
+                    type="button"
+                    onClick={
+                      resetAssessment
+                    }
+                    className="rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-3 text-sm font-black text-slate-400 transition hover:bg-white/[0.06] hover:text-white"
+                  >
+                    Evaluare nouă
+                  </button>
                 </div>
               </section>
-
-              <aside className="space-y-5">
-                <section className="rounded-[26px] border border-blue-500/20 bg-gradient-to-br from-blue-500/[0.08] to-violet-500/[0.04] p-6">
-                  <div className="flex justify-center">
-                    <MateAssessmentAvatar
-                      gender={gender}
-                    />
-                  </div>
-
-                  <p className="mt-5 text-center text-xs font-black uppercase tracking-[0.16em] text-blue-400">
-                    MATE
-                  </p>
-
-                  <h3 className="mt-2 text-center text-lg font-black">
-                    Lucrăm pas cu pas.
-                  </h3>
-
-                  <p className="mt-3 text-center text-sm leading-6 text-slate-400">
-                    Nu contează să nimerești tot. Răspunsurile îmi arată ce trebuie verificat mai târziu.
-                  </p>
-                </section>
-
-                <section className="rounded-[26px] border border-slate-800 bg-[#07101f] p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Focus verificat
-                  </p>
-
-                  <p className="mt-3 font-black text-white">
-                    {formatSkill(
-                      currentQuestion.requestedSkillId
-                    )}
-                  </p>
-
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
-                    Selectat din planul săptămânal pe baza datelor disponibile.
-                  </p>
-                </section>
-              </aside>
-            </div>
-          )}
-
-        {result && (
-          <section className="relative mt-7 overflow-hidden rounded-[30px] border border-emerald-500/20 bg-gradient-to-br from-[#071b25] via-[#071225] to-[#080d1b]">
-            <div className="pointer-events-none absolute left-0 top-0 h-80 w-80 rounded-full bg-emerald-500/10 blur-[100px]" />
-
-            <div className="pointer-events-none absolute right-0 top-0 h-80 w-80 rounded-full bg-blue-500/[0.08] blur-[100px]" />
-
-            <div className="relative p-6 sm:p-8 lg:p-10">
-              <div className="flex flex-col gap-6 md:flex-row md:items-center">
-                <MateAssessmentAvatar
-                  gender={gender}
-                />
-
-                <div>
-                  <span className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-emerald-300">
-                    Evaluare finalizată
-                  </span>
-
-                  <h2 className="mt-4 text-3xl font-black">
-                    Sesiunea este gata, {studentName}.
-                  </h2>
-
-                  <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-                    Rezultatul a fost calculat din răspunsurile acestei sesiuni și salvat în istoricul evaluărilor săptămânale.
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-8 grid gap-4 sm:grid-cols-3">
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/50 p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Scor
-                  </p>
-
-                  <p className="mt-3 text-4xl font-black text-emerald-400">
-                    {result.score}%
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/50 p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    Răspunsuri corecte
-                  </p>
-
-                  <p className="mt-3 text-4xl font-black text-blue-400">
-                    {result.correctAnswers}/
-                    {result.totalQuestions}
-                  </p>
-                </div>
-
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/50 p-5">
-                  <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-                    De revăzut
-                  </p>
-
-                  <p className="mt-3 text-lg font-black text-amber-300">
-                    {formatSkill(
-                      result.weakestSkillId
-                    )}
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-5 grid gap-5 lg:grid-cols-2">
-                <div className="rounded-[24px] border border-emerald-500/20 bg-emerald-500/[0.05] p-6">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-emerald-400">
-                    Punct forte în această sesiune
-                  </p>
-
-                  <h3 className="mt-3 text-xl font-black">
-                    {formatSkill(
-                      result.strongestSkillId
-                    )}
-                  </h3>
-
-                  <p className="mt-3 text-sm leading-6 text-slate-400">
-                    Este zona cu rezultatul cel mai bun dintre competențele verificate în această evaluare.
-                  </p>
-                </div>
-
-                <div className="rounded-[24px] border border-amber-500/20 bg-amber-500/[0.05] p-6">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-amber-400">
-                    Prioritate pentru recapitulare
-                  </p>
-
-                  <h3 className="mt-3 text-xl font-black">
-                    {formatSkill(
-                      result.weakestSkillId
-                    )}
-                  </h3>
-
-                  <p className="mt-3 text-sm leading-6 text-slate-400">
-                    MATE poate folosi această informație împreună cu Mastery Engine pentru următorul plan de recapitulare.
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-7 flex flex-wrap gap-3">
-                <button
-                  type="button"
-                  onClick={() =>
-                    router.push(
-                      "/mate"
-                    )
-                  }
-                  className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-black transition hover:bg-blue-500"
-                >
-                  Continuă cu MATE →
-                </button>
-
-                <button
-                  type="button"
-                  onClick={
-                    restartLocalView
-                  }
-                  className="rounded-xl border border-slate-700 bg-slate-950/50 px-6 py-3 text-sm font-black text-slate-300 transition hover:bg-slate-900"
-                >
-                  Înapoi la pagina evaluării
-                </button>
-              </div>
-            </div>
-          </section>
-        )}
-
-        <section className="mt-5 rounded-2xl border border-slate-800/70 bg-slate-950/40 px-5 py-4">
-          <p className="text-xs leading-5 text-slate-600">
-            Evaluarea săptămânală este separată de evaluarea inițială și de simulările BAC. MATE folosește aici Mastery Engine pentru prioritizare; verificarea răspunsurilor matematice nu este delegată conversației AI.
-          </p>
-        </section>
+            )}
+          </div>
+        </div>
       </div>
-    </BacMateShell>
+    </main>
+  );
+}
+
+function NavItem({
+  href,
+  icon,
+  text,
+  active = false,
+  badge,
+}: {
+  href: string;
+  icon: string;
+  text: string;
+  active?: boolean;
+  badge?: string;
+}) {
+  return (
+    <a
+      href={href}
+      className={`relative flex shrink-0 items-center gap-3 rounded-xl px-4 py-3 text-sm font-bold transition ${
+        active
+          ? "border border-emerald-300/15 bg-gradient-to-r from-emerald-400/10 via-teal-400/[0.07] to-orange-400/[0.05] text-white"
+          : "text-slate-400 hover:bg-white/[0.04] hover:text-white"
+      }`}
+    >
+      {active && (
+        <span className="absolute -left-4 h-7 w-1 rounded-r-full bg-gradient-to-b from-emerald-300 via-teal-300 to-orange-300 shadow-[0_0_12px_rgba(52,211,153,0.45)]" />
+      )}
+
+      <span
+        className={`flex w-5 justify-center text-base ${
+          active
+            ? "text-emerald-300"
+            : "text-slate-500"
+        }`}
+      >
+        {icon}
+      </span>
+
+      <span>{text}</span>
+
+      {badge && (
+        <span className="ml-auto rounded-full border border-orange-300/15 bg-orange-400/10 px-2 py-0.5 text-[8px] font-black uppercase tracking-wider text-orange-300">
+          {badge}
+        </span>
+      )}
+    </a>
+  );
+}
+
+function InfoCard({
+  icon,
+  label,
+  value,
+  helper,
+  tone,
+}: {
+  icon: string;
+  label: string;
+  value: string;
+  helper: string;
+  tone:
+    | "emerald"
+    | "lime"
+    | "orange";
+}) {
+  const styles = {
+    emerald: {
+      text: "text-emerald-300",
+      border: "border-emerald-300/15",
+      bg: "bg-emerald-400/10",
+    },
+
+    lime: {
+      text: "text-lime-300",
+      border: "border-lime-300/15",
+      bg: "bg-lime-400/10",
+    },
+
+    orange: {
+      text: "text-orange-300",
+      border: "border-orange-300/15",
+      bg: "bg-orange-400/10",
+    },
+  };
+
+  const style = styles[tone];
+
+  return (
+    <div className="group rounded-[24px] border border-white/[0.07] bg-[#0c1c14] p-5 transition hover:-translate-y-1 hover:border-white/[0.12] hover:bg-[#102219]">
+      <div
+        className={`flex h-10 w-10 items-center justify-center rounded-xl border ${style.border} ${style.bg} text-sm font-black ${style.text}`}
+      >
+        {icon}
+      </div>
+
+      <p className="mt-4 text-[9px] font-black uppercase tracking-[0.17em] text-slate-600">
+        {label}
+      </p>
+
+      <p
+        className={`mt-2 text-3xl font-black ${style.text}`}
+      >
+        {value}
+      </p>
+
+      <p className="mt-2 text-xs leading-5 text-slate-600">
+        {helper}
+      </p>
+    </div>
+  );
+}
+
+function HowCard({
+  number,
+  title,
+  text,
+}: {
+  number: string;
+  title: string;
+  text: string;
+}) {
+  return (
+    <div className="group rounded-[22px] border border-white/[0.06] bg-[#08150f] p-5 transition hover:-translate-y-1 hover:border-emerald-300/15 hover:bg-[#0b1a12]">
+      <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-300/15 bg-emerald-400/10 text-[10px] font-black text-emerald-300 transition group-hover:border-orange-300/20 group-hover:bg-orange-400/10 group-hover:text-orange-300">
+        {number}
+      </div>
+
+      <h3 className="mt-4 font-black">
+        {title}
+      </h3>
+
+      <p className="mt-2 text-sm leading-6 text-slate-500">
+        {text}
+      </p>
+    </div>
+  );
+}
+
+function ResultStat({
+  label,
+  value,
+  tone,
+}: {
+  label: string;
+  value: string;
+  tone:
+    | "emerald"
+    | "lime"
+    | "orange";
+}) {
+  const styles = {
+    emerald: "text-emerald-200",
+    lime: "text-lime-200",
+    orange: "text-orange-200",
+  };
+
+  return (
+    <div className="rounded-[22px] border border-white/10 bg-black/15 p-5 backdrop-blur-xl">
+      <p className="text-[9px] font-black uppercase tracking-[0.17em] text-slate-400">
+        {label}
+      </p>
+
+      <p
+        className={`mt-3 text-3xl font-black ${styles[tone]}`}
+      >
+        {value}
+      </p>
+    </div>
+  );
+}
+
+function LessonResultCard({
+  lesson,
+  weak,
+}: {
+  lesson: LessonResult;
+  weak: boolean;
+}) {
+  return (
+    <div
+      className={`group rounded-[22px] border p-5 transition hover:-translate-y-0.5 ${
+        weak
+          ? "border-orange-300/15 bg-orange-400/[0.05] hover:border-orange-300/25"
+          : "border-emerald-300/15 bg-emerald-400/[0.05] hover:border-emerald-300/25"
+      }`}
+    >
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <p
+            className={`text-[9px] font-black uppercase tracking-[0.16em] ${
+              weak
+                ? "text-orange-300"
+                : "text-emerald-300"
+            }`}
+          >
+            {weak
+              ? "Necesită consolidare"
+              : "Bine consolidat"}
+          </p>
+
+          <h3 className="mt-2 text-lg font-black leading-6">
+            {lesson.lessonTitle}
+          </h3>
+        </div>
+
+        <div
+          className={`shrink-0 rounded-xl border px-3 py-2 text-sm font-black ${
+            weak
+              ? "border-orange-300/15 bg-orange-400/10 text-orange-300"
+              : "border-emerald-300/15 bg-emerald-400/10 text-emerald-300"
+          }`}
+        >
+          {lesson.percentage}%
+        </div>
+      </div>
+
+      <p className="mt-3 text-sm text-slate-500">
+        {lesson.correct} din{" "}
+        {lesson.total} răspunsuri corecte
+      </p>
+
+      <div className="mt-4 h-1.5 overflow-hidden rounded-full bg-black/25">
+        <div
+          className={`h-full rounded-full ${
+            weak
+              ? "bg-gradient-to-r from-orange-400 to-amber-300"
+              : "bg-gradient-to-r from-emerald-400 to-lime-300"
+          }`}
+          style={{
+            width: `${lesson.percentage}%`,
+          }}
+        />
+      </div>
+
+      {weak && (
+        <a
+          href={`/lectii/${lesson.lessonSlug}`}
+          className="mt-5 inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-orange-300 to-amber-300 px-4 py-2.5 text-xs font-black text-[#251406] transition hover:-translate-y-0.5"
+        >
+          Revizuiește lecția
+          <span>→</span>
+        </a>
+      )}
+    </div>
   );
 }

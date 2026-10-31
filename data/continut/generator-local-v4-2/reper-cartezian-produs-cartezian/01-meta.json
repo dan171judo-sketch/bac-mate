@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definiție și utilizări",
+  "descriere": "Lectia introduce conceptul de reper cartezian si produs cartezian, elemente esentiale in studiul coordonatelor si al relatiilor intre puncte.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre mulțimi și elemente de logică"
+  ],
+  "obiective": [
+    "Definirea reperului cartezian si a produsului cartezian",
+    "Identificarea componentelor unui reper cartezian",
+    "Înțelegerea relației dintre puncte și coordonate într-un reper",
+    "Aplicarea conceptelor în contexte simple"
+  ],
+  "termeniCheie": [
+    "reper cartezian",
+    "produs cartezian",
+    "coordonate",
+    "punct"
+  ]
+}

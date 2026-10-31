@@ -1,0 +1,94 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Determinarea domeniului unei funcții raționale",
+      "nivel": "fundament",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = (x + 2)/(x - 3). Determinați domeniul funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea expresiei analitice",
+          "continut": "Funcția este o fracție rațională, având numitorul x - 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea condițiilor de existență",
+          "continut": "Numitorul trebuie să fie diferit de zero: x - 3 ≠ 0 ⇒ x ≠ 3."
+        }
+      ],
+      "raspunsFinal": "Domeniul funcției este Df = R − {3}.",
+      "verificare": "Numitorul nu poate fi zero, deci x = 3 este exclus din domeniu."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Determinarea codomeniului unei funcții liniare",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = 2x + 1. Determinați codomeniul funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea tipului de funcție",
+          "continut": "Funcția este o funcție liniară, care are grafic o dreaptă."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea codomeniului",
+          "continut": "O funcție liniară cu coeficientul de gradul întâi diferit de zero are ca codomeniu mulțimea numerelor reale."
+        }
+      ],
+      "raspunsFinal": "Codomeniul funcției este C = R.",
+      "verificare": "Funcția liniară f(x) = 2x + 1 este surjectivă pe R, deci codomeniul este R."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Determinarea imaginii unei funcții patratice",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = x² - 4x + 5. Determinați imaginea funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea tipului de funcție",
+          "continut": "Funcția este o funcție patratică, având forma generală f(x) = ax² + bx + c."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea vârfului parabolei",
+          "continut": "Vârful parabolei este în punctul x = -b/(2a). În cazul nostru, a = 1 și b = -4 ⇒ x = -(-4)/(2*1) = 2."
+        },
+        {
+          "numar": 3,
+          "titlu": "Calcularea valorii funcției în vârf",
+          "continut": "f(2) = (2)² - 4*(2) + 5 = 4 - 8 + 5 = 1."
+        }
+      ],
+      "raspunsFinal": "Imaginea funcției este Im(f) = [1, ∞).",
+      "verificare": "Funcția patratică are vârf în punctul (2, 1), iar parabola deschide în sus, deci imaginea este intervalul [1, ∞)."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Determinarea domeniului și a imaginii unei funcții iraționale",
+      "nivel": "avansat",
+      "enunt": "Fie funcția f: R → R, definită prin f(x) = √(x² - 4). Determinați domeniul și imaginea funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea expresiei analitice",
+          "continut": "Funcția este o funcție irațională, având radicalul x² - 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea condițiilor de existență",
+          "continut": "Radicalul trebuie să fie ≥ 0 ⇒ x² - 4 ≥ 0 ⇒ x² ≥ 4 ⇒ x ≤ -2 sau x ≥ 2."
+        },
+        {
+          "numar": 3,
+          "titlu": "Calcularea imaginii funcției",
+          "continut": "Pentru x ∈ (-∞, -2] ∪ [2, ∞), valoarea radicalului este ≥ 0. Deci imaginea funcției este Im(f) = [0, ∞)."
+        }
+      ],
+      "raspunsFinal": "Domeniul funcției este Df = (-∞, -2] ∪ [2, ∞), iar imaginea este Im(f) = [0, ∞).",
+      "verificare": "Condițiile de existență sunt x² ≥ 4 ⇒ x ≤ -2 sau x ≥ 2. Valoarea radicalului este întotdeauna ≥ 0, deci imaginea este [0, ∞)."
+    }
+  ]
+}

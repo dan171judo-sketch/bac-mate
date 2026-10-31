@@ -1,0 +1,41 @@
+{
+  "video3": {
+    "id": "video3",
+    "titlu": "Regula de calcul cu paranteze: cum se rezolva o expresie matematica",
+    "descriere": "În acest videoclip, vom învăța cum să rezolvăm o expresie matematică care conține paranteze. Vom explica pașii necesari pentru a calcula corect și vom analiza greșelile frecvente pe care le putem face.",
+    "scenariu": [
+      "În această lecție, vom învăța cum să rezolvăm o expresie matematică care conține paranteze. Parantezele sunt folosite pentru a schimba ordinea efectuării operațiilor și sunt esențiale pentru a obține un rezultat corect.",
+      "Când avem de rezolvat o expresie cu paranteze, trebuie să începem întotdeauna prin a calcula ce este în interiorul parantezelor. Acest lucru se face înainte de a efectua alte operații ca adunarea sau scăderea.",
+      "De exemplu, dacă avem expresia 3 + (4 × 2), trebuie să calculăm întâi produsul din paranteză: 4 × 2 = 8. Apoi, adunăm rezultatul cu 3 și obținem 11.",
+      "Regula de bază este că parantezele sunt prioritare. Înainte de a face adunări sau scăderi, trebuie să calculăm ce este în paranteză. Acest lucru se aplică chiar și atunci când parantezele sunt împreunate cu alte simboluri matematice.",
+      "Pentru a evita greșelile, este important să scriem fiecare pas al calculelor pe rând. Astfel, putem verifica dacă am respectat ordinea corectă și dacă toate operațiile sunt efectuate în mod corespunzător.",
+      "Să luăm un exemplu mai complex: (6 + 2) × (3 - 1). În primul pas, calculăm ce este în prima paranteză: 6 + 2 = 8. Apoi, calculăm ce este în a doua paranteză: 3 - 1 = 2. În final, înmulțim cele două rezultate: 8 × 2 = 16.",
+      "Este important să verificăm întotdeauna rezultatul obținut. O metodă eficientă este să recalculăm expresia pas cu pas și să comparăm rezultatul cu cel inițial. Dacă sunt diferite, trebuie să identificăm unde s-a făcut o greșeală.",
+      "O greșeală frecventă este să neglijăm parantezele sau să le ignorăm înainte de a efectua alte operații. De exemplu, dacă cineva calculează 3 + 4 × 2 fără a respecta parantezele, va obține un rezultat greșit.",
+      "O altă greșeală este să se confunde semnul din fața parantezei. Dacă avem o expresie ca - (5 + 2), trebuie să calculăm ce este în paranteză și apoi să aplicăm semnul negativ, obținând -7.",
+      "Pentru a evita aceste greșeli, este recomandat să folosim un proces pas cu pas. Începem cu parantezele, apoi ridicările la putere, înmulțirile și împărțirile, iar la final adunările și scăderile.",
+      "În concluzie, parantezele sunt esențiale pentru a modifica ordinea efectuării operațiilor. Trebuie să le calculăm întotdeauna înainte de alte operații și să verificăm rezultatul final pentru a evita greșelile comune."
+    ],
+    "ideiDeRetinut": [
+      "Parantezele sunt prioritare în calculele matematice.",
+      "Calculăm întotdeauna ce este în paranteză înainte de alte operații.",
+      "Verificarea rezultatului este esențială pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "expresie": "(6 + 2) × (3 - 1)",
+      "pas1": "Calculăm prima paranteză: 6 + 2 = 8",
+      "pas2": "Calculăm a doua paranteză: 3 - 1 = 2",
+      "pas3": "Înmulțim rezultatele: 8 × 2 = 16"
+    },
+    "verificareRapida": {
+      "intrebare": "Ce este rezultatul expresiei (6 + 2) × (3 - 1)?",
+      "variante": [
+        "10",
+        "14",
+        "16",
+        "18"
+      ],
+      "raspunsCorect": 2
+    }
+  }
+}

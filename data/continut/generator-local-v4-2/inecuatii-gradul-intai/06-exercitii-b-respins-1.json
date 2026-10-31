@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva ecuatia: 2x + 3 = 7.",
+      "variante": [],
+      "raspunsCorect": "x = 2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Trecerea termenului liber in dreapta",
+          "continut": "2x = 7 - 3 => 2x = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartirea ambilor membri la 2",
+          "continut": "x = 4 / 2 => x = 2."
+        }
+      ],
+      "explicatieFinala": "Solutia ecuatiei este x = 2.",
+      "competenta": "Rezolvarea ecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolva inecuatia: 4x - 1 < 3x + 2.",
+      "variante": [
+        "x < 3",
+        "x > 3",
+        "x ≤ 3",
+        "x ≥ 3"
+      ],
+      "raspunsCorect": "x < 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Trecerea termenilor in stanga",
+          "continut": "4x - 3x < 2 + 1 => x < 3."
+        }
+      ],
+      "explicatieFinala": "Solutia inecuatiei este intervalul deschis (-∞, 3).",
+      "competenta": "Rezolvarea inecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "avansat",
+      "tip": "rezolvare-completa",
+      "enunt": "Rezolva ecuatia: 3(x + 2) - 4 = 5x - 1.",
+      "variante": [],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezelor",
+          "continut": "3x + 6 - 4 = 5x - 1 => 3x + 2 = 5x - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Trecerea termenilor in stanga",
+          "continut": "3x - 5x + 2 = -1 => -2x + 2 = -1."
+        },
+        {
+          "numar": 3,
+          "titlu": "Trecerea termenului liber in dreapta",
+          "continut": "-2x = -1 - 2 => -2x = -3."
+        },
+        {
+          "numar": 4,
+          "titlu": "Impartirea ambilor membri la -2",
+          "continut": "x = (-3) / (-2) => x = 3."
+        }
+      ],
+      "explicatieFinala": "Solutia ecuatiei este x = 3.",
+      "competenta": "Rezolvarea ecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva ecuatia: 5x = 20.",
+      "variante": [],
+      "raspunsCorect": "x = 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Impartirea ambilor membri la 5",
+          "continut": "x = 20 / 5 => x = 4."
+        }
+      ],
+      "explicatieFinala": "Solutia ecuatiei este x = 4.",
+      "competenta": "Rezolvarea ecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    }
+  ]
+}

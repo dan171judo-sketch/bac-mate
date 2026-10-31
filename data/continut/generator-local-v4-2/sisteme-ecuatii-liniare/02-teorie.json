@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "sistem de ecuații liniare",
+      "definitie": "Un sistem de două ecuații liniare cu două necunoscute este o mulțime formată din două ecuații de forma ax + by = c și a'x + b'y = c', unde a, b, c, a', b', c' sunt numere reale, iar x și y sunt variabilele (necunoscute).",
+      "observatie": "Ecuațiile trebuie să fie liniare, adică nu pot conține termeni cu produse de variabile sau puteri mai mari decât prima."
+    },
+    {
+      "termen": "soluție a sistemului",
+      "definitie": "O pereche de numere (x, y) care verifică ambele ecuații ale sistemului se numește soluție a sistemului.",
+      "observatie": "Soluția trebuie să fie comună pentru toate ecuațiile din sistem."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Tipuri de sisteme de ecuații liniare",
+      "explicatie": "Sistemele de ecuații liniare pot fi clasificate în funcție de numărul de soluții: compatibil determinat (o singură soluție), compatibil nedeterminat (infinit de soluții) sau incompatibil (nu are soluție).",
+      "ideiCheie": [
+        "Compatibil determinat: soluție unică.",
+        "Compatibil nedeterminat: infinit de soluții."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Metoda substituției",
+      "explicatie": "Această metodă presupune rezolvarea unei ecuații pentru o necunoscută și înlocuirea acesteia în cealaltă ecuație, obținând astfel o ecuație cu o singură necunoscută.",
+      "ideiCheie": [
+        "Se rezolvă una dintre ecuații pentru o variabilă.",
+        "Se înlocuiește expresia în cealaltă ecuație."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Interpretarea soluției",
+      "explicatie": "Soluția unui sistem de ecuații liniare trebuie să fie interpretată în contextul problemei, adică să răspundă la întrebarea formulată în enunț.",
+      "ideiCheie": [
+        "Soluția trebuie să aibă sens practic.",
+        "Se verifică dacă valorile obținute sunt acceptabile în context."
+      ]
+    }
+  ],
+  "formule": []
+}

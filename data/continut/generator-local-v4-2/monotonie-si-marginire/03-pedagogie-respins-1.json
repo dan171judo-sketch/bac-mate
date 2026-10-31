@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea termenului de 'monotonie' cu 'strict monotonie'.",
+      "deCeEsteGresit": "Monotonia include atât funcțiile crescătoare, cât și cele descrescătoare, inclusiv cele constante. Funcția constantă este considerată monotonă, dar nu strict monotonă.",
+      "cumOEviti": "Rezolvați exerciții care includ funcții constante și analizați-le în contextul definiției generale."
+    },
+    {
+      "greseala": "Neglijarea intervalelor de monotonie în cazul funcțiilor cu valori absolute.",
+      "deCeEsteGresit": "Valoarea absolută schimbă comportamentul funcției în funcție de semnul argumentului, ceea ce poate duce la mai multe intervale de monotonie.",
+      "cumOEviti": "Desenați graficul funcției și analizați fiecare interval separat."
+    },
+    {
+      "greseala": "Crede că o funcție care este marginită pe un interval este automat marginită pe tot domeniul de definiție.",
+      "de, CeEsteGresit": "Marginița se referă la comportamentul funcției într-un anumit interval. Nu toate funcțiile marginite pe un interval sunt marginite pe întreg domeniul lor.",
+      "cumOEviti": "Analizați fiecare interval separat și nu generalizați concluziile."
+    },
+    {
+      "greseala": "Neglijarea comportamentului la infinit în cazul funcțiilor marginite.",
+      "deCeEsteGresit": "O funcție care este marginită pe tot domeniul său are automat limita finită la infinit, ceea ce este o consecință a definiției de mărginire.",
+      "cumOEviti": "Verificați dacă funcția are limite finite la infinit înainte de a concluziona că este marginită."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Monotonia unei funcții se referă la comportamentul ei în ceea ce privește creșterea sau scăderea valorilor.",
+      "O funcție este marginită dacă există o constantă reală M astfel încât |f(x)| ≤ M pentru orice x din intervalul considerat.",
+      "Funcțiile marginite pe tot domeniul de definiție au limite finite la infinit.",
+      "Monotonia și mărginirea sunt concepte distincte, dar pot fi legate în anumite contexte."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificați dacă funcția este crescătoare sau descrescătoare pe fiecare interval.",
+      "Determinați intervalele de monotonie prin analiza semnului derivatei.",
+      "Analizați dacă există o constantă M astfel încât |f(x)| ≤ M pentru orice x din intervalul dat.",
+      "Verificați dacă funcția are limite finite la infinit în cazul mărginirii."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptele de monotonie și mărginire sunt esențiale pentru analiza funcțiilor, fiind cerute frecvent în subiectele de Bac MATE. Ele permit interpretarea corectă a comportamentului funcțiilor în diverse contexte.",
+    "tipuriCerinte": [
+      "Determinarea intervalelor de monotonie ale unei funcții",
+      "Stabilirea dacă o funcție este marginită pe un interval dat",
+      "Analiza legăturii dintre mărginire și comportamentul la infinit",
+      "Interpretarea graficului unei funcții în contextul monotoniei"
+    ],
+    "strategie": [
+      "Rezolvați exerciții care implică analiza derivatei pentru determinarea intervalelor de monotonie.",
+      "Exercitați identificarea funcțiilor marginite prin verificarea condiției |f(x)| ≤ M.",
+      "Asociați mărginirea cu comportamentul la infinit în exerciții de tip Bac.",
+      "Desenați graficele funcțiilor pentru a vizualiza mai bine comportamentul lor."
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care este folosită în multe contexte. Regula se referă la modul în care putem compara și ordona numerele, mai ales când avem de-a face cu fracții sau numere zecimale. Este important să înțelegem această regulă pentru a evita greșelile comune și pentru a rezolva exerciții corect.",
+    "Elevul trebuie să înțeleagă că comparația numerelor nu este întotdeauna simplă, mai ales când se folosesc fracții sau numere cu zecimale. De exemplu, dacă avem două fracții cu numitori diferiți, nu putem compara direct valorile lor fără a le aduce la același numitor sau transforma-le în numere zecimale.",
+    "Regula care ne ajută în această situație este următoarea: pentru a compara două fracții, putem transforma fiecare fracție într-un număr zecimal și apoi compara valorile. Acest lucru este posibil deoarece orice fracție poate fi scrisă sub forma unei fracții zecimale, chiar dacă aceasta are o parte zecimală infinită.",
+    "De exemplu, dacă avem fracțiile 3/4 și 5/7, putem transforma fiecare într-un număr zecimal. 3 împărțit la 4 este egal cu 0,75, iar 5 împărțit la 7 este aproximativ 0,714285... Așadar, 0,75 este mai mare decât 0,714285..., ceea ce înseamnă că 3/4 > 5/7.",
+    "Este important să reținem că transformarea fracțiilor în numere zecimale nu trebuie făcută cu exactitate, ci doar cu o precizie suficientă pentru a compara corect valorile. De exemplu, dacă avem două fracții care se potrivesc la același număr zecimal până la al treilea zecimal, putem compara mai departe folosind metoda de aducere la același numitor.",
+    "Metoda de lucru este următoarea: transformăm fiecare fracție într-un număr zecimal, comparăm valorile și apoi stabilim care dintre ele este mai mare. Dacă nu putem face transformarea exactă, folosim o aproximare suficient de precisă pentru a evita greșelile.",
+    "Vom exemplifica această metodă cu fracțiile 2/3 și 4/5. Transformăm fiecare într-un număr zecimal: 2 împărțit la 3 este aproximativ 0,666..., iar 4 împărțit la 5 este 0,8. Așadar, 0,8 > 0,666..., ceea ce înseamnă că 4/5 > 2/3.",
+    "După ce am comparat valorile numerelor zecimale, trebuie să verificăm dacă rezultatul este corect. Putem face acest lucru prin transformarea fracțiilor într-o formă comună sau prin aducerea la același numitor pentru a compara direct valorile.",
+    "O greșeală frecventă este de a compara doar numărătorii sau doar numitorii, fără a transforma fracțiile într-o formă comună. De exemplu, dacă avem 3/4 și 5/7, un elev poate crede că 3 < 5 deci 3/4 < 5/7, ceea ce este incorect.",
+    "Pentru a evita această greșeală, trebuie să reținem că comparația fracțiilor nu se face doar prin numărători sau numitori, ci prin valorile lor globale. Transformarea în numere zecimale este o metodă eficientă și precisă pentru a evita astfel de confuzii.",
+    "În concluzie, regula de comparare a fracțiilor prin transformarea lor în numere zecimale este esențială. Este important să înțelegem această metodă pentru a rezolva exerciții corect și pentru a evita greșelile comune.",
+    "Pentru a verifica dacă ai înțeles bine, răspunde la următoarea întrebare: care dintre fracțiile 2/3 și 4/5 este mai mare? Alege varianta corectă."
+  ],
+  "ideiDeRetinut": [
+    "Transformarea fracțiilor în numere zecimale este o metodă eficientă de comparare.",
+    "Nu compara doar numărătorii sau numitorii, ci valorile globale ale fracțiilor.",
+    "Aproximația numerelor zecimale trebuie să fie suficient de precisă pentru a evita greșelile.",
+    "Verificarea rezultatului este esențială pentru a asigura corectitudinea comparației."
+  ],
+  "exemplu": {
+    "titlu": "Compararea fracțiilor 2/3 și 4/5",
+    "enunt": "Care dintre fracțiile 2/3 și 4/5 este mai mare?",
+    "rezolvareScurta": [
+      "Transformăm fiecare fracție într-un număr zecimal: 2/3 ≈ 0,666..., 4/5 = 0,8.",
+      "Comparam valorile numerelor zecimale: 0,8 > 0,666...",
+      "Deci, 4/5 este mai mare decât 2/3."
+    ],
+    "raspuns": "4/5"
+  },
+  "verificareRapida": {
+    "intrebare": "Care dintre fracțiile 2/3 și 4/5 este mai mare?",
+    "variante": [
+      "2/3",
+      "4/5",
+      "sunt egale",
+      "nu se pot compara"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Transformând fracțiile în numere zecimale, obținem 0,666... și 0,8. Așadar, 4/5 este mai mare decât 2/3."
+  }
+}

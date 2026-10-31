@@ -1,0 +1,56 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea progresiei geometrice cu cea aritmetică",
+      "deCeEsteGresit": "Progresia geometrică se bazează pe înmulțirea cu rația, în timp ce progresia aritmetică folosește adunarea unei diferențe comune.",
+      "cumOEviti": "Rezolvați probleme distincte pentru fiecare tip de progresie și comparați regulile lor."
+    },
+    {
+      "greseala": "Calcularea rației fără a respecta ordinea termenilor",
+      "deCeEsteGresit": "Rația se calculează prin împărțirea unui termen la cel precedent, nu prin adunare sau scădere.",
+      "cumOEviti": "Folosiți formula r = a₂ / a₁ și verificați dacă aceasta este constantă între toți termenii progresiei."
+    },
+    {
+      "greseala": "Neglijarea condiției r ≠ 0",
+      "deCeEsteGresit": "Dacă rația este zero, toți termenii din progresie devin zero începând cu al doilea, ceea ce nu reprezintă o progresie geometrică.",
+      "cumOEviti": "Verificați întotdeauna dacă rația este diferită de zero înainte de a aplica formulele."
+    },
+    {
+      "greseala": "Aplicarea greșită a formulei termenului general",
+      "deCeEsteGresit": "Formula aₙ = a₁ × r^{n-1} se aplică doar pentru termeni pozitivi, iar exponenții trebuie calculați corect.",
+      "cumOEviti": "Repetați formula și verificați exponenții înainte de a face calcule."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Progresia geometrică este o succesiune în care fiecare termen se obține prin înmulțirea cu rația.",
+      "Rația trebuie să fie diferită de zero pentru ca progresia să fie corect definită.",
+      "Termenul general al progresiei geometrice este aₙ = a₁ × r^{n-1}.",
+      "Progresia geometrică poate avea termeni pozitivi, negativi sau zero (doar primul termen)."
+    ],
+    "formuleDeRetinut": [
+      "aₙ = a₁ × r^{n-1}"
+    ],
+    "checklistElev": [
+      "Verifică dacă rația este diferită de zero.",
+      "Calculează rația folosind formula r = a₂ / a₁.",
+      "Aplică corect formula termenului general pentru fiecare termen cerut.",
+      "Rezolvați probleme cu progresii geometrice în mod sistematic."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Progresiile geometrice sunt un subiect frecvent întâlnit la Bacalaureat, fiind cerută în diverse tipuri de probleme, inclusiv aplicative.",
+    "tipuriCerinte": [
+      "Calcularea termenului general al unei progresii geometrice",
+      "Determinarea rației dintr-o progresie dată",
+      "Identificarea caracteristicilor unei progresii geometrice",
+      "Rezolvarea de probleme aplicative cu progresii geometrice"
+    ],
+    "strategie": [
+      "Învață formulele esențiale și verifică condițiile lor de aplicare.",
+      "Exersează rezolvarea problemelor pas cu pas, folosind pașii de bază ai progresiei geometrice.",
+      "Rezolvați probleme din diverse surse pentru a înțelege variabilitatea cerințelor.",
+      "Verificați întotdeauna dacă rația este diferită de zero și dacă formula termenului general este aplicată corect."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "monotonie",
+      "definitie": "Functia f este monotonă pe un interval dacă este crescătoare sau descrescătoare pe acel interval.",
+      "observatie": "Monotonia unei funcții se referă la comportamentul ei în ceea ce privește creșterea sau scăderea valorilor."
+    },
+    {
+      "termen": "marginire",
+      "definitie": "Functia f este marginită pe un interval dacă există o constantă reală M astfel încât |f(x)| ≤ M pentru orice x din acel interval.",
+      "observatie": "Marginița unei funcții se referă la limitarea valorilor sale într-un anumit domeniu."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Functii monotone",
+      "explicatie": "O funcție este crescătoare pe un interval dacă pentru orice două puncte x₁ < x₂ din acel interval, avem f(x₁) ≤ f(x₂). O funcție este descrescătoare dacă pentru orice x₁ < x⁡₂ din acel interval, avem f(x₁) ≥ f(x₂).",
+      "ideiCheie": [
+        "Functia crescatoare are grafic înclinat în sus.",
+        "Functia descrescatoare are grafic înclinat în jos."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Intervalul de monotonie",
+      "explicatie": "Intervalul de monotonie al unei funcții este intervalul pe care funcția este crescătoare sau descrescătoare. Acesta se determină prin analiza semnului derivatei funcției.",
+      "ideiCheie": [
+        "Derivata pozitivă indică creștere, derivata negativă indică scădere.",
+        "Intervalul de monotonie este separat în funcție de semnul derivatei."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Functii marginite si comportament la infinit",
+      "explicatie": "O funcție este marginită dacă valorile sale nu depășesc o anumită limită. Marginița unei funcții poate fi legată de comportamentul ei la infinit, adică cum se comportă funcția când x tinde spre +∞ sau -∞.",
+      "ideiCheie": [
+        "Functiile marginite au limite finite la infinit.",
+        "Nu toate funcțiile marginite sunt și mărginită pe tot domeniul de definiție."
+      ]
+    }
+  ],
+  "formule": []
+}

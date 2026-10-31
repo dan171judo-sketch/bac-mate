@@ -1,0 +1,73 @@
+{
+  "slug": "functia-gradul-intai",
+  "modul": 3,
+  "numarLectie": 1,
+  "titlu": "Funcția f(x) = ax + b",
+  "profil": "M_mate-info",
+  "clasa": null,
+  "numeModul": null,
+  "definitii": [
+    {
+      "termen": "funcție de gradul întâi",
+      "definitie": "O funcție f: R → R definită prin f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0.",
+      "observatie": "Parametrul a se numește panta dreptei, iar parametrul b este ordonata la origine."
+    },
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Mulțimea punctelor (x, f(x)) pentru toate valorile x din domeniul de definiție al funcției.",
+      "observatie": "Graficul unei funcții de gradul întâi este o dreaptă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Forma canonică a funcției de gradul întâi",
+      "explicatie": "Funcția de gradul întâi se scrie sub forma f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0. Această formă este cunoscută ca forma canonică.",
+      "ideiCheie": [
+        "Forma generală este f(x) = ax + b",
+        "Parametrul a nu poate fi zero"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a funcției de gradul întâi",
+      "explicatie": "Graficul funcției f(x) = ax + b este o dreaptă. Dreapta intersectează axa Oy în punctul (0, b), iar panta dreptei este dată de valoarea parametrului a.",
+      "ideiCheie": [
+        "Graficul este o dreaptă",
+        "Panta dreptei este egală cu coeficientul a"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Intersecția graficului cu axele de coordonate",
+      "explicatie": "Graficul funcției f(x) = ax + b intersectează axa Oy în punctul (0, b), iar intersecția cu axa Ox se obține rezolvând ecuația f(x) = 0.",
+      "ideiCheie": [
+        "Intersecția cu Oy este (0, b)",
+        "Intersecția cu Ox se găsește prin rezolvarea ecuației ax + b = 0"
+      ]
+    }
+  ],
+  "formule": [
+    {
+      "id": "1",
+      "nume": "Forma canonică a funcției de gradul întâi",
+      "formula": "f(x) = ax + b",
+      "explicatie": "Funcția este definită prin această formă, unde a și b sunt numere reale, iar a ≠ 0.",
+      "conditii": [
+        "a ∈ R, a ≠ 0",
+        "b ∈ R"
+      ],
+      "exempluScurt": "f(x) = 2x + 3"
+    },
+    {
+      "id": "2",
+      "nume": "Intersecția cu axa Ox",
+      "formula": "ax + b = 0",
+      "explicatie": "Pentru a găsi intersecția graficului cu axa Ox, se rezolvă această ecuație.",
+      "conditii": [
+        "a ≠ 0"
+      ],
+      "exempluScurt": "2x + 3 = 0"
+    }
+  ]
+}

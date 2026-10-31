@@ -1,0 +1,94 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Calcularea termenului general al unei progresii aritmetice",
+      "nivel": "fundament",
+      "enunt": "Se consideră progresia aritmetică (aₙ) cu a₁ = 3 și rația r = 2. Să se determine formula termenului general.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Se cunoaște primul termen a₁ = 3 și rația r = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general",
+          "continut": "Formula termenului general este $a_n = a_1 + (n-1)r$. Înlocuim valorile: $a_n = 3 + (n-1) \times 2$."
+        }
+      ],
+      "raspunsFinal": "$a_n = 3 + 2(n - 1)$",
+      "verificare": "Pentru n = 1, $a_1 = 3 + 2(0) = 3$, corect. Pentru n = 2, $a_2 = 3 + 2(1) = 5$, corect."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Determinarea termenului al treilea al unei progresii aritmetice",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră progresia aritmetică (aₙ) cu a₁ = -4 și rația r = 3. Să se determine termenul al treilea, a₃.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Se cunoaște primul termen a₁ = -4 și rația r = 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea termenului al treilea folosind formula generală",
+          "continut": "Formula termenului general este $a_n = a_1 + (n-1)r$. Înlocuim valorile: $a_3 = -4 + (3-1) \times 3 = -4 + 6 = 2$."
+        }
+      ],
+      "raspunsFinal": "a₃ = 2",
+      "verificare": "Pentru n = 3, $a_3 = -4 + 2 \times 3 = -4 + 6 = 2$, corect."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Calcularea rației unei progresii aritmetice",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră progresia aritmetică (aₙ) cu a₁ = 5 și a₄ = 14. Să se determine rația r.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Se cunoaște primul termen a₁ = 5 și al patrulea termen a₄ = 14."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general pentru a₄",
+          "continut": "Formula termenului general este $a_n = a_1 + (n-1)r$. Înlocuim valorile: $14 = 5 + (4 - 1) \times r$."
+        },
+        {
+          "numar": 3,
+          "titlu": "Rezolvarea ecuației pentru r",
+          "continut": "Rezolvăm ecuația: $14 = 5 + 3r$. Scădem 5 din ambele părți: $9 = 3r$. Împărțim la 3: $r = 3$."
+        }
+      ],
+      "raspunsFinal": "rația r = 3",
+      "verificare": "Pentru n = 4, $a_4 = 5 + (4 - 1) \times 3 = 5 + 9 = 14$, corect."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Determinarea termenului al cincilea al unei progresii aritmetice",
+      "nivel": "avansat",
+      "enunt": "Se consideră progresia aritmetică (aₙ) cu a₁ = -2 și rația r = -1. Să se determine termenul al cincilea, a₅.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Se cunoaște primul termen a₁ = -2 și rația r = -1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general pentru a₅",
+          "continut": "Formula termenului general este $a_n = a_1 + (n-1)r$. Înlocuim valorile: $a_5 = -2 + (5 - 1) \times (-1)$."
+        },
+        {
+          "numar": 3,
+          "titlu": "Calcularea expresiei",
+          "continut": "Rezolvăm pas cu pas: $a_5 = -2 + 4 \times (-1) = -2 - 4 = -6$."
+        }
+      ],
+      "raspunsFinal": "a₅ = -6",
+      "verificare": "Pentru n = 5, $a_5 = -2 + (5 - 1) \times (-1) = -2 - 4 = -6$, corect."
+    }
+  ]
+}

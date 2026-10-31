@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșelile comune și pentru a rezolva problemele corect.",
+    "Regula pe care o vom studia este legată de modul în care se adună sau se scade numerele. Este important să înțelegem exact cum funcționează această regulă, pentru ca apoi să putem folosi-o cu încredere.",
+    "Vom începe prin a defini clar ce este regula și de ce este importantă. De exemplu, când adunăm două numere, trebuie să știm exact cum se face adunarea corectă, pentru ca rezultatul să fie precis.",
+    "Regula funcționează pentru că adunarea este o operație fundamentală în matematică. Când adunăm două numere, le plasăm unul lângă altul și le adunăm pe poziții corespunzătoare, începând de la unități până la zecile, sutele etc.",
+    "Pentru a aplica această regulă corect, trebuie să știm cum se face adunarea pas cu pas. De exemplu, dacă avem numere ca 23 și 45, le adunăm pe unități (3+5=8) și apoi pe zecile (2+4=6), obținând rezultatul 68.",
+    "Un exemplu clar este adunarea numerelor 17 și 29. Începem cu unitățile: 7 + 9 = 16, deci notăm 6 și avem o purtare de 1 la zecimi. Apoi adunăm zecimile: 1 + 2 = 3, plus purtarea de 1, obținem 4. Rezultatul final este 46.",
+    "Este important să verificăm rezultatul pentru a ne asigura că nu am greșit în calcule. Putem face acest lucru prin adunarea inversă sau prin calculul cu alte metode, cum ar fi scăderea.",
+    "O greșeală frecventă este să uiteți de purtare la adunarea unităților. De exemplu, dacă adunăm 9 + 7, rezultatul este 16, dar dacă uităm să notăm purtarea, vom obține un rezultat greșit.",
+    "Pentru a evita această greșeală, trebuie să ne concentrăm pe fiecare pas al adunării. Începem cu unitățile, apoi zecimile, și tot astfel până la sutele sau mii, în funcție de numerele folosite.",
+    "În concluzie, regula este simplă: adunăm pe poziții corespunzătoare și luăm în considerare purtarea. Acest lucru ne ajută să obținem rezultate corecte și să evităm greșelile comune.",
+    "Pentru a închide lecția, vom face o verificare rapidă pentru a testa dacă ai înțeles regulile. Vom folosi un exemplu simplu și o întrebare cu variante de răspuns pentru a verifica ceea ce am învățat.",
+    "Este important să te antrenezi cu această regulă, pentru ca să poți aplica corect adunarea în orice situație. Prin exerciții repetate, vei deveni mai rapid și mai precis în rezolvare."
+  ],
+  "ideiDeRetinut": [
+    "Adunarea se face pe poziții corespunzătoare (unități, zecimi etc.).",
+    "Purtarea trebuie luată în considerare la fiecare pas al adunării.",
+    "Verificarea rezultatului este esențială pentru a evita greșelile.",
+    "Greșeala comună este să uiteți de purtare la unități."
+  ],
+  "exemplu": {
+    "titlu": "Adunarea numerelor 17 și 29",
+    "enunt": "Calculați suma numerelor 17 și 29.",
+    "rezolvareScurta": [
+      "Adunăm unitățile: 7 + 9 = 16. Notăm 6, purtăm 1 la zecimi.",
+      "Adunăm zecimile: 1 + 2 = 3, plus purtarea de 1, obținem 4."
+    ],
+    "raspuns": "46"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este rezultatul adunării numerelor 28 și 37?",
+    "variante": [
+      "55",
+      "65",
+      "66",
+      "75"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Adunăm unitățile: 8 + 7 = 15. Notăm 5, purtăm 1 la zecimi. Apoi adunăm zecimile: 2 + 3 = 5, plus purtarea de 1, obținem 6. Rezultatul este 65."
+  }
+}

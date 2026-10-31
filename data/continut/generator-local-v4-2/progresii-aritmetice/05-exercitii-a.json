@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați suma numerelor: 2 + 4 + 6 + 8.",
+      "variante": [],
+      "raspunsCorect": "20",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea termenilor",
+          "continut": "Numerele sunt: 2, 4, 6 și 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul sumei",
+          "continut": "Adunăm pas cu pas: 2 + 4 = 6; 6 + 6 = 12; 12 + 8 = 20."
+        }
+      ],
+      "explicatieFinala": "Suma numerelor este 20.",
+      "competenta": "Calcularea sumei unor numere naturale",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea lui x din ecuația: 3x + 7 = 16.",
+      "variante": [],
+      "raspunsCorect": "3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu x",
+          "continut": "Scădem 7 din ambele părți: 3x = 16 - 7."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul valorii lui x",
+          "continut": "Avem 3x = 9, deci x = 9 / 3 = 3."
+        }
+      ],
+      "explicatieFinala": "Valoarea lui x este 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este soluția ecuației: 2(x - 1) = 4?",
+      "variante": [
+        "x = 0",
+        "x = 1",
+        "x = 2",
+        "x = 3"
+      ],
+      "raspunsCorect": "x = 2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfășurarea parantezei",
+          "continut": "Înmulțim: 2x - 2 = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Isolarea termenului cu x",
+          "continut": "Adunăm 2 în ambele părți: 2x = 6, deci x = 3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați media aritmetică a numerelor: 12, 18 și 24.",
+      "variante": [],
+      "raspunsCorect": "18",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calculul sumei numerelor",
+          "continut": "Adunăm: 12 + 18 = 30; 30 + 24 = 54."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea mediei aritmetice",
+          "continut": "Împărțim suma la numărul de termeni: 54 / 3 = 18."
+        }
+      ],
+      "explicatieFinala": "Media aritmetică este 18.",
+      "competenta": "Calcularea mediei aritmetice",
+      "punctaj": 5
+    }
+  ]
+}

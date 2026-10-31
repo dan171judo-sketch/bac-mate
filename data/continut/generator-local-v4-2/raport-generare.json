@@ -29,7 +29,7 @@
     }
   },
   "versiuneGenerator": "6.2",
-  "actualizatLa": "2026-09-16T19:22:30.436Z",
+  "actualizatLa": "2026-09-21T06:40:53.743Z",
   "rulari": [
     {
       "la": "2026-09-16T12:28:47.898Z",
@@ -62,6 +62,276 @@
       "la": "2026-09-16T19:22:30.435Z",
       "generator": "6.2",
       "slug": "intervale-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T04:19:55.517Z",
+      "generator": "6.2",
+      "slug": "propozitii-predicate",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T04:56:02.995Z",
+      "generator": "6.2",
+      "slug": "cuantificatori",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T08:16:50.296Z",
+      "generator": "6.2",
+      "slug": "negatie-conjunctie-disjunctie-implicatie",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 10-video-4\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T11:03:35.800Z",
+      "generator": "6.2",
+      "slug": "operatii-cu-multimi",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 09-video-3\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T13:41:00.606Z",
+      "generator": "6.2",
+      "slug": "inductia-matematica",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 09-video-3\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T16:06:25.596Z",
+      "generator": "6.2",
+      "slug": "demonstratii-rationamente-logice",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T19:33:39.265Z",
+      "generator": "6.2",
+      "slug": "reper-cartezian-produs-cartezian",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 10-video-4\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T20:17:45.756Z",
+      "generator": "6.2",
+      "slug": "notiunea-de-functie",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-18T22:56:55.523Z",
+      "generator": "6.2",
+      "slug": "domeniu-codomeniu-imagine",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T01:21:35.999Z",
+      "generator": "6.2",
+      "slug": "graficul-unei-functii",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T01:56:58.397Z",
+      "generator": "6.2",
+      "slug": "lecturi-grafice",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].greseala: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T04:59:47.197Z",
+      "generator": "6.2",
+      "slug": "egalitatea-a-doua-functii",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 10-video-4\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T07:38:53.991Z",
+      "generator": "6.2",
+      "slug": "restrictia-unei-functii",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T10:32:19.374Z",
+      "generator": "6.2",
+      "slug": "monotonie-si-marginire",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T11:14:59.974Z",
+      "generator": "6.2",
+      "slug": "paritate-si-imparitate",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[3].greseala: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T11:51:50.756Z",
+      "generator": "6.2",
+      "slug": "periodicitate",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T12:39:37.917Z",
+      "generator": "6.2",
+      "slug": "compunerea-functiilor",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T14:55:00.358Z",
+      "generator": "6.2",
+      "slug": "siruri-de-numere-reale",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T17:07:08.658Z",
+      "generator": "6.2",
+      "slug": "progresii-aritmetice",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T19:16:09.699Z",
+      "generator": "6.2",
+      "slug": "progresii-geometrice",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-19T22:04:11.230Z",
+      "generator": "6.2",
+      "slug": "functia-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T00:46:44.800Z",
+      "generator": "6.2",
+      "slug": "grafic-functie-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T03:31:56.652Z",
+      "generator": "6.2",
+      "slug": "monotonia-functiei-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T04:09:26.855Z",
+      "generator": "6.2",
+      "slug": "semnul-functiei-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[2].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T06:30:39.800Z",
+      "generator": "6.2",
+      "slug": "ecuatii-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T09:58:32.109Z",
+      "generator": "6.2",
+      "slug": "inecuatii-gradul-intai",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T10:34:59.373Z",
+      "generator": "6.2",
+      "slug": "sisteme-ecuatii-liniare",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 03-pedagogie\n- greseliFrecvente[3].deCeEsteGresit: lipsa sau invalid",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T13:11:03.429Z",
+      "generator": "6.2",
+      "slug": "interpretarea-geometrica-sistemelor",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-20T15:40:21.130Z",
+      "generator": "6.2",
+      "slug": "probleme-functii-liniare",
+      "status": "eroare",
+      "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
+      "model": "qwen3:8b",
+      "dryRun": false
+    },
+    {
+      "la": "2026-09-21T06:40:53.731Z",
+      "generator": "6.2",
+      "slug": "siruri-de-numere-reale",
       "status": "eroare",
       "eroare": "Checkpoint invalid: 08-video-2\n- video: obiect lipsa",
       "model": "qwen3:8b",

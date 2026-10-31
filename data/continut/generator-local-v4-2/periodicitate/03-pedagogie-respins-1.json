@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă perioada fundamentală cu o altă perioadă a funcției.",
+      "deCeEsteGresit": "Perioada fundamentală este cea mai mică dintre toate perioadele posibile ale unei funcții periodice. Confuzia poate duce la erori în identificarea corectă a caracteristicilor funcției.",
+      "cumOEviti": "Reamintește-te că perioada fundamentală este cea mai mică valoare T > 0 pentru care f(x + T) = f(x)."
+    },
+    {
+      "greseala": "Crede că orice funcție care se repetă are o perioadă.",
+      "deCeEsteGresit": "Nu toate funcțiile care se repetă sunt periodice. Pentru a fi periodică, trebuie să existe un număr real T ≠ 0 pentru care f(x + T) = f(x), pentru orice x ∈ R.",
+      "cumOEviti": "Verifică dacă există o valoare constantă T > 0 care îndeplinește condiția de periodicitate."
+    },
+    {
+      "greseala": "Neglijează verificarea condiției f(x + T) = f(x) pentru toate valorile x.",
+      "de-CEEsteGresit": "Periodicitatea trebuie să fie valabilă pentru orice x ∈ R. Neglijarea unei singure valori poate duce la concluzii incorecte despre funcție.",
+      "cumOEviti": "Testează condiția pentru mai multe valori ale lui x înainte de a concluziona că funcția este periodică."
+    },
+    {
+      "greseala": "Crede că funcțiile periodice nu pot fi continue sau derivabile.",
+      "deCeEsteGresit": "Există funcții periodice care sunt continue și derivabile, cum ar fi funcția sinusoidală. Nu toate funcțiile periodice sunt discontinue sau nediferențiabile.",
+      "cumOEviti": "Recapitulează exemple de funcții periodice și analizează proprietățile lor."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "O funcție este periodică dacă există un număr real T ≠ 0 pentru care f(x + T) = f(x), pentru orice x ∈ R.",
+      "Perioada fundamentală este cea mai mică valoare a lui T > 0 care îndeplinește condiția de periodicitate.",
+      "Funcțiile periodice se repetă la intervale egale, iar aceste intervale sunt perioadele funcției.",
+      "Perioada măsoară frecvența repetiției valorilor funcției."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă există un număr real T ≠ 0 pentru care f(x + T) = f(x), pentru orice x ∈ R.",
+      "Identifică perioada fundamentală ca cea mai mică valoare a lui T > 0 care îndeplinește condiția de periodicitate.",
+      "Analizează dacă funcția se repetă la intervale egale, indiferent de valorile x.",
+      "Reamintește-te că o funcție poate avea mai multe perioade, dar perioada fundamentală este cea mai mică dintre ele."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptul de periodicitate este esențial în studiul funcțiilor trigonometrice și al altor funcții care se repetă. În examen, elevii sunt testați să identifice dacă o funcție este periodică și să determine perioada ei fundamentală.",
+    "tipuriCerinte": [
+      "Să se verifice dacă o funcție dată este periodică",
+      "Să se determine perioada fundamentală a unei funcții periodice",
+      "Să se identifice proprietățile unei funcții periodice",
+      "Să se analizeze comportamentul unei funcții în raport cu periodicitatea"
+    ],
+    "strategie": [
+      "Începe prin a verifica dacă există un număr real T ≠ 0 pentru care f(x + T) = f(x), pentru orice x ∈ R.",
+      "Dacă funcția este periodică, determină perioada fundamentală ca cea mai mică valoare a lui T > 0 care îndeplinește condiția de periodicitate.",
+      "Analizează dacă funcția se repetă la intervale egale și identifică aceste intervale ca perioade ale funcției.",
+      "Reamintește-te că o funcție poate avea mai multe perioade, dar perioada fundamentală este cea mai mică dintre ele."
+    ]
+  }
+}

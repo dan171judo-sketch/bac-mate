@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea definiției funcției pare cu cea a funcției impare.",
+      "deCeEsteGresit": "Funcția pară are f(-x) = f(x), în timp ce funcția impară are f(-x) = -f(x). Confuzia poate duce la erori în identificarea simetriei graficului.",
+      "cumOEviti": "Repeta definițiile și desenează graficele pentru fiecare caz, folosind exemple concrete."
+    },
+    {
+      "greseala": "Neglijarea verificării condiției -x ∈ D înainte de a aplica paritatea.",
+      "deCeEsteGresit": "Dacă domeniul nu este simetric față de origine, funcția nu poate fi nici pară, nici impară. Neglijarea acestei condiții duce la concluzii incorecte.",
+      "cumOEviti": "Verifică întotdeauna dacă domeniul este simetric înainte de a aplica definițiile."
+    },
+    {
+      "greseala": "Aplicarea parității fără a verifica toate valorile din domeniu.",
+      "de, CeEsteGresit": "Paritatea trebuie verificată pentru orice x ∈ D. O singură valoare care nu respectă condiția invalidă concluzia.",
+      "cumOEviti": "Testează mai multe valori din domeniu și folosește exemple simple pentru a înțelege conceptul."
+    },
+    {
+      "greseala": "Creșterea concluziilor fără a demonstra paritatea funcției.",
+      "deCeEsteGresit": "Fără verificarea condițiilor din definiție, nu se poate spune cu certitudine dacă o funcție este pară sau impară.",
+      "cumOEviti": "Folosește pași clari și demonstrați pentru a evita concluzii rapide."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția pară este simetrică față de axa OY.",
+      "Funcția impară este simetrică față de origine.",
+      "Paritatea unei funcții se verifică prin f(-x) = ±f(x).",
+      "Domeniul trebuie să fie simetric pentru ca o funcție să fie pară sau impară."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă domeniul este simetric față de origine.",
+      "Aplică definiția funcției pare pentru a determina paritatea.",
+      "Testează mai multe valori din domeniu pentru a confirma concluzia.",
+      "Desenează graficul funcției pentru a verifica simetria."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Paritatea funcțiilor este un concept esențial în matematică, care apare frecvent în subiectele de Bac MATE. Înțelegerea acestui concept permite identificarea rapidă a simetriei graficului și aplicarea corectă a proprietăților funcțiilor.",
+    "tipuriCerinte": [
+      "Determinarea parității unei funcții",
+      "Identificarea simetriei graficului funcției",
+      "Analiza domeniului pentru a determina dacă o funcție poate fi pară sau impară",
+      "Interpretarea rezultatelor în contextul problemei"
+    ],
+    "strategie": [
+      "Învață definițiile și exemplele clasice de funcții pare și impare.",
+      "Exersează verificarea parității pentru diverse funcții.",
+      "Folosește graficul ca metodă de verificare a simetriei.",
+      "Verifică întotdeauna condițiile din definiție înainte de a trage concluzii."
+    ]
+  }
+}

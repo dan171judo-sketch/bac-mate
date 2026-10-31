@@ -1,0 +1,43 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție",
+      "definitie": "O funcție este o relație între două mulțimi A și B, astfel încât fiecare element din mulțimea A are exact un element corespunzător în mulțimea B.",
+      "observatie": "Într-o funcție, fiecare element din domeniul de definiție are o singură imagine."
+    },
+    {
+      "termen": "domeniu de definiție",
+      "definitie": "Domeniul de definiție al unei funcții este mulțimea tuturor valorilor posibile ale variabilei independente (x) pentru care funcția are sens.",
+      "observatie": "Este cunoscut și sub numele de mulțimea de plecare."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția funcției",
+      "explicatie": "O funcție este o corespondență între două mulțimi, A și B, în care fiecare element din A are un singur element corespunzător din B. Această corespondență se notează f: A → B.",
+      "ideiCheie": [
+        "O funcție este o relație între două mulțimi",
+        "Fiecare element din A are un singur element în B"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Imaginea unei funcții",
+      "explicatie": "Imaginea unei funcții este mulțimea tuturor valorilor obținute prin aplicarea funcției asupra elementelor din domeniul de definiție. Se notează f(A) sau Im(f).",
+      "ideiCheie": [
+        "Imaginea funcției este formată din valorile corespunzătoare fiecărui element al domeniului de definiție",
+        "Se notează imaginea cu f(A) sau Im(f)"
+      ]
+    },
+    {
+      "3, titlu": "Graficul unei funcții",
+      "explicatie": "Graficul unei funcții este mulțimea tuturor perechilor ordonate (x, y), unde x aparține domeniului de definiție și y = f(x). Graficul se reprezintă într-un sistem de coordonate.",
+      "ideiCheie": [
+        "Graficul este format din perechi ordonate (x, y) cu y = f(x)",
+        "Se reprezintă grafic într-un sistem de axe"
+      ]
+    }
+  ],
+  "formule": []
+}

@@ -1,0 +1,49 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale pentru rezolvarea corectă a problemelor matematice. Vom învăța cum să aplicăm metoda de lucru, cum să identificăm informațiile relevante și cum să evităm greșelile comune.",
+    "scenariu": [
+      "În această lecție, vom analiza reguli fundamentale care ne ajută să rezolvăm corect problemele matematice. Aceste reguli sunt esențiale pentru a evita greșelile și a obține rezultate exacte.",
+      "Prima regulă este să citim atent enunțul problemei. Este important să înțelegem ce se întâmplă, care sunt datele cunoscute și ce trebuie să aflăm. O problemă bine formulată conține toate informațiile necesare pentru a ajunge la răspuns.",
+      "A doua regulă este să identificăm ce tip de problemă avem de rezolvat: adunare, scădere, înmulțire, împărțire, sau o combinație dintre ele. În funcție de tipul problemei, vom aplica operația potrivită.",
+      "O metodă eficientă de lucru este să scriem toate datele cunoscute și să le organizăm într-un mod clar. De exemplu, putem folosi un tabel sau o listă pentru a evita confuziile între numere și unități.",
+      "După ce am identificat informațiile și am stabilit operația corectă, trebuie să aplicăm pas cu pas regulile de calcul. Este important să ne asigurăm că fiecare etapă este corectă, pentru a evita erori în calcule.",
+      "Un exemplu clar este rezolvarea unei probleme de adunare: dacă un elev citește 30 de pagini dintr-o carte și mai are de citit 50 de pagini, atunci totalul paginilor este suma celor două valori. Așadar, 30 + 50 = 80 pagini.",
+      "Este important să verificăm rezultatul obținut. În acest caz, putem aduna din nou cele două numere pentru a ne asigura că nu am greșit în calcul. Dacă răspunsul este același, atunci avem încredere în soluția găsită.",
+      "O greșeală frecventă este să folosim operații incorecte. De exemplu, dacă problema cere o adunare, dar elevul alege scăderea, va obține un răspuns greșit. Este esențial să ne concentrăm pe tipul de problemă și să aplicăm operația potrivită.",
+      "Un alt lucru important este să folosim unitățile de măsură corecte. Dacă problema se referă la metri, nu trebuie să adunăm metri cu litri sau ore. Unitățile trebuie să fie compatibile pentru a obține un rezultat logic.",
+      "Pentru a evita confuziile, este bine să folosim notarea matematică clară. De exemplu, în loc de a scrie „30 pagini + 50 pagini”, putem scrie 30 + 50 = 80 pagini. Acest lucru ne ajută să vedem mai clar ce se întâmplă.",
+      "În concluzie, metoda de lucru implică: citirea atentă a problemei, identificarea datelor și a operației potrivite, aplicarea regulilor de calcul pas cu pas, verificarea rezultatului și evitarea greșelilor comune.",
+      "Prin urmare, învățăm să folosim regulile corecte și metoda de lucru adecvată pentru a obține răspunsuri exacte la problemele matematice."
+    ],
+    "ideiDeRetinut": [
+      "Citirea atentă a enunțului este esențială.",
+      "Identificarea tipului de problemă și a operației potrivite.",
+      "Organizarea datelor pentru evitarea greșelilor.",
+      "Verificarea rezultatului prin recalculare."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Citirea unei pagini dintr-o carte",
+      "enunt": "Un elev a citit 30 de pagini dintr-o carte și mai are de citit 50 de pagini. Câte pagini are cartea?",
+      "rezolvareScurta": [
+        "Paginile total ale cartii sunt suma paginilor citite si ale celor necitite: 30 + 50 = 80.",
+        "Răspunsul final este 80 pagini."
+      ],
+      "raspuns": "80 pagini"
+    },
+    "verificareRapida": {
+      "intrebare": "Un elev a citit 20 de pagini dintr-o carte și mai are de citit 40 de pagini. Câte pagini are cartea?",
+      "variante": [
+        "50 pagini",
+        "60 pagini",
+        "70 pagini",
+        "80 pagini"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Paginile total ale cartii sunt suma paginilor citite si ale celor necitite: 20 + 40 = 60."
+    }
+  }
+}

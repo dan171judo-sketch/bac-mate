@@ -1,0 +1,49 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva probleme eficient.",
+    "Regula pe care o vom studia este legată de ordinea efectuării operațiilor matematice. Este important să înțelegem exact cum funcționează această regulă, pentru a evita confuzii și a obține rezultate corecte.",
+    "În matematică, există o succesiune bine definită de pași care trebuie urmați atunci când se rezolvă o expresie. Această ordine este esențială pentru a evita erori și a obține un rezultat precis.",
+    "Prima etapă este să identificăm toate operațiile din expresie: adunări, scăderi, înmulțiri, împărțiri, paranteze și exponenți. Fiecare dintre acestea are un ordin de prioritate specific.",
+    "Parantezele sunt cele mai importante. Înainte de a face orice altceva, trebuie să rezolvăm ce este în interiorul parantezelor. Acest lucru ne ajută să simplificăm expresia și să o transformăm într-o formă mai ușor de gestionat.",
+    "După paranteze, urmează exponenții. Acestea sunt operații care se aplică la puterea unui număr. De exemplu, 2 la puterea a treia este egal cu 8. Este important să le rezolvăm înainte de alte operații.",
+    "După exponenți, venim la înmulțiri și împărțiri. Acestea se efectuează în ordinea în care apar, fără a respecta o prioritate suplimentară între ele. Dacă sunt mai multe, le facem de la stânga spre dreapta.",
+    "În final, rămân adunările și scăderile, care se efectuează în același mod: de la stânga spre dreapta. Este important să ținem cont că aceste operații nu au o prioritate mai mare decât cele anterioare.",
+    "Pentru a ne asigura că am înțeles corect, vom analiza un exemplu concret. Vom vedea cum se aplică regula pas cu pas și cum se evită greșelile comune în timpul rezolvării.",
+    "Un elev care nu respectă ordinea operațiilor poate obține un rezultat complet gresit. De exemplu, dacă se face adunarea înainte de înmulțire, se va ajunge la o concluzie incorectă.",
+    "Este important să ne exercităm cu exemple diverse pentru a consolida înțelegerea regulii. Vom vedea cum se rezolvă o expresie complexă și cum se evită confuziile comune.",
+    "În final, vom face o verificare rapidă pentru a testa cunoștințele dobândite. Acest lucru ne va ajuta să identificăm eventuală neînțelegere sau greșeli și să le corectăm înainte de a trece la alte subiecte."
+  ],
+  "ideiDeRetinut": [
+    "Parantezele sunt rezolvate prima dată.",
+    "Exponenții urmează după paranteze.",
+    "Înmulțirile și împărțirile se fac în ordinea apariției, de la stânga spre dreapta.",
+    "Adunările și scăderile se efectuează la final, tot de la stânga spre dreapta."
+  ],
+  "exemplu": {
+    "titlu": "Exemplu cu ordinea operațiilor",
+    "enunt": "Calculați: (5 + 3) × 2 - 4 ÷ 2 + 6",
+    "rezolvareScurta": [
+      "Rezolvăm paranteza: 5 + 3 = 8",
+      "Înmulțim rezultatul cu 2: 8 × 2 = 16",
+      "Împărțim 4 la 2: 4 ÷ 2 = 2",
+      "Scădem 2 din 16: 16 - 2 = 14",
+      "Adunăm 6: 14 + 6 = 20"
+    ],
+    "raspuns": "20"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este prima operație care trebuie rezolvată în expresia (7 - 3) × 5 + 4?",
+    "variante": [
+      "Înmulțirea",
+      "Scăderea din paranteză",
+      "Adunarea",
+      "Împărțirea"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Prima operație este scăderea din paranteză, deoarece parantezele sunt rezolvate prima dată."
+  }
+}

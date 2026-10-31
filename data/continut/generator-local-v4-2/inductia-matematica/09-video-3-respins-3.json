@@ -1,0 +1,39 @@
+{
+  "video3": {
+    "id": "video3",
+    "titlu": "Regula de calcul pentru adunarea fracțiilor cu același numitor",
+    "descriere": "În acest videoclip, vom învăța cum să adunăm fracțiile care au același numitor. Vom explica pas cu pas regula de calcul, vom analiza de ce funcționează această regulă și vom rezolva un exemplu complet.",
+    "scenariu": [
+      "În acest videoclip, vom învăța cum să adunăm fracțiile care au același numitor. Este o regulă importantă pentru a înțelege mai bine operațiile cu fracții.",
+      "Fracțiile cu același numitor sunt cele care au același număr la partea de jos, adică același numitor. De exemplu, 1/4 și 2/4 au același numitor, 4.",
+      "Regula pentru adunarea acestor fracții este simplă: păstrăm numitorul și adunăm numărătorii. Deci, 1/4 + 2/4 = (1+2)/4 = 3/4.",
+      "De ce funcționează această regulă? Deoarece fracțiile au același numitor, ele reprezintă părți egale ale unui întreg. Adunarea este doar o adunare a numerelor de pe partea de sus.",
+      "Pentru a aplica această regulă, trebuie să verificăm dacă fracțiile au același numitor. Dacă da, avem deja toate condițiile pentru a folosi regula.",
+      "Vom rezolva un exemplu complet: 3/5 + 1/5. Numitorul este 5, iar numărătorii sunt 3 și 1. Adunăm numărătorii: 3+1=4. Rezultatul este 4/5.",
+      "Verificarea rezultatului se face prin simpla reprezentare grafică sau prin transformarea fracției într-un număr zecimal. 4/5 = 0,8, iar dacă adunăm 3/5 (0,6) cu 1/5 (0,2), obținem 0,8.",
+      "O greșeală frecventă este să adunăm și numitorii. De exemplu, cineva ar putea gândi că 3/5 + 1/5 = 4/10, ceea ce este incorect. Acest lucru nu se aplică pentru că numitorul rămâne același.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că la adunarea fracțiilor cu același numitor, numitorul rămâne neschimbat. Doar numărătorii se adună.",
+      "În concluzie, adunarea fracțiilor cu același numitor este o operație simplă, dar importantă pentru a înțelege mai bine matematica. Este esențial să ne amintim că numitorul rămâne același și doar numărătorii se adună."
+    ],
+    "ideiDeRetinut": [
+      "Fracțiile cu același numitor pot fi adunate ușor, păstrând numitorul și adunând numărătorii.",
+      "Numitorul rămâne același în rezultat, iar doar numărătorii se adună.",
+      "Verificarea rezultatului poate fi făcută prin transformarea fracției într-un număr zecimal."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați 3/7 + 2/7.",
+      "raspunsCorect": "5/7",
+      "explicatie": "Fracțiile au același numitor, 7. Adunăm numărătorii: 3+2=5. Rezultatul este 5/7."
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul adunării fracțiilor 4/9 + 1/9?",
+      "variante": [
+        "3/9",
+        "5/9",
+        "4/18",
+        "1/9"
+      ],
+      "raspunsCorect": "1"
+    }
+  }
+}

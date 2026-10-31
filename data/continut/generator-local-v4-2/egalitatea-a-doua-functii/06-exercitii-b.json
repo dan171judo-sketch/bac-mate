@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: R → R, f(x) = 3x - 1. Calculați f(0).",
+      "variante": [],
+      "raspunsCorect": "−1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii x = 0 în funcție",
+          "continut": "Pentru a calcula f(0), înlocuim variabila x cu valoarea 0 în expresia funcției: f(0) = 3·0 - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea operațiilor aritmetice",
+          "continut": "f(0) = 0 - 1 = −1."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției f în punctul x = 0 este −1.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f: R → R, f(x) = −x + 4. Care este valoarea funcției în punctul x = 3?",
+      "variante": [
+        "1",
+        "−1",
+        "7",
+        "−7"
+      ],
+      "raspunsCorect": "1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii x = 3 în funcție",
+          "continut": "Pentru a calcula f(3), înlocuim variabila x cu valoarea 3 în expresia funcției: f(3) = −3 + 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea operațiilor aritmetice",
+          "continut": "f(3) = −3 + 4 = 1."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției f în punctul x = 3 este 1.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: R → R, f(x) = −2x + 6. Calculați f(−3).",
+      "variante": [],
+      "raspunsCorect": "12",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii x = −3 în funcție",
+          "continut": "Pentru a calcula f(−3), înlocuim variabila x cu valoarea −3 în expresia funcției: f(−3) = −2·(−3) + 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea operațiilor aritmetice",
+          "continut": "f(−3) = 6 + 6 = 12."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției f în punctul x = −3 este 12.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f: R → R, f(x) = 4x − 7. Care este valoarea funcției în punctul x = 2?",
+      "variante": [
+        "1",
+        "−1",
+        "11",
+        "−11"
+      ],
+      "raspunsCorect": "1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii x = 2 în funcție",
+          "continut": "Pentru a calcula f(2), înlocuim variabila x cu valoarea 2 în expresia funcției: f(2) = 4·2 − 7."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea operațiilor aritmetice",
+          "continut": "f(2) = 8 − 7 = 1."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției f în punctul x = 2 este 1.",
+      "competenta": "Calcularea valorii unei funcții într-un punct dat",
+      "punctaj": 5
+    }
+  ]
+}

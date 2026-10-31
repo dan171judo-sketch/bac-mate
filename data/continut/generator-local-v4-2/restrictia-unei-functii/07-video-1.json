@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea domeniului de definiție al funcțiilor",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora conceptul de domeniu de definiție al unei funcții. Vom înțelege de ce este important să cunoaștem pe care valori o funcție poate fi calculată și cum putem determina aceste valori în mod corect.",
+    "scenariu": [
+      "Începem cu o întrebare simplă: Ce înseamnă ca o funcție să fie definită? O funcție este un fel de regulă care transformă o intrare într-o ieșire. Dar nu toate valorile pot fi folosite ca intrare. De exemplu, dacă vrem să calculăm rădăcina pătrată dintr-un număr negativ, nu putem face acest lucru în mulțimea numerelor reale.",
+      "Aceasta ne duce la ideea de domeniu de definiție. Domeniul de definiție este o mulțime de valori pentru care funcția are sens și poate fi calculată. Este ca un set de reguli care spune: „aceste valori sunt permise, acestea nu.”",
+      "De ce este important să știm domeniul de definiție? Pentru că dacă folosim o valoare interzisă, funcția nu va da un rezultat corect. De exemplu, încercați să calculați 1/(x - 2) pentru x = 2. Ce se întâmplă? Numitorul devine zero, iar împărțirea la zero este imposibilă în matematică.",
+      "Așadar, domeniul de definiție este mulțimea tuturor valorilor pentru care funcția are sens. Pentru a determina acest domeniu, trebuie să identificăm toate valorile interzise și apoi să le eliminăm din mulțimea numerelor reale.",
+      "Să luăm un exemplu concret: funcția f(x) = 1/(x - 3). Ce se întâmplă când x = 3? Numitorul devine zero, iar funcția nu este definită. Deci, valoarea x = 3 trebuie să fie exclusă din domeniul de definiție.",
+      "Dar cum putem determina toate valorile interzise? În general, acestea apar atunci când numitorul unei fracții este zero sau atunci când avem radicali cu expresii negative. De exemplu, dacă avem o funcție cu un radical, trebuie să ne asigurăm că ceea ce e sub radical este pozitiv.",
+      "Vom folosi această regulă pentru a determina domeniul de definiție al unei funcții. De exemplu, dacă avem f(x) = √(x - 1), trebuie să ne asigurăm că x - 1 ≥ 0, adică x ≥ 1. Deci, domeniul de definiție este [1, ∞).",
+      "Să luăm un alt exemplu: funcția f(x) = ln(x + 2). Logaritmul este definit doar pentru valori pozitive. Deci, x + 2 > 0 → x > -2. Așadar, domeniul de definiție al acestei funcții este (-2, ∞).",
+      "O greșeală frecventă este să uităm să verificăm toate condițiile. De exemplu, dacă o funcție are și radical și fracție, trebuie să verificăm ambele condiții: ceea ce e sub radical trebuie să fie pozitiv, iar numitorul nu poate fi zero.",
+      "Un alt lucru important este că domeniul de definiție se determină în funcție de tipul de funcție. Dacă o funcție are mai multe componente (de exemplu, radical și fracție), trebuie să verificăm toate condițiile pentru fiecare componentă.",
+      "Pentru a evita greșelile, este important să luăm pașii unul câte unul. Începem cu identificarea tuturor valorilor interzise, apoi le eliminăm din mulțimea numerelor reale și obținem domeniul de definiție.",
+      "În concluzie, domeniul de definiție este esențial pentru a ști pe care valori o funcție poate fi calculată. Este ca un set de reguli care ne ajută să evităm greșelile și să folosim corect funcțiile în calcule."
+    ],
+    "ideiDeRetinut": [
+      "Domeniul de definiție este mulțimea valorilor pentru care o funcție are sens.",
+      "Valori interzise apar atunci când numitorul este zero sau sub radical apare un număr negativ.",
+      "Este important să verificăm toate condițiile pentru fiecare componentă a unei funcții."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Funcția f(x) = 1/(x - 3)",
+      "enunt": "Determinați domeniul de definiție al funcției f(x) = 1/(x - 3).",
+      "rezolvareScurta": [
+        "Identificăm valoarea care anulează numitorul: x - 3 = 0 → x = 3.",
+        "Excluzem această valoare din mulțimea numerelor reale. Deci, domeniul de definiție este ℝ \\\\- {3}."
+      ],
+      "raspuns": "Domeniul de definiție al funcției f(x) = 1/(x - 3) este ℝ \\\\- {3}."
+    },
+    "verificareRapida": {
+      "intrebare": "Determinați domeniul de definiție al funcției f(x) = √(x + 2).",
+      "variante": [
+        "[-2, ∞)",
+        "(∞, -2]",
+        "(-2, ∞)",
+        "[∞, -2)"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Pentru ca radicalul să fie definit, trebuie ca x + 2 ≥ 0 → x ≥ -2. Deci domeniul de definiție este [-2, ∞)."
+    }
+  }
+}

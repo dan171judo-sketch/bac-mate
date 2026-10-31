@@ -1,0 +1,52 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea terminologiei dintre funcția crescătoare și funcția strict crescătoare",
+      "deCeEsteGresit": "Funcția crescătoare permite egalitatea f(x1) ≤ f(x2) pentru x1 < x2, în timp ce funcția strict crescătoare impune f(x1) < f(x2). Confuzia poate duce la erori în determinarea intervalelor de monotonie.",
+      "cumOEviti": "Rezolvați exerciții care diferențiază cele două tipuri de funcții și folosiți exemple concrete."
+    },
+    {
+      "greseala": "Neglijarea verificării valorilor în puncte de extrem (ex: puncte de inflexiune sau discontinuități)",
+      "deCeEsteGresit": "Monotonia se definește pe intervale, iar valorile în puncte izolate nu influențează comportamentul general al funcției. Neglijarea acestui aspect poate duce la concluzii incorecte despre monotonie.",
+      "cumOEviti": "Verificați întotdeauna domeniul de definiție și punctele critice înainte de a analiza monotonia."
+    },
+    {
+      "greseala": "Creșterea sau scăderea funcției pe un interval nu este verificată corect folosind derivata",
+      "deCeEsteGresit": "Derivata pozitivă indică creștere, iar negativă indică scădere. O eroare în calculul derivatei sau în semnul ei poate duce la determinarea incorectă a intervalelor de monțonie.",
+      "cumOEviti": "Rezolvați exerciții cu funcții simple și verificați pașii de derivare."
+    },
+    {
+      "greseala": "Confunderea mărginirii pe un interval cu mărginirea globală",
+      "deCeEsteGresit": "Mărginirea pe un interval nu implică comportamentul funcției în afara acelui interval. Confuzia poate duce la erori în interpretarea limitelor de valoare.",
+      "cumOEviti": "Analizați mărginirea pe intervale specifice și evitați generalizările nejustificate."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Monotonia unei funcții se referă la comportamentul ei în ceea ce privește creșterea sau scăderea valorilor.",
+      "Functia este marginită dacă există o constantă reală M astfel încât |f(x)| ≤ M pentru orice x din intervalul considerat.",
+      "Mărginirea unei funcții nu implică comportamentul ei la infinit, ci doar limitarea valorilor într-un anumit domeniu.",
+      "Derivata este un instrument esențial pentru determinarea intervalelor de monotonie."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă funcția este definită pe intervalul considerat înainte de a analiza monotonia.",
+      "Calculează derivata corect și verifică semnul ei pentru determinarea intervalelor de monotonie.",
+      "Identifică valorile extrem ale funcției pe intervalul dat.",
+      "Verifică dacă există o constantă M astfel încât |f(x)| ≤ M pentru a stabili mărginirea."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Monotonia și mărginirea sunt concepte esențiale în analiza funcțiilor, care apar frecvent în subiectele de Bac Matematică. Ele sunt folosite pentru a studia comportamentul funcțiilor, a determina intervalele de creștere/scădere și a analiza limitele valorilor funcției.",
+    "tipuriCerinte": [
+      "Determinarea intervalelor de monotonie ale unei funcții",
+      "Stabilirea dacă o funcție este marginită pe un interval dat",
+      "Analiza comportamentului funcției la infinit în legătură cu mărginirea ei"
+    ],
+    "strategie": [
+      "Rezolvați exerciții de analiză a monotoniei folosind derivata.",
+      "Verificați dacă există o constantă M pentru a stabili mărginirea funcției.",
+      "Analizați comportamentul funcției la infinit în contextul mărginirii."
+    ]
+  }
+}

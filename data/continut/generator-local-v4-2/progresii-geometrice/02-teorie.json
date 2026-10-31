@@ -1,0 +1,56 @@
+{
+  "definitii": [
+    {
+      "termen": "progresie geometrică",
+      "definitie": "Este o succesiune de numere reale în care fiecare termen, începând cu al doilea, se obține înmulțind pe cel precedent cu un număr fix, numit rație.",
+      "observatie": "Rația trebuie să fie diferită de zero."
+    },
+    {
+      "termen": "rație",
+      "definitie": "Este numărul constant prin care se obține fiecare termen din progresia geometrică, în urma înmulțirii cu termenul precedent.",
+      "observatie": "Rația poate fi pozitivă sau negativă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea progresiei geometrice",
+      "explicatie": "O progresie geometrică este o succesiune de numere reale (a₁, a₂, a₃, ..., aₙ) în care fiecare termen, începând cu al doilea, se obține prin înmulțirea termenului precedent cu rația r ≠ 0.",
+      "ideiCheie": [
+        "Termenul general este aₙ = a₁ × r^(n-1).",
+        "Rația trebuie să fie diferită de zero."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Proprietatea progresiei geometrice",
+      "explicatie": "Într-o progresie geometrică, orice termen, începând cu al treilea, este egal cu media geometrică a termenilor vecini.",
+      "ideiCheie": [
+        "aₙ² = aₙ₋₁ × aₙ₊₁ pentru n ≥ 2.",
+        "Această proprietate se folosește în verificarea corectitudinii unei progresii geometrice."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Termenul general al progresiei geometrice",
+      "explicatie": "Termenul general al unei progresii geometrice se exprimă prin formula aₙ = a₁ × r^(n-1), unde a₁ este primul termen, iar r este rația.",
+      "ideiCheie": [
+        "Formula permite calcularea oricărui termen din progresie dacă cunoaștem a₁ și r.",
+        "Termenii pot fi pozitivi sau negativi în funcție de semnul rației."
+      ]
+    }
+  ],
+  "formule": [
+    {
+      "id": "1",
+      "nume": "Termenul general al progresiei geometrice",
+      "formula": "aₙ = a₁ × r^{n-1}",
+      "explicatie": "Această formulă exprimă orice termen din progresie în funcție de primul termen și rația.",
+      "conditii": [
+        "r ≠ 0",
+        "n ≥ 1"
+      ],
+      "exempluScurt": "Dacă a₁ = 2 și r = 3, atunci a₃ = 2 × 3² = 18."
+    }
+  ]
+}

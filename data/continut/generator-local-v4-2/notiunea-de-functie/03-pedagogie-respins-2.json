@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea funcției cu o relație generală între două mulțimi",
+      "deCeEsteGresit": "O funcție este o relație specială în care fiecare element din A are exact un corespondent în B, în timp ce o relație generală poate avea mai multe sau niciun corespondent.",
+      "cumOEviti": "Repetă definiția funcției și analizează exemple concrete pentru a distinge între relații și funcții."
+    },
+    {
+      "greseala": "Creșterea domeniului de definiție fără verificarea sensului funcției",
+      "deCeEsteGresit": "Domeniul de definiție este mulțimea valorilor pentru care funcția are sens. Dacă o valoare nu face sens, ea nu trebuie inclusă în domeniu.",
+      "cumOEviti": "Verifică întotdeauna dacă fiecare valoare din domeniu este acceptată de funcție."
+    },
+    {
+      "greseala": "Interpretarea greșită a imaginii unei funcții",
+      "de șiEsteGresit": "Imaginea unei funcții este mulțimea valorilor obținute prin aplicarea funcției asupra domeniului de definiție, nu toate valorile din B.",
+      "cumOEviti": "Rezolvă exemple concrete pentru a înțelege diferența dintre imagine și codomeniu."
+    },
+    {
+      "greseala": "Neglijarea notației f: A → B",
+      "deCeEsteGresit": "Notația f: A → B este esențială pentru a defini clar o funcție, iar lipsa ei poate duce la ambiguități în interpretare.",
+      "cumOEviti": "Asociază întotdeauna notația f: A → B cu definiția formală a unei funcții."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția este o relație specială între două mulțimi, în care fiecare element din A are exact un corespondent în B.",
+      "Domeniul de definiție este mulțimea valorilor posibile pentru variabila independentă.",
+      "Imaginea unei funcții este mulțimea valorilor obținute prin aplicarea funcției asupra domeniului de definiție.",
+      "Notația f: A → B este esențială în definirea unei funcții."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă fiecare element din domeniul de definiție are exact un corespondent în imagine.",
+      "Identifică corect domeniul de definiție al funcției.",
+      "Reprezintă grafic funcția pentru a vizualiza relația dintre variabile.",
+      "Folosește notația f: A → B atunci când definesc o funcție."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Noțiunea de funcție este fundamentală în matematică și apare frecvent în subiectele de Bac MATE. Înțelegerea corectă a definiției, a domeniului de definiție și a imaginii unei funcții este esențială pentru rezolvarea problemelor.",
+    "tipuriCerinte": [
+      "Definirea unei funcții prin relația dintre două mulțimi",
+      "Identificarea domeniului de definiție al unei funcții",
+      "Reprezentarea grafică a unei funcții",
+      "Folosirea notației f: A → B pentru descrierea unei funcții"
+    ],
+    "strategie": [
+      "Învăță definiția formală a funcției și aplic-o în exemple concrete.",
+      "Repetă regulile de identificare a domeniului de definiție și a imaginii funcției.",
+      "Folosește reprezentarea grafică pentru a vizualiza relațiile dintre variabile.",
+      "Antrenează-te în folosirea notației f: A → B în exerciții diverse."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție pară",
+      "definitie": "O funcție f: D → ℝ se numește pară dacă pentru orice x ∈ D, avem că -x ∈ D și f(-x) = f(x).",
+      "observatie": "Simetria graficului față de axa OY este caracteristică funcțiilor pare."
+    },
+    {
+      "termen": "funcție impară",
+      "definitie": "O funcție f: D → ℝ se numește impară dacă pentru orice x ∈ D, avem că -x ∈ D și f(-x) = -f(x).",
+      "observatie": "Simetria graficului față de origine este caracteristică funcțiilor impare."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția parității funcțiilor",
+      "explicatie": "Paritatea unei funcții se definește prin relații între valorile funcției în puncte simetrice față de origine. Aceste definiții permit clasificarea funcțiilor în categorii distincte.",
+      "ideiCheie": [
+        "Funcția pară respectă f(-x) = f(x).",
+        "Funcția impară respectă f(-x) = -f(x)."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Simetria graficului funcției",
+      "explicatie": "Graficul unei funcții pare este simetric față de axa OY, în timp ce graficul unei funcții impare este simetric față de origine. Aceste proprietăți pot fi folosite pentru a identifica paritatea unei funcții.",
+      "ideiCheie": [
+        "Simetria față de OY caracterizează funcțiile pare.",
+        "Simetria față de origine caracterizează funcțiile impare."
+      ]
+    },
+    {
+      "": "",
+      "titlu": "Aplicarea definițiilor în practică",
+      "explicatie": "Pentru a determina paritatea unei funcții, se verifică dacă valorile funcției în puncte simetrice respectă relațiile din definiția funcției pare sau impare. Dacă nu se îndeplinește niciuna dintre condițiile de mai sus, funcția este ne-pară și ne-impară.",
+      "ideiCheie": [
+        "Verificarea simetriei în puncte opuse este esențială.",
+        "Funcția poate fi ne-pară și ne-impară dacă nu respectă niciuna dintre condițiile de paritate."
+      ]
+    }
+  ],
+  "formule": []
+}

@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă compunerea funcțiilor cu înmulțirea lor.",
+      "deCeEsteGresit": "Compunerea funcțiilor este o operație diferită de înmulțire, iar rezultatul nu se obține prin multiplicarea valorilor funcțiilor, ci prin aplicarea succesivă a lor.",
+      "cumOEviti": "Rezolvați întâi funcția internă (g(x)), apoi folosiți această valoare ca argument pentru funcția exterioară (f)."
+    },
+    {
+      "greseala": "Crede că compunerea este comutativă, adică f ∘ g = g ∘ f.",
+      "deCeEsteGresit": "Compunerea funcțiilor nu are proprietatea comutativă, deci ordinea aplicării funcțiilor este esențială și poate duce la rezultate diferite.",
+      "cumOEviti": "Testați întotdeauna compunerea în ambele ordini (f ∘ g și g ∘ f) pentru a verifica dacă sunt egale."
+    },
+    {
+      "greseala": "Neglijează condiția de definiție a funcției compuse.",
+      "dețiEsteGresit": "Funcția compusă este definită doar dacă imaginea funcției interne (g) este inclusă în domeniul de definiție al funcției externe (f).",
+      "cumOEviti": "Verificați întotdeauna dacă codomeniul funcției g se intersectează cu domeniul funcției f."
+    },
+    {
+      "greseala": "Notă compunerea funcțiilor în mod greșit, folosind paranteze sau simboluri incorecte.",
+      "deCeEsteGresit": "Notatia corectă este f ∘ g, nu (f(g(x))) sau alte variante care pot duce la confuzii.",
+      "cumOEviti": "Repetați notatia în mod constant și folosiți simbolurile standard pentru a evita erorile de scriere."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Compunerea funcțiilor este o operație care implică aplicarea succesivă a două funcții.",
+      "Funcția compusă f ∘ g se definește doar dacă imaginea funcției g este inclusă în domeniul de definiție al funcției f.",
+      "Compunerea nu este comutativă, deci ordinea aplicării funcțiilor contează.",
+      "Notatia corectă pentru compunere este f ∘ g."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă imaginea funcției interne se află în domeniul funcției externe.",
+      "Aplică întotdeauna funcția internă înainte de cea externă.",
+      "Respectă ordinea notării compunerii (f ∘ g, nu g ∘ f).",
+      "Repetă definiția și proprietățile compunerii pentru a evita confuziile."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Compunerea funcțiilor este o temă esențială în programa de Bacalaureat, fiind folosită frecvent în probleme de modelare matematică și în studiul funcțiilor compuse.",
+    "tipuriCerinte": [
+      "Să se definească compunerea funcțiilor",
+      "Să se calculeze o funcție compusă din două funcții date",
+      "Să se identifice condițiile de definiție pentru o funcție compusă",
+      "Să se compare funcțiile compuse f ∘ g și g ∘ f"
+    ],
+    "strategie": [
+      "Înțelegeți clar definiția și condițiile de definiție a funcțiilor compuse.",
+      "Antrenați-vă în calculul funcțiilor compuse cu diverse exemple simple, apoi avansați la cazuri mai complexe.",
+      "Verificați întotdeauna dacă imaginea funcției interne se află în domeniul funcției externe.",
+      "Repetați notatia corectă pentru a evita greșelile de scriere."
+    ]
+  }
+}

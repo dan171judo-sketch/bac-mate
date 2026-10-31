@@ -1,0 +1,6 @@
+BAC SOURCE: bac-2026-oficial-M_mate-info
+SUBIECT: data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf
+BAREM: data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf
+SOURCE GATE: PASS
+CONTENT GATES: BLOCKED - necesita transcriere si verificare
+DRAFT: CREATED

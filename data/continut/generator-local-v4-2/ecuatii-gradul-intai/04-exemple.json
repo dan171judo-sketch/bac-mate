@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Ecuație simplă de gradul I",
+      "nivel": "fundament",
+      "enunt": "Rezolvați ecuația 3x + 6 = 0.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Transformarea ecuației în forma standard ax + b = 0",
+          "continut": "Ecuația este deja scrisă sub forma standard, unde a = 3 și b = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei de soluție",
+          "continut": "Soluția ecuației este x = -b/a = -6/3 = -2."
+        }
+      ],
+      "raspunsFinal": "x = -2",
+      "verificare": "Înlocuind x = -2 în ecuație: 3*(-2) + 6 = -6 + 6 = 0, deci soluția este corectă."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Ecuație cu termen negativ",
+      "nivel": "fundament",
+      "enunt": "Rezolvați ecuația 5x - 10 = 0.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Transformarea ecuației în forma standard ax + b = 0",
+          "continut": "Ecuația este deja scrisă sub forma standard, unde a = 5 și b = -10."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei de soluție",
+          "continut": "Soluția ecuației este x = -b/a = -(-10)/5 = 10/5 = 2."
+        }
+      ],
+      "raspunsFinal": "x = 2",
+      "verificare": "Înlocuind x = 2 în ecuație: 5*2 - 10 = 10 - 10 = 0, deci soluția este corectă."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Ecuație cu coeficient negativ",
+      "nivel": "standard-bac",
+      "enunt": "Rezolvați ecuația -4x + 8 = 0.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Transformarea ecuației în forma standard ax + b = 0",
+          "continut": "Ecuația este deja scrisă sub forma standard, unde a = -4 și b = 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei de soluție",
+          "continut": "Soluția ecuației este x = -b/a = -8/(-4) = 2."
+        }
+      ],
+      "raspunsFinal": "x = 2",
+      "verificare": "Înlocuind x = 2 în ecuație: -4*2 + 8 = -8 + 8 = 0, deci soluția este corectă."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Ecuație cu termeni opuși",
+      "nivel": "avansat",
+      "enunt": "Rezolvați ecuația 7x - 14 = 0.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Transformarea ecuației în forma standard ax + b = 0",
+          "continut": "Ecuația este deja scrisă sub forma standard, unde a = 7 și b = -14."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei de soluție",
+          "continut": "Soluția ecuației este x = -b/a = -(-14)/7 = 14/7 = 2."
+        }
+      ],
+      "raspunsFinal": "x = 2",
+      "verificare": "Înlocuind x = 2 în ecuație: 7*2 - 14 = 14 - 14 = 0, deci soluția este corectă."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 4,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom analiza o regulă importantă pentru pregătirea examenului de Bacalaureat. Regula se referă la modul în care elevii pot aborda problemele matematice complexe, mai ales cele care necesită atenție la detalii și structură logică.",
+    "Această regulă este esențială pentru a evita greșelile comune, cum ar fi neglijarea unor pași sau interpretarea incorectă a cerinței. Este important să înțelegem exact ce ne cere problema și cum putem organiza gândirea pentru a ajunge la răspuns corect.",
+    "Regula se bazează pe identificarea informației relevante din cerință, urmată de aplicarea pașilor logici. De exemplu, dacă problema implică ecuații sau inecuații, trebuie să ne concentrăm pe ce variabile sunt cunoscute și ce relații există între ele.",
+    "Motivul pentru care această regulă funcționează este că oferă un cadru clar de lucru. În loc să ne pierdem în detalii nesemnificative, putem urma o metodologie pas cu pas, ceea ce reduce riscul greșelilor și crește eficiența rezolvării.",
+    "Metoda de lucru implică mai întâi citirea atentă a cerinței, apoi identificarea datelor cunoscute și necunoscute. După aceea, se aplică regulile matematice corespunzătoare pentru a obține răspunsul final.",
+    "Pentru a ilustra această metodologie, vom analiza un exemplu concret. Să presupunem că avem o ecuație de tipul 2x + 3 = 7. În acest caz, trebuie să identificăm ce variabilă este necunoscută și cum putem izola-o pentru a găsi valoarea ei.",
+    "În exemplul nostru, pasul 1 ar fi să scădem 3 din ambele părți ale ecuației, obținând 2x = 4. Apoi, împărțim ambii membri la 2 și găsim că x = 2. Acest proces este esențial pentru a evita greșelile de calcul.",
+    "Este important să verificăm răspunsul obținut prin înlocuirea valorii în ecuație. Dacă 2x + 3 = 7, atunci 2*2 + 3 = 4 + 3 = 7, ceea ce confirmă că răspunsul este corect.",
+    "O greșeală frecventă este să nu scădem 3 din ambele părți, ci doar dintr-o parte. Acest lucru duce la o ecuație incorectă și la un răspuns eronat. De exemplu, dacă scădem doar 3 din stânga, obținem 2x = 4, dar nu verificăm egalitatea corect.",
+    "Pentru a evita această greșeală, elevii ar trebui să se ghideze după principiul echivalenței: orice operație efectuată pe un membru al ecuației trebuie să fie aplicată și pe celălalt. Acest lucru asigură că relația rămâne valabilă.",
+    "În concluzie, această regulă este esențială pentru a rezolva problemele matematice într-un mod structurat și eficient. Prin identificarea corectă a datelor și aplicarea pașilor logici, elevii pot evita greșelile comune și obține răspunsuri corecte.",
+    "Pentru a reține ideea principală, este important să ne amintim că în orice problemă matematică, primul pas este citirea atentă a cerinței. Apoi, identificăm ce variabile sunt cunoscute și ce relații trebuie aplicate. În final, verificăm răspunsul pentru a ne asigura că este corect."
+  ],
+  "ideiDeRetinut": [
+    "Citirea atentă a cerinței este esențială.",
+    "Identificarea datelor cunoscute și necunoscute.",
+    "Aplicarea pașilor logici în mod echivalent.",
+    "Verificarea răspunsului prin înlocuire."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare ecuație simplă",
+    "enunt": "Să se rezolve ecuația: 2x + 3 = 7.",
+    "rezolvareScurta": [
+      "Scădem 3 din ambele părți: 2x = 4.",
+      "Împărțim la 2: x = 2."
+    ],
+    "raspuns": "x = 2"
+  },
+  "verificareRapida": {
+    "intrebare": "Rezolvați ecuația: 3y + 5 = 14.",
+    "variante": [
+      "y = 3",
+      "y = 4",
+      "y = 2",
+      "y = 5"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Scădem 5 din ambele părți: 3y = 9. Împărțim la 3: y = 3."
+  }
+}

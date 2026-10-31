@@ -1,0 +1,39 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip vom învăța cum să adunăm numerele cu semn, folosind o regulă simplă și eficientă. Vom explica pas cu pas cum funcționează această regulă, vom face un exemplu clar și vom verifica dacă răspunsul este corect.",
+    "scenariu": [
+      "În acest videoclip vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o parte esențială a matematicii, iar cunoașterea regulilor corecte ne ajută să facem calcule rapide și exacte.",
+      "Regula pentru adunarea numerelor cu semn se bazează pe semnele lor. Dacă avem două numere pozitive, le adunăm ca și cum ar fi numere naturale. Dacă sunt ambele negative, le adunăm și le păstrăm cu semnul negativ.",
+      "Dacă un număr este pozitiv și celălalt este negativ, trebuie să vedem care dintre ei are valoarea absolută mai mare. Apoi, rezultatul va avea semnul numărului cu valoarea absolută mai mare, iar modulul va fi diferența dintre cele două.",
+      "De exemplu, dacă adunăm 5 și -3, avem un număr pozitiv și unul negativ. Valoarea absolută a lui 5 este mai mare decât cea a lui 3, deci rezultatul va fi pozitiv, iar modulul va fi 2. Deci, 5 + (-3) = 2.",
+      "Vom verifica dacă acest răspuns este corect. Dacă adunăm 5 și -3, putem gândi că scădem 3 din 5, ceea ce ne dă tot 2. Așadar, răspunsul este corect.",
+      "O greșeală frecventă este să adunăm direct numerele fără a ține cont de semne. De exemplu, dacă cineva adună 5 și -3 ca și cum ar fi 5 + 3 = 8, acest răspuns este greșit.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că atunci când avem un număr pozitiv și unul negativ, trebuie să facem diferența dintre valorile absolute și să păstrăm semnul celui mai mare.",
+      "O altă confuzie este să considerăm că adunarea numerelor cu semn este la fel ca scăderea. De exemplu, dacă cineva crede că 5 + (-3) = 5 - 3 = 2, acest lucru este corect, dar nu trebuie să uităm că regula se aplică doar în cazul când avem un semn pozitiv și unul negativ.",
+      "Pentru a reține mai bine această regulă, putem folosi o metodă simplă: adunăm valorile absolute, apoi păstrăm semnul celui mai mare. Dacă sunt ambele pozitive sau ambele negative, le adunăm și păstrăm semnul.",
+      "Vom face încă un exemplu pentru a ne asigura că înțelegem bine regula. Să adunăm -7 și -2. Ambele sunt negative, deci le adunăm ca și cum ar fi 7 + 2 = 9, iar semnul rămâne negativ. Deci, -7 + (-2) = -9."
+    ],
+    "ideiDeRetinut": [
+      "Regula pentru adunarea numerelor cu semn se bazează pe semnele lor.",
+      "Dacă avem două numere pozitive, le adunăm ca și cum ar fi numere naturale.",
+      "Dacă avem două numere negative, le adunăm și păstrăm semnul negativ."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: 5 + (-3) = ?",
+      "raspunsCorect": 2,
+      "explicatie": "Avem un număr pozitiv și unul negativ. Valoarea absolută a lui 5 este mai mare decât cea a lui 3, deci rezultatul va fi pozitiv. Modulul este diferența dintre valorile absolute: 5 - 3 = 2."
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul adunării: 7 + (-4)?",
+      "variante": [
+        "-11",
+        "3",
+        "-3",
+        "11"
+      ],
+      "raspunsCorect": 1
+    }
+  }
+}

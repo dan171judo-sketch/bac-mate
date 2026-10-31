@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă importantă în matematică, care este folosită frecvent în problemele de calcul algebric. Regula se referă la modul în care se simplifică fracțiile sau se reduc termenii asemenea într-un exercițiu. Este o regulă esențială pentru a evita greșelile comune și pentru a obține rezultate corecte.",
+    "Elevul trebuie să înțeleagă că simplificarea fracțiilor sau reducerea termenilor asemenea nu este doar o etapă de finalizare, ci parte integrantă a procesului de rezolvare. Fără această regulă, exercițiile pot fi greșite chiar dacă pasul inițial pare corect.",
+    "Regula spune că într-o fracție, numărătorul și numitorul pot fi împărțiți la același factor, dar doar atunci când acesta este comun pentru ambele. De exemplu, dacă avem 6/12, putem simplifica prin 6, obținând 1/2. Acest lucru se aplică doar atunci când factorul împărțitor este divizor al ambelor numere.",
+    "Motivul pentru care această regulă funcționează este că înmulțirea sau împărțirea unei fracțiilor la același factor nu schimbă valoarea ei. Așadar, simplificarea este o metodă eficientă de a obține o formă mai compactă și mai ușor de lucrat cu.",
+    "Metoda de lucru implică identificarea unui factor comun pentru numărător și numitor, apoi împărțirea ambelor la acel factor. Este important să verificăm dacă acest factor este divizor al ambelor numere înainte de a-l folosi.",
+    "Să luăm un exemplu concret: 15/20. În acest caz, ambele numere sunt divizibile cu 5. Prin împărțirea la 5, obținem 3/4. Acest rezultat este echivalent cu fracția inițială, dar mai simplificată.",
+    "Pentru a verifica dacă am făcut corect calculul, putem înmulți numărătorul și numitorul al noii fracții prin acel factor comun. Dacă obținem valoarea inițială, atunci simplificarea este corectă.",
+    "O greșeală frecventă este să împărțim doar unul dintre numere la un factor, fără a verifica dacă acesta este divizor al celuilalt. De exemplu, în fracția 15/20, dacă împărțim doar numitorul la 5, obținem 15/4, ceea ce este incorect.",
+    "Pentru a evita această greșeală, elevul trebuie să verifice întotdeauna dacă factorul împărțitor este divizor al ambelor numere. Dacă nu este, simplificarea nu este posibilă și trebuie să se gândească la o altă metodă.",
+    "În concluzie, regula de simplificare a fracțiilor este esențială pentru a obține rezultate corecte. Este important să aplicăm această regulă în mod corect și să verificăm întotdeauna dacă factorul împărțitor este comun pentru ambele numere.",
+    "Pentru a recapitula, simplificarea fracțiilor se face prin împărțirea numărătorului și numitorului la același factor, doar atunci când acesta este divizor al ambelor. Acest lucru asigură că valoarea fracției rămâne neschimbată, dar forma devine mai simplă."
+  ],
+  "ideiDeRetinut": [
+    "Simplificarea fracțiilor se face prin împărțirea numărătorului și numitorului la același factor.",
+    "Factorul împărțitor trebuie să fie divizor al ambelor numere.",
+    "Verificarea este esențială pentru a evita greșelile comune.",
+    "Fracțiile simplificate sunt echivalente cu cele inițiale."
+  ],
+  "exemplu": {
+    "titlu": "Simplificarea fracției 15/20",
+    "enunt": "Simplifică fracția 15/20.",
+    "rezolvareScurta": [
+      "Identificăm un factor comun al numerelor 15 și 20. Factorul este 5.",
+      "Împărțim numărătorul (15) la 5, obținem 3.",
+      "Împărțim numitorul (20) la 5, obținem 4.",
+      "Fracția simplificată este 3/4."
+    ],
+    "raspuns": "3/4"
+  },
+  "verificareRapida": {
+    "intrebare": "Simplifică fracția 18/24.",
+    "variante": [
+      "3/4",
+      "2/3",
+      "1/2",
+      "9/12"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Fracția 18/24 poate fi simplificată prin împărțirea la 6, obținând 3/4. Varianta corectă este a doua."
+  }
+}

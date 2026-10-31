@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru negația propozițiilor compuse",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile de negație pentru propozițiile compuse, cum se aplică acestea în practică și ce metode putem folosi pentru a evita greșelile comune. Vom analiza pașii necesari pentru a nega o propoziție logică corect și eficient.",
+    "scenariu": [
+      "În videoclipul precedent, am învățat ce înseamnă negarea unei propoziții simple. Acum, vom extinde cunoștințele noastre pentru a aborda negația unor propoziții compuse, adică cele care conțin mai multe afirmații legate prin operatori logici.",
+      "Propozițiile compuse pot fi construite din două sau mai multe propoziții simple unite de operatori precum 'și', 'sau' sau 'dacă... atunci'. Negarea acestor structuri necesită o abordare specifică, care nu este doar negarea fiecărei componente, ci și respectarea regulilor logice.",
+      "Pentru a nega o propoziție compusă prin disjuncție („sau”), trebuie să folosim regula de negație: ¬(p ∨ q) = ¬p ∧ ¬q. Acest lucru înseamnă că, dacă o propoziție este formată din două afirmații unite prin „sau”, negarea ei va fi compusă din negarea fiecărei componente unite prin „și”.",
+      "De exemplu, dacă spunem: „7 este impar sau 9 este par”, negația acestei propoziții ar fi: „7 nu este impar și 9 nu este par”. Acest lucru se aplică pentru a obține o afirmație logic echivalentă cu negarea inițială.",
+      "Regula de negație pentru conjuncție („și”) este similară. Dacă avem o propoziție compusă prin „și”, negarea ei va fi: ¬(p ∧ q) = ¬p ∨ ¬q. Acest lucru înseamnă că, dacă o propoziție este formată din două afirmații unite prin „și”, negarea ei va fi compusă din negarea fiecărei componente unite prin „sau”.",
+      "Este important să înțelegem de ce aceste reguli funcționează. Logica propozițională este construită pe principiul dualității: fiecare operator are o formă de negație care îl transformă într-un alt operator, dar păstrează valoarea logică a întregii propoziții.",
+      "Metoda de lucru pentru negarea unei propoziții compuse este următoarea: identificăm tipul de operator folosit („sau”, „și” sau „dacă... atunci”), apoi aplicăm regula corespunzătoare, negând fiecare componentă și schimbând operatorul în funcție de regulă.",
+      "Să luăm un exemplu concret. Dacă avem propoziția: „7 este impar și 9 este par”, negarea ei va fi: „7 nu este impar sau 9 nu este par”. Acest lucru se aplică pentru a obține o afirmație logic echivalentă cu negația inițială.",
+      "O greșeală frecventă este să negăm doar o parte din propoziție, fără a respecta regula de negație. De exemplu, dacă cineva negă doar prima componentă, obține o afirmație care nu este echivalentă cu negația corectă.",
+      "Pentru a evita această greșeală, elevii trebuie să identifice clar operatorul folosit în propoziție și să aplice regula corespunzătoare. Este important să se verifice rezultatul negației prin substituire sau prin tabel de adevăr.",
+      "Recapitulăm: pentru a nega o propoziție compusă, identificăm operatorul, aplicăm regula corespunzătoare și negăm fiecare componentă. Acest lucru garantează că negația este logic echivalentă cu propoziția inițială.",
+      "În concluzie, negarea unei propoziții compuse se face prin respectarea unor reguli bine definite, care depind de tipul operatorului folosit. Metoda de lucru implică identificarea corectă a componentelor și aplicarea regulii corespunzătoare."
+    ],
+    "ideiDeRetinut": [
+      "Negația unei propoziții compuse prin disjuncție este echivalentă cu negarea fiecărei componente unite prin conjuncție.",
+      "Regula de negație pentru conjuncție implică schimbarea operatorului în disjuncție și negarea fiecărei componente.",
+      "Este esențial să identificăm corect tipul de propoziție compusă (disjuncție sau conjuncție) pentru a aplica regula potrivită."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Negația unei propoziții compuse prin disjuncție",
+      "enunt": "7 este impar sau 9 este par.",
+      "rezolvareScurta": [
+        "Identificăm operatorul: 'sau' (disjuncție).",
+        "Aplicăm regula de negație: ¬(p ∨ q) = ¬p ∧ ¬q."
+      ],
+      "raspuns": "'7 nu este impar și 9 nu este par.'"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este negația propoziției: '7 este impar sau 9 este par'?",
+      "variante": [
+        "'7 este par și 9 este par'",
+        "'7 nu este impar și 9 nu este par'",
+        "'7 este par sau 9 este par'",
+        "'7 nu este impar sau 9 nu este par'"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Negația unei propoziții compuse prin disjuncție se obține prin negarea fiecărei componente și conectarea lor cu 'și'."
+    }
+  }
+}

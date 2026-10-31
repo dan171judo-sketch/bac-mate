@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea intersecției cu axa Oy cu cea cu axa Ox",
+      "deCeEsteGresit": "Intersecția cu axa Oy se obține pentru x = 0, iar cea cu axa Ox pentru f(x) = 0. Elevii pot confunda cele două puncte.",
+      "cumOEviti": "Reamintiți-vă că intersecția cu Oy este (0, f(0)), iar cu Ox este (x, 0)."
+    },
+    {
+      "greseala": "Interpretarea greșită a simetriei față de origine",
+      "deCeEsteGresit": "Simetria față de origine implică f(-x) = -f(x), dar elevii pot confunda aceasta cu simetria față de axa Oy.",
+      "cumOEviti": "Verificați dacă punctele (-x, y) și (x, -y) sunt prezențe simultan pe grafic."
+    },
+    {
+      "grese,ala": "Neglijarea semnului funcției într-o zonă a graficului",
+      "deCeEsteGresit": "Semnul funcției se deduce din poziția punctelor față de axa Ox. Elevii pot ignora această informație.",
+      "cumOEviti": "Analizați pozitia fiecărui punct în raport cu axa Ox pentru a determina semnul funcției."
+    },
+    {
+      "greseala": "Eroare la identificarea intervalului de monotonia",
+      "deCeEsteGresit": "Monotonia se referă la comportamentul funcției pe un interval, dar elevii pot extinde concluziile în afara intervalului dat.",
+      "cumOEviti": "Limitați analiza la intervalul specificat și evitați generalizarea incorectă."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul unei funcții este format din puncte de forma (x, f(x)).",
+      "Monotonia se deduce prin analiza poziției punctelor pe grafic.",
+      "Simetria față de origine implică f(-x) = -f(x).",
+      "Semnul funcției este determinat de poziția punctelor în raport cu axa Ox."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identificați intersecțiile graficului cu axele de coordonate.",
+      "Determinați monotonia funcției din grafic.",
+      "Recunoașteți simetria față de origine sau față de axa Oy.",
+      "Interpretați semnul funcției în funcție de poziția punctelor."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Lectura graficului este o competență esențială pentru examen, oferind un mod vizual de a analiza proprietățile funcțiilor.",
+    "tipuriCerinte": [
+      "Identificarea intersecțiilor cu axele de coordonate",
+      "Determinarea monotonicității dintr-un grafic",
+      "Recunoașterea simetriei față de origine sau față de Oy",
+      "Interpretarea semnului funcției în funcție de poziția punctelor"
+    ],
+    "strategie": [
+      "Analizați graficul pas cu pas, identificând toate caracteristicile cerute.",
+      "Verificați dacă concluziile sunt justificate prin observarea directă a graficului.",
+      "Evitați generalizările incorecte și respectați limitele intervalului analizat.",
+      "Antrenați-vă să recunoașteți simetria și semnul funcției dintr-o reprezentare vizuală."
+    ]
+  }
+}

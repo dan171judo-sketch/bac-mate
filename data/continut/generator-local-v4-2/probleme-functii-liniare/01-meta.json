@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Aplicarea funcțiilor liniare în probleme practice",
+  "descriere": "Lectia se concentrează pe utilizarea funcțiilor liniare pentru modelarea și rezolvarea de probleme din viața reală.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe despre funcții liniare",
+    "Reprezentarea grafică a funcțiilor liniare",
+    "Calculul valorilor funcției într-un punct dat"
+  ],
+  "obiective": [
+    "Să identifice probleme care pot fi modelate prin funcții liniare",
+    "Să interpreteze parametrii funcției liniare în contexte practice",
+    "Să rezolve probleme folosind ecuații și inecuații liniare",
+    "Să analizeze soluțiile obținute în raport cu contextul problemei"
+  ],
+  "termeniCheie": [
+    "funcție liniară",
+    "model matematic",
+    "ecuație liniară",
+    "reprezentare grafică"
+  ]
+}

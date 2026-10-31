@@ -1,0 +1,42 @@
+{
+  "definitii": [
+    {
+      "termen": "inecuatie",
+      "definitie": "O propozitie care exprima o relatie de egalitate intre doua expresii algebrice, in care apare cel putin o variabila si este legata de un semn de neegalitate (>, <, ≥, ≤).",
+      "observatie": "Inecuațiile pot fi de gradul I sau de grad mai mare."
+    },
+    {
+      "termen": "inecuatie de gradul I",
+      "definitie": "O inecuatie care poate fi scrisa sub forma ax + b > 0, unde a și b sunt numere reale, iar x este variabila necunoscută.",
+      "observatie": "Gradul inecuației se referă la cel mai mare exponent al variabilei."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea inecuațiilor de gradul I",
+      "explicatie": "O inecuatie de gradul I este o inecuatie care are forma ax + b > 0, unde a și b sunt numere reale, iar x este variabila necunoscută. Semnul inecuației poate fi >, <, ≥ sau ≤.",
+      "ideiCheie": [
+        "Forma generală este ax + b > 0",
+        "Variabila are exponentul 1"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Rezolvarea inecuațiilor de gradul I",
+      "explicatie": "Pentru a rezolva o inecuatie de gradul I, se aduce expresia la forma ax > -b. Apoi, se împarte ambele părți prin coeficientul a, având grijă să se inverseze semnul inecuației dacă a este negativ.",
+      "ideiCheie": [
+        "Se aduce inecuația la forma ax > -b",
+        "Se împarte prin a, cu atenție la semn"
+      ]
+    },
+    {
+      " ": "explicatie”: “Soluțiile unei inecuații de gradul I sunt toate valorile variabilei x care satisfac inecuația. Acestea pot fi reprezentate pe axa numerelor sub forma unui interval.",
+      "ideiCheie": [
+        "Soluția este o mulțime de valori",
+        "Se folosește axa numerelor pentru interpretare"
+      ]
+    }
+  ],
+  "formule": []
+}

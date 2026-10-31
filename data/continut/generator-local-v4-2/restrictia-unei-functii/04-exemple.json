@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Restricția funcției f(x) = x² pe intervalul [0, 2]",
+      "nivel": "fundament",
+      "enunt": "Fie funcția f: ℝ → ℝ definită prin f(x) = x². Se cere să se definească restricția funcției f pe intervalul [0, 2].",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea domeniului de definiție al funcției inițiale",
+          "continut": "Funcția f(x) = x² este definită pe mulțimea numerelor reale, adică Df = ℝ."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [0, 2] este o funcție g: [0, 2] → ℝ definită prin g(x) = x²."
+        }
+      ],
+      "raspunsFinal": "Restricția funcției f pe intervalul [0, 2] este funcția g: [0, 2] → ℝ, g(x) = x².",
+      "verificare": "Domeniul de definiție al restricției este o submulțime a domeniului inițial, iar codomeniul rămâne același."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Restricția funcției f(x) = √x pe intervalul [1, 4]",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: [0, ∞) → ℝ definită prin f(x) = √x. Se cere să se definească restricția funcției f pe intervalul [1, 4].",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul [1, 4] este inclus în domeniul de definiție al funcției f, care este [0, ∞)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [1, 4] este o funcție g: [1, 4] → ℝ definită prin g(x) = √x."
+        }
+      ],
+      "raspunsFinal": "Restricția funcției f pe intervalul [1, 4] este funcția g: [1, 4] → ℝ, g(x) = √x.",
+      "verificare": "Domeniul de definiție al restricției este inclus în domeniul inițial, iar codomeniul rămâne același."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Restricția funcției f(x) = 1/x pe intervalul (0, 2]",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: ℝ\\{0} → ℝ definită prin f(x) = 1/x. Se cere să se definească restricția funcției f pe intervalul (0, 2].",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul (0, 2] este inclus în domeniul de definiție al funcției f, care este ℝ\\{0}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe (0, 2] este o funcție g: (0, 2] → ℝ definită prin g(x) = 1/x."
+        }
+      ],
+      "raspunsFinal": "Restricția funcției f pe intervalul (0, 2] este funcția g: (0, 2] → ℝ, g(x) = 1/x.",
+      "verificare": "Domeniul de definiție al restricției este inclus în domeniul inițial, iar codomeniul rămâne același."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Restricția funcției f(x) = x³ - 3x pe intervalul [-2, 1]",
+      "nivel": "avansat",
+      "enunt": "Fie funcția f: ℝ → ℝ definită prin f(x) = x³ - 3x. Se cere să se definească restricția funcției f pe intervalul [-2, 1].",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul [-2, 1] este inclus în domeniul de definiție al funcției f, care este ℝ."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [-2, 1] este o funcție g: [-2, 1] → ℝ definită prin g(x) = x³ - 3x."
+        }
+      ],
+      "raspunsFinal": "Restricția funcției f pe intervalul [-2, 1] este funcția g: [-2, 1] → ℝ, g(x) = x³ - 3x.",
+      "verificare": "Domeniul de definiție al restricției este inclus în domeniul inițial, iar codomeniul rămâne același."
+    }
+  ]
+}

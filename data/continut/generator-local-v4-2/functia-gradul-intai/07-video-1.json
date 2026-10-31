@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea inmultirii expresiilor algebrice",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 oferă o introducere intuitivă și pedagogică în procesul de înmulțire a expresiilor algebrice. Aici se explică cum funcționează înmulțirea termenilor, de ce este importantă această regulă și cum putem aplica-o corect.",
+    "scenariu": [
+      "În matematică, uneori ne întâlnim cu expresii care par complicate, dar dacă le descompunem în mod logic, devin mult mai ușor de înțeles. În acest video vom explora cum putem înmulți două expresii algebrice și ce se întâmplă exact în timpul acestei operații.",
+      "Să începem cu o idee simplă: când înmulțim două numere, de exemplu 2 × 3, obținem 6. Dar ce se întâmplă dacă avem expresii cu litere? De exemplu, (x + 1) × (x - 1). Aici nu este doar o înmulțire a numerelor, ci o combinație de termeni care trebuie tratati cu atenție.",
+      "În matematică, fiecare termen dintr-o paranteză se înmulțește cu fiecare termen din cealaltă paranteză. Acest lucru este cunoscut ca „regula distributivă” și este esențial pentru a evita greșelile comune.",
+      "De exemplu, dacă avem (2x + 3) × (x - 1), putem înmulți fiecare termen din prima paranteză cu fiecare termen din cea de-a doua. Astfel, obținem patru termeni: 2x × x, 2x × (-1), 3 × x și 3 × (-1).",
+      "Această metodă este importantă pentru că ne ajută să evităm erorile care pot apărea atunci când nu respectăm ordinea operațiilor sau nu înmulțim toate perechile de termeni. Fără această regulă, putem obține rezultate greșite.",
+      "Să luăm un exemplu concret: (2x + 3) × (x - 1). În primul pas, înmulțim 2x cu x, ceea ce ne dă 2x². Apoi, înmulțim 2x cu -1, obținând -2x. Următorul pas este să înmulțim 3 cu x, rezultând 3x, iar în final, 3 × (-1) = -3.",
+      "Acum adunăm toate aceste termene: 2x² - 2x + 3x - 3. Observăm că -2x și 3x se pot simplifica în x, deci rezultatul final este 2x² + x - 3. Acesta este un exemplu clar de cum funcționează regula distributivă.",
+      "Este important să ne amintim că înmulțirea termenilor nu se face doar între numere, ci și între litere. De exemplu, x × x = x², iar x × 3 = 3x. Acest lucru este esențial pentru a evita confuzii.",
+      "O greșeală frecventă este să uiteți să înmulțiți toate perechile de termeni. De exemplu, dacă nu înmulțiți 3 cu -1, veți obține un rezultat incorect. Acest lucru arată că regula distributivă trebuie aplicată cu atenție.",
+      "Pentru a evita astfel de greșeli, este util să folosim o metodă pașa-pas: înmulțim fiecare termen din prima paranteză cu fiecare termen din cea de-a doua și apoi adunăm toate rezultatele. Acest proces este clar și ușor de urmărit.",
+      "În concluzie, înmulțirea expresiilor algebrice este o metodă logică care ne ajută să descompunem probleme complexe în pași mai simpli. Prin înțelegerea regulii distributive și aplicarea ei corectă, putem obține rezultate exacte.",
+      "Așadar, în acest video am învățat cum funcționează înmulțirea expresiilor algebrice, de ce este importantă această metodă și cum putem aplica-o corect pentru a evita greșelile comune."
+    ],
+    "ideiDeRetinut": [
+      "Înmulțirea termenilor dintr-o paranteză cu fiecare termen din cealaltă paranteză este esențială.",
+      "Regula distributivă este cheia pentru a evita greșelile comune în această operație.",
+      "Fiecare pas trebuie urmat cu atenție, de la înmulțirea termenilor până la adunarea rezultatelor."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: (2x + 3)(x - 1)",
+      "enunt": "Care este rezultatul înmulțirii expresiilor (2x + 3) și (x - 1)?",
+      "rezolvareScurta": [
+        "Înmulțim fiecare termen din prima paranteză cu fiecare termen din cea de-a doua.",
+        "Obținem: 2x² - 2x + 3x - 3 = 2x² + x - 3."
+      ],
+      "raspuns": "2x² + x - 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Care dintre următoarele expresii este echivalentă cu (2x + 3)(x - 1)?",
+      "variante": [
+        "2x² + x - 3",
+        "2x² - x - 3",
+        "2x² + x + 3",
+        "2x² - x + 3"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Rezultatul corect este 2x² + x - 3, obținut prin înmulțirea fiecărui termen din prima paranteză cu fiecare termen din cea de-a doua și adunarea rezultatelor."
+    }
+  }
+}

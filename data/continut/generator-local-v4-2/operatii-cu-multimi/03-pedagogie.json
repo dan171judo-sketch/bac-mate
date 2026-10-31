@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă reuniunea cu intersecția, considerând că reuniunea include doar elementele comune.",
+      "deCeEsteGresit": "Reuniunea include toate elementele din ambele mulțimi, în timp ce intersecția include doar cele comune.",
+      "cumOEviti": "Desenează diagrame Venn pentru fiecare operație și verifică dacă elementele sunt incluse corect."
+    },
+    {
+      "greseala": "Include elemente duplicate în reuniune, fără a le elimina.",
+      "deCeEsteGresit": "Reuniunea nu permite repetarea elementelor; fiecare element trebuie să aparțină doar o dată.",
+      "cumOEviti": "Verifică dacă un element apare în ambele mulțimi și elimină-l din reuniune."
+    },
+    {
+      "greseala": "Crede că intersecția este mulțimea vidă chiar dacă există elemente comune.",
+      "deCeEsteGresit": "Intersecția este mulțimea vidă doar dacă nu există niciun element comun între cele două mulțimi.",
+      "cumOEviti": "Analizează fiecare element din ambele mulțimi și identifică cel puțin unul comun."
+    },
+    {
+      "greseala": "Neglijează diferența dintre mulțimi, considerând că este doar o listă de elemente dintr-o singură mulțime.",
+      "deCeEsteGresit": "Diferența dintre mulțimi implică eliminarea tuturor elementelor dintr-o mulțime care aparțin celei de-a doua.",
+      "cumOEviti": "Folosește diagrame Venn și eliminați pas cu pas elementele dintr-o mulțime."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Reuniunea include toate elementele din ambele mulțimi, fără repetiții.",
+      "Intersecția include doar elementele comune dintre cele două mulțimi.",
+      "Diferența dintre mulțimi este mulțimea elementelor care aparțin unei mulțimi dar nu ale celei de-a doua.",
+      "Simbolurile specifice sunt ∪ pentru reuniune, ∩ pentru intersecție și \\\\' pentru diferență."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă elementele sunt incluse corect în reuniune.",
+      "Identifică elementele comune între mulțimi pentru intersecție.",
+      "Asigură-te că diferența elimină toate elementele dintr-o mulțime care aparțin celei de-a doua.",
+      "Folosește diagrame Venn pentru a vizualiza operațiile cu mulțimi."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Operațiile cu mulțimi sunt fundamentale în matematică și apar frecvent în subiectele de Bac, mai ales în problemele care implică analiza datelor sau identificarea relațiilor dintre elemente.",
+    "tipuriCerinte": [
+      "Identificarea elementelor din reuniune, intersecție sau diferență",
+      "Rezolvarea de probleme folosind operațiile cu mulțimi",
+      "Interpretarea unor diagrame Venn în contextul unei probleme"
+    ],
+    "strategie": [
+      "Învață simbolurile specifice și practică identificarea elementelor din fiecare operație.",
+      "Folosește diagrame Venn pentru a vizualiza mai clar relațiile dintre mulțimi.",
+      "Verifică întotdeauna dacă elementele sunt incluse corect în reuniune sau intersecție.",
+      "Antrenează-te să rezolvi probleme simple cu diferența dintre mulțimi."
+    ]
+  }
+}

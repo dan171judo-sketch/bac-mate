@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 3,
+    "id": "video-3",
+    "titlu": "Reuniunea și intersecția mulțimilor – un exemplu complet rezolvat pas cu pas",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom explora în mod detaliat cum se calculează reuniunea și intersecția dintre două mulțimi. Vom folosi un exemplu concret pentru a vedea cum se aplică aceste operații matematice și cum se evită greșelile comune.",
+    "scenariu": [
+      "În acest videoclip, vom explora în mod detaliat cum se calculează reuniunea și intersecția dintre două mulțimi. Aceste concepte sunt fundamentale în matematică și apar frecvent în problemele de logică și teoria mulțimilor.",
+      "Vom folosi un exemplu concret pentru a vedea cum se aplică aceste operații matematice. Înainte de a rezolva problema, este important să înțelegem ce înseamnă fiecare din cele două concepte: reuniunea și intersecția.",
+      "Reuniunea a două mulțimi este o mulțime care conține toate elementele din ambele mulțimi, fără repetiție. Intersecția, pe de altă parte, este o mulțime care conține doar elementele comune celor două mulțimi.",
+      "Este important să înțelegem de ce aceste operații funcționează așa. Reuniunea adună toate elementele, iar intersecția le păstrează doar pe cele care apar în ambele mulțimi. Acest lucru este esențial pentru a evita erori în calcule.",
+      "Pentru a rezolva o problemă de acest tip, trebuie să urmăm pașii corecți: mai întâi calculăm intersecția dintre cele două mulțimi, apoi luăm reuniunea dintre rezultatul obținut și a treia mulțime.",
+      "Vom folosi un exemplu concret pentru a vedea cum se aplică aceste pași. Fie mulțimile A = {1, 2}, B = {2, 3} și C = {3, 4}. Vom calcula intersecția dintre A și B, apoi reuniunea dintre rezultatul obținut și mulțimea C.",
+      "Începem cu intersecția dintre A și B. Elementele comune sunt doar numărul 2, deci intersecția este {2}.",
+      "Acum luăm reuniunea dintre {2} și {3, 4}. Reuniunea trebuie să conțină toate elementele din ambele mulțimi, fără repetiție. Deci, vom obține {2, 3, 4}.",
+      "Este important să verificăm dacă rezultatul este corect. Verificarea se face prin comparare cu pașii de calcul și prin analiza fiecărui element din mulțimi.",
+      "O greșeală frecventă pe care o pot face elevii este să includă elemente care nu apar în ambele mulțimi, sau să le ignore. De exemplu, dacă se uită la intersecție și adaugă elemente dintr-o singură mulțime, rezultatul va fi greșit.",
+      "Pentru a evita această greșeală, este important să verificăm fiecare pas al calculelor. De asemenea, putem folosi metoda de listare a elementelor pentru a ne asigura că nu am uitat niciunul.",
+      "În concluzie, reuniunea și intersecția sunt operații esențiale în teoria mulțimilor. Prin exerciții repetate și o atitudine de verificare constantă, putem evita greșelile comune și obține rezultate corecte."
+    ],
+    "ideiDeRetinut": [
+      "Reuniunea adună toate elementele din ambele mulțimi.",
+      "Intersecția păstrează doar elementele comune dintre cele două mulțimi.",
+      "Verificarea fiecărui pas este esențială pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Calculul reuniunii intersecției dintre A și B cu C",
+      "enunt": "Fie mulțimile A = {1, 2}, B = {2, 3} și C = {3, 4}. Calculați reuniunea intersecției dintre A și B cu mulțimea C.",
+      "rezolvareScurta": [
+        "Intersecția dintre A și B este {2}.",
+        "Reuniunea dintre {2} și {3, 4} este {2, 3, 4}."
+      ],
+      "raspuns": "{2, 3, 4}"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este reuniunea intersecției dintre A = {1, 2}, B = {2, 3} și C = {3, 4}?",
+      "variante": [
+        "{1, 2, 3}",
+        "{2, 3, 4}",
+        "{1, 2, 3, 4}",
+        "{2, 3}"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Intersecția dintre A și B este {2}, iar reuniunea cu C este {2, 3, 4}."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip, vom învăța cum să adunăm numerele cu semn folosind o regulă simplă și eficientă. Vom explica pas cu pas cum funcționează această regulă, vom oferi un exemplu clar și vom verifica dacă rezultatul este corect.",
+    "scenariu": [
+      "În acest videoclip, vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o parte esențială a matematicii și apare frecvent în probleme de tipul: 5 + (-3) sau -2 + (-4).",
+      "Regula pentru adunarea numerelor cu semn se bazează pe semnele celor două numere. Dacă ambele sunt pozitive, le adunăm ca și cum ar fi numere naturale. Dacă ambele sunt negative, le adunăm și le păstrăm cu semnul minus.",
+      "Dacă un număr este pozitiv și celălalt este negativ, trebuie să vedem care dintre ei are valoarea absolută mai mare. Apoi, rezultatul va avea semnul numărului cu valoarea absolută mai mare, iar modulul va fi diferența dintre cele două.",
+      "De exemplu, dacă avem 7 + (-4), ambele numere au semne diferite. Valoarea absolută a lui 7 este 7, iar cea a lui -4 este 4. Deci, 7 e mai mare decât 4. Rezultatul va fi pozitiv și va fi 3.",
+      "Vom verifica dacă acest rezultat este corect. Dacă adunăm 7 și -4, înseamnă că scădem 4 din 7, ceea ce dă 3. Așadar, regulă funcționează corect.",
+      "O greșeală frecventă este să adunăm direct numerele fără a ține cont de semne. De exemplu, dacă cineva face 7 + (-4) ca și cum ar fi 7 + 4 = 11, acesta este un rezultat greșit.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că semnul are rol important. Dacă un număr este pozitiv și celălalt negativ, trebuie să comparăm valorile absolute și să folosim semnul celui mai mare.",
+      "Un alt lucru important este să știm ce înseamnă valoarea absolută a unui număr. Valoarea absolută este distanța de la zero pe axa numerelor, deci este întotdeauna pozitivă. Astfel, |7| = 7 și |-4| = 4.",
+      "Vom face o verificare rapidă pentru a ne asigura că am înțeles bine regula. În această verificare, vom avea patru variante de răspuns și doar una va fi corectă.",
+      "În concluzie, adunarea numerelor cu semn se face prin compararea semnelor și a valorilor absolute. Regula este simplă, dar trebuie aplicată cu atenție pentru a evita greșelile comune."
+    ],
+    "ideiDeRetinut": [
+      "Regula adunării numerelor cu semn se bazează pe semnele și valorile absolute ale numerelor.",
+      "Dacă ambele numere sunt pozitive, le adunăm ca și cum ar fi numere naturale.",
+      "Dacă ambele sunt negative, le adunăm și păstrăm semnul minus."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: 7 + (-4).",
+      "pas1": "Identificăm semnele numerelor. Unul este pozitiv, iar celălalt este negativ.",
+      "pas2": "Comparam valorile absolute: |7| = 7 și |-4| = 4. Deci, 7 e mai mare decât 4.",
+      "pas3": "Rezultatul va avea semnul numărului cu valoarea absolută mai mare (pozitiv), iar modulul va fi diferența dintre valorile absolute: 7 - 4 = 3.",
+      "raspunsFinal": "3"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul adunării: 8 + (-5)?",
+      "varianta0": "13",
+      "varianta1": "-3",
+      "varianta2": "3",
+      "varianta3": "-13",
+      "raspunsCorect": "2"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă coeficienții ecuației cu soluțiile ei",
+      "deCeEsteGresit": "Coeficienții sunt numerele care înmulțesc variabila, în timp ce soluțiile sunt valorile pe care le înscriem pentru a satisface ecuația.",
+      "cumOEviti": "Rezolvați întotdeauna ecuația pas cu pas și verificați dacă soluțiile îndeplinesc condiția."
+    },
+    {
+      "greseala": "Calculează discriminantul fără a respecta ordinea operațiilor",
+      "deCeEsteGresit": "Fără o ordine corectă, pot apărea erori în calculul valorii discriminantului, ceea ce duce la soluții incorecte.",
+      "cumOEviti": "Respectați ordinea operațiilor: mai întâi ridicarea la putere, apoi înmulțirea și scăderea."
+    },
+    {
+      "greseala": "Neglijează condiția $ a \neq 0 $",
+      "deCeEsteGresit": "Dacă $ a = 0 $, ecuația nu mai este de gradul al II-lea ci de gradul I, ceea ce schimbă complet natura soluțiilor.",
+      "cumOEviti": "Verificați întotdeauna dacă $ a \neq 0 $ înainte de a aplica formulele specifice ecuației de gradul al II-lea."
+    },
+    {
+      "greseala": "Interpretează greșit semnul discriminantului",
+      "deCeEsteGresit": "Un discriminant pozitiv indică două soluții reale, unul zero indică o singură soluție reală, iar negativ indică soluții complexe.",
+      "cumOEviti": "Repetați regulile de interpretare înainte de a rezolva exercițiile."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Forma generală a ecuației de gradul al II-lea este $ ax^2 + bx + c = 0 $, cu $ a \neq 0 $.",
+      "Discriminantul indică natura soluțiilor: pozitiv → două soluții reale; zero → o singură soluție reală; negativ → două soluții complexe conjugate.",
+      "Formula discriminantului este $ D = b^2 - 4ac $.",
+      "Metoda completării pătratului poate fi folosită pentru a rezolva ecuațiile de gradul al II-lea în mod alternativ."
+    ],
+    "formuleDeRetinut": [
+      "$ ax^2 + bx + c = 0 $",
+      "$ D = b^2 - 4ac $"
+    ],
+    "checklistElev": [
+      "Verifică dacă $ a \neq 0 $ înainte de a rezolva ecuația.",
+      "Calculează corect discriminantul folosind ordinea operațiilor.",
+      "Interpretează semnul discriminantului corect pentru a determina natura soluțiilor.",
+      "Rezolvă ecuația pas cu pas, verificând dacă soluțiile îndeplinesc condiția."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Ecuația de gradul al II-lea este un subiect esențial pentru examenul de Bacalaureat, fiind prezentă în mai multe tipuri de cerințe.",
+    "tipuriCerinte": [
+      "Rezolvarea unei ecuații de gradul al II-lea folosind formula discriminantului",
+      "Interpretarea naturii soluțiilor în funcție de semnul discriminantului",
+      "Transformarea unei ecuații de gradul al II-lea într-o formă mai simplă prin completare pătrată",
+      "Identificarea coeficienților unei ecuații de gradul al II-lea"
+    ],
+    "strategie": [
+      "Învață bine formula discriminantului și condițiile sale de aplicabilitate.",
+      "Antrenează-te să interpretezi corect semnul discriminantului în funcție de natura soluțiilor.",
+      "Rezolvă exerciții variate pentru a te obișnui cu diferite tipuri de ecuații de gradul al II-lea.",
+      "Verifică întotdeauna dacă ecuația este corect formulată înainte de a aplica metodele de rezolvare."
+    ]
+  }
+}

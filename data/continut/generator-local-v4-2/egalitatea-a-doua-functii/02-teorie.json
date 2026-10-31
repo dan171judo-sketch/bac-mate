@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție",
+      "definitie": "O funcție este o relație între două mulțimi, numite domeniul de definiție și codomeniul, astfel încât fiecare element din domeniul de definiție are exact un element corespunzător în codomeniu.",
+      "observatie": "Funcțiile sunt reprezentate frecvent sub forma f: A → B, unde A este domeniul și B este codomeniul."
+    },
+    {
+      "termen": "egalitatea a două funcții",
+      "definitie": "Două funcții se numesc egale dacă au același domeniu, același codomeniu și pentru fiecare element din domeniu, valorile funcțiilor sunt identice.",
+      "observatie": "Egalitatea funcțiilor nu presupune doar egalitatea valorilor, ci și coerența în definiția lor."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea egalității funcțiilor",
+      "explicatie": "Pentru a stabili dacă două funcții sunt egale, este necesar să se verifice simultan trei condiții: domeniul, codomeniul și valorile funcțiilor.",
+      "ideiCheie": [
+        "Egalitatea funcțiilor presupune același domeniu de definiție.",
+        "Valorile funcțiilor trebuie să fie identice pentru toate elementele din domeniu."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Diferența dintre egalitatea valorilor și egalitatea funcțiilor",
+      "explicatie": "Egalitatea valorilor nu este suficientă pentru a afirma egalitatea funcțiilor. Este necesar ca toate elementele din domeniul de definiție să fie în același mod asociate cu elemente din codomeniu.",
+      "ideiCheie": [
+        "Egalitatea valorilor nu implică egalitatea funcțiilor.",
+        "Funcțiile pot avea valori egale, dar diferite domenii sau codomene."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Condiții pentru egalitatea funcțiilor",
+      "explicatie": "Pentru a demonstra că două funcții sunt egale, trebuie să se verifice în mod clar dacă toate cele trei condiții sunt îndeplinite: domeniu identic, codomeniu identic și valori corespunzătoare.",
+      "ideiCheie": [
+        "Domeniul de definiție trebuie să fie același pentru ambele funcții.",
+        "Codomeniul trebuie să fie identic pentru a se putea compara valorile."
+      ]
+    }
+  ],
+  "formule": []
+}

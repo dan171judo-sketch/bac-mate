@@ -1,0 +1,38 @@
+{
+  "video4": {
+    "id": "video4",
+    "titlu": "Regula pentru identificarea valorii minime a unei expresii algebrice",
+    "descriere": "Un exercitiu de pregatire pentru Bacalaureat, care implica folosirea regulilor de inegalitati si a valorilor extreme ale expresiilor. Scopul este sa inveti cum sa gasești valoarea minima a unei expresii algebrice.",
+    "scenariu": [
+      "Vrei sa invi cum poti gasi valoarea minima a unei expresii algebrice? Acesta este un exercitiu care te ajuta sa intelegi cum se folosesc inegalitatile si valorile extreme. Este important ca ai o strategie clara pentru a rezolva astfel de probleme.",
+      "Cerinta spune: Găsește valoarea minimă a expresiei $ x^2 - 4x + 5 $. Pentru a rezolva aceasta, trebuie sa intelegi cum se comporta o expresie patratica. O expresie de forma $ ax^2 + bx + c $ are un minim sau maxim in functie de semnul lui $ a $.",
+      "Daca $ a > 0 $, parabola deseneaza o curba care se deschide in sus, deci are un punct de minim. Daca $ a < 0 $, parabola se deschide in jos si are un punct de maxim. In cazul nostru, $ a = 1 > 0 $, deci expresia are un minim.",
+      "Pentru a gasi valoarea minima, folosesti formula $ x = -\frac{b}{2a} $. In exemplul nostru, $ b = -4 $, iar $ a = 1 $, deci $ x = -(-4)/(2*1) = 4/2 = 2 $. Acesta este punctul de minim al parabolei.",
+      "Acum inlocuiesti valoarea lui $ x = 2 $ in expresia initiala: $ (2)^2 - 4*(2) + 5 = 4 - 8 + 5 = 1 $. Deci, valoarea minima este 1. Acesta este punctul de minim al parabolei.",
+      "Este important sa verifici rezultatul. Daca ai gresit in calcul, vei obtine o valoare diferita. Verifica fiecare pas: inlocuirea valorii lui $ x $, calculele aritmetice si semnul lui $ a $.",
+      "O greseala frecventa este sa folosesti formula pentru maxim in loc de minim. Daca ai gresit semnul lui $ a $, vei obtine un rezultat eronat. De exemplu, daca crezi ca parabola se deschide in jos, vei calcula un maxim in loc de minim.",
+      "Un alt lucru care poate duce la greseala este sa nu inlocuiesti corect valoarea lui $ x $. Daca ai scris $ x = 2 $ dar inlocuiesti cu $ x = -2 $, vei obtine o valoare gresita. Verifica intotdeauna ca ai folosit valoarea corecta.",
+      "Pentru a evita aceste greseala, este bine sa scrii pas cu pas fiecare etapa: identificarea valorii lui $ a $, calculul lui $ x = -\frac{b}{2a} $, inlocuirea in expresie si verificarea rezultatului.",
+      "In concluzie, pentru a gasi valoarea minima a unei expresii patratice, trebuie sa folosesti formula $ x = -\frac{b}{2a} $, apoi inlocuiesti aceasta valoare in expresia initiala. Verifica fiecare pas si evita greseala de semn sau inlocuire gresita."
+    ],
+    "ideiDeRetinut": [
+      "Expresia patratica are un minim daca $ a > 0 $.",
+      "Formula pentru valoarea minima este $ x = -\frac{b}{2a} $.",
+      "Verifica fiecare pas al calculului pentru a evita greseala."
+    ],
+    "exemplu": {
+      "intrebare": "Găsește valoarea minimă a expresiei $ x^2 - 4x + 5 $.",
+      "raspunsCorect": 1
+    },
+    "verificareRapida": {
+      "intrebare": "Care este valoarea minima a expresiei $ x^2 - 4x + 5 $?",
+      "variante": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "raspunsCorect": 1
+    }
+  }
+}

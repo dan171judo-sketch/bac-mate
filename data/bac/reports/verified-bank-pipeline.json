@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-09-24T13:32:09.978Z",
+  "policy": "NO_AUTO_PUBLISH",
+  "drafts": 6,
+  "eligible": 0,
+  "pending": 6,
+  "invalid": 0,
+  "rows": [
+    {
+      "file": "bac-2026-model-M_mate-info.json",
+      "id": "bac-2026-model-M_mate-info",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "39edb04b0d862c09489a61bc858337fe2a5615b747b3a6604e769e748e8e6a7c"
+    },
+    {
+      "file": "bac-2026-oficial-M_mate-info-2.json",
+      "id": "bac-2026-oficial-M_mate-info-2",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "2b8ab59ef3ac8ebd162f2984386b960d74c9c48b566df66608fbf437d770d16c"
+    },
+    {
+      "file": "bac-2026-oficial-M_mate-info-3.json",
+      "id": "bac-2026-oficial-M_mate-info-3",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "884b4b44a1d50e1b9ef5b35c8c01baa21f6a70e446551be271eb4af558b2142d"
+    },
+    {
+      "file": "bac-2026-oficial-M_mate-info-4.json",
+      "id": "bac-2026-oficial-M_mate-info-4",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "069ccabc0338b4df9f9b2002c9b5be5fefa0f001fa26f3baabf75c04f98a2199"
+    },
+    {
+      "file": "bac-2026-oficial-M_mate-info.json",
+      "id": "bac-2026-oficial-M_mate-info",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "7d70ac798c3befef1e8d705f24c8a022b2ea5b7e6fec40fc03fb6f92b7e66ed6"
+    },
+    {
+      "file": "bac-2026-simulare-M_mate-info.json",
+      "id": "bac-2026-simulare-M_mate-info",
+      "profile": null,
+      "status": "pending-verification",
+      "errors": [
+        "humanVerified=false",
+        "mathVerified=false",
+        "answerKeyVerified=false",
+        "placeholder-present"
+      ],
+      "sha256": "4b4124ac4aa5145bb4a1e05108a1741999ef9e40ab2e7b753e8f86180d31966b"
+    }
+  ]
+}

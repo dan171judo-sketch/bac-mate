@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculati: 12 + (8 × 3).",
+      "variante": [],
+      "raspunsCorect": "36",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Efectuarea inmultirii",
+          "continut": "Inmultim 8 cu 3: 8 × 3 = 24."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea rezultatului",
+          "continut": "Adunam 12 la 24: 12 + 24 = 36."
+        }
+      ],
+      "explicatieFinala": "Rezultatul se obtine prin efectuarea inmultirii si apoi a adunarii.",
+      "competenta": "Efectuarea operatiilor aritmetice cu paranteze.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculati: (18 ÷ 3) + 7.",
+      "variante": [],
+      "raspunsCorect": "13",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Efectuarea impartirii",
+          "continut": "Impartim 18 la 3: 18 ÷ 3 = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea rezultatului",
+          "continut": "Adunam 6 la 7: 6 + 7 = 13."
+        }
+      ],
+      "explicatieFinala": "Rezultatul se obtine prin efectuarea impartirii si apoi a adunarii.",
+      "competenta": "Efectuarea operatiilor aritmetice cu paranteze.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: (14 - 6) × 2?",
+      "variante": [
+        "8",
+        "16",
+        "20",
+        "24"
+      ],
+      "raspunsCorect": "16",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea parantezei",
+          "continut": "Scadem 6 din 14: 14 - 6 = 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Inmultirea rezultatului",
+          "continut": "Inmultim 8 cu 2: 8 × 2 = 16."
+        }
+      ],
+      "explicatieFinala": "Rezultatul se obtine prin inmultirea valorii din paranteza cu 2.",
+      "competenta": "Efectuarea operatiilor aritmetice cu paranteze.",
+      "punctaj": 10
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: (25 + 5) ÷ 5?",
+      "variante": [
+        "4",
+        "6",
+        "10",
+        "30"
+      ],
+      "raspunsCorect": "6",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea parantezei",
+          "continut": "Adunam 25 cu 5: 25 + 5 = 30."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartirea rezultatului",
+          "continut": "Impartim 30 la 5: 30 ÷ 5 = 6."
+        }
+      ],
+      "explicatieFinala": "Rezultatul se obtine prin impartirea valorii din paranteza cu 5.",
+      "competenta": "Efectuarea operatiilor aritmetice cu paranteze.",
+      "punctaj": 10
+    }
+  ]
+}

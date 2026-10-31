@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea conceptului de procent",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora intuitia și importanța conceptului de procent. Vom învăța cum să ne gândim la procente ca la o parte dintr-un întreg, cum să le folosim pentru a rezolva probleme practice și cum să evităm greșelile comune în calculul lor.",
+    "scenariu": [
+      "Începem cu un exemplu simplu: imaginează-ți că ai o cutie cu 100 de mere. Dacă îți iei 20 de mere, atunci ai luat 20 din cele 100, adică 20%. Acest lucru ne arată cum procentul este o modalitate de a exprima o parte dintr-un întreg.",
+      "Procente sunt folosite în viața de zi cu zi: la reduceri, la taxe, la note sau chiar la progresul pe care îl facem într-o sarcină. Înțelegerea lor ne ajută să luăm decizii mai bune și să interpretăm informațiile corect.",
+      "Pentru a calcula un procent dintr-un număr, trebuie să transformăm procentul în fracție. De exemplu, 40% se transformă în 0,4. Apoi, înmulțim acest număr cu valoarea totală pentru a obține rezultatul.",
+      "Această metodă funcționează deoarece procentul este o formă de exprimare a unei fracțiuni dintr-un întreg. Prin urmare, transformarea în fracție ne permite să folosim matematica pentru a calcula exact ce parte reprezintă un anumit procent.",
+      "Vom folosi un exemplu concret: 40% din totalul paginilor unei cărți reprezintă 120 de pagini. Acest lucru ne arată cum putem să gândim la procente ca la o parte a unei mărimi cunoscute.",
+      "Pentru a afla numărul total de pagini, vom folosi ecuația: 40% din x = 120. Transformăm 40% în 0,4 și obținem 0,4 × x = 120. Rezolvând această ecuație, găsim că x = 300 pagini.",
+      "Este important să înțelegem de ce această metodă funcționează. Deoarece procentul este o parte dintr-un întreg, transformarea lui în fracție ne permite să folosim matematica pentru a calcula exact valoarea corespunzătoare.",
+      "O greșeală frecventă este să confundăm procentul cu numărul absolut. De exemplu, 40% dintr-un număr nu înseamnă întotdeauna 40, ci o parte a acelui număr. Acest lucru poate duce la erori importante dacă nu este clar.",
+      "Pentru a evita această greșeală, trebuie să ne amintim că procentul este o fracție dintr-un întreg și să folosim metoda de transformare în fracție. Astfel, putem calcula corect orice parte a unei mărimi.",
+      "Vom reveni la exemplul cu cărțile: dacă 40% din pagini reprezintă 120 de pagini, atunci 100% va fi 300 de pagini. Acest lucru ne arată cum putem folosi procente pentru a calcula valori totale sau partiale.",
+      "În concluzie, procentele sunt o metodă eficientă de exprimare a unei părți dintr-un întreg. Înțelegerea lor ne ajută să rezolvăm probleme practice și să interpretăm corect informațiile din viața de zi cu zi.",
+      "Vom încheia cu o verificare rapidă pentru a testa dacă ai înțeles bine conceptul. Acest lucru va ne ajuta să consolidăm ceea ce am învățat și să identificăm eventualele greșeli."
+    ],
+    "ideiDeRetinut": [
+      "Procentele sunt o formă de exprimare a unei părți dintr-un întreg.",
+      "Pentru a calcula un procent, transformăm valoarea în fracție și o înmulțim cu numărul total.",
+      "Este important să nu confundăm procentul cu numărul absolut."
+    ],
+    "exemplu": {
+      "titlu": "Calculul procentului",
+      "enunt": "40% din totalul paginilor reprezintă 120 de pagini.",
+      "rezolvareScurta": [
+        "Fie x = total pagini. 40% × x = 120 ⇒ 0,4x = 120 ⇒ x = 300.",
+        "Cartea are 300 de pagini."
+      ],
+      "raspuns": "300"
+    },
+    "verificareRapida": {
+      "intrebare": "Cât reprezintă 25% din 80?",
+      "variante": [
+        "10",
+        "20",
+        "40",
+        "60"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Pentru a calcula 25% din 80, transformăm 25% în 0,25 și înmulțim cu 80: 0,25 × 80 = 20."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea simbolurilor ∀ și ∃.",
+      "deCeEsteGresit": "Simbolul ∀ reprezintă cuantificatorul universal, iar ∃ este pentru existențial. Confuzia poate duce la interpretări greșite ale enunțurilor logice.",
+      "cumOEviti": "Repetă simbolurile și asociază-le cu semnificațiile lor: ∀ = „pentru toate”, ∃ = „există cel puțin un”."
+    },
+    {
+      "greseala": "Neglijarea variabilei în enunțuri cu cuantificatori.",
+      "deCeEsteGresit": "Fără variabilă, propoziția nu are sens logic. De exemplu, „∀ este adevărat” este incorect, iar variabila trebuie să fie specificată (ex: ∀x ∈ ℕ).",
+      "cumOEviti": "Verifică întotdeauna dacă variabila este menționată în enunț."
+    },
+    {
+      "greseala": "Utilizarea incorectă a cuantificatorului universal pentru cazuri particulare.",
+      "de-CEEsteGresit": "Cuantificatorul universal afirmă că propoziția este adevărată pentru toate valorile variabilei. Nu poate fi folosit pentru a spune că ceva este valabil doar într-un caz particular.",
+      "cumOEviti": "Pentru cazuri particulare, folosește cuantificatorul existențial."
+    },
+    {
+      "greseala": "Neglijarea negației în propozițiile cu cuantificatori.",
+      "deCeEsteGresit": "Negația unei propoziții cu cuantificator universal devine o propoziție cu cuantificator existențial și invers. Negarea incorectă poate duce la concluzii greșite.",
+      "cumOEviti": "Rezolvă negația pas cu pas: ¬(∀x P(x)) ≡ ∃x ¬P(x) și ¬(∃x P(x)) ≡ ∀x ¬P(x)."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Cuantificatorul universal (∀) afirmă că o propoziție este adevărată pentru toate valorile variabilei.",
+      "Cuantificatorul existențial (∃) indică că o propoziție este adevărată pentru cel puțin o valoare a variabilei.",
+      "Simbolurile ∀ și ∃ sunt esențiale în formularea corectă a enunțurilor logice.",
+      "Variabila trebuie să fie specificată în orice propoziție cu cuantificatori."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă variabila este menționată în enunțul cu cuantificatori.",
+      "Asociază corect simbolurile ∀ și ∃ cu semnificațiile lor.",
+      "Rezolvă negația propozițiilor cu cuantificatori pas cu pas.",
+      "Formulează propoziții logice folosind cuantificatorii în mod clar și precis."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Cuantificatorii sunt un element esențial al logicii matematice, care apare frecvent în subiectele de Bac M_tehnologic și M_mate-info. Înțelegerea lor este necesară pentru formularea corectă a enunțurilor și pentru rezolvarea problemelor de logică.",
+    "tipuriCerinte": [
+      "Identificarea cuantificatorilor într-un enunț dat",
+      "Formularea unui enunț folosind cuantificatori",
+      "Rezolvarea negației unei propoziții cu cuantificatori",
+      "Interpretarea corectă a semnificației cuantificatorilor în contexte matematice"
+    ],
+    "strategie": [
+      "Învăță simbolurile și semnificațiile lor prin repetiție și exerciții de identificare.",
+      "Antrenează-te să formulezi propoziții logice folosind cuantificatori în diverse contexte.",
+      "Rezolvă negația propozițiilor pas cu pas, folosind regulile logicii matematice.",
+      "Verifică întotdeauna dacă variabila este menționată în enunțul cu cuantificatori."
+    ]
+  }
+}

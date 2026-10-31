@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculati perimetrul unui dreptunghi cu lungimea de 10 cm si latimea de 5 cm.",
+      "variante": [],
+      "raspunsCorect": "30",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula perimetrului dreptunghiului",
+          "continut": "Perimetrul unui dreptunghi se calculeaza cu formula P = 2 * (lungime + latime)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Inlocuirea valorilor in formula",
+          "continut": "P = 2 * (10 + 5) = 2 * 15 = 30 cm."
+        }
+      ],
+      "explicatieFinala": "Perimetrul dreptunghiului este de 30 cm, conform calculelor efectuate.",
+      "competenta": "Calcularea perimetrului unui dreptunghi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinati cel mai mare numar natural de doua cifre care este divizibil cu 7.",
+      "variante": [],
+      "raspunsCorect": "98",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea numerelor naturale de doua cifre",
+          "continut": "Numerele naturale de doua cifre sunt cele cuprinse intre 10 si 99."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea celui mai mare numar divizibil cu 7",
+          "continut": "Ultimul numar din interval care este divizibil cu 7 este 98, deoarece 98 ÷ 7 = 14."
+        }
+      ],
+      "explicatieFinala": "Cel mai mare numar natural de doua cifre divizibil cu 7 este 98.",
+      "competenta": "Determinarea unui numar natural divizibil cu o valoare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este solutia ecuatiei 3x + 2 = 11?",
+      "variante": [
+        "x = 2",
+        "x = 3",
+        "x = 4",
+        "x = 5"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea variabilei x",
+          "continut": "Scadem 2 din ambele parti: 3x = 11 - 2 => 3x = 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea valorii lui x",
+          "continut": "Impartim ambii termeni la 3: x = 9 ÷ 3 => x = 3."
+        }
+      ],
+      "explicatieFinala": "Solutia ecuatiei este x = 3, conform calculelor efectuate.",
+      "competenta": "Rezolvarea unei ecuatii de gradul I",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculati suma numerelor naturale consecutive de la 1 pana la 10.",
+      "variante": [],
+      "raspunsCorect": "55",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Formula sumei unor numere consecutive",
+          "continut": "Suma numerelor naturale de la 1 pana la n se calculeaza cu formula S = n * (n + 1) / 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Inlocuirea valorii in formula",
+          "continut": "S = 10 * (10 + 1) / 2 = 10 * 11 / 2 = 110 / 2 = 55."
+        }
+      ],
+      "explicatieFinala": "Suma numerelor naturale de la 1 pana la 10 este 55, conform calculelor efectuate.",
+      "competenta": "Calcularea sumei unor numere consecutive",
+      "punctaj": 5
+    }
+  ]
+}

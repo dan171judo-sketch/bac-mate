@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-24T17:49:00.452Z",
+  "sourcePairs": 23,
+  "uniquePairs": 20,
+  "workspacesCreated": 0,
+  "workspacesExisting": 20,
+  "totalSlots": 360,
+  "byProfile": {
+    "M_mate-info": 5,
+    "M_st-nat": 5,
+    "M_tehnologic": 6,
+    "M_pedagogic": 4
+  },
+  "errors": [],
+  "factoryRuns": [
+    {
+      "workspaceId": "bac-2026-sesiune-speciala-M_mate-info-936eb74b8a",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-speciala-M_mate-info-936eb74b8a\nProfile: M_mate-info\nSubject: data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf\nRubric:  data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf\nSubject SHA: 936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2\nRubric SHA:  97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-speciala-M_mate-info-936eb74b8a.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-speciala-M_st-nat-eefa3e4eb8",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-speciala-M_st-nat-eefa3e4eb8\nProfile: M_st-nat\nSubject: data/bac/sources/2026/M_st-nat/sesiune-speciala/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf\nRubric:  data/bac/sources/2026/M_st-nat/sesiune-speciala/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf\nSubject SHA: eefa3e4eb808fcb84a5944f81bd79db71c05d2652fe447d816c73a6ca11d7cf3\nRubric SHA:  1ace7501cf683f559000aefc94f38f4227f4fb9d79acd19b700c7e877b68f827\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-speciala-M_st-nat-eefa3e4eb8.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-speciala-M_tehnologic-7dd39445f1",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-speciala-M_tehnologic-7dd39445f1\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/sesiune-speciala/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/sesiune-speciala/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf\nSubject SHA: 7dd39445f1d16d980a59f8868d4a398e740ec818c1f17599f2372350833707e1\nRubric SHA:  ba641aa10bd00d17d98cfbb48f81c78ce2bdd8c839c17fb6fe83cebd82f35c92\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-speciala-M_tehnologic-7dd39445f1.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-oficiala-M_mate-info-f5d650f5b3",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-oficiala-M_mate-info-f5d650f5b3\nProfile: M_mate-info\nSubject: data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf\nRubric:  data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf\nSubject SHA: f5d650f5b34717745eeee097a8b8161a83298304327e8132dd0935907bc558ea\nRubric SHA:  5c64be892479b7ff09e873a1a012a6e930ddd8fe86ea2cf3a3fc60ad4b15db74\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-oficiala-M_mate-info-f5d650f5b3.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5\nProfile: M_st-nat\nSubject: data/bac/sources/2026/M_st-nat/sesiune-oficiala/E_c_matematica_M_st-nat_2026_var_03_LRO.pdf\nRubric:  data/bac/sources/2026/M_st-nat/sesiune-oficiala/E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf\nSubject SHA: 57a7d843c56b1e0b92a64556c793ddaed492806d9dae54241c7a55c66e6d7de0\nRubric SHA:  f024f8464eb6dff5f67d36411911516ba11e0e258ea317a368cd7020c655f308\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/sesiune-oficiala/E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/sesiune-oficiala/E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf\nSubject SHA: 5b84c089d7cebb139fd6bc84b9d174428deadeb881f8011c8a0d22a4c3909bd0\nRubric SHA:  42b2c45438da49370d9854727cc7271d1f64447a25600c4a360e1e7ed5dfb08c\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81\nProfile: M_pedagogic\nSubject: data/bac/sources/2026/M_pedagogic/sesiune-oficiala/E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf\nRubric:  data/bac/sources/2026/M_pedagogic/sesiune-oficiala/E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf\nSubject SHA: 984a0a9a81bcdfb7134794bf5224904305e4f3f30c249b6b2f79733ebfcc7859\nRubric SHA:  b1b5a6e8f23baeb7eb1f42bc9204758c05951f6cb4d5c435fba35d3706a31b9f\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-rezerva-M_mate-info-fcf3ef4e4e",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-rezerva-M_mate-info-fcf3ef4e4e\nProfile: M_mate-info\nSubject: data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf\nRubric:  data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf\nSubject SHA: fcf3ef4e4ede7ded4463a387ee4292452dbaa2b91d3b4b2ef3233def1e3fe6dd\nRubric SHA:  6a27a9e3fccde58fddaf0c429e48f05fd2c4df822aa14f837453980d0a4c76c9\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-rezerva-M_mate-info-fcf3ef4e4e.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-rezerva-M_tehnologic-722b46d5e2",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-rezerva-M_tehnologic-722b46d5e2\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/rezerva/E_c_matematica_M_tehnologic_2026_var_07_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/rezerva/E_c_matematica_M_tehnologic_2026_bar_07_LRO.pdf\nSubject SHA: 722b46d5e2e5906731d2d2dc59b7d74eb47f558cbf98a6278460ecdd6c87f34a\nRubric SHA:  2a71cf3b8c1cdc54f2f82215d157bff6f11fafd8b1c57d4fee6dff12451547de\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-rezerva-M_tehnologic-722b46d5e2.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-rezerva-M_pedagogic-d711fbd6d4",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-rezerva-M_pedagogic-d711fbd6d4\nProfile: M_pedagogic\nSubject: data/bac/sources/2026/M_pedagogic/rezerva/E_c_matematica_M_pedagogic_2026_var_07_LRO.pdf\nRubric:  data/bac/sources/2026/M_pedagogic/rezerva/E_c_matematica_M_pedagogic_2026_bar_07_LRO.pdf\nSubject SHA: d711fbd6d494015541172465a2bea330c8c8c66b20f8c8b8d08e9ae22ef027a0\nRubric SHA:  5776f130ad48b1d73f1132893265b586aeaa7f2c56b4a7640d91f27a45cd1b8a\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-rezerva-M_pedagogic-d711fbd6d4.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_mate-info-f2d942047b",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_mate-info-f2d942047b\nProfile: M_mate-info\nSubject: data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf\nRubric:  data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf\nSubject SHA: f2d942047ba99d36c06d18ce8bf87bab7dc027a69af8dc76d6b703f2f87a0bd6\nRubric SHA:  1898e9b3b8ffe80e1d000242dfc1af33965740cb9205284712b1c7c5116225aa\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_mate-info-f2d942047b.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_st-nat-373929f779",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_st-nat-373929f779\nProfile: M_st-nat\nSubject: data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf\nRubric:  data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf\nSubject SHA: 373929f779d66c6862f67751f2173c9ff0efe604697e6c7a6dc8b19f8dea07f9\nRubric SHA:  c2abc8876c635aac2f03bc89ad3da60b2d931ca534413cd141c42689cdf6f55e\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_st-nat-373929f779.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_tehnologic-8d724fd3a6",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_tehnologic-8d724fd3a6\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/august/E_c_matematica_M_tehnologic_2026_var_04_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/august/E_c_matematica_M_tehnologic_2026_bar_04_LRO.pdf\nSubject SHA: 8d724fd3a6d2fe913d605fafcfa92bcd375e63af60e16a99d7892cbf2ac87172\nRubric SHA:  b7b24cca0d0d7f0dda98c6696a3734cfcb25b6022f7545c573b04fca7a0303e4\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_tehnologic-8d724fd3a6.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_pedagogic-1de44a02e4",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_pedagogic-1de44a02e4\nProfile: M_pedagogic\nSubject: data/bac/sources/2026/M_pedagogic/august/E_c_matematica_M_pedagogic_2026_var_04_LRO.pdf\nRubric:  data/bac/sources/2026/M_pedagogic/august/E_c_matematica_M_pedagogic_2026_bar_04_LRO.pdf\nSubject SHA: 1de44a02e49272fe9c52aec8e98d8c58d7f31c5d5f7f2cb6221bf8c0d8145774\nRubric SHA:  1aa2dc1d9c415e01c393c6c928fead39cd97623f521096ffd6fe7540299878f9\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_pedagogic-1de44a02e4.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_st-nat-dc49f6cc0c",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_st-nat-dc49f6cc0c\nProfile: M_st-nat\nSubject: data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_var_05_LRO.pdf\nRubric:  data/bac/sources/2026/M_st-nat/august/E_c_matematica_M_st-nat_2026_bar_05_LRO.pdf\nSubject SHA: dc49f6cc0c09dcf5f978d0179c5e5fd99cc58f60d8f75cd7dcb8408e75c81461\nRubric SHA:  b7db36305455e87c62abf04ee04b79b28a75d4e89863a91cdefe5d820ddbb493\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_st-nat-dc49f6cc0c.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-august-M_tehnologic-934ef0941e",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-august-M_tehnologic-934ef0941e\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/august/E_c_matematica_M_tehnologic_2026_var_05_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/august/E_c_matematica_M_tehnologic_2026_bar_05_LRO.pdf\nSubject SHA: 934ef0941e1cf687d3384c2b0868c04c635a57d256a656b1ae29c00e52701912\nRubric SHA:  330440f906a91b1dacb45b228d0f6f156c90aa4157dc61182a828c6a23bfea93\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-august-M_tehnologic-934ef0941e.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-simulare-M_mate-info-2814b1edcf",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-simulare-M_mate-info-2814b1edcf\nProfile: M_mate-info\nSubject: data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf\nRubric:  data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf\nSubject SHA: 2814b1edcf94dfa3bc0a3ca865ddde6de62fc146abeb566ef4a311dc00428ffc\nRubric SHA:  0c90e20cc3df0d40d8674c53f8bcfa4e8259ee3d1fc310081bc8346c478c828c\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-simulare-M_mate-info-2814b1edcf.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-simulare-M_st-nat-0e6d59490e",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-simulare-M_st-nat-0e6d59490e\nProfile: M_st-nat\nSubject: data/bac/sources/2026/M_st-nat/simulare/E_c_matematica_M_st-nat_2026_var_simulare_LRO.pdf\nRubric:  data/bac/sources/2026/M_st-nat/simulare/E_c_matematica_M_st-nat_2026_bar_simulare_LRO.pdf\nSubject SHA: 0e6d59490e323721d63a77970ecf3e9495986388c2731e1a6d213ee3c48758ae\nRubric SHA:  da98b23769cd97cecfea017b36625431d6df6f14db66deba4c7e60b505008443\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-simulare-M_st-nat-0e6d59490e.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-simulare-M_tehnologic-0cc0259173",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-simulare-M_tehnologic-0cc0259173\nProfile: M_tehnologic\nSubject: data/bac/sources/2026/M_tehnologic/simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LRO.pdf\nRubric:  data/bac/sources/2026/M_tehnologic/simulare/E_c_matematica_M_tehnologic_2026_bar_simulare_LRO.pdf\nSubject SHA: 0cc02591738e5a0f841df469a46e4e8ba1969cb81c7bbe9bda7c6f3559c94e42\nRubric SHA:  d368d5d3199fd366b704daf20417b79c4ffbb6cab44f805ff41f9e3279297596\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-simulare-M_tehnologic-0cc0259173.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    },
+    {
+      "workspaceId": "bac-2026-simulare-M_pedagogic-8e78d367f0",
+      "exitCode": 0,
+      "stdout": "\nBAC CONTENT FACTORY\n===================\n\nSource:  bac-2026-simulare-M_pedagogic-8e78d367f0\nProfile: M_pedagogic\nSubject: data/bac/sources/2026/M_pedagogic/simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LRO.pdf\nRubric:  data/bac/sources/2026/M_pedagogic/simulare/E_c_matematica_M_pedagogic_2026_bar_simulare_LRO.pdf\nSubject SHA: 8e78d367f03b0dc9aff4a4af4230f3eb35da56f321962b24d31768fda68d559a\nRubric SHA:  7763f0aec8cf8c0d08613d8c89f3516f20094d11cb41db38495ea5976e06f678\n\n--- CONTENT FACTORY RESULT ---\nSlots .............. 18/18\nPrepared ........... 18\nAlready verified ... 0\nStatements ......... 0/18\nRubrics ............ 0/18\nVerified ........... 0/18\nReport ............. data\\bac\\reports\\content-factory\\bac-2026-simulare-M_pedagogic-8e78d367f0.json\n\nSAFE RESULT: official evidence prepared.\nNo mathematical content was auto-verified.\nNo source was promoted.\n",
+      "stderr": ""
+    }
+  ],
+  "publishReady": 0,
+  "policy": {
+    "autoPublish": false,
+    "mathematicalVerificationRequired": true
+  }
+}

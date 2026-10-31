@@ -1,0 +1,45 @@
+{
+  "video": {
+    "numar": 4,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom analiza o regulă importantă pentru pregătirea examenului de Bacalaureat. Regula se referă la modul în care elevii pot aborda problemele dintr-un subiect, identificând rapid ce este cerut și cum să organizeze gândirea pentru a obține punctaj maxim.",
+    "Este esențial ca elevul să înțeleagă că nu toate informațiile din cerință sunt relevante. Unele sunt doar context, iar altele sunt cheie pentru rezolvare. Prin urmare, identificarea datelor importante este un pas crucial.",
+    "Regula de bază este: „Citește cu atenție cerința și subliniază ceea ce e cerut.” Acest lucru îți permite să știi exact ce trebuie să găsești sau să calculezi. De exemplu, dacă cerința spune „calculează aria unui triunghi”, nu trebuie să te concentrezi pe perimetrul lui.",
+    "De ce funcționează această regulă? Pentru că examinatorii îți dau toate informațiile necesare, dar unele sunt distractori. Dacă te concentrezi doar pe ceea ce e cerut, eviți pierderea timpului cu detalii inutile.",
+    "Metoda de lucru este simplă: citește cerința cu atenție, subliniază ceea ce e cerut, apoi gândește-te la pașii necesari pentru a-l rezolva. Începe întotdeauna cu ce e cerut, nu cu datele din text.",
+    "Să luăm un exemplu: „Un dreptunghi are laturile de 6 cm și 8 cm. Aflați aria.” Iată cum ar trebui să abordezi: identifici că este cerută aria, apoi te gândești la formula A = L x l. Nu trebuie să calculezi nimic altceva.",
+    "Verificarea rezultatului este un pas important. După ce ai răspuns, întreabă-te: „Am răspuns la întrebare? Am folosit toate datele relevante?” Dacă nu, revino și corectează.",
+    "O greșeală frecventă este să citești cerința rapid și să începi cu datele din text, fără a identifica ce e cerut. Acest lucru duce adesea la răspunsuri incorecte sau lipsite de sens.",
+    "Cum poți evita această greșeală? Citește cerința cu atenție, subliniază ceea ce e cerut și apoi gândește-te la pașii necesari. Nu începe niciodată cu datele din text fără a ști exact ce trebuie să faci.",
+    "Recapitulăm: identificarea cerinței este esențială pentru a rezolva corect o problemă. Fără aceasta, nu poți ști ce ai de lucru cu adevărat. Prin urmare, acordă-i atenție și folosește-o ca punct de plecare.",
+    "În concluzie, identificarea cerinței este un pas esențial în rezolvarea problemelor. Nu te grăbi să începi cu datele din text – începe cu ceea ce e cerut. Acest lucru te ajută să eviți greșelile frecvente și să obții punctaj maxim."
+  ],
+  "ideiDeRetinut": [
+    "Citește cerința cu atenție",
+    "Subliniază ceea ce e cerut",
+    "Începe întotdeauna cu cerința",
+    "Verifică dacă ai răspuns la întrebare"
+  ],
+  "exemplu": {
+    "titlu": "Calcularea ariei unui dreptunghi",
+    "enunt": "Un dreptunghi are laturile de 6 cm și 8 cm. Aflați aria.",
+    "rezolvareScurta": [
+      "Identifică cerința: calcularea ariei",
+      "Folosește formula A = L x l"
+    ],
+    "raspuns": "48 cm²"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce trebuie să calculezi într-un dreptunghi cu laturile de 6 cm și 8 cm?",
+    "variante": [
+      "Perimetrul",
+      "Aria",
+      "Lungimea diagonalei",
+      "Măsura unghiurilor"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Cerința este calcularea ariei, deci varianta corectă este a doua."
+  }
+}

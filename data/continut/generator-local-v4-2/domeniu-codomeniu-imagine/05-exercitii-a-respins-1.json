@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați domeniul funcției f: R → R, definită prin f(x) = √(x - 3).",
+      "variante": [],
+      "raspunsCorect": "Df = [3, ∞)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea condiției de existență",
+          "continut": "Radicalul trebuie să fie ≥ 0 ⇒ x - 3 ≥ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "x - 3 ≥ 0 ⇒ x ≥ 3. Deci domeniul funcției este [3, ∞)."
+        }
+      ],
+      "explicatieFinala": "Domeniul funcției include toate valorile pentru care radicalul este definit.",
+      "competenta": "Înțelegerea condițiilor de existență ale funcțiilor iraționale",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați imaginea funcției f: R → R, definită prin f(x) = √(x + 1).",
+      "variante": [],
+      "raspunsCorect": "Im(f) = [0, ∞)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza valorilor posibile ale radicalului",
+          "continut": "Radicalul este întotdeauna ≥ 0, indiferent de valoarea lui x."
+        },
+        {
+          "numar": 2,
+          "titlu": "Concluzie privind imaginea funcției",
+          "continut": "Deoarece radicalul poate lua orice valoare ≥ 0, imaginea este [0, ∞)."
+        }
+      ],
+      "explicatieFinala": "Imaginea funcției include toate valorile posibile ale expresiei din radical.",
+      "competenta": "Înțelegerea imaginii funcțiilor iraționale",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Determinați domeniul funcției f: R → R, definită prin f(x) = √(x² - 9).",
+      "variante": [
+        "(-3, 3)",
+        "[-3, 3]",
+        "(-∞, -3] ∪ [3, ∞)",
+        "[−3, 3]"
+      ],
+      "raspunsCorect": "(-∞, -3] ∪ [3, ∞)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea condiției de existență",
+          "continut": "Radicalul trebuie să fie ≥ 0 ⇒ x² - 9 ≥ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "x² - 9 ≥ 0 ⇒ (x - 3)(x + 3) ≥ 0 ⇒ x ≤ -3 sau x ≥ 3."
+        }
+      ],
+      "explicatieFinala": "Domeniul funcției este format din toate valorile pentru care expresia din radical este nenegativă.",
+      "competenta": "Rezolvarea inecuațiilor cu radical",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Determinați imaginea funcției f: R → R, definită prin f(x) = √(x² - 16).",
+      "variante": [
+        "[0, ∞)",
+        "[-4, 4]",
+        "[−∞, ∞)",
+        "(−∞, ∞)"
+      ],
+      "raspunsCorect": "[0, ∞)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza valorilor posibile ale radicalului",
+          "continut": "Radicalul este întotdeauna ≥ 0, indiferent de valoarea lui x."
+        },
+        {
+          "numar": 2,
+          "titlu": "Concluzie privind imaginea funcției",
+          "continut": "Deoarece radicalul poate lua orice valoare ≥ 0, imaginea este [0, ∞)."
+        }
+      ],
+      "explicatieFinala": "Imaginea funcției include toate valorile posibile ale expresiei din radical.",
+      "competenta": "Înțelegerea imaginii funcțiilor iraționale",
+      "punctaj": 5
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea conceptului matematic",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 este dedicat intuitiei si intelesului conceptelor matematice. Aici vom explora cum putem aborda o ecuatie de gradul I, incepand cu ideea intuitiva a egalitatii si terminand cu un exemplu clar si verificabil.",
+    "scenariu": [
+      "Bună ziua! În acest video vom începe prin a ne gândi la matematica ca la o limbă. O limbă are reguli, dar înainte de a le învăța, trebuie să înțelegem ce vrem să spunem. Aici, matematica este vorba despre egalități și relații între numere.",
+      "Să ne gândim la o ecuație simplă: 3x = 9. Ce înseamnă asta? Înseamnă că un anumit număr, pe care îl notăm cu x, înmulțit cu 3, dă rezultatul 9. Dar cum putem să aflăm ce este acel x?",
+      "Pentru a înțelege mai bine, să ne gândim la o situație din viața de zi cu zi. Să zicem că ai 3 mere și îți dă un prieten al tău 6 mere. Împreună aveți 9 mere. Dar dacă toate merele sunt același tip, atunci fiecare dintre voi ați avut câte 3 mere. Așa funcționează o ecuație: găsim un număr care, înmulțit cu altul cunoscut, dă un rezultat.",
+      "În matematică, această idee se exprimă prin egalitate. O ecuație este ca o balanță: dacă adaugi ceva pe un capăt, trebuie să adaugi același lucru și pe celălalt, altfel nu mai e echilibrată.",
+      "Așadar, pentru a rezolva 3x = 9, trebuie să găsim un număr x care, înmulțit cu 3, să dea 9. Dar cum facem asta? O metodă simplă este să împărțim ambii termeni la același număr, adică la 3.",
+      "Dacă împărțim ambele părți la 3, obținem x = 9 ÷ 3. Așadar, x = 3. Asta înseamnă că numărul pe care îl cautăm este 3, deoarece 3 × 3 = 9.",
+      "Este important să înțelegem de ce funcționează această metodă. Dacă împărțim ambele părți la același număr, păstrăm echilibrul ecuației. Așa cum o balanță rămâne echilibrată dacă adaugi același greutate pe ambele părți.",
+      "Să ne gândim la un alt exemplu: 5x = 20. Ce număr înmulțit cu 5 dă 20? Răspunsul este 4, deoarece 5 × 4 = 20. Așadar, x = 4.",
+      "O greșeală frecventă este să împărțim doar unul dintre termeni, fără a face același lucru și pe celălalt. De exemplu, dacă ai să împarți doar 9 la 3, ar rezulta x = 3, dar nu ai verificat dacă ecuația rămâne echilibrată.",
+      "Pentru a evita asta, este important să aplicăm aceeași operație pe ambele părți. Așadar, dacă împărțim la 3, atunci și 3x se transformă în x, iar 9 devine 3. Astfel, ecuația rămâne echilibrată.",
+      "În concluzie, rezolvarea unei ecuații de gradul I este o metodă logică și intuitivă. Începem cu ideea de egalitate, aplicăm operații pe ambele părți pentru a menține echilibrul, și găsim soluția.",
+      "Așadar, în acest video am învățat cum să abordăm o ecuație de gradul I, pornind de la intuitie și înțelegere. În videoul următor vom vedea cum putem aplica această metodă în exerciții mai complexe."
+    ],
+    "ideiDeRetinut": [
+      "O ecuație este ca o balanță: trebuie să păstrăm echilibrul.",
+      "Pentru a rezolva o ecuație, aplicăm aceeași operație pe ambele părți.",
+      "Verificarea soluției este esențială pentru a evita greșeli."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvare exemplu: 3x = 9",
+      "enunt": "Determinați valoarea lui x în ecuația 3x = 9.",
+      "rezolvareScurta": [
+        "Împărțim ambii termeni la 3: x = 9 ÷ 3.",
+        "Calculăm: x = 3."
+      ],
+      "raspuns": "x = 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Ce număr înmulțit cu 4 dă 12?",
+      "variante": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Răspunsul corect este 3, deoarece 4 × 3 = 12."
+    }
+  }
+}

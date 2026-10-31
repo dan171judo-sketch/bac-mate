@@ -1,0 +1,94 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Identificarea componentelor unui reper cartezian",
+      "nivel": "fundament",
+      "enunt": "Fie reperul cartezian Oxy, cu originea în punctul O(0, 0). Determinați coordonatele punctului A situat la 3 unități pe axa Ox și la 4 unități pe axa Oy.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea poziției punctului pe axe",
+          "continut": "Punctul A este situat la 3 unități pe axa Ox, deci coordonata x este 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea coordonatei y",
+          "continut": "Punctul A este situat la 4 unități pe axa Oy, deci coordonata y este 4."
+        }
+      ],
+      "raspunsFinal": "Coordonatele punctului A sunt (3, 4).",
+      "verificare": "Reperul cartezian permite definirea poziției unui punct prin coordonate. Coordonata x reprezintă distanța față de axa Oy, iar coordonata y reprezintă distanța față de axa Ox."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Calcularea coordonatelor unui punct într-un reper cartezian",
+      "nivel": "standard-bac",
+      "enunt": "Fie reperul cartezian Oxy, cu originea în O(0, 0). Un punct B se află la 5 unități spre dreapta pe Ox și la 2 unități sus pe Oy. Determinați coordonatele lui B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea poziției punctului pe axa Ox",
+          "continut": "Punctul B este situat la 5 unități spre dreapta, deci coordonata x este 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea poziției punctului pe axa Oy",
+          "continut": "Punctul B este situat la 2 unități sus, deci coordonata y este 2."
+        }
+      ],
+      "raspunsFinal": "Coordonatele punctului B sunt (5, 2).",
+      "verificare": "Direcția de creștere a axelor Ox și Oy este respectată. Coordonata x crește spre dreapta, iar coordonata y crește spre sus."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Determinarea produsului cartezian dintre două mulțimi",
+      "nivel": "standard-bac",
+      "enunt": "Fie mulțimile A = {1, 2} și B = {a, b}. Calculați produsul cartezian A × B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor din A și B",
+          "continut": "Elementele mulțimii A sunt {1, 2}, iar cele ale mulțimii B sunt {a, b}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate",
+          "continut": "Produsul cartezian A × B este format din toate perechile (a, b) unde a ∈ A și b ∈ B."
+        }
+      ],
+      "raspunsFinal": "Produsul cartezian A × B = {(1, a), (1, b), (2, a), (2, b)}.",
+      "verificare": "Produsul cartezian include toate perechile ordonate posibile între elementele celor două mulțimi."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Rezolvarea unei probleme cu produs cartezian și reper cartezian",
+      "nivel": "avansat",
+      "enunt": "Fie reperul cartezian Oxy, cu originea în O(0, 0). Fie mulțimile A = {1, -1} și B = {2, -2}. Determinați coordonatele punctelor din produsul cartezian A × B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii A",
+          "continut": "Elementele mulțimii A sunt {1, -1}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Enumerarea elementelor mulțimii B",
+          "continut": "Elementele mulțimii B sunt {2, -2}."
+        },
+        {
+          "numar": 3,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian A × B este format din perechile (1, 2), (1, -2), (-1, 2), (-1, -2)."
+        },
+        {
+          "numar": 4,
+          "titlu": "Determinarea coordonatelor fiecărui punct",
+          "continut": "Fiecare pereche ordonată reprezintă coordonatele unui punct în reperul cartezian."
+        }
+      ],
+      "raspunsFinal": "Coordonatele punctelor din produsul cartezian A × B sunt: (1, 2), (1, -2), (-1, 2), (-1, -2).",
+      "verificare": "Produsul cartezian a fost calculat corect prin formarea tuturor perechilor ordonate. Fiecare pereche reprezintă un punct în plan."
+    }
+  ]
+}

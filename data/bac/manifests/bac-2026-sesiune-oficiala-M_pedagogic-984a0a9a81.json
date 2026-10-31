@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81",
+  "authority": "Ministerul Educației / subiecte.edu.ro",
+  "exam": "bacalaureat",
+  "year": 2026,
+  "documentType": "oficial",
+  "session": "oficial",
+  "profileCode": "M_pedagogic",
+  "documents": {
+    "subject": {
+      "fileName": "E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_pedagogic/sesiune-oficiala/E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf",
+      "sizeBytes": 103900,
+      "sha256": "984A0A9A81BCDFB7134794BF5224904305E4F3F30C249B6B2F79733EBFCC7859"
+    },
+    "markingScheme": {
+      "fileName": "E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_pedagogic/sesiune-oficiala/E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf",
+      "sizeBytes": 110113,
+      "sha256": "B1B5A6E8F23BAEB7EB1F42BC9204758C05951F6CB4D5C435FBA35D3706A31B9F"
+    }
+  },
+  "verification": {
+    "filesPresent": true,
+    "sizesRecorded": true,
+    "hashesRecorded": true,
+    "hashesVerifiedByPipeline": true,
+    "pairVerifiedByPipeline": true,
+    "sourceVerified": true
+  },
+  "publicationStatus": "draft"
+}

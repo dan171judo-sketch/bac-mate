@@ -1,0 +1,1617 @@
+{
+  "schemaVersion": 3,
+  "generatedAt": "2026-09-24T17:39:55.367Z",
+  "dryRun": false,
+  "authority": "Ministerul Educatiei / subiecte.edu.ro",
+  "source": "official-discovery-report.json",
+  "counts": {
+    "discovered": 69,
+    "zipEc2026": 11,
+    "zipInspected": 11,
+    "archivePairs": 23,
+    "ambiguous": 54,
+    "errors": 4,
+    "publishReady": 0
+  },
+  "profileCounts": {
+    "M_mate-info": 6,
+    "M_st-nat": 6,
+    "M_tehnologic": 7,
+    "M_pedagogic": 4
+  },
+  "archivePairs": [
+    {
+      "id": "archive-2026-sesiune-speciala-M_mate-info-01",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+      "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-speciala-M_st-nat-02",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+      "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-speciala-M_tehnologic-03",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+      "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-oficiala-M_mate-info-01",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-oficiala-M_st-nat-02",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-oficiala-M_tehnologic-03",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-sesiune-oficiala-M_pedagogic-04",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "profileCode": "M_pedagogic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-rezerva-M_mate-info-01",
+      "year": 2026,
+      "session": "rezerva",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-rezerva-M_tehnologic-02",
+      "year": 2026,
+      "session": "rezerva",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_var_07_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_bar_07_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-rezerva-M_pedagogic-03",
+      "year": 2026,
+      "session": "rezerva",
+      "profileCode": "M_pedagogic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+      "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_var_07_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_bar_07_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_mate-info-01",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_st-nat-02",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_tehnologic-03",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_var_04_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_bar_04_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_pedagogic-04",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_pedagogic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_var_04_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_bar_04_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_st-nat-01",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_var_05_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_bar_05_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-august-M_tehnologic-02",
+      "year": 2026,
+      "session": "august",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+      "subjectMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_var_05_LRO.pdf",
+      "markingSchemeMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_bar_05_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_mate-info-01",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+      "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_st-nat-02",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LRO.pdf",
+      "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_bar_simulare_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_tehnologic-03",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LRO.pdf",
+      "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_bar_simulare_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_pedagogic-04",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_pedagogic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LRO.pdf",
+      "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_bar_simulare_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_mate-info-01",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_mate-info",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+      "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_st-nat-02",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_st-nat",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+      "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    },
+    {
+      "id": "archive-2026-simulare-M_tehnologic-03",
+      "year": 2026,
+      "session": "simulare",
+      "profileCode": "M_tehnologic",
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+      "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+      "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+      "status": "download-ready-archive",
+      "enabled": false,
+      "humanVerified": false,
+      "mathVerified": false,
+      "answerKeyVerified": false
+    }
+  ],
+  "zipInspection": [
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+      "year": 2026,
+      "session": "sesiune-speciala",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_bar_02_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_var_02_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_var_02_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LMA.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LSR.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-sesiune-speciala-M_mate-info-01",
+          "year": 2026,
+          "session": "sesiune-speciala",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+          "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-sesiune-speciala-M_st-nat-02",
+          "year": 2026,
+          "session": "sesiune-speciala",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+          "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-sesiune-speciala-M_tehnologic-03",
+          "year": 2026,
+          "session": "sesiune-speciala",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_speciala.zip",
+          "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_speciala/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_speciala/E_c_matematica_M_mate-info_2026_var_02_LSR.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_bar_02_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_var_02_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_speciala/E_c_istorie_2026_var_02_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+      "year": 2026,
+      "session": "sesiune-oficiala",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_bar_03_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LSR .pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LGE.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LMA.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LSK.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LSR.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LGE.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LMA.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LUA.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LGE.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LMA.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LGE.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LMA.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-sesiune-oficiala-M_mate-info-01",
+          "year": 2026,
+          "session": "sesiune-oficiala",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-sesiune-oficiala-M_st-nat-02",
+          "year": 2026,
+          "session": "sesiune-oficiala",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-sesiune-oficiala-M_tehnologic-03",
+          "year": 2026,
+          "session": "sesiune-oficiala",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-sesiune-oficiala-M_pedagogic-04",
+          "year": 2026,
+          "session": "sesiune-oficiala",
+          "profileCode": "M_pedagogic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_01072026.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_bar_03_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LSK.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_mate-info_2026_var_03_LSR.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_st-nat_2026_var_03_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_tehnologic",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_tehnologic",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_tehnologic_2026_var_03_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "Ec_2026_ses_iunie-iulie/E_c_matematica_M_pedagogic_2026_var_03_LUA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_bar_03_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie/E_c_istorie_2026_var_03_LSR .pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+      "year": 2026,
+      "session": "rezerva",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_istorie_2026_bar_07_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_istorie_2026_var_07_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_bar_07_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_var_07_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_bar_07_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_var_07_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-rezerva-M_mate-info-01",
+          "year": 2026,
+          "session": "rezerva",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-rezerva-M_tehnologic-02",
+          "year": 2026,
+          "session": "rezerva",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_var_07_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_tehnologic_2026_bar_07_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-rezerva-M_pedagogic-03",
+          "year": 2026,
+          "session": "rezerva",
+          "profileCode": "M_pedagogic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Ec_2026_ses_iunie-iulie_Rezerva.zip",
+          "subjectMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_var_07_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_matematica_M_pedagogic_2026_bar_07_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_istorie_2026_bar_07_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_ses_iunie-iulie_Rezerva/E_c_istorie_2026_var_07_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+      "year": 2026,
+      "session": "august",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_bar_04_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LGE.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LMA.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_bar_04_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_var_04_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_var_04_LUA.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LGE.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LMA.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LUA.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_bar_04_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_var_04_LMA.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_var_04_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-august-M_mate-info-01",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-august-M_st-nat-02",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_bar_04_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-august-M_tehnologic-03",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_var_04_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_bar_04_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-august-M_pedagogic-04",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_pedagogic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_var_04_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_bar_04_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_mate-info_2026_var_04_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_st-nat_2026_var_04_LUA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_tehnologic",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_tehnologic_2026_var_04_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "Bac_E_c_sesiune_august_2026/E_c_matematica_M_pedagogic_2026_var_04_LUA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_bar_04_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026/E_c_istorie_2026_var_04_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+      "year": 2026,
+      "session": "august",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_bar_05_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_var_05_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_bar_05_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_var_05_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-august-M_st-nat-01",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_var_05_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_st-nat_2026_bar_05_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-august-M_tehnologic-02",
+          "year": 2026,
+          "session": "august",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/Bac_E_c_sesiune_august_2026_Rezerva.zip",
+          "subjectMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_var_05_LRO.pdf",
+          "markingSchemeMember": "Bac_E_c_sesiune_august_2026_Rezerva/E_c_matematica_M_tehnologic_2026_bar_05_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": []
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_Matematica_Istorie_rezerva_02-iulie-2024.zip",
+      "year": 2026,
+      "session": "rezerva",
+      "status": "error",
+      "members": [],
+      "pairs": [],
+      "ambiguous": [],
+      "error": "HTTP 404"
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/Subiecte_si_bareme/E_c_matematica_istorie_subiecte_si_bareme_26_august_2015_rezerva.zip",
+      "year": 2026,
+      "session": "august",
+      "status": "error",
+      "members": [],
+      "pairs": [],
+      "ambiguous": [],
+      "error": "HTTP 404"
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Matematica_modele.zip",
+      "year": 2026,
+      "session": "model",
+      "status": "error",
+      "members": [],
+      "pairs": [],
+      "ambiguous": [],
+      "error": "HTTP 404"
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/bacalaureat/modeledesubiecte/Bac_2026_E_c_Istorie_model.zip",
+      "year": 2026,
+      "session": "model",
+      "status": "error",
+      "members": [],
+      "pairs": [],
+      "ambiguous": [],
+      "error": "HTTP 404"
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+      "year": 2026,
+      "session": "simulare",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_bar_simulare_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LSR.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LUA.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LGE.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LMA.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LSR.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_bar_simulare_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "barem"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LMA.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LRO.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LUA.pdf",
+          "profileCode": "M_pedagogic",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_bar_simulare_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LGE.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LMA.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_bar_simulare_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LGE.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LMA.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-simulare-M_mate-info-01",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+          "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-simulare-M_st-nat-02",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LRO.pdf",
+          "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_bar_simulare_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-simulare-M_tehnologic-03",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LRO.pdf",
+          "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_bar_simulare_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-simulare-M_pedagogic-04",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_pedagogic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/E_c_2026_Simulare.zip",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LRO.pdf",
+          "markingSchemeMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_bar_simulare_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_mate-info",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_mate-info_2026_var_simulare_LSR.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_st-nat",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_st-nat_2026_var_simulare_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_tehnologic",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LGE.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_tehnologic",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_tehnologic_2026_var_simulare_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LMA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "profileCode": "M_pedagogic",
+          "subjectMember": "E_c_2026_Simulare/E_c_matematica_M_pedagogic_2026_var_simulare_LUA.pdf",
+          "matchingBarems": [],
+          "reason": "barem-match-missing"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_bar_simulare_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LGE.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LMA.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LSK.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LSR.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "E_c_2026_Simulare/E_c_istorie_2026_var_simulare_LUA.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    },
+    {
+      "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+      "year": 2026,
+      "session": "simulare",
+      "status": "inspected",
+      "members": [
+        {
+          "member": "Ec_2026_simulare_II/E_c_istorie_2026_bar_02_LRO.pdf",
+          "profileCode": null,
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_istorie_2026_var_02_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+          "profileCode": "M_mate-info",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+          "profileCode": "M_st-nat",
+          "role": "subiect"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "barem"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+          "profileCode": "M_tehnologic",
+          "role": "subiect"
+        }
+      ],
+      "pairs": [
+        {
+          "id": "archive-2026-simulare-M_mate-info-01",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_mate-info",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+          "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-simulare-M_st-nat-02",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_st-nat",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+          "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_st-nat_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        },
+        {
+          "id": "archive-2026-simulare-M_tehnologic-03",
+          "year": 2026,
+          "session": "simulare",
+          "profileCode": "M_tehnologic",
+          "archiveUrl": "https://subiecte.edu.ro/2026/simulare/simulare_bac_XII/Ec_2026_simulare_II.zip",
+          "subjectMember": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_var_02_LRO.pdf",
+          "markingSchemeMember": "Ec_2026_simulare_II/E_c_matematica_M_tehnologic_2026_bar_02_LRO.pdf",
+          "status": "download-ready-archive",
+          "enabled": false,
+          "humanVerified": false,
+          "mathVerified": false,
+          "answerKeyVerified": false
+        }
+      ],
+      "ambiguous": [
+        {
+          "member": "Ec_2026_simulare_II/E_c_istorie_2026_bar_02_LRO.pdf",
+          "profileCode": null,
+          "role": "barem",
+          "reason": "profile-not-detected"
+        },
+        {
+          "member": "Ec_2026_simulare_II/E_c_istorie_2026_var_02_LRO.pdf",
+          "profileCode": null,
+          "role": "subiect",
+          "reason": "profile-not-detected"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în rezolvarea problemelor matematice",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile fundamentale și metoda de lucru pentru a rezolva corect problemele matematice. Vom învăța cum să abordăm o problemă pas cu pas, cum să aplicăm reguli matematice corect și cum să evităm greșelile frecvente.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile, proprietățile și metoda de lucru pentru a rezolva problemele matematice. Este esențial să înțelegem nu doar ce trebuie făcut, ci și de ce se aplică fiecare regulă.",
+      "Prima etapă este identificarea tipului de problemă. De exemplu, dacă avem o ecuație liniară, trebuie să folosim metoda de rezolvare a ecuațiilor de gradul I. Dacă este vorba despre sume de numere consecutive, vom apela la formule specifice.",
+      "Regula principală este că orice problemă matematică are o structură logică. Începem cu datele cunoscute, urmăm pașii necesari pentru a ajunge la rezultat și verificăm dacă răspunsul are sens.",
+      "Este important să înțelegem de ce anumite reguli funcționează. De exemplu, formula sumei numerelor naturale consecutive este valabilă pentru orice n, iar demonstrarea ei se bazează pe adunarea termenilor simetrici.",
+      "Metoda de lucru implică mai multe pași: citirea atentă a problemei, identificarea datelor cunoscute și necunoscute, aplicarea regulii potrivite, efectuarea calculelor pas cu pas și verificarea rezultatului.",
+      "Vom folosi un exemplu concret pentru a ilustra această metodă. Să presupunem că avem o ecuație de tipul 2x + 3 = 7. Pașii sunt: scădem 3 din ambele părți, obținem 2x = 4, apoi împărțim la 2 și găsim x = 2.",
+      "După rezolvare, este esențial să verificăm dacă răspunsul este corect. Înlocuim x cu 2 în ecuație: 2*2 + 3 = 4 + 3 = 7, ceea ce confirmă că soluția este corectă.",
+      "O greșeală frecventă este să se ignore pașii intermediari. De exemplu, un elev poate începe direct cu împărțirea la 2 fără a scădea mai întâi 3 din ambele părți. Acest lucru duce la erori.",
+      "Pentru a evita astfel de greșeli, este important să urmăm pașii în ordine și să nu începem cu calculele finale fără a verifica dacă toate etapele sunt corecte.",
+      "Alte confuzii pot apărea atunci când se aplică reguli greșit. De exemplu, formula sumei numerelor consecutive este S = n(n+1)/2, dar uneori elevii o folosesc pentru numere pare sau impare fără a verifica dacă este corect.",
+      "Este util să comparăm abordarea corectă cu una greșită. Dacă un elev aplică formula sumei pentru numere de la 1 la 10, dar adună manual toate numerele, va obține același rezultat, dar într-un mod mai lung.",
+      "În concluzie, metoda de lucru este esențială pentru a rezolva corect problemele matematice. Fiecare pas trebuie urmat cu atenție, regulile aplicate corect și verificarea finală a rezultatului."
+    ],
+    "ideiDeRetinut": [
+      "Identificați tipul de problemă înainte de a aplica o regulă.",
+      "Urmăriți pașii logici ai rezolvării, nu începeți direct cu calculele finale.",
+      "Verificați întotdeauna răspunsul pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea unei ecuații de gradul I",
+      "enunt": "Rezolvați ecuația 2x + 3 = 7.",
+      "rezolvareScurta": [
+        "Scădem 3 din ambele părți: 2x = 4.",
+        "Împărțim la 2: x = 2."
+      ],
+      "raspuns": "x = 2"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați ecuația 3x - 5 = 10.",
+      "variante": [
+        "x = 4",
+        "x = 5",
+        "x = 6",
+        "x = 7"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "Scădem 5 din ambele părți: 3x = 15. Împărțim la 3: x = 5."
+    }
+  }
+}

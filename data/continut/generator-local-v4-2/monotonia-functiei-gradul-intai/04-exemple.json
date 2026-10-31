@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Determinarea monotoniei funcției de gradul I",
+      "nivel": "fundament",
+      "enunt": "Fie funcția f: R → R, f(x) = 3x - 5. Arătați că funcția este strict crescătoare pe R.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = 3x - 5 are forma generală a unei funcții de gradul I, f(x) = ax + b, unde a = 3 și b = -5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea definiției funcției strict crescătoare",
+          "continut": "Pentru orice x₁ < x₂ ∈ R, avem f(x₁) = 3x₁ - 5 și f(x₂) = 3x₂ - 5. Deoarece 3 > 0, atunci 3x₁ < 3x₂, deci f(x₁) < f(x₂)."
+        }
+      ],
+      "raspunsFinal": "Funcția f(x) = 3x - 5 este strict crescătoare pe R.",
+      "verificare": "Coeficientul director a = 3 > 0, deci funcția este strict crescătoare."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Interpretarea graficului funcției de gradul I",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R → R, f(x) = -2x + 4. Determinați dacă este strict descrescătoare pe intervalul [0, 5].",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea semnului coeficientului director",
+          "continut": "Funcția f(x) = -2x + 4 are a = -2 < 0, ceea ce indică o funcție strict descrescătoare."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea condițiilor din definiția funcției strict descrescătoare",
+          "continut": "Pentru orice x₁ < x₂ ∈ [0, 5], avem f(x₁) = -2x₁ + 4 și f(x₂) = -2x₂ + 4. Deoarece -2 < 0, atunci -2x₁ > -2x₂, deci f(x₁) > f(x₂)."
+        }
+      ],
+      "raspunsFinal": "Funcția f(x) = -2x + 4 este strict descrescătoare pe intervalul [0, 5].",
+      "verificare": "Coeficientul director a = -2 < 0 și verificarea inegalităților din definiție confirmă concluzia."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Compararea monotoniei funcțiilor de gradul I",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcțiile f(x) = 2x + 1 și g(x) = -3x + 4. Determinați care dintre ele este strict crescătoare pe R.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficienților directori",
+          "continut": "Funcția f(x) = 2x + 1 are a = 2 > 0, iar funcția g(x) = -3x + 4 are a = -3 < 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea definiției de monotonie",
+          "continut": "Pentru f(x), avem a > 0, deci este strict crescătoare. Pentru g(x), avem a < 0, deci este strict descrescătoare."
+        }
+      ],
+      "raspunsFinal": "Funcția f(x) = 2x + 1 este strict crescătoare pe R, iar funcția g(x) = -3x + 4 este strict descrescătoare pe R.",
+      "verificare": "Semnul coeficientului director indică monotonia corectă a fiecărei funcții."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Rezolvarea unei probleme de monotonie cu condiții",
+      "nivel": "avansat",
+      "enunt": "Fie funcția f: R → R, f(x) = (m - 1)x + 2. Determinați valorile lui m pentru care funcția este strict descrescătoare.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea condiției de monotonie",
+          "continut": "Pentru ca funcția f(x) = (m - 1)x + 2 să fie strict descrescătoare, trebuie ca coeficientul director a = m - 1 < 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea inecuației",
+          "continut": "Rezolvăm inecuația m - 1 < 0, obținând m < 1. Deci, funcția este strict descrescătoare pentru orice m < 1."
+        }
+      ],
+      "raspunsFinal": "Funcția f(x) = (m - 1)x + 2 este strict descrescătoare dacă și numai dacă m < 1.",
+      "verificare": "Rezolvarea inecuației pentru coeficientul director confirmă condiția de monotonie."
+    }
+  ]
+}

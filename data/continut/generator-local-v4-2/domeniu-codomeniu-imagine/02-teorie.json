@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "domeniu",
+      "definitie": "Domeniul unei funcții este mulțimea tuturor valorilor posibile ale variabilei independente (x) pentru care funcția are sens.",
+      "observatie": "Domeniul este definit de condițiile impuse de expresia analitică a funcției."
+    },
+    {
+      "termen": "codomeniu",
+      "definitie": "Codomeniul unei funcții este mulțimea tuturor valorilor posibile ale variabilei dependente (y) care pot fi atinse de funcția respectivă.",
+      "observatie": "Codomeniul reprezintă domeniul natural al valorilor funcției, înainte de a se determina imaginea."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Domeniu și codomeniu - concepte fundamentale",
+      "explicatie": "Domeniul este mulțimea valorilor x pentru care funcția are sens, în timp ce codomeniul este mulțimea valorilor y posibile pe care le poate atinge funcția. Aceste două mulțimi sunt esențiale pentru definirea unei funcții.",
+      "ideiCheie": [
+        "Domeniul este definit de expresia analitică a funcției",
+        "Codomeniul reprezintă domeniul valorilor y"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Imaginea unei funcții",
+      "explicatie": "Imaginea unei funcții este submulțimea codomeniului formată din toate valorile atinse de funcție. Se notează cu f(A) sau Im(f). Imaginea este mulțimea valorilor efectiv obținute prin aplicarea funcției asupra domeniului.",
+      "ideiCheie": [
+        "Imaginea este submulțimea codomeniului",
+        "Imaginea se notează cu f(A) sau Im(f)"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Relația dintre domeniu, codomeniu și imagine",
+      "explicatie": "Domeniul este mulțimea valorilor x pentru care funcția are sens. Codomeniul este mulțimea valorilor y posibile, iar imaginea este mulțimea valorilor y efectiv atinse de funcție. Imaginea este inclusă în codomeniu.",
+      "ideiCheie": [
+        "Imaginea este inclusă în codomeniu",
+        "Domeniul este mulțimea valorilor x pentru care funcția are sens"
+      ]
+    }
+  ],
+  "formule": []
+}

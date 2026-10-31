@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție liniară",
+      "definitie": "O funcție de forma f: R → R, definită prin f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0.",
+      "observatie": "Funcția liniară este o funcție care are graficul reprezentat printr-o dreaptă în planul cartezian."
+    },
+    {
+      "termen": "model matematic",
+      "definitie": "Un model matematic este o reprezentare abstractă a unei situații practice, exprimată prin ecuații, inecuații sau alte relații matematice.",
+      "observatie": "Modelul matematic trebuie să fie adaptat la contextul problemei și să ofere soluții relevante."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Identificarea problemelor modelate prin funcții liniare",
+      "explicatie": "În practică, multe probleme pot fi exprimate ca funcții liniare. Acestea se caracterizează prin o relație de proporționalitate între două mărimi, cu o eventuală componentă constantă.",
+      "ideiCheie": [
+        "Problemele modelate prin funcții liniare implică o variație constantă a unei mărimi în raport cu alta.",
+        "Exemple pot fi probleme de cost, venit, viteză, distanță sau temperatură."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Interpretarea parametrilor funcției liniare",
+      "explicatie": "Parametrii a și b din funcția f(x) = ax + b au semnificații concrete în contextul problemei. Parametrul a reprezintă panta dreptei, iar b este valoarea inițială.",
+      "ideiCheie": [
+        "Parametrul a indică variația mărimii dependente față de cea independentă.",
+        "Parametrul b reprezintă valoarea mărimii dependente când x = 0."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Rezolvarea problemelor folosind ecuații și inecuații liniare",
+      "explicatie": "Pentru a rezolva probleme modelate prin funcții liniare, se folosesc ecuații sau inecuații liniare. Acestea permit determinarea valorilor care îndeplinesc condițiile problemei.",
+      "ideiCheie": [
+        "Ecuațiile liniare sunt folosite pentru a găsi valori exacte, în timp ce inecuațiile se folosesc pentru a determina intervale de soluții.",
+        "Soluția trebuie să fie verificată în contextul problemei pentru a fi acceptabilă."
+      ]
+    }
+  ],
+  "formule": []
+}

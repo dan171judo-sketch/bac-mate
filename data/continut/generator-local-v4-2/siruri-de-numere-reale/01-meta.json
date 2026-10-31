@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definirea și clasificarea șirurilor de numere reale",
+  "descriere": "Lectia introduce conceptul de șir de numere reale, precum și modurile de definire ale acestora.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea mulțimii numerelor reale"
+  ],
+  "obiective": [
+    "Definirea conceptului de șir de numere reale",
+    "Identificarea modurilor de definire a unui șir (prin formula generală, prin recurență, prin enumerare)",
+    "Clasificarea șirurilor în funcție de termenii lor (crescătoare, descrescătoare, constantă, alternată)",
+    "Înțelegerea diferenței dintre șirul finit și șirul infinit"
+  ],
+  "termeniCheie": [
+    "șir de numere reale",
+    "formula generală",
+    "recurență",
+    "clasificarea șirurilor"
+  ]
+}

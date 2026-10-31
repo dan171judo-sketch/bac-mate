@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea semnului funcției în afara intervalului determinat de rădăcină",
+      "deCeEsteGresit": "Elevul nu verifică dacă valoarea variabilei x se află într-un interval specific, ceea ce duce la erori în interpretarea semnului funcției.",
+      "cumOEviti": "Analizați întotdeauna valorile x din contextul problemei și folosiți tabelul de semne pentru a evita greșeli."
+    },
+    {
+      "greseala": "Neglijarea intersecției cu axa absciselor în determinarea semnului funcției",
+      "deCeEsteGresit": "Elevul nu identifică rădăcina funcției, ceea ce îi blochează analiza semnului în intervaluri.",
+      "cumOEviti": "Determinați întotdeauna intersecția graficului cu axa Ox pentru a stabili punctul de separare între semne."
+    },
+    {
+      "greseala": "Interpretarea greșită a semnului funcției în intervaluri",
+      "de   CeEsteGresit": "Elevul nu respectă regula semnului coeficientului a, ceea ce duce la erori în determinarea semnului funcției în fiecare interval.",
+      "cumOEviti": "Reamintiți-vă că semnul funcției este același cu semnul lui a pentru x > rădăcină și opus pentru x < rădăcină."
+    },
+    {
+      "greseala": "Neglijarea cazului când coeficientul a este zero",
+      "deCeEsteGresit": "Elevul nu ține cont că funcția nu mai este liniară dacă a = 0, ceea ce îi blochează analiza semnului.",
+      "cumOEviti": "Verificați întotdeauna dacă a ≠ 0 înainte de a analiza semnul funcției."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Semnul funcției liniare se schimbă în funcție de valoarea variabilei x față de rădăcină.",
+      "Intersecția cu axa Ox este punctul unde funcția se anulează și separă intervalurile de semne.",
+      "Semnul funcției este același cu semnul lui a pentru x > rădăcină și opus pentru x < rădăcină.",
+      "Funcția liniară are un singur punct de intersecție cu axa Ox, dacă a ≠ 0."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Determinați intersecția graficului cu axa Ox.",
+      "Analizați semnul funcției în intervaluri definite de rădăcină.",
+      "Verificați dacă a ≠ 0 înainte de a analiza semnul funcției.",
+      "Utilizați tabelul de semne pentru a interpreta corect semnul funcției."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Semnul funcției de gradul I este un concept esențial în analiza funcțiilor liniare, care apare frecvent în subiectele de Bac MATE.",
+    "tipuriCerinte": [
+      "Determinarea semnului funcției într-un interval dat",
+      "Interpretarea grafică a semnului funcției",
+      "Analiza semnului funcției în funcție de valoarea variabilei x",
+      "Identificarea intersecției cu axa Ox"
+    ],
+    "strategie": [
+      "Determinați întotdeauna rădăcina funcției pentru a separa intervalurile.",
+      "Utilizați tabelul de semne pentru a evita greșeli în interpretarea semnului.",
+      "Verificați dacă a ≠ 0 înainte de a analiza semnul funcției.",
+      "Exerciția constantă este esențială pentru a înțelege și aplica corect conceptele."
+    ]
+  }
+}

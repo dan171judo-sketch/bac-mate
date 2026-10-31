@@ -1,0 +1,36 @@
+{
+  "video2": {
+    "id": "video201",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "Acest video explica cum se aduna numerele cu semn, inclusiv regulile de semne si exemple practice. Este destinat elevilor care incep sa invete despre numere intregi.",
+    "scenariu": [
+      "In această lecție vom învăța cum să adunăm numere cu semn. Acest lucru este important pentru a înțelege mai bine operațiile matematice cu numerele negative și pozitive.",
+      "Regula principală este următoarea: când adunăm două numere cu același semn, rezultatul are acelasi semn, iar valoarea absolută se adună. Dacă semnele sunt diferite, se scade valoarea mai mică din cea mai mare și semnul rezultatului este acela al numărului cu valoare absolută mai mare.",
+      "De exemplu, dacă avem +5 și +3, ambele au semn pozitiv. Adunăm valorile: 5+3=8, iar semnul rămâne pozitiv. Deci rezultatul este +8.",
+      "Dacă avem -4 și -2, ambele sunt negative. Valoarea absolută este 4+2=6, iar semnul este negativ. Rezultatul este -6.",
+      "Acum să luăm un caz mai complex: +7 și -3. Semnele sunt diferite. Alegem valoarea mai mare (7) și scădem cea mai mică (3). 7-3=4, iar semnul este acela al numărului cu valoare absolută mai mare (+7), deci rezultatul este +4.",
+      "Este important să înțelegem de ce această regulă funcționează. Când adunăm două numere pozitive, le considerăm ca mărimi pozitive și le adunăm. La fel pentru cele negative, dar se consideră ca datorii sau pierderi.",
+      "Dacă avem un număr pozitiv și unul negativ, este ca și cum ar fi o creștere și o scădere. Alegem cea mai mare valoare absolută și semnul rămâne al ei.",
+      "Să verificăm dacă exemplul nostru e corect: +7 -3 = +4. Dacă adunăm 7 și -3, obținem 4, ceea ce este corect.",
+      "O greșeală frecventă este să adunăm valorile absolute indiferent de semne. De exemplu, dacă cineva face -5 + (-2) = -7, aceasta este corectă, dar dacă face -5 + 2 = -3, este gresit.",
+      "Pentru a evita astfel de greșeli, e important să identificăm semnele și să aplicăm regula corespunzătoare. Dacă semnele sunt aceleași, adunăm valorile absolute și păstrăm semnul. Dacă sunt diferite, scădem valorile absolute și păstrăm semnul celui mai mare.",
+      "În concluzie, adunarea numerelor cu semn se face după reguli clare: același semn = adunare, semne diferite = scădere. Semnul rezultatului depinde de valoarea absolută a numerelor.",
+      "Prin înțelegerea acestor reguli, elevii pot rezolva mai ușor problemele cu numere intregi și să evite greșelile comune."
+    ],
+    "ideiDeRetinut": [
+      "Când adunăm două numere cu același semn, rezultatul are acelasi semn.",
+      "Dacă semnele sunt diferite, se scade valoarea mai mică din cea mai mare și semnul este al celui mai mare.",
+      "Este important să identificăm semnele și valorile absolute pentru a aplica corect regula."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: +9 + (-4).",
+      "raspunsCorect": 1,
+      "verificareRapida": [
+        "+9 + (-4) = +5",
+        "+9 - 4 = +5",
+        "-9 + (-4) = -13",
+        "+9 + 4 = +13"
+      ]
+    }
+  }
+}

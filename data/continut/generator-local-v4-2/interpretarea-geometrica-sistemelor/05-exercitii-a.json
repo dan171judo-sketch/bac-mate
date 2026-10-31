@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva ecuația: 3x + 5 = 20.",
+      "variante": [],
+      "raspunsCorect": "x = 5",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se scade 5 din ambele părți ale ecuației: 3x + 5 - 5 = 20 - 5 → 3x = 15."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 3: 3x / 3 = 15 / 3 → x = 5."
+        }
+      ],
+      "explicatieFinala": "Ecuația este rezolvată prin izolarea variabilei x, folosind operații inverse adunării și înmulțirii.",
+      "competenta": "Rezolvare ecuații de gradul întâi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva inecuația: 4x - 7 < 9.",
+      "variante": [],
+      "raspunsCorect": "x < 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea termenului liber",
+          "continut": "Se adună 7 în ambele părți: 4x - 7 + 7 < 9 + 7 → 4x < 16."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 4: 4x / 4 < 16 / 4 → x < 4."
+        }
+      ],
+      "explicatieFinala": "Inecuația este rezolvată prin izolarea variabilei x, folosind operații inverse adunării și înmulțirii.",
+      "competenta": "Rezolvare inecuații de gradul întâi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolva ecuația: 2x + 1 = 7.",
+      "variante": [
+        "x = 4",
+        "x = 3",
+        "x = 5",
+        "x = 6"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se scade 1 din ambele părți: 2x + 1 - 1 = 7 - 1 → 2x = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 2: 2x / 2 = 6 / 2 → x = 3."
+        }
+      ],
+      "explicatieFinala": "Ecuația este rezolvată prin izolarea variabilei x, folosind operații inverse adunării și înmulțirii.",
+      "competenta": "Rezolvare ecuații de gradul întâi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolva inecuația: 3x + 2 > 11.",
+      "variante": [
+        "x < 3",
+        "x > 3",
+        "x = 3",
+        "x ≤ 3"
+      ],
+      "raspunsCorect": "x > 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se scade 2 din ambele părți: 3x + 2 - 2 > 11 - 2 → 3x > 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 3: 3x / 3 > 9 / 3 → x > 3."
+        }
+      ],
+      "explicatieFinala": "Inecuația este rezolvată prin izolarea variabilei x, folosind operații inverse adunării și înmulțirii.",
+      "competenta": "Rezolvare inecuații de gradul întâi",
+      "punctaj": 5
+    }
+  ]
+}

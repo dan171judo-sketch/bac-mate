@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție pară",
+      "definitie": "O funcție f: D → ℝ se numește pară dacă pentru orice x ∈ D, avem că -x ∈ D și f(-x) = f(x).",
+      "observatie": "Graficul unei funcții pare este simetric față de axa OY."
+    },
+    {
+      "termen": "funcție impară",
+      "definitie": "O funcție f: D → ℝ se numește impară dacă pentru orice x ∈ D, avem că -x ∈ D și f(-x) = -f(x).",
+      "observatie": "Graficul unei funcții impare este simetric față de origine."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția parității funcțiilor",
+      "explicatie": "Paritatea unei funcții se definește prin relații între valorile funcției în puncte simetrice față de origine. Aceste definiții sunt fundamentale pentru a clasifica funcțiile în funcții pare sau impare.",
+      "ideiCheie": [
+        "O funcție pară trebuie să satisfacă f(-x) = f(x).",
+        "O funcție impară trebuie să satisfacă f(-x) = -f(x)."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Simetria graficului funcției",
+      "explicatie": "Graficul unei funcții pare este simetric față de axa OY, înseamnând că dacă punctul (x, y) aparține graficului, atunci și (-x, y) trebuie să aparțină. În cazul funcțiilor impare, simetria este față de origine: dacă (x, y) aparține graficului, atunci (-x, -y) trebuie să aparțină.",
+      "ideiCheie": [
+        "Simetria față de axa OY caracterizează funcțiile pare.",
+        "Simetria față de origine caracterizează funcțiile impare."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Condiții pentru paritate",
+      "explicatie": "Pentru ca o funcție să fie pară sau impară, trebuie să respecte anumite condiții. De exemplu, domeniul de definiție al funcției trebuie să fie simetric față de origine, adică dacă x ∈ D, atunci și -x ∈ D.",
+      "ideiCheie": [
+        "Domeniul de definiție al funcției trebuie să fie simetric față de origine.",
+        "Paritatea unei funcții se verifică prin compararea valorilor f(-x) cu f(x) sau -f(x)."
+      ]
+    }
+  ],
+  "formule": []
+}

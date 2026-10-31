@@ -1,0 +1,23 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definirea și proprietățile progresiilor geometrice",
+  "descriere": "Lectia introduce conceptul de progresie geometrică, precum și proprietățile fundamentale ale acesteia.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de progresie aritmetică",
+    "Cunoașterea conceptului de raport și proporție"
+  ],
+  "obiective": [
+    "Definirea progresiei geometrice prin termenul general",
+    "Identificarea caracteristicilor unei progresii geometrice",
+    "Calcularea rației unei progresii geometrice",
+    "Aplicarea formulei termenului general în probleme simple"
+  ],
+  "termeniCheie": [
+    "progresie geometrică",
+    "rație",
+    "termen general",
+    "proprietatea progresiei geometrice"
+  ]
+}

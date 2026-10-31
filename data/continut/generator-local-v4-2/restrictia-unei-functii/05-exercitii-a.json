@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = x² - 4. Definiți restricția funcției f pe intervalul [0, 3].",
+      "variante": [],
+      "raspunsCorect": "Restricția funcției f pe [0, 3] este funcția g: [0, 3] → ℝ, g(x) = x² - 4.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul [0, 3] este inclus în ℝ, domeniul de definiție al funcției f."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [0, 3] este o funcție g: [0, 3] → ℝ definită prin g(x) = x² - 4."
+        }
+      ],
+      "explicatieFinala": "Restricția unei funcții pe un interval se obține limitând domeniul de definiție la acel interval.",
+      "competenta": "Înțelegerea conceptului de restricție a unei funcții",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = √(x + 1). Definiți restricția funcției f pe intervalul [-2, 5].",
+      "variante": [],
+      "raspunsCorect": "Restricția funcției f pe [-2, 5] este funcția g: [-2, 5] → ℝ, g(x) = √(x + 1).",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea domeniului de definiție al restricției",
+          "continut": "Pentru ca funcția f să fie definită, trebuie ca x + 1 ≥ 0 ⇒ x ≥ -1. Intervalul [-2, 5] conține valori mai mici decât -1, dar nu toate."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [-2, 5] este o funcție g: [-2, 5] → ℝ definită prin g(x) = √(x + 1), cu x ≥ -1."
+        }
+      ],
+      "explicatieFinala": "În cazul funcțiilor cu radical, domeniul de definiție este restricționat de condiția ca argumentul să fie nenegativ.",
+      "competenta": "Aplicarea condițiilor de definiție în restricții",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = |x - 2|. Care este restricția funcției f pe intervalul [1, 4]?",
+      "variante": [
+        "g: [1, 4] → ℝ, g(x) = x - 2",
+        "g: [1, 4] → ℝ, g(x) = -(x - 2)",
+        "g: [1, 4] → ℝ, g(x) = |x - 2|",
+        "g: [1, 4] → ℝ, g(x) = x + 2"
+      ],
+      "raspunsCorect": "g: [1, 4] → ℝ, g(x) = |x - 2|",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul [1, 4] este inclus în ℝ, domeniul de definiție al funcției f."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [1, 4] este o funcție g: [1, 4] → ℝ definită prin g(x) = |x - 2|."
+        }
+      ],
+      "explicatieFinala": "Restricția unei funcții pe un interval se obține limitând domeniul de definiție la acel interval, fără a modifica expresia funcției.",
+      "competenta": "Înțelegerea conceptului de restricție a unei funcții",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f: ℝ → ℝ, f(x) = x³ - 3x. Definiți restricția funcției f pe intervalul [-2, 1].",
+      "variante": [],
+      "raspunsCorect": "Restricția funcției f pe [-2, 1] este funcția g: [-2, 1] → ℝ, g(x) = x³ - 3x.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Verificarea apartenenței intervalului în domeniul inițial",
+          "continut": "Intervalul [-2, 1] este inclus în ℝ, domeniul de definiție al funcției f."
+        },
+        {
+          "numar": 2,
+          "titlu": "Definirea restricției funcției",
+          "continut": "Restricția funcției f pe [-2, 1] este o funcție g: [-2, 1] → ℝ definită prin g(x) = x³ - 3x."
+        }
+      ],
+      "explicatieFinala": "Restricția unei funcții pe un interval se obține limitând domeniul de definiție la acel interval, fără a modifica expresia funcției.",
+      "competenta": "Aplicarea conceptului de restricție în cazuri concrete",
+      "punctaj": 5
+    }
+  ]
+}

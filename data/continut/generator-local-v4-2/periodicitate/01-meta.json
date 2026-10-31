@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Noțiunea de funcție periodică",
+  "descriere": "Lectia introduce conceptul de periodicitate în contextul funcțiilor matematice, cu accent pe definiția și exemplele fundamentale.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Cunoașterea graficului unei funcții",
+    "Cunoașterea operațiilor cu funcții"
+  ],
+  "obiective": [
+    "Definirea conceptului de funcție periodică",
+    "Identificarea perioadei fundamentale a unei funcții",
+    "Exemplificarea funcțiilor periodice în contextul matematic",
+    "Înțelegerea rolului periodicității în studiul funcțiilor"
+  ],
+  "termeniCheie": [
+    "funcție periodică",
+    "perioadă",
+    "funcție sinusoidală",
+    "funcție cosinusoidală"
+  ]
+}

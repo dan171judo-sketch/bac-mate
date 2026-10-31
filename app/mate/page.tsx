@@ -1,1931 +1,2076 @@
-"use client";
+﻿"use client";
 
 import {
+  ChangeEvent,
+  KeyboardEvent,
   useEffect,
-  useMemo,
+  useRef,
   useState,
 } from "react";
+
 import { useRouter } from "next/navigation";
 
-import BacMateShell from "../../components/BacMateShell";
-import { createClient } from "../../lib/supabase/client";
 import {
-  getDailyPlan,
-  type DailyPlanData,
-} from "../../lib/daily-plan/service";
-import {
-  getLessonHrefForSkill,
-} from "../../lib/daily-plan/lesson-resolver";
+  ArrowUp,
+  BrainCircuit,
+  Camera,
+  CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
+  CircleHelp,
+  History,
+  Lightbulb,
+  Menu,
+  MessageSquarePlus,
+  Mic,
+  RefreshCw,
+  Sparkles,
+  Square,
+  Target,
+  Trash2,
+  WandSparkles,
+  X,
+} from "lucide-react";
 
-type AvatarGender =
-  | "male"
-  | "female"
-  | "standard";
+import "katex/dist/katex.min.css";
+
+import BacMateShell from "../../components/BacMateShell";
+
+import MateAvatar, {
+  type MateAvatarState,
+} from "../../components/mate/MateAvatar";
+
+import MateMessage from "../../components/mate/MateMessage";
+import MateVoice from "../../components/mate/MateVoice";
+
+import { createClient } from "../../lib/supabase/client";
+
+import type {
+  MateConversation,
+  MateMessage as StoredMateMessage,
+  MateTutorMode,
+} from "../../lib/mate/types";
 
 type ProfileRow = {
   nume: string | null;
   profil_bac: string | null;
   avatar_gender: string | null;
-  evaluare_initiala_finalizata:
-    | boolean
-    | null;
 };
 
-type MasteryRow = {
-  skill_id: string;
-  mastery_score: number | null;
-  total_attempts: number | null;
-  correct_attempts: number | null;
-  consecutive_correct: number | null;
-  next_review_at: string | null;
-};
-
-type MistakeRow = {
-  skill_id: string | null;
-  lesson_id: string | null;
-  exercise_id: string | null;
- mistake_type: string | null;
-  resolved: boolean | null;
-  updated_at: string | null;
-};
-
-type MascotStateRow = {
-  current_focus_skill_id: string | null;
-  preferred_difficulty: string | null;
-  confidence_score: number | null;
-  independence_score: number | null;
-  weekly_streak: number | null;
-  last_weekly_assessment_at: string | null;
-  next_weekly_assessment_at: string | null;
-  updated_at: string | null;
-};
-
-type ChatMessage = {
+type UiMessage = {
   id: string;
-  author: "mate" | "student";
-  text: string;
+  role: "user" | "assistant";
+  content: string;
+  imageUrl?: string | null;
+  attachmentPath?: string | null;
+  streaming?: boolean;
 };
 
-function clamp(
-  value: number,
-  min: number,
-  max: number
-) {
-  return Math.max(
-    min,
-    Math.min(max, value)
-  );
-}
+type ModeDefinition = {
+  id: MateTutorMode;
+  label: string;
+  shortLabel: string;
+  description: string;
+  icon: typeof Lightbulb;
+};
 
-function normaliseGender(
-  value: string | null | undefined
-): AvatarGender {
-  if (value === "male") {
-    return "male";
-  }
+const MODES: ModeDefinition[] = [
+  {
+    id: "general",
+    label: "Întreabă orice",
+    shortLabel: "General",
+    description: "Discută liber despre matematică.",
+    icon: Sparkles,
+  },
+  {
+    id: "hint",
+    label: "Dă-mi un indiciu",
+    shortLabel: "Indiciu",
+    description: "Te ajută fără să-ți dea direct soluția.",
+    icon: Lightbulb,
+  },
+  {
+    id: "explain",
+    label: "Explică-mi",
+    shortLabel: "Explică",
+    description: "Explicație intuitivă și apoi matematică.",
+    icon: BrainCircuit,
+  },
+  {
+    id: "check",
+    label: "Verifică soluția mea",
+    shortLabel: "Verifică",
+    description: "Găsește exact unde apare greșeala.",
+    icon: CheckCircle2,
+  },
+  {
+    id: "solve",
+    label: "Rezolvă pas cu pas",
+    shortLabel: "Rezolvă",
+    description: "Rezolvare riguroasă, explicată.",
+    icon: Target,
+  },
+  {
+    id: "similar",
+    label: "Dă-mi unul similar",
+    shortLabel: "Similar",
+    description: "Primești un exercițiu apropiat.",
+    icon: RefreshCw,
+  },
+  {
+    id: "quiz",
+    label: "Testează-mă",
+    shortLabel: "Quiz",
+    description: "MATE pune întrebările pe rând.",
+    icon: CircleHelp,
+  },
+];
 
-  if (value === "female") {
-    return "female";
-  }
-
-  return "standard";
-}
-
-function formatSkill(skillId: string) {
-  return skillId
-    .replaceAll("-", " ")
-    .replaceAll("_", " ")
-    .replace(/\b\w/g, (letter) =>
-      letter.toUpperCase()
-    );
-}
-
-function formatDate(
-  value: string | null
-) {
-  if (!value) {
-    return "Nu este programată";
-  }
-
+function formatDate(value: string) {
   const date = new Date(value);
 
-  if (
-    Number.isNaN(date.getTime())
-  ) {
-    return "Nu este programată";
+  if (Number.isNaN(date.getTime())) {
+    return "";
   }
 
-  return new Intl.DateTimeFormat(
-    "ro-RO",
-    {
-      day: "2-digit",
-      month: "short",
-    }
-  ).format(date);
+  return new Intl.DateTimeFormat("ro-RO", {
+    day: "2-digit",
+    month: "short",
+  }).format(date);
 }
 
-function MateAvatar({
-  gender,
-  size = "large",
-}: {
-  gender: AvatarGender;
-  size?: "small" | "large";
-}) {
-  const isFemale =
-    gender === "female";
+function uniqueFileName(originalName: string) {
+  const extension =
+    originalName
+      .split(".")
+      .pop()
+      ?.toLowerCase() || "jpg";
 
-  const wrapper =
-    size === "large"
-      ? "h-44 w-44 sm:h-52 sm:w-52"
-      : "h-14 w-14";
-
-  if (size === "small") {
-    return (
-      <div
-        className={`${wrapper} relative shrink-0 overflow-hidden rounded-full border border-blue-400/30 bg-gradient-to-br from-blue-500/30 via-indigo-500/20 to-violet-500/30 shadow-[0_0_30px_rgba(59,130,246,0.18)]`}
-      >
-        <div className="absolute inset-x-0 bottom-0 h-[55%] rounded-t-[50%] bg-blue-600/60" />
-
-        <div className="absolute left-1/2 top-[17%] h-[48%] w-[48%] -translate-x-1/2 rounded-[45%] bg-[#f1c5a5]" />
-
-        <div
-          className={`absolute left-1/2 top-[10%] h-[30%] -translate-x-1/2 bg-slate-950 ${
-            isFemale
-              ? "w-[65%] rounded-t-full rounded-bl-[70%] rounded-br-[30%]"
-              : "w-[55%] rounded-t-[60%] rounded-bl-[35%] rounded-br-[60%]"
-          }`}
-        />
-
-        {isFemale && (
-          <>
-            <div className="absolute left-[18%] top-[25%] h-[45%] w-[14%] rounded-full bg-slate-950" />
-            <div className="absolute right-[18%] top-[25%] h-[45%] w-[14%] rounded-full bg-slate-950" />
-          </>
-        )}
-
-        <div className="absolute left-[36%] top-[38%] h-1.5 w-1.5 rounded-full bg-slate-900" />
-        <div className="absolute right-[36%] top-[38%] h-1.5 w-1.5 rounded-full bg-slate-900" />
-      </div>
-    );
-  }
-
-  return (
-    <div
-      className={`${wrapper} relative shrink-0`}
-    >
-      <div className="absolute inset-2 rounded-full bg-blue-500/20 blur-3xl" />
-
-      <div className="absolute inset-0 overflow-hidden rounded-[42%] border border-blue-400/20 bg-gradient-to-b from-[#101f42] via-[#08142c] to-[#06101f] shadow-[0_0_50px_rgba(59,130,246,0.2)]">
-        <div className="absolute -bottom-[15%] left-1/2 h-[55%] w-[80%] -translate-x-1/2 rounded-t-[45%] bg-gradient-to-b from-blue-600 to-indigo-950" />
-
-        <div className="absolute left-1/2 top-[23%] h-[43%] w-[40%] -translate-x-1/2 rounded-[42%] bg-[#f0c5a6]" />
-
-        <div
-          className={`absolute left-1/2 top-[15%] -translate-x-1/2 bg-[#07101f] ${
-            isFemale
-              ? "h-[31%] w-[54%] rounded-t-[50%] rounded-bl-[75%] rounded-br-[35%]"
-              : "h-[26%] w-[48%] rounded-t-[55%] rounded-bl-[35%] rounded-br-[70%]"
-          }`}
-        />
-
-        {isFemale && (
-          <>
-            <div className="absolute left-[25%] top-[32%] h-[47%] w-[12%] rounded-full bg-[#07101f]" />
-            <div className="absolute right-[25%] top-[32%] h-[47%] w-[12%] rounded-full bg-[#07101f]" />
-          </>
-        )}
-
-        {!isFemale && (
-          <div className="absolute left-[31%] top-[18%] h-[13%] w-[18%] -rotate-[20deg] rounded-full bg-[#07101f]" />
-        )}
-
-        <div className="absolute left-[39%] top-[43%] h-2 w-2 rounded-full bg-[#07101f]" />
-        <div className="absolute right-[39%] top-[43%] h-2 w-2 rounded-full bg-[#07101f]" />
-
-        <div className="absolute left-1/2 top-[55%] h-[2px] w-[12%] -translate-x-1/2 rounded-full bg-[#b87567]" />
-
-        <div className="absolute bottom-[18%] left-[31%] h-[5%] w-[38%] rounded-full bg-blue-400/70" />
-      </div>
-
-      <div className="absolute bottom-1 right-1 flex h-9 w-9 items-center justify-center rounded-full border-4 border-[#07101f] bg-emerald-500 shadow-[0_0_20px_rgba(16,185,129,0.4)]">
-        <span className="h-2.5 w-2.5 rounded-full bg-white" />
-      </div>
-    </div>
-  );
-}
-
-function StatCard({
-  label,
-  value,
-  helper,
-  accent = "blue",
-}: {
-  label: string;
-  value: string;
-  helper: string;
-  accent?:
-    | "blue"
-    | "green"
-    | "amber"
-    | "violet";
-}) {
-  const accentClass = {
-    blue: "text-blue-400",
-    green: "text-emerald-400",
-    amber: "text-amber-400",
-    violet: "text-violet-400",
-  }[accent];
-
-  return (
-    <div className="rounded-2xl border border-slate-800 bg-[#07101f]/90 p-5">
-      <p className="text-xs font-bold uppercase tracking-[0.14em] text-slate-500">
-        {label}
-      </p>
-
-      <p
-        className={`mt-3 text-3xl font-black ${accentClass}`}
-      >
-        {value}
-      </p>
-
-      <p className="mt-2 text-xs leading-5 text-slate-500">
-        {helper}
-      </p>
-    </div>
-  );
+  return `${Date.now()}-${crypto.randomUUID()}.${extension}`;
 }
 
 export default function MatePage() {
   const router = useRouter();
 
-  const [supabase] = useState(
-    () => createClient()
-  );
+  const supabaseRef = useRef(createClient());
+  const supabase = supabaseRef.current;
+
+  const textareaRef =
+    useRef<HTMLTextAreaElement | null>(null);
+
+  const fileInputRef =
+    useRef<HTMLInputElement | null>(null);
+
+  const bottomRef =
+    useRef<HTMLDivElement | null>(null);
+
+  const abortRef =
+    useRef<AbortController | null>(null);
 
   const [loading, setLoading] =
     useState(true);
 
-  const [error, setError] =
-    useState("");
+  const [signingOut, setSigningOut] =
+    useState(false);
 
-  const [studentName, setStudentName] =
-    useState("");
+  const [profile, setProfile] =
+    useState<ProfileRow | null>(null);
 
-  const [profileName, setProfileName] =
-    useState("");
-
-  const [gender, setGender] =
-    useState<AvatarGender>(
-      "standard"
-    );
+  const [conversations, setConversations] =
+    useState<MateConversation[]>([]);
 
   const [
-    savingGender,
-    setSavingGender,
-  ] = useState(false);
+    activeConversationId,
+    setActiveConversationId,
+  ] = useState<string | null>(null);
 
-  const [
-    masteryRows,
-    setMasteryRows,
-  ] = useState<MasteryRow[]>([]);
-
-  const [
-    mistakeRows,
-    setMistakeRows,
-  ] = useState<MistakeRow[]>([]);
-
-  const [
-    mascotState,
-    setMascotState,
-  ] =
-    useState<MascotStateRow | null>(
-      null
-    );
-
-  const [
-    signingOut,
-    setSigningOut,
-  ] = useState(false);
+  const [messages, setMessages] =
+    useState<UiMessage[]>([]);
 
   const [input, setInput] =
     useState("");
 
-  const [
-    chatMessages,
-    setChatMessages,
-  ] = useState<ChatMessage[]>([]);
+  const [mode, setMode] =
+    useState<MateTutorMode>("general");
+
+  const [sending, setSending] =
+    useState(false);
+
+  const [error, setError] =
+    useState<string | null>(null);
+
+  const [historyOpen, setHistoryOpen] =
+    useState(true);
+
+  const [mobileHistory, setMobileHistory] =
+    useState(false);
+
+  const [voiceOpen, setVoiceOpen] =
+    useState(false);
+
+  const [voiceState] =
+    useState<MateAvatarState>("idle");
 
   const [
-    activeAction,
-    setActiveAction,
-  ] = useState<
-    | "today"
-    | "weakness"
-    | "challenge"
-    | null
-  >(null);
+    voiceRealtimeReady,
+    setVoiceRealtimeReady,
+  ] = useState(false);
+
+  const [selectedFile, setSelectedFile] =
+    useState<File | null>(null);
 
   const [
-    dailyPlanData,
-    setDailyPlanData,
-  ] = useState<DailyPlanData | null>(
-    null
-  );
+    selectedPreview,
+    setSelectedPreview,
+  ] = useState<string | null>(null);
+
+  const [
+    uploadingImage,
+    setUploadingImage,
+  ] = useState(false);
+
+  const selectedMode =
+    MODES.find(
+      (item) => item.id === mode
+    ) ?? MODES[0];
+
+  const SelectedModeIcon =
+    selectedMode.icon;
 
   useEffect(() => {
-    let active = true;
+    void initialise();
+  }, []);
 
-    async function loadMate() {
-      setLoading(true);
-      setError("");
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, [messages, sending]);
 
-      const {
-        data: { user },
-        error: userError,
-      } =
-        await supabase.auth.getUser();
-
-      if (!active) {
-        return;
-      }
-
-      if (
-        userError ||
-        !user
-      ) {
-        router.replace("/cont");
-        return;
-      }
-
-      const {
-        data: profileData,
-        error: profileError,
-      } = await supabase
-        .from("profiles")
-        .select(
-          "nume, profil_bac, avatar_gender, evaluare_initiala_finalizata"
-        )
-        .eq("id", user.id)
-        .maybeSingle();
-
-      if (!active) {
-        return;
-      }
-
-      if (
-        profileError ||
-        !profileData
-      ) {
-        console.error(
-          "Eroare profil MATE:",
-          profileError
-        );
-
-        setError(
-          "Profilul tău nu a putut fi încărcat."
-        );
-
-        setLoading(false);
-        return;
-      }
-
-      const profile =
-        profileData as ProfileRow;
-
-      if (!profile.nume) {
-        router.replace(
-          "/date-personale"
-        );
-        return;
-      }
-
-      if (!profile.profil_bac) {
-        router.replace("/profil");
-        return;
-      }
-
-      if (
-        !profile.evaluare_initiala_finalizata
-      ) {
-        router.replace("/evaluare");
-        return;
-      }
-
-      setStudentName(profile.nume);
-      setProfileName(
-        profile.profil_bac
-      );
-
-      setGender(
-        normaliseGender(
-          profile.avatar_gender
-        )
-      );
-
-      const [
-        masteryResult,
-        mistakesResult,
-        stateResult,
-      ] = await Promise.all([
-        supabase
-          .from("student_mastery")
-          .select(
-            "skill_id, mastery_score, total_attempts, correct_attempts, consecutive_correct, next_review_at"
-          )
-          .eq("user_id", user.id),
-
-        supabase
-          .from("student_mistakes")
-          .select(
-         "skill_id, lesson_id, exercise_id, mistake_type, resolved, updated_at"
-          )
-          .eq("user_id", user.id)
-          .eq("resolved", false)
-          .order(
-            "updated_at",
-            {
-              ascending: false,
-            }
-          )
-          .limit(20),
-
-        supabase
-          .from(
-            "mascot_student_state"
-          )
-          .select(
-            "current_focus_skill_id, preferred_difficulty, confidence_score, independence_score, weekly_streak, last_weekly_assessment_at, next_weekly_assessment_at, updated_at"
-          )
-          .eq("user_id", user.id)
-          .maybeSingle(),
-      ]);
-
-      if (!active) {
-        return;
-      }
-
-      if (masteryResult.error) {
-        console.error(
-          "Eroare student_mastery:",
-          masteryResult.error
-        );
-      } else {
-        setMasteryRows(
-          (masteryResult.data ??
-            []) as unknown as MasteryRow[]
-        );
-      }
-
-      if (mistakesResult.error) {
-        console.error(
-          "Eroare student_mistakes:",
-          mistakesResult.error
-        );
-      } else {
-        setMistakeRows(
-          (mistakesResult.data ??
-            []) as unknown as MistakeRow[]
-        );
-      }
-
-      if (stateResult.error) {
-        console.error(
-          "Eroare mascot_student_state:",
-          stateResult.error
-        );
-      } else {
-        setMascotState(
-          (stateResult.data ??
-            null) as unknown as MascotStateRow | null
-        );
-      }
-
-      try {
-        const dailyPlan =
-          await getDailyPlan(
-            supabase,
-            {
-              maxActions: 3,
-            }
-          );
-
-        if (active) {
-          setDailyPlanData(
-            dailyPlan
-          );
-        }
-      } catch (dailyPlanError) {
-        console.error(
-          "Eroare Daily Plan:",
-          dailyPlanError
-        );
-
-        if (active) {
-          setDailyPlanData(null);
-        }
-      }
-
-      setLoading(false);
+  useEffect(() => {
+    if (!selectedFile) {
+      setSelectedPreview(null);
+      return;
     }
 
-    void loadMate();
+    const url =
+      URL.createObjectURL(selectedFile);
+
+    setSelectedPreview(url);
 
     return () => {
-      active = false;
+      URL.revokeObjectURL(url);
     };
-  }, [router, supabase]);
+  }, [selectedFile]);
 
-  const weakestSkill =
-    useMemo(() => {
-      if (
-        masteryRows.length === 0
-      ) {
-        return null;
-      }
+  async function initialise() {
+    setLoading(true);
+    setError(null);
 
-      return [...masteryRows].sort(
-        (a, b) =>
-          (a.mastery_score ?? 0) -
-          (b.mastery_score ?? 0)
-      )[0];
-    }, [masteryRows]);
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser();
 
-  const strongestSkill =
-    useMemo(() => {
-      if (
-        masteryRows.length === 0
-      ) {
-        return null;
-      }
+    if (authError || !user) {
+      router.replace("/cont");
+      return;
+    }
 
-      return [...masteryRows].sort(
-        (a, b) =>
-          (b.mastery_score ?? 0) -
-          (a.mastery_score ?? 0)
-      )[0];
-    }, [masteryRows]);
+    const [
+      profileResult,
+      conversationsResponse,
+    ] = await Promise.all([
+      supabase
+        .from("profiles")
+        .select(
+          "nume, profil_bac, avatar_gender"
+        )
+        .eq("id", user.id)
+        .maybeSingle(),
 
-  const averageMastery =
-    useMemo(() => {
-      if (
-        masteryRows.length === 0
-      ) {
-        return 0;
-      }
-
-      const total =
-        masteryRows.reduce(
-          (sum, row) =>
-            sum +
-            clamp(
-              row.mastery_score ??
-                0,
-              0,
-              100
-            ),
-          0
-        );
-
-      return Math.round(
-        total /
-          masteryRows.length
-      );
-    }, [masteryRows]);
-
-  const dueForReview =
-    useMemo(() => {
-      const now = Date.now();
-
-      return masteryRows.filter(
-        (row) => {
-          if (
-            !row.next_review_at
-          ) {
-            return false;
-          }
-
-          const time = new Date(
-            row.next_review_at
-          ).getTime();
-
-          return (
-            !Number.isNaN(time) &&
-            time <= now
-          );
-        }
-      );
-    }, [masteryRows]);
-
-  const unresolvedMistakes =
-    mistakeRows.length;
-
-  const independenceScore =
-    clamp(
-      mascotState?.independence_score ??
-        0,
-      0,
-      100
-    );
-
-  const confidenceScore =
-    clamp(
-      mascotState?.confidence_score ??
-        0,
-      0,
-      100
-    );
-
-  const weeklyStreak =
-    Math.max(
-      0,
-      mascotState?.weekly_streak ??
-        0
-    );
-
-  const focusSkill =
-    mascotState
-      ?.current_focus_skill_id ||
-    weakestSkill?.skill_id ||
-    null;
-
-  const welcomeMessage =
-    useMemo(() => {
-      if (
-        masteryRows.length === 0
-      ) {
-        return `Salut, ${studentName}! Sunt MATE. Deocamdată nu am suficiente răspunsuri ca să îți construiesc o analiză precisă. Rezolvă câteva exerciții, iar eu voi începe să observ ce stăpânești și unde merită să revenim.`;
-      }
-
-      if (
-        dueForReview.length > 0
-      ) {
-        const skill =
-          dueForReview[0]
-            ?.skill_id;
-
-        return `Salut, ${studentName}! Am găsit ${dueForReview.length} ${
-          dueForReview.length === 1
-            ? "competență care trebuie revăzută"
-            : "competențe care trebuie revăzute"
-        }. Aș începe cu ${
-          skill
-            ? `„${formatSkill(
-                skill
-              )}”`
-            : "cea mai importantă dintre ele"
-        }.`;
-      }
-
-      if (weakestSkill) {
-        return `Salut, ${studentName}! Din datele pe care le avem acum, cea mai bună zonă pentru următoarea recapitulare este „${formatSkill(
-          weakestSkill.skill_id
-        )}”. O putem lucra pas cu pas.`;
-      }
-
-      return `Salut, ${studentName}! Sunt pregătit pentru următoarea sesiune.`;
-    }, [
-      dueForReview,
-      masteryRows.length,
-      studentName,
-      weakestSkill,
+      fetch("/api/mate/conversations", {
+        cache: "no-store",
+      }),
     ]);
 
-  useEffect(() => {
     if (
-      loading ||
-      !studentName
+      profileResult.error ||
+      !profileResult.data
     ) {
+      setError(
+        "Profilul tău nu a putut fi încărcat."
+      );
+
+      setLoading(false);
       return;
     }
 
-    setChatMessages((current) => {
-      if (
-        current.length > 0
-      ) {
-        return current;
-      }
+    const loadedProfile =
+      profileResult.data as ProfileRow;
 
-      return [
-        {
-          id: "mate-welcome",
-          author: "mate",
-          text: welcomeMessage,
-        },
-      ];
-    });
-  }, [
-    loading,
-    studentName,
-    welcomeMessage,
-  ]);
+    setProfile(loadedProfile);
 
-  async function chooseGender(
-    selectedGender:
-      | "male"
-      | "female"
+    if (conversationsResponse.ok) {
+      const json =
+        await conversationsResponse.json();
+
+      setConversations(
+        json.conversations ?? []
+      );
+    }
+
+    setLoading(false);
+  }
+
+  async function refreshConversations(
+    preferredId?: string | null
   ) {
-    if (savingGender) {
+    const response = await fetch(
+      "/api/mate/conversations",
+      {
+        cache: "no-store",
+      }
+    );
+
+    if (!response.ok) {
       return;
     }
 
-    setSavingGender(true);
-    setError("");
+    const json =
+      await response.json();
+
+    const next =
+      (json.conversations ??
+        []) as MateConversation[];
+
+    setConversations(next);
+
+    if (preferredId) {
+      setActiveConversationId(
+        preferredId
+      );
+    }
+  }
+
+  async function loadConversation(
+    conversationId: string
+  ) {
+    if (sending) {
+      return;
+    }
+
+    setError(null);
+    setMobileHistory(false);
+
+    setActiveConversationId(
+      conversationId
+    );
+
+    const response = await fetch(
+      `/api/mate/conversations/${conversationId}`,
+      {
+        cache: "no-store",
+      }
+    );
+
+    if (!response.ok) {
+      setError(
+        "Conversația nu a putut fi încărcată."
+      );
+
+      return;
+    }
+
+    const json =
+      await response.json();
+
+    const stored =
+      (json.messages ??
+        []) as StoredMateMessage[];
+
+    const uiMessages: UiMessage[] =
+      await Promise.all(
+        stored.map(
+          async (
+            item
+          ): Promise<UiMessage> => {
+            let imageUrl:
+              | string
+              | null = null;
+
+            if (item.attachment_path) {
+              const { data } =
+                await supabase.storage
+                  .from("mate-media")
+                  .createSignedUrl(
+                    item.attachment_path,
+                    60 * 30
+                  );
+
+              imageUrl =
+                data?.signedUrl ?? null;
+            }
+
+            return {
+              id: item.id,
+              role: item.role,
+              content: item.content,
+              imageUrl,
+              attachmentPath:
+                item.attachment_path,
+            };
+          }
+        )
+      );
+
+    setMessages(uiMessages);
+  }
+
+  function startNewConversation() {
+    if (sending) {
+      return;
+    }
+
+    setActiveConversationId(null);
+    setMessages([]);
+    setInput("");
+    setSelectedFile(null);
+    setMode("general");
+    setError(null);
+    setMobileHistory(false);
+
+    setTimeout(() => {
+      textareaRef.current?.focus();
+    }, 50);
+  }
+
+  async function archiveConversation(
+    id: string
+  ) {
+    if (sending) {
+      return;
+    }
+
+    const response = await fetch(
+      `/api/mate/conversations/${id}`,
+      {
+        method: "DELETE",
+      }
+    );
+
+    if (!response.ok) {
+      setError(
+        "Conversația nu a putut fi arhivată."
+      );
+
+      return;
+    }
+
+    if (
+      activeConversationId === id
+    ) {
+      startNewConversation();
+    }
+
+    await refreshConversations();
+  }
+
+  function handleFile(
+    event: ChangeEvent<HTMLInputElement>
+  ) {
+    const file =
+      event.target.files?.[0];
+
+    event.target.value = "";
+
+    if (!file) {
+      return;
+    }
+
+    const allowed = [
+      "image/jpeg",
+      "image/png",
+      "image/webp",
+    ];
+
+    if (!allowed.includes(file.type)) {
+      setError(
+        "Poți trimite imagini JPG, PNG sau WEBP."
+      );
+      return;
+    }
+
+    if (
+      file.size >
+      10 * 1024 * 1024
+    ) {
+      setError(
+        "Imaginea poate avea maximum 10 MB."
+      );
+      return;
+    }
+
+    setError(null);
+    setSelectedFile(file);
+  }
+
+  async function ensureConversationForUpload() {
+    if (activeConversationId) {
+      return activeConversationId;
+    }
+
+    const response = await fetch(
+      "/api/mate/conversations",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type":
+            "application/json",
+        },
+        body: JSON.stringify({
+          title:
+            input
+              .trim()
+              .slice(0, 70) ||
+            "Problemă din imagine",
+          mode: "mixed",
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(
+        "Conversația nu a putut fi creată."
+      );
+    }
+
+    const json =
+      await response.json();
+
+    const id =
+      json.conversation?.id as string;
+
+    if (!id) {
+      throw new Error(
+        "Conversația nu are ID."
+      );
+    }
+
+    setActiveConversationId(id);
+
+    await refreshConversations(id);
+
+    return id;
+  }
+
+  async function uploadSelectedImage(
+    conversationId: string
+  ) {
+    if (!selectedFile) {
+      return {
+        path: null,
+        mimeType: null,
+        previewUrl: null,
+      };
+    }
+
+    setUploadingImage(true);
 
     try {
       const {
         data: { user },
-        error: userError,
       } =
         await supabase.auth.getUser();
 
-      if (
-        userError ||
-        !user
-      ) {
-        router.replace("/cont");
-        return;
+      if (!user) {
+        throw new Error(
+          "Sesiunea a expirat."
+        );
       }
 
-      const { error: updateError } =
-        await supabase
-          .from("profiles")
-          .update({
-            avatar_gender:
-              selectedGender,
-          })
-          .eq("id", user.id);
+      const path = `${user.id}/${conversationId}/${uniqueFileName(
+        selectedFile.name
+      )}`;
 
-      if (updateError) {
-        throw updateError;
+      const {
+        error: uploadError,
+      } = await supabase.storage
+        .from("mate-media")
+        .upload(
+          path,
+          selectedFile,
+          {
+            cacheControl: "3600",
+            upsert: false,
+            contentType:
+              selectedFile.type,
+          }
+        );
+
+      if (uploadError) {
+        throw uploadError;
       }
 
-      setGender(selectedGender);
-    } catch (saveError) {
-      console.error(
-        "Eroare salvare avatar:",
-        saveError
-      );
+      const {
+        data: signedData,
+      } = await supabase.storage
+        .from("mate-media")
+        .createSignedUrl(
+          path,
+          60 * 30
+        );
 
-      setError(
-        "Alegerea personajului nu a putut fi salvată. Încearcă din nou."
-      );
+      return {
+        path,
+        mimeType:
+          selectedFile.type,
+        previewUrl:
+          signedData?.signedUrl ??
+          selectedPreview,
+      };
     } finally {
-      setSavingGender(false);
+      setUploadingImage(false);
+    }
+  }
+
+  async function sendMessage() {
+    const clean =
+      input.trim();
+
+    if (
+      sending ||
+      (!clean && !selectedFile)
+    ) {
+      return;
+    }
+
+    setError(null);
+    setSending(true);
+
+    const localUserId =
+      crypto.randomUUID();
+
+    const localAssistantId =
+      crypto.randomUUID();
+
+    let conversationId =
+      activeConversationId;
+
+    try {
+      if (selectedFile) {
+        conversationId =
+          await ensureConversationForUpload();
+      }
+
+      let uploaded: {
+        path: string | null;
+        mimeType: string | null;
+        previewUrl: string | null;
+      } = {
+        path: null,
+        mimeType: null,
+        previewUrl: null,
+      };
+
+      if (
+        selectedFile &&
+        conversationId
+      ) {
+        uploaded =
+          await uploadSelectedImage(
+            conversationId
+          );
+      }
+
+      setMessages(
+        (current) => [
+          ...current,
+          {
+            id: localUserId,
+            role: "user",
+            content: clean,
+            imageUrl:
+              uploaded.previewUrl ??
+              selectedPreview,
+            attachmentPath:
+              uploaded.path,
+          },
+          {
+            id: localAssistantId,
+            role: "assistant",
+            content: "",
+            streaming: true,
+          },
+        ]
+      );
+
+      setInput("");
+      setSelectedFile(null);
+
+      const controller =
+        new AbortController();
+
+      abortRef.current =
+        controller;
+
+      const response = await fetch(
+        "/api/mate/chat",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type":
+              "application/json",
+          },
+          body: JSON.stringify({
+            conversationId,
+            message: clean,
+            tutorMode: mode,
+            attachmentPath:
+              uploaded.path,
+            attachmentMimeType:
+              uploaded.mimeType,
+          }),
+          signal:
+            controller.signal,
+        }
+      );
+
+      if (!response.ok) {
+        const json =
+          await response
+            .json()
+            .catch(() => null);
+
+        throw new Error(
+          json?.error ||
+            "MATE nu a putut răspunde."
+        );
+      }
+
+      const returnedId =
+        response.headers.get(
+          "X-Mate-Conversation-Id"
+        );
+
+      if (returnedId) {
+        conversationId =
+          returnedId;
+
+        setActiveConversationId(
+          returnedId
+        );
+      }
+
+      if (!response.body) {
+        throw new Error(
+          "Răspunsul MATE nu conține date."
+        );
+      }
+
+      const reader =
+        response.body.getReader();
+
+      const decoder =
+        new TextDecoder();
+
+      let fullText = "";
+
+      while (true) {
+        const {
+          value,
+          done,
+        } = await reader.read();
+
+        if (done) {
+          break;
+        }
+
+        const delta =
+          decoder.decode(value, {
+            stream: true,
+          });
+
+        fullText += delta;
+
+        setMessages(
+          (current) =>
+            current.map(
+              (item) =>
+                item.id ===
+                localAssistantId
+                  ? {
+                      ...item,
+                      content:
+                        fullText,
+                    }
+                  : item
+            )
+        );
+      }
+
+      setMessages(
+        (current) =>
+          current.map(
+            (item) =>
+              item.id ===
+              localAssistantId
+                ? {
+                    ...item,
+                    streaming:
+                      false,
+                  }
+                : item
+          )
+      );
+
+      await refreshConversations(
+        conversationId
+      );
+    } catch (sendError) {
+      if (
+        sendError instanceof
+          DOMException &&
+        sendError.name ===
+          "AbortError"
+      ) {
+        setMessages(
+          (current) =>
+            current.map(
+              (item) =>
+                item.id ===
+                localAssistantId
+                  ? {
+                      ...item,
+                      streaming:
+                        false,
+                    }
+                  : item
+            )
+        );
+      } else {
+        console.error(
+          "MATE send:",
+          sendError
+        );
+
+        setMessages(
+          (current) =>
+            current.filter(
+              (item) =>
+                item.id !==
+                localAssistantId
+            )
+        );
+
+        setError(
+          sendError instanceof Error
+            ? sendError.message
+            : "A apărut o eroare."
+        );
+      }
+    } finally {
+      abortRef.current = null;
+      setSending(false);
+    }
+  }
+
+  function stopGeneration() {
+    abortRef.current?.abort();
+    abortRef.current = null;
+    setSending(false);
+  }
+
+  function handleKeyDown(
+    event: KeyboardEvent<HTMLTextAreaElement>
+  ) {
+    if (
+      event.key === "Enter" &&
+      !event.shiftKey
+    ) {
+      event.preventDefault();
+      void sendMessage();
     }
   }
 
   async function signOut() {
     setSigningOut(true);
 
-    const { error: signOutError } =
-      await supabase.auth.signOut();
-
-    if (signOutError) {
-      console.error(
-        "Eroare deconectare:",
-        signOutError
-      );
-
-      setSigningOut(false);
-      return;
-    }
-
-    localStorage.removeItem(
-      "bac-mate-nume"
-    );
-
-    localStorage.removeItem(
-      "bac-mate-profil-cod"
-    );
-
-    localStorage.removeItem(
-      "bac-mate-profil-nume"
-    );
-
-    localStorage.removeItem(
-      "bac-mate-evaluare-initiala-finalizata"
-    );
+    await supabase.auth.signOut();
 
     router.replace("/cont");
     router.refresh();
   }
 
-  function addMateMessage(
-    text: string
-  ) {
-    setChatMessages(
-      (current) => [
-        ...current,
-        {
-          id: `mate-${Date.now()}-${Math.random()}`,
-          author: "mate",
-          text,
-        },
-      ]
-    );
+  function openVoice() {
+    setVoiceOpen(true);
   }
 
-  function startTodayPlan() {
-    setActiveAction("today");
-
-    const plan =
-      dailyPlanData?.plan;
-
-    if (!plan) {
-      addMateMessage(
-        "Planul adaptiv nu este disponibil momentan. Poți continua cu următoarea lecție, iar progresul tău va alimenta Mastery Engine."
-      );
-
-      return;
-    }
-
-    const primary =
-      plan.primaryAction;
-
-    if (!primary) {
-      addMateMessage(
-        plan.message
-      );
-
-      return;
-    }
-
-    const actionLabel = {
-      retest: "o retestare",
-      review: "o recapitulare",
-      consolidate: "o consolidare",
-      continue:
-        "continuarea materiei",
-    }[primary.action];
-
-    const secondaryText =
-      plan.secondaryActions.length > 0
-        ? ` După aceea: ${plan.secondaryActions
-            .map(
-              (item) =>
-                `„${formatSkill(
-                  item.skillId
-                )}”`
-            )
-            .join(", ")}.`
-        : "";
-
-    addMateMessage(
-      `Planul tău de azi începe cu ${actionLabel} la „${formatSkill(
-        primary.skillId
-      )}”. Mastery: ${
-        primary.masteryScore
-      }/100. ${
-        primary.reason
-      }${secondaryText}`
+  function handleRealtimeButton() {
+    setVoiceRealtimeReady(
+      (current) => !current
     );
   }
-function openDailyPlanLesson() {
-  const primary =
-    dailyPlanData?.plan.primaryAction;
-
-  if (!primary) {
-    startTodayPlan();
-    return;
-  }
-
-  const skillToLesson: Record<
-    string,
-    string
-  > = {
-    "algebră": "numere-reale",
-    "algebra": "numere-reale",
-
-    "calcul numeric": "numere-reale",
-
-    "funcții": "functii",
-    "functii": "functii",
-
-    "ecuații": "ecuatii",
-    "ecuatii": "ecuatii",
-
-    "procente": "procente",
-  };
-
-  const normalizedSkill =
-    primary.skillId
-      .trim()
-      .toLocaleLowerCase("ro-RO");
-
-  const lessonSlug =
-    skillToLesson[normalizedSkill] ??
-    primary.skillId;
-
-  router.push(
-    `/lectii/${encodeURIComponent(
-      lessonSlug
-    )}`
-  );
-}
-
-function explainWeakness() {
-  setActiveAction(
-    "weakness"
-  );
-
-  if (!weakestSkill) {
-    addMateMessage(
-      "Nu am încă suficiente încercări pentru a identifica în mod responsabil un punct slab. Nu vreau să ghicesc."
-    );
-
-    return;
-  }
-
-  const score =
-    clamp(
-      weakestSkill.mastery_score ??
-        0,
-      0,
-      100
-    );
-
-  addMateMessage(
-    `Zona cu scorul Mastery cel mai mic este „${formatSkill(
-      weakestSkill.skill_id
-    )}”, cu ${score}/100. Asta nu înseamnă că „nu știi” materia; înseamnă doar că, dintre datele disponibile acum, aici avem cel mai puternic motiv să verificăm din nou.`
-  );
-}
-
-function startChallenge() {
-  setActiveAction(
-    "challenge"
-  );
-
-  if (!focusSkill) {
-    addMateMessage(
-      "Provocarea adaptivă va deveni disponibilă după ce avem suficiente date din exercițiile tale. Nu voi inventa acum o problemă matematică neverificată."
-    );
-
-    return;
-  }
-
-  addMateMessage(
-    `Provocarea ta va fi construită în jurul competenței „${formatSkill(
-      focusSkill
-    )}”. Pentru problemele efective vom folosi numai exerciții verificate din BAC MATE, nu răspunsuri matematice inventate de chat.`
-  );
-}
-
-  function submitMessage() {
-    const text =
-      input.trim();
-
-    if (!text) {
-      return;
-    }
-
-    setChatMessages(
-      (current) => [
-        ...current,
-        {
-          id: `student-${Date.now()}`,
-          author: "student",
-          text,
-        },
-      ]
-    );
-
-    setInput("");
-
-    const lower =
-      text.toLocaleLowerCase(
-        "ro-RO"
-      );
-
-    if (
-      lower.includes(
-        "nu știu"
-      ) ||
-      lower.includes(
-        "nu stiu"
-      )
-    ) {
-      addMateMessage(
-        "E în regulă să marchezi „Nu știu”. Într-o sesiune de exerciții nu voi transforma asta într-un răspuns corect. Vom porni cu un indiciu mic, apoi încă unul doar dacă este necesar."
-      );
-
-      return;
-    }
-
-    if (
-      lower.includes(
-        "indiciu"
-      )
-    ) {
-      addMateMessage(
-        focusSkill
-          ? `Pentru „${formatSkill(
-              focusSkill
-            )}”, indiciile vor veni gradual și vor fi legate de exercițiul verificat pe care îl rezolvi. Nu îți voi da direct rezultatul.`
-          : "Îți pot da indicii gradual în timpul unui exercițiu verificat. Mai întâi trebuie să avem exercițiul concret."
-      );
-
-      return;
-    }
-
-    if (
-      lower.includes(
-        "slab"
-      ) ||
-      lower.includes(
-        "greș"
-      ) ||
-      lower.includes(
-        "gres"
-      )
-    ) {
-      explainWeakness();
-      return;
-    }
-
-    if (
-      lower.includes(
-        "azi"
-      ) ||
-      lower.includes(
-        "fac"
-      ) ||
-      lower.includes(
-        "învăț"
-      ) ||
-      lower.includes(
-        "invat"
-      )
-    ) {
-      startTodayPlan();
-      return;
-    }
-
-    addMateMessage(
-      "În această versiune MATE folosesc conversația pentru a naviga progresul și pentru a organiza învățarea. Componenta de profesor AI complet va fi conectată separat, cu verificări matematice înainte să îi permitem să explice sau să evalueze exerciții."
-    );
-  }
-
-  if (loading) {
+    if (loading) {
     return (
-      <main className="min-h-screen bg-[#020817] text-white">
-        <div className="mx-auto max-w-5xl px-6 py-24">
-          <div className="flex items-center gap-4">
-            <div className="h-10 w-10 animate-pulse rounded-full bg-blue-500/30" />
+      <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#03100b] text-white">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-80"
+          style={{
+            backgroundImage:
+              "linear-gradient(rgba(16,185,129,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(249,115,22,.04) 1px, transparent 1px)",
+            backgroundSize: "42px 42px",
+          }}
+        />
 
-            <div>
-              <p className="font-bold">
-                MATE se pregătește...
-              </p>
+        <div className="absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-500/[0.18] blur-[120px]" />
 
-              <p className="mt-1 text-sm text-slate-500">
-                Îți citesc progresul și datele de învățare.
-              </p>
-            </div>
+        <div className="absolute left-[57%] top-[53%] h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange-500/[0.13] blur-[110px]" />
+
+        <div className="relative text-center">
+          <div className="relative mx-auto h-20 w-20">
+            <div className="absolute -inset-3 animate-pulse rounded-full border border-emerald-300/20 shadow-[0_0_45px_rgba(16,185,129,.35)]" />
+
+            <div className="absolute inset-0 animate-ping rounded-full bg-emerald-400/10" />
+
+            <div className="absolute inset-1 animate-spin rounded-full border-2 border-orange-400/25 border-t-emerald-300 shadow-[0_0_30px_rgba(16,185,129,.22)]" />
+
+            <div className="absolute inset-4 rounded-full bg-gradient-to-br from-emerald-300 via-emerald-400 to-orange-500 shadow-[0_0_38px_rgba(16,185,129,.55),0_0_22px_rgba(249,115,22,.28)]" />
           </div>
+
+          <p className="mt-6 text-sm font-black tracking-wide text-white">
+            MATE se pregătește
+          </p>
+
+          <p className="mt-1 text-xs text-emerald-100/40">
+            Un moment și intrăm în matematică.
+          </p>
         </div>
-      </main>
-    );
-  }
-
-  if (error && !studentName) {
-    return (
-      <main className="min-h-screen bg-[#020817] text-white">
-        <div className="mx-auto max-w-3xl px-6 py-24">
-          <div className="rounded-3xl border border-red-500/30 bg-red-500/10 p-7">
-            <p className="text-sm font-black uppercase tracking-wider text-red-400">
-              MATE indisponibil
-            </p>
-
-            <h1 className="mt-3 text-3xl font-black">
-              Nu am putut încărca profilul.
-            </h1>
-
-            <p className="mt-4 text-slate-300">
-              {error}
-            </p>
-
-            <button
-              type="button"
-              onClick={() =>
-                window.location.reload()
-              }
-              className="mt-6 rounded-xl bg-blue-600 px-5 py-3 font-bold transition hover:bg-blue-500"
-            >
-              Încearcă din nou
-            </button>
-          </div>
-        </div>
-      </main>
-    );
-  }
-
-  /*
-   * Prima intrare:
-   * elevul își alege explicit
-   * varianta personajului.
-   */
-  if (gender === "standard") {
-    return (
-      <BacMateShell
-        studentName={
-          studentName
-        }
-        profileName={
-          profileName
-        }
-        onSignOut={signOut}
-        signingOut={
-          signingOut
-        }
-      >
-        <div className="mx-auto flex min-h-[calc(100vh-68px)] max-w-6xl items-center px-5 py-12 pb-28 sm:px-8 lg:px-10 lg:pb-12">
-          <div className="w-full">
-            <div className="mx-auto max-w-3xl text-center">
-              <span className="inline-flex rounded-full border border-blue-400/20 bg-blue-500/10 px-4 py-2 text-xs font-black uppercase tracking-[0.2em] text-blue-300">
-                Bun venit în MATE
-              </span>
-
-              <h1 className="mt-6 text-4xl font-black tracking-tight sm:text-5xl">
-                Alege-l pe{" "}
-                <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-violet-400 bg-clip-text text-transparent">
-                  MATE
-                </span>
-              </h1>
-
-              <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
-                Este același sistem de învățare.
-                Alegerea schimbă doar personajul
-                care te însoțește prin BAC MATE.
-              </p>
-            </div>
-
-            {error && (
-              <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-red-500/30 bg-red-500/10 p-4 text-center text-sm text-red-300">
-                {error}
-              </div>
-            )}
-
-            <div className="mx-auto mt-10 grid max-w-4xl gap-5 md:grid-cols-2">
-              <button
-                type="button"
-                disabled={
-                  savingGender
-                }
-                onClick={() =>
-                  void chooseGender(
-                    "male"
-                  )
-                }
-                className="group rounded-[28px] border border-slate-800 bg-[#07101f] p-7 text-left transition hover:-translate-y-1 hover:border-blue-500/50 hover:bg-blue-500/[0.05] disabled:cursor-wait disabled:opacity-60"
-              >
-                <div className="flex justify-center">
-                  <MateAvatar
-                    gender="male"
-                  />
-                </div>
-
-                <div className="mt-7 text-center">
-                  <p className="text-2xl font-black">
-                    MATE
-                  </p>
-
-                  <p className="mt-2 text-sm text-slate-400">
-                    Varianta masculină
-                  </p>
-
-                  <div className="mt-5 rounded-xl bg-blue-600 px-5 py-3 text-sm font-black text-white transition group-hover:bg-blue-500">
-                    Alege această variantă
-                  </div>
-                </div>
-              </button>
-
-              <button
-                type="button"
-                disabled={
-                  savingGender
-                }
-                onClick={() =>
-                  void chooseGender(
-                    "female"
-                  )
-                }
-                className="group rounded-[28px] border border-slate-800 bg-[#07101f] p-7 text-left transition hover:-translate-y-1 hover:border-violet-500/50 hover:bg-violet-500/[0.05] disabled:cursor-wait disabled:opacity-60"
-              >
-                <div className="flex justify-center">
-                  <MateAvatar
-                    gender="female"
-                  />
-                </div>
-
-                <div className="mt-7 text-center">
-                  <p className="text-2xl font-black">
-                    MATE
-                  </p>
-
-                  <p className="mt-2 text-sm text-slate-400">
-                    Varianta feminină
-                  </p>
-
-                  <div className="mt-5 rounded-xl bg-violet-600 px-5 py-3 text-sm font-black text-white transition group-hover:bg-violet-500">
-                    Alege această variantă
-                  </div>
-                </div>
-              </button>
-            </div>
-
-            <p className="mt-7 text-center text-xs text-slate-600">
-              Alegerea poate fi mutată ulterior
-              în setările profilului.
-            </p>
-          </div>
-        </div>
-      </BacMateShell>
+      </div>
     );
   }
 
   return (
     <BacMateShell
-      studentName={studentName}
-      profileName={profileName}
+      studentName={profile?.nume}
+      profileName={profile?.profil_bac}
       onSignOut={signOut}
       signingOut={signingOut}
     >
-      <div className="mx-auto max-w-[1450px] px-5 py-7 pb-28 sm:px-7 lg:px-9 lg:pb-12 xl:px-10">
-        {/* TITLU */}
+      <div className="relative h-[calc(100vh-68px)] min-h-[720px] overflow-hidden bg-[#03100b] text-white lg:h-[calc(100vh-68px)]">
+        {/* FUNDAL MATE */}
 
-        <section className="flex flex-col gap-5 xl:flex-row xl:items-end xl:justify-between">
-          <div>
-            <p className="text-xs font-black uppercase tracking-[0.2em] text-blue-400">
-              Centrul tău de pregătire
-            </p>
-
-            <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-4xl">
-              Salut, {studentName}! 👋
-            </h1>
-
-            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 sm:text-base">
-              MATE folosește progresul tău
-              pentru a decide ce merită
-              revăzut și care este următorul
-              pas.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-2">
-            <span className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1.5 text-xs font-bold text-emerald-300">
-              ● MATE activ
-            </span>
-
-            <span className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1.5 text-xs font-bold text-slate-400">
-              {masteryRows.length} competențe urmărite
-            </span>
-          </div>
-        </section>
-
-        {/* HERO MATE */}
-
-        <section className="relative mt-7 overflow-hidden rounded-[28px] border border-blue-500/20 bg-gradient-to-br from-[#091a38] via-[#071225] to-[#080d1b]">
-          <div className="pointer-events-none absolute -left-20 top-0 h-72 w-72 rounded-full bg-blue-500/10 blur-[90px]" />
-          <div className="pointer-events-none absolute right-0 top-0 h-72 w-72 rounded-full bg-violet-500/[0.08] blur-[100px]" />
-
-          <div className="relative grid gap-8 p-6 sm:p-8 lg:grid-cols-[240px_1fr] lg:items-center lg:p-9">
-            <div className="flex justify-center">
-              <MateAvatar
-                gender={gender}
-              />
-            </div>
-
-            <div>
-              <div className="flex flex-wrap items-center gap-3">
-                <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-black uppercase tracking-[0.14em] text-blue-300">
-                  MATE
-                </span>
-
-                <span className="text-xs font-semibold text-emerald-400">
-                  ● online
-                </span>
-              </div>
-
-              <h2 className="mt-4 text-2xl font-black sm:text-3xl">
-                Partenerul tău personal de matematică
-              </h2>
-
-              <p className="mt-4 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">
-                {welcomeMessage}
-              </p>
-
-              <div className="mt-6 flex flex-wrap gap-3">
-                <button
-                  type="button"
-                  onClick={
-                    startTodayPlan
-                  }
-                  className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-black transition hover:bg-blue-500"
-                >
-                  Planul meu de azi →
-                </button>
-
-                <button
-                  type="button"
-                  onClick={
-                    explainWeakness
-                  }
-                  className="rounded-xl border border-slate-700 bg-slate-950/40 px-5 py-3 text-sm font-black text-slate-200 transition hover:border-slate-600 hover:bg-slate-900"
-                >
-                  Ce trebuie să repet?
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* STATISTICI */}
-
-        <section className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <StatCard
-            label="Mastery mediu"
-            value={`${averageMastery}%`}
-            helper={
-              masteryRows.length > 0
-                ? `Calculat din ${masteryRows.length} competențe urmărite`
-                : "Așteptăm mai multe răspunsuri"
-            }
-            accent="blue"
+        <div
+          className="pointer-events-none absolute inset-0 overflow-hidden"
+          aria-hidden="true"
+        >
+          <div
+            className="absolute inset-0 opacity-[0.85]"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(16,185,129,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(249,115,22,.03) 1px, transparent 1px)",
+              backgroundSize: "48px 48px",
+              maskImage:
+                "linear-gradient(to bottom, black, transparent 94%)",
+            }}
           />
 
-          <StatCard
-            label="De repetat"
-            value={String(
-              dueForReview.length
-            )}
-            helper="Competențe ajunse la termen pentru recapitulare"
-            accent="amber"
-          />
+          <div className="absolute -left-48 -top-64 h-[760px] w-[760px] rounded-full bg-emerald-500/[0.18] blur-[165px]" />
 
-          <StatCard
-            label="Greșeli active"
-            value={String(
-              unresolvedMistakes
-            )}
-            helper="Greșeli încă nerezolvate în istoricul tău"
-            accent="violet"
-          />
+          <div className="absolute right-[-220px] top-[4%] h-[720px] w-[720px] rounded-full bg-orange-500/[0.15] blur-[180px]" />
 
-          <StatCard
-            label="Serie săptămânală"
-            value={`${weeklyStreak}`}
-            helper="Săptămâni consecutive înregistrate de MATE"
-            accent="green"
-          />
-        </section>
-{/* PLANUL ADAPTIV DE AZI */}
+          <div className="absolute bottom-[-360px] left-[22%] h-[760px] w-[760px] rounded-full bg-emerald-400/[0.10] blur-[190px]" />
 
-{dailyPlanData?.plan.primaryAction && (
-  <section className="mt-5 overflow-hidden rounded-[26px] border border-blue-500/25 bg-gradient-to-br from-blue-500/[0.10] via-[#07101f] to-violet-500/[0.07]">
-    <div className="p-6 sm:p-7">
-      <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-        <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="rounded-full border border-blue-400/20 bg-blue-500/10 px-3 py-1 text-[11px] font-black uppercase tracking-[0.16em] text-blue-300">
-              Planul tău de azi
-            </span>
+          <div className="absolute left-[38%] top-[5%] h-[500px] w-[500px] rounded-full bg-lime-400/[0.055] blur-[170px]" />
 
-            <span className="rounded-full border border-slate-700 bg-slate-950/50 px-3 py-1 text-[11px] font-bold text-slate-400">
-              {dailyPlanData.plan.primaryAction.priority ===
-              "critical"
-                ? "Prioritate critică"
-                : dailyPlanData.plan.primaryAction
-                      .priority === "high"
-                  ? "Prioritate mare"
-                  : dailyPlanData.plan.primaryAction
-                        .priority === "normal"
-                    ? "Prioritate normală"
-                    : "Menținere"}
-            </span>
-          </div>
+          <div className="absolute bottom-[-240px] right-[8%] h-[500px] w-[500px] rounded-full bg-orange-600/[0.10] blur-[160px]" />
 
-          <h2 className="mt-4 text-2xl font-black tracking-tight text-white">
-            {formatSkill(
-              dailyPlanData.plan.primaryAction.skillId
-            )}
-          </h2>
+          <div className="absolute inset-x-[8%] top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/25 to-transparent" />
 
-          <p className="mt-2 text-sm font-bold text-blue-300">
-            {dailyPlanData.plan.primaryAction.action ===
-            "retest"
-              ? "Retestare recomandată"
-              : dailyPlanData.plan.primaryAction.action ===
-                  "review"
-                ? "Recapitulare recomandată"
-                : dailyPlanData.plan.primaryAction.action ===
-                    "consolidate"
-                  ? "Consolidare recomandată"
-                  : "Continuă materia"}
-          </p>
+          <span className="math-symbol absolute left-[8%] top-[17%] hidden text-5xl font-black text-emerald-300/[0.10] md:block">
+            π
+          </span>
 
-          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-400">
-            {dailyPlanData.plan.primaryAction.reason}
-          </p>
+          <span className="math-symbol absolute right-[10%] top-[19%] hidden text-4xl font-black text-orange-300/[0.10] md:block">
+            ∑
+          </span>
 
-          <div className="mt-5 flex flex-wrap gap-2">
-            <span className="rounded-lg bg-slate-950/60 px-3 py-2 text-xs font-bold text-slate-300">
-              Mastery{" "}
-              {
-                dailyPlanData.plan.primaryAction
-                  .masteryScore
-              }
-              /100
-            </span>
+          <span className="math-symbol absolute bottom-[24%] left-[18%] hidden text-4xl font-black text-emerald-300/[0.08] lg:block">
+            √x
+          </span>
 
-            <span className="rounded-lg bg-slate-950/60 px-3 py-2 text-xs font-bold text-slate-300">
-              {
-                dailyPlanData.plan.primaryAction
-                  .totalAttempts
-              }{" "}
-              încercări
-            </span>
+          <span className="math-symbol absolute bottom-[16%] right-[16%] hidden text-6xl font-black text-orange-300/[0.075] lg:block">
+            ∞
+          </span>
 
-            {dailyPlanData.plan.primaryAction
-              .unresolvedMistakes > 0 && (
-              <span className="rounded-lg bg-rose-500/10 px-3 py-2 text-xs font-bold text-rose-300">
-                {
-                  dailyPlanData.plan.primaryAction
-                    .unresolvedMistakes
-                }{" "}
-                greșeli active
-              </span>
-            )}
-
-            {dailyPlanData.plan.primaryAction.reviewDue && (
-              <span className="rounded-lg bg-amber-500/10 px-3 py-2 text-xs font-bold text-amber-300">
-                Recapitulare scadentă
-              </span>
-            )}
-          </div>
+          <span className="math-symbol absolute left-[52%] top-[31%] hidden text-2xl font-black text-lime-200/[0.06] xl:block">
+            f(x)
+          </span>
         </div>
 
-        <div className="shrink-0">
-          <button
-            type="button"
-            onClick={openDailyPlanLesson}
-            className="w-full rounded-xl bg-blue-600 px-6 py-3.5 text-sm font-black text-white shadow-lg shadow-blue-950/30 transition hover:bg-blue-500 lg:w-auto"
+        <div className="relative flex h-full">
+          {/* ISTORIC DESKTOP */}
+
+          <aside
+            className={`relative hidden shrink-0 border-r border-emerald-400/[0.16] bg-[#04150f]/90 shadow-[12px_0_55px_rgba(0,0,0,.26),4px_0_30px_rgba(16,185,129,.045)] backdrop-blur-2xl transition-all duration-300 xl:flex xl:flex-col ${
+              historyOpen
+                ? "w-[300px]"
+                : "w-[76px]"
+            }`}
           >
-            Începe acum →
-          </button>
-        </div>
-      </div>
+            <div
+              className="pointer-events-none absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-emerald-400/30 to-orange-400/15"
+              aria-hidden="true"
+            />
 
-      {dailyPlanData.plan.secondaryActions.length >
-        0 && (
-        <div className="mt-6 border-t border-slate-800/80 pt-5">
-          <p className="text-xs font-black uppercase tracking-[0.14em] text-slate-500">
-            După aceea
-          </p>
+            <div className="flex h-[76px] items-center border-b border-emerald-300/[0.10] px-4">
+              {historyOpen ? (
+                <>
+                  <button
+                    type="button"
+                    onClick={startNewConversation}
+                    className="group relative flex flex-1 items-center gap-3 overflow-hidden rounded-2xl border border-emerald-300/30 bg-gradient-to-r from-emerald-500/[0.18] via-emerald-400/[0.10] to-orange-500/[0.14] px-4 py-3 text-sm font-black text-white shadow-[0_0_28px_rgba(16,185,129,.10),0_10px_35px_rgba(0,0,0,.20)] transition hover:border-emerald-200/55 hover:shadow-[0_0_38px_rgba(16,185,129,.18),0_0_22px_rgba(249,115,22,.08)]"
+                  >
+                    <span
+                      className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/[0.08] to-transparent transition-transform duration-700 group-hover:translate-x-full"
+                      aria-hidden="true"
+                    />
 
-          <div className="mt-3 flex flex-wrap gap-2">
-            {dailyPlanData.plan.secondaryActions.map(
-              (item) => (
-                <span
-                  key={`${item.skillId}-${item.action}`}
-                  className="rounded-xl border border-slate-800 bg-slate-950/50 px-3 py-2 text-xs font-bold text-slate-300"
+                    <span className="relative flex h-8 w-8 items-center justify-center rounded-xl border border-emerald-300/20 bg-emerald-300/[0.12] text-emerald-100 shadow-[0_0_18px_rgba(52,211,153,.12)] transition group-hover:scale-105">
+                      <MessageSquarePlus className="h-4 w-4" />
+                    </span>
+
+                    <span className="relative">
+                      Chat nou
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setHistoryOpen(false)
+                    }
+                    className="ml-2 flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-300/[0.08] text-emerald-100/40 transition hover:border-orange-300/20 hover:bg-orange-400/[0.07] hover:text-orange-100"
+                    title="Ascunde istoricul"
+                  >
+                    <ChevronLeft className="h-4 w-4" />
+                  </button>
+                </>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() =>
+                    setHistoryOpen(true)
+                  }
+                  className="mx-auto flex h-11 w-11 items-center justify-center rounded-2xl border border-emerald-300/20 bg-emerald-400/[0.07] text-emerald-200 shadow-[0_0_20px_rgba(16,185,129,.08)] transition hover:border-orange-300/30 hover:bg-orange-400/[0.08] hover:text-orange-100"
+                  title="Arată istoricul"
                 >
-                  {formatSkill(item.skillId)} ·{" "}
-                  {item.action === "retest"
-                    ? "retestare"
-                    : item.action === "review"
-                      ? "recapitulare"
-                      : item.action ===
-                          "consolidate"
-                        ? "consolidare"
-                        : "continuare"}
-                </span>
-              )
+                  <ChevronRight className="h-4 w-4" />
+                </button>
+              )}
+            </div>
+
+            {historyOpen && (
+              <div className="flex-1 overflow-y-auto p-3">
+                <div className="mb-3 flex items-center gap-2 px-2 text-[10px] font-black uppercase tracking-[0.22em] text-emerald-100/30">
+                  <History className="h-3.5 w-3.5 text-orange-300/45" />
+                  Istoric
+                </div>
+
+                {conversations.length === 0 ? (
+                  <div className="rounded-2xl border border-dashed border-emerald-300/[0.16] bg-gradient-to-br from-emerald-400/[0.045] to-orange-400/[0.025] px-4 py-7 text-center">
+                    <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-2xl border border-orange-400/20 bg-orange-400/[0.08] shadow-[0_0_22px_rgba(249,115,22,.08)]">
+                      <Sparkles className="h-4 w-4 text-orange-300/80" />
+                    </div>
+
+                    <p className="mt-3 text-xs font-bold text-emerald-50/50">
+                      Încă nu ai conversații.
+                    </p>
+
+                    <p className="mt-1 text-[10px] leading-4 text-emerald-100/25">
+                      Prima discuție cu MATE va apărea aici.
+                    </p>
+                  </div>
+                ) : (
+                  <div className="space-y-1">
+                    {conversations.map(
+                      (conversation) => {
+                        const active =
+                          activeConversationId ===
+                          conversation.id;
+
+                        return (
+                          <div
+                            key={conversation.id}
+                            className={`group flex items-center rounded-2xl border transition ${
+                              active
+                                ? "border-emerald-300/30 bg-gradient-to-r from-emerald-500/[0.15] via-emerald-400/[0.08] to-orange-500/[0.08] shadow-[0_0_25px_rgba(16,185,129,.07)]"
+                                : "border-transparent hover:border-emerald-300/[0.12] hover:bg-emerald-300/[0.035]"
+                            }`}
+                          >
+                            <button
+                              type="button"
+                              onClick={() =>
+                                void loadConversation(
+                                  conversation.id
+                                )
+                              }
+                              className="min-w-0 flex-1 px-3 py-3 text-left"
+                            >
+                              <p
+                                className={`truncate text-xs font-bold ${
+                                  active
+                                    ? "text-emerald-50"
+                                    : "text-emerald-50/45"
+                                }`}
+                              >
+                                {conversation.title}
+                              </p>
+
+                              <p className="mt-1 text-[10px] text-emerald-100/20">
+                                {formatDate(
+                                  conversation.last_message_at
+                                )}
+                              </p>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() =>
+                                void archiveConversation(
+                                  conversation.id
+                                )
+                              }
+                              className="mr-2 hidden h-8 w-8 items-center justify-center rounded-lg text-emerald-100/20 transition hover:bg-red-500/10 hover:text-red-300 group-hover:flex"
+                              title="Arhivează"
+                            >
+                              <Trash2 className="h-3.5 w-3.5" />
+                            </button>
+                          </div>
+                        );
+                      }
+                    )}
+                  </div>
+                )}
+              </div>
             )}
-          </div>
-        </div>
-      )}
-    </div>
-  </section>
-)}
+          </aside>
 
-{/* GRID PRINCIPAL */}
-        {/* GRID PRINCIPAL */}
-
-        <div className="mt-5 grid gap-5 xl:grid-cols-[minmax(0,1.5fr)_minmax(330px,0.7fr)]">
           {/* CHAT */}
 
-          <section className="overflow-hidden rounded-[26px] border border-slate-800 bg-[#07101f]">
-            <div className="flex items-center justify-between border-b border-slate-800 px-5 py-4 sm:px-6">
-              <div className="flex items-center gap-3">
-                <MateAvatar
-                  gender={gender}
-                  size="small"
-                />
+          <section className="relative flex min-w-0 flex-1 flex-col">
+            {/* HEADER MATE */}
 
-                <div>
-                  <p className="font-black">
-                    Vorbește cu MATE
-                  </p>
+            <div className="relative flex h-[76px] shrink-0 items-center justify-between border-b border-emerald-300/[0.14] bg-[#04150f]/80 px-4 shadow-[0_8px_40px_rgba(0,0,0,.18),0_2px_22px_rgba(16,185,129,.04)] backdrop-blur-2xl sm:px-6">
+              <div
+                className="pointer-events-none absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-emerald-300/45 to-orange-400/30"
+                aria-hidden="true"
+              />
 
-                  <p className="mt-0.5 text-xs text-slate-500">
-                    Ghid pentru progres și învățare
-                  </p>
+              <div className="flex min-w-0 items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() =>
+                    setMobileHistory(true)
+                  }
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-emerald-300/20 bg-emerald-400/[0.07] text-emerald-200 transition hover:border-orange-300/30 hover:bg-orange-400/[0.08] hover:text-orange-100 xl:hidden"
+                  title="Istoric"
+                >
+                  <Menu className="h-4 w-4" />
+                </button>
+
+                <div className="relative shrink-0">
+                  <div className="absolute -inset-2 rounded-full bg-emerald-400/25 blur-xl" />
+
+                  <div className="absolute -inset-1 rounded-full border border-orange-300/15" />
+
+                  <div className="relative">
+                    <MateAvatar
+                      gender={profile?.avatar_gender}
+                      size="small"
+                      state={
+                        sending
+                          ? "thinking"
+                          : "idle"
+                      }
+                    />
+                  </div>
+
+                  <span className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full border-2 border-[#04150f] bg-emerald-300 shadow-[0_0_13px_rgba(52,211,153,.95)]" />
+                </div>
+
+                <div className="min-w-0">
+                  <div className="flex items-center gap-2">
+                    <h1 className="bg-gradient-to-r from-emerald-100 via-white to-orange-200 bg-clip-text text-base font-black tracking-tight text-transparent">
+                      MATE
+                    </h1>
+
+                    <span className="hidden rounded-full border border-orange-300/25 bg-gradient-to-r from-emerald-400/[0.13] to-orange-500/[0.13] px-2 py-0.5 text-[8px] font-black uppercase tracking-[0.18em] text-emerald-100 shadow-[0_0_18px_rgba(16,185,129,.06)] min-[390px]:inline-flex">
+                      AI Tutor
+                    </span>
+                  </div>
+
+                  <div className="mt-0.5 flex items-center gap-1.5">
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_rgba(52,211,153,1)]" />
+
+                    <p className="truncate text-[10px] font-medium text-emerald-100/35 sm:text-[11px]">
+                      Aici să facem matematica mai simplă.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <span className="hidden rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-[10px] font-black uppercase tracking-wider text-emerald-300 sm:inline-flex">
-                activ
-              </span>
+              <div className="flex shrink-0 items-center gap-2">
+                <button
+                  type="button"
+                  onClick={startNewConversation}
+                  className="hidden items-center gap-2 rounded-xl border border-emerald-300/[0.14] bg-emerald-400/[0.045] px-3 py-2 text-xs font-bold text-emerald-100/50 transition hover:border-emerald-300/30 hover:bg-emerald-300/[0.08] hover:text-emerald-50 sm:flex"
+                >
+                  <MessageSquarePlus className="h-4 w-4" />
+                  Chat nou
+                </button>
+
+                <button
+                  type="button"
+                  onClick={openVoice}
+                  className="group relative flex items-center gap-2 overflow-hidden rounded-xl border border-orange-300/45 bg-gradient-to-r from-emerald-500/[0.22] via-emerald-400/[0.14] to-orange-500/[0.24] px-3 py-2 text-xs font-black text-white shadow-[0_0_26px_rgba(16,185,129,.12),0_0_22px_rgba(249,115,22,.09)] transition hover:border-orange-200/70 hover:shadow-[0_0_34px_rgba(16,185,129,.17),0_0_30px_rgba(249,115,22,.16)]"
+                >
+                  <span
+                    className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/[0.12] to-transparent transition-transform duration-700 group-hover:translate-x-full"
+                    aria-hidden="true"
+                  />
+
+                  <Mic className="relative h-4 w-4 text-orange-200" />
+
+                  <span className="relative hidden sm:inline">
+                    Vorbește
+                  </span>
+                </button>
+              </div>
             </div>
 
-            <div className="h-[420px] space-y-4 overflow-y-auto p-5 sm:p-6">
-              {chatMessages.map(
-                (message) => (
+            {/* MESAJE / START SCREEN */}
+
+            <div className="relative flex-1 overflow-y-auto">
+              {messages.length === 0 ? (
+                <div className="relative mx-auto flex min-h-full w-full max-w-6xl items-center px-4 py-7 sm:px-7 lg:py-10">
+                  {/* DECORAȚII */}
+
                   <div
-                    key={message.id}
-                    className={`flex ${
-                      message.author ===
-                      "student"
-                        ? "justify-end"
-                        : "justify-start"
-                    }`}
+                    className="pointer-events-none absolute inset-0 overflow-hidden"
+                    aria-hidden="true"
                   >
-                    <div
-                      className={`max-w-[88%] rounded-2xl px-4 py-3 text-sm leading-6 sm:max-w-[78%] ${
-                        message.author ===
-                        "student"
-                          ? "rounded-br-md bg-blue-600 text-white"
-                          : "rounded-bl-md border border-slate-800 bg-slate-950 text-slate-300"
-                      }`}
-                    >
-                      {message.text}
+                    <div className="absolute left-[5%] top-[10%] h-24 w-24 rounded-full border border-emerald-300/[0.08] shadow-[0_0_30px_rgba(16,185,129,.03)]" />
+
+                    <div className="absolute left-[7%] top-[13%] h-16 w-16 rounded-full border border-orange-300/[0.055]" />
+
+                    <div className="absolute right-[6%] top-[13%] h-32 w-32 rounded-full border border-orange-300/[0.08] shadow-[0_0_35px_rgba(249,115,22,.03)]" />
+
+                    <div className="absolute bottom-[10%] right-[12%] h-20 w-20 rotate-12 rounded-3xl border border-emerald-300/[0.07]" />
+
+                    <span className="math-symbol absolute left-[4%] top-[37%] hidden text-4xl font-black text-emerald-300/[0.11] lg:block">
+                      π
+                    </span>
+
+                    <span className="math-symbol absolute right-[5%] top-[40%] hidden text-3xl font-black text-orange-300/[0.11] lg:block">
+                      ∫
+                    </span>
+
+                    <span className="math-symbol absolute bottom-[12%] left-[12%] hidden text-2xl font-black text-emerald-300/[0.09] lg:block">
+                      x²
+                    </span>
+
+                    <span className="math-symbol absolute right-[22%] top-[8%] hidden text-2xl font-black text-orange-300/[0.08] xl:block">
+                      Δ
+                    </span>
+                  </div>
+
+                  <div className="relative grid w-full items-center gap-7 lg:grid-cols-[0.92fr_1.08fr] lg:gap-14">
+                    {/* AVATAR HERO */}
+
+                    <div className="relative flex min-h-[310px] items-center justify-center lg:min-h-[440px]">
+                      {/* HALO MARE */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[390px] w-[390px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-emerald-400/[0.14] blur-[85px] sm:h-[480px] sm:w-[480px]"
+                        aria-hidden="true"
+                      />
+
+                      <div
+                        className="pointer-events-none absolute left-[58%] top-[56%] h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-orange-500/[0.14] blur-[80px] sm:h-[320px] sm:w-[320px]"
+                        aria-hidden="true"
+                      />
+
+                      {/* CHENAR EXTERIOR SMARALD + PORTOCALIU */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[310px] w-[310px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-br from-emerald-300 via-emerald-500 to-orange-500 p-[2px] shadow-[0_0_40px_rgba(16,185,129,.30),0_0_70px_rgba(16,185,129,.12),0_0_35px_rgba(249,115,22,.15)] sm:h-[390px] sm:w-[390px]"
+                        aria-hidden="true"
+                      >
+                        <div className="h-full w-full rounded-full bg-[#04150f]/95" />
+                      </div>
+
+                      {/* INEL SMARALD */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[286px] w-[286px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-emerald-300/35 shadow-[inset_0_0_35px_rgba(16,185,129,.08),0_0_25px_rgba(16,185,129,.13)] sm:h-[360px] sm:w-[360px]"
+                        aria-hidden="true"
+                      />
+
+                      {/* INEL PORTOCALIU */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[252px] w-[252px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-orange-300/25 shadow-[0_0_22px_rgba(249,115,22,.08)] sm:h-[320px] sm:w-[320px]"
+                        aria-hidden="true"
+                      />
+
+                      {/* INEL DASHED */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[218px] w-[218px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-emerald-200/25 sm:h-[280px] sm:w-[280px]"
+                        aria-hidden="true"
+                      />
+
+                      {/* ACCENTE ORBITALE */}
+
+                      <div
+                        className="pointer-events-none absolute left-1/2 top-1/2 h-[340px] w-[340px] -translate-x-1/2 -translate-y-1/2 sm:h-[420px] sm:w-[420px]"
+                        aria-hidden="true"
+                      >
+                        <span className="absolute left-[13%] top-[10%] h-2.5 w-2.5 rounded-full bg-emerald-300 shadow-[0_0_18px_rgba(52,211,153,.95)]" />
+
+                        <span className="absolute right-[8%] top-[33%] h-2 w-2 rounded-full bg-orange-400 shadow-[0_0_18px_rgba(251,146,60,.95)]" />
+
+                        <span className="absolute bottom-[10%] left-[28%] h-1.5 w-1.5 rounded-full bg-lime-300 shadow-[0_0_15px_rgba(190,242,100,.85)]" />
+                      </div>
+
+                      <span
+                        className="math-symbol absolute left-[7%] top-[16%] hidden rounded-2xl border border-emerald-300/25 bg-[#061b13]/90 px-3 py-2 text-xl font-black text-emerald-200/80 shadow-[0_0_25px_rgba(16,185,129,.10),0_10px_30px_rgba(0,0,0,.25)] backdrop-blur-xl sm:block"
+                        aria-hidden="true"
+                      >
+                        π
+                      </span>
+
+                      <span
+                        className="math-symbol absolute right-[4%] top-[23%] hidden rounded-2xl border border-orange-300/25 bg-[#1a1108]/85 px-3 py-2 text-lg font-black text-orange-200/80 shadow-[0_0_25px_rgba(249,115,22,.10),0_10px_30px_rgba(0,0,0,.25)] backdrop-blur-xl sm:block"
+                        aria-hidden="true"
+                      >
+                        √x
+                      </span>
+
+                      <span
+                        className="math-symbol absolute bottom-[16%] left-[3%] hidden rounded-2xl border border-emerald-300/20 bg-[#061b13]/90 px-3 py-2 text-lg font-black text-emerald-200/65 shadow-[0_0_20px_rgba(16,185,129,.08)] backdrop-blur-xl sm:block"
+                        aria-hidden="true"
+                      >
+                        ∑
+                      </span>
+
+                      <span
+                        className="math-symbol absolute bottom-[11%] right-[7%] hidden rounded-2xl border border-orange-300/20 bg-[#1a1108]/85 px-3 py-2 text-xl font-black text-orange-200/65 shadow-[0_0_20px_rgba(249,115,22,.08)] backdrop-blur-xl sm:block"
+                        aria-hidden="true"
+                      >
+                        ∞
+                      </span>
+
+                      {/* AVATAR */}
+
+                      <div className="relative z-10 transition duration-500 hover:scale-[1.025]">
+                        <div className="absolute inset-x-[18%] bottom-[8%] h-[20%] rounded-full bg-emerald-400/20 blur-3xl" />
+
+                        <MateAvatar
+                          gender={profile?.avatar_gender}
+                          state="idle"
+                        />
+                      </div>
+
+                      {/* VOICE CTA */}
+
+                      <div className="absolute -bottom-10 left-1/2 z-20 -translate-x-1/2 sm:-bottom-8">
+                        <button
+                          type="button"
+                          onClick={openVoice}
+                          className="group relative flex items-center gap-2 overflow-hidden rounded-full border border-orange-300/45 bg-gradient-to-r from-[#062219]/95 via-[#083021]/95 to-[#2b1609]/95 px-4 py-2 text-[10px] font-black uppercase tracking-[0.13em] text-white shadow-[0_0_30px_rgba(16,185,129,.18),0_0_26px_rgba(249,115,22,.12),0_14px_40px_rgba(0,0,0,.35)] backdrop-blur-xl transition hover:border-orange-200/70 hover:shadow-[0_0_40px_rgba(16,185,129,.24),0_0_32px_rgba(249,115,22,.20)]"
+                        >
+                          <span
+                            className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/[0.10] to-transparent transition-transform duration-700 group-hover:translate-x-full"
+                            aria-hidden="true"
+                          />
+
+                          <span className="relative flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-emerald-300 via-emerald-400 to-orange-400 text-[#03100b] shadow-[0_0_18px_rgba(52,211,153,.35)]">
+                            <Mic className="h-3.5 w-3.5" />
+                          </span>
+
+                          <span className="relative">
+                            Vorbește cu MATE
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* INTRO + MODURI */}
+
+                    <div className="relative">
+                      <div className="inline-flex items-center gap-2 rounded-full border border-orange-300/30 bg-gradient-to-r from-emerald-500/[0.15] via-emerald-400/[0.09] to-orange-500/[0.13] px-3 py-1.5 shadow-[0_0_25px_rgba(16,185,129,.08),0_0_18px_rgba(249,115,22,.05)]">
+                        <WandSparkles className="h-3.5 w-3.5 text-orange-300" />
+
+                        <span className="text-[9px] font-black uppercase tracking-[0.22em] text-emerald-100">
+                          Tutorul tău de mate
+                        </span>
+                      </div>
+
+                      <h2 className="mt-5 max-w-2xl text-3xl font-black leading-[1.03] tracking-[-0.04em] text-white sm:text-4xl lg:text-[46px]">
+                        Hei
+                        {profile?.nume
+                          ? `, ${
+                              profile.nume
+                                .trim()
+                                .split(" ")[0]
+                            }`
+                          : ""}
+                        !
+
+                        <span className="mt-1 block">
+                          Cu ce ne luptăm
+                        </span>
+
+                        <span className="block bg-gradient-to-r from-emerald-300 via-emerald-400 to-orange-400 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(16,185,129,.14)]">
+                          azi?
+                        </span>
+                      </h2>
+
+                      <p className="mt-4 max-w-lg text-sm font-medium leading-6 text-emerald-50/45 sm:text-[15px]">
+                        Trimite problema sau alege cum vrei să te ajut.
+                        O luăm împreună, pas cu pas.
+                      </p>
+
+                      <div className="mt-6 grid grid-cols-2 gap-2.5">
+                        {MODES.slice(1).map(
+                          (item) => {
+                            const Icon =
+                              item.icon;
+
+                            const active =
+                              mode ===
+                              item.id;
+
+                            return (
+                              <button
+                                key={item.id}
+                                type="button"
+                                onClick={() => {
+                                  setMode(
+                                    item.id
+                                  );
+
+                                  textareaRef.current?.focus();
+                                }}
+                                className={`group relative overflow-hidden rounded-2xl border p-3 text-left transition duration-200 sm:p-3.5 ${
+                                  active
+                                    ? "border-emerald-300/45 bg-gradient-to-br from-emerald-500/[0.20] via-emerald-400/[0.10] to-orange-500/[0.15] shadow-[0_0_30px_rgba(16,185,129,.12),0_0_22px_rgba(249,115,22,.06)]"
+                                    : "border-emerald-300/[0.10] bg-[#061710]/75 shadow-[inset_0_1px_0_rgba(255,255,255,.02)] hover:-translate-y-0.5 hover:border-orange-300/30 hover:bg-gradient-to-br hover:from-emerald-400/[0.08] hover:to-orange-500/[0.07] hover:shadow-[0_0_24px_rgba(16,185,129,.07)]"
+                                }`}
+                              >
+                                <div
+                                  className={`absolute right-0 top-0 h-20 w-20 translate-x-7 -translate-y-7 rounded-full blur-2xl transition ${
+                                    active
+                                      ? "bg-orange-400/20"
+                                      : "bg-emerald-400/0 group-hover:bg-emerald-400/12"
+                                  }`}
+                                  aria-hidden="true"
+                                />
+
+                                <div
+                                  className={`absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent transition ${
+                                    active
+                                      ? "via-emerald-300/50 to-orange-300/20"
+                                      : "via-emerald-300/0 to-transparent group-hover:via-emerald-300/25"
+                                  }`}
+                                  aria-hidden="true"
+                                />
+
+                                <div className="relative flex items-center gap-2.5">
+                                  <div
+                                    className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border transition ${
+                                      active
+                                        ? "border-orange-300/30 bg-gradient-to-br from-emerald-300/20 to-orange-400/15 text-emerald-100 shadow-[0_0_20px_rgba(16,185,129,.10)]"
+                                        : "border-emerald-300/[0.10] bg-emerald-400/[0.045] text-emerald-100/35 group-hover:border-orange-300/25 group-hover:bg-orange-400/[0.07] group-hover:text-orange-100"
+                                    }`}
+                                  >
+                                    <Icon className="h-4 w-4" />
+                                  </div>
+
+                                  <div className="min-w-0">
+                                    <p
+                                      className={`truncate text-[11px] font-black sm:text-xs ${
+                                        active
+                                          ? "text-white"
+                                          : "text-emerald-50/65 group-hover:text-white"
+                                      }`}
+                                    >
+                                      {item.shortLabel}
+                                    </p>
+
+                                    <p className="mt-0.5 hidden truncate text-[9px] text-emerald-100/25 sm:block">
+                                      {item.description}
+                                    </p>
+                                  </div>
+                                </div>
+                              </button>
+                            );
+                          }
+                        )}
+                      </div>
+
+                      <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-[10px] font-semibold text-emerald-100/30">
+                        <span className="flex items-center gap-1.5">
+                          <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-[0_0_8px_rgba(52,211,153,.7)]" />
+                          Explicații adaptate
+                        </span>
+
+                        <span className="flex items-center gap-1.5">
+                          <Camera className="h-3 w-3 text-orange-300/80" />
+                          Poze cu exerciții
+                        </span>
+
+                        <span className="flex items-center gap-1.5">
+                          <Mic className="h-3 w-3 text-emerald-300/80" />
+                          Conversație vocală
+                        </span>
+                      </div>
                     </div>
                   </div>
-                )
+                </div>
+              ) : (
+                <div className="relative mx-auto w-full max-w-4xl space-y-7 px-4 py-8 sm:px-7">
+                  <div
+                    className="pointer-events-none absolute left-1/2 top-0 h-64 w-[90%] -translate-x-1/2 rounded-full bg-emerald-500/[0.075] blur-[110px]"
+                    aria-hidden="true"
+                  />
+
+                  <div
+                    className="pointer-events-none absolute right-[5%] top-[20%] h-52 w-52 rounded-full bg-orange-500/[0.05] blur-[100px]"
+                    aria-hidden="true"
+                  />
+
+                  <div className="relative space-y-7">
+                    {messages.map(
+                      (message) => (
+                        <MateMessage
+                          key={message.id}
+                          role={message.role}
+                          content={message.content}
+                          imageUrl={
+                            message.imageUrl
+                          }
+                          avatarGender={
+                            profile?.avatar_gender
+                          }
+                          streaming={
+                            message.streaming
+                          }
+                        />
+                      )
+                    )}
+
+                    <div ref={bottomRef} />
+                  </div>
+                </div>
               )}
             </div>
+                        {/* COMPOSER */}
 
-            <div className="border-t border-slate-800 p-4 sm:p-5">
-              <div className="mb-3 flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={
-                    startTodayPlan
-                  }
-                  className={`rounded-full border px-3 py-1.5 text-xs font-bold transition ${
-                    activeAction ===
-                    "today"
-                      ? "border-blue-400/40 bg-blue-500/15 text-blue-300"
-                      : "border-slate-700 text-slate-400 hover:text-white"
-                  }`}
-                >
-                  Ce fac azi?
-                </button>
+            <div className="relative shrink-0 border-t border-emerald-300/[0.14] bg-[#04150f]/88 px-3 pb-3 pt-2 shadow-[0_-12px_45px_rgba(0,0,0,.22),0_-2px_28px_rgba(16,185,129,.035)] backdrop-blur-2xl sm:px-5 sm:pb-4">
+              <div
+                className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-emerald-300/55 to-orange-400/35"
+                aria-hidden="true"
+              />
 
-                <button
-                  type="button"
-                  onClick={
-                    explainWeakness
-                  }
-                  className={`rounded-full border px-3 py-1.5 text-xs font-bold transition ${
-                    activeAction ===
-                    "weakness"
-                      ? "border-violet-400/40 bg-violet-500/15 text-violet-300"
-                      : "border-slate-700 text-slate-400 hover:text-white"
-                  }`}
-                >
-                  Unde am probleme?
-                </button>
+              <div className="mx-auto w-full max-w-4xl">
+                {error && (
+                  <div className="mb-2 flex items-center justify-between gap-3 rounded-2xl border border-red-400/20 bg-red-500/[0.08] px-4 py-3 text-xs font-medium text-red-200 shadow-[0_10px_35px_rgba(0,0,0,.18)]">
+                    <span>{error}</span>
 
-                <button
-                  type="button"
-                  onClick={
-                    startChallenge
-                  }
-                  className={`rounded-full border px-3 py-1.5 text-xs font-bold transition ${
-                    activeAction ===
-                    "challenge"
-                      ? "border-amber-400/40 bg-amber-500/15 text-amber-300"
-                      : "border-slate-700 text-slate-400 hover:text-white"
-                  }`}
-                >
-                  Provocarea mea
-                </button>
-              </div>
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setError(null)
+                      }
+                      className="shrink-0 text-red-300/60 transition hover:text-red-200"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  </div>
+                )}
 
-              <div className="flex gap-2">
-                <input
-                  value={input}
-                  onChange={(event) =>
-                    setInput(
-                      event.target.value
-                    )
-                  }
-                  onKeyDown={(event) => {
-                    if (
-                      event.key ===
-                      "Enter"
-                    ) {
-                      submitMessage();
-                    }
-                  }}
-                  placeholder="Scrie-i lui MATE..."
-                  className="min-w-0 flex-1 rounded-xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-blue-500/60"
-                />
+                {/* MODURI RAPIDE */}
 
-                <button
-                  type="button"
-                  onClick={
-                    submitMessage
-                  }
-                  className="rounded-xl bg-blue-600 px-4 font-black transition hover:bg-blue-500"
-                  aria-label="Trimite mesajul"
-                >
-                  ↑
-                </button>
-              </div>
+                <div className="mb-2 flex gap-2 overflow-x-auto pb-1">
+                  {MODES.map((item) => {
+                    const Icon =
+                      item.icon;
 
-              <p className="mt-3 text-[11px] leading-5 text-slate-600">
-                În V1, conversația organizează
-                progresul. Corectitudinea
-                matematică rămâne în sistemele
-                verificate BAC MATE.
-              </p>
-            </div>
-          </section>
+                    const active =
+                      mode === item.id;
 
-          {/* COLOANA DREAPTA */}
+                    return (
+                      <button
+                        key={item.id}
+                        type="button"
+                        onClick={() =>
+                          setMode(item.id)
+                        }
+                        className={`relative flex shrink-0 items-center gap-2 overflow-hidden rounded-xl border px-3 py-2 text-[10px] font-black transition sm:text-[11px] ${
+                          active
+                            ? "border-emerald-300/45 bg-gradient-to-r from-emerald-500/[0.20] via-emerald-400/[0.12] to-orange-500/[0.16] text-white shadow-[0_0_25px_rgba(16,185,129,.12),0_0_18px_rgba(249,115,22,.06)]"
+                            : "border-emerald-300/[0.10] bg-[#061710]/80 text-emerald-100/35 hover:border-orange-300/30 hover:bg-gradient-to-r hover:from-emerald-400/[0.08] hover:to-orange-500/[0.07] hover:text-white"
+                        }`}
+                      >
+                        {active && (
+                          <span
+                            className="pointer-events-none absolute inset-x-3 top-0 h-px bg-gradient-to-r from-transparent via-emerald-200/60 to-orange-300/35"
+                            aria-hidden="true"
+                          />
+                        )}
 
-          <div className="space-y-5">
-            {/* FOCUS */}
+                        <Icon
+                          className={`relative h-3.5 w-3.5 ${
+                            active
+                              ? "text-orange-200"
+                              : ""
+                          }`}
+                        />
 
-            <section className="rounded-[26px] border border-blue-500/20 bg-gradient-to-br from-blue-500/[0.09] to-violet-500/[0.04] p-6">
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-blue-400">
-                Focus curent
-              </p>
+                        <span className="relative">
+                          {item.shortLabel}
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
 
-              <h3 className="mt-3 text-xl font-black">
-                {focusSkill
-                  ? formatSkill(
-                      focusSkill
-                    )
-                  : "În curs de identificare"}
-              </h3>
+                {/* PREVIEW IMAGINE */}
 
-              <p className="mt-3 text-sm leading-6 text-slate-400">
-                {focusSkill
-                  ? "Aceasta este zona pe care MATE o prioritizează momentan pe baza datelor disponibile."
-                  : "Rezolvă exerciții pentru ca MATE să poată identifica o prioritate reală."}
-              </p>
+                {selectedPreview && (
+                  <div className="mb-2 flex items-center gap-3 rounded-2xl border border-emerald-300/30 bg-gradient-to-r from-emerald-500/[0.12] via-emerald-400/[0.06] to-orange-500/[0.08] p-2.5 shadow-[0_0_25px_rgba(16,185,129,.07)]">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={selectedPreview}
+                      alt="Imagine selectată"
+                      className="h-16 w-16 rounded-xl border border-orange-300/20 object-cover shadow-[0_8px_25px_rgba(0,0,0,.28)]"
+                    />
 
-              {weakestSkill && (
-                <div className="mt-5">
-                  <div className="flex items-center justify-between text-xs font-bold">
-                    <span className="text-slate-500">
-                      Mastery
-                    </span>
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-xs font-bold text-emerald-50">
+                        {selectedFile?.name}
+                      </p>
 
-                    <span className="text-blue-300">
-                      {clamp(
-                        weakestSkill.mastery_score ??
-                          0,
-                        0,
-                        100
+                      <p className="mt-1 text-[10px] text-emerald-100/35">
+                        MATE va analiza imaginea împreună cu mesajul tău.
+                      </p>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setSelectedFile(null)
+                      }
+                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-transparent text-emerald-100/35 transition hover:border-orange-300/20 hover:bg-orange-400/[0.08] hover:text-orange-100"
+                      title="Elimină imaginea"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+                  </div>
+                )}
+
+                {/* INPUT PRINCIPAL */}
+
+                <div className="group/composer relative overflow-hidden rounded-[26px] border border-emerald-300/35 bg-gradient-to-r from-[#061b13]/98 via-[#071d15]/98 to-[#171208]/98 p-[1px] shadow-[0_0_34px_rgba(16,185,129,.14),0_0_24px_rgba(249,115,22,.07),0_22px_70px_rgba(0,0,0,.35)] transition duration-300 focus-within:border-emerald-200/65 focus-within:shadow-[0_0_48px_rgba(16,185,129,.22),0_0_34px_rgba(249,115,22,.12),0_24px_80px_rgba(0,0,0,.42)]">
+                  {/* GLOW EXTERIOR */}
+
+                  <div
+                    className="pointer-events-none absolute -left-24 top-1/2 h-36 w-36 -translate-y-1/2 rounded-full bg-emerald-400/20 blur-[55px]"
+                    aria-hidden="true"
+                  />
+
+                  <div
+                    className="pointer-events-none absolute -right-20 top-1/2 h-32 w-32 -translate-y-1/2 rounded-full bg-orange-500/[0.18] blur-[55px]"
+                    aria-hidden="true"
+                  />
+
+                  <div className="relative overflow-hidden rounded-[25px] bg-[#06130e]/95 p-2">
+                    <div
+                      className="pointer-events-none absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-emerald-200/75 to-orange-300/55"
+                      aria-hidden="true"
+                    />
+
+                    <div
+                      className="pointer-events-none absolute bottom-0 left-[12%] right-[12%] h-px bg-gradient-to-r from-transparent via-emerald-400/20 to-transparent"
+                      aria-hidden="true"
+                    />
+
+                    <div className="flex items-end gap-2">
+                      <div className="flex items-center gap-1 pb-1 pl-1">
+                        <input
+                          ref={fileInputRef}
+                          type="file"
+                          accept="image/jpeg,image/png,image/webp"
+                          capture="environment"
+                          onChange={handleFile}
+                          className="hidden"
+                        />
+
+                        <button
+                          type="button"
+                          onClick={() =>
+                            fileInputRef.current?.click()
+                          }
+                          disabled={
+                            sending ||
+                            uploadingImage
+                          }
+                          className="group flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-emerald-300/[0.08] bg-emerald-400/[0.035] text-emerald-100/35 transition hover:border-orange-300/30 hover:bg-orange-400/[0.09] hover:text-orange-100 hover:shadow-[0_0_20px_rgba(249,115,22,.08)] disabled:cursor-not-allowed disabled:opacity-40"
+                          title="Fotografiază sau încarcă un exercițiu"
+                        >
+                          <Camera className="h-5 w-5 transition group-hover:scale-105" />
+                        </button>
+                      </div>
+
+                      <textarea
+                        ref={textareaRef}
+                        value={input}
+                        onChange={(event) =>
+                          setInput(
+                            event.target.value
+                          )
+                        }
+                        onKeyDown={
+                          handleKeyDown
+                        }
+                        rows={1}
+                        disabled={sending}
+                        placeholder={
+                          mode === "hint"
+                            ? "Arată-mi unde te-ai blocat..."
+                            : mode === "check"
+                              ? "Scrie sau fotografiază rezolvarea ta..."
+                              : mode === "quiz"
+                                ? "Spune-mi ce vrei să exersezi..."
+                                : mode ===
+                                    "explain"
+                                  ? "Ce vrei să-ți explic?"
+                                  : mode ===
+                                      "solve"
+                                    ? "Trimite problema și o rezolvăm pas cu pas..."
+                                    : mode ===
+                                        "similar"
+                                      ? "Spune-mi ce tip de exercițiu vrei să exersezi..."
+                                      : "Întreabă-l pe MATE orice problemă de matematică..."
+                        }
+                        className="max-h-36 min-h-[44px] flex-1 resize-none bg-transparent px-1 py-3 text-sm font-medium leading-6 text-emerald-50 outline-none placeholder:text-emerald-100/25 disabled:opacity-60"
+                      />
+
+                      {sending ? (
+                        <button
+                          type="button"
+                          onClick={
+                            stopGeneration
+                          }
+                          className="mb-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-orange-200/40 bg-gradient-to-br from-orange-300 to-orange-500 text-[#1a0b03] shadow-[0_0_28px_rgba(249,115,22,.25)] transition hover:scale-[1.03] hover:shadow-[0_0_34px_rgba(249,115,22,.38)]"
+                          title="Oprește răspunsul"
+                        >
+                          <Square className="h-4 w-4 fill-current" />
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() =>
+                            void sendMessage()
+                          }
+                          disabled={
+                            (!input.trim() &&
+                              !selectedFile) ||
+                            uploadingImage
+                          }
+                          className="group/send relative mb-1 flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-emerald-100/30 bg-gradient-to-br from-emerald-300 via-emerald-400 to-orange-400 text-[#02110b] shadow-[0_0_30px_rgba(16,185,129,.30),0_0_18px_rgba(249,115,22,.16)] transition hover:scale-[1.06] hover:border-white/50 hover:shadow-[0_0_42px_rgba(16,185,129,.42),0_0_28px_rgba(249,115,22,.25)] disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100"
+                          title="Trimite"
+                        >
+                          <span
+                            className="absolute inset-0 translate-y-full bg-white/25 transition-transform duration-300 group-hover/send:translate-y-0"
+                            aria-hidden="true"
+                          />
+
+                          <ArrowUp className="relative h-5 w-5" />
+                        </button>
                       )}
-                      %
-                    </span>
-                  </div>
+                    </div>
 
-                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-950">
-                    <div
-                      className="h-full rounded-full bg-gradient-to-r from-blue-600 to-cyan-400"
-                      style={{
-                        width: `${clamp(
-                          weakestSkill.mastery_score ??
-                            0,
-                          0,
-                          100
-                        )}%`,
-                      }}
-                    />
-                  </div>
-                </div>
-              )}
-            </section>
+                    <div className="flex items-center justify-between gap-3 px-2 pb-1 pt-1">
+                      <div className="flex min-w-0 items-center gap-2 text-[10px] font-semibold text-emerald-100/35">
+                        <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-md border border-emerald-300/15 bg-emerald-400/[0.06]">
+                          <SelectedModeIcon className="h-3 w-3 text-emerald-300" />
+                        </span>
 
-            {/* STARE PEDAGOGICĂ */}
+                        <span className="truncate">
+                          {selectedMode.label}
+                        </span>
+                      </div>
 
-            <section className="rounded-[26px] border border-slate-800 bg-[#07101f] p-6">
-              <p className="text-xs font-black uppercase tracking-[0.16em] text-violet-400">
-                Starea mea de învățare
-              </p>
-
-              <div className="mt-5 space-y-5">
-                <div>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="font-semibold text-slate-400">
-                      Independență
-                    </span>
-
-                    <span className="font-black text-white">
-                      {independenceScore}%
-                    </span>
-                  </div>
-
-                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-950">
-                    <div
-                      className="h-full rounded-full bg-violet-500"
-                      style={{
-                        width: `${independenceScore}%`,
-                      }}
-                    />
+                      <div className="hidden shrink-0 items-center gap-1 text-[9px] font-medium text-emerald-100/20 sm:flex">
+                        Enter trimite · Shift + Enter rând nou
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="font-semibold text-slate-400">
-                      Încredere
-                    </span>
+                <div className="mt-2 flex items-center justify-center gap-1.5 px-3 text-center text-[9px] font-medium text-emerald-100/22">
+                  <Sparkles className="h-3 w-3 shrink-0 text-orange-300/70" />
 
-                    <span className="font-black text-white">
-                      {confidenceScore}%
-                    </span>
-                  </div>
-
-                  <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-950">
-                    <div
-                      className="h-full rounded-full bg-emerald-500"
-                      style={{
-                        width: `${confidenceScore}%`,
-                      }}
-                    />
-                  </div>
+                  <span>
+                    MATE poate greși. Verifică rezultatele importante și folosește explicația pentru a înțelege metoda.
+                  </span>
                 </div>
               </div>
+            </div>
+          </section>
+        </div>
 
-              <p className="mt-5 text-xs leading-5 text-slate-600">
-                Aceste scoruri sunt afișate
-                numai din starea salvată a
-                elevului. Dacă nu există încă
-                date, pornesc de la 0.
-              </p>
-            </section>
+        {/* ISTORIC MOBIL */}
 
-            {/* EVALUARE SĂPTĂMÂNALĂ */}
+        {mobileHistory && (
+          <div className="fixed inset-0 z-[80] xl:hidden">
+            <button
+              type="button"
+              aria-label="Închide istoricul"
+              onClick={() =>
+                setMobileHistory(false)
+              }
+              className="absolute inset-0 bg-[#010805]/85 backdrop-blur-md"
+            />
 
-            <section className="rounded-[26px] border border-amber-500/20 bg-amber-500/[0.04] p-6">
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-amber-400">
-                    Evaluare săptămânală
-                  </p>
+            <div className="absolute inset-y-0 left-0 w-[88%] max-w-[340px] overflow-hidden border-r border-emerald-300/25 bg-[#04150f]/98 shadow-[25px_0_80px_rgba(0,0,0,.55),8px_0_45px_rgba(16,185,129,.08)] backdrop-blur-2xl">
+              {/* GLOW MOBIL */}
 
-                  <h3 className="mt-2 text-lg font-black">
-                    Verifică progresul
-                  </h3>
+              <div
+                className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-emerald-500/[0.18] blur-[100px]"
+                aria-hidden="true"
+              />
+
+              <div
+                className="pointer-events-none absolute -bottom-24 right-[-80px] h-72 w-72 rounded-full bg-orange-500/[0.15] blur-[105px]"
+                aria-hidden="true"
+              />
+
+              <div
+                className="pointer-events-none absolute inset-y-0 right-0 w-px bg-gradient-to-b from-transparent via-emerald-300/45 to-orange-400/30"
+                aria-hidden="true"
+              />
+
+              <div className="relative flex h-full flex-col p-4">
+                <div className="flex items-center justify-between border-b border-emerald-300/[0.12] pb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="relative">
+                      <div className="absolute -inset-2 rounded-full bg-emerald-400/30 blur-xl" />
+
+                      <div className="absolute -inset-1 rounded-full border border-orange-300/20" />
+
+                      <div className="relative">
+                        <MateAvatar
+                          gender={
+                            profile?.avatar_gender
+                          }
+                          size="small"
+                          state="idle"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <p className="bg-gradient-to-r from-emerald-100 to-orange-200 bg-clip-text text-sm font-black text-transparent">
+                          MATE
+                        </p>
+
+                        <span className="rounded-full border border-orange-300/25 bg-gradient-to-r from-emerald-400/[0.13] to-orange-400/[0.13] px-1.5 py-0.5 text-[7px] font-black uppercase tracking-[0.14em] text-emerald-100">
+                          AI
+                        </span>
+                      </div>
+
+                      <p className="mt-0.5 text-[10px] font-medium text-emerald-100/30">
+                        Conversațiile tale
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setMobileHistory(
+                        false
+                      )
+                    }
+                    className="flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-300/[0.12] bg-emerald-400/[0.04] text-emerald-100/45 transition hover:border-orange-300/30 hover:bg-orange-400/[0.08] hover:text-orange-100"
+                    title="Închide"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
                 </div>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500/10 text-xl">
-                  ✓
-                </div>
-              </div>
+                <button
+                  type="button"
+                  onClick={
+                    startNewConversation
+                  }
+                  className="group relative mt-4 flex w-full items-center justify-center gap-2 overflow-hidden rounded-2xl border border-emerald-300/35 bg-gradient-to-r from-emerald-500/[0.20] via-emerald-400/[0.12] to-orange-500/[0.16] px-4 py-3 text-sm font-black text-white shadow-[0_0_28px_rgba(16,185,129,.11),0_0_20px_rgba(249,115,22,.06)] transition hover:border-orange-300/50 hover:shadow-[0_0_38px_rgba(16,185,129,.17),0_0_28px_rgba(249,115,22,.12)]"
+                >
+                  <span
+                    className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/[0.08] to-transparent transition-transform duration-700 group-hover:translate-x-full"
+                    aria-hidden="true"
+                  />
 
-              <p className="mt-4 text-sm leading-6 text-slate-400">
-                Următoarea evaluare:{" "}
-                <span className="font-bold text-slate-200">
-                  {formatDate(
-                    mascotState
-                      ?.next_weekly_assessment_at ??
-                      null
+                  <span className="relative flex h-7 w-7 items-center justify-center rounded-lg border border-emerald-200/20 bg-emerald-300/[0.12] text-emerald-100">
+                    <MessageSquarePlus className="h-4 w-4" />
+                  </span>
+
+                  <span className="relative">
+                    Conversație nouă
+                  </span>
+                </button>
+
+                <div className="mt-5 flex items-center gap-2 px-1 text-[9px] font-black uppercase tracking-[0.22em] text-emerald-100/30">
+                  <History className="h-3.5 w-3.5 text-orange-300/55" />
+                  Istoric
+                </div>
+
+                <div className="mt-2 flex-1 space-y-1 overflow-y-auto pr-1">
+                  {conversations.length ===
+                  0 ? (
+                    <div className="mt-3 rounded-2xl border border-dashed border-emerald-300/[0.16] bg-gradient-to-br from-emerald-400/[0.05] to-orange-400/[0.03] px-4 py-7 text-center">
+                      <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-xl border border-orange-300/15 bg-orange-400/[0.07]">
+                        <Sparkles className="h-5 w-5 text-orange-300/70" />
+                      </div>
+
+                      <p className="mt-3 text-xs font-bold text-emerald-50/50">
+                        Încă nu ai conversații.
+                      </p>
+
+                      <p className="mt-1 text-[10px] leading-4 text-emerald-100/25">
+                        Începe o discuție cu MATE și o vei găsi aici.
+                      </p>
+                    </div>
+                  ) : (
+                    conversations.map(
+                      (conversation) => {
+                        const active =
+                          activeConversationId ===
+                          conversation.id;
+
+                        return (
+                          <div
+                            key={
+                              conversation.id
+                            }
+                            className={`group flex items-center rounded-2xl border transition ${
+                              active
+                                ? "border-emerald-300/30 bg-gradient-to-r from-emerald-500/[0.16] via-emerald-400/[0.08] to-orange-500/[0.09] shadow-[0_0_24px_rgba(16,185,129,.07)]"
+                                : "border-transparent hover:border-emerald-300/[0.12] hover:bg-emerald-300/[0.035]"
+                            }`}
+                          >
+                            <button
+                              type="button"
+                              onClick={() =>
+                                void loadConversation(
+                                  conversation.id
+                                )
+                              }
+                              className="min-w-0 flex-1 px-3 py-3 text-left"
+                            >
+                              <p
+                                className={`truncate text-xs font-bold ${
+                                  active
+                                    ? "text-emerald-50"
+                                    : "text-emerald-50/45"
+                                }`}
+                              >
+                                {
+                                  conversation.title
+                                }
+                              </p>
+
+                              <p className="mt-1 text-[10px] text-emerald-100/20">
+                                {formatDate(
+                                  conversation.last_message_at
+                                )}
+                              </p>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() =>
+                                void archiveConversation(
+                                  conversation.id
+                                )
+                              }
+                              className="mr-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-emerald-100/20 transition hover:bg-red-500/10 hover:text-red-300"
+                              title="Arhivează"
+                            >
+                              <Trash2 className="h-3.5 w-3.5" />
+                            </button>
+                          </div>
+                        );
+                      }
+                    )
                   )}
-                </span>
-              </p>
+                </div>
 
-              <a
-               href="/evaluare-saptamanala"
-                className="mt-5 block rounded-xl border border-amber-500/20 bg-amber-500/10 px-4 py-3 text-center text-sm font-black text-amber-300 transition hover:bg-amber-500/15"
-              >
-                Deschide evaluările →
-              </a>
-            </section>
+                <div className="mt-4 border-t border-emerald-300/[0.12] pt-4">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMobileHistory(
+                        false
+                      );
+                      openVoice();
+                    }}
+                    className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-2xl border border-orange-300/35 bg-gradient-to-r from-emerald-500/[0.14] via-emerald-400/[0.08] to-orange-500/[0.18] px-4 py-3 text-xs font-black text-white shadow-[0_0_26px_rgba(16,185,129,.08),0_0_22px_rgba(249,115,22,.08)] transition hover:border-orange-200/55 hover:shadow-[0_0_34px_rgba(249,115,22,.15)]"
+                  >
+                    <span
+                      className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/[0.08] to-transparent transition-transform duration-700 group-hover:translate-x-full"
+                      aria-hidden="true"
+                    />
+
+                    <Mic className="relative h-4 w-4 text-orange-200" />
+
+                    <span className="relative">
+                      Vorbește cu MATE
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        )}
 
-        {/* ZONA DE JOS */}
+        {/* MATE VOICE */}
 
-        <div className="mt-5 grid gap-5 lg:grid-cols-2">
-          {/* PUNCT SLAB */}
-
-          <section className="rounded-[26px] border border-slate-800 bg-[#07101f] p-6">
-            <div className="flex items-center justify-between gap-4">
-              <div>
-                <p className="text-xs font-black uppercase tracking-[0.16em] text-rose-400">
-                  De consolidat
-                </p>
-
-                <h3 className="mt-2 text-xl font-black">
-                  {weakestSkill
-                    ? formatSkill(
-                        weakestSkill.skill_id
-                      )
-                    : "Așteptăm date suficiente"}
-                </h3>
-              </div>
-
-              {weakestSkill && (
-                <span className="rounded-full bg-rose-500/10 px-3 py-1 text-xs font-black text-rose-300">
-                  {clamp(
-                    weakestSkill.mastery_score ??
-                      0,
-                    0,
-                    100
-                  )}
-                  /100
-                </span>
-              )}
-            </div>
-
-            <p className="mt-4 text-sm leading-6 text-slate-400">
-              {weakestSkill
-                ? "Este competența cu cel mai mic scor Mastery dintre datele disponibile în acest moment."
-                : "MATE nu va declara un punct slab până când nu există suficiente încercări salvate."}
-            </p>
-
-            <button
-              type="button"
-              onClick={
-                explainWeakness
-              }
-              className="mt-5 rounded-xl border border-slate-700 px-4 py-3 text-sm font-black text-slate-200 transition hover:bg-slate-900"
-            >
-              Analizează cu MATE
-            </button>
-          </section>
-
-          {/* PUNCT FORTE */}
-
-          <section className="rounded-[26px] border border-slate-800 bg-[#07101f] p-6">
-            <div className="flex items-center justify-between gap-4">
-              <div>
-                <p className="text-xs font-black uppercase tracking-[0.16em] text-emerald-400">
-                  Punct forte
-                </p>
-
-                <h3 className="mt-2 text-xl font-black">
-                  {strongestSkill
-                    ? formatSkill(
-                        strongestSkill.skill_id
-                      )
-                    : "Încă ne cunoaștem"}
-                </h3>
-              </div>
-
-              {strongestSkill && (
-                <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-xs font-black text-emerald-300">
-                  {clamp(
-                    strongestSkill.mastery_score ??
-                      0,
-                    0,
-                    100
-                  )}
-                  /100
-                </span>
-              )}
-            </div>
-
-            <p className="mt-4 text-sm leading-6 text-slate-400">
-              {strongestSkill
-                ? "Aceasta este competența cu cel mai mare scor Mastery din datele actuale."
-                : "După mai multe exerciții, aici va apărea zona în care demonstrezi cea mai bună stăpânire."}
-            </p>
-
-            <button
-              type="button"
-              onClick={
-                startChallenge
-              }
-              className="mt-5 rounded-xl bg-gradient-to-r from-emerald-600 to-cyan-600 px-4 py-3 text-sm font-black transition hover:opacity-90"
-            >
-              Încearcă o provocare →
-            </button>
-          </section>
-        </div>
-
-        {/* DISCLAIMER DE DATE */}
-
-        <section className="mt-5 rounded-2xl border border-slate-800/70 bg-slate-950/40 px-5 py-4">
-          <p className="text-xs leading-5 text-slate-600">
-            MATE V1 personalizează recomandările
-            folosind datele reale salvate în
-            cont. Nu estimează pregătirea pentru
-            BAC atunci când nu există suficiente
-            date și nu folosește conversația ca
-            sursă de adevăr pentru verificarea
-            matematică.
-          </p>
-        </section>
+        <MateVoice
+          open={voiceOpen}
+          avatarGender={
+            profile?.avatar_gender
+          }
+          state={voiceState}
+          realtimeReady={
+            voiceRealtimeReady
+          }
+          onClose={() => {
+            setVoiceOpen(false);
+            setVoiceRealtimeReady(
+              false
+            );
+          }}
+          onStartRealtime={
+            handleRealtimeButton
+          }
+        />
       </div>
     </BacMateShell>
   );

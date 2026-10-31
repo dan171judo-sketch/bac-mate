@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea A = {1, 2, 3}. Determinați cardinalul mulțimii A.",
+      "variante": [],
+      "raspunsCorect": "3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea cardinalului unei mulțimi",
+          "continut": "Cardinalul unei mulțimi este numărul de elemente distincte din mulțime."
+        },
+        {
+          "numar": 2,
+          "titlu": "Numări elementele mulțimii A",
+          "continut": "Mulțimea A are trei elemente: 1, 2 și 3."
+        }
+      ],
+      "explicatieFinala": "Cardinalul unei mulțimi este numărul de elemente distincte din acea mulțime. În cazul mulțimii A = {1, 2, 3}, cardinalul este 3.",
+      "competenta": "Așa cum se defineste cardinalul unei mulțimi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimile A = {1, 2}, B = {2, 3}. Calculați intersecția mulțimilor A și B.",
+      "variante": [],
+      "raspunsCorect": "{2}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea intersecției a două mulțimi",
+          "continut": "Intersecția a două mulțimi este o mulțime care conține doar elementele comune celor două mulțimi."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea elementelor comune",
+          "continut": "Elementul comun între A și B este 2."
+        }
+      ],
+      "explicatieFinala": "Intersecția a două mulțimi este o mulțime care conține doar elementele comune celor două mulțimi. În cazul mulțimilor A = {1, 2} și B = {2, 3}, intersecția este {2}.",
+      "competenta": "Așa cum se defineste intersecția a două mulțimi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie mulțimile A = {1, 2}, B = {2, 3}. Care este reuniunea mulțimilor A și B?",
+      "variante": [
+        "{1, 2}",
+        "{2, 3}",
+        "{1, 2, 3}",
+        "{1, 3}"
+      ],
+      "raspunsCorect": "{1, 2, 3}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Definirea reuniunii a două mulțimi",
+          "continut": "Reuniunea a două mulțimi este o mulțime care conține toate elementele din ambele mulțimi, fără repetiție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea elementelor din ambele mulțimi",
+          "continut": "Elementele din A sunt {1, 2}, iar cele din B sunt {2, 3}."
+        }
+      ],
+      "explicatieFinala": "Reuniunea a două mulțimi este o mulțime care conține toate elementele din ambele mulțimi, fără repetiție. În cazul mulțimilor A = {1, 2} și B = {2, 3}, reuniunea este {1, 2, 3}.",
+      "competenta": "Așa cum se defineste reuniunea a două mulțimi",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimile A = {1, 2}, B = {2, 3}. Calculați reuniunea intersecției dintre A și B cu mulțimea C = {3, 4}.",
+      "variante": [],
+      "raspunsCorect": "{2, 3, 4}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea intersecției dintre A și B",
+          "continut": "Intersecția dintre A și B este {2}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea reuniunii dintre rezultatul anterior și C",
+          "continut": "Reuniunea dintre {2} și {3, 4} este {2, 3, 4}."
+        }
+      ],
+      "explicatieFinala": "Intersecția a două mulțimi este o mulțime care conține doar elementele comune celor două mulțimi. Reuniunea a două mulțimi este o mulțime care conține toate elementele din ambele mulțimi, fără repetiție.",
+      "competenta": "Așa cum se defineste intersecția și reuniunea a două mulțimi",
+      "punctaj": 5
+    }
+  ]
+}

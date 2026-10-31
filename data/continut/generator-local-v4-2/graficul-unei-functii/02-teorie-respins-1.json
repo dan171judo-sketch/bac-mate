@@ -1,0 +1,38 @@
+{
+  "definitii": [
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Este mulțimea tuturor punctelor din plan cartezian de forma (x, f(x)), unde x este un element din domeniul de definiție al funcției și f(x) este valoarea corespunzătoare.",
+      "observatie": "Graficul unei funcții reprezintă vizual relația dintre variabila independentă x și variabila dependentă y = f(x)."
+    },
+    {
+      "termen": "plan cartezian",
+      "definitie": "Este un sistem de coordonate format din două axe perpendiculare, Ox (abscisa) și Oy (ordonata), care permit localizarea oricărui punct în plan prin perechea ordonată (x, y).",
+      "observatie": "Planul cartezian este folosit pentru reprezentarea grafică a funcțiilor."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea graficului unei funcții",
+      "explicatie": "Graficul unei funcții f este mulțimea tuturor punctelor (x, y) din plan cartezian pentru care y = f(x). Acesta reprezintă vizual comportamentul funcției în raport cu variabila x.",
+      "ideiCheie": [
+        "Graficul este format din perechi de valori (x, f(x))",
+        "Fiecare punct al graficului corespunde unei valori a funcției"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Puncte de pe graficul unei funcții",
+      "explicatie": "Un punct (a, b) aparține graficului funcției f dacă și numai dacă b = f(a). Acest lucru înseamnă că valoarea corespunzătoare lui a este b.",
+      "ideiCheie": [
+        "Pentru a verifica dacă un punct aparține graficului, se verifică dacă coordonata y este egală cu f(x) pentru x dat",
+        "Un punct de pe grafic este o soluție a ecuației y = f(x)"
+      ]
+    },
+    {
+      " ": "explicatie\": \"Reprezentarea grafică permite interpretarea vizuală a comportamentului funcției, cum ar fi monotonie, extremi, intersecții cu axe, etc.\",\"ideiCheie\": [\"Graficul oferă o imagine clară a evoluției funcției\",\"Interpretarea grafică este esențială în probleme practice\"]"
+    }
+  ],
+  "formule": []
+}

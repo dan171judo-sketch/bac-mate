@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Neglijarea determinării punctului de intersecție cu axa absciselor",
+      "deCeEsteGresit": "Punctul de intersecție cu axa absciselor este esențial pentru analiza semnului funcției, iar neglijarea lui poate duce la erori în interpretarea semnului în intervaluri.",
+      "cumOEviti": "Întotdeauna determinați punctul de intersecție cu axa absciselor (x = -b/a) înainte de a analiza semnul funcției."
+    },
+    {
+      "greseala": "Confundarea semnului coeficientului a cu semnul funcției într-un interval",
+      "deCeEsteGresit": "Semnul funcției depinde nu doar de semnul lui a, ci și de poziția valorii x față de rădăcina funcției. Confuzia între aceste două aspecte poate duce la erori în analiza semnului.",
+      "cumOEviti": "Analizați semnul funcției în intervaluri folosind tabelul de semne, luând în considerare poziția valorii x față de rădăcina funcției."
+    },
+    {
+      "greseala": "Neglijarea semnului termenului liber b",
+      "de- CeEsteGresit": "Termenul liber b influențează valoarea funcției la x = 0, dar nu este suficient pentru a determina semnul în toate intervalurile. Neglijarea lui poate duce la erori în interpretarea graficului.",
+      "cumOEviti": "Analizați efectul termenului liber b asupra valorii funcției în punctul x = 0, dar nu confundați-l cu semnul general al funcției."
+    },
+    {
+      "greseala": "Folosirea greșită a tabelului de semne",
+      "deCeEsteGresit": "Tabelul de semne trebuie construit în mod corect, luând în considerare semnul lui a și poziția rădăcinii. O construcție incorectă poate duce la interpretări eronate ale semnului funcției.",
+      "cumOEviti": "Construiți tabelul de semne pas cu pas, începând cu semnul lui a și apoi analizând fiecare interval în raport cu rădăcina."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Semnul funcției de gradul I se schimbă în funcție de poziția valorii x față de rădăcina funcției.",
+      "Punctul de intersecție cu axa absciselor este esențial pentru analiza semnului funcției.",
+      "Semnul funcției este determinat de semnul coeficientului a și poziția valorii x față de rădăcina funcției.",
+      "Tabelul de semne este un instrument util pentru interpretarea corectă a semnului funcției în intervaluri."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Determinați punctul de intersecție cu axa absciselor.",
+      "Analizați semnul funcției în fiecare interval folosind tabelul de semne.",
+      "Verificați dacă semnul funcției este corect în punctul x = 0.",
+      "Construiți tabelul de semne pas cu pas, luând în considerare semnul lui a și poziția rădăcinii."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Semnul funcției de gradul I este un concept esențial pentru examenul de Bacalaureat, în special în subiectele care implică analiza graficului unei funcții liniare și interpretarea semnului în intervaluri.",
+    "tipuriCerinte": [
+      "Determinarea intersecției graficului cu axa absciselor",
+      "Analiza semnului funcției într-un interval dat",
+      "Interpretarea semnului funcției folosind reprezentarea grafică",
+      "Construirea tabelului de semne pentru o funcție liniară"
+    ],
+    "strategie": [
+      "Învățați să identificați rădăcina funcției și să analizați semnul în fiecare interval.",
+      "Exercați construirea tabelului de semne pentru diverse funcții liniare.",
+      "Asociați semnul funcției cu poziția valorii x față de rădăcina funcției.",
+      "Verificați întotdeauna dacă semnul funcției este corect în puncte cheie, cum ar fi x = 0."
+    ]
+  }
+}

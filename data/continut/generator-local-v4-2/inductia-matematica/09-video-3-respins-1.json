@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 3,
+    "id": "video-3",
+    "titlu": "Calcularea sumelor cu mai multe termeni",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom învăța cum să adunăm mai multe numere naturale, cum să aplicăm regulile de calcul corect și cum să evităm greșelile frecvente. Vom rezolva un exemplu complet pas cu pas și vom verifica dacă răspunsul este corect.",
+    "scenariu": [
+      "Bună ziua, elevilor! În acest videoclip vom învăța cum să adunăm mai multe numere naturale. Acest tip de exercițiu apare frecvent în problemele de matematică și este esențial să știm să-l rezolvăm corect.",
+      "Adunarea a trei sau mai multe numere se face prin adunarea succesivă a fiecărui termen. Înseamnă că începem cu primul număr, adunăm al doilea și apoi adunăm al treilea, etc., până la ultimul termen.",
+      "Este important să știm că ordinea în care adunăm nu afectează rezultatul. Adunarea este o operație comutativă, ceea ce înseamnă că putem schimba poziția numerelor și tot va da același rezultat.",
+      "Totuși, pentru a evita greșelile, este mai ușor să adunăm numerele în ordinea în care sunt date. Astfel, nu ne pierdem în calcule și putem verifica pas cu pas dacă totul e corect.",
+      "Vom rezolva acum un exemplu complet: 14 + 9 + 6. Începem prin a aduna 14 și 9. Cât face 14 plus 9? Bine, 14 plus 9 este 23. Acum adunăm 23 cu 6.",
+      "23 plus 6 este 29. Deci, rezultatul final al adunării celor trei numere este 29. Așa se face calculul corect pas cu pas.",
+      "Să verificăm dacă totul e în ordine. Începem cu 14 + 9 = 23, apoi 23 + 6 = 29. Da, toate pașii sunt corecți și nu am făcut nicio greșeală.",
+      "O greșeală frecventă este să adunăm doar două numere și să uite pe cel de-al treilea. De exemplu, cineva ar putea face 14 + 9 = 23 și apoi să uite că mai trebuie să adune și 6. Așa se obține un rezultat greșit.",
+      "Cum putem evita această greșeală? Simplu: citim cu atenție enunțul, scriem fiecare număr pe o linie separată și adunăm pas cu pas. Astfel, nu ne pierdem niciun termen.",
+      "O altă greșeală este să adunăm în mod greșit. De exemplu, cineva ar putea confunda 14 + 9 cu 23, dar apoi să adune 23 + 6 ca și cum ar fi 28, ceea ce este incorect.",
+      "Pentru a evita astfel de greșeli, este important să verificăm fiecare pas. Dacă nu suntem siguri, putem repeta calculul sau folosi metoda inversă: scădem un termen din rezultat și vedem dacă obținem celălalt.",
+      "În concluzie, adunarea a mai multe numere se face prin adunarea succesivă a fiecărui termen. Este important să citim cu atenție enunțul, să scriem fiecare pas și să verificăm rezultatul la final."
+    ],
+    "ideiDeRetinut": [
+      "Adunarea mai multor numere se face prin adunarea succesivă a fiecărui termen.",
+      "Este important să citim cu atenție enunțul și să nu uite niciun termen.",
+      "Verificarea fiecărui pas este esențială pentru evitarea greșelilor."
+    ],
+    "exemplu": {
+      "titlu": "Calcularea sumei 14 + 9 + 6",
+      "enunt": "Calculați suma numerelor: 14, 9 și 6.",
+      "rezolvareScurta": [
+        "14 + 9 = 23",
+        "23 + 6 = 29"
+      ],
+      "raspuns": "29"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul adunării numerelor 14, 9 și 6?",
+      "variante": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Rezultatul corect este 29. Calculul se face pas cu pas: 14 + 9 = 23, apoi 23 + 6 = 29."
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Rezolvare inecuatie simpla",
+      "nivel": "fundament",
+      "enunt": "Rezolvați inecuația: 2x + 3 < 7.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Scădem 3 din ambele părți ale inecuației",
+          "continut": "2x + 3 - 3 < 7 - 3 => 2x < 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartim ambii membri prin 2",
+          "continut": "2x / 2 < 4 / 2 => x < 2."
+        }
+      ],
+      "raspunsFinal": "Soluția inecuației este intervalul (-∞, 2).",
+      "verificare": "Pentru x = 1: 2(1) + 3 = 5 < 7 → adevărat. Pentru x = 2: 2(2) + 3 = 7 nu este mai mic decât 7 → fals."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Rezolvare inecuatie cu semn negativ",
+      "nivel": "standard-bac",
+      "enunt": "Rezolvați inecuația: -3x + 5 ≥ 14.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Scădem 5 din ambele părți ale inecuației",
+          "continut": "-3x + 5 - 5 ≥ 14 - 5 => -3x ≥ 9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartim ambii membri prin -3 și schimbăm semnul inegalității",
+          "continut": "-3x / (-3) ≤ 9 / (-3) => x ≤ -3."
+        }
+      ],
+      "raspunsFinal": "Soluția inecuației este intervalul (-∞, -3].",
+      "verificare": "Pentru x = -4: -3(-4) + 5 = 12 + 5 = 17 ≥ 14 → adevărat. Pentru x = -3: -3(-3) + 5 = 9 + 5 = 14 ≥ 14 → adevărat."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Rezolvare inecuatie cu coeficient negativ și termen liber",
+      "nivel": "standard-bac",
+      "enunt": "Rezolvați inecuația: -4x + 7 ≤ -5.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Scădem 7 din ambele părți ale inecuației",
+          "continut": "-4x + 7 - 7 ≤ -5 - 7 => -4x ≤ -12."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartim ambii membri prin -4 și schimbăm semnul inegalității",
+          "continut": "-4x / (-4) ≥ -12 / (-4) => x ≥ 3."
+        }
+      ],
+      "raspunsFinal": "Soluția inecuației este intervalul [3, ∞).",
+      "verificare": "Pentru x = 3: -4(3) + 7 = -12 + 7 = -5 ≤ -5 → adevărat. Pentru x = 4: -4(4) + 7 = -16 + 7 = -9 ≤ -5 → adevărat."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Rezolvare inecuatie cu coeficient negativ și termen liber",
+      "nivel": "avansat",
+      "enunt": "Rezolvați inecuația: -2x + 6 ≥ 10.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Scădem 6 din ambele părți ale inecuației",
+          "continut": "-2x + 6 - 6 ≥ 10 - 6 => -2x ≥ 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartim ambii membri prin -2 și schimbăm semnul inegalității",
+          "continut": "-2x / (-2) ≤ 4 / (-2) => x ≤ -2."
+        }
+      ],
+      "raspunsFinal": "Soluția inecuației este intervalul (-∞, -2].",
+      "verificare": "Pentru x = -3: -2(-3) + 6 = 6 + 6 = 12 ≥ 10 → adevărat. Pentru x = -2: -2(-2) + 6 = 4 + 6 = 10 ≥ 10 → adevărat."
+    }
+  ]
+}

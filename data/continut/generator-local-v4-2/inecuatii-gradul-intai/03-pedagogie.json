@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Neglijarea semnului inegalitatii",
+      "deCeEsteGresit": "Semnul inegalitatii determina directia in care se muta termenul liber pe alta parte a ecuatiei, iar neglijarea lui poate duce la solutii eronate.",
+      "cumOEviti": "Verifica intotdeauna semnul inegalitatiilor si respecta regulile de transformare."
+    },
+    {
+      "greseala": "Neglijarea semnului coeficientului 'a'",
+      "deCeEsteGresit": "Semnul lui 'a' influenteaza directia inegalitatii, iar neglijarea acestuia poate duce la solutii gresite.",
+      "cumOEviti": "Inainte de a imparti prin 'a', verificati semnul si schimbati eventual semnul inegalitatiilor."
+    },
+    {
+      "greseala": "Neglijarea cazurilor cand 'a' este zero",
+      "deCeEsteGresit": "Daca 'a' este zero, ecuatia devine o egalitate sau o inegalitate falsa, iar neglijarea acestui caz poate duce la erori majore.",
+      "cumOEviti": "Verificati intotdeauna daca 'a' este diferit de zero si abordati separat cazul cand 'a' este zero."
+    },
+    {
+      "greseala": "Interpretarea gresita a solutiei pe axa numerelor",
+      "deCeEsteGresit": "Solutia inecuatiei trebuie reprezentata corect pe axa numerelor, iar interpretarea gresita poate duce la confuzii si erori.",
+      "cumOEviti": "Deseneaza intotdeauna axa numerelor si marcate solutia cu intervalul corespunzator."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Inecuatia de gradul I este o inegalitate care poate fi scrisa sub forma ax + b < 0, ax + b > 0, ax + b ≤ 0 sau ax + b ≥ 0.",
+      "Solutia unei inecuatii de gradul I se obtine prin mutarea termenului liber pe alta parte si impartirea prin coeficientul 'a'.",
+      "Semnul inegalitatiilor trebuie respectat, iar semnul lui 'a' influenteaza directia inegalitatii.",
+      "Solutia poate fi un interval de numere reale sau nu exista solutie."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificati daca ecuatia este de gradul I si are forma corecta.",
+      "Respectati semnul inegalitatiilor in timpul rezolvarii.",
+      "Verificati daca 'a' este diferit de zero si abordati cazurile speciale.",
+      "Reprezentati solutia pe axa numerelor pentru a evita erori."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Inecuatiile de gradul I sunt un subiect frecvent la Bacalaureat, iar cunoasterea lor este esentiala pentru rezolvarea problemelor din diverse domenii.",
+    "tipuriCerinte": [
+      "Rezolvare de inecuatii de gradul I",
+      "Interpretare a solutiilor pe axa numerelor",
+      "Identificare a formei generale a unei inecuatii de gradul I"
+    ],
+    "strategie": [
+      "Incepeti prin a identifica forma generala si semnul inegalitatiilor.",
+      "Rezolvati ecuatia ca o egalitate si respectati semnul inegalitatii.",
+      "Verificati daca 'a' este diferit de zero si abordati cazurile speciale.",
+      "Reprezentati solutia pe axa numerelor pentru a evita erori."
+    ]
+  }
+}

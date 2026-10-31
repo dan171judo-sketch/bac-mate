@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom explora o regulă matematică esențială care este folosită frecvent în rezolvarea problemelor. Regula se referă la modul în care putem simplifica anumite expresii sau ecuații prin aplicarea unor pași bine definiti.",
+    "Această regulă este importantă pentru că ne ajută să evităm greșelile comune și să găsim soluții rapide. Este o metodă eficientă care poate fi aplicată în diverse contexte matematice, de la probleme simple până la cele mai complexe.",
+    "Prima etapă este să identificăm ce tip de expresie avem de rezolvat. De exemplu, dacă lucrăm cu fracții sau cu ecuații liniare, trebuie să știm exact ce regulă aplicăm în fiecare caz. Acest lucru ne permite să evităm confuziile și să luăm decizii corecte.",
+    "Următoarea etapă este să analizăm structura problemei. De exemplu, dacă avem o ecuație cu variabile în ambele părți, trebuie să adunăm sau să scădem termenii pentru a obține o formă mai simplă. Acest proces se numește „reducere” și este esențial pentru a ajunge la răspunsul corect.",
+    "Este important să știm de ce această regulă funcționează. De exemplu, în cazul ecuațiilor liniare, adunarea sau scăderea termenilor din ambele părți păstrează echilibrul matematic. Acest lucru este valabil pentru a menține corectitudinea soluției.",
+    "Pentru a aplica această regulă, trebuie să urmăm pașii într-o ordine specifică. Începem cu identificarea tipului de problemă, apoi analizăm structura și aplicăm regula corespunzătoare. Acest proces este esențial pentru a evita greșelile comune.",
+    "Să luăm un exemplu concret: să rezolvăm ecuația 2x + 3 = 7. În primul pas, scădem 3 din ambele părți, obținând 2x = 4. Apoi împărțim ambii membri la 2 și găsim x = 2. Acest exemplu arată cum se aplică regula în mod clar.",
+    "După ce aplicăm regula, este important să verificăm dacă răspunsul este corect. În acest caz, substituim x = 2 în ecuație și obținem 2*2 + 3 = 7, ceea ce confirmă că soluția este corectă.",
+    "O greșeală frecventă este să nu respectăm ordinea pașilor. De exemplu, uneori elevii încep cu împărțirea în loc de scădere, ceea ce duce la răspunsuri incorecte. Este esențial să urmăm pașii într-o ordine logică.",
+    "Pentru a evita această greșeală, este important să ne concentrăm pe identificarea corectă a tipului de problemă și să aplicăm regula corespunzătoare. De asemenea, verificarea răspunsului este o etapă crucială pentru a asigura că am găsit soluția corectă.",
+    "În concluzie, această regulă este esențială în matematică și ne ajută să rezolvăm probleme eficient. Este important să știm pașii necesari pentru a aplica regula corect și să evităm greșelile comune.",
+    "Prin urmare, învățarea acestei reguli este o parte esențială a procesului de învățare. Este important să ne concentrăm pe practică și verificare pentru a asigura că am înțeles perfect metoda."
+  ],
+  "ideiDeRetinut": [
+    "Identificarea tipului de problemă este primul pas.",
+    "Analiza structurii problemei este esențială pentru aplicarea corectă a regulii.",
+    "Pașii trebuie urmați într-o ordine logică pentru a evita greșelile.",
+    "Verificarea răspunsului este o etapă crucială."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare ecuație liniară",
+    "enunt": "Rezolvați ecuația 2x + 3 = 7.",
+    "rezolvareScurta": [
+      "Scădem 3 din ambele părți: 2x = 4.",
+      "Împărțim ambii membri la 2: x = 2."
+    ],
+    "raspuns": "x = 2"
+  },
+  "verificareRapida": {
+    "intrebare": "Rezolvați ecuația 3x - 5 = 10.",
+    "variante": [
+      "x = 4",
+      "x = 5",
+      "x = 6",
+      "x = 7"
+    ],
+    "raspunsCorect": 2,
+    "explicatie": "Scădem 5 din ambele părți: 3x = 15. Împărțim la 3: x = 5."
+  }
+}

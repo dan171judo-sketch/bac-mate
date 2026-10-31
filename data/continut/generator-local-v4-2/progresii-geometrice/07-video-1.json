@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Introducere în rezolvarea ecuațiilor prin metoda balanței",
+    "durataMinute": 4,
+    "descriere": "În acest videoclip, vom explora conceptul de echilibru în matematică și cum putem folosi această idee pentru a rezolva ecuații. Vom începe cu intuitia, apoi vom trece la reguli clare și exemple practice.",
+    "scenariu": [
+      "În viața de zi cu zi, echilibrul este foarte important. De exemplu, când stai pe o balanță, dacă ai același greutate în ambele părți, te simți echilibrat. Acest lucru se aplică și în matematică.",
+      "În matematică, o ecuație este ca o balanță: ce adaugi într-o parte trebuie să-l adaugi și în cealaltă parte, pentru a menține echilibrul. Acest principiu este esențial pentru rezolvarea corectă a problemelor.",
+      "Vom începe cu o ecuație simplă: 3x = 15. Ce înseamnă aceasta? Înseamnă că un număr multiplicat cu 3 dă 15. Vrem să aflăm care este acel număr.",
+      "Pentru a găsi x, trebuie să împărțim ambele părți la 3. Astfel, obținem x = 15 ÷ 3 = 5. Acesta este răspunsul corect.",
+      "Dar de ce funcționează astfel? Deoarece într-o ecuație, ambele părți trebuie să fie egale. Dacă împărțim o parte la un număr, trebuie să facem același lucru și în partea cealaltă pentru a menține echilibrul.",
+      "Această metodă este cunoscută ca metoda balanței. Este o abordare intuitivă care ne ajută să înțelegem cum funcționează ecuațiile și cum putem rezolva-le pas cu pas.",
+      "Pentru a aplica această metodă, trebuie să știm ce operații matematice folosim. De exemplu, dacă avem o adunare într-o parte, vom folosi scăderea în cealaltă parte, iar dacă avem o înmulțire, vom folosi împărțirea.",
+      "Vom folosi această metodă pentru a rezolva un exemplu concret. Să luăm ecuația 2x + 4 = 10. În primul pas, scădem 4 din ambele părți: 2x = 6. Apoi împărțim la 2 și obținem x = 3.",
+      "Este important să ne asigurăm că toate pașii sunt corect executați. Dacă uităm să scădem 4 din ambele părți, vom obține un răspuns greșit. Acest lucru arată cum o greșeală mică poate duce la o soluție incorectă.",
+      "Cum putem evita astfel de greșeli? Prin exerciții repetitive și prin verificarea fiecărui pas. De asemenea, este util să ne întrebăm: „Ce am făcut într-o parte, trebuie să-l fac și în cealaltă parte?”",
+      "În concluzie, metoda balanței este o metodă eficientă pentru rezolvarea ecuațiilor. Începe cu intuitia, apoi aplică reguli clare și verifică fiecare pas.",
+      "Acesta este un prim pas către înțelegerea matematicii. Prin exerciții și practică, vei deveni mai sigur în rezolvarea ecuațiilor."
+    ],
+    "ideiDeRetinut": [
+      "O ecuație este ca o balanță: ambele părți trebuie să fie egale.",
+      "Pentru a rezolva o ecuație, folosește metoda balanței: ce adaugi într-o parte, adaugă-l și în cealaltă parte.",
+      "Verifică fiecare pas pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea ecuației 3x = 15",
+      "enunt": "Găsește valoarea lui x în ecuația 3x = 15.",
+      "rezolvareScurta": [
+        "Împarte ambele părți la 3: 3x ÷ 3 = 15 ÷ 3",
+        "Obține x = 5."
+      ],
+      "raspuns": "5"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este soluția ecuației 2x + 4 = 10?",
+      "variante": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Scade 4 din ambele părți: 2x = 6. Împarte la 2: x = 3."
+    }
+  }
+}

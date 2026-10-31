@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea A = {0, 2}. Determinați elementele mulțimii A × A.",
+      "variante": [],
+      "raspunsCorect": "{(0, 0), (0, 2), (2, 0), (2, 2)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii A",
+          "continut": "Elementele mulțimii A sunt {0, 2}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian A × A este format din perechile (0, 0), (0, 2), (2, 0), (2, 2)."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin formarea tuturor perechilor ordonate posibile.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea B = {3, -3}. Determinați elementele mulțimii B × B.",
+      "variante": [],
+      "raspunsCorect": "{(3, 3), (3, -3), (-3, 3), (-3, -3)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii B",
+          "continut": "Elementele mulțimii B sunt {3, -3}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian B × B este format din perechile (3, 3), (3, -3), (-3, 3), (-3, -3)."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin formarea tuturor perechilor ordonate posibile.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea C = {4, -4}. Determinați elementele mulțimii C × C.",
+      "variante": [],
+      "raspunsCorect": "{(4, 4), (4, -4), (-4, 4), (-4, -4)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii C",
+          "continut": "Elementele mulțimii C sunt {4, -4}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian C × C este format din perechile (4, 4), (4, -4), (-4, 4), (-4, -4)."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin formarea tuturor perechilor ordonate posibile.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie mulțimea D = {1, -1}. Determinați elementele mulțimii D × D.",
+      "variante": [],
+      "raspunsCorect": "{(1, 1), (1, -1), (-1, 1), (-1, -1)}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Enumerarea elementelor mulțimii D",
+          "continut": "Elementele mulțimii D sunt {1, -1}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Formarea perechilor ordonate din produsul cartezian",
+          "continut": "Produsul cartezian D × D este format din perechile (1, 1), (1, -1), (-1, 1), (-1, -1)."
+        }
+      ],
+      "explicatieFinala": "Produsul cartezian a fost calculat corect prin formarea tuturor perechilor ordonate posibile.",
+      "competenta": "Înțelegerea conceptului de produs cartezian și aplicarea sa în mulțimi finite.",
+      "punctaj": 5
+    }
+  ]
+}

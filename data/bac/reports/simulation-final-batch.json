@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-25T05:46:30.969Z",
+  "strategy": "MINIMUM_SAFE_MULTI_PROFILE_RELEASE",
+  "selectedSources": 4,
+  "selectedSlots": 72,
+  "targets": [
+    {
+      "id": "bac-2026-sesiune-oficiala-M_mate-info-f5d650f5b3",
+      "profile": "M_mate-info",
+      "manifest": "data/bac/manifests/bac-2026-sesiune-oficiala-M_mate-info-f5d650f5b3.json",
+      "slots": 18,
+      "verifiedSlots": 0,
+      "remainingSlots": 18
+    },
+    {
+      "id": "bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5",
+      "profile": "M_st-nat",
+      "manifest": "data/bac/manifests/bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5.json",
+      "slots": 18,
+      "verifiedSlots": 0,
+      "remainingSlots": 18
+    },
+    {
+      "id": "bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7",
+      "profile": "M_tehnologic",
+      "manifest": "data/bac/manifests/bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7.json",
+      "slots": 18,
+      "verifiedSlots": 0,
+      "remainingSlots": 18
+    },
+    {
+      "id": "bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81",
+      "profile": "M_pedagogic",
+      "manifest": "data/bac/manifests/bac-2026-sesiune-oficiala-M_pedagogic-984a0a9a81.json",
+      "slots": 18,
+      "verifiedSlots": 0,
+      "remainingSlots": 18
+    }
+  ],
+  "policy": {
+    "officialPdfRequired": true,
+    "shaVerified": true,
+    "autoMathVerification": false,
+    "autoHumanVerification": false,
+    "autoPromotion": false
+  }
+}

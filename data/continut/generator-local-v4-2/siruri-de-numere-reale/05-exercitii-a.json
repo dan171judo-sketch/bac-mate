@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea lui x din ecuația: 2x + 3 = 7.",
+      "variante": [],
+      "raspunsCorect": "x = 2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se scade 3 din ambele părți ale ecuației: 2x + 3 - 3 = 7 - 3 → 2x = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 2: (2x)/2 = 4/2 → x = 2."
+        }
+      ],
+      "explicatieFinala": "Ecuația a fost rezolvată prin metoda de reducere a termenilor.",
+      "competenta": "Rezolvarea ecuațiilor liniare simple",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați aria unui dreptunghi cu lungimea de 8 cm și lățimea de 5 cm.",
+      "variante": [],
+      "raspunsCorect": "40 cm²",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Aplicarea formulei pentru aria dreptunghiului",
+          "continut": "Aria unui dreptunghi se calculează prin înmulțirea lungimii cu lățimea: A = L × l."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înlocuirea valorilor",
+          "continut": "A = 8 cm × 5 cm = 40 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria dreptunghiului a fost calculată corect folosind formula de bază.",
+      "competenta": "Calcularea ariilor figurilor geometrice",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este soluția ecuației: 3x - 4 = 2?",
+      "variante": [
+        "x = 1",
+        "x = 2",
+        "x = 3",
+        "x = 4"
+      ],
+      "raspunsCorect": "x = 2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se adună 4 în ambele părți: 3x - 4 + 4 = 2 + 4 → 3x = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Se împarte ambele părți la 3: (3x)/3 = 6/3 → x = 2."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației a fost găsită prin metoda de reducere a termenilor.",
+      "competenta": "Rezolvarea ecuațiilor liniare simple",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea lui x din ecuația: (x + 2)/3 = 5.",
+      "variante": [],
+      "raspunsCorect": "x = 13",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înmulțirea ambelor părți cu 3",
+          "continut": "Se înmulțește fiecare parte a ecuației cu 3: (x + 2)/3 × 3 = 5 × 3 → x + 2 = 15."
+        },
+        {
+          "numar": 2,
+          "titlu": "Scăderea termenului liber",
+          "continut": "Se scade 2 din ambele părți: x + 2 - 2 = 15 - 2 → x = 13."
+        }
+      ],
+      "explicatieFinala": "Ecuația a fost rezolvată prin metoda de reducere a termenilor.",
+      "competenta": "Rezolvarea ecuațiilor liniare cu fracții",
+      "punctaj": 5
+    }
+  ]
+}

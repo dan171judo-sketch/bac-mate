@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă propoziția cu predicatul, considerând că orice expresie care conține variabile este o propoziție.",
+      "deCeEsteGresit": "Predicatul nu devine o propoziție decât atunci când variabilele sunt înlocuite cu valori concrete. O expresie cu variabile nu are valoare de adevăr.",
+      "cumOEviti": "Reamintește-te că predicatul este o expresie care exprimă o proprietate sau relație, iar propoziția este o afirmație care poate fi adevărată sau falsă."
+    },
+    {
+      "greseala": "Crede că orice propoziție trebuie să fie formulată într-un limbaj formal, neglijând exemplele din viața cotidiană.",
+      "deCeEsteGresit": "Propozițiile pot fi exprimate și în limbajul comun, nu doar în limbajul formal al logicii matematice. Exemplele concrete sunt esențiale pentru înțelegere.",
+      "cumOEviti": "Încearcă să identifici propoziții din viața ta zilnică și să le transformi în formule logice."
+    },
+    {
+      "greseala": "Neglijă rolul variabilelor în formarea predicatelor, considerând că ele sunt doar simboluri fără semnificație.",
+      "dețiEsteGresit": "Variabilele reprezintă obiecte generice și permit generalizarea predicatelor. Fără variabile, nu se pot exprima afirmații universale sau existențiale.",
+      "cumOEviti": "Învață să folosești variabile pentru a exprima proprietăți comune ale unor mulțimi sau relații."
+    },
+    {
+      "greseala": "Crede că predicatul poate fi evaluat fără a avea valori concrete pentru variabile.",
+      "deCeEsteGresit": "Predicatul nu are valoare de adevăr decât atunci când variabilele sunt înlocuite cu valori concrete. Fără aceste valori, predicatul rămâne o expresie generală.",
+      "cumOEviti": "Învață să distingi între predicat și propoziție, ținând cont de contextul în care sunt folosite."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Propoziția este o afirmație care poate fi adevărată sau falsă.",
+      "Predicatul exprimă o proprietate sau relație între obiecte și nu devine propoziție decât atunci când variabilele sunt înlocuite cu valori concrete.",
+      "Variabilele permit generalizarea predicatelor și exprimarea de afirmații universale sau existențiale.",
+      "Predicatul este esențial pentru formularea unor afirmații matematice precise."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identifică exemple concrete de propoziții din viața cotidiană.",
+      "Învață să diferențiezi între predicat și propoziție în funcție de variabilele folosite.",
+      "Rezolvă exerciții care implică transformarea predicatelor în propoziții prin substituirea variabilelor cu valori concrete.",
+      "Verifică dacă o expresie este predicat sau propoziție, ținând cont de contextul în care este folosită."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Noțiunile de propoziție și predicat sunt fundamentale pentru înțelegerea logicii matematice, care apare frecvent în subiectele de Bac MATE. Acestea permit formularea corectă a afirmațiilor și evaluarea lor logică.",
+    "tipuriCerinte": [
+      "Identificarea propozițiilor dintr-un text dat",
+      "Transformarea predicatelor în propoziții prin substituirea variabilelor cu valori concrete",
+      "Analiza rolului variabilelor în formarea predicatelor",
+      "Exemplificarea unor afirmații matematice folosind predicate"
+    ],
+    "strategie": [
+      "Repetă definițiile de propoziție și predicat pentru a le fixa în memorie.",
+      "Analizează exemple concrete din viața cotidiană pentru a înțelege diferența dintre cele două noțiuni.",
+      "Practică transformarea predicatelor în propoziții prin substituirea variabilelor cu valori concrete.",
+      "Folosește predicatele pentru a exprima afirmații matematice precise, astfel încât să poți evalua corect valorile lor de adevăr."
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă simbolurile ¬ cu ∧ sau ∨.",
+      "deCeEsteGresit": "Simbolul ¬ reprezintă negația, în timp ce ∧ și ∨ sunt pentru conjuncție respectiv disjuncție. Confuzia poate duce la erori în interpretarea propozițiilor logice.",
+      "cumOEviti": "Repetă simbolurile cu atenție și asociază-le cu definițiile corespunzătoare."
+    },
+    {
+      "greseala": "Neglijează negația în propoziții compuse.",
+      "deCeEsteGresit": "Negația unei propoziții compuse nu este doar negarea fiecărui termen, ci implică aplicarea regulilor logice specifice (ex: ¬(p ∧ q) = ¬p ∨ ¬q).",
+      "cumOEviti": "Aplicați regulile de negație pentru propoziții compuse în mod sistematic."
+    },
+    {
+      "greseala": "Interpretează implicația ca o consecință reală, nu ca o relație logică.",
+      "deCeEsteGresit": "Implicația p → q nu înseamnă că p este cauză de q, ci doar că dacă p este adevărată, atunci q trebuie să fie adevărată. Este o relație logică, nu un proces real.",
+      "cumOEviti": "Folosiți tabele de adevăr pentru a înțelege mai bine semnificația implicației."
+    },
+    {
+      "greseala": "Neglijează ordinea de aplicare a operatorilor logici într-o propoziție complexă.",
+      "deCeEsteGresit": "Operatorii logici au prioritate diferită (ex: negația are prioritate față de conjuncție), iar ignorarea acesteia poate duce la rezultate incorecte.",
+      "cumOEviti": "Rescrieți propozițiile complexe folosind paranteze pentru a clarifica ordinea operațiilor."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Negația unei propoziții este o afirmație că aceasta este falsă.",
+      "Conjuncția afirmă că două propoziții sunt adevărate în același timp.",
+      "Disjuncția afirmă că cel puțin una dintre propoziții este adevărată.",
+      "Implicația p → q se citește 'dacă p, atunci q'."
+    ],
+    "formuleDeRetinut": [
+      "¬p",
+      "p ∧ q",
+      "p ∨ q",
+      "p → q"
+    ],
+    "checklistElev": [
+      "Verifică dacă ai înțeles diferența dintre negație, conjuncție și disjuncție.",
+      "Repetă simbolurile logice cu atenție pentru a evita confuziile.",
+      "Folosește tabele de adevăr pentru a analiza propozițiile compuse.",
+      "Verifică dacă ai înțeles semnificația implicației logice."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Aceste noțiuni sunt fundamentale pentru rezolvarea problemelor de logică propozițională, care apar frecvent în subiectele de matematică la Bacalaureat.",
+    "tipuriCerinte": [
+      "Identificarea operatorilor logici dintr-o propoziție dată",
+      "Calcularea valorii de adevăr a unei propoziții compuse",
+      "Transformarea unei propoziții în formă negată sau conjunctivă",
+      "Interpretarea corectă a implicației logice"
+    ],
+    "strategie": [
+      "Învățați simbolurile și definițiile cu atenție.",
+      "Exercați cu tabele de adevăr pentru a înțelege mai bine relațiile dintre propoziții.",
+      "Analizați subiectele oficiale anterioare pentru a identifica tipurile de cerințe frecvente.",
+      "Repetați regulile logice în mod sistematic pentru a le fixa în memorie."
+    ]
+  }
+}

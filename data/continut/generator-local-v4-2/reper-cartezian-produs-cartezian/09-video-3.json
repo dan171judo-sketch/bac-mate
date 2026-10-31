@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 3,
+    "id": "video-3",
+    "titlu": "Produsul cartezian: Exemplu complet rezolvat pas cu pas",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom explora în mod detaliat conceptul de produs cartezian. Vom vedea cum se construiește un exemplu concret, cum se rezolvă pas cu pas și cum se verifică corectitudinea rezultatului. Acesta este un exercițiu complet care te va ajuta să înțelegi mai bine această noțiune matematică.",
+    "scenariu": [
+      "În acest videoclip, vom explora în mod detaliat conceptul de produs cartezian. Vom vedea cum se construiește un exemplu concret, cum se rezolvă pas cu pas și cum se verifică corectitudinea rezultatului. Acesta este un exercițiu complet care te va ajuta să înțelegi mai bine această noțiune matematică.",
+      "Produsul cartezian este o operație fundamentală între două mulțimi, care generează toate perechile ordonate posibile dintre elementele celor două mulțimi. Este important să înțelegem exact cum se construiește și ce semnificație are.",
+      "Pentru a înțelege mai bine, vom folosi un exemplu concret. Fie mulțimea A = {1, 2} și mulțimea B = {3, 4}. Vom determina produsul cartezian A × B.",
+      "În primul pas, trebuie să enumerăm toate elementele din fiecare mulțime. Mulțimea A are două elemente: 1 și 2. Mulțimea B are de asemenea două elemente: 3 și 4.",
+      "Acum, pentru a forma produsul cartezian, vom lua fiecare element din mulțimea A și îl perecheăm cu fiecare element din mulțimea B. Astfel, primul element al mulțimii A (adică 1) se va perechea cu fiecare element din B.",
+      "Prin urmare, vom obține perechile: (1, 3), (1, 4). Apoi, vom repeta același proces pentru cel de-al doilea element al mulțimii A, adică 2. Astfel, vom obține perechile: (2, 3), (2, 4).",
+      "În final, produsul cartezian A × B va fi { (1, 3), (1, 4), (2, 3), (2, 4) }. Este important să verificăm dacă toate perechile sunt incluse și dacă nu există nici o repetiție.",
+      "Un lucru frecvent pe care elevii îl pot greși este să uite să formeze toate perechile posibile. De exemplu, uneori se poate întâmpla ca un elev să ignore perechea (2, 4) sau să o includă în mod greșit.",
+      "Pentru a evita astfel de greșeli, este important să luăm fiecare element din prima mulțime și să-l perecheam cu toate elementele din a doua mulțime. Acest proces trebuie făcut cu atenție și pas cu pas.",
+      "În plus, este util să verificăm rezultatul final prin numărarea totală de perechi. Dacă mulțimea A are m elemente și mulțimea B are n elemente, produsul cartezian va avea m × n perechi. În exemplul nostru, 2 × 2 = 4 perechi, ceea ce corespunde cu rezultatul obținut.",
+      "Vom reveni la exemplul nostru și vom verifica dacă toate perechile sunt corect incluse. De exemplu, (1, 3) este corect, (1, 4) este corect, (2, 3) este corect, iar (2, 4) este de asemenea corect.",
+      "Prin urmare, produsul cartezian A × B este complet și corect. Este important să înțelegem că fiecare pereche ordonată este formată dintr-un element din prima mulțime și unul din a doua."
+    ],
+    "ideiDeRetinut": [
+      "Produsul cartezian se formează prin perechile ordonate dintre elementele celor două mulțimi.",
+      "Este esențial să luăm fiecare element din prima mulțime și să-l perecheam cu toate elementele din a doua mulțime.",
+      "Verificarea finală este importantă pentru a evita greșelile comune."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu rezolvat: A × B",
+      "enunt": "Fie mulțimile A = {1, 2} și B = {3, 4}. Determinați produsul cartezian A × B.",
+      "rezolvareScurta": [
+        "Enumerăm elementele din A: {1, 2}",
+        "Enumerăm elementele din B: {3, 4}"
+      ],
+      "raspuns": "{(1, 3), (1, 4), (2, 3), (2, 4)}"
+    },
+    "verificareRapida": {
+      "intrebare": "Câte perechi ordonate conține produsul cartezian A × B dacă A = {a, b} și B = {c, d}?",
+      "variante": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Produsul cartezian A × B are m × n perechi, unde m = 2 și n = 2. Deci, 2 × 2 = 4 perechi."
+    }
+  }
+}

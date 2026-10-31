@@ -1,0 +1,1718 @@
+{
+  "version": "08D.2",
+  "policy": "PDFJS_TEXT_IS_HINT_ONLY_NEVER_MATH_TRUTH",
+  "physicalPairs": 7,
+  "uniqueBytePairs": 6,
+  "documents": [
+    {
+      "label": "august",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_var_04_LRO.pdf",
+        "sha256": "f2d942047ba99d36c06d18ce8bf87bab7dc027a69af8dc76d6b703f2f87a0bd6",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 4 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info Varianta 4 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Toate subiectele sunt obligatorii. Se acord ă zece puncte din oficiu. • Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Determina ț i termenul 3 b al progresiei geometrice ( ) 1 n n b ≥ , în care 1 2 b = ș i 2 10 b = . 5p 2. Se consider ă func ț iile : f → ℝ ℝ , ( ) 5 f x x = − ș i : g → ℝ ℝ , ( ) 1 g x ax = − , unde a este num ă r real. Determina ț i num ă rul real a pentru care ( )( ) 2 2 f g = \u0002 . 5p 3. Rezolva ț i în mul ț imea numerelor reale ecua ț ia ( ) ( ) 8 8 8 log log 8 log 6 x x x + − = + . 5p 4. Determina ț i câte numere naturale pare, de dou ă cifre, se pot forma cu cifre din mul ț imea { } 1, 2, 4, 6, 8 A = . 5p 5. În reperul cartezian xOy se consider ă punctele ( ) 1,3 A , ( ) 2, 2 B ș i ( ) 4, 6 C . Determina ț i ecua ț ia dreptei d ce trece prin punctul B ș i este paralel ă cu dreapta AC . 5p 6. Se consider ă expresia ( ) 2 3tg sin 2sin 3 3 x x E x x = + − , unde 3 0, 2 x π   ∈     . Ar ă ta ț i c ă 1 2 E π   =     . SUBIECTUL al II-lea (30 de puncte) 1. Se consider ă matricea ( ) 1 2 2 1 1 0 a a A a a a −     = − −     −   ș i sistemul de ecua ț ii liniare 2 1 2 x ay az x y az a x ay a + − = −   − − =   − =  , unde a este num ă r real. 5p a) Ar ă ta ț i c ă ( ) ( ) det 2 4 A = . 5p b) Pentru 1 a = , ar ă ta ț i c ă sistemul de ecua ț ii are o infinitate de solu ț ii. 5p c) Ar ă ta ț i c ă , pentru orice { } \\ 0,1 a ∈ ℝ , sistemul de ecua ț ii are solu ț ie unic ă ( ) 0 0 0 , , x y z ș i 0 0 4 1. x z = 2. Se consider ă polinomul 3 2 8 f X X aX = + + + , unde a este num ă r real. 5p a) Ar ă ta ț i c ă ( ) 0 8 f = , pentru orice num ă r real a . 5p b) Determina ț i num ă rul real a pentru care polinomul f este divizibil cu polinomul 2 g X = + . 5p c) Determina ț i num ă rul real a pentru care raportul a dou ă dintre r ă d ă cinile polinomului f este egal cu 2 . SUBIECTUL al III-lea (30 de puncte) 1. Se consider ă func ț ia : f → ℝ ℝ , ( ) ( ) 2 2 2 4 3 2 3 x f x x x x e = − − − − . 5p a) Ar ă ta ț i c ă ( ) ( ) ( ) 2 ' 4 1 1 x f x x e = − − , x ∈ ℝ . 5p b) Ar ă ta ț i c ă ( ) 2 0 lim 4 x f x x → = . 5p c) Demonstra ț i c ă ecua ț ia ( ) 0 f x n + = are solu ț ie unic ă , pentru orice num ă r natural nenul n . 2. Se consider ă func ț ia : f → ℝ ℝ , ( ) 2 2 4 5 x f x x x − = − + . 5p a) Ar ă ta ț i c ă ( ) 4 2 2 4 5 2 f x x x dx − + =  .",
+            "textChars": 2911,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 4 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 5p b) Ar ă ta ț i c ă ( ) 3 1 0 f x dx =  . 5p c) Determina ț i num ă rul real nenul m pentru care volumul corpului ob ț inut prin rota ț ia graficului func ț iei [ ] : 2,3 g → ℝ , ( ) ( ) g x f x = , în jurul axei Ox este egal cu 1 m π π   −     .",
+            "textChars": 572,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/august/E_c_matematica_M_mate-info_2026_bar_04_LRO.pdf",
+        "sha256": "1898e9b3b8ffe80e1d000242dfc1af33965740cb9205284712b1c7c5116225aa",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 4 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info BAREM DE EVALUARE Ş I DE NOTARE Varianta 4 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Pentru orice solu ț ie corect ă , chiar dac ă este diferit ă de cea din barem, se acord ă punctajul corespunz ă tor. • Nu se acord ă frac ț iuni de punct, dar se pot acorda punctaje intermediare pentru rezolv ă ri par ț iale, în limitele punctajului indicat în barem. • Se acord ă zece puncte din oficiu. Nota final ă se calculeaz ă prin împ ă r ț irea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1. 2 1 5 b q b = = , unde q este ra ț ia progresiei geometrice 3p 2 3 1 50 b b q = = 2p 2. ( ) 2 2 1 g a = − , ( )( ) 2 2 6 f g a = − \u0001 , pentru orice num ă r real a 3p 2 6 2 a − = , de unde ob ț inem 4 a = 2p 3. ( ) ( ) 2 8 8 log 8 log 6 x x x − = + , de unde ob ț inem 2 7 6 0 x x − + = 2p 1 x = sau 6 x = , care convin 3p 4. Cifra unit ăț ilor se poate alege în 4 moduri 2p Pentru fiecare alegere a cifrei unit ăț ilor, cifra zecilor se poate alege în câte 5 moduri, deci se pot forma 4 5 20 ⋅ = de numere 3p 5. 1 AC m = , deci 1 d m = 3p Ecua ț ia dreptei d este 2 2 y x − = − , adic ă y x = 2p 6. 1 tg 6 3 π = , sin 1 2 π = , 3 sin 3 2 π = 3p 1 3 3 1 2 3 1 3 1 2 2 3 E π   = ⋅ + − ⋅ = + − =     2p SUBIECTUL al II-lea (30 de puncte) 1.a) ( ) ( ) ( ) 1 2 4 1 2 4 2 2 1 2 det 2 2 1 2 1 2 0 1 2 0 A A − −     = − −  = − − =     − −   2p 0 16 4 4 4 0 4 = + − − − − = 3p b) 2 1 2 1 1 x y z x y z x y + − = −   − − =   − =  ș i 1 1 2 2 1 1 0 1 1 0 − − − = − 2p 1 1 0 2 1 ≠ − ș i 1 1 1 2 1 1 0 1 1 1 − − = − , deci sistemul de ecua ț ii are o infinitate de solu ț ii 3p c) ( ) ( ) 2 det 2 2 A a a a = − ; cum { } \\ 0,1 a ∈ ℝ , ob ț inem c ă ( ) ( ) det 0 A a ≠ , deci sistemul de ecua ț ii are solu ț ie unic ă 2p Pentru { } \\ 0,1 a ∈ ℝ , 0 2 a x = , 0 1 2 z a = , deci 0 0 4 1 x z = , pentru orice { } \\ 0,1 a ∈ ℝ 3p 2.a) ( ) 3 2 0 0 0 0 8 f a = + + ⋅ + = 3p 0 0 0 8 8 = + + + = , pentru orice num ă r real a 2p",
+            "textChars": 2493,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 4 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 b) ( ) 2 4 2 f a − = − , pentru orice num ă r real a 3p 4 2 0 a − = , de unde ob ț inem 2 a = 2p c) Pentru 2 1 2 x x = , cum 1 2 3 1 x x x + + = − ș i 1 2 3 8 x x x = − , ob ț inem 3 2 1 1 3 4 0 x x + − = 3p ( ) ( ) 2 1 1 1 1 3 4 4 0 x x x − + + = ; cum f este polinom de gradul 3 cu coeficien ț i reali ș i 2 1 2 , x x = rezult ă c ă 1 x este num ă r real, deci 1 1 x = ș i ( ) 1 0 f = , de unde ob ț inem 10 a = − , care convine 2p SUBIECTUL al III-lea (30 de puncte) 1.a) ( ) ( ) 2 2 ' 4 4 2 2 3 2 x x f x x e x e = − − − − ⋅ = 3p ( ) ( ) ( ) ( ) 2 2 4 1 4 1 4 1 1 x x x x e x e = − − − = − − , x ∈ ℝ 2p b) ( ) ( ) ( ) ( ) ( ) 2 2 2 0 0 0 4 1 1 ' lim lim lim ' 2 x x x x x e f x f x x x x → → → − − = = 3p 2 0 1 lim 1 2 x x e x → − = − , de unde ob ț inem ( ) ( )( ) 2 0 lim 4 1 1 4 x f x x → = − − = 2p c) ( ) ' 0 0 f x x = ⇔ = sau 1 x = ; pentru orice ( ] ,0 x ∈ −∞ , ( ) ' 0 f x ≤ , deci f este descresc ă toare pe ( ] ,0 −∞ , pentru orice [ ] 0,1 x ∈ , ( ) ' 0 f x ≥ , deci f este cresc ă toare pe [ ] 0,1 ș i, pentru orice ( ) 1, x ∈ +∞ , ( ) ' 0 f x < , deci f este strict descresc ă toare pe ( ) 1, +∞ 3p Cum ( ) 0 0 f = , ( ) lim x f x →+∞ = −∞ ș i f este continu ă , ob ț inem c ă ecua ț ia ( ) 0 f x n + = are solu ț ie unic ă pentru orice num ă r natural nenul n 2p 2.a) ( ) ( ) 4 4 2 2 2 2 4 4 5 2 2 2 2 x f x x x dx x dx x   − + = − = − =         3p ( ) 0 2 2 = − − = 2p b) ( ) ( ) 2 3 3 2 2 1 1 ' 3 4 5 4 5 1 2 4 5 x x f x dx dx x x x x − + = = − + = − +   3p 2 2 0 = − = 2p c) ( ) ( ) ( ) ( ) 3 3 3 2 2 2 2 2 2 2 3 4 4 1 1 arctg 2 4 5 2 2 1 x x V f x dx dx dx x x x x x π π π π   − +   = = = − = − − =   − + − +      3p 1 4 π π   = −     , deci 1 1 4 m π π π π     − = −         , de unde ob ț inem 4 m = 2p",
+            "textChars": 2115,
+            "hintOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "model",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_var_model.pdf",
+        "sha256": "afefbfe1ec6ca0ed8eb342692f265fd2740cab85e197e188b3979a1522224714",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.  Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Determinați numărul real x pentru care numerele x , 8 și 2 1 x  sunt, în această ordine, termeni consecutivi ai unei progresii aritmetice. 5p 2. Se consideră funcțiile : f  ℝ ℝ ,   2 1 f x x   și : g  ℝ ℝ ,   4 g x x   . Determinați numărul real a pentru care    f g a a   \u0002 . 5p 3. Rezolvați în mulțimea numerelor reale ecuația   5 5 2log log 4 5 x x   . 5p 4. Se consideră mulțimea   1,3,5,7,8 A  . Determinați câte numere naturale de două cifre distincte, cu cifra zecilor impară, se pot forma cu cifre din mulțimea A . 5p 5. În reperul cartezian xOy se consideră punctele   0,5 A și   3,4 B . Determinați coordonatele punctului C pentru care 3 OC OA OB   \u0003\u0003\u0003\u0004 \u0003\u0003\u0003 \u0004 \u0003\u0003\u0003 \u0004 . 5p 6. Se consideră triunghiul ABC , cu 2 A   , 3 C   și 2 AE  , unde E este punctul în care bisectoarea unghiului C intersectează latura AB . Arătați că distanța de la punctul B la dreapta CE este egală cu 2 3 . SUBIECTUL al II-lea (30 de puncte) 1. Se consideră matricea   0 2 1 1 1 2 1 2 a A a a               și sistemul de ecuații   2 4 1 3 2 2 5 ax z x y a z x y z               , unde a este număr real. 5p a) Arătați că     det 0 2 A  . 5p b) Determinați mulțimea numerelor reale a pentru care matricea   A a este inversabilă. 5p c) Pentru 2 a  , arătați că 0 0 0 0 x z y   , pentru orice soluție   0 0 0 , , x y z a sistemului de ecuații, cu 0 x , 0 y și 0 z numere reale. 2. Pe mulțimea   1, M   se definește legea de compoziție    1 1 1 xy x y x y      . 5p a) Arătați că 7 3 5 4   . 5p b) Determinați x M  pentru care 3 x x   . 5p c) Demonstrați că   2 2 x x    , pentru orice x M  . SUBIECTUL al III-lea (30 de puncte) 1. Se consideră funcția   : 0, f   ℝ ,   2 ln ln f x x x x x    . 5p a) Arătați că     2 ln ' x x f x x   ,   0, x   . 5p b) Determinați abscisele punctelor situate pe graficul funcției f în care tangenta la graficul funcției f este paralelă cu axa Ox . 5p c) Demonstrați că ecuația   0 f x  are soluție unică.",
+            "textChars": 2710,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 2 . Se consideră funcția : f  ℝ ℝ ,   2 2 2 4 f x x x     . 5p a) Arătați că     3 2 0 4 3 f x x dx     . 5p b) Arătați că   5 2 0 1 2 x dx f x x     . 5p c) Demonstrați că   2 0 0 1 lim 0 x x F t dt x    , unde : F  ℝ ℝ este primitiva funcției f pentru care   0 0 F  .",
+            "textChars": 588,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/E_c_matematica_M_mate-info_2026_bar_model.pdf",
+        "sha256": "6360867d159a71cc0cd912ad441c8d9de852633058c05e541c5c8f04b3c99950",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info BAREM DE EVALUARE ŞI DE NOTARE Model Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Pentru orice soluție corectă, chiar dacă este diferită de cea din barem, se acordă punctajul corespunzător.  Nu se acordă fracțiuni de punct, dar se pot acorda punctaje intermediare pentru rezolvări parțiale, în limitele punctajului indicat în barem.  Se acordă zece puncte din oficiu. Nota finală se calculează prin împărțirea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1. 2 1 8 2 x x    3p 5 x  2p 2.   4 g a a   ,    2 9 f g a a   \u0001 , pentru orice număr real a 3p 2 9 a a    , de unde obținem 3 a   2p 3.   2 5 5 log log 4 5 x x   , de unde obținem 2 4 5 0 x x    2p 1 x   , care nu convine sau 5 x  , care convine 3p 4. Cifra zecilor se poate alege în 4 moduri 2p Pentru fiecare alegere a cifrei zecilor, cifra unităților se poate alege în câte 4 moduri, deci se pot forma 4 4 16   numere 3p 5. 5 OA j  \u0002\u0002\u0002 \u0003 \u0003 , 3 4 OB i j   \u0002\u0002\u0002 \u0003 \u0003 \u0003 , deci 3 9 OA OB i j    \u0002\u0002\u0002 \u0003 \u0002\u0002\u0002 \u0003 \u0003 \u0003 3p   1 3 OC OA OB   \u0002\u0002\u0002\u0003 \u0002\u0002\u0002 \u0003 \u0002\u0002\u0002 \u0003 , de unde obținem 3 OC i j   \u0002\u0002\u0002\u0003 \u0003 \u0003 , deci   1,3 C 2p 6. \u0004 \u0004 6 ECB EBC    , deci EB EC  , de unde obținem     , , d B CE d C BE CA   3p \u0004 tg AE ACE AC  , deci 1 2 3 AC  , de unde obținem   , 2 3 d B CE  2p SUBIECTUL al II-lea (30 de puncte) 1.a)       0 0 2 0 0 2 0 1 1 1 det 0 1 1 1 2 1 2 2 1 2 A A                   2p 0 2 0 4 0 0 2        3p b)     2 0 2 det 1 1 1 3 2 2 1 2 a A a a a a        , pentru orice număr real a 2p     det 0 1 A a a    sau 2 a  , deci matricea   A a este inversabilă dacă și numai dacă   \\ 1, 2 a  ℝ 3p c) Pentru 2 a  , soluțiile   0 0 0 , , x y z cu 0 0 0 , , x y z  ℝ sunt   ,1, 2    , cu   ℝ 3p   2 0 0 0 1 0 x z y      , pentru orice soluție   0 0 0 , , x y z cu 0 0 0 , , x y z  ℝ 2p 2.a)    3 5 1 3 5 3 1 5 1        3p 14 7 2 4 4    2p",
+            "textChars": 2457,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Model Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 b)   2 2 1 1 1 1 x x x x x x        , pentru orice x M  3p 1 3 1 x x    , de unde obținem 2 x  , care convine 2p c) 2 1 2 1 x x x     , deci     2 2 2 1 2 1 x x x x x x        3p   1 2 2 1 x x     , pentru orice x M  2p SUBIECTUL al III-lea (30 de puncte) 1.a)   2ln ' 1 ln 1 x f x x x      3p   2 ln 2 ln ln x x x x x x x     ,   0, x   2p b) Tangenta la graficul funcției f în punctul     , A a f a este paralelă cu axa   ' 0, Ox f a     0, a   2p   2 ln 0 a a a   , de unde obținem 1 a  sau 2 a  , care convin 3p c) Pentru orice   0,1 x  ,   ' 0 f x  , deci f este descrescătoare pe   0,1 , pentru orice   1,2 , x    ' 0 f x  , deci f este crescătoare pe   1,2 și, pentru orice   2, x   ,   ' 0 f x  , deci f este strict descrescătoare pe   2,  2p Cum   1 1 f  ,   lim x f x    și f este continuă, obținem că ecuația   0 f x  are soluție unică 3p 2.a)       3 3 3 2 2 0 0 3 4 2 2 3 0 x f x x dx x dx x                  3p 9 6 3    2p b)     2 5 5 5 2 2 2 2 0 0 0 ' 5 4 4 2 0 4 2 4 x x x dx dx dx x f x x x x              3p 3 2 1    2p c)             0 2 2 0 0 0 0 0 ' ' 1 lim lim lim lim 2 2 ' ' x x x x x x F t dt F x F x F t dt x x x x                   3p     0 0 lim 0 2 2 x f x f     2p",
+            "textChars": 1714,
+            "hintOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "rezerva",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_var_07_LRO.pdf",
+        "sha256": "fcf3ef4e4ede7ded4463a387ee4292452dbaa2b91d3b4b2ef3233def1e3fe6dd",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 7 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info Varianta 7 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Toate subiectele sunt obligatorii. Se acord ă zece puncte din oficiu. • Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Ar ă ta ț i c ă ( ) ( ) 3 2 2 2 3 1 i i i + + − = , unde 2 1 i = − . 5p 2. Se consider ă func ț ia : f → ℝ ℝ , ( ) 2 5 f x x = − . Determina ț i num ă rul real a pentru care ( ) ( ) 1 1 0 a f a f a + − + + = . 5p 3. Rezolva ț i în mul ț imea numerelor reale ecua ț ia ( ) 2 2 1 log 6 8 log 2 x x − = . 5p 4. Se consider ă mul ț imea { } 3, 6, 9, , 60 A = … . Determina ț i probabilitatea ca, alegând un num ă r din mul ț imea A , acesta s ă fie divizibil cu 5 . 5p 5. În reperul cartezian xOy se consider ă punctele ( ) 2, 2 A , ( ) ,0 B a ș i ( ) 1, C b , unde a ș i b sunt numere reale. Determina ț i numerele reale a ș i b pentru care 2 OB OC OA + = \u0003\u0003\u0003 \u0004 \u0003\u0003\u0003\u0004 \u0003\u0003\u0003 \u0004 . 5p 6. Se consider ă triunghiul ABC , dreptunghic în A , cu 6 AC = ș i 3 B π = . Ar ă ta ț i c ă aria triunghiului ABC este egal ă cu 6 3 . SUBIECTUL al II-lea (30 de puncte) 1. Se consider ă matricele 3 1 0 0 0 1 0 0 0 1 I     =       ș i ( ) 2 1 2 1 0 1 0 2 2 a A a a a −     = − −       , unde a este num ă r real. 5p a) Ar ă ta ț i c ă ( ) ( ) det 3 0 A = . 5p b) Ar ă ta ț i c ă ( ) ( ) ( ) ( ) 2 1 A a A a a A a ⋅ = − , pentru orice num ă r real a . 5p c) Se consider ă matricea ( ) ( ) 3 B n A n nI = + , unde n este num ă r natural. Determina ț i num ă rul natural n pentru care ( ) ( ) ( ) 2 2 A n B n n A n ⋅ = . 2. Se consider ă polinomul 4 3 2 6 f X X aX bX = − + + − , unde a ș i b sunt numere reale. 5p a) Pentru 4 a = ș i 0 b = , ar ă ta ț i c ă ( ) 1 0 f − = . 5p b) Pentru 1 a b = = , determina ț i câtul ș i restul împ ă r ț irii polinomului f la polinomul 2 1. g X X = − + 5p c) Determina ț i perechile ( ) , a b de numere naturale pentru care dou ă dintre r ă d ă cinile polinomului f sunt numere opuse. SUBIECTUL al III-lea (30 de puncte) 1. Se consider ă func ț ia : f → ℝ ℝ , ( ) ( ) 2 2 2 2 1 3ln 2 1 f x x x = + − + . 5p a) Ar ă ta ț i c ă ( ) ( ) 2 2 4 2 1 3 ' 2 1 x x f x x + − = + , x ∈ ℝ . 5p b) Determina ț i ecua ț ia tangentei la graficul func ț iei f în punctul de abscis ă 0 x = , situat pe graficul func ț iei f . 5p c) Demonstra ț i c ă ecua ț ia ( ) f x m = are exact dou ă solu ț ii, pentru orice ( ) 2, m ∈ +∞ .",
+            "textChars": 2853,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 7 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 2. Se consider ă func ț ia ( ) : 2, f − +∞ → ℝ , ( ) 3 1 4 2 f x x x = + + . 5p a) Ar ă ta ț i c ă ( ) 2 1 1 15 2 f x dx x   − =   +    . 5p b) Ar ă ta ț i c ă ( ) 2 3 1 4ln 9 4 e x dx e f x x = + −  . 5p c) Ar ă ta ț i c ă aria suprafe ț ei plane delimitate de graficul func ț iei ( ) : 2, g − +∞ → ℝ , ( ) ( ) 3 4 x x g x f e e = − , axa Ox ș i dreptele de ecua ț ii 0 x = ș i 1 x = este egal ă cu 1 3 ln 2 2 e e + .",
+            "textChars": 743,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/rezerva/E_c_matematica_M_mate-info_2026_bar_07_LRO.pdf",
+        "sha256": "6a27a9e3fccde58fddaf0c429e48f05fd2c4df822aa14f837453980d0a4c76c9",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Varianta 7 Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică - informatică Filiera vocațională, profilul militar, specializarea matematică - informatică Pagina 1 din 2 Examenul național de bacalaureat 202 6 Proba E. c) Matematică M_mate-info BAREM DE EVALUARE ŞI DE NOTARE Varianta 7 Filiera teoretică, profilul real, specializarea matematică - informatică Filiera vocațională, profilul militar, specializarea matematică - informatică • Pentru orice soluție corectă, chiar dacă este diferită de cea din barem, se acordă punctajul corespunzător. • Nu se acordă fracțiuni de punct, dar se pot acorda punctaje intermediare pentru rezolvări parțiale, în limitele punctajului indicat în barem. • Se acordă zece puncte din oficiu. Nota finală se calculează prin împărțirea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1. ( ) ( ) 2 3 2 2 2 3 6 3 4 6 i i i i i i + + − = + + − = 3p 3 4 1 =− + = 2p 2. ( ) 1 2 7 f a a − = − , ( ) 1 2 3 f a a + = − , pentru orice număr real a 2p 2 7 2 3 0 a a a + − + − = , de unde obținem 2 a = 3 p 3. ( ) 2 2 2 log 6 8 log x x − = , de unde obținem 2 6 8 0 x x − + = 2p 2 x = sau 4 x = , care convin 3p 4. Mulțimea A are 20 de elemente, deci sunt 20 de cazuri posibile 2p În mulțimea A sunt 4 numere divizibile cu 5 , deci sunt 4 cazuri favorabile, de unde obținem 4 1 20 5 p = = 3p 5. ( ) 1 2 OA OB OC = +      , deci punctul A este mijlocul segmentului BC 2p 1 2 2 a + = , 0 2 2 b + = , de unde obținem 3 a = și 4 b = 3p 6. tg AC B AB = , deci 6 3 AB = , de unde obținem 2 3 AB = 3p 2 3 6 6 3 2 2 ABC AB AC ∆ ⋅ ⋅ = = =  2p SUBIECTUL al II -lea (30 de puncte) 1.a) ( ) ( ) ( ) 5 2 1 5 2 1 3 0 1 3 det 3 0 1 3 0 2 6 0 2 6 A A     = − − ⇒ = − − =       2p 30 0 0 0 30 0 0 = − + + − + − = 3p b) ( ) ( ) ( ) 2 2 2 2 1 4 2 2 1 0 1 2 2 0 2 4 2 4 a a a A a A a a a a a a a   − − −     ⋅ = − − =     − + − +   3p ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) 2 2 1 2 2 1 2 1 0 2 1 2 1 2 1 0 2 2 1 2 2 1 a a a a a a a A a a a a   − − −   = − − − − = −      − −    , pentru orice număr real a 2p c) ( ) ( ) ( ) ( ) 3 1 A n B n n A n ⋅ = − , pentru orice număr natural n 3 p ( ) ( ) ( ) 2 3 1 2 n A n n A n − = și, cum n este număr natural , obținem 1 n = 2p",
+            "textChars": 2402,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Varianta 7 Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică - informatică Filiera vocațională, profilul militar, specializarea matematică - informatică Pagina 2 din 2 2.a) ( ) ( ) ( ) ( ) 4 3 2 4 3 2 4 6 1 1 1 4 1 6 f X X X f = − + − ⇒ − = − − − + − − = 3p 1 1 4 6 0 = + + − = 2p b) ( ) 4 3 2 2 2 6 1 6 f X X X X X X X X = − + + − = − + + − , deci câtul împărțirii este 2 X 3p Restul este 6 X − 2p c) 2 1 x x = − , deci ( ) ( ) 1 1 0 f x f x = − = , de unde rezultă ( ) ( ) 1 1 0 f x f x + − = și ( ) ( ) 1 1 0 f x f x − − = , de unde obținem 4 2 1 1 6 0 x ax + − = și 3 1 1 0 x bx − = 2p Cum 1 0 x ≠ , obținem 2 1 b x = , deci ( ) 6 b a b + = și, cum a și b sunt numere naturale, rezultă că perechile sunt ( ) 1, 2 și ( ) 5,1 , care convin 3 p SUBIECTUL al III -lea (30 de puncte) 1.a) ( ) 2 2 4 4 ' 3 2 1 2 1 x x f x x x = − ⋅ = + + 3p ( ) 2 2 2 2 4 2 1 3 4 2 1 12 2 1 2 1 x x x x x x x + − + − = = + + , x ∈  2p b) ( ) 0 2 f = , ( ) ' 0 0 f = 2p Ecuația tangentei este ( ) ( )( ) 0 ' 0 0 y f f x − = − , adică 2 y = 3p c) ( ) ' 0 2 f x x = ⇔ = − sau 0 x = sau 2 x = ; pentru orice ( ) , 2 x ∈ −∞ − , ( ) ' 0 f x < , deci f este strict descrescătoare pe ( ) , 2 −∞ − ; pentru orice [ ] 2,0 x ∈ − , ( ) ' 0 f x ≥ , deci f este crescătoare pe [ ] 2,0 − ; pentru orice [ ] 0, 2 x ∈ , ( ) ' 0 f x ≤ , deci f descrescătoare pe [ ] 0, 2 ; pentru orice ( ) 2, x ∈ +∞ , ( ) ' 0 f x > , deci f este strict crescătoare pe ( ) 2, +∞ 2p Cum ( ) ( ) lim lim x x f x f x →−∞ →+∞ = = +∞ , ( ) 0 2 f = ș i f este continuă, obținem că ecuația ( ) f x m = are exact două soluții pentru orice ( ) 2, m ∈ +∞ 3p 2.a) ( ) 2 2 3 4 1 1 2 1 4 2 1 f x dx x dx x x   − = = =   +   ∫ ∫ 3p 16 1 15 = − = 2p b) ( ) ( ) ( ) ( ) ( ) 2 2 2 3 1 1 1 4ln ' 4 8 ln 2 8 ln 2 8 ln 8 4 1 1 e e e e e x dx x xdx x x xdx x x x x x f x x = + = + = + − + = − ∫ ∫ ∫ 3p 2 2 2 2 8 8 9 9 e e e e e = + − − + = + 2p c) ( ) 1 2 x g x e = + , ( ) 2, x ∈ − +∞ ( ) ( ) 1 1 0 0 1 1 1 1 1 ln 2 2 2 2 0 0 x x x e g x dx dx x e e       ⇒ = = − = − + =       +     ∫ ∫  3p 1 2 1 3 1 ln ln 2 3 2 2 e e e +   = − =   +   2p",
+            "textChars": 2257,
+            "hintOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "sesiune-oficiala",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_var_03_LRO.pdf",
+        "sha256": "f5d650f5b34717745eeee097a8b8161a83298304327e8132dd0935907bc558ea",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 3 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info Varianta 3 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Toate subiectele sunt obligatorii. Se acord ă zece puncte din oficiu. • Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Se consider ă num ă rul complex 3 z i = − . Ar ă ta ț i c ă ( ) 2 10 z z i + = . 5p 2. Se consider ă func ț ia : f → ℝ ℝ , ( ) 3 4 f x x = − . Determina ț i num ă rul real a pentru care ( ) ( ) 2 f a f a a + − = . 5p 3. Rezolva ț i în mul ț imea numerelor reale ecua ț ia 2 7 2 1 x x + = + . 5p 4. Se consider ă mul ț imea { } 1, 2, 3, 5, 7 A = . Determina ț i câte dintre submul ț imile mul ț imii A au exact trei elemente ș i con ț in num ă rul 5 . 5p 5. În reperul cartezian xOy se consider ă punctele ( ) 3,6 A , ( ) 4,1 B ș i ( ) 5, C a , unde a este num ă r real. Determina ț i num ă rul real a pentru care dreptele OA ș i BC sunt paralele. 5p 6. Se consider ă expresia ( ) ( ) 2 1 tg sin cos3 2 x E x x x = + + , unde 0, 2 x π   ∈     . Ar ă ta ț i c ă 1 3 E π   =     . SUBIECTUL al II-lea (30 de puncte) 1. Se consider ă matricea ( ) 1 3 0 2 1 a a A a a a     =       ș i sistemul de ecua ț ii liniare 1 3 0 2 0 x ay az ax y az y z + + =   + + =   + =  , unde a este num ă r real. 5p a) Ar ă ta ț i c ă ( ) ( ) det 1 2 A = . 5p b) Ar ă ta ț i c ă , pentru orice num ă r real a , sistemul de ecua ț ii are solu ț ie unic ă . 5p c) Determina ț i num ă rul natural nenul a pentru care sistemul de ecua ț ii are solu ț ia ( ) 0 0 0 , , x y z , cu 0 0 z nx = , unde n este num ă r natural. 2. Pe mul ț imea numerelor reale se define ș te legea de compozi ț ie asociativ ă ( )( ) 2 3 3 3. 3 x y x y ∗ = − − + 5p a) Ar ă ta ț i c ă 0 2 5 ∗ = . 5p b) Determina ț i numerele reale x pentru care 3 5 2 x x x ∗ = . 5p c) Determina ț i perechile ( ) , m n de numere naturale pentru care 1 m m n ∗ ∗ = − . SUBIECTUL al III-lea (30 de puncte) 1. Se consider ă func ț ia : f → ℝ ℝ , ( ) 3 2 4 5 x x f x x − = + . 5p a) Ar ă ta ț i c ă ( ) ( )( ) ( ) 2 2 2 2 1 20 ' 5 x x f x x − + = + , x ∈ ℝ . 5p b) Ar ă ta ț i c ă dreapta de ecua ț ie y x = este asimptota oblic ă spre +∞ la graficul func ț iei f . 5p c) Determina ț i mul ț imea numerelor reale m pentru care ecua ț ia ( ) f x m = are exact trei solu ț ii. 2. Se consider ă func ț ia ( ) : 1, f +∞ → ℝ , ( ) 2 4 ln x f x x x − = . 5p a) Ar ă ta ț i c ă ( ) 3 2 7 ln 3 f x x xdx =  .",
+            "textChars": 2870,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 3 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 5p b) Ar ă ta ț i c ă ( ) 2 2 ln 2 4 e e f x dx x = −  . 5p c) Ar ă ta ț i c ă ( ) ( ) ( ) 2 2 2 1 ln 2 lim 2 4 x x t F t dt F x → − =  , unde ( ) : 1, F +∞ → ℝ este primitiva func ț iei f pentru care ( ) 2 0 F = .",
+            "textChars": 533,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-oficiala/E_c_matematica_M_mate-info_2026_bar_03_LRO.pdf",
+        "sha256": "5c64be892479b7ff09e873a1a012a6e930ddd8fe86ea2cf3a3fc60ad4b15db74",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 3 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info BAREM DE EVALUARE Ş I DE NOTARE Varianta 3 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Pentru orice solu ț ie corect ă , chiar dac ă este diferit ă de cea din barem, se acord ă punctajul corespunz ă tor. • Nu se acord ă frac ț iuni de punct, dar se pot acorda punctaje intermediare pentru rezolv ă ri par ț iale, în limitele punctajului indicat în barem. • Se acord ă zece puncte din oficiu. Nota final ă se calculeaz ă prin împ ă r ț irea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1. ( ) ( )( ) 2 2 3 3 9 z z i i i i + = − + = − = 2p ( ) 9 1 10 = − − = 3p 2. ( ) 3 4 f a a = − , ( ) 2 6 4 f a a − = − − , pentru orice num ă r real a 3p 3 4 6 4 a a a − − − = , de unde ob ț inem 2 a = − 2p 3. ( ) 2 7 4 1 x x + = + , de unde ob ț inem 2 4 3 0 x x − + = 2p 1 x = sau 3 x = , care convin 3p 4. Num ă rul submul ț imilor cu exact trei elemente ale mul ț imii A , care con ț in elementul 5 , este egal cu num ă rul submul ț imilor cu exact dou ă elemente ale mul ț imii { } \\ 5 A 3p Mul ț imea { } \\ 5 A are 6 submul ț imi cu exact dou ă elemente 2p 5. 2 OA m = 2p 1 BC m a = − ș i, cum OA BC m m = , ob ț inem 3 a = 3p 6. tg 3 3 π = , 1 sin 6 2 π = , cos 1 π = − 3p ( ) ( ) 2 1 1 1 3 1 4 1 1 3 2 2 E π     = + ⋅ + − = ⋅ − =         2p SUBIECTUL al II-lea (30 de puncte) 1.a) ( ) ( ) ( ) 1 1 1 1 1 1 1 1 3 1 det 1 1 3 1 0 2 1 0 2 1 A A     =  = =       2p 3 2 0 0 2 1 2 = + + − − − = 3p b) ( ) ( ) 2 1 det 3 2 3 0 2 1 a a A a a a a a = = − + , pentru orice num ă r real a 3p ( ) ( ) ( ) 2 det 1 2 0 A a a = − + ≠ , pentru orice num ă r real a , deci pentru orice num ă r real a sistemul de ecua ț ii are solu ț ie unic ă 2p c) ( ) 2 3 2 a n a = − , unde a ș i n sunt numere naturale, a nenul 3p 3 2 0 a − > ș i, cum a este num ă r natural nenul, ob ț inem 1 a = , care convine 2p 2.a) ( )( ) 2 0 2 0 3 2 3 3 3 ∗ = − − + = 3p 2 3 5 = + = 2p b) 2 3 5 9 2 x x x x ∗ = − + , pentru orice num ă r real x 2p 2 5 9 5 x x x − + = , de unde ob ț inem 1 x = sau 9 x = 3p",
+            "textChars": 2558,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 3 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 c) ( ) 2 2 3 3 3 m m m ∗ = − + , ( ) ( ) 2 4 3 3 3 9 m m n m n ∗ ∗ = − − + , pentru orice numere naturale m ș i n 2p ( ) ( ) ( ) ( ) 2 2 4 3 3 3 1 3 3 9 9 m n m n − − + = − ⇔ − − = − ș i, cum m ș i n sunt numere naturale, ob ț inem perechile ( ) 0,2 ș i ( ) 6,2 3p SUBIECTUL al III-lea (30 de puncte) 1.a) ( ) ( )( ) ( ) ( ) 2 2 3 2 2 3 4 5 4 2 ' 5 x x x x x f x x − + − − ⋅ = = + 3p ( ) ( )( ) ( ) 2 2 4 2 2 2 2 2 1 20 19 20 5 5 x x x x x x − + + − = = + + , x ∈ ℝ 2p b) ( ) ( ) lim x f x x →+∞ − = 2p 2 9 lim 0 5 x x x →+∞ − = = + , deci dreapta de ecua ț ie y x = este asimptota oblic ă spre +∞ la graficul func ț iei f 3p c) ( ) ' 0 1 f x x =  = − sau 1 x = ; pentru orice ( ) , 1 x ∈ −∞ − , ( ) ' 0 f x > , deci f este strict cresc ă toare pe ( ) , 1 −∞ − , pentru orice ( ) 1,1 x ∈ − , ( ) ' 0 f x < , deci f este strict descresc ă toare pe ( ) 1,1 − ș i, pentru orice ( ) 1, x ∈ +∞ , ( ) ' 0 f x > , deci f este strict cresc ă toare pe ( ) 1, +∞ 2p ( ) lim x f x →−∞ = −∞ , ( ) 1 1 2 f − = , ( ) 1 1 2 f = − , ( ) lim x f x →+∞ = +∞ ș i f este continu ă , de unde ob ț inem c ă ecua ț ia ( ) f x m = are exact trei solu ț ii dac ă ș i numai dac ă 1 1 , 2 2 m   ∈ −     3p 2.a) ( ) ( ) 3 3 3 2 2 2 3 ln 4 4 3 2 x f x x xdx x dx x   = − = − =         3p 16 7 3 3 3 = − + = 2p b) ( ) ( ) ( ) 2 2 2 2 2 1 1 ' ln ln ln ln ln 4 e e e e e e e f x dx dx x dx x x x x x e = = ⋅ = = −    3p ln 2 ln1 ln 2 = − = 2p c) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 2 2 ' 2 2 1 lim 2 lim lim 2 ' x x x x x t F t dt x F x t F t dt F x f x F x F x → → →     −   −   − = = =   3p ( ) ( ) 2 2 2 ln ln 2 lim lim 2 2 2 4 x x x x x f x x → → − = = = + 2p",
+            "textChars": 2028,
+            "hintOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "sesiune-speciala",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_var_02_LRO.pdf",
+        "sha256": "936eb74b8a9bb56e16c40ac1c7dd9990a37dc6d33a24885bf88caa44524983e2",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Toate subiectele sunt obligatorii. Se acord ă zece puncte din oficiu. • Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Determina ț i termenul 2 a al progresiei aritmetice ( ) 1 n n a ≥ , în care 1 6 a = ș i 3 30 a = . 5p 2. Se consider ă func ț ia : f → ℝ ℝ , ( ) 2 2 1 f x ax ax = + − , unde a este num ă r real. Determina ț i num ă rul real a pentru care ( )( ) 0 0 f f = \u0002 . 5p 3. Rezolva ț i în mul ț imea numerelor reale ecua ț ia ( ) 2 2 2 log 2 4 3 2log x x x − + = . 5p 4. Se consider ă mul ț imea { } 2, 4,5,6 A = . Determina ț i câte numere naturale pare, de trei cifre distincte, se pot forma cu cifre din mul ț imea A . 5p 5. În reperul cartezian xOy se consider ă punctele ( ) 6, 4 A ș i ( ) 1,3 B . Determina ț i coordonatele punctului C pentru care 2 BC OA = \u0003\u0003\u0003 \u0004 \u0003\u0003\u0003 \u0004 . 5p 6. Se consider ă triunghiul ABC , dreptunghic în A , cu 6 AC = ș i 1 tg 3 C = . Ar ă ta ț i c ă raza cercului circumscris triunghiului ABC este egal ă cu 10 . SUBIECTUL al II-lea (30 de puncte) 1. Se consider ă matricea ( ) 1 2 0 2 1 0 0 0 1 3 a a A a a a a −     = −     −   , unde a este num ă r real. 5p a) Ar ă ta ț i c ă ( ) ( ) det 1 4 A = . 5p b) Ar ă ta ț i c ă ( ) ( ) ( ) 3 A a A b A a b ab ⋅ = + − , pentru orice numere reale a ș i b . 5p c) Determina ț i num ă rul real a pentru care ( ) ( ) ( ) ( ) 1 5 2 4 A A a A A ⋅ + = . 2. Se consider ă polinomul 4 2 1 f mX mX X = − + + , unde m este num ă r real nenul. 5p a) Ar ă ta ț i c ă ( ) 1 0 f − = , pentru orice num ă r real nenul m . 5p b) Determina ț i num ă rul real nenul m pentru care restul împ ă r ț irii polinomului f la polinomul 2 g X = + este egal cu 11 . 5p c) Determina ț i num ă rul real nenul m pentru care 3 3 3 3 1 2 3 4 1 x x x x + + + = , unde 1 x , 2 x , 3 x ș i 4 x sunt r ă d ă cinile polinomului f . SUBIECTUL al III-lea (30 de puncte) 1. Se consider ă func ț ia ( ) : 1, f − +∞ → ℝ , ( ) 2 1 1 x e x f x x + + = + . 5p a) Ar ă ta ț i c ă ( ) ( ) 2 1 ' 1 x xe f x x + = + , ( ) 1, x ∈ − +∞ . 5p b) Determina ț i ecua ț ia tangentei la graficul func ț iei f în punctul de abscis ă 0 x = , situat pe graficul func ț iei f . 5p c) Demonstra ț i c ă func ț ia f este strict cresc ă toare.",
+            "textChars": 2763,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 2. Se consider ă func ț ia ( ) : 0, f +∞ → ℝ , ( ) 2 1 ln 6 x f x x x = + + . 5p a) Ar ă ta ț i c ă ( ) 3 2 1 ln 12 ln 3 x f x dx x   − = +        . 5p b) Ar ă ta ț i c ă ( ) 1 1 1 6 3 e f x dx x   − − =      . 5p c) Determina ț i num ă rul real m pentru care aria suprafe ț ei plane delimitate de graficul func ț iei ( ) : 0, g +∞ → ℝ , ( ) ( ) 6 f x g x x − = , axa Ox ș i dreptele de ecua ț ii 1 x = ș i x e = este egal ă cu 2 1 m e   −     .",
+            "textChars": 784,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/sesiune-speciala/E_c_matematica_M_mate-info_2026_bar_02_LRO.pdf",
+        "sha256": "97076a6a3ffc0939a7ba960bb65df549345d7e5a94346b203a3d7219da987a7d",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 1 din 2 Examenul na ț ional de bacalaureat 2026 Proba E. c) Matematic ă M_mate-info BAREM DE EVALUARE Ş I DE NOTARE Varianta 2 Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă • Pentru orice solu ț ie corect ă , chiar dac ă este diferit ă de cea din barem, se acord ă punctajul corespunz ă tor. • Nu se acord ă frac ț iuni de punct, dar se pot acorda punctaje intermediare pentru rezolv ă ri par ț iale, în limitele punctajului indicat în barem. • Se acord ă zece puncte din oficiu. Nota final ă se calculeaz ă prin împ ă r ț irea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1. 1 3 2 6 30 2 2 a a a + + = = = 3p 36 18 2 = = 2p 2. ( ) 0 1 f = − , ( )( ) 0 1 f f a = − − \u0001 , pentru orice num ă r real a 3p 1 0 a − − = , de unde ob ț inem 1 a = − 2p 3. ( ) 2 2 2 2 log 2 4 3 log x x x − + = , de unde ob ț inem 2 4 3 0 x x − + = 2p 1 x = sau 3 x = , care convin 3p 4. Cifra unit ăț ilor se poate alege în 3 moduri 2p Pentru fiecare alegere a cifrei unit ăț ilor, cifra zecilor se poate alege în câte 3 moduri ș i, pentru fiecare alegere a cifrei unit ăț ilor ș i a cifrei zecilor, cifra sutelor se poate alege în câte 2 moduri, deci se pot forma 3 3 2 18 ⋅ ⋅ = numere 3p 5. 6 4 OA i j = + \u0002\u0002\u0002 \u0003 \u0003 \u0003 , ( ) ( ) 1 3 C C BC x i y j = − + − \u0002\u0002\u0002 \u0003 \u0003 \u0003 2p 1 2 BC OA = \u0002\u0002\u0002 \u0003 \u0002\u0002\u0002 \u0003 , deci ( ) ( ) 1 3 3 2 C C x i y j i j − + − = + \u0003 \u0003 \u0003 \u0003 , de unde ob ț inem ( ) 4,5 C 3p 6. 1 6 3 AB = , de unde ob ț inem 2 AB = 2p 2 10 BC = ș i, cum 2 BC R = , ob ț inem 10 R = 3p SUBIECTUL al II-lea (30 de puncte) 1.a) ( ) ( ) ( ) 1 1 0 1 1 0 1 2 0 0 det 1 2 0 0 0 0 2 0 0 2 A A − −     =  = =     − −   2p ( ) 0 0 0 0 0 4 4 = + + − − − − = 3p b) ( ) ( ) 1 2 2 4 2 2 0 2 4 2 2 2 1 0 0 0 1 3 3 9 a b ab ab b ab a ab A a A b a ab b ab ab a b ab a b ab − − + + − + −     ⋅ = − + − + − − + =     − − +   3p ( ) ( ) ( ) ( ) ( ) 1 2 3 3 0 2 3 1 3 0 3 0 0 1 3 3 a b ab a b ab a b ab a b ab A a b ab a b ab  − + − + −    = + − − + − = + −     − + −   , pentru orice numere reale a ș i b 2p c) ( ) ( ) ( ) 1 1 2 A A a A a ⋅ = − , ( ) ( ) ( ) 2 4 5 3 A A A − = 2p ( ) ( ) 1 2 3 A a A − = , de unde ob ț inem 1 2 3 a − = , deci 1 a = − 3p",
+            "textChars": 2619,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educa ț iei ș i Cercet ă rii Centrul Na ț ional pentru Curriculum ș i Evaluare Prob ă scris ă la matematic ă M_mate-info Varianta 2 Barem de evaluare ș i de notare Filiera teoretic ă , profilul real, specializarea matematic ă -informatic ă Filiera voca ț ional ă , profilul militar, specializarea matematic ă -informatic ă Pagina 2 din 2 2.a) ( ) ( ) ( ) ( ) 4 2 1 1 1 1 1 f m m − = − − − + − + = 3p 1 1 0 m m = − − + = , pentru orice num ă r real nenul m 2p b) ( ) 2 12 1 f m − = − , pentru orice num ă r real nenul m 3p 12 1 11 m − = , de unde ob ț inem 1 m = 2p c) 1 2 3 4 0 x x x x + + + = , 1 2 3 1 2 4 1 3 4 2 3 4 1 x x x x x x x x x x x x m + + + = − , 1 2 3 4 1 0 x x x x m = ≠ , pentru orice num ă r real nenul m 3p ( ) ( ) 3 3 3 3 1 2 3 4 1 2 3 4 1 2 3 4 1 1 1 1 4 m x x x x m x x x x x x x x   + + + = + + + − − + + +     , deci 3 m = − 2p SUBIECTUL al III-lea (30 de puncte) 1.a) ( ) ( ) ( ) ( ) ( ) 2 2 1 2 1 1 ' 1 x x e x e x f x x + + − + + ⋅ = = + 3p ( ) ( ) 2 2 2 2 2 1 1 1 1 x x x x xe e x e x xe x x + + + − − − + = = + + , ( ) 1, x ∈ − +∞ 2p b) ( ) 0 2 f = , ( ) ' 0 1 f = 2p Ecua ț ia tangentei este ( ) ( )( ) 0 ' 0 0 y f f x − = − , adic ă 2 y x = + 3p c) Considerând [ ) : 1, g − +∞ → ℝ , ( ) 1 x g x xe = + , ob ț inem ( ) ( ) ' 1 0 x g x x e = + ≥ , pentru orice [ ) 1, x ∈ − +∞ , deci g este cresc ă toare ș i, cum ( ) 1 1 1 0 g e − = − > , rezult ă c ă ( ) 0 g x > , pentru orice ( ) 1, x ∈ − +∞ 3p Cum ( ) 2 1 0 x + > , pentru orice ( ) 1, x ∈ − +∞ , ob ț inem c ă ( ) ' 0 f x > , pentru orice ( ) 1, x ∈ − +∞ , deci f este strict cresc ă toare 2p 2.a) ( ) ( ) 3 3 2 1 1 3 ln 1 6 6 ln 1 x f x dx dx x x x x     − = + = + =             3p 18 ln 3 6 ln1 12 ln 3 = + − − = + 2p b) ( ) ( ) 2 3 2 1 1 1 1 ln ln ' 6 ln ln 3 1 e e e e x x f x dx dx x xdx x x   − − = = ⋅ = =        3p 3 3 ln ln 1 1 3 3 3 e = − = 2p c) ( ) 2 2 2 1 ln x g x x x = + , ( ) ( ) 2 1 1 1 1 ' 0, ln 1 e e e x g x dx xdx x x   ∈ +∞  = = − − =       A 2p ( ) 2 1 1 2 6 1 ln 1 ln 3 1 1 e e x x e x x e = − + − − + = − , deci 2 6 1 3 m e e   − = −     , de unde ob ț inem 3 m = 3p",
+            "textChars": 2132,
+            "hintOnly": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "simulare",
+      "subject": {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_var_simulare_LRO.pdf",
+        "sha256": "2814b1edcf94dfa3bc0a3ca865ddde6de62fc146abeb566ef4a311dc00428ffc",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Simulare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info Simulare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.  Timpul de lucru efectiv este de trei ore. SUBIECTUL I (30 de puncte) 5p 1. Se consideră numărul complex 2 z i   . Arătați că 9 z z z z     , unde z este conjugatul numărului complex z . 5p 2. Se consideră funcțiile : f  ℝ ℝ ,   2 1 f x x   și : g  ℝ ℝ ,   2 4 g x x x m    , unde m este număr real. Determinați numărul real m pentru care graficele funcțiilor f și g au exact un punct comun. 5p 3. Rezolvați în mulțimea numerelor reale ecuația   2 1 log 2 log 5 x x   . 5p 4. Se consideră A , mulțimea numerelor naturale de două cifre, formate cu cifre nenule. Determinați probabilitatea ca, alegând un număr din mulțimea A , acesta să aibă produsul cifrelor divizibil cu 5 . 5p 5. În reperul cartezian xOy se consideră punctele   0,5 A și   4, 2 B . Determinați ecuația dreptei care trece prin punctul A și este perpendiculară pe dreapta OB . 5p 6. Se consideră triunghiul ABC , dreptunghic în A , cu 9 AB  și 12 AC  . Punctul M este mijlocul segmentului BC . Arătați că distanța de la punctul C la dreapta AM este egală cu 7, 2 . SUBIECTUL al II-lea (30 de puncte) 1. Se consideră matricea   1 1 1 1 3 2 1 a A a a             și sistemul de ecuații liniare 2 4 3 2 8 ax y z a x y az x y z                , unde a este număr real. 5p a) Arătați că     det 1 4 A  . 5p b) Determinați mulțimea numerelor reale a pentru care matricea   A a este inversabilă. 5p c) Considerăm   1 1 1 , , x y z soluția sistemului de ecuații liniare pentru 1 a  . Pentru 2 a  , determinați soluțiile   0 0 0 , , x y z ale sistemului de ecuații liniare pentru care 0 0 1 x y y  . 2. Pe mulțimea numerelor reale se definește legea de compoziție    2 2 2 2 x y x y m      , unde   4, m    . 5p a) Pentru 3 m  , arătați că 0 1 3   . 5p b) Pentru 7 m  , determinați numerele reale x pentru care   2 5 x x   . 5p c) Determinați   4, m    pentru care legea de compoziție „  ” este asociativă. SUBIECTUL al III-lea (30 de puncte) 1. Se consideră funcția   : 1, f   ℝ ,   2 1 x e f x x    . 5p a) Arătați că       2 2 3 ' 2 1 1 x e x f x x x      ,   1, x   . 5p b) Arătați că     1 2 2 lim x x f x e    . 5p c) Determinați mulțimea numerelor reale m pentru care ecuația   f x mx  are exact două soluții.",
+            "textChars": 2903,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Simulare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 2. Se consideră funcția   : 0, f   ℝ ,   2 6 4 ln f x x x x         . 5p a) Arătați că   3 2 11 ln f x dx x   . 5p b) Arătați că     1 4 ln 3 e x f x x x dx    . 5p c) Determinați primitiva   : 0, F   ℝ a funcției f , pentru care axa Ox este tangentă la graficul funcției F .",
+            "textChars": 598,
+            "hintOnly": true
+          }
+        ]
+      },
+      "rubric": {
+        "path": "data/bac/sources/2026/M_mate-info/simulare/E_c_matematica_M_mate-info_2026_bar_simulare_LRO.pdf",
+        "sha256": "0c90e20cc3df0d40d8674c53f8bcfa4e8259ee3d1fc310081bc8346c478c828c",
+        "pages": [
+          {
+            "page": 1,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Simulare Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 1 din 2 Examenul național de bacalaureat 2026 Proba E. c) Matematică M_mate-info BAREM DE EVALUARE ŞI DE NOTARE Simulare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică  Pentru orice soluție corectă, chiar dacă este diferită de cea din barem, se acordă punctajul corespunzător.  Nu se acordă fracțiuni de punct, dar se pot acorda punctaje intermediare pentru rezolvări parțiale, în limitele punctajului indicat în barem.  Se acordă zece puncte din oficiu. Nota finală se calculează prin împărțirea la zece a punctajului total acordat pentru lucrare. SUBIECTUL I (30 de puncte) 1.    2 2 2 2 z z z z i i i i            2p 2 4 4 8 1 9 i       3p 2.     f x g x  , deci 2 6 1 0 x x m     2p Ecuația are soluție unică, deci 0   și, cum 32 4 m    , obținem 8 m  3p 3. 2 2 log log 2 log 5 x x x    , de unde obținem 2 log 4 x  3p 16 x  , care convine 2p 4. Mulțimea A are 81 de elemente, deci sunt 81 de cazuri posibile 2p În mulțimea A sunt 17 numere care au produsul cifrelor divizibil cu 5 , deci sunt 17 cazuri favorabile, de unde obținem 17 81 p  3p 5. 1 2 OB m  și, cum 1 OB d m m    , obținem 2 d m   3p Ecuația dreptei d este 5 2 y x    , adică 2 5 y x    2p 6. AM CM  , de unde obținem     , , d C AM d A CM AD   , unde AD este înălțime a triunghiului ABC 3p 15 BC  și, cum 15 9 12 2 2 AD    , obținem   , 7, 2 d C AM  2p SUBIECTUL al II-lea (30 de puncte) 1.a)       1 1 1 1 1 1 1 1 1 1 det 1 1 1 1 3 2 1 3 2 1 A A                 2p 1 2 3 3 2 1 4         3p b)     2 1 1 det 1 1 2 2 4 3 2 1 a A a a a a       , pentru orice număr real a 3p     det 0 1 A a a     sau 2 a  , de unde obținem că mulțimea numerelor reale a pentru care matricea   A a este inversabilă este   \\ 1, 2  ℝ 2p c) Pentru 2 a  , soluțiile sistemului de ecuații liniare sunt   , 4 ,      , cu   ℂ 2p Pentru 1 a  , 1 3 y  , deci   4 3     , de unde obținem 1   sau 3   , deci soluțiile pentru care 0 0 1 x y y  sunt   1,3, 1  și   3,1, 3  3p 2.a)    2 2 0 1 0 2 1 2 3       3p 9 3   2p",
+            "textChars": 2539,
+            "hintOnly": true
+          },
+          {
+            "page": 2,
+            "textHint": "Ministerul Educației și Cercetării Centrul Național pentru Curriculum și Evaluare Probă scrisă la matematică M_mate-info Simulare Barem de evaluare și de notare Filiera teoretică, profilul real, specializarea matematică-informatică Filiera vocațională, profilul militar, specializarea matematică-informatică Pagina 2 din 2 b) Pentru 7 m  ,      2 2 2 2 4 2 7 x x x x      , pentru orice număr real x 2p    2 2 2 4 2 7 5 x x     , deci 4 2 2 5 7 0 x x    și, cum x este număr real, obținem 1 x   sau 1 x  3p c)     x y z x y z      , pentru orice numere reale x , y și z , de unde obținem               2 2 2 2 2 2 2 2 2 2 2 2 2 2 x y m z m x y z m m              3p         2 2 2 2 2 2 m z x m      , pentru orice numere reale x și z dacă și numai dacă 2 m   , care convine 2p SUBIECTUL al III-lea (30 de puncte) 1.a)   2 2 1 1 2 1 ' 1 x x e x e x f x x          3p         2 2 2 2 1 2 3 2 1 1 2 1 1 x x e x e x x x x x            ,   1, x   2p b)                 1 1 1 1 2 2 2 1 2 2 2 lim lim 1 1 lim 1 1 f x x x x f x x x x f x f x f x                        3p     2 1 1 lim ' 2 2 2 x f x f x e e e e        2p c) Considerând   : 1, g   ℝ ,     f x g x x  , obținem       2 ' ' xf x f x g x x   , deci       2 2 2 2 5 2 ' 2 1 1 x e x x g x x x x       ,   1, x   ;   ' 0 2 g x x    ; pentru orice   1,2 x  ,   ' 0 g x  , deci g este strict descrescătoare pe   1, 2 și, pentru orice   2, x   ,   ' 0, g x  deci g este strict crescătoare pe   2,  3p Cum   1 lim x g x    ,   1 2 2 g  ,   lim x g x    și g este continuă, obținem că ecuația   g x m  , deci ecuația   f x mx  , are exact două soluții dacă și numai dacă 1 , 2 m         2p 2.a)   3 3 2 2 2 2 3 3 6 6 4 2 ln 2 2 f x dx x dx x x x x              3p 10 1 11    2p b)       2 1 1 1 6ln ' 4 ln 6 ln ln 3ln 1 e e e e x x f x x x dx dx x x dx x x         3p 2 2 3ln 3ln 1 3 e    2p c) Axa Ox este tangentă în punctul     , A a F a la graficul lui   0 F F a   și   ' 0 F a  , unde   0, a   și, cum     ' F x f x  ,   0, x   , obținem   0 F a  și   0 f a  , deci 1 a  2p     2 2 2 2 2 1 1 6 6 6 6 6 ' 2 ln 2 ln 2 ln 7 1 1 x x x x F x f t dt t tdt t t t x x x t t t x x                                       ,   0, x   3p",
+            "textChars": 2547,
+            "hintOnly": true
+          }
+        ]
+      }
+    }
+  ],
+  "workspaceCount": 6,
+  "slotCount": 108,
+  "packets": [
+    {
+      "workspace": "bac-2026-model-M_mate-info",
+      "pairCandidates": [
+        "model"
+      ],
+      "requiresPairConfirmation": false,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    },
+    {
+      "workspace": "bac-2026-oficial-M_mate-info-2",
+      "pairCandidates": [
+        "august",
+        "rezerva",
+        "sesiune-oficiala",
+        "sesiune-speciala"
+      ],
+      "requiresPairConfirmation": true,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    },
+    {
+      "workspace": "bac-2026-oficial-M_mate-info-3",
+      "pairCandidates": [
+        "august",
+        "rezerva",
+        "sesiune-oficiala",
+        "sesiune-speciala"
+      ],
+      "requiresPairConfirmation": true,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    },
+    {
+      "workspace": "bac-2026-oficial-M_mate-info-4",
+      "pairCandidates": [
+        "august",
+        "rezerva",
+        "sesiune-oficiala",
+        "sesiune-speciala"
+      ],
+      "requiresPairConfirmation": true,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    },
+    {
+      "workspace": "bac-2026-oficial-M_mate-info",
+      "pairCandidates": [
+        "august",
+        "rezerva",
+        "sesiune-oficiala",
+        "sesiune-speciala"
+      ],
+      "requiresPairConfirmation": true,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    },
+    {
+      "workspace": "bac-2026-simulare-M_mate-info",
+      "pairCandidates": [
+        "simulare"
+      ],
+      "requiresPairConfirmation": false,
+      "slots": [
+        {
+          "slot": "S1-1",
+          "subjectNumber": 1,
+          "problemNumber": 1,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-2",
+          "subjectNumber": 1,
+          "problemNumber": 2,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-3",
+          "subjectNumber": 1,
+          "problemNumber": 3,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-4",
+          "subjectNumber": 1,
+          "problemNumber": 4,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-5",
+          "subjectNumber": 1,
+          "problemNumber": 5,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S1-6",
+          "subjectNumber": 1,
+          "problemNumber": 6,
+          "subitem": null,
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-a",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-b",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-1-c",
+          "subjectNumber": 2,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-a",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-b",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S2-2-c",
+          "subjectNumber": 2,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-a",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-b",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-1-c",
+          "subjectNumber": 3,
+          "problemNumber": 1,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-a",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "a",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-b",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "b",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        },
+        {
+          "slot": "S3-2-c",
+          "subjectNumber": 3,
+          "problemNumber": 2,
+          "subitem": "c",
+          "points": 5,
+          "statementHint": null,
+          "rubricHint": null,
+          "subjectPageCandidates": [],
+          "rubricPageCandidates": [],
+          "status": "needs-review",
+          "autoVerified": false
+        }
+      ]
+    }
+  ],
+  "autoVerified": 0,
+  "autoPromoted": 0
+}

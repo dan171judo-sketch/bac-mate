@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "progresie aritmetică",
+      "definitie": "Este o mulțime ordonată de numere reale, în care fiecare termen, începând cu al doilea, se obține din termenul precedent prin adunarea unui număr real constant.",
+      "observatie": "Termenul constant care se adună se numește rație."
+    },
+    {
+      "termen": "rația",
+      "definitie": "Este diferența dintre oricare două termeni consecutivi ai progresiei aritmetice.",
+      "observatie": "Rația poate fi pozitivă, negativă sau nulă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea progresiei aritmetice",
+      "explicatie": "O progresie aritmetică este o succesiune de numere reale, notată cu $ a_1, a_2, a_3, ..., a_n $, în care fiecare termen se obține din cel precedent prin adunarea unui număr real constant, denumit rație.",
+      "ideiCheie": [
+        "Termenii progresiei sunt ordonați",
+        "Rația este diferența dintre termeni consecutivi"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Elementele componente ale unei progresii aritmetice",
+      "explicatie": "O progresie aritmetică este determinată de primul termen $ a_1 $ și de rația $ r $. Aceste două elemente sunt esențiale pentru definirea progresiei.",
+      "ideiCheie": [
+        "Primul termen definește începutul progresiei",
+        "Rația determină modul în care se construiește progresia"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Proprietatea progresiei aritmetice",
+      "explicatie": "Într-o progresie aritmetică, oricare termen, începând cu al treilea, este egal cu media aritmetică a termenilor vecini.",
+      "ideiCheie": [
+        "Termenul din mijlocul a trei termeni consecutivi este medie aritmetică",
+        "Această proprietate se folosește în rezolvarea problemelor"
+      ]
+    }
+  ],
+  "formule": []
+}

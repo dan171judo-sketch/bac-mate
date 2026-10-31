@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "sistem de ecuații",
+      "definitie": "Un set de două sau mai multe ecuații care trebuie rezolvate simultan, adică găsite valorile variabilelor care satisfac toate ecuațiile.",
+      "observatie": "Soluția unui sistem este o pereche (x, y) care verifică toate ecuațiile din sistem."
+    },
+    {
+      "termen": "dreaptă în plan",
+      "definitie": "Mulțimea punctelor (x, y) care îndeplinesc o ecuație liniară de forma ax + by + c = 0, unde a, b, c sunt numere reale și a² + b² ≠ 0.",
+      "observatie": "Fiecare dreaptă este determinată de un singur vector normal (a, b)."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Reprezentarea geometrică a unei ecuații liniare",
+      "explicatie": "O ecuație liniară în două variabile, de forma ax + by + c = 0, reprezintă o dreaptă în planul cartezian. Fiecare punct de pe această dreaptă este soluția ecuației.",
+      "ideiCheie": [
+        "O ecuație liniară are o reprezentare geometrică sub forma unei drepte.",
+        "Soluțiile ecuației sunt toate punctele de pe acea dreaptă."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Interpretarea grafică a soluțiilor unui sistem de două ecuații liniare",
+      "explicatie": "Soluția unui sistem de două ecuații liniare este punctul de intersecție al celor două drepte corespunzătoare. Acesta reprezintă perechea (x, y) care satisface ambele ecuații.",
+      "ideiCheie": [
+        "Soluția sistemului este punctul comun al celor două drepte.",
+        "Dacă dreptele nu se intersectează, sistemul nu are soluție."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Cazurile posibile ale intersecției dintre două drepte",
+      "explicatie": "Două drepte pot fi paralele (nu se intersectează), coincidente (au toate punctele comune) sau secante (se intersectează într-un singur punct). Fiecare caz corespunde unei forme de compatibilitate a sistemului.",
+      "ideiCheie": [
+        "Dacă dreptele sunt paralele, sistemul este incompatibil.",
+        "Dacă dreptele coincid, sistemul are infinit de multe soluții."
+      ]
+    }
+  ],
+  "formule": []
+}

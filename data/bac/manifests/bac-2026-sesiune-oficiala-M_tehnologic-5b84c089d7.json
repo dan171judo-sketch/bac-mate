@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bac-2026-sesiune-oficiala-M_tehnologic-5b84c089d7",
+  "authority": "Ministerul Educației / subiecte.edu.ro",
+  "exam": "bacalaureat",
+  "year": 2026,
+  "documentType": "oficial",
+  "session": "oficial",
+  "profileCode": "M_tehnologic",
+  "documents": {
+    "subject": {
+      "fileName": "E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_tehnologic/sesiune-oficiala/E_c_matematica_M_tehnologic_2026_var_03_LRO.pdf",
+      "sizeBytes": 102944,
+      "sha256": "5B84C089D7CEBB139FD6BC84B9D174428DEADEB881F8011C8A0D22A4C3909BD0"
+    },
+    "markingScheme": {
+      "fileName": "E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_tehnologic/sesiune-oficiala/E_c_matematica_M_tehnologic_2026_bar_03_LRO.pdf",
+      "sizeBytes": 111870,
+      "sha256": "42B2C45438DA49370D9854727CC7271D1F64447A25600C4A360E1E7ED5DFB08C"
+    }
+  },
+  "verification": {
+    "filesPresent": true,
+    "sizesRecorded": true,
+    "hashesRecorded": true,
+    "hashesVerifiedByPipeline": true,
+    "pairVerifiedByPipeline": true,
+    "sourceVerified": true
+  },
+  "publicationStatus": "draft"
+}

@@ -1,0 +1,321 @@
+PAGES: 2
+
+========================================
+PAGE 1
+========================================
+
+Ministerul Educației și Cercetării
+Centrul Național pentru Curriculum și Evaluare
+Probă scrisă la matematică M_mate-info Model
+Barem de evaluare și de notare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Examenul național de bacalaureat 2026
+Proba E. c)
+Matematică M_mate-info
+BAREM DE EVALUARE ŞI DE NOTARE
+Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+ Pentru orice soluție corectă, chiar dacă este diferită de cea din barem, se acordă punctajul corespunzător.
+ Nu se acordă fracțiuni de punct, dar se pot acorda punctaje intermediare pentru rezolvări parțiale, în limitele
+punctajului indicat în barem.
+ Se acordă zece puncte din oficiu. Nota finală se calculează prin împărțirea la zece a punctajului total acordat
+pentru lucrare.
+SUBIECTUL I (30 de puncte)
+1. 2 1
+8
+2
+x x  
+ 3p
+5 x  2p
+2.
+  4 g a a   ,    2 9 f g a a    , pentru orice număr real a 3p
+2 9 a a    , de unde obținem 3 a   2p
+3.
+ 
+2
+5 5
+log log 4 5 x x   , de unde obținem
+2
+4 5 0 x x    2p
+1 x   , care nu convine sau 5 x  , care convine 3p
+4. Cifra zecilor se poate alege în 4 moduri 2p
+Pentru fiecare alegere a cifrei zecilor, cifra unităților se poate alege în câte 4 moduri, deci se
+pot forma 4 4 16   numere
+3p
+5.
+5 OA j 
+  
+, 3 4 OB i j  
+   
+, deci 3 9 OA OB i j   
+     
+3p
+ 
+1
+3
+OC OA OB  
+    
+, de unde obținem 3 OC i j  
+  
+, deci   1,3 C 2p
+6.
+ 
+6
+ECB EBC
+
+  , deci EB EC  , de unde obținem     , , d B CE d C BE CA   3p
+
+tg
+AE
+ACE
+AC
+ , deci
+1 2
+3 AC
+ , de unde obținem   , 2 3 d B CE  2p
+SUBIECTUL al II-lea (30 de puncte)
+1.a)
+     
+0 0 2 0 0 2
+0 1 1 1 det 0 1 1 1
+2 1 2 2 1 2
+A A
+   
+ 
+   
+ 
+ 
+ 
+ 
+2p
+0 2 0 4 0 0 2        3p
+b)
+   
+2
+0 2
+det 1 1 1 3 2
+2 1 2
+a
+A a a a a
+
+    
+
+, pentru orice număr real a 2p
+    det 0 1 A a a    sau 2 a  , deci matricea   A a este inversabilă dacă și numai dacă
+  \ 1, 2 a  ℝ
+3p
+c)
+Pentru 2 a  , soluțiile  
+0 0 0
+, , x y z cu
+0 0 0
+, , x y z  ℝ sunt   ,1, 2    , cu   ℝ 3p
+ 
+2
+0 0 0
+1 0 x z y      , pentru orice soluție  
+0 0 0
+, , x y z cu
+0 0 0
+, , x y z  ℝ 2p
+2.a)
+  
+3 5 1
+3 5
+3 1 5 1
+ 
+  
+ 
+3p
+14 7
+2 4 4
+ 
+
+2p
+
+========================================
+PAGE 2
+========================================
+
+Ministerul Educației și Cercetării
+Centrul Național pentru Curriculum și Evaluare
+Probă scrisă la matematică M_mate-info Model
+Barem de evaluare și de notare
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2
+b)
+ 
+2
+2
+1 1
+1
+1
+x x
+x x
+x
+x
+ 
+  
+
+
+, pentru orice x M  3p
+1
+3
+1
+x
+x
+
+
+
+, de unde obținem 2 x  , care convine 2p
+c)
+2 1
+2
+1
+x
+x
+x
+
+ 
+
+, deci  
+ 
+2
+2 2 1
+2
+1
+x x
+x x
+x x
+ 
+   
+
+3p
+ 
+1
+2 2
+1 x x
+  
+
+, pentru orice x M 
+2p
+SUBIECTUL al III-lea (30 de puncte)
+1.a)
+ 
+2ln
+' 1 ln 1
+x
+f x x
+x
+     3p
+  2 ln 2 ln ln x x x x x
+x x
+ 
+  ,   0, x   2p
+b)
+Tangenta la graficul funcției f în punctul     , A a f a este paralelă cu axa   ' 0, Ox f a  
+  0, a  
+2p
+  2 ln
+0
+a a
+a
+
+ , de unde obținem 1 a  sau 2 a  , care convin 3p
+c) Pentru orice   0,1 x  ,   ' 0 f x  , deci f este descrescătoare pe   0,1 , pentru orice
+  1,2 , x    ' 0 f x  , deci f este crescătoare pe   1,2 și, pentru orice   2, x   ,
+  ' 0 f x  , deci f este strict descrescătoare pe   2, 
+2p
+Cum   1 1 f  ,   lim
+x
+f x
+
+  și f este continuă, obținem că ecuația   0 f x  are soluție
+unică
+3p
+2.a)
+ 
+   
+3 3 3
+2 2
+0 0
+3
+4 2 2
+3
+0
+x
+f x x dx x dx x
+ 
+        
+ 
+ 
+ 
+3p
+9 6 3    2p
+b)
+ 
+ 
+2
+5 5 5
+2
+2
+2 2
+0 0 0
+' 5 4
+4
+2 0 4 2 4
+x
+x x
+dx dx dx x
+f x x
+x x
+
+    
+ 
+ 
+  
+3p
+3 2 1    2p
+c)
+ 
+ 
+ 
+   
+ 
+0
+2 2
+0 0 0 0
+0
+'
+' 1
+lim lim lim lim
+2 2 ' '
+x
+x
+x x x x
+F t dt
+F x F x
+F t dt
+x x x x
+   
+ 
+ 
+ 
+ 
+   
+
+
+3p
+   
+0
+0
+lim 0
+2 2 x
+f x f
+
+   2p
+

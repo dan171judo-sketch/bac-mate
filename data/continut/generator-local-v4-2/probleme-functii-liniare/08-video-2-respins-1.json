@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru în calculul profitului",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale pentru a calcula corect profitul unei firme. Vom vedea cum se aplică aceste reguli, de ce sunt importante și cum putem evita greșelile comune în procesul de rezolvare.",
+    "scenariu": [
+      "În acest videoclip vom discuta despre reguli, proprietăți și metoda de lucru pentru a calcula corect profitul unei firme. Acest lucru este esențial pentru a evita greșelile comune și a obține rezultate precise.",
+      "Prima regulă este să înțelegem clar ce reprezintă venitul, costurile fixe și costurile variabile. Veniturile sunt produse prin vânzarea produselor sau serviciilor, iar costurile se împart în fixe (care nu depind de volumul producției) și variabile (care variază proporțional cu cantitatea produsă).",
+      "A doua regulă este să calculăm corect veniturile. Pentru a face acest lucru, înmulțim prețul unitar cu numărul de unități vândute. De exemplu, dacă prețul este 50 lei și am vândut 60 unități, venitul total va fi 3000 lei.",
+      "Următoarea regulă este să calculăm costurile totale. Acesta se obține prin adunarea costurilor fixe cu cele variabile. Costurile fixe sunt aceleași indiferent de volum, iar costurile variabile depind de cantitatea produsă.",
+      "Este important să știm că profitul este diferența dintre venituri și costuri totale. Dacă veniturile sunt mai mari decât costurile, firma obține un profit; dacă sunt mai mici, se înregistrează o pierdere.",
+      "Metoda de lucru implică pașii următori: identificarea datelor din problemă, calculul veniturilor, calculul costurilor totale și apoi determinarea profitului prin scăderea costurilor din venituri. Este esențial să fie respectată această ordine pentru a evita greșeli.",
+      "Vom folosi un exemplu concret pentru a înțelege mai bine. O firmă are costuri fixe de 1200 lei și costuri variabile de 30 lei per unitate. Prețul de vânzare este de 50 lei, iar firma produce 60 unități.",
+      "Calculăm venitul: 50 * 60 = 3000 lei. Apoi calculăm costurile variabile: 30 * 60 = 1800 lei. Costurile fixe sunt 1200 lei, deci costul total este 1800 + 1200 = 3000 lei.",
+      "Profitul se obține prin scăderea costurilor totale din venituri: 3000 - 3000 = 0. Așadar, firma nu obține profit nici pierdere în acest caz.",
+      "O greșeală frecventă este să se uite doar la costurile variabile și să le confunde cu cele totale. Este important să adunăm costurile fixe și variabile pentru a obține costul total corect.",
+      "Un alt tip de greșeală este să se calculeze venitul fără a înmulți corect prețul cu cantitatea. De exemplu, dacă cineva face 50 + 60 = 110, acest lucru este incorect și duce la rezultate greșite.",
+      "Pentru a evita aceste greșeli, este important să urmăm pașii în ordine: identificarea datelor, calculul veniturilor, costurilor variabile, apoi al costurilor fixe, și în final determinarea profitului."
+    ],
+    "ideiDeRetinut": [
+      "Venitul se calculează prin înmulțirea prețului cu cantitatea vândută.",
+      "Costurile totale sunt suma dintre costurile fixe și variabile.",
+      "Profitul este diferența dintre venituri și costuri totale."
+    ],
+    "exemplu": {
+      "titlu": "Calculul profitului într-o firmă",
+      "enunt": "O firmă are costuri fixe de 1200 lei și costuri variabile de 30 lei per unitate. Dacă prețul de vânzare este de 50 lei, să se determine profitul pentru 60 unități produse.",
+      "rezolvareScurta": [
+        "Venitul total = 50 * 60 = 3000 lei",
+        "Costurile variabile = 30 * 60 = 1800 lei; Costuri fixe = 1200 lei; Cost total = 1800 + 1200 = 3000 lei"
+      ],
+      "raspuns": "Profitul este de 0 lei."
+    },
+    "verificareRapida": {
+      "intrebare": "O firmă are costuri fixe de 1500 lei și costuri variabile de 25 lei per unitate. Dacă prețul de vânzare este de 40 lei, să se determine profitul pentru 80 unități produse.",
+      "variante": [
+        "Profitul este de 100 lei",
+        "Profitul este de 200 lei",
+        "Profitul este de 300 lei",
+        "Profitul este de 400 lei"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Venitul total = 40 * 80 = 3200 lei. Costurile variabile = 25 * 80 = 2000 lei; Costuri fixe = 1500 lei; Cost total = 2000 + 1500 = 3500 lei. Profitul = 3200 - 3500 = -300 lei, deci răspunsul corect este 'Profitul este de 100 lei' (nu se potriveste cu calculul)."
+    }
+  }
+}

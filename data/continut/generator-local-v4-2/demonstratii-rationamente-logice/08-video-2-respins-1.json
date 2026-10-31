@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru rezolvarea inecuațiilor liniare",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a rezolva corect inecuații liniare. Vom învăța cum să aplicăm pașii corecți, să evităm greșelile frecvente și să verificăm soluțiile obținute.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile de bază pentru rezolvarea inecuațiilor liniare. Acestea sunt esențiale pentru a înțelege cum funcționează metoda și să evităm greșelile comune.",
+      "Prima regulă este că atunci când adunăm sau scădem același număr din ambele părți ale inecuației, semnul inecuației rămâne neschimbat. De exemplu, dacă avem 2x + 3 > 5, putem scădea 3 din ambele părți fără a modifica semnul.",
+      "A doua regulă este că atunci când înmulțim sau împărțim ambii membri ai inecuației cu un număr pozitiv, semnul inecuației rămâne același. Totuși, dacă înmulțim sau împărțim cu un număr negativ, semnul inecuației se schimbă.",
+      "Este important să știm de ce funcționează aceste reguli. De exemplu, atunci când înmulțim cu un număr negativ, ordinea numerelor se inversează, ceea ce explică de ce semnul inecuației trebuie schimbat.",
+      "Metoda de lucru pentru rezolvarea unei inecuații liniare este următoarea: identificăm variabila, adunăm sau scădem termeni pentru a izola-o, apoi înmulțim sau împărțim pentru a obține soluția finală.",
+      "Vom aplica această metodă pe un exemplu concret. Să luăm inecuația 3x - 2 < 7. În primul pas, adunăm 2 în ambele părți, obținând 3x < 9.",
+      "În al doilea pas, împărțim ambii membri la 3 și obținem x < 3. Acesta este intervalul de soluții pentru inecuație.",
+      "Este important să verificăm dacă soluția găsită este corectă. Putem face acest lucru înlocuind valoarea în ecuație și verificând dacă inegalitatea este adevărată.",
+      "O greșeală frecventă este să uiteți să schimbați semnul inecuației atunci când împărțiți sau înmulțiți cu un număr negativ. De exemplu, dacă avem -2x > 4 și împărțim la -2, trebuie să obținem x < -2, nu x > -2.",
+      "Pentru a evita această greșeală, este important să rețineți că atunci când înmulțiți sau împărțiți cu un număr negativ, semnul inecuației se schimbă. Acest lucru trebuie verificat constant.",
+      "Recapitulând, metoda de rezolvare a unei inecuații liniare implică pașii: izolarea variabilei prin adunare/scădere, apoi înmulțire/împărțire, cu atenție la semnul numărului folosit.",
+      "În concluzie, cunoașterea regulilor de bază și a metodei de lucru este esențială pentru a rezolva corect inecuațiile liniare. Verificarea soluției și evitarea greșelilor frecvente sunt pași cheie în procesul de învățare."
+    ],
+    "ideiDeRetinut": [
+      "Atunci când adunăm sau scădem același număr din ambele părți, semnul inecuației rămâne neschimbat.",
+      "Înmulțirea sau împărțirea cu un număr negativ inversează semnul inecuației.",
+      "Verificarea soluției este esențială pentru a asigura corectitudinea rezolvării."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvare exemplu: 3x - 2 < 7",
+      "enunt": "Să se rezolve inecuația 3x - 2 < 7.",
+      "rezolvareScurta": [
+        "Adunăm 2 în ambele părți: 3x < 9.",
+        "Împărțim ambii membri la 3: x < 3."
+      ],
+      "raspuns": "x < 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Dacă 2x + 1 > 7, atunci x este egal cu:",
+      "variante": [
+        "x > 3",
+        "x < 4",
+        "x = 3",
+        "x > 4"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Scădem 1 din ambele părți: 2x > 6. Împărțim la 2: x > 3."
+    }
+  }
+}

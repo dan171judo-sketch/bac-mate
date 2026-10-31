@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "reuniunea mulțimilor",
+      "definitie": "Reuniunea a două mulțimi A și B este mulțimea formată din toate elementele care aparțin celor două mulțimi.",
+      "observatie": "Elementele se repetă doar o dată în reuniune."
+    },
+    {
+      "termen": "intersecția mulțimilor",
+      "definitie": "Intersecția a două mulțimi A și B este mulțimea formată din toate elementele comune celor două mulțimi.",
+      "observatie": "Dacă nu există elemente comune, intersecția este mulțimea vidă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Operații de bază cu mulțimi",
+      "explicatie": "În matematică, se definesc trei operații fundamentale între mulțimi: reuniunea, intersecția și diferența. Acestea sunt folosite pentru a combina sau compara elementele din două mulțimi.",
+      "ideiCheie": [
+        "Reuniunea adună toate elementele din ambele mulțimi.",
+        "Intersecția selectează doar elementele comune."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Diferența dintre mulțimi",
+      "explicatie": "Diferența a două mulțimi A și B este mulțimea formată din toate elementele care aparțin lui A, dar nu aparțin lui B.",
+      "ideiCheie": [
+        "Diferența se notează cu simbolul '\\setminus'.",
+        "Dacă B este inclus în A, diferența va fi mulțimea A fără elementele din B."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Mulțimea vidă",
+      "explicatie": "Mulțimea vidă este o mulțime care nu conține niciun element. Se notează cu simbolul '\\emptyset' sau cu '{}'.",
+      "ideiCheie": [
+        "Este o mulțime specială, folosită în diverse situații matematice.",
+        "Intersecția a două mulțimi disjuncte este mulțimea vidă."
+      ]
+    }
+  ],
+  "formule": []
+}

@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea profitului in afacere",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 oferă o introducere intuitivă la conceptul de profit într-o firmă. Aici se explică cum se calculează profitul, de ce este important pentru un afacerist și cum poate fi folosit ca indicator al performanței economice.",
+    "scenariu": [
+      "Într-o afacere, profitul este cel mai important indicator al succesului. Dar ce înseamnă exact profitul? Este diferența dintre ceea ce câștigi și ceea ce cheltuiesti. În această lecție, vom explora cum se calculează acest lucru.",
+      "Să începem cu o întrebare simplă: dacă vinzi un produs pentru 100 lei și costul de producție este de 60 lei, ce ai câștiga? Răspunsul este clar: 40 lei. Dar în realitate, afacerile nu sunt atât de simple.",
+      "Într-o firmă, există mai multe tipuri de costuri: fixe și variabile. Costurile fixe sunt acelea care rămân constante indiferent de cât produci – cum ar fi chirie sau salarii. Pe de altă parte, costurile variabile cresc odată cu cantitatea produsă – cum ar fi materialele sau energia.",
+      "Profitul nu se calculează doar din diferența dintre preț și costuri. Trebuie să știți că profitul este diferența între venituri totale și costuri totale. Acest lucru este esențial pentru a înțelege cum funcționează o afacere.",
+      "Să luăm un exemplu concret: dacă vinzi 10 produse la 50 lei fiecare, venitul total va fi de 500 lei. Dacă costurile variabile sunt de 30 lei per unitate și costurile fixe sunt de 1200 lei, atunci costurile totale vor fi 30 * 10 + 1200 = 1500 lei.",
+      "Profitul este diferența dintre venituri și costuri: 500 - 1500 = -1000 lei. Așadar, afacerea nu are profit ci pierde bani. Dar dacă vinzi mai multe produse, cum ar fi 60 unități, veniturile vor fi de 3000 lei, iar costurile totale vor fi 30 * 60 + 1200 = 3000 lei.",
+      "În acest caz, profitul este zero. Așadar, afacerea nu câștigă nici nu pierde bani. Dar dacă vinzi mai mult de 60 unități, atunci veniturile vor depăși costurile și vei avea un profit pozitiv.",
+      "Este important să înțelegem că profitul este o măsură a eficienței unei afaceri. Dacă nu ai profit, nu poți crește sau investi în afacere. Profitul este esențial pentru sustenabilitatea economică.",
+      "O greșeală frecventă este să neglijezi costurile fixe. De exemplu, dacă ai o chirie de 1200 lei și nu ții cont de ea, vei calcula profitul greșit. Acest lucru poate duce la decizii economice incorecte.",
+      "Pentru a evita această greșeală, este important să știi să distingezi între costurile fixe și variabile. De asemenea, trebuie să calculezi corect veniturile totale și costurile totale înainte de a determina profitul.",
+      "În concluzie, profitul este diferența dintre ceea ce câștigi și ceea ce cheltuiesti. Este un indicator esențial al performanței unei afaceri. Înțelegerea acestui concept te ajută să lucrezi eficient într-o firmă.",
+      "Acesta este primul video din seria noastră despre contabilitate și economie. În videourile următoare, vom explora mai multe aspecte ale profitului și cum poate fi folosit pentru a lua decizii bune."
+    ],
+    "ideiDeRetinut": [
+      "Profitul este diferența dintre venituri și costuri totale.",
+      "Costurile fixe sunt constante, iar cele variabile cresc cu cantitatea produsă.",
+      "Este important să știi să distingezi între costurile fixe și variabile."
+    ],
+    "exemplu": {
+      "titlu": "Calculul profitului pentru 60 unități",
+      "enunt": "O firmă are costuri fixe de 1200 lei și costuri variabile de 30 lei per unitate. Dacă prețul de vânzare este de 50 lei, să se determine profitul pentru 60 unități produse.",
+      "rezolvareScurta": [
+        "Venitul total = 50 * 60 = 3000 lei",
+        "Costurile totale = (30 * 60) + 1200 = 3000 lei"
+      ],
+      "raspuns": "Profitul este de 0 lei."
+    },
+    "verificareRapida": {
+      "intrebare": "O firmă are costuri fixe de 1200 lei și costuri variabile de 30 lei per unitate. Dacă prețul de vânzare este de 50 lei, ce profit obține pentru 60 unități produse?",
+      "variante": [
+        "Profitul este de 1200 lei",
+        "Profitul este de 3000 lei",
+        "Profitul este de 0 lei",
+        "Profitul este de -250 lei"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "Venitul total este 50 * 60 = 3000 lei. Costurile variabile sunt 30 * 60 = 1800 lei, iar costurile fixe sunt 1200 lei. Costul total este 1800 + 1200 = 3000 lei. Profitul este 3000 - 3000 = 0 lei."
+    }
+  }
+}

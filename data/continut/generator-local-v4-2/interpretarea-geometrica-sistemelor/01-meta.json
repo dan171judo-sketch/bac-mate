@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Reprezentarea geometrică a sistemelor de ecuații",
+  "descriere": "Lectia explorează interpretarea geometrică a sistemelor de ecuații liniare cu două necunoscute, în contextul geometriei analitice.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea reprezentării grafice a unei ecuații de gradul al doilea în plan",
+    "Cunoașterea noțiunii de sistem de ecuații",
+    "Cunoașterea metodei de rezolvare a unui sistem prin metoda substituției"
+  ],
+  "obiective": [
+    "Să identifice reprezentarea geometrică a unei ecuații liniare în plan",
+    "Să interpreteze grafic soluțiile unui sistem de două ecuații liniare",
+    "Să recunoască cazurile posibile ale intersecției dintre două drepte",
+    "Să folosească interpretarea geometrică pentru a analiza compatibilitatea unui sistem"
+  ],
+  "termeniCheie": [
+    "sistem de ecuații",
+    "dreaptă în plan",
+    "intersecție",
+    "soluție comună"
+  ]
+}

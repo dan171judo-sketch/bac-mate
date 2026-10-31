@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru rezolvarea inecuațiilor",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a rezolva corect inecuații. Vom învăța cum să aplicăm pașii corecți, să evităm greșelile frecvente și să verificăm rezultatul final.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile fundamentale care ne permit să rezolvăm inecuații corect. Este important să înțelegem nu doar ce este o inecuație, ci și cum funcționează metoda de lucru pentru a obține soluția finală.",
+      "O inecuație este o propoziție matematică care conține un semn de inegalitate (≥, ≤, >, <) și ne permite să găsim toate valorile variabilei care satisfac această condiție. Pentru a rezolva-o, trebuie să izolăm variabila într-o parte a ecuației.",
+      "Prima regulă este de a efectua operații inverse adunării și scăderii pentru a elimina termenul liber din partea opusă. De exemplu, dacă avem -2x + 4 ≥ 6, începem prin a scădea 4 din ambele părți.",
+      "A doua regulă este de a împărți ambele părți la coeficientul variabilei. În cazul în care acest coeficient este negativ, trebuie să schimbăm semnul inecuației pentru a menține corectitudinea soluției.",
+      "Este important să știm de ce se aplică aceste reguli. Scăderea termenului liber este o etapă esențială pentru a simplifica ecuația, iar împărțirea la coeficientul variabilei ne ajută să obținem valoarea exactă a variabilei.",
+      "Metoda de lucru implică pași bine definiti: identificarea inecuației, scăderea termenului liber, împărțirea la coeficientul variabilei și verificarea semnului acestuia. Fiecare pas trebuie urmat în ordine pentru a evita greșelile.",
+      "Vom folosi un exemplu concret: -2x + 4 ≥ 6. Începem prin a scădea 4 din ambele părți, obținând -2x ≥ 2. Apoi împărțim ambele părți la -2, dar trebuie să schimbăm semnul inecuației, rezultând x ≤ -1.",
+      "După ce obținem soluția, este important să verificăm dacă aceasta este corectă. În acest caz, putem înlocui x cu o valoare mai mică decât -1 și vedem dacă inecuația este adevărată.",
+      "O greșeală frecventă este să uiteți să schimbați semnul inecuației atunci când împărțiți la un număr negativ. Acest lucru poate duce la o soluție incorectă, deoarece semnul afectează direcția inecuației.",
+      "Pentru a evita această greșeală, este important să rețineți că atunci când împărțiți la un număr negativ, semnul inecuației se schimbă. Acest lucru este esențial pentru a obține o soluție corectă.",
+      "În concluzie, rezolvarea unei inecuații implică pași bine definiti: scăderea termenului liber, împărțirea la coeficientul variabilei și verificarea semnului acestuia. Este important să urmați acești pași în ordine pentru a evita greșelile.",
+      "Prin urmare, metoda de lucru este clară: identificați inecuația, efectuați operațiile inverse adunării și scăderii, împărțiți la coeficientul variabilei, schimbați semnul inecuației dacă este cazul, și verificați soluția finală."
+    ],
+    "ideiDeRetinut": [
+      "Scăderea termenului liber este primul pas în rezolvarea unei inecuații.",
+      "Împărțirea la coeficientul variabilei necesită schimbarea semnului inecuației dacă acesta este negativ.",
+      "Verificați întotdeauna soluția obținută pentru a vă asigura că este corectă."
+    ],
+    "exemplu": {
+      "titlu": "Rezolvarea inecuației -2x + 4 ≥ 6",
+      "enunt": "-2x + 4 ≥ 6",
+      "rezolvareScurta": [
+        "Scădeți 4 din ambele părți: -2x ≥ 2.",
+        "Împărțiți la -2 și schimbați semnul inecuației: x ≤ -1."
+      ],
+      "raspuns": "x ≤ -1"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați inecuația: 3x - 5 < 7.",
+      "variante": [
+        "x > 4",
+        "x < 4",
+        "x = 4",
+        "x ≥ 4"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Scădeți 5 din ambele părți: 3x < 12. Împărțiți la 3: x < 4."
+    }
+  }
+}

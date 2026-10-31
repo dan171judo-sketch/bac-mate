@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f(x) = (2m - 1)x + 4. Determinați valorile lui m pentru care funcția este constantă.",
+      "variante": [],
+      "raspunsCorect": "m = 1/2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (2m - 1)x + 4 are forma generală f(x) = ax + b, unde a = 2m - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de funcție constantă",
+          "continut": "Pentru ca funcția să fie constantă, trebuie ca a = 0 ⇒ 2m - 1 = 0 ⇒ m = 1/2."
+        }
+      ],
+      "explicatieFinala": "O funcție liniară este constantă dacă coeficientul director este zero.",
+      "competenta": "Analiza funcțiilor liniare cu parametru",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f(x) = (3m - 2)x + m. Determinați valorile lui m pentru care funcția este strict descrescătoare.",
+      "variante": [],
+      "raspunsCorect": "m < 2/3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (3m - 2)x + m are forma generală f(x) = ax + b, unde a = 3m - 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de funcție strict descrescătoare",
+          "continut": "Pentru ca funcția să fie strict descrescătoare, trebuie ca a < 0 ⇒ 3m - 2 < 0 ⇒ m < 2/3."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director.",
+      "competenta": "Analiza monotoniilor funcțiilor liniare cu parametru",
+      "punctaj": 6
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Fie funcția f(x) = (m - 1)x + 3. Care dintre următoarele afirmații este adevărată?",
+      "variante": [
+        "Funcția este crescătoare pentru m > 1.",
+        "Funcția este descrescătoare pentru m < 1.",
+        "Funcția este constantă pentru m = 0.",
+        "Funcția este strict descrescătoare pentru m = -2."
+      ],
+      "raspunsCorect": "Funcția este crescătoare pentru m > 1.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (m - 1)x + 3 are forma generală f(x) = ax + b, unde a = m - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condiției de funcție crescătoare",
+          "continut": "Pentru ca funcția să fie crescătoare, trebuie ca a > 0 ⇒ m - 1 > 0 ⇒ m > 1."
+        }
+      ],
+      "explicatieFinala": "Monotonia unei funcții liniare se determină prin semnul coeficientului director.",
+      "competenta": "Analiza monotoniilor funcțiilor liniare cu parametru",
+      "punctaj": 7
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "avansat",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie funcția f(x) = (m + 2)x - m. Determinați valorile lui m pentru care funcția este strict descrescătoare și are imaginea egală cu mulțimea numerelor reale.",
+      "variante": [],
+      "raspunsCorect": "m < -2",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea coeficientului director",
+          "continut": "Funcția f(x) = (m + 2)x - m are forma generală f(x) = ax + b, unde a = m + 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea condițiilor de monotonie și imagine",
+          "continut": "Pentru ca funcția să fie strict descrescătoare, trebuie ca a < 0 ⇒ m + 2 < 0 ⇒ m < -2. Deoarece a ≠ 0, imaginea funcției este ℝ."
+        }
+      ],
+      "explicatieFinala": "O funcție liniară are imaginea ℝ dacă și numai dacă este strict monotonă.",
+      "competenta": "Analiza monotoniilor și imaginii funcțiilor liniare cu parametru",
+      "punctaj": 8
+    }
+  ]
+}

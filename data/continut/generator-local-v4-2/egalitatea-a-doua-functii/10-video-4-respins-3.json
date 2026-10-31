@@ -1,0 +1,39 @@
+{
+  "video4": {
+    "id": "video4",
+    "titlu": "Regula pentru identificarea valorii minime a unei expresii algebrice",
+    "descriere": "Un exercitiu de pregatire pentru Bacalaureat, care implica folosirea regulilor de inegalitati si a metodei de verificare prin substitutie. Scopul este sa invatam cum sa identificam valoarea minima a unei expresii algebrice.",
+    "scenariu": [
+      "Vrei sa afli ce valoare poate lua o expresie algebrica, dar nu stii exact cum. De exemplu, daca ai de calculat ce valoare minima poate avea expresia 2x + 3, trebuie sa folosesti reguli specifice.",
+      "Regula principala este ca pentru a gasi valoarea minima a unei expresii algebrice, trebuie sa identifici variabila care o influenteaza si apoi sa aplici metoda de inegalitati. Daca ai o ecuatie cu variabile, folosesti inegalitatile pentru a determina intervalul posibil.",
+      "De exemplu, daca ai expresia 2x + 3, si stii ca x poate fi orice numar real, atunci valoarea minima este -∞. Dar daca ai o restrictie, cum ar fi x ≥ 0, atunci valoarea minima devine 3.",
+      "Este important sa intelegi ca in unele cazuri, expresia poate avea un minim sau maxim, iar acest lucru depinde de tipul de ecuatie. Daca ai o parabola, vei gasi un punct extrem, dar daca ai o ecuatie liniara, valoarea minima va fi atinsa la capatul intervalului.",
+      "Pentru a aplica aceasta regula, incepe cu identificarea variabilei si a restrictiei. Dupa aceea, foloseste metoda de substitutie pentru a verifica daca valorile sunt corecte. De exemplu, daca x = 0, atunci 2x + 3 = 3.",
+      "Verificarea este esentiala. Daca ai o ecuatie cu variabile, inlocuiesti valoarea minima si vezi daca se respecta regula. Daca nu, inseamna ca ai gresit sau ca exista o alta restrictie.",
+      "O greseala frecventa este sa ignori restrictiile. De exemplu, daca x ≥ 1, atunci valoarea minima a expresiei 2x + 3 va fi 5, nu 3. Este important sa verifici toate conditiile din cerinta.",
+      "Pentru a evita aceasta greseala, incepe intotdeauna cu citirea atenta a cerintei si identificarea tuturor restrictiilor. Dupa aceea, aplica regulile de inegalitati pas cu pas.",
+      "Un alt lucru important este sa folosesti metoda de substitutie pentru a verifica daca valoarea minima este corecta. Inlocuiesti valoarea gasita si verifici daca se respecta toate conditiile din cerinta.",
+      "Dupa ce ai identificat valoarea minima, poți folosi metoda de inegalitati pentru a verifica daca exista o alta valoare mai mica. Daca nu, atunci ai gasit raspunsul corect."
+    ],
+    "ideiDeRetinut": [
+      "Identificarea variabilei si a restrictiei este esentiala.",
+      "Foloseste metoda de inegalitati pentru a determina valoarea minima.",
+      "Verifica intotdeauna raspunsul prin substitutie."
+    ],
+    "exemplu": {
+      "intrebare": "Care este valoarea minima a expresiei 2x + 3, daca x ≥ 1?",
+      "raspunsCorect": 5,
+      "explicatie": "Daca x ≥ 1, atunci cel mai mic numar pe care il poate lua x este 1. Inlocuind in expresie: 2(1) + 3 = 5."
+    },
+    "verificareRapida": {
+      "intrebare": "Care este valoarea minima a expresiei 2x + 3, daca x ≥ 0?",
+      "variante": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "raspunsCorect": 1
+    }
+  }
+}

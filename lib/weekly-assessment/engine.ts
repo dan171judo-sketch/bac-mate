@@ -37,6 +37,20 @@ export type WeeklyAssessmentResult = {
   weakestSkillId: string | null;
 };
 
+export type MasteryUpdate = {
+  skillId: string;
+
+  masteryScore: number;
+  totalAttempts: number;
+  correctAttempts: number;
+  consecutiveCorrect: number;
+
+  lastResult: boolean;
+  lastPracticedAt: string;
+  nextReviewAt: string;
+  updatedAt: string;
+};
+
 function clamp(
   value: number,
   min: number,
@@ -48,22 +62,58 @@ function clamp(
   );
 }
 
+function normalizeMasteryScore(
+  value: number
+) {
+  if (!Number.isFinite(value)) {
+    return 0;
+  }
+
+  return Math.round(
+    clamp(value, 0, 100)
+  );
+}
+
+function normalizeCounter(
+  value: number
+) {
+  if (!Number.isFinite(value)) {
+    return 0;
+  }
+
+  return Math.max(
+    0,
+    Math.floor(value)
+  );
+}
+
+function parseDate(
+  value: Date | string | null
+): Date | null {
+  if (!value) {
+    return null;
+  }
+
+  const date =
+    value instanceof Date
+      ? value
+      : new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return null;
+  }
+
+  return date;
+}
+
 function isReviewDue(
   nextReviewAt: Date | string | null,
   now: Date
 ) {
-  if (!nextReviewAt) {
-    return false;
-  }
-
   const reviewDate =
-    nextReviewAt instanceof Date
-      ? nextReviewAt
-      : new Date(nextReviewAt);
+    parseDate(nextReviewAt);
 
-  if (
-    Number.isNaN(reviewDate.getTime())
-  ) {
+  if (!reviewDate) {
     return false;
   }
 
@@ -73,21 +123,41 @@ function isReviewDue(
   );
 }
 
+function addDays(
+  date: Date,
+  days: number
+) {
+  const result =
+    new Date(date.getTime());
+
+  result.setUTCDate(
+    result.getUTCDate() + days
+  );
+
+  return result;
+}
+
 function getPriority(
   mastery: WeeklyMasteryInput,
   now: Date
 ): WeeklySkillPriority {
-  const masteryScore = clamp(
-    mastery.masteryScore,
-    0,
-    100
-  );
+  const masteryScore =
+    normalizeMasteryScore(
+      mastery.masteryScore
+    );
 
-  /*
-   * Cu cât priorityScore este mai mare,
-   * cu atât competența trebuie verificată
-   * mai repede.
-   */
+  const totalAttempts =
+    normalizeCounter(
+      mastery.totalAttempts
+    );
+
+  const correctAttempts =
+    Math.min(
+      totalAttempts,
+      normalizeCounter(
+        mastery.correctAttempts
+      )
+    );
 
   let priorityScore =
     100 - masteryScore;
@@ -95,64 +165,39 @@ function getPriority(
   let reason:
     WeeklySkillPriority["reason"];
 
-  /*
-   * Competență încă netestată.
-   */
-  if (mastery.totalAttempts === 0) {
-    priorityScore += 35;
+  if (totalAttempts === 0) {
+    priorityScore += 40;
     reason = "new";
-  }
-
-  /*
-   * Competență foarte slabă.
-   */
-  else if (masteryScore < 25) {
+  } else if (masteryScore < 40) {
     priorityScore += 45;
     reason = "weak";
-  }
-
-  /*
-   * A venit momentul pentru
-   * spaced repetition.
-   */
-  else if (
+  } else if (
     isReviewDue(
       mastery.nextReviewAt,
       now
     )
   ) {
-    priorityScore += 30;
+    priorityScore += 35;
     reason = "review_due";
-  }
-
-  /*
-   * Competență aflată încă
-   * în dezvoltare.
-   */
-  else if (masteryScore < 75) {
-    priorityScore += 15;
+  } else if (masteryScore < 75) {
+    priorityScore += 20;
     reason = "developing";
-  }
-
-  /*
-   * Competență bună.
-   * O păstrăm în sistem pentru
-   * verificări periodice.
-   */
-  else {
+  } else {
     reason = "maintenance";
   }
 
-  /*
-   * Dacă elevul a avut foarte puține
-   * încercări, avem mai puțină
-   * încredere în scor.
-   */
   if (
-    mastery.totalAttempts > 0 &&
-    mastery.totalAttempts < 3
+    totalAttempts > 0 &&
+    totalAttempts < 3
   ) {
     priorityScore += 10;
+  }
+
+  if (
+    totalAttempts > 0 &&
+    correctAttempts === 0
+  ) {
+    priorityScore += 15;
   }
 
   return {
@@ -164,15 +209,12 @@ function getPriority(
 }
 
 /*
- * Construiește planul evaluării
- * săptămânale.
+ * Planificatorul vechi rămâne exportat
+ * pentru compatibilitate cu orice cod
+ * existent care îl poate importa.
  *
- * V1 folosește maximum 5 competențe.
- * Fiecare competență selectată primește
- * inițial o întrebare.
- *
- * Mai târziu putem aloca mai multe
- * întrebări competențelor slabe.
+ * Motorul adaptiv nou folosește
+ * data/evaluari/adaptive-generator.ts.
  */
 export function buildWeeklyAssessmentPlan(
   masteryRows: WeeklyMasteryInput[],
@@ -192,42 +234,39 @@ export function buildWeeklyAssessmentPlan(
     };
   }
 
-  const priorities = masteryRows
-    .map((mastery) =>
-      getPriority(mastery, now)
-    )
-    .sort((a, b) => {
-      if (
-        b.priorityScore !==
-        a.priorityScore
-      ) {
-        return (
-          b.priorityScore -
+  const priorities =
+    masteryRows
+      .map((mastery) =>
+        getPriority(
+          mastery,
+          now
+        )
+      )
+      .sort((a, b) => {
+        if (
+          b.priorityScore !==
           a.priorityScore
-        );
-      }
+        ) {
+          return (
+            b.priorityScore -
+            a.priorityScore
+          );
+        }
 
-      /*
-       * La egalitate verificăm întâi
-       * scorul Mastery mai mic.
-       */
-      if (
-        a.masteryScore !==
-        b.masteryScore
-      ) {
-        return (
-          a.masteryScore -
+        if (
+          a.masteryScore !==
           b.masteryScore
-        );
-      }
+        ) {
+          return (
+            a.masteryScore -
+            b.masteryScore
+          );
+        }
 
-      /*
-       * Sortare stabilă/deterministă.
-       */
-      return a.skillId.localeCompare(
-        b.skillId
-      );
-    });
+        return a.skillId.localeCompare(
+          b.skillId
+        );
+      });
 
   const selectedSkills =
     priorities.slice(
@@ -244,12 +283,10 @@ export function buildWeeklyAssessmentPlan(
 }
 
 /*
- * Calculează rezultatul final al
- * evaluării săptămânale.
+ * Calculează rezultatul evaluării curente.
  *
- * Strongest / weakest se bazează pe
- * performanța DIN ACEASTĂ evaluare,
- * nu direct pe scorul Mastery istoric.
+ * Strongest / weakest descriu strict
+ * performanța din această evaluare.
  */
 export function calculateWeeklyResult(
   results: WeeklyQuestionResult[]
@@ -266,7 +303,8 @@ export function calculateWeeklyResult(
 
   const correctAnswers =
     results.filter(
-      (result) => result.isCorrect
+      (result) =>
+        result.isCorrect
     ).length;
 
   const score = Math.round(
@@ -285,8 +323,9 @@ export function calculateWeeklyResult(
 
   for (const result of results) {
     const current =
-      skillStats.get(result.skillId) ??
-      {
+      skillStats.get(
+        result.skillId
+      ) ?? {
         total: 0,
         correct: 0,
       };
@@ -303,19 +342,22 @@ export function calculateWeeklyResult(
     );
   }
 
-  const rankedSkills = Array.from(
-    skillStats.entries()
-  ).map(([skillId, stats]) => ({
-    skillId,
+  const rankedSkills =
+    Array.from(
+      skillStats.entries()
+    ).map(
+      ([skillId, stats]) => ({
+        skillId,
 
-    percentage:
-      stats.total > 0
-        ? stats.correct /
-          stats.total
-        : 0,
+        percentage:
+          stats.total > 0
+            ? stats.correct /
+              stats.total
+            : 0,
 
-    total: stats.total,
-  }));
+        total: stats.total,
+      })
+    );
 
   rankedSkills.sort((a, b) => {
     if (
@@ -328,14 +370,11 @@ export function calculateWeeklyResult(
       );
     }
 
-    /*
-     * Dacă procentul este egal,
-     * avem mai multă încredere în
-     * competența verificată de mai
-     * multe ori.
-     */
     if (b.total !== a.total) {
-      return b.total - a.total;
+      return (
+        b.total -
+        a.total
+      );
     }
 
     return a.skillId.localeCompare(
@@ -343,28 +382,312 @@ export function calculateWeeklyResult(
     );
   });
 
-  const strongestSkillId =
-    rankedSkills[0]?.skillId ??
-    null;
+  return {
+    totalQuestions:
+      results.length,
 
-  const weakestSkillId =
-    rankedSkills[
-      rankedSkills.length - 1
-    ]?.skillId ?? null;
+    correctAnswers,
+
+    score,
+
+    strongestSkillId:
+      rankedSkills[0]
+        ?.skillId ?? null,
+
+    weakestSkillId:
+      rankedSkills[
+        rankedSkills.length - 1
+      ]?.skillId ?? null,
+  };
+}
+
+function getReviewIntervalDays(
+  masteryScore: number
+) {
+  if (masteryScore < 40) {
+    return 1;
+  }
+
+  if (masteryScore < 60) {
+    return 3;
+  }
+
+  if (masteryScore < 75) {
+    return 7;
+  }
+
+  if (masteryScore < 90) {
+    return 14;
+  }
+
+  return 30;
+}
+
+function calculateQuestionDelta(
+  currentMasteryScore: number,
+  isCorrect: boolean,
+  consecutiveCorrect: number
+) {
+  if (isCorrect) {
+    /*
+     * La scor mic permitem recuperare
+     * ceva mai rapidă.
+     *
+     * La scor mare progresul devine
+     * intenționat mai lent.
+     */
+    let delta: number;
+
+    if (currentMasteryScore < 40) {
+      delta = 12;
+    } else if (
+      currentMasteryScore < 75
+    ) {
+      delta = 9;
+    } else if (
+      currentMasteryScore < 90
+    ) {
+      delta = 6;
+    } else {
+      delta = 3;
+    }
+
+    /*
+     * Seria de răspunsuri corecte
+     * oferă un bonus mic, controlat.
+     */
+    if (consecutiveCorrect >= 2) {
+      delta += 2;
+    }
+
+    if (consecutiveCorrect >= 4) {
+      delta += 1;
+    }
+
+    return delta;
+  }
+
+  /*
+   * O greșeală trebuie să conteze,
+   * dar nu ștergem brutal istoricul.
+   */
+  if (currentMasteryScore >= 90) {
+    return -12;
+  }
+
+  if (currentMasteryScore >= 75) {
+    return -11;
+  }
+
+  if (currentMasteryScore >= 40) {
+    return -10;
+  }
+
+  return -8;
+}
+
+/*
+ * Calculează noul Mastery pentru
+ * o singură lecție/competență.
+ *
+ * Funcția este pură:
+ * nu comunică deloc cu Supabase.
+ */
+export function calculateMasteryUpdate(
+  current:
+    | WeeklyMasteryInput
+    | null,
+  skillId: string,
+  results: boolean[],
+  now = new Date()
+): MasteryUpdate {
+  if (!skillId) {
+    throw new Error(
+      "Lipsește skillId pentru actualizarea Mastery."
+    );
+  }
+
+  if (results.length === 0) {
+    throw new Error(
+      "Nu există rezultate pentru actualizarea Mastery."
+    );
+  }
+
+  let masteryScore =
+    normalizeMasteryScore(
+      current?.masteryScore ?? 0
+    );
+
+  let totalAttempts =
+    normalizeCounter(
+      current?.totalAttempts ?? 0
+    );
+
+  let correctAttempts =
+    Math.min(
+      totalAttempts,
+      normalizeCounter(
+        current?.correctAttempts ??
+          0
+      )
+    );
+
+  let consecutiveCorrect =
+    normalizeCounter(
+      current?.consecutiveCorrect ??
+        0
+    );
+
+  for (const isCorrect of results) {
+    totalAttempts += 1;
+
+    if (isCorrect) {
+      correctAttempts += 1;
+      consecutiveCorrect += 1;
+    } else {
+      consecutiveCorrect = 0;
+    }
+
+    const delta =
+      calculateQuestionDelta(
+        masteryScore,
+        isCorrect,
+        consecutiveCorrect
+      );
+
+    masteryScore =
+      normalizeMasteryScore(
+        masteryScore + delta
+      );
+  }
+
+  const lastResult =
+    results[
+      results.length - 1
+    ];
+
+  /*
+   * Dacă ultimul răspuns este greșit,
+   * vrem o revenire rapidă indiferent
+   * de scorul istoric.
+   */
+  const reviewDays =
+    lastResult
+      ? getReviewIntervalDays(
+          masteryScore
+        )
+      : 1;
+
+  const timestamp =
+    now.toISOString();
 
   return {
-    totalQuestions: results.length,
-    correctAnswers,
-    score,
-    strongestSkillId,
-    weakestSkillId,
+    skillId,
+
+    masteryScore,
+
+    totalAttempts,
+
+    correctAttempts,
+
+    consecutiveCorrect,
+
+    lastResult,
+
+    lastPracticedAt:
+      timestamp,
+
+    nextReviewAt:
+      addDays(
+        now,
+        reviewDays
+      ).toISOString(),
+
+    updatedAt:
+      timestamp,
   };
 }
 
 /*
- * Folosit de interfață și mascotă
- * pentru o clasificare simplă.
+ * Calculează Mastery pentru toate
+ * lecțiile verificate în evaluare.
+ *
+ * Rezultatele sunt grupate pe skillId,
+ * iar fiecare skill este actualizat
+ * o singură dată.
  */
+export function calculateMasteryUpdates(
+  currentMastery:
+    WeeklyMasteryInput[],
+  results:
+    WeeklyQuestionResult[],
+  now = new Date()
+): MasteryUpdate[] {
+  if (results.length === 0) {
+    return [];
+  }
+
+  const currentMap =
+    new Map<
+      string,
+      WeeklyMasteryInput
+    >();
+
+  for (
+    const mastery of currentMastery
+  ) {
+    currentMap.set(
+      mastery.skillId,
+      mastery
+    );
+  }
+
+  const groupedResults =
+    new Map<
+      string,
+      boolean[]
+    >();
+
+  for (const result of results) {
+    const current =
+      groupedResults.get(
+        result.skillId
+      ) ?? [];
+
+    current.push(
+      result.isCorrect
+    );
+
+    groupedResults.set(
+      result.skillId,
+      current
+    );
+  }
+
+  const updates:
+    MasteryUpdate[] = [];
+
+  for (
+    const [
+      skillId,
+      skillResults,
+    ] of groupedResults.entries()
+  ) {
+    updates.push(
+      calculateMasteryUpdate(
+        currentMap.get(
+          skillId
+        ) ?? null,
+        skillId,
+        skillResults,
+        now
+      )
+    );
+  }
+
+  return updates;
+}
+
 export function getWeeklyPerformanceLevel(
   score: number
 ) {

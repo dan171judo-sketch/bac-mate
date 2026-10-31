@@ -1,0 +1,38 @@
+{
+  "video2": {
+    "id": "V002",
+    "titlu": "Regula pentru adunarea numerelor cu semn",
+    "descriere": "În acest videoclip, vom învăța cum să adunăm numerele cu semn folosind o regulă clară și metoda corectă. Vom explica pas cu pas cum se aplică regula, vom face un exemplu concret și vom verifica dacă răspunsul este corect.",
+    "scenariu": [
+      "În această lecție, vom învăța cum să adunăm numerele cu semn. Adunarea numerelor cu semn este o parte esențială a matematicii și apare frecvent în probleme de tipul celor din examenele școlare.",
+      "Regula pentru adunarea numerelor cu semn se bazează pe semnele lor: dacă cele două numere au același semn, le adunăm și păstrăm semnul. Dacă au semne diferite, scădem modulul mai micului din cel mai mare și păstrăm semnul celui mai mare.",
+      "De exemplu, dacă avem +5 și +3, le adunăm și obținem +8. Dacă avem -2 și -4, le adunăm și obținem -6. În schimb, dacă avem +7 și -3, scădem 3 din 7 și păstrăm semnul lui 7, deci răspunsul este +4.",
+      "Această regulă funcționează pentru că adunarea numerelor cu semn este o operație care se bazează pe direcția în care se deplasează valoarea. Dacă ambele numere sunt pozitive, se adună într-o direcție. Dacă sunt negative, se adună în cealaltă direcție.",
+      "Pentru a aplica această regulă corect, trebuie să identificăm semnele numerelor și să le comparăm. Apoi, dacă semnele sunt egale, adunăm și păstrăm semnul. Dacă sunt diferite, scădem și păstrăm semnul celui mai mare.",
+      "Vom face un exemplu concret: +9 și -5. Semnele sunt diferite, deci scădem 5 din 9 și păstrăm semnul lui 9. Răspunsul este +4. Verificăm pas cu pas: 9 minus 5 e 4, iar semnul este pozitiv.",
+      "O greșeală frecventă este să adunăm numerele chiar dacă au semne diferite. De exemplu, cineva ar putea gândi că +7 și -3 se adună și dau +10, ceea ce este incorect. Trebuie să scădem 3 din 7 și să păstrăm semnul lui 7.",
+      "Pentru a evita această greșeală, e important să identificăm întotdeauna semnele numerelor înainte de a face calcule. Dacă semnele sunt diferite, scădem și păstrăm semnul celui mai mare.",
+      "Repetăm regulile: același semn = adunare + semn; semne diferite = scădere + semnul celui mai mare. Acesta este modul în care funcționează adunarea numerelor cu semn.",
+      "În concluzie, adunarea numerelor cu semn se face prin identificarea semnelor, aplicarea regulii corespunzătoare și verificarea rezultatului. Este esențial să înțelegem de ce funcționează această regulă pentru a evita greșelile frecvente."
+    ],
+    "ideiDeRetinut": [
+      "Regula adunării numerelor cu semn: același semn = adunare + semn; semne diferite = scădere + semnul celui mai mare.",
+      "Verificarea rezultatului este esențială pentru a evita greșelile frecvente.",
+      "Identificarea corectă a semnelor este pasul prim în orice problemă de adunare cu semn."
+    ],
+    "exemplu": {
+      "intrebare": "Calculați: +9 și -5",
+      "pas1": "Identificăm semnele: unul pozitiv, unul negativ.",
+      "pas2": "Scădem modulul mai micului din cel mai mare: 9 - 5 = 4.",
+      "pas3": "Păstrăm semnul celui mai mare număr: +9 > -5, deci răspunsul este +4."
+    },
+    "verificareRapida": {
+      "intrebare": "Calculați: +7 și -3",
+      "varianta0": "+10",
+      "varianta1": "-4",
+      "varianta2": "+4",
+      "varianta3": "-10",
+      "raspunsCorect": 2
+    }
+  }
+}

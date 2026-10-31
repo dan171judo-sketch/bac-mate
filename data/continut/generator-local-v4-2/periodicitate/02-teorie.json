@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție periodică",
+      "definitie": "O funcție f: R → R se numește periodică dacă există un număr real T ≠ 0, astfel încât pentru orice x ∈ R, f(x + T) = f(x). Numărul T se numește perioadă a funcției.",
+      "observatie": "O funcție poate avea mai multe perioade, dar perioada fundamentală este cea mai mică dintre ele."
+    },
+    {
+      "termen": "perioadă",
+      "definitie": "Un număr real T ≠ 0 pentru care f(x + T) = f(x), pentru orice x ∈ R, se numește perioadă a funcției periodice f.",
+      "observatie": "Perioada este un parametru care măsoară frecvența repetiției valorilor funcției."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția funcției periodice",
+      "explicatie": "O funcție este periodică dacă valorile sale se repetă la intervale egale. Acest fenomen apare frecvent în natură și în matematică, de exemplu în mișcarea circulară sau în undele sonore.",
+      "ideiCheie": [
+        "Există un număr real T ≠ 0 care este perioadă a funcției",
+        "Valoarea funcției se repetă la intervale egale"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Perioada fundamentală",
+      "explicatie": "Perioada fundamentală este cea mai mică valoare T > 0 pentru care f(x + T) = f(x). Este importantă în studiul funcțiilor periodice, deoarece definește frecvența repetiției valorilor.",
+      "ideiCheie": [
+        "Perioada fundamentală este cea mai mică perioadă pozitivă",
+        "Este esențială în analiza comportamentului funcției"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Funcții sinusoidale și cosinusoidale",
+      "explicatie": "Funcțiile sinusoidală și cosinusoidală sunt exemple clasice de funcții periodice. Ele apar în studiul oscilațiilor, undelor și al altor fenomene fizice.",
+      "ideiCheie": [
+        "Sinusul și cosinusul au perioada fundamentală 2π",
+        "Sunt folosite pentru modelarea mișcărilor periodice"
+      ]
+    }
+  ],
+  "formule": []
+}

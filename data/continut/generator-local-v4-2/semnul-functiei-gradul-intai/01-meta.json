@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Analiza semnului funcției de gradul I",
+  "descriere": "Lectia exploreaza modul in care semnul unei functii liniare se determina in raport cu variabila independentă.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre funcții liniare"
+  ],
+  "obiective": [
+    "Să identifice semnul unei funcții de gradul I în funcție de valoarea variabilei",
+    "Să determine intersecția graficului cu axa absciselor",
+    "Să analizeze semnul funcției în intervaluri definite",
+    "Să folosească reprezentarea grafică pentru a interpreta semnul funcției"
+  ],
+  "termeniCheie": [
+    "funcție liniară",
+    "semnul funcției",
+    "intersecția cu axa Ox",
+    "interval de definire"
+  ]
+}

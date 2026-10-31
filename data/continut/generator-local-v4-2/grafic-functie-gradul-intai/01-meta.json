@@ -1,0 +1,25 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Reprezentarea grafică a funcției de gradul I",
+  "descriere": "Lectia prezintă modul în care se construiește graficul unei funcții de gradul I, precum și interpretarea acestuia.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Reprezentarea punctelor în plan",
+    "Calculul valorilor funcției",
+    "Noțiunea de ecuație liniară"
+  ],
+  "obiective": [
+    "Să identifice forma graficului unei funcții de gradul I",
+    "Să reprezinte grafic funcția de gradul I într-un sistem de axe perpendiculare",
+    "Să interpreteze graficul funcției de gradul I în contexte practice",
+    "Să recunoască rolul coeficienților în forma graficului"
+  ],
+  "termeniCheie": [
+    "funcție liniară",
+    "grafic al funcției",
+    "coeficient unghiular",
+    "intersecția cu axa Oy"
+  ]
+}

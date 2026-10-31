@@ -1,0 +1,56 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Neglijarea condiției a ≠ 0 în ecuația ax + b = 0",
+      "deCeEsteGresit": "Dacă a = 0, ecuația devine b = 0, care poate fi sau nu adevărată. În acest caz, ecuația nu are soluție sau are o infinitate de soluții.",
+      "cumOEviti": "Verifică întotdeauna dacă coeficientul a este diferit de zero înainte de a aplica formula x = -b/a."
+    },
+    {
+      "greseala": "Confundarea termenului liber cu coeficientul necunoscutei",
+      "deCeEsteGresit": "Termenul liber este b, iar coeficientul este a. Confuzia între cele două poate duce la calcule greșite.",
+      "cumOEviti": "Reține că în ecuația ax + b = 0, termenul care nu conține x este termenul liber."
+    },
+    {
+      "greseala": "Neglijarea semnului în formula x = -b/a",
+      "deCeEsteGresit": "Semnul minus este esențial pentru a obține soluția corectă. O greșeală de semn poate duce la răspunsuri incorecte.",
+      "cumOEviti": "Fă calculele pas cu pas și verifică semnele în fiecare etapă."
+    },
+    {
+      "greseala": "Aplicarea formulei x = -b/a fără a transforma ecuația în forma ax + b = 0",
+      "deCeEsteGresit": "Formula este valabilă doar pentru ecuații de forma ax + b = 0. Dacă ecuația nu este adusă la această formă, rezultatul va fi incorect.",
+      "cumOEviti": "Transformă întotdeauna ecuația în forma standard ax + b = 0 înainte de a aplica formula."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Ecuațiile de gradul I se pot scrie sub forma ax + b = 0, unde a ≠ 0.",
+      "Soluția ecuației este x = -b/a, dar doar dacă a ≠ 0.",
+      "Dacă a = 0 și b ≠ 0, ecuația nu are soluție.",
+      "Dacă a = 0 și b = 0, ecuația are o infinitate de soluții."
+    ],
+    "formuleDeRetinut": [
+      "x = -\\frac{b}{a}"
+    ],
+    "checklistElev": [
+      "Verifică dacă a ≠ 0 înainte de a rezolva ecuația.",
+      "Transformă ecuația în forma ax + b = 0.",
+      "Calculează soluția folosind formula x = -b/a.",
+      "Verifică dacă soluția satisface ecuația originală."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Ecuațiile de gradul I sunt o parte esențială a programului pentru Bacalaureat, fiind cerute în mai multe tipuri de subiecte.",
+    "tipuriCerinte": [
+      "Rezolvarea unei ecuații de gradul I cu o necunoscută",
+      "Identificarea condițiilor pentru care o ecuație are soluție",
+      "Transformarea unei ecuații în forma standard ax + b = 0",
+      "Verificarea dacă o valoare dată este soluție a unei ecuații"
+    ],
+    "strategie": [
+      "Învață să transforme orice ecuație în forma ax + b = 0.",
+      "Rezolvă exerciții variate pentru a înțelege condițiile de existență a soluției.",
+      "Verifică întotdeauna soluția obținută prin înlocuirea ei în ecuație.",
+      "Familiarizează-te cu tipurile de cerințe din subiectele oficiale."
+    ]
+  }
+}

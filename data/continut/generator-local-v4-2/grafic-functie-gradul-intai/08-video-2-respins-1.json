@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru exerciții cu paranteze",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru corectă pentru rezolvarea exercițiilor matematice care implică paranteze. Vom învăța cum să abordezi corect fiecare pas al calculului și cum să eviti greșelile frecvente.",
+    "scenariu": [
+      "În acest videoclip, vom analiza regulile esențiale pentru rezolvarea exercițiilor matematice care includ paranteze. Paranteza este un element cheie în exprimarea corectă a unei operații și trebuie tratată cu atenție.",
+      "Prima regulă este că paranteza se calculează întotdeauna înainte de a efectua alte operații. Acest lucru este valabil indiferent dacă paranteza conține adunare, scădere, înmulțire sau împărțire.",
+      "De exemplu, dacă avem o expresie ca (5 + 3) × 2, trebuie să calculăm întâi ce este în paranteză: 5 + 3 = 8. Apoi, înmulțim rezultatul cu 2 și obținem 16.",
+      "A doua regulă este că, dacă există mai multe paranteze într-o expresie, se calculează cele din interiorul celor mai interioare înainte de a trece la cele exterioare. Acest lucru asigură o rezolvare corectă și ordonată.",
+      "De exemplu, în expresia (2 + (4 × 3)) – 5, paranteza din interior este 4 × 3 = 12. Apoi, adunăm 2 + 12 = 14, iar în final scădem 5 și obținem 9.",
+      "Metoda de lucru implică pașii următori: identificarea parantezelor, calculul valorilor din interiorul lor, apoi efectuarea operațiilor rămase în ordinea corectă a prioritarității. Este important să nu se ignore niciun pas.",
+      "Un alt aspect esențial este respectarea ordinii operațiilor: înmulțirea și împărțirea au prioritate față de adunarea și scăderea, chiar dacă nu sunt în paranteze. Totuși, paranteza poate schimba această ordine.",
+      "Pentru a evita greșelile frecvente, este important să se scrie fiecare pas al calculului pe o linie separată. Astfel, elevul poate verifica ușor dacă a respectat toate regulile și nu a omis niciun pas.",
+      "Un exemplu clasic de confuzie este atunci când paranteza este neglijată sau se calculează într-o ordine greșită. De exemplu, dacă cineva face 5 + 3 × 2 fără a respecta paranteza, va obține un rezultat incorect.",
+      "Pentru a evita astfel de greșeli, este recomandat să se folosească metoda pas cu pas. În fiecare etapă, se calculează doar o singură operație și se scrie rezultatul într-un spațiu separat.",
+      "În concluzie, paranteza este un element esențial al expresiilor matematice. Trebuie tratată cu atenție, respectând regulile de calcul și ordinea operațiilor. Prin aplicarea corectă a metodei pas cu pas, elevul poate rezolva orice exercițiu cu paranteze în mod eficient.",
+      "Așadar, regula principală este: calculează întotdeauna ce este în paranteză înainte de a efectua alte operații. Metoda de lucru implică pași clari și ordonati, iar verificarea fiecărui pas este esențială pentru evitarea greșelilor."
+    ],
+    "ideiDeRetinut": [
+      "Paranteza se calculează întotdeauna înainte de alte operații.",
+      "Dacă există mai multe paranteze, se începe cu cele din interiorul celor mai interioare.",
+      "Folosește metoda pas cu pas pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: (6 + 2) × 3",
+      "enunt": "(6 + 2) × 3 = ?",
+      "rezolvareScurta": [
+        "Calculăm paranteza: 6 + 2 = 8.",
+        "Înmulțim rezultatul cu 3: 8 × 3 = 24."
+      ],
+      "raspuns": "24"
+    },
+    "verificareRapida": {
+      "intrebare": "(10 + 5) ÷ 5 = ?",
+      "variante": [
+        "3",
+        "5",
+        "15",
+        "25"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Calculăm paranteza: 10 + 5 = 15. Apoi împărțim la 5: 15 ÷ 5 = 3."
+    }
+  }
+}

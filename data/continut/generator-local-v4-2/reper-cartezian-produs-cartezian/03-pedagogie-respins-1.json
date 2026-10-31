@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă reperul cartezian cu sistemul de axe",
+      "deCeEsteGresit": "Reperul cartezian include originea și cele două axe, în timp ce sistemul de axe este doar cele două axe.",
+      "cumOEviti": "Înțelege că reperul are un punct de origine, iar sistemul de axe nu."
+    },
+    {
+      "greseala": "Crede că produsul cartezian este o mulțime neordonată",
+      "deCeEsteGresit": "Produsul cartezian este format din perechi ordonate (a, b), unde ordinea elementelor contează.",
+      "cumOEviti": "Rezolvă exemple concrete pentru a înțelege diferența dintre mulțimi și perechi ordonate."
+    },
+    {
+      "greseala": "Nelege coordonata x ca fiind poziția verticală",
+      "de- CeEsteGresit": "Coordonata x este abscisa, adică poziția orizontală, în timp ce coordonata y este ordonata, poziția verticală.",
+      "cumOEviti": "Desenează reperul și notează clar cele două axe cu Ox și Oy."
+    },
+    {
+      "greseala": "Neglijează unitatea de măsură în definirea reperului",
+      "deCeEsteGresit": "Unitatea de măsură este esențială pentru a defini corect coordonatele unui punct.",
+      "cumOEviti": "Verifică întotdeauna dacă cele două axe au aceeași unitate de măsură."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Reperul cartezian este format dintr-un punct O și două axe perpendiculare Ox și Oy.",
+      "Produsul cartezian dintre A și B este mulțimea tuturor perechilor ordonate (a, b).",
+      "Coordonata x reprezintă poziția orizontală a unui punct în plan.",
+      "Coordonata y reprezintă poziția verticală a unui punct în plan."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Definiți clar reperul cartezian cu origine și axe perpendiculare.",
+      "Identificați perechile ordonate din produsul cartezian.",
+      "Asociați corect coordonata x cu abscisa și coordonata y cu ordonata.",
+      "Verificați dacă unitatea de măsură este aceeași pe cele două axe."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptele de reper cartezian și produs cartezian sunt fundamentale pentru înțelegerea coordonatelor unui punct, a reprezentării grafice a mulțimilor și a relațiilor dintre elemente.",
+    "tipuriCerinte": [
+      "Definirea reperului cartezian",
+      "Identificarea componentelor unui reper",
+      "Rezolvarea de probleme cu produsul cartezian",
+      "Interpretarea coordonatelor într-un reper"
+    ],
+    "strategie": [
+      "Învăță definițiile și exemplele simple pentru a înțelege conceptele.",
+      "Repetă regulile de ordine a perechilor în produsul cartezian.",
+      "Desenează reperul și poziționează puncte pentru a vizualiza coordonatele.",
+      "Verifică întotdeauna unitatea de măsură în reperul cartezian."
+    ]
+  }
+}

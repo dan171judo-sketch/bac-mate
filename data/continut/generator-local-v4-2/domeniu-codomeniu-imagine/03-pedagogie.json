@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea domeniului cu codomeniul",
+      "deCeEsteGresit": "Domeniul este mulțimea valorilor x pentru care funcția are sens, în timp ce codomeniul este mulțimea valorilor y posibile. Confuzia între cele două duce la erori în identificarea corectă a acestor noțiuni.",
+      "cumOEviti": "Repetă definițiile cu atenție și faceți diferența între variabila independentă (x) și variabila dependentă (y)."
+    },
+    {
+      "greseala": "Considerarea codomeniului ca fiind egal cu imaginea",
+      "deCeEsteGresit": "Codomeniul este domeniul natural al valorilor funcției, în timp ce imaginea este mulțimea valorilor efectiv atinse de funcție. Nu toate valorile din codomeniu sunt atinse.",
+      "cumOEviti": "Analizați fiecare funcție cu atenție și determinați care valori sunt atinse în practică."
+    },
+    {
+      "greseala": "Neglijarea condițiilor de existență ale funcției",
+      "deCeEsteGresit": "Domeniul este definit de condițiile impuse de expresia analitică a funcției. Neglijarea acestora duce la determinări incorecte ale domeniului.",
+      "cumOEviti": "Înainte de a defini domeniul, analizați toate condițiile de existență (ex: radical, logaritme, diviziuni)."
+    },
+    {
+      "greseala": "Creșterea codomeniului fără justificare",
+      "deCeEsteGresit": "Codomeniul este definit în funcție de tipul funcției (ex: funcții liniare, patratice, etc.). Creșterea nejustificată a codomeniului duce la erori majore.",
+      "cumOEviti": "Determinați codomeniul în funcție de tipul funcției și de condițiile impuse."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Domeniul este mulțimea valorilor x pentru care funcția are sens.",
+      "Codomeniul este domeniul natural al valorilor y posibile ale funcției.",
+      "Imaginea este mulțimea valorilor efectiv atinse de funcție.",
+      "Diferența între codomeniu și imagine este esențială pentru înțelegerea corectă a noțiunii de funcție."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică condițiile de existență ale funcției înainte de a defini domeniul.",
+      "Determină codomeniul în funcție de tipul funcției și de expresia sa analitică.",
+      "Analizează fiecare valoare y din codomeniu pentru a vedea dacă este atinsă de funcție.",
+      "Repetă diferența între codomeniu și imagine pentru a evita confuziile."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Noțiunile de domeniu, codomeniu și imagine sunt esențiale în studiul funcțiilor, care apar frecvent în subiectele de Bac MATE. Înțelegerea lor este necesară pentru a rezolva cerințe legate de definirea corectă a funcțiilor și analiza lor.",
+    "tipuriCerinte": [
+      "Definirea domeniului unei funcții",
+      "Determinarea codomeniului unei funcții",
+      "Identificarea imaginii unei funcții",
+      "Compararea dintre codomeniu și imagine"
+    ],
+    "strategie": [
+      "Începe cu analiza expresiei analitice a funcției pentru a determina domeniul.",
+      "Determină codomeniul în funcție de tipul funcției și de condițiile impuse.",
+      "Analizează fiecare valoare y din codomeniu pentru a vedea dacă este atinsă de funcție.",
+      "Repetă diferența între codomeniu și imagine pentru a evita confuziile."
+    ]
+  }
+}

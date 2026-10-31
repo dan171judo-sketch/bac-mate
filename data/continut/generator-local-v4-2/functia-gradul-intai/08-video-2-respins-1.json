@@ -1,0 +1,50 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru înmulțirea expresiilor algebrice",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a desfășura produsele de expresii algebrice. Vom învăța cum să aplicăm corect formula distributivă, cum să evităm greșelile frecvente și cum să verificăm dacă rezultatul obținut este corect.",
+    "scenariu": [
+      "În acest videoclip vom explora regulile esențiale pentru înmulțirea expresiilor algebrice. Vom vedea cum se aplică formula distributivă, ce proprietăți trebuie știute și cum să folosim o metodă eficientă de lucru.",
+      "În matematică, înmulțirea expresiilor algebrice este un proces care necesită atenție la fiecare pas. Prin urmare, este important să cunoaștem regulile corecte și să le aplicăm în mod sistematic.",
+      "Formula distributivă este una dintre cele mai importante reguli pentru această operație. Ea spune că orice termen dintr-un paranteză trebuie înmulțit cu fiecare termen din celălalt paranteză, iar apoi se adună toate rezultatele.",
+      "De exemplu, dacă avem (a + b)(c + d), vom obține a*c + a*d + b*c + b*d. Acest proces este esențial pentru a evita greșelile și a obține un rezultat corect.",
+      "Este important să înțelegem de ce această regulă funcționează. Deoarece fiecare termen dintr-un paranteză se combină cu fiecare termen din celălalt, putem asigura că toate perechile posibile sunt înmulțite și adunate corect.",
+      "Metoda de lucru implică mai multe pași: identificarea termenilor din fiecare paranteză, înmulțirea fiecărui termen cu toți cei din celălalt paranteză, apoi adunarea tuturor produselor obținute.",
+      "Pentru a evita greșelile, este recomandat să scriem fiecare pas pe o foaie sau într-un caiet. Acest lucru ne ajută să nu uităm niciun termen și să avem un control asupra procesului.",
+      "Să luăm un exemplu concret: (2x + 3)(x - 1). În primul pas, vom înmulți 2x cu x, apoi 2x cu -1, apoi 3 cu x și în final 3 cu -1. Astfel obținem 2x² - 2x + 3x - 3.",
+      "După ce am adunat toate termenii, vom simplifica expresia prin combinarea termenilor asemenea: -2x + 3x = x. Deci rezultatul final este 2x² + x - 3.",
+      "O greșeală frecventă este să uiteți un termen în procesul de înmulțire. De exemplu, dacă uităm să înmulțim 3 cu -1, vom obține un rezultat incorect. Este important să verificăm fiecare pas.",
+      "Pentru a evita astfel de greșeli, putem folosi o metodă vizuală: desenăm un tabel sau o matrice în care să scriem toate perechile de termeni și să le înmulțim. Acest lucru ne ajută să nu uităm niciun pas.",
+      "În concluzie, înmulțirea expresiilor algebrice se bazează pe regula distributivă, o metodă paș cu pașu și verificarea fiecărui pas. Prin urmare, este esențial să cunoaștem regulile corecte și să le aplicăm în mod sistematic."
+    ],
+    "ideiDeRetinut": [
+      "Formula distributivă este esențială pentru înmulțirea expresiilor algebrice.",
+      "Fiecare termen dintr-un paranteză trebuie înmulțit cu fiecare termen din celălalt paranteză.",
+      "Verificarea fiecărui pas este importantă pentru a evita greșelile."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: (2x + 3)(x - 1)",
+      "enunt": "Desfășurați produsul (2x + 3)(x - 1).",
+      "rezolvareScurta": [
+        "Înmulțim 2x cu x = 2x².",
+        "Înmulțim 2x cu -1 = -2x.",
+        "Înmulțim 3 cu x = 3x.",
+        "Înmulțim 3 cu -1 = -3."
+      ],
+      "raspuns": "2x² + x - 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este rezultatul desfășurării (2x + 3)(x - 1)?",
+      "variante": [
+        "2x² + x - 3",
+        "2x² - x - 3",
+        "2x² + x + 3",
+        "2x² - x + 3"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Desfășurarea produsului (2x + 3)(x - 1) dă 2x² + x - 3, deci varianta corectă este prima."
+    }
+  }
+}

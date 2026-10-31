@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție liniară",
+      "definitie": "O funcție de forma f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0.",
+      "observatie": "Această funcție este definită pe tot domeniul numerelor reale."
+    },
+    {
+      "termen": "semnul funcției",
+      "definitie": "Semnul unei funcții liniare indică dacă valoarea funcției este pozitivă, negativă sau zero într-un anumit interval.",
+      "observatie": "Semnul se schimbă în funcție de valoarea variabilei x."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Intersecția cu axa Ox",
+      "explicatie": "Punctul în care graficul funcției liniare intersectează axa absciselor (Ox) este soluția ecuației f(x) = 0. Acest punct se numește rădăcina funcției.",
+      "ideiCheie": [
+        "Intersecția cu Ox se obține rezolvând ecuația ax + b = 0",
+        "Rădăcina este x = -b/a"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Semnul funcției în intervaluri",
+      "explicatie": "Semnul funcției liniare se schimbă la rădăcină. Înainte de rădăcină, semnul este opus celui din fața rădăcinii, în funcție de valoarea coeficientului a.",
+      "ideiCheie": [
+        "Semnul funcției depinde de semnul lui a",
+        "Intervalul (-∞, -b/a) și (-b/a, ∞) sunt separate de rădăcină"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Reprezentarea grafică a funcției",
+      "explicatie": "Graficul unei funcții liniare este o dreaptă. Semnul funcției poate fi interpretat vizual, analizând poziția graficului față de axa Ox.",
+      "ideiCheie": [
+        "Dreapta intersectează Ox în punctul (-b/a, 0)",
+        "Semnul este pozitiv sau negativ în funcție de poziția x față de rădăcină"
+      ]
+    }
+  ],
+  "formule": []
+}

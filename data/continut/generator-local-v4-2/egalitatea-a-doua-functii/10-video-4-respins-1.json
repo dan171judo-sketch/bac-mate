@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 4,
+    "id": "video-4",
+    "titlu": "Cerinta de tip Bac: strategie si greseli frecvente",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom analiza o cerință de tip Bac care implică calcularea valorii unei funcții într-un punct dat. Vom discuta strategia de abordare, greselile frecvente și cum să evităm acestea pentru a obține un rezultat corect.",
+    "scenariu": [
+      "În pregătirea pentru examenul de Bacalaureat, este esențial să înțelegem cum să abordăm cerințele care implică calcularea valorii unei funcții într-un punct dat. Aceste tipuri de exerciții sunt frecvente și pot fi rezolvate rapid dacă cunoaștem pașii corecți.",
+      "Prima etapă este să identificăm clar ce ne cere cerința. De exemplu, dacă avem o funcție f(x) = 3x + 2 și ne cerută valoarea în punctul x = -1, trebuie să înlocuim variabila x cu această valoare.",
+      "Este important să nu confundăm valorile din funcție cu alte elemente. De exemplu, dacă o funcție este definită pe un interval sau are restricții, trebuie să verificăm dacă punctul dat aparține domeniului de definiție al funcției.",
+      "O greșeală frecventă este înlocuirea greșită a valorii x. De exemplu, în loc să înlocuim x = 2 în f(x) = 4x − 7, unele elevi pot aduna 4 și 2, obținând 6, apoi scade 7, ceea ce duce la -1, care este greșit.",
+      "Pentru a evita această greșeală, trebuie să ne concentrăm pe înlocuirea corectă a valorii și efectuarea operațiilor aritmetice pas cu pas. De exemplu, 4·2 = 8, apoi scădem 7, obținând 1.",
+      "O altă greșeală este neglijarea semnului minus în funcție. Dacă o funcție are un termen negativ, cum ar fi f(x) = -3x + 5, elevii pot uita să adauge acel semn la calcul, ceea ce duce la erori.",
+      "Pentru a verifica dacă răspunsul este corect, putem repeta pașii sau înlocui valoarea x din nou. Dacă obținem același rezultat, atunci avem încredere că am făcut calculele corect.",
+      "Este important să ne antrenăm cu exerciții variate pentru a ne familiariza cu diferite tipuri de funcții și puncte. De exemplu, dacă o funcție este liniară, putem folosi metoda înlocuirii directe, dar dacă este mai complexă, trebuie să aplicăm reguli specifice.",
+      "În condiții de timp limitat, recomandăm să scriem doar pașii esențiali și să evităm calculele suplimentare. De exemplu, în loc să calculăm 4·2 − 7 pas cu pas, putem face direct 8 − 7 = 1.",
+      "Un alt lucru important este să ne asigurăm că am citit corect cerința și că nu am uitat niciun detaliu. De exemplu, dacă cerința spune „valoarea funcției în punctul x = -3”, trebuie să folosim această valoare, nu alta.",
+      "În concluzie, pentru a rezolva corect o astfel de cerință, este esențial să urmăm pașii corecți, să verificăm răspunsul și să evităm greșelile frecvente. Astfel, vom putea obține un punctaj maxim la examen.",
+      "Prin antrenament constant și atenție la detalii, putem transforma aceste cerințe într-o sarcină ușor de rezolvat, chiar și în condiții de presiune."
+    ],
+    "ideiDeRetinut": [
+      "Identificarea clară a cerinței este esențială.",
+      "Evitarea greșelilor de calcul prin pași corecți.",
+      "Verificarea răspunsului pentru a evita erori."
+    ],
+    "exemplu": {
+      "titlu": "Calculul valorii funcției într-un punct dat",
+      "enunt": "Fie funcția f: R → R, f(x) = 4x − 7. Calculați valoarea funcției în punctul x = 2.",
+      "rezolvareScurta": [
+        "Înlocuim x cu 2: f(2) = 4·2 − 7.",
+        "Efectuăm calculele: 8 − 7 = 1."
+      ],
+      "raspuns": "1"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie funcția f(x) = -5x + 3. Care este valoarea funcției în punctul x = -2?",
+      "variante": [
+        "-7",
+        "13",
+        "-13",
+        "7"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Înlocuim x cu -2: f(-2) = -5·(-2) + 3 = 10 + 3 = 13."
+    }
+  }
+}

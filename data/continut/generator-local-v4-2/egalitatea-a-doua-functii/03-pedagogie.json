@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Egalitatea funcțiilor se consideră doar prin compararea valorilor în puncte.",
+      "deCeEsteGresit": "Această gresală ignoră faptul că egalitatea funcțiilor implică și același domeniu și același codomeniu, nu doar valori identice în fiecare punct.",
+      "cumOEviti": "Reamintește-te că pentru egalitatea funcțiilor trebuie să verifici toate cele trei condiții: domeniu, codomeniu și valorile."
+    },
+    {
+      "greseala": "Se consideră că două funcții sunt egale dacă au același grafic.",
+      "deCeEsteGresit": "Acest lucru este parțial adevărat, dar nu este suficient. Graficul poate fi identic, dar domeniul sau codomeniul pot fi diferite, ceea ce face funcțiile inegale.",
+      "cumOEviti": "Verifică întotdeauna și domeniul și codomeniul înainte de a concluziona egalitatea."
+    },
+    {
+      "greseala": "Se confundă egalitatea funcțiilor cu egalitatea valorilor într-un singur punct.",
+      "deCeEsteGresit": "Egalitatea funcțiilor este o condiție globală, nu locală. Dacă două funcții sunt egale doar într-un punct, ele nu sunt egale ca funcții.",
+      "cumOEviti": "Înlocuiește verificarea valorilor într-un singur punct cu o analiză completă a tuturor elementelor din domeniu."
+    },
+    {
+      "greseala": "Se consideră că dacă două funcții au același codomeniu, ele sunt egale.",
+      "deCeEsteGresit": "Codomeniul este doar o parte din condițiile egalității. Dacă domeniul este diferit, chiar și cu același codomeniu, funcțiile nu sunt egale.",
+      "cumOEviti": "Verifică întotdeauna toate cele trei condiții: domeniu, codomeniu și valorile."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Egalitatea funcțiilor presupune același domeniu, același codomeniu și valori identice în fiecare punct.",
+      "Nu este suficient ca două funcții să aibă valori egale într-un singur punct pentru a fi considerate egale.",
+      "Graficul nu este singura condiție pentru egalitatea funcțiilor, ci doar o parte din ea.",
+      "Domeniul și codomeniul sunt esențiale în definirea egalității funcțiilor."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă domeniile celor două funcții sunt identice.",
+      "Verifică dacă codomeniile sunt identice.",
+      "Compara valorile funcțiilor pentru fiecare element din domeniu.",
+      "Nu te opri la valori egale într-un singur punct, verifică toate punctele."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Egalitatea funcțiilor este o noțiune esențială pentru înțelegerea corectă a conceptului de funcție și este adesea testată în subiectele de matematică la Bacalaureat.",
+    "tipuriCerinte": [
+      "Să se verifice dacă două funcții sunt egale, folosind condițiile de egalitate.",
+      "Să se identifice cazurile în care două funcții pot fi considerate egale sau nu.",
+      "Să se analizeze domeniul și codomeniul pentru a determina egalitatea funcțiilor.",
+      "Să se diferenție egalitatea funcțiilor de egalitatea valorilor într-un punct."
+    ],
+    "strategie": [
+      "Reamintește-te întotdeauna condițiile de egalitate ale funcțiilor: domeniu, codomeniu și valori.",
+      "Verifică sistematic toate cele trei condiții înainte de a concluziona egalitatea.",
+      "Evită confuzia între egalitatea valorilor într-un punct și egalitatea funcțiilor.",
+      "Practică cu exemple simple pentru a consolida înțelegerea conceptului."
+    ]
+  }
+}

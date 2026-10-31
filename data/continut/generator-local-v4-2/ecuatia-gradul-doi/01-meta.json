@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Rezolvarea ecuației de gradul al II-lea",
+  "descriere": "Lectia introduce conceptul de ecuație de gradul al II-lea si metodele de rezolvare.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe despre ecuații de gradul I",
+    "Noțiuni de mulțimi și relații între elemente",
+    "Operații cu numere reale"
+  ],
+  "obiective": [
+    "Să identifice forma generală a unei ecuații de gradul al II-lea",
+    "Să determine soluțiile unei ecuații de gradul al II-lea folosind formula discriminantului",
+    "Să interpreteze semnul discriminantului în funcție de natura soluțiilor",
+    "Să aplice metoda completării pătratului pentru rezolvarea ecuațiilor de gradul al II-lea"
+  ],
+  "termeniCheie": [
+    "ecuație de gradul al II-lea",
+    "discriminant",
+    "soluții reale",
+    "formula generală"
+  ]
+}

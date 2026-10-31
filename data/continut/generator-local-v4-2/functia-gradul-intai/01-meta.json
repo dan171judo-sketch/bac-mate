@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Reprezentarea grafică și proprietăți ale funcției de gradul întâi",
+  "descriere": "Lectia introduce conceptul de funcție de gradul întâi, prezentând forma canonică și interpretarea geometrică a acesteia.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Reprezentarea grafică a funcțiilor numerice",
+    "Calculul valorilor funcției într-un punct dat"
+  ],
+  "obiective": [
+    "Să identifice forma canonică a funcției de gradul întâi",
+    "Să reprezinte grafic funcția f(x) = ax + b",
+    "Să determine intersecția graficului cu axele de coordonate",
+    "Să interpreteze parametrii a și b în contextul problemei"
+  ],
+  "termeniCheie": [
+    "funcție de gradul întâi",
+    "grafic al funcției",
+    "intersecția cu axa Oy",
+    "panta dreptei"
+  ]
+}

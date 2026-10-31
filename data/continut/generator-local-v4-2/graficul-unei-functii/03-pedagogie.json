@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă graficul funcției cu reprezentarea geometrică a unei ecuații.",
+      "deCeEsteGresit": "O funcție are un singur valoare pentru fiecare x din domeniu, în timp ce o ecuație poate avea mai multe soluții pentru același x.",
+      "cumOEviti": "Reamintește-te că graficul unei funcții este format doar din perechi (x, f(x)), nu din toate soluțiile unei ecuații."
+    },
+    {
+      "greseala": "Crede că orice punct de pe grafic trebuie să fie reprezentat într-un sistem de coordonate.",
+      "deCeEsteGresit": "Graficul poate fi reprezentat și în alte sisteme, cum ar fi coordonate polare sau parametrice, dar acestea nu sunt standard pentru funcții reale de variabilă reală.",
+      "cumOEviti": "Reamintește-te că graficul unei funcțiilor se definește într-un sistem de coordonate carteziene."
+    },
+    {
+      "greseala": "Interpretează puncte de pe grafic ca fiind soluții ale ecuației f(x) = 0.",
+      "deCeEsteGresit": "Punctele de pe grafic sunt perechi (x, f(x)), nu doar cele unde f(x)=0. Acesta este un caz particular al punctelor de pe grafic.",
+      "cumOEviti": "Reamintește-te că orice punct (x, y) de pe grafic trebuie să satisfacă relația y = f(x)."
+    },
+    {
+      "greseala": "Neglijează domeniul de definiție al funcției la construcția graficului.",
+      "deCeEsteGresit": "Domeniul de definiție indică valorile x pentru care funcția este definită, iar orice punct de pe grafic trebuie să respecte această condiție.",
+      "cumOEviti": "Verifică întotdeauna domeniul de definiție al funcției înainte de a construi graficul."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Graficul unei funcții este mulțimea perechilor (x, f(x)).",
+      "Un punct (x, y) aparține graficului dacă y = f(x).",
+      "Graficul reprezintă relația dintre variabilă independentă și dependentă.",
+      "Punctele de pe grafic sunt determinate de valorile x și valorile corespunzătoare ale funcției."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică domeniul de definiție al funcției înainte de a construi graficul.",
+      "Asigură-te că punctele de pe grafic respectă relația y = f(x).",
+      "Reamintește-te că graficul este format din perechi (x, f(x)), nu din soluțiile unei ecuații.",
+      "Interpretează corect punctele de pe grafic în contextul problemei."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Graficul funcției este un concept esențial pentru înțelegerea relației dintre variabilă independentă și dependentă, ceea ce este frecvent cerut în probleme de interpretare grafică la Bacalaureat.",
+    "tipuriCerinte": [
+      "Identificarea punctelor de pe graficul unei funcții",
+      "Interpretarea graficului în contextul unei probleme practice",
+      "Construcția graficului unei funcții simple",
+      "Reprezentarea vizuală a relației dintre variabile"
+    ],
+    "strategie": [
+      "Încearcă să identifici perechile (x, f(x)) din grafic.",
+      "Verifică dacă punctele respectă relația y = f(x).",
+      "Reamintește-te că domeniul de definiție al funcției limitează valorile x pentru care există puncte pe grafic.",
+      "Asigură-te că interpretarea graficului este corelată cu contextul problemei."
+    ]
+  }
+}

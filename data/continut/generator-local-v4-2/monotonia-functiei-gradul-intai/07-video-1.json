@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea conceptului de viteza medie",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 oferă o introducere intuitivă și pedagogică la conceptul de viteza medie, explicându-i sensul, utilitatea și modul de calcul. Prin exemple simple și explicații clare, elevul va înțelege cum să calculeze viteza medie corect și să evite greșelile frecvente.",
+    "scenariu": [
+      "Bună ziua! În această lecție, vom explora un concept foarte util din matematică și fizică: viteza medie. Dar înainte de a ne apuca să calculăm, să începem cu o întrebare simplă: dacă mergi de la casa ta până la școală în 10 minute și distanța este de 2 km, ce ai face pentru a afla cât ai mers pe minut?",
+      "Răspunsul ar fi să împarți distanța cu timpul. Acest lucru ne dă o idee despre cât de repede ai parcurs acea distanță. Dar ce înseamnă exact viteza medie? Viteza medie este o mărime care ne arată cât de mult ai parcurs într-un anumit timp, indiferent dacă ai mers mai repede sau mai încet.",
+      "Să ne gândim la un exemplu concret. Să zicem că mergi cu bicicleta de la casa ta până la magazin și apoi întorzi acasă. Dacă totalul distanței este 4 km și ai parcurs această distanță în 30 de minute, atunci viteza medie ar fi 8 km/h. Dar cum se calculează exact?",
+      "Viteza medie se calculează prin împărțirea distanței totale la timpul total folosit. Așadar, formula este: V = D / T, unde V este viteza, D este distanța și T este timpul. Această formulă este esențială pentru a înțelege cum se calculează viteza medie.",
+      "De ce e important să știm această regulă? Pentru că ne ajută să comparați diferite moduri de deplasare, să planificați trasee sau chiar să calculați consumul de carburant. De exemplu, dacă ai două mașini și vrei să alegi cea mai eficientă, viteza medie te ajută să faci această comparație.",
+      "Să ne concentrăm acum pe modul în care se aplică formula. Dacă mergi 2 km în 10 minute, atunci viteza ta medie este 2 km / (10/60) h = 12 km/h. Acest lucru arată că ai mers mai repede decât dacă ai merge doar 8 km/h.",
+      "Dar ce se întâmplă dacă ai face o greșeală? Să zicem că ai calcula 2 km / 10 minute, fără a transforma minutele în ore. Acest lucru ar duce la un rezultat incorect, deoarece unitățile nu sunt compatibile. Este important să verificăm întotdeauna unitățile pentru a ne asigura că le-am convertit corect.",
+      "Să luăm un exemplu mai clar. Dacă mergi 240 km în 4 ore, atunci viteza ta medie este 240 / 4 = 60 km/h. Acest lucru ne arată că ai mers constant la aceeași viteză, fără să ai accelerat sau încetinit. Dar dacă ai mers mai repede în primele ore și mai încet în ultimele, viteza medie rămâne tot 60 km/h.",
+      "Este important să înțelegem că viteza medie nu ne spune nimic despre cum ai parcurs distanța. Ea doar arată cât de mult ai parcurs în total într-un anumit timp. Acest lucru este util pentru a calcula consumul de carburant, să planifici un traseu sau chiar să compari performanțele diferitelor vehicule.",
+      "Să ne gândim la o greșeală comună: când elevii împart distanța prin timp fără a transforma unitățile. De exemplu, dacă ai 2 km în 10 minute, nu poți calcula direct 2 / 10, deoarece minutele trebuie convertite în ore pentru a obține o viteză exprimată în km/h.",
+      "Cum putem evita această greșeală? Prin exerciții repetate și verificarea unităților. De fiecare dată când calculezi viteza medie, asigură-te că distanța este exprimată în km și timpul în ore sau minute, conform unităților cerute.",
+      "În concluzie, viteza medie este o mărime importantă care ne arată cât de mult ai parcurs într-un anumit timp. Este esențial să știm cum se calculează și să evităm greșelile comune, cum ar fi neglijarea unităților sau confunderea dintre viteza medie și viteză instantanee."
+    ],
+    "ideiDeRetinut": [
+      "Viteza medie este distanța împărțită la timpul parcurs.",
+      "Unitățile trebuie să fie compatibile (km / ore sau km / minute).",
+      "Viteza medie nu arată cum ai mers, ci doar cât de mult ai parcurs în total."
+    ],
+    "exemplu": {
+      "titlu": "Calculul vitezei medii",
+      "enunt": "Mergi 240 km în 4 ore. Care este viteza ta medie?",
+      "rezolvareScurta": [
+        "Transformă timpul în ore: 4 h.",
+        "Împarte distanța la timp: 240 ÷ 4 = 60."
+      ],
+      "raspuns": "60 km/h"
+    },
+    "verificareRapida": {
+      "intrebare": "Mergi 12 km în 30 de minute. Care este viteza ta medie?",
+      "variante": [
+        "4 km/h",
+        "24 km/h",
+        "60 km/h",
+        "12 km/h"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Transformăm 30 de minute în ore: 30/60 = 0.5 h. Apoi împărțim distanța la timp: 12 ÷ 0.5 = 24 km/h."
+    }
+  }
+}

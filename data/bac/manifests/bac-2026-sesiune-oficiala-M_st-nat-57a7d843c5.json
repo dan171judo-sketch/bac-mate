@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bac-2026-sesiune-oficiala-M_st-nat-57a7d843c5",
+  "authority": "Ministerul Educației / subiecte.edu.ro",
+  "exam": "bacalaureat",
+  "year": 2026,
+  "documentType": "oficial",
+  "session": "oficial",
+  "profileCode": "M_st-nat",
+  "documents": {
+    "subject": {
+      "fileName": "E_c_matematica_M_st-nat_2026_var_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_st-nat/sesiune-oficiala/E_c_matematica_M_st-nat_2026_var_03_LRO.pdf",
+      "sizeBytes": 108312,
+      "sha256": "57A7D843C56B1E0B92A64556C793DDAED492806D9DAE54241C7A55C66E6D7DE0"
+    },
+    "markingScheme": {
+      "fileName": "E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf",
+      "relativePath": "data/bac/sources/2026/M_st-nat/sesiune-oficiala/E_c_matematica_M_st-nat_2026_bar_03_LRO.pdf",
+      "sizeBytes": 113659,
+      "sha256": "F024F8464EB6DFF5F67D36411911516BA11E0E258EA317A368CD7020C655F308"
+    }
+  },
+  "verification": {
+    "filesPresent": true,
+    "sizesRecorded": true,
+    "hashesRecorded": true,
+    "hashesVerifiedByPipeline": true,
+    "pairVerifiedByPipeline": true,
+    "sourceVerified": true
+  },
+  "publicationStatus": "draft"
+}

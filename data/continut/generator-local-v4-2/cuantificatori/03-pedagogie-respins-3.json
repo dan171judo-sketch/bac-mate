@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea simbolurilor ∀ și ∃",
+      "deCeEsteGresit": "Simbolurile sunt diferite și reprezintă concepte distincte. ∀ se folosește pentru toate, iar ∃ pentru cel puțin una.",
+      "cumOEviti": "Repetă diferența între cele două simboluri într-un tabel sau cu exemple concrete."
+    },
+    {
+      "greseala": "Neglijarea condițiilor de existență în propoziții cu ∃",
+      "deCeEsteGresit": "Cuantificatorul existențial necesită o valoare specifică pentru care propoziția este adevărată, nu doar o posibilitate abstractă.",
+      "cumOEviti": "Verifică întotdeauna dacă există cel puțin o soluție în contextul dat."
+    },
+    {
+      "greseala": "Folosirea cuantificatorului universal pentru propoziții false",
+      "dețiEsteGresit": "Cuantificatorul universal afirmă că propoziția este adevărată pentru toate valorile, deci nu poate fi folosit pentru propoziții false.",
+      "cumOEviti": "Verifică întotdeauna dacă propoziția este adevărată înainte de a aplica cuantificatorul universal."
+    },
+    {
+      "greseala": "Neglijarea ordinei cuantificatorilor în enunțuri complexe",
+      "deCeEsteGresit": "Ordinea cuantificatorilor poate schimba semnificația propoziției. De exemplu, ∀x∃y P(x,y) nu este echivalent cu ∃y∀x P(x,y).",
+      "cumOEviti": "Analizează fiecare cuantificator în ordinea lor și verifică cum influențează semnificația propoziției."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Cuantificatorul universal ∀ indică valabilitatea pentru toate valorile variabilei.",
+      "Cuantificatorul existențial ∃ indică valabilitatea pentru cel puțin o valoare a variabilei.",
+      "Simbolurile ∀ și ∃ sunt esențiale în formularea propozițiilor logice.",
+      "Ordinea cuantificatorilor poate schimba semnificația unei propoziții."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identifică corect simbolurile ∀ și ∃ în enunțuri.",
+      "Verifică dacă propoziția este adevărată înainte de a aplica cuantificatorul universal.",
+      "Asigură-te că există cel puțin o valoare pentru cuantificatorul existențial.",
+      "Analizează ordinea cuantificatorilor în propozițiile complexe."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Cuantificatorii sunt esențiali în logica matematică și apar frecvent în subiectele de Bac, mai ales în problemele de logică și teoria mulțimilor.",
+    "tipuriCerinte": [
+      "Identificarea cuantificatorilor în enunțuri logice",
+      "Formularea corectă a propozițiilor folosind cuantificatori",
+      "Analiza semnificației propozițiilor în funcție de ordinea cuantificatorilor",
+      "Verificarea adevărului unei propoziții cuantificate"
+    ],
+    "strategie": [
+      "Repetă diferența între ∀ și ∃ prin exemple concrete.",
+      "Antrenează-te în formularea corectă a propozițiilor logice folosind cuantificatori.",
+      "Analizează structura propozițiilor complexe pentru a evita confuzii legate de ordinea cuantificatorilor.",
+      "Verifică întotdeauna dacă propoziția este adevărată înainte de a aplica un cuantificator."
+    ]
+  }
+}

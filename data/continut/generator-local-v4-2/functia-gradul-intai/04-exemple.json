@@ -1,0 +1,94 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Determinarea pantei și a ordonatei la origine",
+      "nivel": "fundament",
+      "enunt": "Se dă funcția f(x) = 3x - 4. Să se determine panta dreptei și ordonata la origine.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea parametrilor a și b",
+          "continut": "Funcția este dată în forma canonică f(x) = ax + b, unde a reprezintă panta dreptei, iar b este ordonata la origine."
+        },
+        {
+          "numar": 2,
+          "titlu": "Extrage parametrii din funcție",
+          "continut": "Din f(x) = 3x - 4, rezultă că a = 3 și b = -4."
+        }
+      ],
+      "raspunsFinal": "Panta dreptei este 3, iar ordonata la origine este -4.",
+      "verificare": "Parametrul a este coeficientul lui x, iar parametrul b este termenul liber. Valorile sunt corect identificate."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Reprezentarea grafică a funcției",
+      "nivel": "standard-bac",
+      "enunt": "Se dă funcția f(x) = -2x + 5. Să se reprezinte grafic funcția.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea punctelor de intersecție cu axe",
+          "continut": "Pentru a reprezenta grafic funcția, se determină intersecțiile cu axele Ox și Oy."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea intersecției cu axa Oy",
+          "continut": "Intersecția cu axa Oy este dată de punctul (0, b), unde b = 5. Deci, punctul este (0, 5)."
+        },
+        {
+          "numar": 3,
+          "titlu": "Calcularea intersecției cu axa Ox",
+          "continut": "Intersecția cu axa Ox se obține rezolvând ecuația -2x + 5 = 0. Rezultă x = 5/2, deci punctul este (5/2, 0)."
+        }
+      ],
+      "raspunsFinal": "Graficul funcției f(x) = -2x + 5 trece prin punctele (0, 5) și (5/2, 0).",
+      "verificare": "Intersecțiile cu axe sunt corect calculate. Graficul este o dreaptă care trece prin aceste puncte."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Determinarea intersecției cu axa Ox",
+      "nivel": "standard-bac",
+      "enunt": "Se dă funcția f(x) = 4x - 8. Să se determine coordonatele punctului de intersecție al graficului cu axa Ox.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Rezolvarea ecuației pentru intersecția cu Ox",
+          "continut": "Pentru a găsi intersecția cu axa Ox, se rezolvă ecuația f(x) = 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea valorii x",
+          "continut": "Rezolvăm ecuația 4x - 8 = 0. Adunăm 8 în ambele părți: 4x = 8. Împărțim la 4: x = 2."
+        }
+      ],
+      "raspunsFinal": "Punctul de intersecție cu axa Ox este (2, 0).",
+      "verificare": "Ecuația a fost rezolvată corect. Valoarea x este 2, deci punctul este (2, 0)."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Interpretarea pantei într-un context practic",
+      "nivel": "avansat",
+      "enunt": "O mașină parcurge o distanță de 10 km în 20 minute. Să se determine viteza medie exprimată ca funcție de timp, și să se interpreteze panta graficului.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Transformarea problemei într-o funcție liniară",
+          "continut": "Viteza medie este constantă, deci se poate exprima ca o funcție de gradul întâi f(t) = vt + d0, unde v este viteza și d0 este distanța inițială."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea pantei (vitezei medii)",
+          "continut": "Distanța parcursă în 20 minute este 10 km. Viteza medie v = distanță / timp = 10 km / 20 min = 0,5 km/min."
+        },
+        {
+          "numar": 3,
+          "titlu": "Interpretarea pantei",
+          "continut": "Panta graficului reprezintă viteza medie. O pantă pozitivă indică o creștere a distanței în funcție de timp."
+        }
+      ],
+      "raspunsFinal": "Viteza medie este 0,5 km/min, iar panta graficului reprezintă această valoare, indicând o creștere constantă a distanței cu timpul.",
+      "verificare": "Calculul vitezei este corect. Interpretarea pantei în contextul problemei este adecvată."
+    }
+  ]
+}

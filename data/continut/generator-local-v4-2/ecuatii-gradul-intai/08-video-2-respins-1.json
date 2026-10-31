@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru rezolvarea ecuațiilor liniare",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a rezolva corect ecuații liniare. Vom învăța cum să aplicăm pașii corecți, să evităm greșelile frecvente și să verificăm soluția obținută.",
+    "scenariu": [
+      "În această lecție, vom analiza regulile de bază pentru rezolvarea ecuațiilor liniare. Acestea sunt esențiale pentru a înțelege cum funcționează metoda de lucru și pentru a evita greșelile comune.",
+      "Prima regulă este că, într-o ecuație, putem aduna sau scădea același număr din ambele părți. Acest lucru menține echilibrul ecuației și ne permite să simplificăm expresiile.",
+      "A doua regulă este că putem înmulți sau împărți ambii termeni cu același număr, dar nu zero. Aceasta este o metodă eficientă pentru a izola variabila x în ecuație.",
+      "Aceste reguli funcționează deoarece păstrează valoarea egalității. Dacă facem aceeași operație în ambele părți, relația rămâne adevărată și soluția nu se schimbă.",
+      "Metoda de lucru implică mai mulți pași: începem prin a izola termenul cu variabilă, apoi adunăm sau scădem termeni pentru a-l simplifica, iar în final împărțim la coeficientul variabilei.",
+      "Să luăm un exemplu concret. Fie ecuația 3x + 5 = 14. În primul pas, scădem 5 din ambele părți: 3x = 9. Apoi împărțim la 3 și obținem x = 3.",
+      "După rezolvare, este important să verificăm soluția în ecuație inițială. Înlocuim x cu 3: 3*3 +5 = 14 → 9+5=14 → 14=14. Așadar, soluția este corectă.",
+      "O greșeală frecventă este să uiteți să adunați același număr în ambele părți. De exemplu, dacă scădem 5 doar din partea stângă, ecuația devine neechilibrată și soluția va fi incorectă.",
+      "Un alt tip de greșeală este să împărțiți doar un termen la coeficientul variabilei. De exemplu, dacă aveți 2x + 4 = 10 și împărțiți doar 2x la 2, veți obține x + 4 = 5, ceea ce este incorect.",
+      "Pentru a evita aceste greșeli, este important să urmați pașii în ordine: simplificați ecuația pas cu pas, folosind regulile de bază, și verificați soluția în final.",
+      "În concluzie, rezolvarea ecuațiilor liniare se bazează pe reguli clare, pași structurați și verificarea finală. Prin respectarea acestor metode, elevii pot obține rezultate corecte și înțelege mai bine mecanismul de lucru.",
+      "Vom reveni în videoclipul următor cu exerciții practice pentru a aplica ceea ce am învățat. Până atunci, asigurați-vă că înțelegeți pașii și regula de bază."
+    ],
+    "ideiDeRetinut": [
+      "Regulile de bază: adunarea/scăderea aceluiași număr în ambele părți.",
+      "Înmulțirea/împărțirea ambilor termeni cu același număr (nu zero).",
+      "Metoda de lucru: izolarea variabilei, simplificare pas cu pas."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: 3x + 5 = 14",
+      "enunt": "Rezolvați ecuația 3x + 5 = 14.",
+      "rezolvareScurta": [
+        "Scădem 5 din ambele părți: 3x = 9.",
+        "Împărțim la 3: x = 3."
+      ],
+      "raspuns": "x = 3"
+    },
+    "verificareRapida": {
+      "intrebare": "Rezolvați ecuația 2x + 4 = 10.",
+      "variante": [
+        "x = 6",
+        "x = 3",
+        "x = 5",
+        "x = 2"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Scădem 4 din ambele părți: 2x = 6. Împărțim la 2: x = 3."
+    }
+  }
+}

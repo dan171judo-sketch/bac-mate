@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Calcularea termenului al treilea al unei progresii geometrice",
+      "nivel": "fundament",
+      "enunt": "Se consideră progresia geometrică (aₙ) cu a₁ = 4 și r = 2. Calculați a₃.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Primul termen al progresiei este a₁ = 4, iar rația r = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general",
+          "continut": "Termenul general al unei progresii geometrice este dat de formula aₙ = a₁ × r^{n-1}. Înlocuim valorile cunoscute: a₃ = 4 × 2^{3-1} = 4 × 2² = 4 × 4 = 16."
+        }
+      ],
+      "raspunsFinal": "a₃ = 16",
+      "verificare": "Calculul este corect, deoarece fiecare termen se obține înmulțind pe cel precedent cu rația. a₂ = 4 × 2 = 8, iar a₃ = 8 × 2 = 16."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Determinarea rației unei progresii geometrice",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră progresia geometrică (aₙ) cu a₁ = 8 și a₂ = 16. Calculați rația r.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Primul termen al progresiei este a₁ = 8, iar al doilea termen este a₂ = 16."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei pentru rație",
+          "continut": "Rația se calculează prin împărțirea unui termen la cel precedent: r = a₂ / a₁ = 16 / 8 = 2."
+        }
+      ],
+      "raspunsFinal": "r = 2",
+      "verificare": "Calculul este corect, deoarece rația este constantă între termenii progresiei. Verificăm: a₂ = a₁ × r = 8 × 2 = 16."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Calcularea unui termen al unei progresii geometrice cu rație negativă",
+      "nivel": "standard-bac",
+      "enunt": "Se consideră progresia geometrică (aₙ) cu a₁ = -3 și r = -2. Calculați a₄.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Primul termen al progresiei este a₁ = -3, iar rația r = -2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general",
+          "continut": "Termenul general al unei progresii geometrice este dat de formula aₙ = a₁ × r^{n-1}. Înlocuim valorile cunoscute: a₄ = -3 × (-2)^{4-1} = -3 × (-2)³ = -3 × (-8) = 24."
+        }
+      ],
+      "raspunsFinal": "a₄ = 24",
+      "verificare": "Calculul este corect, deoarece fiecare termen se obține înmulțind pe cel precedent cu rația. a₂ = -3 × (-2) = 6, a₃ = 6 × (-2) = -12, iar a₄ = -12 × (-2) = 24."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Calcularea termenului al cincilea al unei progresii geometrice cu rație fracționară",
+      "nivel": "avansat",
+      "enunt": "Se consideră progresia geometrică (aₙ) cu a₁ = 16 și r = 1/2. Calculați a₅.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Primul termen al progresiei este a₁ = 16, iar rația r = 1/2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei termenului general",
+          "continut": "Termenul general al unei progresii geometrice este dat de formula aₙ = a₁ × r^{n-1}. Înlocuim valorile cunoscute: a₅ = 16 × (1/2)^{5-1} = 16 × (1/2)⁴ = 16 × 1/16 = 1."
+        }
+      ],
+      "raspunsFinal": "a₅ = 1",
+      "verificare": "Calculul este corect, deoarece fiecare termen se obține înmulțind pe cel precedent cu rația. a₂ = 16 × (1/2) = 8, a₃ = 8 × (1/2) = 4, a₄ = 4 × (1/2) = 2, iar a₅ = 2 × (1/2) = 1."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Interpretarea geometrică a unui sistem compatibil determinat",
+      "nivel": "fundament",
+      "enunt": "Să se analizeze sistemul de ecuații: 2x + y = 4 și x - y = 1. Să se determine dacă sistemul are soluție și să se interpreteze geometric.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a fiecărei ecuații",
+          "continut": "Pentru prima ecuație, 2x + y = 4, se pot găsi două puncte: când x = 0, y = 4; când y = 0, x = 2. Dreapta are ecuația y = -2x + 4.\n\nPentru a doua ecuație, x - y = 1, se pot găsi două puncte: când x = 0, y = -1; când y = 0, x = 1. Dreapta are ecuația y = x - 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea intersecției dintre drepte",
+          "continut": "Dreptele y = -2x + 4 și y = x - 1 se intersectează într-un punct. Pentru a găsi coordonatele acestuia, se rezolvă ecuațiile simultan: -2x + 4 = x - 1 → -3x = -5 → x = 5/3; y = (5/3) - 1 = 2/3."
+        }
+      ],
+      "raspunsFinal": "Sistemul are o soluție unică: (5/3, 2/3). Geometric, reprezintă punctul de intersecție al celor două drepte.",
+      "verificare": "Verificarea se face prin înlocuirea valorilor x și y în ambele ecuații. În prima ecuație: 2*(5/3) + (2/3) = 10/3 + 2/3 = 12/3 = 4. În a doua ecuație: (5/3) - (2/3) = 3/3 = 1."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Interpretarea geometrică a unui sistem incompatibil",
+      "nivel": "standard-bac",
+      "enunt": "Să se analizeze sistemul de ecuații: 2x + y = 4 și 4x + 2y = 8. Să se determine dacă sistemul are soluție și să se interpreteze geometric.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a fiecărei ecuații",
+          "continut": "Pentru prima ecuație, 2x + y = 4, se pot găsi două puncte: când x = 0, y = 4; când y = 0, x = 2. Dreapta are ecuația y = -2x + 4.\n\nPentru a doua ecuație, 4x + 2y = 8, se poate simplifica prin împărțirea la 2: 2x + y = 4. Aceasta este aceeași ecuație ca prima."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea relației dintre drepte",
+          "continut": "Cele două ecuații sunt identice, deci reprezintă aceeași dreaptă. Dreptele coincid, deci sistemul are infinit de multe soluții."
+        }
+      ],
+      "raspunsFinal": "Sistemul este compatibil nedeterminat și are infinit de multe soluții. Geometric, reprezintă două drepte coincidente.",
+      "verificare": "Verificarea se face prin simplificarea a doua ecuație, care devine identică cu prima. Deci, toate perechile (x, y) care satisfac prima ecuație sunt soluții ale sistemului."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Interpretarea geometrică a unui sistem compatibil nedeterminat",
+      "nivel": "standard-bac",
+      "enunt": "Să se analizeze sistemul de ecuații: 2x + y = 4 și 6x + 3y = 12. Să se determine dacă sistemul are soluție și să se interpreteze geometric.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a fiecărei ecuații",
+          "continut": "Pentru prima ecuație, 2x + y = 4, se pot găsi două puncte: când x = 0, y = 4; când y = 0, x = 2. Dreapta are ecuația y = -2x + 4.\n\nPentru a doua ecuație, 6x + 3y = 12, se poate simplifica prin împărțirea la 3: 2x + y = 4. Aceasta este aceeași ecuație ca prima."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea relației dintre drepte",
+          "continut": "Cele două ecuații sunt identice, deci reprezintă aceeași dreaptă. Dreptele coincid, deci sistemul are infinit de multe soluții."
+        }
+      ],
+      "raspunsFinal": "Sistemul este compatibil nedeterminat și are infinit de multe soluții. Geometric, reprezintă două drepte coincidente.",
+      "verificare": "Verificarea se face prin simplificarea a doua ecuație, care devine identică cu prima. Deci, toate perechile (x, y) care satisfac prima ecuație sunt soluții ale sistemului."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Interpretarea geometrică a unui sistem incompatibil",
+      "nivel": "avansat",
+      "enunt": "Să se analizeze sistemul de ecuații: 2x + y = 4 și 2x + y = 5. Să se determine dacă sistemul are soluție și să se interpreteze geometric.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Reprezentarea grafică a fiecărei ecuații",
+          "continut": "Pentru prima ecuație, 2x + y = 4, se pot găsi două puncte: când x = 0, y = 4; când y = 0, x = 2. Dreapta are ecuația y = -2x + 4.\n\nPentru a doua ecuație, 2x + y = 5, se pot găsi două puncte: când x = 0, y = 5; când y = 0, x = 2.5. Dreapta are ecuația y = -2x + 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea relației dintre drepte",
+          "continut": "Cele două drepte au același coeficient unghiular (-2), dar diferite intersecții cu axa Oy (4 și 5). Deci, sunt paralele și nu se intersectează."
+        }
+      ],
+      "raspunsFinal": "Sistemul este incompatibil și nu are soluție. Geometric, reprezintă două drepte paralele care nu au niciun punct comun.",
+      "verificare": "Verificarea se face prin compararea coeficientului unghiular al celor două ecuații. Deoarece sunt egale, dar intersecțiile cu axa Oy sunt diferite, dreptele sunt paralele și nu au soluție."
+    }
+  ]
+}

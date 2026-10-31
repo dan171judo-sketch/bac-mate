@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Rezolvarea ecuațiilor de gradul I",
+  "descriere": "Lectia se concentreaza pe identificarea si rezolvarea ecuatiilor de gradul I cu o necunoscuta.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre mulțimi de numere"
+  ],
+  "obiective": [
+    "Rezolvarea ecuațiilor de gradul I cu o necunoscuta",
+    "Identificarea soluției unei ecuații de gradul I",
+    "Înțelegerea condițiilor pentru care o ecuație are soluție",
+    "Aplicarea metodei de rezolvare în probleme practice"
+  ],
+  "termeniCheie": [
+    "ecuație de gradul I",
+    "necunoscuta",
+    "soluție",
+    "condiții de existență"
+  ]
+}

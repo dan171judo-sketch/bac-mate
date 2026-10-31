@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Definirea și importanța restricției unei funcții",
+  "descriere": "Lectia introduce conceptul de restricție a unei funcții, precum și modul în care aceasta poate fi folosită pentru a analiza comportamentul funcției pe un interval specific.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Înțelegerea domeniului de definiție al unei funcții",
+    "Cunoașterea graficului unei funcții"
+  ],
+  "obiective": [
+    "Definirea restricției unei funcții",
+    "Identificarea domeniului de definiție al restricției unei funcții",
+    "Analizarea rolului restricției în studierea comportamentului funcției",
+    "Aplicarea conceptului de restricție în exemple simple"
+  ],
+  "termeniCheie": [
+    "restricție a unei funcții",
+    "domeniu de definiție",
+    "funcție parțială",
+    "grafic al funcției"
+  ]
+}

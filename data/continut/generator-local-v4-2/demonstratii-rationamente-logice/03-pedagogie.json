@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă demonstrația cu o explicație intuitivă.",
+      "deCeEsteGresit": "Demonstrația trebuie să fie logică și formală, nu doar o justificare intuitivă. O explicație intuitivă poate fi greșită sau incompletă.",
+      "cumOEviti": "Folosește reguli de logică și etape clare în demonstrații."
+    },
+    {
+      "greseala": "Neglijează ipoteza într-o demonstrație.",
+      "deCeEsteGresit": "Ipoteza este esențială pentru a construi raționamentul. Fără ea, demonstrația nu are sens și nu poate fi validată.",
+      "cumOEviti": "Verifică întotdeauna dacă ipoteza este clar enunțată și folosită în etapele următoare."
+    },
+    {
+      "greseala": "Folosește raționamente inductive ca demonstrații riguroase.",
+      "deCeEsteGresit": "Raționamentul inductiv oferă probabilitate, nu certitudine. Demonstrațiile matematice necesită raționamente deductive sau prin analogie corect aplicate.",
+      "cumOEviti": "În contextul demonstrației, folosește doar raționamente deductive sau metode de demonstrație riguroase."
+    },
+    {
+      "greseala": "Neglijează etapa concluziei într-o demonstrație.",
+      "deCeEsteGresit": "Concluzia este esențială pentru a arăta ce s-a demonstrat. Fără ea, raționamentul nu este complet și nu are sens.",
+      "cumOEviti": "Asigură-te că concluzia este clar enunțată și logic derivată din ipoteză."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Demonstrația este o succesiune de raționamente logice care justifică adevărul unei propoziții.",
+      "Raționamentele pot fi deductive, inductive sau prin analogie.",
+      "Logica este esențială în construcția teoremelor matematice.",
+      "Demonstrația trebuie să fie logică și să folosească reguli de inferență."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă ipoteza este clar enunțată în demonstrație.",
+      "Asigură-te că concluzia este logic derivată din etapele anterioare.",
+      "Evită raționamente inductive ca metode de demonstrație riguroasă.",
+      "Folosește reguli de logică pentru a construi raționamente corecte."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Raționamentele logice și demonstrațiile sunt esențiale în matematică, iar aceste competențe sunt cerute frecvent în subiectele de Bac MATE.",
+    "tipuriCerinte": [
+      "Să identifice tipurile de raționamente folosite într-o demonstrație.",
+      "Să definească noțiunea de demonstrație matematică.",
+      "Să exemplifice diferite forme de raționament.",
+      "Să recunoască rolul logicii în construcția unor teoreme."
+    ],
+    "strategie": [
+      "Învață să folosești reguli de logică pentru a construi demonstrații corecte.",
+      "Exersează identificarea tipurilor de raționamente în contextul matematic.",
+      "Verifică întotdeauna etapele unei demonstrații: ipoteză, raționament, concluzie.",
+      "Folosește exemple concrete pentru a înțelege diferența dintre explicație și demonstrație."
+    ]
+  }
+}

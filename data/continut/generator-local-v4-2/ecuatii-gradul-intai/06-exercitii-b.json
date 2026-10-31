@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația 3x + 9 = 0.",
+      "variante": [],
+      "raspunsCorect": "x = -3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu variabilă",
+          "continut": "Scădem 9 din ambele părți ale ecuației: 3x = -9."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Împărțim ambii termeni la 3: x = -9/3 = -3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = -3.",
+      "competenta": "Rezolvarea ecuațiilor liniare de forma ax + b = 0 prin izolarea variabilei.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolvați ecuația -2x + 10 = 0. Alegeți varianta corectă.",
+      "variante": [
+        "x = 5",
+        "x = -5",
+        "x = 10",
+        "x = -10"
+      ],
+      "raspunsCorect": "x = 5",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu variabilă",
+          "continut": "Scădem 10 din ambele părți ale ecuației: -2x = -10."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Împărțim ambii termeni la -2: x = (-10)/(-2) = 5."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = 5.",
+      "competenta": "Rezolvarea ecuațiilor liniare de forma ax + b = 0 și identificarea soluției corecte într-o listă de variante.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația -4x = 12.",
+      "variante": [],
+      "raspunsCorect": "x = -3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Împărțim ambii termeni la -4: x = 12/(-4)."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea rezultatului",
+          "continut": "x = -3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = -3.",
+      "competenta": "Rezolvarea ecuațiilor liniare de forma ax = b prin împărțirea ambilor termeni la a.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolvați ecuația 5x - 15 = 0. Alegeți varianta corectă.",
+      "variante": [
+        "x = 3",
+        "x = -3",
+        "x = 15",
+        "x = -15"
+      ],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu variabilă",
+          "continut": "Adunăm 15 în ambele părți ale ecuației: 5x = 15."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea la coeficientul lui x",
+          "continut": "Împărțim ambii termeni la 5: x = 15/5 = 3."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este x = 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare de forma ax + b = 0 și identificarea soluției corecte într-o listă de variante.",
+      "punctaj": 5
+    }
+  ]
+}

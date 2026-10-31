@@ -1,0 +1,171 @@
+PAGES: 2
+
+========================================
+PAGE 1
+========================================
+
+Ministerul Educației și Cercetării
+Centrul Național pentru Curriculum și Evaluare
+Probă scrisă la matematică M_mate-info Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 1 din 2
+Examenul național de bacalaureat 2026
+Proba E. c)
+Matematică M_mate-info
+Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+ Toate subiectele sunt obligatorii. Se acordă zece puncte din oficiu.
+ Timpul de lucru efectiv este de trei ore.
+SUBIECTUL I (30 de puncte)
+5p 1. Determinați numărul real x pentru care numerele x , 8 și 2 1 x  sunt, în această ordine, termeni
+consecutivi ai unei progresii aritmetice.
+5p 2. Se consideră funcțiile : f  ℝ ℝ ,   2 1 f x x   și : g  ℝ ℝ ,   4 g x x   . Determinați numărul
+real a pentru care    f g a a    .
+5p 3. Rezolvați în mulțimea numerelor reale ecuația  
+5 5
+2log log 4 5 x x   .
+5p 4. Se consideră mulțimea   1,3,5,7,8 A  . Determinați câte numere naturale de două cifre distincte,
+cu cifra zecilor impară, se pot forma cu cifre din mulțimea A .
+5p 5. În reperul cartezian xOy se consideră punctele   0,5 A și   3,4 B . Determinați coordonatele
+punctului C pentru care 3 OC OA OB  
+    
+.
+5p 6. Se consideră triunghiul ABC , cu
+2
+A
+
+ ,
+3
+C
+
+ și 2 AE  , unde E este punctul în care
+bisectoarea unghiului C intersectează latura AB . Arătați că distanța de la punctul B la dreapta CE
+este egală cu 2 3 .
+SUBIECTUL al II-lea (30 de puncte)
+1. Se consideră matricea  
+0 2
+1 1 1
+2 1 2
+a
+A a a
+  
+ 
+ 
+ 
+ 
+
+ 
+și sistemul de ecuații  
+2 4
+1 3
+2 2 5
+ax z
+x y a z
+x y z
+  
+
+    
+
+  
+
+, unde a
+este număr real.
+5p a) Arătați că     det 0 2 A  .
+5p b) Determinați mulțimea numerelor reale a pentru care matricea   A a este inversabilă.
+5p c) Pentru 2 a  , arătați că
+0 0 0
+0 x z y   , pentru orice soluție  
+0 0 0
+, , x y z a sistemului de ecuații, cu
+0
+x ,
+0
+y și
+0
+z numere reale.
+2. Pe mulțimea   1, M   se definește legea de compoziție
+  
+1
+1 1
+xy
+x y
+x y
+
+ 
+ 
+.
+5p a) Arătați că
+7
+3 5
+4
+  .
+5p b) Determinați x M  pentru care 3 x x   .
+5p c) Demonstrați că   2 2 x x    , pentru orice x M  .
+SUBIECTUL al III-lea (30 de puncte)
+1. Se consideră funcția   : 0, f   ℝ ,  
+2
+ln ln f x x x x x    .
+5p a) Arătați că  
+  2 ln
+'
+x x
+f x
+x
+
+ ,   0, x   .
+5p b) Determinați abscisele punctelor situate pe graficul funcției f în care tangenta la graficul funcției
+f este paralelă cu axa Ox .
+5p c) Demonstrați că ecuația   0 f x  are soluție unică.
+
+========================================
+PAGE 2
+========================================
+
+Ministerul Educației și Cercetării
+Centrul Național pentru Curriculum și Evaluare
+Probă scrisă la matematică M_mate-info Model
+Filiera teoretică, profilul real, specializarea matematică-informatică
+Filiera vocațională, profilul militar, specializarea matematică-informatică
+Pagina 2 din 2
+2 . Se consideră funcția : f  ℝ ℝ ,  
+2 2
+2 4 f x x x     .
+5p a) Arătați că  
+ 
+3
+2
+0
+4 3 f x x dx   
+
+.
+5p b) Arătați că
+ 
+5
+2
+0
+1
+2
+x
+dx
+f x x
+
+ 
+
+.
+5p c) Demonstrați că  
+2
+0
+0
+1
+lim 0
+x
+x
+F t dt
+x 
+
+
+, unde : F  ℝ ℝ este primitiva funcției f pentru care
+  0 0 F  .
+

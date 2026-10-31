@@ -1,0 +1,45 @@
+{
+  "video": {
+    "numar": 3,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În această lecție, vom analiza o regulă matematică esențială care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșeli frecvente și pentru a rezolva probleme eficient.",
+    "Elevul trebuie să înțeleagă că această regulă nu este doar o formă de calcul, ci un instrument care îi ajută să gândească logic. Este important ca fiecare pas din rezolvare să fie clar și justificat, pentru a evita confuzii.",
+    "Regula se bazează pe principiul egalității: dacă facem același lucru în ambele părți ale unei ecuații, echilibrul rămâne intact. Acesta este fundamentul matematic al rezolvării problemelor.",
+    "Pentru a aplica această regulă corect, elevul trebuie să știe să identifice ce se cere în problema dată și să-și planifice pașii cu grijă. Este important să nu sari peste niciun pas, chiar dacă pare simplu.",
+    "Vom rezolva un exemplu concret pentru a vedea cum funcționează această regulă. Vom începe prin a scrie ecuația dată și vom analiza fiecare etapă cu atenție.",
+    "În timpul explicației, voi arăta cum se transformă fiecare termen și de ce este important să menținem echilibrul. Acest lucru ajută elevul să înțeleagă nu doar cum se rezolvă problema, ci și de ce se face astfel.",
+    "După ce am rezolvat exemplul, vom verifica dacă răspunsul este corect. Verificarea este o etapă esențială pentru a evita greșeli care pot apărea în procesul de gândire.",
+    "Un lucru important pe care elevul ar putea să-l gresească este să nu respecte egalitatea dintre cele două părți ale ecuației. De exemplu, poate adăuga un termen doar într-o parte și nu în cealaltă, ceea ce duce la răspuns incorect.",
+    "Pentru a evita această greșeală, elevul trebuie să se întrebe mereu: „Ce am făcut într-o parte? Ce trebuie să fac în cealaltă parte?” Acesta este un mod de a-și verifica gândirea în timp real.",
+    "În concluzie, această regulă este o metodologie care îi ajută pe elevi să rezolve probleme matematice cu mai multă claritate și eficiență. Este important să o înțeleagă nu doar ca un set de pași, ci ca o formă de gândire logică.",
+    "Vom recapitula regulile esențiale ale acestei metode pentru a le reține bine. În final, vom face o verificare rapidă pentru a testa înțelegerea și aplicarea corectă a noilor cunoștințe.",
+    "Este important să-ți amintești că matematica nu este doar memorarea formulelor, ci înțelegerea conceptelor. Prin exerciții repetate și verificări riguroase, vei dezvolta un gândire logică și eficientă."
+  ],
+  "ideiDeRetinut": [
+    "Regula egalității este esențială în rezolvarea ecuațiilor.",
+    "Fiecare pas trebuie să fie justificat și să respecte echilibrul matematic.",
+    "Verificarea răspunsului este o etapă crucială pentru a evita greșeli."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare ecuație simplă",
+    "enunt": "Rezolvi ecuația: 2x + 3 = 7.",
+    "rezolvareScurta": [
+      "Scade 3 din ambele părți: 2x = 4.",
+      "Împarte ambii termeni prin 2: x = 2."
+    ],
+    "raspuns": "x = 2"
+  },
+  "verificareRapida": {
+    "intrebare": "Care este soluția ecuației 3x - 1 = 5?",
+    "variante": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 5"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Scade 1 din ambele părți: 3x = 6. Împarte prin 3: x = 2."
+  }
+}

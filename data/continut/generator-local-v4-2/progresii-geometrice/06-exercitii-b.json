@@ -1,0 +1,106 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați aria unui dreptunghi cu lungimea de 6 cm și lățimea de 4 cm.",
+      "variante": [],
+      "raspunsCorect": "24 cm²",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea datelor cunoscute",
+          "continut": "Lungimea dreptunghiului este de 6 cm, iar lățimea de 4 cm."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea formulei ariei dreptunghiului",
+          "continut": "Aria se calculează prin formula A = l × L = 6 × 4 = 24 cm²."
+        }
+      ],
+      "explicatieFinala": "Aria unui dreptunghi este egală cu produsul dintre lungime și lățime.",
+      "competenta": "Calcularea ariei",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care este rezultatul calculului: 18 ÷ (3 + 2) × 4?",
+      "variante": [
+        "12",
+        "9",
+        "7.2",
+        "14"
+      ],
+      "raspunsCorect": "14",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Efectuarea parantezelor",
+          "continut": "(3 + 2) = 5."
+        },
+        {
+          "numar": 2,
+          "titlu": "Efectuarea împărțirii și înmulțirii",
+          "continut": "18 ÷ 5 × 4 = (18 ÷ 5) × 4 = 3.6 × 4 = 14."
+        }
+      ],
+      "explicatieFinala": "În expresii matematice, parantezele se rezolvă înainte de alte operații.",
+      "competenta": "Ordinea operațiilor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația: 3(x + 2) = 15.",
+      "variante": [],
+      "raspunsCorect": "x = 3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezei",
+          "continut": "3x + 6 = 15."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "3x = 15 - 6 → 3x = 9 → x = 3."
+        }
+      ],
+      "explicatieFinala": "Pentru a rezolva o ecuație, se desfac parantezele și se aduc termenii asemenea.",
+      "competenta": "Rezolvarea ecuațiilor",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este valoarea expresiei: (12 - 6) × (4 + 2)?",
+      "variante": [
+        "36",
+        "24",
+        "18",
+        "12"
+      ],
+      "raspunsCorect": "36",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Efectuarea parantezelor",
+          "continut": "(12 - 6) = 6 și (4 + 2) = 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înmulțirea rezultatelor",
+          "continut": "6 × 6 = 36."
+        }
+      ],
+      "explicatieFinala": "În expresii matematice, parantezele se rezolvă înainte de alte operații.",
+      "competenta": "Ordinea operațiilor",
+      "punctaj": 5
+    }
+  ]
+}

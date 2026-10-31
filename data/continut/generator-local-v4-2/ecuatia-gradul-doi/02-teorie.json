@@ -1,0 +1,65 @@
+{
+  "definitii": [
+    {
+      "termen": "ecuație de gradul al II-lea",
+      "definitie": "O ecuație cu o variabilă care se poate scrie sub forma $ ax^2 + bx + c = 0 $, unde $ a \neq 0 $.",
+      "observatie": "Termenul $ ax^2 $ este numit termen de gradul al II-lea."
+    },
+    {
+      "termen": "discriminant",
+      "definitie": "Un număr care se calculează din coeficienții ecuației de gradul al II-lea și indică natura soluțiilor.",
+      "observatie": "Discriminantul este notat cu $ \triangle $ sau $ D $."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Forma generală a ecuației de gradul al II-lea",
+      "explicatie": "O ecuație de gradul al II-lea este o ecuație care are variabila la puterea a doua. Forma sa generală este $ ax^2 + bx + c = 0 $, unde $ a \neq 0 $. Coeficienții $ a $, $ b $ și $ c $ sunt numere reale.",
+      "ideiCheie": [
+        "Forma generală este $ ax^3 + bx + c = 0 $",
+        "Termenul $ ax^2 $ este de gradul al II-lea"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Discriminantul și natura soluțiilor",
+      "explicatie": "Discriminantul unei ecuații de gradul al II-lea se calculează cu formula $ D = b^2 - 4ac $. Semnul discriminantului indică dacă ecuația are soluții reale, complexe sau duble.",
+      "ideiCheie": [
+        "Discriminantul este $ D = b^2 - 4ac $",
+        "Dacă $ D > 0 $, ecuația are două soluții reale distincte"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Metoda completării pătratului",
+      "explicatie": "Această metodă este folosită pentru a rezolva ecuații de gradul al II-lea prin transformarea lor într-o formă echivalentă care poate fi ușor rezolvată. Metoda implică adăugarea și scăderea unui termen adecvat pentru a forma un pătrat perfect.",
+      "ideiCheie": [
+        "Metoda se bazează pe transformarea ecuației într-un pătrat perfect",
+        "Este folosită atunci când coeficienții sunt numere reale"
+      ]
+    }
+  ],
+  "formule": [
+    {
+      "id": "1",
+      "nume": "Forma generală a ecuației de gradul al II-lea",
+      "formula": "$ ax^2 + bx + c = 0 $",
+      "explicatie": "Această formă este folosită pentru a reprezenta orice ecuație de gradul al II-lea.",
+      "conditii": [
+        "$ a \neq 0 $"
+      ],
+      "exempluScurt": "Exemplu: $ 2x^2 + 3x - 5 = 0 $"
+    },
+    {
+      "id": "2",
+      "nume": "Discriminantul ecuației de gradul al II-lea",
+      "formula": "$ D = b^2 - 4ac $",
+      "explicatie": "Discriminantul indică natura soluțiilor ecuației.",
+      "conditii": [
+        "$ a \neq 0 $"
+      ],
+      "exempluScurt": "Exemplu: Pentru $ ax^2 + bx + c = 0 $, $ D = b^2 - 4ac $"
+    }
+  ]
+}

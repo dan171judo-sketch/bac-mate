@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru calcularea valorii unei funcții într-un punct dat",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a calcula valoarea unei funcții într-un punct dat. Vom analiza pașii necesari, vom oferi un exemplu concret și vom verifica dacă elevul a înțeles corect.",
+    "scenariu": [
+      "În acest videoclip, ne concentrăm pe regulile esențiale și metoda de lucru pentru a calcula valoarea unei funcții într-un punct dat. Acest proces este fundamental pentru a înțelege cum funcționează funcțiile matematice.",
+      "Pentru a calcula valoarea unei funcții într-un punct, trebuie să știm ce înseamnă o funcție și cum se definește. O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are un singur corespondent în a doua.",
+      "Când spunem că calculăm valoarea unei funcții într-un punct, ne referim la înlocuirea variabilei x cu o valoare specifică și apoi efectuarea calculelor conform regulilor matematice. Acest lucru este esențial pentru a rezolva exerciții de tipul f(x) = ... și să găsim f(2), f(-1), etc.",
+      "Regula principală este simplă: înlocuim x cu valoarea dată, apoi calculăm expresia pas cu pas. Este important să respectăm ordinea operațiilor și să evităm greșelile comune de calcul.",
+      "De exemplu, dacă avem f(x) = 2x + 3 și vrem să găsim f(4), înlocuim x cu 4: f(4) = 2·4 + 3. Apoi efectuăm înmulțirea și adunarea pentru a obține rezultatul final.",
+      "Metoda de lucru este clară: identificăm funcția, înlocuim x cu valoarea dată, calculăm pas cu pas, verificăm dacă am respectat ordinea operațiilor și obținem răspunsul corect. Această metodologie se aplică pentru orice tip de funcție.",
+      "Este important să ne concentrăm pe fiecare etapă a procesului. De exemplu, în cazul unei funcții cu paranteze sau exponenți, trebuie să respectăm ordinea operațiilor: parantezele, apoi ridicarea la putere, înmulțirea și împărțirea, apoi adunarea și scăderea.",
+      "Vom analiza un exemplu concret. Să presupunem că avem funcția f(x) = 3x² - 2 și vrem să calculăm valoarea pentru x = -1. Înlocuim x cu -1: f(-1) = 3·(-1)² - 2.",
+      "Acum efectuăm calculele pas cu pas. În primul rând, ridicăm -1 la puterea a doua: (-1)² = 1. Apoi înmulțim cu 3: 3·1 = 3. În final scădem 2: 3 - 2 = 1. Deci f(-1) = 1.",
+      "După ce am calculat, este important să verificăm dacă am respectat toate pașii și dacă rezultatul seamănă cu așteptările noastre. În acest caz, răspunsul 1 pare corect, deoarece am folosit reguli matematice corecte.",
+      "O greșeală frecventă este să neglijăm parantezele sau să aplicăm în mod greșit ordinea operațiilor. De exemplu, dacă cineva calculează f(-1) = 3·(-1)² - 2 ca fiind 3·-1 - 2, obține un rezultat incorect.",
+      "Pentru a evita astfel de greșeli, este important să ne concentrăm pe fiecare pas al calculelor și să verificăm dacă am respectat regulile matematice. De asemenea, este util să folosim paranteze pentru a clarifica ordinea operațiilor."
+    ],
+    "ideiDeRetinut": [
+      "Calculul valorii unei funcții într-un punct implică înlocuirea variabilei x cu valoarea dată.",
+      "Este esențial să respectăm ordinea operațiilor pentru a obține un rezultat corect.",
+      "Verificarea pas cu pas este importantă pentru a evita greșelile comune."
+    ],
+    "exemplu": {
+      "titlu": "Calculul valorii funcției f(x) = 3x² - 2 pentru x = -1",
+      "enunt": "Determinați valoarea funcției f(x) = 3x² - 2 pentru x = -1.",
+      "rezolvareScurta": [
+        "Înlocuim x cu -1: f(-1) = 3·(-1)² - 2.",
+        "Calculăm pas cu pas: (-1)² = 1, apoi 3·1 = 3 și 3 - 2 = 1."
+      ],
+      "raspuns": "1"
+    },
+    "verificareRapida": {
+      "intrebare": "Determinați valoarea funcției f(x) = 2x + 3 pentru x = 4.",
+      "variante": [
+        "8",
+        "10",
+        "11",
+        "9"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Înlocuim x cu 4: f(4) = 2·4 + 3 = 8 + 3 = 11."
+    }
+  }
+}

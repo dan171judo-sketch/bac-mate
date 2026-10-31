@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru calcularea valorii unei funcții într-un punct dat",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale, proprietățile și metoda de lucru pentru a calcula valoarea unei funcții într-un punct dat. Vom analiza pașii necesari, vom oferi un exemplu concret și vom verifica dacă elevul a înțeles corect.",
+    "scenariu": [
+      "În acest videoclip, ne concentrăm pe regulile esențiale, proprietățile și metoda de lucru pentru a calcula valoarea unei funcții într-un punct dat. Acesta este un pas fundamental în studiul funcțiilor, iar cunoașterea acestor elemente te ajută să rezolvi exerciții corect și eficient.",
+      "Pentru a calcula valoarea unei funcții într-un punct dat, trebuie să înțelegem ce înseamnă o funcție. O funcție este o relație între două mulțimi, unde fiecare element din prima mulțime are exact un element corespunzător din a doua mulțime.",
+      "În cazul funcțiilor reale, avem o expresie matematică care ne arată cum se obține valoarea funcției pentru orice x. De exemplu, dacă f(x) = 3x + 2, atunci pentru x = 1, valoarea funcției este 5.",
+      "Regula de lucru este simplă: înlocuim variabila x cu valoarea dată și efectuăm calculele. Acest proces se numește evaluarea funcției într-un punct. Este esențial să respectăm ordinea operațiilor și să folosim parantezele dacă este necesar.",
+      "De ce este importantă această regulă? Pentru că ne permite să determinăm valoarea exactă a unei funcții într-un punct specific, ceea ce este util atât pentru rezolvarea problemelor matematice, cât și pentru interpretarea graficului funcției.",
+      "Metoda de lucru implică mai mulți pași: identificăm expresia funcției, înlocuim x cu valoarea dată, efectuăm calculele pas cu pas și verificăm dacă rezultatul este corect. Este important să fie clar fiecare etapă pentru a evita greșelile comune.",
+      "Să luăm un exemplu concret: funcția f(x) = 4x − 7. Vrem să calculăm valoarea funcției în punctul x = 2. Înlocuim x cu 2, obținem f(2) = 4·2 − 7.",
+      "Acum efectuăm operațiile: 4·2 este 8, iar 8 − 7 este 1. Deci, valoarea funcției în punctul x = 2 este 1. Acest rezultat trebuie verificat pentru a evita greșeli de calcul.",
+      "O greșeală frecventă este să nu respectăm ordinea operațiilor sau să uităm un semn negativ. De exemplu, dacă înlocuim x cu -1 în funcția f(x) = 3x + 2, trebuie să facem atenție la semnul minus: f(-1) = 3·(-1) + 2 = -3 + 2 = -1.",
+      "Pentru a evita astfel de greșeli, este important să luăm fiecare pas în mod clar și să verificăm rezultatul la final. De asemenea, este util să folosim parantezele pentru a evidenția operațiile care trebuie efectuate mai întâi.",
+      "Recapitulând: pentru a calcula valoarea unei funcții într-un punct dat, înlocuim variabila x cu valoarea dată și efectuăm calculele pas cu pas. Este esențial să respectăm ordinea operațiilor și să verificăm rezultatul final.",
+      "În concluzie, cunoașterea regulilor de lucru, a proprietăților funcțiilor și a metodei de evaluare într-un punct te ajută să rezolvi exerciții corect și eficient. Practicarea constantă este cheia pentru a înțelege profund această metodă."
+    ],
+    "ideiDeRetinut": [
+      "Înlocuiește x cu valoarea dată.",
+      "Respectă ordinea operațiilor.",
+      "Verifică rezultatul final."
+    ],
+    "exemplu": {
+      "titlu": "Calcularea valorii funcției f(x) = 4x − 7 în punctul x = 2",
+      "enunt": "Fie funcția f: R → R, f(x) = 4x − 7. Calculați valoarea funcției în punctul x = 2.",
+      "rezolvareScurta": [
+        "Înlocuim x cu 2: f(2) = 4·2 − 7.",
+        "Efectuăm calculele: 8 − 7 = 1."
+      ],
+      "raspuns": "1"
+    },
+    "verificareRapida": {
+      "intrebare": "Fie funcția f(x) = 3x + 2. Care este valoarea funcției în punctul x = -1?",
+      "variante": [
+        "-1",
+        "1",
+        "5",
+        "-5"
+      ],
+      "raspunsCorect": 0,
+      "explicatie": "Înlocuim x cu -1: f(-1) = 3·(-1) + 2 = -3 + 2 = -1."
+    }
+  }
+}

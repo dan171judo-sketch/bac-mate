@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundarea simbolurilor ∀ și ∃",
+      "deCeEsteGresit": "Simbolurile sunt diferite și reprezintă concepte distincte: ∀ este pentru toate, iar ∃ este pentru cel puțin una.",
+      "cumOEviti": "Repetă diferența între cele două simboluri într-un tabel sau cu exemple concrete."
+    },
+    {
+      "greseala": "Neglijarea domeniului de valori al variabilei",
+      "deCeEsteGresit": "Cuantificatorii depind de contextul în care sunt folosiți, iar lipsa acestuia poate duce la interpretări greșite.",
+      "cumOEviti": "Întotdeauna specifică domeniul de valori al variabilei înainte de a folosi cuantificatorii."
+    },
+    {
+      "greseala": "Folosirea incorectă a negației cuantificatorilor",
+      "deCeEsteGresit": "Negarea unui cuantificator universal devine un cuantificator existențial și invers, dar această transformare trebuie făcută cu atenție.",
+      "cumOEviti": "Exersează negarea propozițiilor cu cuantificatori folosind exemple simple."
+    },
+    {
+      "greseala": "Interpretarea incorectă a propozițiilor cu cuantificatori în contexte matematice",
+      "de-CEEsteGresit": "Propozițiile matematice pot fi ambigue dacă nu se folosesc corect cuantificatorii, ceea ce poate duce la erori de raționament.",
+      "cumOEviti": "Folosește exemple concrete din matematică pentru a înțelege cum funcționează cuantificatorii."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Cuantificatorul universal ∀ indică valabilitatea unei propoziții pentru toate valorile variabilei.",
+      "Cuantificatorul existențial ∃ indică valabilitatea unei propoziții pentru cel puțin o valoare a variabilei.",
+      "Folosirea corectă a cuantificatorilor este esențială în formularea și interpretarea enunțurilor matematice.",
+      "Negarea unui cuantificator universal devine un cuantificator existențial și invers."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Identifică corect tipul de cuantificator într-o propoziție.",
+      "Specifică întotdeauna domeniul de valori al variabilei.",
+      "Exersează negarea propozițiilor cu cuantificatori.",
+      "Folosește exemple concrete pentru a înțelege utilizarea corectă a cuantificatorilor."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Cuantificatorii sunt o parte esențială a logicii matematice și apar frecvent în subiectele de Bac MATE, mai ales în problemele de logică și teoria mulțimilor.",
+    "tipuriCerinte": [
+      "Identificarea tipului de cuantificator într-o propoziție",
+      "Formularea corectă a unor enunțuri matematice folosind cuantificatori",
+      "Negarea corectă a propozițiilor cu cuantificatori",
+      "Interpretarea logică a unor enunțuri cu cuantificatori"
+    ],
+    "strategie": [
+      "Repetă definițiile și simbolurile cuantificatorilor înainte de examen.",
+      "Exersează negarea propozițiilor cu cuantificatori folosind exemple simple.",
+      "Folosește exerciții din manualele școlare pentru a consolida cunoștințele.",
+      "Verifică întotdeauna dacă domeniul de valori al variabilei este specificat într-o propoziție."
+    ]
+  }
+}

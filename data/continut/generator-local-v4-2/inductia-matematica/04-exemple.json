@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Demonstrarea egalității 1 + 2 + 3 + ... + n = n(n+1)/2",
+      "nivel": "fundament",
+      "enunt": "Demonstrați că pentru orice număr natural n ≥ 1, are loc egalitatea: 1 + 2 + 3 + ... + n = n(n+1)/2.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Pasul de bază",
+          "continut": "Verificăm dacă propoziția este adevărată pentru n = 1. Calculăm: 1 = 1(1+1)/2 → 1 = 2/2 → 1 = 1, deci egalitatea este adevărată."
+        },
+        {
+          "numar": 2,
+          "titlu": "Pasul inductiv",
+          "continut": "Presupunem că propoziția este adevărată pentru un număr natural arbitrar n ≥ 1, adică 1 + 2 + ... + n = n(n+1)/2. Demonstrăm că este adevărată și pentru n+1: 1 + 2 + ... + n + (n+1) = [n(n+1)/2] + (n+1) = [n(n+1) + 2(n+1)] / 2 = [(n+1)(n + 2)] / 2 = (n+1)((n+1)+1)/2, deci egalitatea este adevărată pentru n+1."
+        }
+      ],
+      "raspunsFinal": "Propoziția este adevărată pentru orice număr natural n ≥ 1.",
+      "verificare": "Pasul de bază este corect, iar pasul inductiv demonstrează valabilitatea pentru n+1 folosind ipoteza inductivă."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Demonstrarea egalității 1 + 3 + 5 + ... + (2n-1) = n²",
+      "nivel": "standard-bac",
+      "enunt": "Demonstrați că pentru orice număr natural n ≥ 1, are loc egalitatea: 1 + 3 + 5 + ... + (2n-1) = n².",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Pasul de bază",
+          "continut": "Verificăm dacă propoziția este adevărată pentru n = 1. Calculăm: 1 = 1² → 1 = 1, deci egalitatea este adevărată."
+        },
+        {
+          "numar": 2,
+          "titlu": "Pasul inductiv",
+          "continut": "Presupunem că propoziția este adevărată pentru un număr natural arbitrar n ≥ 1, adică 1 + 3 + ... + (2n-1) = n². Demonstrăm că este adevărată și pentru n+1: 1 + 3 + ... + (2n-1) + (2(n+1)-1) = n² + [2(n+1)-1] = n² + (2n + 2 - 1) = n² + 2n + 1 = (n+1)², deci egalitatea este adevărată pentru n+1."
+        }
+      ],
+      "raspunsFinal": "Propoziția este adevărată pentru orice număr natural n ≥ 1.",
+      "verificare": "Pasul de bază este corect, iar pasul inductiv demonstrează valabilitatea pentru n+1 folosind ipoteza inductivă."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Demonstrarea inegalității 2ⁿ > n² pentru orice număr natural n ≥ 5",
+      "nivel": "standard-bac",
+      "enunt": "Demonstrați că pentru orice număr natural n ≥ 5, are loc inegalitatea: 2ⁿ > n².",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Pasul de bază",
+          "continut": "Verificăm dacă propoziția este adevărată pentru n = 5. Calculăm: 2⁵ = 32 și 5² = 25, deci 32 > 25, inegalitatea este adevărată."
+        },
+        {
+          "numar": 2,
+          "titlu": "Pasul inductiv",
+          "continut": "Presupunem că propoziția este adevărată pentru un număr natural arbitrar n ≥ 5, adică 2ⁿ > n². Demonstrăm că este adevărată și pentru n+1: 2ⁿ⁺¹ = 2·2ⁿ > 2·n². Deoarece n ≥ 5, avem 2·n² > (n+1)² → 2n² > n² + 2n + 1 → n² - 2n - 1 > 0. Pentru n ≥ 5, această inegalitate este adevărată, deci 2ⁿ⁺¹ > (n+1)²."
+        }
+      ],
+      "raspunsFinal": "Propoziția este adevărată pentru orice număr natural n ≥ 5.",
+      "verificare": "Pasul de bază este corect, iar pasul inductiv demonstrează valabilitatea pentru n+1 folosind ipoteza inductivă și o inegalitate auxiliară."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Demonstrarea egalității 1³ + 2³ + ... + n³ = [n(n+1)/2]²",
+      "nivel": "avansat",
+      "enunt": "Demonstrați că pentru orice număr natural n ≥ 1, are loc egalitatea: 1³ + 2³ + ... + n³ = [n(n+1)/2]².",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Pasul de bază",
+          "continut": "Verificăm dacă propoziția este adevărată pentru n = 1. Calculăm: 1³ = [1(1+1)/2]² → 1 = (2/2)² → 1 = 1, deci egalitatea este adevărată."
+        },
+        {
+          "numar": 2,
+          "titlu": "Pasul inductiv",
+          "continut": "Presupunem că propoziția este adevărată pentru un număr natural arbitrar n ≥ 1, adică 1³ + 2³ + ... + n³ = [n(n+1)/2]². Demonstrăm că este adevărată și pentru n+1: 1³ + 2³ + ... + n³ + (n+1)³ = [n(n+1)/2]² + (n+1)³ = [(n+1)²/4][n² + 4(n+1)] = [(n+1)²/4][n² + 4n + 4] = [(n+1)²/4][(n+2)²] = [(n+1)(n+2)/2]², deci egalitatea este adevărată pentru n+1."
+        }
+      ],
+      "raspunsFinal": "Propoziția este adevărată pentru orice număr natural n ≥ 1.",
+      "verificare": "Pasul de bază este corect, iar pasul inductiv demonstrează valabilitatea pentru n+1 folosind ipoteza inductivă și transformarea algebrică."
+    }
+  ]
+}

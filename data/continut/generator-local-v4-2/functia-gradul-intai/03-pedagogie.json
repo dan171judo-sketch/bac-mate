@@ -1,0 +1,57 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă parametrul a cu parametrul b în interpretarea graficului funcției.",
+      "deCeEsteGresit": "Parametrul a reprezintă panta dreptei, iar parametrul b este ordonata la origine. Confuzia între acestea duce la erori în interpretarea graficului și în determinarea intersecțiilor cu axele.",
+      "cumOEviti": "Desenează graficul funcției pas cu pas, identificând mai întâi panta și apoi ordonata la origine."
+    },
+    {
+      "greseala": "Neglijează condiția a ≠ 0 în definirea funcției de gradul întâi.",
+      "deCeEsteGresit": "Dacă a = 0, funcția devine constantă f(x) = b, care nu este o funcție de gradul întâi. Aceasta poate duce la erori în reprezentarea grafică și în interpretarea parametrilor.",
+      "cumOEviti": "Verifică întotdeauna dacă a ≠ 0 înainte de a considera funcția ca fiind de gradul întâi."
+    },
+    {
+      "greseala": "Calculează intersecția cu axa Ox fără a rezolva ecuația ax + b = 0.",
+      "deCeEsteGresit": "Intersecția cu axa Ox se obține prin rezolvarea ecuației ax + b = 0. O metodă greșită poate duce la răspunsuri incorecte sau lipsa de raționament logic.",
+      "cumOEviti": "Rezolvați întotdeauna ecuația ax + b = 0 pentru a găsi intersecția cu axa Ox."
+    },
+    {
+      "greseala": "Interpretează greșit panta dreptei în contextul problemei.",
+      "deCeEsteGresit": "Panta dreptei (parametrul a) indică direcția și rapiditatea creșterii sau scăderii funcției. O interpretare incorectă poate duce la erori în analiza situației concrete.",
+      "cumOEviti": "Analizați semnul și valoarea absolută a lui a pentru a interpreta corect comportamentul funcției."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția de gradul întâi are forma f(x) = ax + b, unde a ≠ 0.",
+      "Graficul funcției este o dreaptă care intersectează axa Oy în punctul (0, b).",
+      "Intersecția cu axa Ox se obține prin rezolvarea ecuației ax + b = 0.",
+      "Parametrul a reprezintă panta dreptei, iar parametrul b este ordonata la origine."
+    ],
+    "formuleDeRetinut": [
+      "f(x) = ax + b",
+      "ax + b = 0"
+    ],
+    "checklistElev": [
+      "Verifică dacă a ≠ 0 înainte de a considera funcția ca fiind de gradul întâi.",
+      "Rezolvă ecuația ax + b = 0 pentru a găsi intersecția cu axa Ox.",
+      "Desenează graficul funcției pas cu pas, identificând panta și ordonata la origine.",
+      "Interpretează corect parametrul a în contextul problemei."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Funcția de gradul întâi este o temă esențială pentru examenul de Bacalaureat, fiind frecvent cerută în subiectele de matematică. Elevii trebuie să fie capabili să identifice forma canonică a funcției, să reprezinte grafic funcția și să interpreteze parametrii.",
+    "tipuriCerinte": [
+      "Identificarea formei canonice a funcției de gradul întâi",
+      "Reprezentarea grafică a funcției f(x) = ax + b",
+      "Determinarea intersecțiilor cu axele de coordonate",
+      "Interpretarea parametrilor a și b în contextul problemei"
+    ],
+    "strategie": [
+      "Învățați formulele esențiale și condițiile lor de aplicare.",
+      "Antrenați-vă la reprezentarea grafică a funcțiilor de gradul întâi.",
+      "Exercați rezolvarea ecuațiilor pentru determinarea intersecțiilor cu axele de coordonate.",
+      "Analizați semnificația parametrilor a și b în contextul problemelor practice."
+    ]
+  }
+}

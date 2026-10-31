@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Introducere în compunerea funcțiilor",
+  "descriere": "Lectia prezintă noțiunea de compunere a funcțiilor și importanța acesteia în studiul matematicii.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Noțiunea de funcție",
+    "Reprezentarea grafică a funcțiilor",
+    "Operații cu funcții"
+  ],
+  "obiective": [
+    "Să definească compunerea funcțiilor",
+    "Să identifice condițiile necesare pentru a compune două funcții",
+    "Să înțeleagă rolul funcțiilor compuse în modelarea realității",
+    "Să folosească notatia f ∘ g pentru a exprima compunerea funcțiilor"
+  ],
+  "termeniCheie": [
+    "Compunere de funcții",
+    "Funcție compusă",
+    "Notatie f ∘ g",
+    "Dominiu de definiție"
+  ]
+}

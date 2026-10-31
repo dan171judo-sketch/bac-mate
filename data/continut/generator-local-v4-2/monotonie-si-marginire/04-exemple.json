@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Monotonie a unei funcții polinomiale",
+      "nivel": "fundament",
+      "enunt": "Fie funcția f: R → R, f(x) = x³ - 3x. Determinați intervalele de monotonie ale funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calculul derivatei funcției",
+          "continut": "Derivata funcției f(x) = x³ - 3x este f’(x) = 3x² - 3."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea semnului derivatei",
+          "continut": "Rezolvăm inecuația 3x² - 3 ≥ 0. Simplificăm prin 3: x² - 1 ≥ 0 ⇒ (x - 1)(x + 1) ≥ 0. Soluția este x ∈ (-∞, -1] ∪ [1, ∞)."
+        }
+      ],
+      "raspunsFinal": "Funcția f este crescătoare pe intervalul (-∞, -1], descrescătoare pe [-1, 1] și din nou crescătoare pe [1, ∞).",
+      "verificare": "Derivata este pozitivă în afara intervalului [-1, 1], deci funcția este crescătoare. În interiorul intervalului derivata este negativă, deci funcția este descrescătoare."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Monotonie a unei funcții rațională",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R \\\\. {1} → R, f(x) = (x + 1)/(x - 1). Determinați intervalele de monotonie ale funcției.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calculul derivatei funcției",
+          "continut": "Folosim regula de derivare a câtului: f’(x) = [(1)(x - 1) - (x + 1)(1)] / (x - 1)² = [x - 1 - x - 1] / (x - 1)² = (-2)/(x - 1)²."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea semnului derivatei",
+          "continut": "Numitorul este întotdeauna pozitiv, deci semnul derivată este dat de numărător: -2 < 0. Deci f’(x) < 0 pentru orice x ∈ R \\\\. {1}."
+        }
+      ],
+      "raspunsFinal": "Funcția f este descrescătoare pe fiecare interval din domeniul de definiție: (-∞, 1) și (1, ∞).",
+      "verificare": "Derivata este întotdeauna negativă, deci funcția este descrescătoare în ambele intervale ale domeniului."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Mărginirea unei funcții trigonometrice",
+      "nivel": "standard-bac",
+      "enunt": "Fie funcția f: R → R, f(x) = 2sinx + 1. Demonstrați că funcția este marginită.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Analiza valorilor funcției sinx",
+          "continut": "Funcția sinx are valori în intervalul [-1, 1], deci 2sinx ∈ [-2, 2]."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea valorilor funcției f(x)",
+          "continut": "Adunând 1 la fiecare valoare din intervalul [-2, 2], obținem că f(x) ∈ [-1, 3]."
+        }
+      ],
+      "raspunsFinal": "Funcția f este marginită pe R, deoarece toate valorile sale se încadrează în intervalul [-1, 3].",
+      "verificare": "Valoarea absolută a funcției este mai mică decât 3, ceea ce demonstrează mărginirea."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Mărginirea unei funcții exponențiale",
+      "nivel": "avansat",
+      "enunt": "Fie funcția f: R → R, f(x) = e^(-x²). Demonstrați că funcția este marginită.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Analiza comportamentului funcției la infinit",
+          "continut": "Când x → ±∞, -x² → -∞, deci e^(-x²) → 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea valorilor maxime ale funcției",
+          "continut": "Funcția e^(-x²) are maximul în x = 0, unde valoarea este e^(0) = 1. Deci f(x) ∈ (0, 1]."
+        }
+      ],
+      "raspunsFinal": "Funcția f este marginită pe R, deoarece toate valorile sale se încadrează în intervalul (0, 1].",
+      "verificare": "Valoarea funcției este întotdeauna pozitivă și mai mică decât 1, ceea ce demonstrează mărginirea."
+    }
+  ]
+}

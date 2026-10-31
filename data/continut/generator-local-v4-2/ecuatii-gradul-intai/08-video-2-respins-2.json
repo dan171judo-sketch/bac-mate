@@ -1,0 +1,47 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "Astăzi vom discuta despre o regulă matematică importantă care se aplică în multe situații. Regula este simplă, dar trebuie înțeleasă corect pentru a evita greșeli frecvente.",
+    "Regula pe care o vom analiza se referă la modul în care se rezolvă problemele de tip ecuație. Este esențial să știm cum să identificăm variabila necunoscută și cum să o izolăm corect.",
+    "Pentru a înțelege mai bine, trebuie să ne amintim că într-o ecuație, toate termenii pot fi mutați de o parte sau de alta cu condiția să schimbăm semnul lor. Acest lucru este valabil atât pentru numere, cât și pentru litere.",
+    "De exemplu, dacă avem 3x + 5 = 14, putem muta 5 din stânga în dreapta, dar trebuie să schimbăm semnul lui. Astfel, ecuația devine 3x = 14 - 5, adică 3x = 9.",
+    "După ce am adus toate termenii la o singură parte, putem rezolva ecuația prin împărțirea ambelor părți la coeficientul variabilei. În exemplul nostru, împărțim ambele părți la 3 și obținem x = 3.",
+    "Este important să verificăm dacă răspunsul este corect înlocuind valoarea găsită în ecuație. Dacă x = 3, atunci 3 * 3 + 5 = 14, ceea ce este adevărat.",
+    "O greșeală frecventă este să nu schimbăm semnul termenului mutat. De exemplu, dacă cineva mută 5 din stânga în dreapta fără să-l schimbe semnul, va obține 3x = 14 + 5, adică 3x = 19, ceea ce este incorect.",
+    "Alta greșeală comună este să nu se împartă corect ambii termeni. Dacă cineva împarte doar unul dintre ei, va obține o soluție falsă. De exemplu, dacă împarte doar 14 la 3, va obține x = 14/3, ceea ce nu este corect.",
+    "Pentru a evita aceste greșeli, este important să ne amintim că într-o ecuație, orice termen mutat trebuie să schimbe semnul și că împărțirea trebuie făcută la toți termenii din partea opusă.",
+    "Un alt aspect important este să știm cum să gestionăm ecuații cu mai multe variabile. În aceste cazuri, trebuie să identificăm variabila care ne interesează și să o izolăm pas cu pas.",
+    "De exemplu, dacă avem 2x + y = 10 și vrem să găsim x, putem muta y în dreapta și obținem 2x = 10 - y. Apoi împărțim la 2 și obținem x = (10 - y)/2.",
+    "Este esențial să verificăm răspunsul înlocuind valoarea găsită în ecuație, indiferent de câte variabile sunt implicate. Acest lucru ne ajută să confirmăm că am rezolvat corect problema.",
+    "În concluzie, regula este simplă: mutăm termenii cu semn schimbat și împărțim la coeficientul variabilei. Verificarea răspunsului este pas esențial pentru a evita greșeli."
+  ],
+  "ideiDeRetinut": [
+    "Termenii mutați trebuie să schimbă semnul.",
+    "Împărțirea trebuie făcută la toți termenii din partea opusă.",
+    "Verificarea răspunsului este esențială.",
+    "Pentru ecuații cu mai multe variabile, identificăm variabila care ne interesează."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare ecuație simplă",
+    "enunt": "Rezolvați ecuația: 4x + 7 = 23.",
+    "rezolvareScurta": [
+      "Mutăm 7 din stânga în dreapta, schimbând semnul: 4x = 23 - 7.",
+      "Calculăm diferența: 23 - 7 = 16."
+    ],
+    "raspuns": "x = 4"
+  },
+  "verificareRapida": {
+    "intrebare": "Rezolvați ecuația: 5x + 3 = 18.",
+    "variante": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 5"
+    ],
+    "raspunsCorect": 0,
+    "explicatie": "Mutăm 3 din stânga în dreapta: 5x = 18 - 3. Calculăm diferența: 18 - 3 = 15. Împărțim la 5: x = 15 / 5 = 3."
+  }
+}

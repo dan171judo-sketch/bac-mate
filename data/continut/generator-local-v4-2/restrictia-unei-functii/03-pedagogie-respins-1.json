@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confundă restricția unei funcții cu imaginea funcției.",
+      "deCeEsteGresit": "Restricția este o funcție parțială, în timp ce imaginea este mulțimea valorilor atinse de funcție. Aceste concepte sunt distincte și nu pot fi confundate.",
+      "cumOEviti": "Rezolvați exerciții care să vă diferențieze între domeniul de definiție, codomeniu și imagine."
+    },
+    {
+      "greseala": "Crede că restricția unei funcții trebuie să aibă același codomeniu ca funcția inițială.",
+      "deCeEsteGresit": "Codomeniul este fixat de definiția funcției, iar restricția nu schimbă acesta. Codomeniul rămâne același, dar domeniul de definiție se restrânge.",
+      "cumOEviti": "Repetați definiția restricției și analizați exemple concrete."
+    },
+    {
+      "greseala": "Crede că orice submulțime a domeniului de definiție poate fi folosită pentru a defini o restricție.",
+      "deceaEsteGresit": "O restricție trebuie să fie o funcție, adică fiecare element din domeniul de definiție al restricției trebuie să aibă o imagine în codomeniu. Nu orice submulțime este acceptabilă dacă nu se respectă această condiție.",
+      "cumOEviti": "Verificați întotdeauna dacă funcția rămâne corect definită pe submulțime."
+    },
+    {
+      "greseala": "Neglijează rolul restricției în studierea comportamentului funcției.",
+      "deCeEsteGresit": "Restricția este folosită pentru a analiza anumite proprietăți ale funcției pe un interval mai mic, cum ar fi monotonie sau extremele. Neglijarea acestui rol poate duce la înțelegere incompletă.",
+      "cumOEviti": "Analizați exemple concrete unde restricția este folosită pentru a studia comportamentul funcției."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Restricția unei funcții este o funcție parțială cu același codomeniu ca funcția inițială.",
+      "Domeniul de definiție al restricției este o submulțime a domeniului de definiție al funcției inițiale.",
+      "Restricția permite analiza comportamentului funcției pe un interval mai mic.",
+      "Funcția parțială este un caz particular de restricție."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificați dacă domeniul de definiție al restricției este o submulțime a domeniului funcției inițiale.",
+      "Asigurați-vă că codomeniul rămâne același ca în funcția inițială.",
+      "Analizați dacă restricția poate fi folosită pentru a studia anumite proprietăți ale funcției.",
+      "Repetați diferența dintre imagine și restricție."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Conceptul de restricție este esențial în analiza funcțiilor, mai ales în contextul studiului comportamentului lor pe intervale. Este frecvent folosit în probleme de tip grafic sau de interpretare a unor proprietăți ale funcției.",
+    "tipuriCerinte": [
+      "Identificarea domeniului de definiție al unei restricții",
+      "Analiza comportamentului funcției pe o submulțime a domeniului de definiție",
+      "Reprezentarea grafică a unei restricții",
+      "Compararea proprietăților funcției cu cele ale restricției"
+    ],
+    "strategie": [
+      "Înțelegeți clar diferența dintre imagine și restricție.",
+      "Repetați definiția restricției și analizați exemple concrete.",
+      "Pentru probleme grafice, identificați domeniul de definiție al restricției din reprezentare.",
+      "Asigurați-vă că înțelegeți cum se schimbă comportamentul funcției pe diferite intervale."
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Rezolvarea sistemelor de ecuații liniare",
+  "descriere": "Lectia introduce conceptul de sistem de ecuații liniare si metodele de rezolvare.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de ecuație liniară cu două necunoscute",
+    "Rezolvarea ecuațiilor liniare într-o variabilă",
+    "Noțiunea de mulțime de soluții"
+  ],
+  "obiective": [
+    "Să definească sistemul de ecuații liniare cu două necunoscute",
+    "Să identifice tipurile de sisteme de ecuații liniare",
+    "Să aplice metoda substituției pentru rezolvarea unui sistem",
+    "Să interpreteze soluția unui sistem în contextul problemei"
+  ],
+  "termeniCheie": [
+    "sistem de ecuații liniare",
+    "metoda substituției",
+    "soluție a sistemului",
+    "ecuație cu două necunoscute"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "inecuatie",
+      "definitie": "O inecuatie este o propozitie care contine o variabila si care exprima o relatie de ordine intre doua expresii algebrice.",
+      "observatie": "Inecuatia poate fi adevarata sau falsa, in functie de valoarea variabilei."
+    },
+    {
+      "termen": "inecuatie de gradul I",
+      "definitie": "O inecuatie de gradul I cu o variabila este o inecuatie care poate fi scrisa sub forma ax + b < 0, ax + b > 0, ax + b ≤ 0 sau ax + b ≥ 0, unde a și b sunt numere reale si a ≠ 0.",
+      "observatie": "Aceasta este forma generala a inecuatiei de gradul I."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea inecuatiilor de gradul I",
+      "explicatie": "O inecuatie de gradul I este o inecuatie care are forma ax + b < 0, ax + b > 0, ax + b ≤ 0 sau ax + b ≥ 0, unde a și b sunt numere reale si a ≠ 0.",
+      "ideiCheie": [
+        "Forma generala este ax + b < 0, ax + b > 0, ax + b ≤ 0 sau ax + b ≥ 0",
+        "a ≠ 0 pentru ca inecuatia sa fie de gradul I"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Rezolvarea inecuatiilor de gradul I",
+      "explicatie": "Pentru a rezolva o inecuatie de gradul I, se aduce termenul cu variabila pe un singur membru si termenii liberi pe celalalt membru. Apoi se imparte prin coeficientul lui x, respectand semnul inecuatiei.",
+      "ideiCheie": [
+        "Se aduc termenii cu variabila la un membru si termenii liberi la altul",
+        "Se imparte prin coeficientul lui x, respectand semnul inecuatiei"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Interpretarea solutiilor pe axa numerelor",
+      "explicatie": "Soluția unei inecuații de gradul I este o mulțime de numere reale care satisfac inecuatia. Aceasta se poate reprezenta grafic pe axa numerelor folosind un interval sau semidreapta.",
+      "ideiCheie": [
+        "Soluția este reprezentata prin interval sau semidreapta",
+        "Se folosește simbolul <, >, ≤ sau ≥ pentru a indica relația de ordine"
+      ]
+    }
+  ],
+  "formule": []
+}

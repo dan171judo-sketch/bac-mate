@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "restricție a unei funcții",
+      "definitie": "O funcție care are același codomeniu ca funcția inițială, dar domeniul de definiție este o submulțime din domeniul de definiție al funcției inițiale.",
+      "observatie": "Restricția unei funcții este o funcție parțială."
+    },
+    {
+      "termen": "funcție parțială",
+      "definitie": "O funcție definită pe o submulțime a domeniului de definiție al altei funcții, cu același codomeniu.",
+      "observatie": "Funcția parțială este un caz particular de restricție."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea restricției unei funcții",
+      "explicatie": "O funcție f: A → B poate avea o restricție la o submulțime C ⊆ A, notată f|C: C → B. Aceasta înseamnă că pentru fiecare x ∈ C, f(x) este același ca și în funcția inițială.",
+      "ideiCheie": [
+        "Restricția se definește pe o submulțime a domeniului de definiție",
+        "Codomeniul rămâne același ca în funcția inițială"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Domeniu de definiție al restricției",
+      "explicatie": "Domeniul de definiție al unei restricții este o submulțime a domeniului de definiție al funcției inițiale. Alegerea acestei submulțimi poate fi determinată de context sau de cerințe specifice ale problemei.",
+      "ideiCheie": [
+        "Domeniul de definiție este o submulțime a domeniului funcției inițiale",
+        "Alegerea domeniului restricției depinde de context"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Rolul restricției în studierea comportamentului funcției",
+      "explicatie": "Restricția unei funcții permite analiza comportamentului acesteia pe un interval mai mic sau mai specific. Acest lucru este util atunci când se dorește studierea unei anumite proprietăți sau a unei aplicații particulare.",
+      "ideiCheie": [
+        "Restricția permite analiza comportamentului funcției pe un domeniu mai restrâns",
+        "Este utilă în studierea particularităților funcției"
+      ]
+    }
+  ],
+  "formule": []
+}

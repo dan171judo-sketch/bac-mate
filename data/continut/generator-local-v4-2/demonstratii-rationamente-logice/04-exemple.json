@@ -1,0 +1,104 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Demonstrația unui enunț simplu folosind raționament deductiv",
+      "nivel": "fundament",
+      "enunt": "Dacă a + b = 5 și a = 2, atunci b = 3.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea ipotezelor",
+          "continut": "Se cunoaște că a + b = 5 și că a = 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de logică",
+          "continut": "Din ipoteza a + b = 5 și a = 2, se deduce că 2 + b = 5. Prin scădere, rezultă că b = 3."
+        }
+      ],
+      "raspunsFinal": "b = 3",
+      "verificare": "Dacă înlocuim a = 2 și b = 3 în ecuația inițială, obținem 2 + 3 = 5, ceea ce este adevărat."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Demonstrația unui enunț folosind raționament prin analogie",
+      "nivel": "standard-bac",
+      "enunt": "Dacă x + y = 10 și x = 4, atunci y = 6.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea ipotezelor",
+          "continut": "Se cunoaște că x + y = 10 și că x = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de logică",
+          "continut": "Din ipoteza x + y = 10 și x = 4, se deduce că 4 + y = 10. Prin scădere, rezultă că y = 6."
+        }
+      ],
+      "raspunsFinal": "y = 6",
+      "verificare": "Dacă înlocuim x = 4 și y = 6 în ecuația inițială, obținem 4 + 6 = 10, ceea ce este adevărat."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Demonstrația unui enunț folosind raționament deductiv cu mai multe pași",
+      "nivel": "standard-bac",
+      "enunt": "Dacă a + b = 7 și a - b = 1, atunci a = 4 și b = 3.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea ipotezelor",
+          "continut": "Se cunoaște că a + b = 7 și că a - b = 1."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea ecuațiilor pentru a elimina variabila b",
+          "continut": "Dacă adunăm cele două ecuații: (a + b) + (a - b) = 7 + 1, obținem 2a = 8."
+        },
+        {
+          "numar": 3,
+          "titlu": "Rezolvarea pentru a",
+          "continut": "Din 2a = 8, rezultă că a = 4."
+        },
+        {
+          "numar": 4,
+          "titlu": "Determinarea valorii lui b",
+          "continut": "Din ecuația a + b = 7 și a = 4, obținem 4 + b = 7. Prin scădere, rezultă că b = 3."
+        }
+      ],
+      "raspunsFinal": "a = 4 și b = 3",
+      "verificare": "Dacă înlocuim a = 4 și b = 3 în ecuațiile inițiale, obținem: 4 + 3 = 7 și 4 - 3 = 1, ceea ce este adevărat."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Demonstrația unui enunț folosind raționament deductiv cu mai multe pași",
+      "nivel": "avansat",
+      "enunt": "Dacă x + y = 12 și x - y = 4, atunci x = 8 și y = 4.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea ipotezelor",
+          "continut": "Se cunoaște că x + y = 12 și că x - y = 4."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea ecuațiilor pentru a elimina variabila y",
+          "continut": "Dacă adunăm cele două ecuații: (x + y) + (x - y) = 12 + 4, obținem 2x = 16."
+        },
+        {
+          "numar": 3,
+          "titlu": "Rezolvarea pentru x",
+          "continut": "Din 2x = 16, rezultă că x = 8."
+        },
+        {
+          "numar": 4,
+          "titlu": "Determinarea valorii lui y",
+          "continut": "Din ecuația x + y = 12 și x = 8, obținem 8 + y = 12. Prin scădere, rezultă că y = 4."
+        }
+      ],
+      "raspunsFinal": "x = 8 și y = 4",
+      "verificare": "Dacă înlocuim x = 8 și y = 4 în ecuațiile inițiale, obținem: 8 + 4 = 12 și 8 - 4 = 4, ceea ce este adevărat."
+    }
+  ]
+}

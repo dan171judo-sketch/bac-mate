@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați $ 3 + 5 \times (2 - 1) $.",
+      "variante": [],
+      "raspunsCorect": "8",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Efectuarea parantezei",
+          "continut": "Calculăm expresia din paranteză: $ 2 - 1 = 1 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Înmulțirea și adunarea",
+          "continut": "Înmulțim rezultatul cu 5: $ 5 \times 1 = 5 $, apoi adăugăm 3: $ 3 + 5 = 8 $."
+        }
+      ],
+      "explicatieFinala": "Rezultatul este 8.",
+      "competenta": "Calcularea expresiilor aritmetice cu paranteze",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați ecuația $ 3x - 7 = 2 $.",
+      "variante": [],
+      "raspunsCorect": "3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu necunoscuta",
+          "continut": "Adăugăm 7 la ambele părți: $ 3x = 2 + 7 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 3",
+          "continut": "Obținem $ x = \frac{9}{3} = 3 $."
+        }
+      ],
+      "explicatieFinala": "Soluția ecuației este 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care este soluția ecuației $ 2x + 4 = 10 $? ",
+      "variante": [
+        "6",
+        "5",
+        "3",
+        "2"
+      ],
+      "raspunsCorect": "3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Isolarea termenului cu necunoscuta",
+          "continut": "Scădem 4 din ambele părți: $ 2x = 10 - 4 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 2",
+          "continut": "Obținem $ x = \frac{6}{2} = 3 $."
+        }
+      ],
+      "explicatieFinala": "Soluția corectă este 3.",
+      "competenta": "Rezolvarea ecuațiilor liniare",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Calculați $ \frac{1}{2} + \frac{3}{4} $.",
+      "variante": [],
+      "raspunsCorect": "\\frac{5}{4}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Aducerea la același numitor",
+          "continut": "Transformăm fracțiile: $ \frac{1}{2} = \frac{2}{4} $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Adunarea fracțiilor",
+          "continut": "Adunăm numărătorii: $ \frac{2}{4} + \frac{3}{4} = \frac{5}{4} $."
+        }
+      ],
+      "explicatieFinala": "Rezultatul este $ \\frac{5}{4} $.",
+      "competenta": "Adunarea fracțiilor",
+      "punctaj": 5
+    }
+  ]
+}

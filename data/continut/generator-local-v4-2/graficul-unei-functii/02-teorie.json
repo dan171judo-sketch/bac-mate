@@ -1,0 +1,51 @@
+{
+  "slug": "graficul-unei-functii",
+  "modul": 2,
+  "numarLectie": 4,
+  "titlu": "Graficul unei funcții",
+  "profil": "M_mate-info",
+  "clasa": null,
+  "numeModul": null,
+  "definitii": [
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Este mulțimea perechilor ordonate (x, f(x)) unde x este din domeniul de definiție al funcției și f(x) este valoarea corespunzătoare.",
+      "observatie": "Graficul unei funcții reprezintă vizual relația dintre variabilă independentă și variabilă dependentă."
+    },
+    {
+      "termen": "punct de pe grafic",
+      "definitie": "Un punct (x, y) aparține graficului funcției f dacă y = f(x).",
+      "observatie": "Punctele de pe grafic sunt determinate de valorile variabilei x și valorile corespunzătoare ale funcției."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția graficului unei funcții",
+      "explicatie": "Graficul unei funcții f: D → R este mulțimea tuturor perechilor (x, y) cu x ∈ D și y = f(x). Acesta se reprezintă în planul cartezian.",
+      "ideiCheie": [
+        "Graficul este o mulțime de puncte din plan",
+        "Fiecare punct are coordonatele (x, f(x))"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a funcțiilor",
+      "explicatie": "Graficul unei funcții se construiește prin reprezentarea în plan a perechilor (x, f(x)). Acesta oferă o imagine vizuală a comportamentului funcției.",
+      "ideiCheie": [
+        "Reprezentarea grafică este esențială pentru interpretarea funcțiilor",
+        "Se folosește planul cartezian pentru reprezentare"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Interpretarea graficului în contextul problemei",
+      "explicatie": "Graficul unei funcții poate fi folosit pentru a interpreta soluțiile unor probleme practice, cum ar fi evoluția unei mărimi în timp sau variația unei cantități în funcție de altă variabilă.",
+      "ideiCheie": [
+        "Graficul oferă informații despre comportamentul funcției",
+        "Se folosește pentru a extrage concluzii practice"
+      ]
+    }
+  ],
+  "formule": []
+}

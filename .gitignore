@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
+.env*
+
+# BAC MATE - generated files
+**/.next/
+**/node_modules/
+*.mp4
+*.zip
+*.tsbuildinfo
+
+# Local temporary files
+/tmp/
+/patch-backups/
+
+# Private environment files
+.env
+.env.*
+!.env.example

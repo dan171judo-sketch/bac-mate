@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 2,
+    "id": "video-2",
+    "titlu": "Reguli, proprietăți și metoda de lucru pentru produsul cartezian",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip vom explora regulile esențiale ale produsului cartezian, cum se aplică acestea în practică și ce metodă de lucru trebuie urmărită pentru a evita greșelile comune. Vom analiza un exemplu concret și vom verifica dacă rezultatul este corect.",
+    "scenariu": [
+      "Produsul cartezian este o noțiune fundamentală în matematică, dar pentru a-l folosi corect, trebuie să cunoaștem regulile și metoda de lucru. În acest videoclip vom analiza cum se construiește un produs cartezian, ce reguli trebuie respectate și cum putem evita greșelile frecvente.",
+      "Pentru a înțelege produsul cartezian, este important să știm că el este format din perechi ordonate. Fiecare element din prima mulțime se perechează cu fiecare element din a doua mulțime. Acest lucru trebuie respectat riguros pentru a obține toate variantele posibile.",
+      "Regula de bază este că, dacă avem două mulțimi, A și B, produsul cartezian A × B conține toate perechile (a, b) unde a ∈ A și b ∈ B. Această regulă este esențială pentru a nu omite niciun element din rezultat.",
+      "De ce este importantă această regulă? Pentru că dacă o ignorăm, putem obține un produs cartezian incomplet, ceea ce duce la erori în calculele ulterioare. De exemplu, dacă uităm să perechez un element dintr-o mulțime cu toate cele din alta, rezultatul va fi greșit.",
+      "Metoda de lucru pentru a construi produsul cartezian este următoarea: începem prin a enumera toate elementele fiecărei mulțimi. Apoi, le perechez pe rând, asigurându-ne că fiecare element din prima mulțime se combină cu fiecare din cea de-a doua.",
+      "Pentru a evita greșelile, este bine să folosim o metodă sistematică. De exemplu, putem scrie toate elementele primei mulțimi într-un colț, iar cele ale celei de-a doua în altul, apoi le combinăm pe rând. Astfel, nu vom omite niciun caz.",
+      "Să luăm un exemplu concret: fie mulțimea A = {1, 2} și mulțimea B = {3, 4}. Produsul cartezian A × B va fi format din perechile (1, 3), (1, 4), (2, 3) și (2, 4). Vom verifica fiecare pas pentru a ne asigura că nu am uitat niciun element.",
+      "În primul pas, enumerăm toate elementele din A: 1 și 2. În al doilea pas, enumerăm cele din B: 3 și 4. Apoi, le perechez pe rând: 1 cu 3, 1 cu 4, 2 cu 3, 2 cu 4. Astfel obținem toate variantele posibile.",
+      "O greșeală frecventă este să uităm să perechez un element dintr-o mulțime cu toate cele din cealaltă. De exemplu, dacă uităm să combinăm 2 cu 3 și 4, vom obține un produs cartezian incomplet.",
+      "Pentru a evita această greșeală, este important să avem o metodă clară de lucru. O soluție eficientă este să folosim o tabelă mentală sau scrisă, unde fiecare element din prima mulțime se combină cu toate cele din cea de-a doua.",
+      "După ce construim produsul cartezian, trebuie să verificăm dacă numărul de perechi este corect. Dacă A are m elemente și B are n, atunci produsul cartezian va avea m × n elemente. În exemplul nostru, 2 × 2 = 4 perechi, ceea ce corespunde cu rezultatul obținut.",
+      "În concluzie, pentru a lucra corect cu produsul cartezian, trebuie să respectăm regulile de construcție, să folosim o metodă sistematică și să verificăm rezultatul. Astfel, vom evita greșelile comune și vom obține un produs cartezian complet."
+    ],
+    "ideiDeRetinut": [
+      "Produsul cartezian este format din toate perechile ordonate dintre elementele a două mulțimi.",
+      "Regula de construcție este: fiecare element din prima mulțime se perechează cu fiecare din cea de-a doua.",
+      "Metoda de lucru implică enumerarea elementelor și combinarea lor pe rând."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Produsul cartezian dintre mulțimile A = {1, 2} și B = {3, 4}",
+      "enunt": "Fie mulțimea A = {1, 2} și mulțimea B = {3, 4}. Calculați produsul cartezian A × B.",
+      "rezolvareScurta": [
+        "Enumerăm elementele mulțimii A: 1 și 2.",
+        "Enumerăm elementele mulțimii B: 3 și 4."
+      ],
+      "raspuns": "{(1, 3), (1, 4), (2, 3), (2, 4)}"
+    },
+    "verificareRapida": {
+      "intrebare": "Câte perechi ordonate conține produsul cartezian A × B dacă A = {a, b} și B = {c, d}?",
+      "variante": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Produsul cartezian A × B are m × n elemente. În acest caz, 2 × 2 = 4 perechi ordonate."
+    }
+  }
+}

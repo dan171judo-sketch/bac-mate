@@ -1,0 +1,22 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Operații de reuniune, intersecție și diferență între mulțimi",
+  "descriere": "Lectia introduce cele trei operații fundamentale cu mulțimi: reuniunea, intersecția și diferența. Se explică semnificația fiecărei operații și se dau exemple simple de aplicare.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoștințe de bază despre mulțimi și elemente"
+  ],
+  "obiective": [
+    "Să definească operațiile de reuniune, intersecție și diferență între mulțimi",
+    "Să identifice elementele care aparțin fiecărei operații",
+    "Să folosească simbolurile specifice pentru fiecare operație",
+    "Să aplice operațiile în rezolvarea unor probleme simple"
+  ],
+  "termeniCheie": [
+    "reuniunea mulțimilor",
+    "intersecția mulțimilor",
+    "diferența mulțimilor",
+    "mulțime vidă"
+  ]
+}

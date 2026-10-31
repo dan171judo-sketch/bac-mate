@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea funcției f(x) = 3x + 2 pentru x = 4.",
+      "variante": [],
+      "raspunsCorect": "14",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Substituim x = 4 în expresia f(x) = 3x + 2: f(4) = 3·4 + 2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul valorii finale",
+          "continut": "f(4) = 12 + 2 = 14."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = 4 este 14.",
+      "competenta": "Calcularea valorii unei funcții liniare într-un punct dat",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați coordonata y a punctului de intersecție al graficului funcției f(x) = 2x + 1 cu axa Oy.",
+      "variante": [],
+      "raspunsCorect": "1",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea punctului de intersecție cu axa Oy",
+          "continut": "Punctul de intersecție cu axa Oy are coordonata x = 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul valorii y corespunzătoare",
+          "continut": "f(0) = 2·0 + 1 = 1."
+        }
+      ],
+      "explicatieFinala": "Punctul de intersecție cu axa Oy are coordonata (0, 1).",
+      "competenta": "Determinarea punctului de intersecție al graficului unei funcții liniare cu axa Oy",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele funcții este constantă?",
+      "variante": [
+        "f(x) = 5x + 2",
+        "g(x) = -3",
+        "h(x) = x + 7",
+        "k(x) = 0"
+      ],
+      "raspunsCorect": "g(x) = -3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea formei unei funcții constante",
+          "continut": "O funcție constantă are forma f(x) = b, unde b este o constantă."
+        },
+        {
+          "numar": 2,
+          "titlu": "Compararea cu variantele oferite",
+          "continut": "Dintre variante, doar g(x) = -3 este de forma f(x) = b."
+        }
+      ],
+      "explicatieFinala": "Funcția constantă este aceea care are forma f(x) = b.",
+      "competenta": "Identificarea unei funcții constante",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați valoarea funcției f(x) = -2x + 7 pentru x = -3.",
+      "variante": [],
+      "raspunsCorect": "13",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Înlocuirea valorii lui x în funcție",
+          "continut": "Substituim x = -3 în expresia f(x) = -2x + 7: f(-3) = -2·(-3) + 7."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calculul valorii finale",
+          "continut": "f(-3) = 6 + 7 = 13."
+        }
+      ],
+      "explicatieFinala": "Valoarea funcției pentru x = -3 este 13.",
+      "competenta": "Calcularea valorii unei funcții liniare într-un punct dat",
+      "punctaj": 5
+    }
+  ]
+}

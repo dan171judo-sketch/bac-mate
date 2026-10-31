@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "șir de numere reale",
+      "definitie": "Un șir de numere reale este o funcție f: N → R, unde N este mulțimea numerelor naturale și R este mulțimea numerelor reale. Termenii șirului sunt valorile funcției f pentru fiecare număr natural n.",
+      "observatie": "Un șir se notează frecvent cu (aₙ), unde aₙ = f(n)."
+    },
+    {
+      "termen": "formula generală",
+      "definitie": "Formula generală a unui șir este o expresie matematică care permite calcularea oricărui termen al șirului, în funcție de poziția sa n în șir.",
+      "observatie": "Aceasta se folosește pentru definirea directă a termenilor unui șir."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definirea șirurilor de numere reale",
+      "explicatie": "Un șir se definește prin asocierea fiecărui număr natural n cu un număr real aₙ. Astfel, fiecare termen al șirului este determinat de poziția sa în ținutul șirului.",
+      "ideiCheie": [
+        "Un șir este o funcție care asociază numere naturale cu numere reale",
+        "Termenii unui șir sunt notati a₁, a₂, ..., aₙ"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Moduri de definire a unui șir",
+      "explicatie": "Un șir poate fi definit prin formula generală, prin recurență sau prin enumerare. Fiecare metodă are propriile particularități și se folosește în funcție de contextul problemei.",
+      "ideiCheie": [
+        "Formula generală permite calcularea oricărui termen al șirului",
+        "Recurența definește un termen în funcție de termeni anteriori"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Clasificarea șirurilor",
+      "explicatie": "În funcție de comportamentul termenilor, șirurile pot fi clasificate în crescătoare, descrescătoare, constante sau alternate. Această clasificare este esențială pentru analiza comportamentului unui șir.",
+      "ideiCheie": [
+        "Un șir crescător are termeni care se măresc cu n",
+        "Un șir constant are toți termenii egali"
+      ]
+    }
+  ],
+  "formule": []
+}

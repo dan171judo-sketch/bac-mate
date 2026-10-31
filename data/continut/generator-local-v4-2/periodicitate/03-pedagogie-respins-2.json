@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea perioadei fundamentale cu o altă perioadă a funcției",
+      "deCeEsteGresit": "Perioada fundamentală este cea mai mică dintre toate perioadele funcției, iar confuzia între ele poate duce la erori în identificarea caracteristicilor funcției.",
+      "cumOEviti": "Reamintiți-vă definiția perioadei fundamentale și verificați dacă valoarea găsită este cea mai mică posibilă."
+    },
+    {
+      "greseala": "Neglijarea condiției T ≠ 0 în definirea funcției periodice",
+      "deCeEsteGresit": "Dacă T = 0, ecuația f(x + T) = f(x) devine trivială și nu reflectă o periodicitate reală a funcției.",
+      "cumOEviti": "Verificați întotdeauna dacă valoarea T este nenulă înainte de a considera că funcția este periodică."
+    },
+    {
+      "greseala": "Creșterea perioadei prin adunare, în loc de înmulțire",
+      "deceaEsteGresit": "Perioada nu se adună, ci se înmulțește cu factori. De exemplu, dacă T este o perioadă, atunci kT, pentru orice k ∈ N*, este și ea o perioadă.",
+      "cumOEviti": "Reamintiți-vă că perioadele sunt multiple ale aceleiași valori fundamentale."
+    },
+    {
+      "greseala": "Creșterea eronată a perioadei prin înmulțire cu un factor negativ",
+      "deCeEsteGresit": "Perioada este un număr real pozitiv, iar înmulțirea cu un factor negativ nu are sens în contextul funcțiilor periodice.",
+      "cumOEviti": "Reamintiți-vă că T trebuie să fie strict pozitiv pentru a fi o perioadă."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția periodică se caracterizează prin repetarea valorilor în intervale egale.",
+      "Perioada este un număr real T ≠ 0 pentru care f(x + T) = f(x).",
+      "O funcție poate avea mai multe perioade, dar perioada fundamentală este cea mai mică dintre ele.",
+      "Periodicitatea este o proprietate esențială în studiul funcțiilor trigonometrice."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă T ≠ 0 înainte de a considera că funcția este periodică.",
+      "Identifică perioada fundamentală ca cea mai mică valoare posibilă.",
+      "Reamintiți-vă că perioadele sunt multiple ale aceleiași valori fundamentale.",
+      "Evitați confuzia între perioadă și alte proprietăți ale funcției."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Periodicitatea este o noțiune esențială în matematică, care apare frecvent în subiectele de Bac MATE. Înțelegerea acesteia permite rezolvarea corectă a problemelor legate de funcții trigonometrice și alte funcții periodice.",
+    "tipuriCerinte": [
+      "Identificarea perioadei fundamentale a unei funcții",
+      "Verificarea dacă o funcție este periodică",
+      "Analiza comportamentului unei funcții periodice într-un interval dat",
+      "Rezolvarea problemelor de tipul f(x + T) = f(x)"
+    ],
+    "strategie": [
+      "Învățați definiția riguroasă a funcției periodice și a perioadei.",
+      "Exercitați identificarea perioadei fundamentale în diverse exemple.",
+      "Reamintiți-vă că T trebuie să fie strict pozitiv și cel mai mic posibil.",
+      "Asociați conceptul de periodicitate cu funcțiile trigonometrice."
+    ]
+  }
+}

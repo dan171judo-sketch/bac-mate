@@ -1,0 +1,121 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva inecuatia: 3x - 5 < 7.",
+      "variante": [],
+      "raspunsCorect": "x < 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea numerelor",
+          "continut": "Adunam 5 la ambele parti: 3x - 5 + 5 < 7 + 5 => 3x < 12."
+        },
+        {
+          "numar": 2,
+          "titlu": "Impartirea prin 3",
+          "continut": "Impartim ambele parti prin 3: x < 4."
+        }
+      ],
+      "explicatieFinala": "Solutia inecuatiei este intervalul deschis (-∞, 4).",
+      "competenta": "Rezolvarea inecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolva inecuatia: 4x + 1 ≥ 3x - 2.",
+      "variante": [
+        "x ≤ -3",
+        "x ≥ -3",
+        "x < -3",
+        "x > -3"
+      ],
+      "raspunsCorect": "x ≥ -3",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Trecerea termenului 3x in stanga",
+          "continut": "Scadem 3x din ambele parti: 4x - 3x + 1 ≥ -2 => x + 1 ≥ -2."
+        },
+        {
+          "numar": 2,
+          "titlu": "Trecerea termenului 1 in dreapta",
+          "continut": "Scadem 1 din ambele parti: x ≥ -3."
+        }
+      ],
+      "explicatieFinala": "Solutia inecuatiei este intervalul inchis [-3, ∞).",
+      "competenta": "Rezolvarea inecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolva inecuatia: 2(x + 1) ≤ 4x - 6.",
+      "variante": [],
+      "raspunsCorect": "x ≥ 4",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezei",
+          "continut": "2x + 2 ≤ 4x - 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Trecerea termenilor in stanga",
+          "continut": "2x + 2 - 4x ≤ -6 => -2x + 2 ≤ -6."
+        },
+        {
+          "numar": 3,
+          "titlu": "Trecerea termenului 2 in dreapta",
+          "continut": "-2x ≤ -8."
+        },
+        {
+          "numar": 4,
+          "titlu": "Impartirea prin -2 (schimbare semn)",
+          "continut": "x ≥ 4."
+        }
+      ],
+      "explicatieFinala": "Solutia inecuatiei este intervalul inchis [4, ∞).",
+      "competenta": "Rezolvarea inecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "avansat",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolva inecuatia: 3(2x - 1) + 4 ≥ 5(x + 2).",
+      "variante": [
+        "x ≤ 7",
+        "x ≥ 7",
+        "x < 7",
+        "x > 7"
+      ],
+      "raspunsCorect": "x ≥ 7",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Desfacerea parantezelor",
+          "continut": "6x - 3 + 4 ≥ 5x + 10 => 6x + 1 ≥ 5x + 10."
+        },
+        {
+          "numar": 2,
+          "titlu": "Trecerea termenilor in stanga",
+          "continut": "6x - 5x + 1 ≥ 10 => x + 1 ≥ 10."
+        },
+        {
+          "numar": 3,
+          "titlu": "Trecerea termenului 1 in dreapta",
+          "continut": "x ≥ 9."
+        }
+      ],
+      "explicatieFinala": "Solutia inecuatiei este intervalul inchis [9, ∞).",
+      "competenta": "Rezolvarea inecuatiilor de gradul I cu o necunoscuta.",
+      "punctaj": 5
+    }
+  ]
+}

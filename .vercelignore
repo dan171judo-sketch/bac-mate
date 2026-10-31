@@ -1,0 +1,13 @@
+# BAC MATE - fisiere video mari excluse din deploy-ul Vercel
+
+public/videos/
+public/video/
+
+# Randari si fisiere video de lucru din radacina proiectului
+*.mp4
+
+# Pipeline Remotion - nu este necesar pentru site-ul public
+video-v2/
+
+# Fisiere temporare / locale
+*.log

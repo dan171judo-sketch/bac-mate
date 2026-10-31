@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "Demonstrație",
+      "definitie": "Este o succesiune de raționamente logice care justifică adevărul unei propoziții matematice, pornind de la ipoteze cunoscute sau demonstrate anterior.",
+      "observatie": "Demonstrația trebuie să fie logică și să folosească reguli de inferență."
+    },
+    {
+      "termen": "Raționament logic",
+      "definitie": "Este un proces de gândire care permite trecerea de la o afirmație cunoscută la alta, pe baza unor reguli de logică.",
+      "observatie": "Raționamentele logice pot fi deductive, inductive sau prin analogie."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Tipuri de raționamente logice",
+      "explicatie": "În matematică se folosesc mai multe tipuri de raționamente, fiecare având rolul său în demonstrarea unor teoreme sau propoziții.",
+      "ideiCheie": [
+        "Raționamentul deductiv este cel mai frecvent folosit în demonstrații matematice.",
+        "Raționamentul inductiv se bazează pe observații particulare pentru a deduce o concluzie generală."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Structura unei demonstrații",
+      "explicatie": "O demonstrație are o structură clară, pornind de la ipoteze și ajungând la concluzii prin raționamente logice.",
+      "ideiCheie": [
+        "Demonstrația începe cu enunțul problemei sau a propoziției de demonstrat.",
+        "Se folosesc reguli de logică pentru a obține concluzii valide."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Rolul logicii în matematică",
+      "explicatie": "Logica este esențială în construcția și validarea teoremelor matematice, oferind un cadru riguros pentru demonstrații.",
+      "ideiCheie": [
+        "Logica permite verificarea corectitudinii raționamentelor folosite în demonstrații.",
+        "Fără logică, nu ar fi posibilă construcția unei matematici riguroase."
+      ]
+    }
+  ],
+  "formule": []
+}

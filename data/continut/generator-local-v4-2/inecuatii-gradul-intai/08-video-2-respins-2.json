@@ -1,0 +1,46 @@
+{
+  "video": {
+    "numar": 2,
+    "durataMinute": 5
+  },
+  "scenariu": [
+    "În acest videoclip, vom discuta despre o regulă matematică esențială care se aplică în multe situații. Regula este simplă, dar foarte utilă pentru a evita greșelile comune și a rezolva exercițiile corect.",
+    "Regula pe care o vom analiza se referă la modul în care trebuie să abordăm anumite tipuri de probleme matematice. Este important ca elevii să înțeleagă nu doar ce spune regula, ci și de ce funcționează astfel.",
+    "Această regulă este folosită frecvent în exercițiile de calcul algebric, dar poate fi aplicată și în alte domenii. De exemplu, în problemele cu ecuații sau în calculele cu fracții, regula ne ajută să găsim soluția corectă.",
+    "Pentru a folosi această regulă, trebuie să știm ce pași urmăm. În primul rând, identificăm problema și stabilim ce se cere. Apoi, aplicăm regula pas cu pas, verificând fiecare etapă pentru a evita greșelile.",
+    "Este important să înțelegem de ce această regulă funcționează. Dacă o folosim corect, putem obține rezultate exacte și rapide. În schimb, dacă aplicăm regula greșit, riscul de erori crește semnificativ.",
+    "Vom începe prin a explica regulile pas cu pas, apoi vom face un exemplu concret care să ilustreze modul în care se aplică. Acesta va fi rezolvat complet și verificat pentru a ne asigura că este corect.",
+    "Exemplul pe care îl vom folosi este o ecuație simplă, dar care implică mai multe pași de calcul. Vom vedea cum se aplică regula în fiecare etapă și cum se obține soluția finală.",
+    "După ce am rezolvat exemplul, vom face o verificare rapidă pentru a ne asigura că răspunsul este corect. Acesta va fi un exercițiu scurt cu patru variante de răspuns, dintre care una este corectă.",
+    "Este posibil ca elevii să comită greșeli frecvente în timpul rezolvării acestui tip de probleme. De exemplu, pot confunda pașii sau să neglijeze o etapă importantă din regula aplicată.",
+    "Pentru a evita aceste greșeli, este esențial să se urmeze pașii exact și să se verifice rezultatul la fiecare etapă. De asemenea, este util să se recapituleze regulile înainte de a începe o nouă problemă.",
+    "În concluzie, această regulă ne ajută să abordăm problemele matematice cu mai multă claritate și eficiență. Prin exerciții repetate și verificări rapide, putem consolida înțelegerea și evita greșelile comune.",
+    "Vom începe acum cu explicația detaliată a regulii, urmată de exemplul concret și de verificarea rapidă pentru a ne asigura că am înțeles toate pașii corect."
+  ],
+  "ideiDeRetinut": [
+    "Regula este esențială pentru rezolvarea corectă a exercițiilor matematice.",
+    "Este important să urmăm pașii exact și să verificăm fiecare etapă.",
+    "Exemplul va fi rezolvat pas cu pas, iar răspunsul va fi verificat.",
+    "Greșelile frecvente pot apărea din neglijarea unui pas sau din confuzie între pași."
+  ],
+  "exemplu": {
+    "titlu": "Rezolvare ecuație simplă",
+    "enunt": "Rezolvi ecuația: 3x + 5 = 14.",
+    "rezolvareScurta": [
+      "Scade 5 din ambele părți: 3x = 9.",
+      "Împarte ambii termeni prin 3: x = 3."
+    ],
+    "raspuns": "x = 3"
+  },
+  "verificareRapida": {
+    "intrebare": "Ce este soluția ecuației 3x + 5 = 14?",
+    "variante": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 5"
+    ],
+    "raspunsCorect": 1,
+    "explicatie": "Dacă înlocuim x cu 3, obținem 3*3 + 5 = 9 + 5 = 14, ceea ce este corect."
+  }
+}

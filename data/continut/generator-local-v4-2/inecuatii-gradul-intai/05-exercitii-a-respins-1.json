@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați inecuația: 5x - 7 < 3.",
+      "variante": [],
+      "raspunsCorect": "Soluția inecuației este intervalul (-∞, 2).",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Adunarea numerelor pe ambele părți",
+          "continut": "Adunăm 7 în ambele părți: 5x - 7 + 7 < 3 + 7 => 5x < 10."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 5",
+          "continut": "Împărțim ambii membri la 5: x < 2."
+        }
+      ],
+      "explicatieFinala": "Soluția inecuației este intervalul (-∞, 2).",
+      "competenta": "Rezolvarea inecuațiilor de gradul întâi cu o variabilă.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați inecuația: -3x + 4 ≥ 10.",
+      "variante": [],
+      "raspunsCorect": "Soluția inecuației este intervalul (-∞, -2].",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea numerelor pe ambele părți",
+          "continut": "Scădem 4 din ambele părți: -3x + 4 - 4 ≥ 10 - 4 => -3x ≥ 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la -3",
+          "continut": "Împărțim ambii membri la -3 și schimbăm semnul inecuației: x ≤ -2."
+        }
+      ],
+      "explicatieFinala": "Soluția inecuației este intervalul (-∞, -2].",
+      "competenta": "Rezolvarea inecuațiilor de gradul întâi cu o variabilă și gestionarea semnului inecuației.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "avansat",
+      "tip": "alegere-multipla",
+      "enunt": "Rezolvați inecuația: -4x + 1 < 7.",
+      "variante": [
+        "(-∞, -1.5)",
+        "(-∞, -1.5]",
+        "(1.5, ∞)",
+        "[-1.5, ∞)"
+      ],
+      "raspunsCorect": "(-∞, -1.5)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea numerelor pe ambele părți",
+          "continut": "Scădem 1 din ambele părți: -4x + 1 - 1 < 7 - 1 => -4x < 6."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la -4",
+          "continut": "Împărțim ambii membri la -4 și schimbăm semnul inecuației: x > -1.5."
+        }
+      ],
+      "explicatieFinala": "Soluția inecuației este intervalul (-∞, -1.5).",
+      "competenta": "Rezolvarea inecuațiilor de gradul întâi cu o variabilă și interpretarea corectă a semnului inecuației.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Rezolvați inecuația: 2x + 3 ≤ 11.",
+      "variante": [],
+      "raspunsCorect": "Soluția inecuației este intervalul (-∞, 4].",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Scăderea numerelor pe ambele părți",
+          "continut": "Scădem 3 din ambele părți: 2x + 3 - 3 ≤ 11 - 3 => 2x ≤ 8."
+        },
+        {
+          "numar": 2,
+          "titlu": "Împărțirea ambelor părți la 2",
+          "continut": "Împărțim ambii membri la 2: x ≤ 4."
+        }
+      ],
+      "explicatieFinala": "Soluția inecuației este intervalul (-∞, 4].",
+      "competenta": "Rezolvarea inecuațiilor de gradul întâi cu o variabilă și interpretarea corectă a semnului inecuației.",
+      "punctaj": 5
+    }
+  ]
+}

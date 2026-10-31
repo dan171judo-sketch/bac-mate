@@ -1,0 +1,54 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Neglijarea pasului de bază în demonstrație",
+      "deCeEsteGresit": "Fără a demonstra că propoziția este adevărată pentru cel mai mic număr natural, nu se poate aplica corect metoda inducției matematice.",
+      "cumOEviti": "Verifică întotdeauna dacă pasul de bază este realizat înainte de a trece la pasul inductiv."
+    },
+    {
+      "greseala": "Aplicarea incorectă a ipotezei inductive",
+      "deCeEsteGresit": "Ipoteza inductivă presupune că propoziția este adevărată pentru un număr arbitrar n, dar elevii o folosesc adesea doar pentru n+1 fără a demonstra legătura logică.",
+      "cumOEviti": "Asigură-te că folosești ipoteza inductivă corect pentru a demonstra propoziția pentru n+1."
+    },
+    {
+      "greseala": "Neglijarea generalizării în pasul inductiv",
+      "deCeEsteGresit": "În pasul inductiv, trebuie să arăți că dacă propoziția este adevărată pentru n, atunci este și adevărată pentru n+1. Neglijarea acestui pas duce la o demonstrație incompletă.",
+      "cumOEviti": "Folosește ipoteza inductivă ca bază pentru a deduce valabilitatea propoziției pentru n+1."
+    },
+    {
+      "greseala": "Aplicarea inducției matematice în cazuri care nu sunt adecvate",
+      "deCeEsteGresit": "Inducția matematică este folosită doar pentru propoziții care depind de un număr natural. Aplicarea ei în alte contexte duce la erori logice.",
+      "cumOEviti": "Verifică dacă propoziția are o dependență clară de un număr natural înainte de a aplica metoda."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Inducția matematică este o metodă de demonstrație folosită pentru propoziții care depind de un număr natural.",
+      "Metoda se bazează pe două pași esențiali: pasul de bază și pasul inductiv.",
+      "Pasul de bază demonstrează adevărul propoziției pentru cel mai mic număr natural.",
+      "Pasul inductiv presupune că propoziția este adevărată pentru n și arată că este adevărată și pentru n+1."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă propoziția are o dependență de un număr natural.",
+      "Demonstrează pasul de bază pentru cel mai mic număr natural.",
+      "Folosește ipoteza inductivă pentru a demonstra valabilitatea propoziției pentru n+1.",
+      "Asigură-te că pasul inductiv este complet și logic."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Inducția matematică este o metodă esențială în demonstrarea unor propoziții complexe, iar în examenul de Bac Matematică, elevii sunt testați în cunoștințele teoretice și aplicative legate de această metodă.",
+    "tipuriCerinte": [
+      "Demonstrarea unei propoziții folosind inducția matematică",
+      "Analiza condițiilor necesare pentru aplicarea metodei",
+      "Identificarea pasului de bază și al pasului inductiv într-o demonstrație",
+      "Rezolvarea unor probleme care implică folosirea inducției matematice"
+    ],
+    "strategie": [
+      "Încearcă întotdeauna să identifici dacă propoziția poate fi demonstrată prin inducție.",
+      "Repetă pașii de bază și inductiv în mod clar și logic.",
+      "Verifică dacă pasul inductiv este complet și se bazează pe ipoteza inductivă.",
+      "Antrenează-te cu exemple simple pentru a înțelege mai bine structura demonstrației."
+    ]
+  }
+}

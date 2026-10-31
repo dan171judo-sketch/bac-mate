@@ -1,0 +1,65 @@
+{
+  "definitii": [
+    {
+      "termen": "negație",
+      "definitie": "O propoziție care afirmă că o altă propoziție este falsă.",
+      "observatie": "Negația unei propoziții se notează cu simbolul ¬."
+    },
+    {
+      "termen": "conjuncție",
+      "definitie": "O propoziție care afirmă că două propoziții sunt adevărate în același timp.",
+      "observatie": "Conjuncția a două propoziții se notează cu simbolul ∧."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Negația unei propoziții",
+      "explicatie": "Negația este o operație logică care transformă o propoziție într-o altă propoziție cu valoare de adevăr opusă. Dacă propoziția inițială este adevărată, negația ei este falsă și invers.",
+      "ideiCheie": [
+        "Negația se notează cu ¬.",
+        "Valoarea de adevăr a negației este opusă celei a propoziției inițiale."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Conjuncția a două propoziții",
+      "explicatie": "Conjuncția este o operație logică care combină două propoziții. Rezultatul este adevărat doar dacă ambele propoziții sunt adevărate, altfel este fals.",
+      "ideiCheie": [
+        "Conjuncția se notează cu ∧.",
+        "Rezultatul conjuncției este adevărat doar atunci când ambele propoziții sunt adevărate."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Disjuncția și implicația",
+      "explicatie": "Disjuncția este o operație logică care combină două propoziții, iar rezultatul este adevărat dacă cel puțin una dintre ele este adevărată. Implicația este o relație între două propoziții în care prima implică cea de-a doua.",
+      "ideiCheie": [
+        "Disjuncția se notează cu ∨.",
+        "Implicația se notează cu → și afirmă că dacă prima propoziție este adevărată, atunci și a doua trebuie să fie adevărată."
+      ]
+    }
+  ],
+  "formule": [
+    {
+      "id": "1",
+      "nume": "Negația unei propoziții",
+      "formula": "¬p",
+      "explicatie": "Reprezintă negația propoziției p.",
+      "conditii": [
+        "p este o propoziție logică."
+      ],
+      "exempluScurt": "Dacă p = '2 + 2 = 4', atunci ¬p = '2 + 2 ≠ 4'."
+    },
+    {
+      "id": "2",
+      "nume": "Conjuncția a două propoziții",
+      "formula": "p ∧ q",
+      "explicatie": "Reprezintă conjuncția dintre p și q.",
+      "conditii": [
+        "p și q sunt propoziții logice."
+      ],
+      "exempluScurt": "Dacă p = '2 + 2 = 4' și q = '3 + 1 = 4', atunci p ∧ q = '2 + 2 = 4 și 3 + 1 = 4'."
+    }
+  ]
+}

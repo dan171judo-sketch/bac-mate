@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "Inducție matematică",
+      "definitie": "Este o metodă de demonstrație folosită pentru a arăta că o propoziție este adevărată pentru toate numerele naturale, începând cu un anumit număr.",
+      "observatie": "Metoda se bazează pe două pași esențiali: pasul de bază și pasul inductiv."
+    },
+    {
+      "termen": "Pasul de bază",
+      "definitie": "Este etapa în care se demonstrează că propoziția este adevărată pentru cel mai mic număr natural din mulțimea considerată.",
+      "observatie": "Această etapă este esențială pentru a începe demonstrația."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Principiul inducției matematice",
+      "explicatie": "Inducția matematică este o metodă de demonstrație care se bazează pe două pași: pasul de bază și pasul in,ductiv. Această metodă este folosită pentru a demonstra propoziții care depind de un număr natural.",
+      "ideiCheie": [
+        "Metoda este valabilă doar pentru mulțimi de numere naturale.",
+        "Este necesar să se demonstreze atât pasul de bază, cât și pasul inductiv."
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Pasul inductiv",
+      "explicatie": "În acest pas, se presupune că propoziția este adevărată pentru un număr natural arbitrar n și se demonstrează că este adevărată și pentru n+1. Acesta este pasul care completează demonstrația.",
+      "ideiCheie": [
+        "Se folosește ipoteza inductivă pentru a demonstra propoziția pentru n+1.",
+        "Este esențial să se arate legătura între cazul general și cazul următor."
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Aplicarea inducției matematice",
+      "explicatie": "Inducția matematică este folosită în demonstrații de tipul: „P(n) este adevărat pentru orice n ≥ k”, unde k este un număr natural. Metoda se aplică în diverse domenii, cum ar fi algebră, teoria numerelor sau combinatorică.",
+      "ideiCheie": [
+        "Metoda este utilă pentru demonstrații recursive sau structurate.",
+        "Este important să se verifice atât pasul de bază, cât și pasul inductiv."
+      ]
+    }
+  ],
+  "formule": []
+}

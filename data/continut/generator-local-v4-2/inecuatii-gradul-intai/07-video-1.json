@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 1,
+    "id": "video-1",
+    "titlu": "Intuitia si intelegerea conceptului matematic",
+    "durataMinute": 4,
+    "descriere": "Video-ul 1 este dedicat intuitiei si intelesului conceptelor matematice. Aici vom explora cum putem aborda o problema matematica in mod natural, folosind intuție și logica, pentru a ne construi un fundament solid în învățare.",
+    "scenariu": [
+      "Începem cu o întrebare simplă: Ce înseamnă să rezolvi o problemă matematică? Multe dintre noi am fost obișnuiți să privim matematica ca o listă de formule și reguli, dar asta nu este corect. Matematica este mai mult decât acestea – este un mod de a gândi.",
+      "Să ne gândim la o problemă reală: O mașină merge dintr-un oraș în altul. Calea are 200 km, iar viteza medie este de 80 km/h. Cât timp durează călătoria? Acest tip de problemă pare simplă, dar este important să înțelegem ce se întâmplă în spatele numerelor.",
+      "Intuitia ne ajută să vedem problema dintr-o perspectivă mai clară. Dacă mergi cu 80 km/h, atunci pentru fiecare oră parcurgi 80 de kilometri. Așadar, dacă ai de parcurs 200 km, înseamnă că ai nevoie de două ore. Dar cum putem să ajungem la această concluzie cu siguranță?",
+      "Răspunsul este în logica matematicii. Viteza este egală cu distanța împărțită la timp. Așadar, dacă vrem să aflăm timpul, trebuie să împărțim distanța la viteza medie. Astfel, 200 km împărțit la 80 km/h ne dă 2 ore.",
+      "Este important să înțelegem de ce această metodă funcționează. Viteza este o măsură a distanței parcurse într-un interval de timp. Prin urmare, dacă împărțim distanța la viteza medie, obținem exact cât timp este nevoie pentru a parcurge acea distanță.",
+      "Pentru a evita greșelile comune, trebuie să verificăm unitățile de măsură. Dacă distanța este în km și viteza este în km/h, atunci rezultatul va fi în ore. Dacă am folosi alte unități, ar trebui să le convertim înainte de a face calculele.",
+      "Să luăm un exemplu concret: O mașină merge cu 60 km/h și parcurge 120 km. Cât timp durează? Împărțim 120 la 60, obținem 2 ore. Acest lucru este clar, dar ce se întâmplă dacă viteza este mai mică?",
+      "Dacă viteza este de 40 km/h, atunci timpul va fi 3 ore. De aceea, este important să înțelegem că când viteza scade, timpul crește proporțional. Acest lucru ne ajută să avem o intuiție mai bună asupra relației dintre distanță, viteză și timp.",
+      "O greșeală frecventă este să împărțim viteza la distanță în loc de invers. De exemplu, dacă cineva face 120 km la 60 km/h, poate confunda rezultatul cu 0.5 ore în loc de 2. Acest lucru se întâmplă pentru că nu se înțelege bine relația dintre cele două mărimi.",
+      "Pentru a evita astfel de greșeli, este util să folosim o metodă paș cu paș. În primul rând, identificăm ce ne cere problema: timpul. Apoi, verificăm ce date avem: distanța și viteza. După aceea, aplicăm formula corectă.",
+      "În concluzie, învățarea matematicii nu este doar memorarea formulelor, ci înțelegerea conceptelor de bază. Prin intuiție și logica, putem rezolva probleme complexe cu ușurință.",
+      "Așadar, începem prin a ne gândi la problema dintr-o perspectivă intuitivă, apoi aplicăm regulile matematice corect. Astfel, putem construi un fundament solid pentru învățare."
+    ],
+    "ideiDeRetinut": [
+      "Matematica este o metodă de gândire, nu doar o listă de formule.",
+      "Înțelegerea conceptelor este mai importantă decât memorarea regulilor.",
+      "Verificarea unităților de măsură este esențială pentru evitarea greșelilor."
+    ],
+    "exemplu": {
+      "titlu": "Calculul timpului de călătorie",
+      "enunt": "O mașină parcurge 200 km cu o viteză medie de 80 km/h. Cât durează călătoria?",
+      "rezolvareScurta": [
+        "Viteza = Distanța / Timp",
+        "Timp = Distanța / Viteza"
+      ],
+      "raspuns": "2 ore"
+    },
+    "verificareRapida": {
+      "intrebare": "O mașină parcurge 150 km cu o viteză de 50 km/h. Cât durează călătoria?",
+      "variante": [
+        "2 ore",
+        "3 ore",
+        "4 ore",
+        "5 ore"
+      ],
+      "raspunsCorect": 1,
+      "explicatie": "Timpul se calculează prin împărțirea distanței la viteza medie: 150 / 50 = 3 ore."
+    }
+  }
+}

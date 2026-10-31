@@ -1,0 +1,44 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție",
+      "definitie": "O funcție este o relație între două mulțimi A și B, astfel încât fiecare element din mulțimea A are exact un element corespunzător în mulțimea B.",
+      "observatie": "Într-o funcție, fiecare element din domeniul de definiție (A) este asociat cu un singur element din imagine (B)."
+    },
+    {
+      "termen": "domeniu de definiție",
+      "definitie": "Domeniul de definiție al unei funcții este mulțimea tuturor valorilor posibile pe care le poate lua variabila independentă (x).",
+      "observatie": "Aceasta reprezintă toate valorile pentru care funcția are sens."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Definiția funcției",
+      "explicatie": "O funcție este o corespondență între două mulțimi, A și B, în care fiecare element din A are un singur element corespunzător din B. Aceasta se notează f: A → B.",
+      "ideiCheie": [
+        "O funcție este o relație între două mulțimi",
+        "Fiecare element din A are exact un element în B"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Imagina funcției",
+      "explicatie": "Imaginea unei funcții este mulțimea tuturor valorilor obținute prin aplicarea funcției asupra elementelor din domeniul de definiție. Se notează f(A) sau Im(f).",
+      "ideiCheie": [
+        "Imaginea funcției este formată din valorile obținute prin aplicarea funcției",
+        "Se notează f(A) sau Im(f)"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Reprezentarea grafică a unei funcții",
+      "explicatie": "Graficul unei funcții este mulțimea de puncte (x, f(x)) din planul cartezian, unde x aparține domeniului de definiție al funcției.",
+      "ideiCheie": [
+        "Graficul este format din perechi ordonate (x, f(x))",
+        "Se reprezintă în sistemul de coordonate carteziene"
+      ]
+    }
+  ],
+  "formule": []
+}

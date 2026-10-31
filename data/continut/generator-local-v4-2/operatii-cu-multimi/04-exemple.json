@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Reuniunea a două mulțimi",
+      "nivel": "fundament",
+      "enunt": "Fie mulțimile A = {1, 2, 3} și B = {2, 3, 4}. Calculați reuniunea mulțimilor A și B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea elementelor din fiecare mulțime",
+          "continut": "Mulțimea A conține elementele {1, 2, 3}, iar mulțimea B conține elementele {2, 3, 4}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Combinarea elementelor fără repetare",
+          "continut": "Reuniunea include toate elementele din A și B, dar fiecare element apare o singură dată. Astfel, reuniunea este {1, 2, 3, 4}."
+        }
+      ],
+      "raspunsFinal": "{1, 2, 3, 4}",
+      "verificare": "Elementele 1, 2, 3 și 4 aparțin fiecărei mulțimi. Elementele 2 și 3 sunt comune, dar se includ o singură dată în reuniune."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Intersecția a două mulțimi",
+      "nivel": "fundament",
+      "enunt": "Fie mulțimile A = {1, 2, 3} și B = {2, 4, 5}. Calculați intersecția mulțimilor A și B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea elementelor din fiecare mulțime",
+          "continut": "Mulțimea A conține elementele {1, 2, 3}, iar mulțimea B conține elementele {2, 4, 5}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Identificarea elementelor comune",
+          "continut": "Elementul comun între A și B este doar 2. Deci, intersecția este mulțimea {2}."
+        }
+      ],
+      "raspunsFinal": "{2}",
+      "verificare": "Elementul 2 apare în ambele mulțimi, deci aparține intersecției. Alte elemente nu sunt comune."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Diferența dintre două mulțimi",
+      "nivel": "standard-bac",
+      "enunt": "Fie mulțimile A = {1, 2, 3, 4} și B = {2, 3}. Calculați diferența dintre A și B.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea elementelor din fiecare mulțime",
+          "continut": "Mulțimea A conține elementele {1, 2, 3, 4}, iar mulțimea B conține elementele {2, 3}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Eliminarea elementelor comune din A",
+          "continut": "Diferența dintre A și B este mulțimea formată din elementele care aparțin lui A dar nu aparțin lui B. Astfel, diferența este {1, 4}."
+        }
+      ],
+      "raspunsFinal": "{1, 4}",
+      "verificare": "Elementele 1 și 4 aparțin mulțimii A, dar nu aparțin mulțimii B. Deci, sunt incluse în diferența dintre A și B."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Operații multiple cu mulțimi",
+      "nivel": "avansat",
+      "enunt": "Fie mulțimile A = {1, 2, 3}, B = {2, 3, 4} și C = {3, 4, 5}. Calculați reuniunea intersecției dintre A și B cu mulțimea C.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea intersecției dintre A și B",
+          "continut": "Intersecția dintre A și B este {2, 3}."
+        },
+        {
+          "numar": 2,
+          "titlu": "Calcularea reuniunii dintre rezultatul anterior și mulțimea C",
+          "continut": "Reuniunea dintre {2, 3} și {3, 4, 5} este {2, 3, 4, 5}."
+        }
+      ],
+      "raspunsFinal": "{2, 3, 4, 5}",
+      "verificare": "Intersecția dintre A și B este {2, 3}, iar reuniunea cu C include toate elementele din ambele mulțimi fără repetare."
+    }
+  ]
+}

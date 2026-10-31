@@ -1,0 +1,84 @@
+{
+  "exempleRezolvate": [
+    {
+      "id": "exemplu-1",
+      "titlu": "Rezolvarea unei ecuații de gradul al II-lea cu discriminant pozitiv",
+      "nivel": "fundament",
+      "enunt": "Rezolvați ecuația $ 2x^2 + 3x - 5 = 0 $.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea discriminantului",
+          "continut": "Discriminantul se calculează cu formula $ D = b^2 - 4ac $. Înlocuim valorile: $ a = 2, b = 3, c = -5 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea naturii soluțiilor",
+          "continut": "Calculăm $ D = 3^2 - 4 \times 2 \times (-5) = 9 + 40 = 49 $. Deoarece $ D > 0 $, ecuația are două soluții reale distincte."
+        }
+      ],
+      "raspunsFinal": "Soluțiile sunt $ x_1 = \frac{-3 + \text{sqrt}(49)}{2 \times 2} = \frac{-3 + 7}{4} = 1 $ și $ x_2 = \frac{-3 - 7}{4} = -\frac{5}{2} $.",
+      "verificare": "Verificați dacă valorile îndeplinesc ecuația: $ 2(1)^2 + 3(1) - 5 = 0 $ și $ 2(-\frac{5}{2})^2 + 3(-\frac{5}{2}) - 5 = 0 $."
+    },
+    {
+      "id": "exemplu-2",
+      "titlu": "Rezolvarea unei ecuații de gradul al II-lea cu discriminant zero",
+      "nivel": "standard-bac",
+      "enunt": "Rezolvați ecuația $ x^2 - 4x + 4 = 0 $.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea discriminantului",
+          "continut": "Discriminantul se calculează cu formula $ D = b^2 - 4ac $. Înlocuim valorile: $ a = 1, b = -4, c = 4 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea naturii soluțiilor",
+          "continut": "Calculăm $ D = (-4)^2 - 4 \times 1 \times 4 = 16 - 16 = 0 $. Deoarece $ D = 0 $, ecuația are o singură soluție reală."
+        }
+      ],
+      "raspunsFinal": "Soluția este $ x = \frac{-(-4)}{2 \times 1} = \frac{4}{2} = 2 $.",
+      "verificare": "Verificați dacă valoarea îndeplinește ecuația: $ (2)^2 - 4(2) + 4 = 0 $."
+    },
+    {
+      "id": "exemplu-3",
+      "titlu": "Rezolvarea unei ecuații de gradul al II-lea cu discriminant negativ",
+      "nivel": "standard-bac",
+      "enunt": "Rezolvați ecuația $ x^2 + 2x + 5 = 0 $.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Calcularea discriminantului",
+          "continut": "Discriminantul se calculează cu formula $ D = b^2 - 4ac $. Înlocuim valorile: $ a = 1, b = 2, c = 5 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea naturii soluțiilor",
+          "continut": "Calculăm $ D = 2^2 - 4 \times 1 \times 5 = 4 - 20 = -16 $. Deoarece $ D < 0 $, ecuația are două soluții complexe conjugate."
+        }
+      ],
+      "raspunsFinal": "Soluțiile sunt $ x_{1,2} = \frac{-2 \text{ ± } i\text{sqrt}(16)}{2} = -1 \text{ ± } 2i $.",
+      "verificare": "Verificați dacă valorile îndeplinesc ecuația: $ (-1 + 2i)^2 + 2(-1 + 2i) + 5 = 0 $."
+    },
+    {
+      "id": "exemplu-4",
+      "titlu": "Rezolvarea unei ecuații de gradul al II-lea folosind metoda completării pătratului",
+      "nivel": "avansat",
+      "enunt": "Rezolvați ecuația $ x^2 + 6x + 5 = 0 $ folosind metoda completării pătratului.",
+      "pasi": [
+        {
+          "numar": 1,
+          "titlu": "Completarea pătratului",
+          "continut": "Pentru a completa pătratul, adăugăm și scădem $ \frac{b^2}{4} $. Înlocuim valorile: $ a = 1, b = 6, c = 5 $."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Transformăm ecuația în forma $ (x + 3)^2 - 4 = 0 $. Apoi rezolvăm $ (x + 3)^2 = 4 $, obținând soluțiile $ x_1 = -1 $ și $ x_2 = -5 $."
+        }
+      ],
+      "raspunsFinal": "Soluțiile sunt $ x_1 = -1 $ și $ x_2 = -5 $.",
+      "verificare": "Verificați dacă valorile îndeplinesc ecuația: $ (-1)^2 + 6(-1) + 5 = 0 $ și $ (-5)^2 + 6(-5) + 5 = 0 $."
+    }
+  ]
+}

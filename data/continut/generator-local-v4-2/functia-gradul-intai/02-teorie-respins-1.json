@@ -1,0 +1,37 @@
+{
+  "definitii": [
+    {
+      "termen": "funcție de gradul întâi",
+      "definitie": "O funcție f: R → R definită prin f(x) = ax + b, unde a și b sunt numere reale, iar a ≠ 0.",
+      "observatie": "Parametrul 'a' se numește panta dreptei, iar 'b' este ordonata la origine."
+    },
+    {
+      "termen": "grafic al funcției",
+      "definitie": "Mulțimea punctelor (x, f(x)) din planul cartezian, unde x ∈ R și f(x) = ax + b.",
+      "observatie": "Graficul unei funcții de gradul întâi este o dreaptă."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Forma canonică a funcției de gradul întâi",
+      "explicatie": "Funcția de gradul întâi se scrie sub forma f(x) = ax + b, unde 'a' este coeficientul de proporționalitate și 'b' este termenul liber. Această formă permite ușor identificarea parametrilor.",
+      "ideiCheie": [
+        "Forma canonică este f(x) = ax + b",
+        "Parametrii a și b sunt numere reale, cu a ≠ 0"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Reprezentarea grafică a funcției de gradul întâi",
+      "explicatie": "Graficul funcției f(x) = ax + b este o dreaptă în plan. Dreapta intersectează axa Oy în punctul (0, b), iar panta dreptei este dată de valoarea lui 'a'.",
+      "ideiCheie": [
+        "Graficul este o dreaptă",
+        "Intersecția cu axa Oy este (0, b)"
+      ]
+    },
+    {
+      " ": "explicatie”: "
+    }
+  ]
+}

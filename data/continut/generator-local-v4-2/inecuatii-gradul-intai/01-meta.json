@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Rezolvarea inecuațiilor de gradul I cu o variabilă",
+  "descriere": "Lectia introduce conceptul de inecuatie de gradul I si metodele de rezolvare.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea operațiilor cu numere reale",
+    "Înțelegerea conceptului de inegalitate",
+    "Rezolvarea ecuațiilor de gradul I"
+  ],
+  "obiective": [
+    "Să definească inecuația de gradul I cu o variabilă",
+    "Să identifice forma generală a unei inecuații de gradul I",
+    "Să rezolve inecuații de gradul I în mulțimea numerelor reale",
+    "Să interpreteze soluțiile inecuațiilor pe axa numerelor"
+  ],
+  "termeniCheie": [
+    "inecuatie",
+    "inecuatie de gradul I",
+    "solutie",
+    "mulțime de solutii"
+  ]
+}

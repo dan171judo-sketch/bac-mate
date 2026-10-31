@@ -1,0 +1,101 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-5",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Reprezentați pe axa numerelor mulțimea A = {x ∈ ℝ | -2 ≤ x < 3}.",
+      "variante": [],
+      "raspunsCorect": "A = [-2, 3)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea intervalului corespunzător condiției",
+          "continut": "Condiția -2 ≤ x < 3 indică un interval închis la stânga și deschis la dreapta."
+        },
+        {
+          "numar": 2,
+          "titlu": "Reprezentarea pe axa numerelor",
+          "continut": "Pe axa numerelor, se marchează punctul -2 cu un cercul închis și punctul 3 cu un cerc deschis, iar segmentul dintre ei este trasat."
+        }
+      ],
+      "explicatieFinala": "Mulțimea A este reprezentată ca interval închis la stânga și deschis la dreapta pe axa numerelor.",
+      "competenta": "Reprezentarea mulțimilor de numere reale pe axa numerelor folosind notatia intervalului.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-6",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați mulțimea A = {x ∈ ℝ | x² - 4x + 3 ≤ 0}.",
+      "variante": [],
+      "raspunsCorect": "A = [1, 3]",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Factorizarea inecuației",
+          "continut": "Inecuația x² - 4x + 3 ≤ 0 se factorizează în (x - 1)(x - 3) ≤ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Determinarea intervalelor de semn",
+          "continut": "Rezolvând inecuația, obținem soluția x ∈ [1, 3]."
+        }
+      ],
+      "explicatieFinala": "Inecuația este verificată prin factorizare și analiza semnului produsului, rezultând intervalul [1, 3].",
+      "competenta": "Rezolvarea inecuațiilor de gradul al doilea folosind metoda factorizării.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-7",
+      "nivel": "fundament",
+      "tip": "alegere-multipla",
+      "enunt": "Care dintre următoarele mulțimi este interval deschis?",
+      "variante": [
+        "A = [-1, 2]",
+        "B = (-3, 5)",
+        "C = [0, ∞)",
+        "D = (-∞, 4]"
+      ],
+      "raspunsCorect": "B = (-3, 5)",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea intervalului deschis",
+          "continut": "Intervalul deschis este acela în care ambele capete sunt marcate cu paranteze rotunde."
+        },
+        {
+          "numar": 2,
+          "titlu": "Verificarea variantelor",
+          "continut": "Varianta B = (-3, 5) este singura mulțime cu ambele capete deschise."
+        }
+      ],
+      "explicatieFinala": "Intervalul deschis este acela în care extremitățile nu aparțin mulțimii.",
+      "competenta": "Identificarea tipurilor de intervale (închise, deschise, semiînchise).",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-8",
+      "nivel": "standard-bac",
+      "tip": "raspuns-scurt",
+      "enunt": "Determinați mulțimea A = {x ∈ ℝ | x² - 2|x| + 1 ≤ 0}.",
+      "variante": [],
+      "raspunsCorect": "A = {1, -1}",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Analiza expresiei cu modul",
+          "continut": "Expresia x² - 2|x| + 1 poate fi scrisă ca (|x| - 1)² ≤ 0."
+        },
+        {
+          "numar": 2,
+          "titlu": "Rezolvarea ecuației",
+          "continut": "Pentru a avea un pătrat mai mic sau egal cu zero, trebuie ca |x| - 1 = 0 ⇒ |x| = 1 ⇒ x = ±1."
+        }
+      ],
+      "explicatieFinala": "Expresia este o pătratică în |x|, care are soluții doar pentru valori absolute egale cu 1.",
+      "competenta": "Rezolvarea ecuațiilor cu modul prin transformare în expresii algebrice.",
+      "punctaj": 5
+    }
+  ]
+}

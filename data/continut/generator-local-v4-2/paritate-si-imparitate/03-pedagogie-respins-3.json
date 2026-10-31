@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea simetriei față de axa OY cu simetria față de origine",
+      "deCeEsteGresit": "Funcțiile pare au simetrie față de axa OY, iar funcțiile impare au simetrie față de origine. Confuzia poate duce la erori în identificarea parității unei funcții.",
+      "cumOEviti": "Rezervați timp pentru a desena graficul funcției și să verificați simetria corespunzătoare."
+    },
+    {
+      "greseala": "Neglijarea verificării domeniului de definiție",
+      "deCeEsteGresit": "Pentru ca o funcție să fie pară sau impară, trebuie să avem -x ∈ D pentru orice x ∈ D. Neglijarea acestui lucru poate duce la concluzii greșite.",
+      "cumOEviti": "Înainte de a verifica paritatea, asigurați-vă că domeniul de definiție este simetric față de origine."
+    },
+    {
+      "greseala": "Aplicarea condiției f(-x) = -f(x) pentru funcții pare",
+      "deCeEsteGresit": "Această condiție este specifică funcțiilor impare. Aplicarea ei pentru funcții pare duce la concluzii incorecte.",
+      "cumOEviti": "Rețineți că funcțiile pare satisfac f(-x) = f(x), iar funcțiile impare satisfac f(-x) = -f(x)."
+    },
+    {
+      "grese,ala": "Considerarea unei funcții ca fiind pară sau impară fără a verifica toate valorile din domeniu",
+      "deCeEsteGresit": "Paritatea trebuie verificată pentru orice x ∈ D. Verificarea doar pentru câteva valori poate duce la concluzii eronate.",
+      "cumOEviti": "Verificați paritatea pentru mai multe valori din domeniu, până când sunteți sigur."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Funcția pară este simetrică față de axa OY.",
+      "Funcția impară este simetrică față de origine.",
+      "Pentru a fi pară, funcția trebuie să satisfacă f(-x) = f(x).",
+      "Pentru a fi impară, funcția trebuie să satisfacă f(-x) = -f(x)."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verificați dacă domeniul de definiție este simetric față de origine.",
+      "Aplicați condiția corespunzătoare pentru paritate (f(-x) = f(x) sau f(-x) = -f(x)).",
+      "Verificați pentru mai multe valori din domeniu, nu doar pentru câteva.",
+      "Desenați graficul funcției și verificați simetria corespunzătoare."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Paritatea unei funcții este o noțiune esențială în matematică, care apare frecvent în subiectele de Bac. Înțelegerea acesteia permite identificarea rapidă a proprietăților funcțiilor și simplificarea calculelor.",
+    "tipuriCerinte": [
+      "Determinarea parității unei funcții",
+      "Identificarea simetriei graficului funcției",
+      "Analiza unui exemplu de funcție pară sau impară"
+    ],
+    "strategie": [
+      "Rețineți definițiile și observațiile legate de paritate.",
+      "Verificați întotdeauna domeniul de definiție înainte de a aplica condițiile de paritate.",
+      "Desenați graficul funcției pentru a vă ajuta în identificarea simetriei.",
+      "Antrenați-vă cu exerciții variate pentru a consolida cunoștințele."
+    ]
+  }
+}

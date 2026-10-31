@@ -1,0 +1,96 @@
+{
+  "exercitii": [
+    {
+      "id": "exercitiu-1",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie p = '4 este un număr par' și q = '5 este un număr impar'. Să se formeze negația propoziției p ∧ q.",
+      "variante": [],
+      "raspunsCorect": "¬(p ∧ q) = '4 nu este un număr par sau 5 nu este un număr impar'.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției compuse",
+          "continut": "Propoziția p ∧ q este o conjuncție, deci negația ei va folosi regula de negație pentru conjuncție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de negație",
+          "continut": "Regula de negație pentru conjuncție este ¬(p ∧ q) = ¬p ∨ ¬q, deci rezultă '4 nu este un număr par sau 5 nu este un număr impar'."
+        }
+      ],
+      "explicatieFinala": "Negația unei propoziții compuse prin conjuncție se obține prin negarea fiecărei componente și conectarea lor cu 'sau'.",
+      "competenta": "Înțelegerea regulilor de negație pentru propoziții compuse.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-2",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie p = '3 este un număr prim' și q = '4 este un număr par'. Să se formeze negația propoziției p ∧ q.",
+      "variante": [],
+      "raspunsCorect": "¬(p ∧ q) = '3 nu este un număr prim sau 4 nu este un număr par'.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției compuse",
+          "continut": "Propoziția p ∧ q este o conjuncție, deci negația ei va folosi regula de negație pentru conjuncție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de negație",
+          "continut": "Regula de negație pentru conjuncție este ¬(p ∧ q) = ¬p ∨ ¬q, deci rezultă '3 nu este un număr prim sau 4 nu este un număr par'."
+        }
+      ],
+      "explicatieFinala": "Negația unei propoziții compuse prin conjuncție se obține prin negarea fiecărei componente și conectarea lor cu 'sau'.",
+      "competenta": "Înțelegerea regulilor de negație pentru propoziții compuse.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-3",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie p = '2 este un număr par' și q = '7 este un număr prim'. Să se formeze negația propoziției p ∧ q.",
+      "variante": [],
+      "raspunsCorect": "¬(p ∧ q) = '2 nu este un număr par sau 7 nu este un număr prim'.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției compuse",
+          "continut": "Propoziția p ∧ q este o conjuncție, deci negația ei va folosi regula de negație pentru conjuncție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de negație",
+          "continut": "Regula de negație pentru conjuncție este ¬(p ∧ q) = ¬p ∨ ¬q, deci rezultă '2 nu este un număr par sau 7 nu este un număr prim'."
+        }
+      ],
+      "explicatieFinala": "Negația unei propoziții compuse prin conjuncție se obține prin negarea fiecărei componente și conectarea lor cu 'sau'.",
+      "competenta": "Înțelegerea regulilor de negație pentru propoziții compuse.",
+      "punctaj": 5
+    },
+    {
+      "id": "exercitiu-4",
+      "nivel": "fundament",
+      "tip": "raspuns-scurt",
+      "enunt": "Fie p = '6 este un număr par' și q = '9 este un număr impar'. Să se formeze negația propoziției p ∧ q.",
+      "variante": [],
+      "raspunsCorect": "¬(p ∧ q) = '6 nu este un număr par sau 9 nu este un număr impar'.",
+      "rezolvare": [
+        {
+          "numar": 1,
+          "titlu": "Identificarea propoziției compuse",
+          "continut": "Propoziția p ∧ q este o conjuncție, deci negația ei va folosi regula de negație pentru conjuncție."
+        },
+        {
+          "numar": 2,
+          "titlu": "Aplicarea regulii de negație",
+          "continut": "Regula de negație pentru conjuncție este ¬(p ∧ q) = ¬p ∨ ¬q, deci rezultă '6 nu este un număr par sau 9 nu este un număr impar'."
+        }
+      ],
+      "explicatieFinala": "Negația unei propoziții compuse prin conjuncție se obține prin negarea fiecărei componente și conectarea lor cu 'sau'.",
+      "competenta": "Înțelegerea regulilor de negație pentru propoziții compuse.",
+      "punctaj": 5
+    }
+  ]
+}

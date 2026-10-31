@@ -1,0 +1,53 @@
+{
+  "greseliFrecvente": [
+    {
+      "greseala": "Confunderea termenului de ecuație liniară cu cea de ecuație de gradul al doilea",
+      "deCeEsteGresit": "Ecuațiile liniare nu conțin termeni cu variabile în putere mai mare decât prima, în timp ce ecuațiile de gradul al doilea includ termeni cu variabile la puterea a doua.",
+      "cumOEviti": "Verifică dacă toate termenii din ecuație au variabile doar la puterea I."
+    },
+    {
+      "greseala": "Neglijarea verificării soluției în ambele ecuații",
+      "deCeEsteGresit": "O soluție trebuie să fie comună pentru toate ecuațiile din sistem, deci este esențial să se verifice în fiecare ecuație.",
+      "cumOEviti": "După găsirea unei soluții, substituie valorile în ambele ecuații și verifică dacă sunt adevărate."
+    },
+    {
+      "greseala": "Aplicarea metodei substituției fără a exprima o necunoscută dintr-o ecuație",
+      "deCeEsteGresit": "Metoda substituției necesită exprimarea unei variabile în funcție de cealaltă, deci lipsa acestei pași duce la erori.",
+      "cumOEviti": "Începe întotdeauna prin a exprima o necunoscută dintr-o ecuație și apoi substituie în cealaltă."
+    },
+    {
+      "greseala": "Interpretarea greșită a soluției ca fiind doar un punct de intersecție",
+      "dețiEsteGresit": "Soluția reprezintă perechea (x, y) care satisface ambele ecuații, nu doar punctul de intersecție al graficelor.",
+      "cumOEviti": "Folosește soluția pentru a răspunde la întrebările din contextul problemei."
+    }
+  ],
+  "rezumat": {
+    "ideiDeRetinut": [
+      "Un sistem de ecuații liniare este format din două ecuații cu două necunoscute.",
+      "Soluția unui sistem este perechea (x, y) care verifică ambele ecuații.",
+      "Metoda substituției implică exprimarea unei variabile în funcție de cealaltă și substituirea în cealaltă ecuație.",
+      "Soluția trebuie să fie comună pentru toate ecuațiile din sistem."
+    ],
+    "formuleDeRetinut": [],
+    "checklistElev": [
+      "Verifică dacă ecuațiile sunt liniare înainte de a le rezolva.",
+      "Exprimă o necunoscută dintr-o ecuație și substituie în cealaltă.",
+      "Verifică soluția în ambele ecuații.",
+      "Interpretează soluția în contextul problemei."
+    ]
+  },
+  "legaturaCuBac": {
+    "importanta": "Sistemele de ecuații liniare sunt o parte esențială a programului pentru Bacalaureat, fiind cerute frecvent în subiectele de matematică.",
+    "tipuriCerinte": [
+      "Rezolvarea unui sistem de două ecuații liniare cu două necunoscute",
+      "Interpretarea soluției în contextul problemei",
+      "Identificarea tipului de sistem (compatibil, incompatibil etc.)"
+    ],
+    "strategie": [
+      "Învață pașii metodei substituției și aplică-i sistematic.",
+      "Verifică întotdeauna soluția în ambele ecuații.",
+      "Antrenează-te să identifici tipurile de sisteme liniare.",
+      "Asociază soluțiile cu contextul problemei pentru a evita greșelile de interpretare."
+    ]
+  }
+}

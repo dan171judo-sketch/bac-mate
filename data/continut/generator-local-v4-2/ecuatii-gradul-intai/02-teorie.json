@@ -1,0 +1,55 @@
+{
+  "definitii": [
+    {
+      "termen": "ecuație de gradul I",
+      "definitie": "O ecuație care poate fi scrisă sub forma ax + b = 0, unde a și b sunt numere reale, iar x este necunoscuta.",
+      "observatie": "Numărul a se numește coeficientul necunoscutei, iar b este termenul liber."
+    },
+    {
+      "termen": "necunoscuta",
+      "definitie": "Variabila care trebuie determinată în cadrul unei ecuații.",
+      "observatie": "Necunoscuta se notează de obicei cu x, dar poate fi și alte litere."
+    }
+  ],
+  "teorie": [
+    {
+      "id": "1",
+      "titlu": "Forma generală a unei ecuații de gradul I",
+      "explicatie": "O ecuație de gradul I cu o necunoscută are forma ax + b = 0, unde a ≠ 0. Ecuația se poate transforma într-o formă echivalentă prin adunare sau scădere a aceluiași număr din ambele părți.",
+      "ideiCheie": [
+        "Forma generală este ax + b = 0, cu a ≠ 0",
+        "Transformarea ecuației se face prin operatii echivalente"
+      ]
+    },
+    {
+      "id": "2",
+      "titlu": "Soluția unei ecuații de gradul I",
+      "explicatie": "O ecuație de gradul I are o singură soluție, x = -b/a, dacă a ≠ 0. Dacă a = 0 și b ≠ 0, ecuația nu are soluție. Dacă a = 0 și b = 0, ecuația este identică (oricare ar fi x).",
+      "ideiCheie": [
+        "Soluția se calculează cu formula x = -b/a",
+        "Ecuația poate avea o soluție, niciuna sau infinite soluții"
+      ]
+    },
+    {
+      "id": "3",
+      "titlu": "Condiții de existență pentru soluție",
+      "explicatie": "Pentru ca o ecuație de gradul I să aibă soluție, coeficientul necunoscutei (a) trebuie să fie diferit de zero. Dacă a = 0, atunci ecuația devine b = 0 sau b ≠ 0, caz în care se decide dacă are sau nu soluție.",
+      "ideiCheie": [
+        "Condiția pentru soluție este a ≠ 0",
+        "Dacă a = 0, ecuația devine o egalitate sau inegalitate"
+      ]
+    }
+  ],
+  "formule": [
+    {
+      "id": "1",
+      "nume": "Soluția ecuației de gradul I",
+      "formula": "x = -\\frac{b}{a}",
+      "explicatie": "Această formulă dă soluția unei ecuații de forma ax + b = 0, unde a ≠ 0.",
+      "conditii": [
+        "a ≠ 0"
+      ],
+      "exempluScurt": "Pentru ecuația 2x + 4 = 0, soluția este x = -2."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "video": {
+    "numar": 4,
+    "id": "video-4",
+    "titlu": "Strategii pentru negația propozițiilor compuse – greseli frecvente și verificare rapidă",
+    "durataMinute": 5,
+    "descriere": "În acest videoclip, vom analiza o cerință de tip Bac care implică negarea unei propoziții compuse. Vom explica strategia de abordare, vom identifica greșelile frecvente și vom oferi un exemplu clar pentru a înțelege cum să rezolvi corect această cerință.",
+    "scenariu": [
+      "În pregătirea pentru examenul de Bac, este esențial să înțelegem cum să abordăm cerințele care implică negarea propozițiilor compuse. Aceste tipuri de exerciții sunt frecvente și pot fi dificile dacă nu se aplică corect regulile logice.",
+      "Prima etapă este să identificăm ce fel de propoziție avem în fața noastră – o disjuncție, o conjuncție sau o negație. În această lecție, vom analiza un caz specific: negarea unei propoziții compuse prin disjuncție.",
+      "Regula de negare pentru o propoziție de tip p ∨ q este ¬(p ∨ q) = ¬p ∧ ¬q. Adică, negația unei disjuncții devine o conjuncție a negațiilor fiecărui termen.",
+      "De ce funcționează această regulă? Pentru că o propoziție compusă prin „sau” este falsă doar atunci când ambele componente sunt false. Deci, pentru a nega-o, trebuie să afirmăm că ambele componente sunt false.",
+      "Pentru a aplica această regulă în practică, elevul trebuie să identifice fiecare componentă a propoziției și să le neghe individual, apoi să le unească cu „și”.",
+      "Să luăm un exemplu concret: „7 este un număr impar sau 9 este un număr par”. Acesta este o disjuncție. Pentru a nega-o corect, trebuie să negăm fiecare parte și să le legăm cu „și”.",
+      "Negarea lui „7 este un număr impar” este „7 nu este un număr impar”, iar negarea lui „9 este un număr par” este „9 nu este un număr par”. Deci, negația completă este: „7 nu este un număr impar și 9 nu este un număr par”.",
+      "O greșeală frecventă este să se neghe doar o parte a propoziției sau să se folosească în loc de „și” cuvântul „sau”. Acest lucru duce la răspunsuri incorecte, mai ales în cazurile în care cerința este strict logică.",
+      "Un alt tip de greșeală este negarea unei componente fără a respecta structura propoziției. De exemplu, dacă cineva neghe doar „7 este un număr impar” și păstrează partea cu 9, răspunsul devine incorect.",
+      "Pentru a evita aceste greșeli, elevul trebuie să se concentreze pe identificarea corectă a tipului de propoziție și să respecte exact regula de negare. Este important să verifice dacă răspunsul are sens logic.",
+      "În timpul examenului, este util să folosești o strategie rapidă: identifică tipul propoziției, aplica regulă de negare, verifică dacă răspunsul are sens și corespunde cerinței.",
+      "Recomandarea finală este să anticipezi greșelile prin exerciții repetate și să te familiarizezi cu structurile logice comune în cerințele de tip Bac."
+    ],
+    "ideiDeRetinut": [
+      "Negația unei disjuncții devine o conjuncție a negațiilor componentelor.",
+      "Este esențial să identifici corect tipul propoziției pentru a aplica regula de negare.",
+      "Verificarea logică este pasul final pentru a evita greșelile frecvente."
+    ],
+    "exemplu": {
+      "titlu": "Exemplu: Negația unei disjuncții",
+      "enunt": "'7 este un număr impar sau 9 este un număr par'",
+      "rezolvareScurta": [
+        "Identifică tipul propoziției: disjuncție (sau).",
+        "Aplică regula de negare: ¬(p ∨ q) = ¬p ∧ ¬q."
+      ],
+      "raspuns": "'7 nu este un număr impar și 9 nu este un număr par'"
+    },
+    "verificareRapida": {
+      "intrebare": "Care este negația propoziției: '7 este un număr impar sau 9 este un număr par'?",
+      "variante": [
+        "'7 nu este un număr impar sau 9 nu este un număr par'",
+        "'7 este un număr impar și 9 este un număr par'",
+        "'7 nu este un număr impar și 9 nu este un număr par'",
+        "'7 este un număr impar sau 9 nu este un număr par'"
+      ],
+      "raspunsCorect": 2,
+      "explicatie": "Negația unei disjuncții (sau) este o conjuncție a negațiilor fiecărei componente. Deci, răspunsul corect este: '7 nu este un număr impar și 9 nu este un număr par'."
+    }
+  }
+}

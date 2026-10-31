@@ -1,0 +1,24 @@
+{
+  "clasa": "Clasa a IX-a",
+  "subtitlu": "Noțiuni de paritate și imparitate în funcții",
+  "descriere": "Lectia introduce conceptele de paritate și imparitate pentru funcții, precum și modul de verificare al acestora.",
+  "nivelPrincipal": "fundament",
+  "durataEstimataMinute": 25,
+  "prerechizite": [
+    "Cunoașterea noțiunii de funcție",
+    "Cunoașterea operațiilor cu funcții",
+    "Cunoașterea graficului unei funcții"
+  ],
+  "obiective": [
+    "Definirea conceptelor de funcție pară și impară",
+    "Identificarea simetriei graficului funcției față de axa OY sau origine",
+    "Aplicarea definițiilor pentru a determina paritatea unei funcții",
+    "Interpretarea rezultatelor în contextul problemei"
+  ],
+  "termeniCheie": [
+    "funcție pară",
+    "funcție impară",
+    "simetrie față de axa OY",
+    "simetrie față de origine"
+  ]
+}
