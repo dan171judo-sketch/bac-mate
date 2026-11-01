@@ -74,10 +74,7 @@ export function getLessonVideoMedia(
   const durations: Record<string, number> = bunnyDurations;
   const durationSeconds = durations[videoId];
 
-  const videoUrl =
-    `/videos/module-${moduleNumber}` +
-    `/lesson-${pad(lessonNumber)}` +
-    `/video-${videoNumber}.mp4`;
+  const videoUrl = `https://ujkqlrgbpfihubbusttq.supabase.co/storage/v1/object/public/bac-mate-videos/module-${moduleNumber}/lesson-${pad(lessonNumber)}/video-${videoNumber}.mp4`;
 
   return {
     videoUrl,
