@@ -577,7 +577,7 @@ export default function LectieUniversala({
       {/* HEADER */}
 
       <header className="relative z-10 border-b border-emerald-400/10 bg-[#071511]/90 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-5 md:px-8">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-3 py-3 sm:gap-4 sm:px-5 sm:py-5 md:px-8">
           <a
             href="/programa"
             className="group flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-bold text-emerald-50/65 transition hover:bg-emerald-400/5 hover:text-white"
@@ -605,10 +605,10 @@ export default function LectieUniversala({
         </div>
       </header>
 
-      <div className="relative z-10 mx-auto max-w-5xl px-5 py-10 md:px-8 md:py-14">
+      <div className="relative z-10 mx-auto max-w-5xl px-4 py-6 sm:px-5 sm:py-10 md:px-8 md:py-14">
         {/* HERO */}
 
-        <section className="relative overflow-hidden rounded-[32px] border border-emerald-400/15 bg-gradient-to-br from-[#0b241b] via-[#0a1b16] to-[#24170f] p-6 shadow-2xl shadow-black/20 md:p-9">
+        <section className="relative overflow-hidden rounded-[24px] border border-emerald-400/15 bg-gradient-to-br from-[#0b241b] via-[#0a1b16] to-[#24170f] p-4 shadow-2xl shadow-black/20 sm:rounded-[32px] sm:p-6 md:p-9">
           <div
             aria-hidden="true"
             className="absolute right-[-90px] top-[-90px] h-64 w-64 rounded-full bg-orange-400/10 blur-3xl"
@@ -641,7 +641,7 @@ export default function LectieUniversala({
               )}
             </div>
 
-            <h1 className="mt-6 max-w-4xl text-4xl font-black leading-[1.05] tracking-tight md:text-5xl lg:text-6xl">
+            <h1 className="mt-5 max-w-4xl text-[30px] font-black leading-[1.12] tracking-tight sm:mt-6 sm:text-4xl md:text-5xl lg:text-6xl">
               {continutDetaliat?.titlu ??
                 lectie.titlu}
             </h1>
@@ -688,7 +688,7 @@ export default function LectieUniversala({
 
         {/* OBIECTIVE */}
 
-        <section className="mt-8 rounded-[28px] border border-emerald-400/15 bg-[#0b1c17]/95 p-6 shadow-xl shadow-black/10 md:p-8">
+        <section className="mt-6 rounded-[24px] border border-emerald-400/15 bg-[#0b1c17]/95 p-4 shadow-xl shadow-black/10 sm:mt-8 sm:rounded-[28px] sm:p-6 md:p-8">
           <p className="text-xs font-black uppercase tracking-[0.18em] text-emerald-400">
             🎯 Obiective
           </p>

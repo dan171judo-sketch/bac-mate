@@ -434,7 +434,7 @@ export default function DashboardPage() {
 
           {/* HEADER MOBILE + DESKTOP */}
           <header className="sticky top-0 z-40 border-b border-white/10 bg-[#071511]/95 backdrop-blur-xl">
-            <div className="flex h-[68px] items-center justify-between gap-3 px-4 sm:px-7">
+            <div className="flex min-h-[64px] items-center justify-between gap-2 px-3 py-2 sm:h-[68px] sm:gap-3 sm:px-7">
 
               <div className="flex items-center gap-3">
                 <button
@@ -493,13 +493,13 @@ export default function DashboardPage() {
 
             {/* MENIU MOBILE */}
             {menuOpen && (
-              <nav className="grid grid-cols-2 gap-2 border-t border-white/10 bg-[#081813] p-4 lg:hidden">
+              <nav className="grid grid-cols-2 gap-2 border-t border-white/10 bg-[#081813] p-3 sm:p-4 lg:hidden">
                 {MENU.map((item) => (
                   <a
                     key={item.href}
                     href={item.href}
                     onClick={() => setMenuOpen(false)}
-                    className={`flex items-center gap-3 rounded-xl px-3 py-3 text-sm font-bold ${
+                    className={`flex min-w-0 items-center gap-2 rounded-xl px-2.5 py-3 text-xs font-bold sm:gap-3 sm:px-3 sm:text-sm ${
                       item.href === "/dashboard"
                         ? "bg-emerald-400/15 text-emerald-200"
                         : "bg-white/5 text-slate-300"
@@ -513,7 +513,7 @@ export default function DashboardPage() {
             )}
           </header>
 
-          <div className="mx-auto w-full max-w-[1250px] px-4 py-6 sm:px-7 sm:py-9 lg:px-10">
+          <div className="mx-auto w-full max-w-[1250px] px-3 py-5 sm:px-7 sm:py-9 lg:px-10">
 
             {/* SALUT */}
             <section>
@@ -523,7 +523,7 @@ export default function DashboardPage() {
                     Bine ai revenit!
                   </p>
 
-                  <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-5xl">
+                  <h1 className="mt-2 break-words text-[clamp(1.65rem,7vw,2rem)] font-black leading-tight tracking-tight sm:text-5xl">
                     Salut,{" "}
                     <span className="bg-gradient-to-r from-emerald-300 to-lime-300 bg-clip-text text-transparent">
                       {nume}!
@@ -559,16 +559,24 @@ export default function DashboardPage() {
               <div className="relative flex flex-col items-center gap-5 md:flex-row md:gap-9">
 
                 {/* AVATAR */}
-                <div className="relative flex h-[230px] w-full shrink-0 items-center justify-center sm:h-[270px] md:w-[270px]">
+                <div className="relative flex h-[195px] w-full shrink-0 items-center justify-center sm:h-[270px] md:w-[270px]">
                   <div className="absolute h-[190px] w-[190px] rounded-full border-2 border-emerald-300 shadow-[0_0_55px_rgba(52,211,153,0.35)] sm:h-[220px] sm:w-[220px]" />
 
                   <div className="absolute h-[170px] w-[170px] rounded-full bg-emerald-400/20 blur-3xl" />
 
-                  <img
-                    src={avatarSrc}
-                    alt="MATE - Asistentul tău de matematică"
-                    className="relative z-10 h-[220px] w-auto max-w-full object-contain sm:h-[260px]"
-                  />
+
+<img
+  src={`${avatarSrc}?v=241de6e`}
+  alt="MATE - Asistentul tău de matematică"
+  loading="eager"
+  decoding="async"
+  onLoad={() => console.log("Avatar MATE incarcat:", avatarSrc)}
+  onError={(event) => {
+    console.error("Eroare avatar MATE:", event.currentTarget.src);
+  }}
+  className="relative z-10 block h-[195px] w-auto max-w-full object-contain sm:h-[260px]"
+/>
+
                 </div>
 
                 {/* TEXT MATE */}
@@ -578,7 +586,7 @@ export default function DashboardPage() {
                     MATE • ONLINE
                   </span>
 
-                  <h2 className="mt-4 text-2xl font-black leading-tight sm:text-4xl">
+                  <h2 className="mt-3 text-xl font-black leading-tight sm:mt-4 sm:text-4xl">
                     Partenerul tău personal de{" "}
                     <span className="text-lime-300">
                       matematică
