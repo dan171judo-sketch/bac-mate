@@ -788,11 +788,15 @@ export default function LectieUniversala({
                             video.numar
                           )
                         : null;
+const supabaseVideoUrl =
+  lectie.modul >= 1 && lectie.modul <= 5
+    ? `https://ujkqlrgbpfihubbusttq.supabase.co/storage/v1/object/public/bac-mate-videos/module-${lectie.modul}/lesson-${String(lectie.numarLectie).padStart(2, "0")}/video-${video.numar}.mp4`
+    : null;
 
-                    const videoUrl =
-                      video.videoUrl ??
-                      media?.videoUrl;
-
+const videoUrl =
+  supabaseVideoUrl ??
+  video.videoUrl ??
+  media?.videoUrl;
                     const deschis =
                       videoDeschis ===
                       video.numar;
