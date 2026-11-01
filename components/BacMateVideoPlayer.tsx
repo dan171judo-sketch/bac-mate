@@ -86,13 +86,13 @@ export default function BacMateVideoPlayer({
   }, [videoUrl]);
 
   return (
-    <div className="relative aspect-video w-full overflow-hidden bg-[#06150f]">
+    <div className={`relative w-full overflow-hidden bg-[#06150f] ${started ? "aspect-video" : "aspect-[4/3] sm:aspect-video"}`}>
       {!started ? (
         <button
           type="button"
           onClick={startVideo}
           aria-label={`Pornește videoclipul: ${title}`}
-          className="group absolute inset-0 flex h-full w-full flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#0c3325] via-[#071d15] to-[#030a07] px-5 text-white"
+          className="group absolute inset-0 flex h-full w-full flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#0c3325] via-[#071d15] to-[#030a07] px-3 py-10 text-white sm:px-5 sm:py-0"
         >
           <div
             aria-hidden="true"
@@ -116,13 +116,13 @@ export default function BacMateVideoPlayer({
             className="pointer-events-none absolute -bottom-20 -right-20 h-72 w-72 rounded-full bg-teal-400/15 blur-3xl"
           />
 
-          <div className="absolute left-5 top-5 z-10 flex items-center gap-2 rounded-full border border-emerald-300/25 bg-black/25 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.16em] text-emerald-200 sm:text-xs">
+          <div className="absolute left-3 top-3 z-10 flex items-center gap-1.5 rounded-full border border-emerald-300/25 bg-black/25 px-2 py-1 text-[8px] font-black uppercase tracking-[0.08em] text-emerald-200 sm:left-5 sm:top-5 sm:gap-2 sm:px-3 sm:py-1.5 sm:text-xs sm:tracking-[0.16em]">
             <span className="h-2 w-2 rounded-full bg-emerald-400" />
             BAC MATE ACADEMY
           </div>
 
           {duration && (
-            <div className="absolute right-5 top-5 z-10 rounded-full border border-white/15 bg-black/30 px-3 py-1.5 text-xs font-bold text-white/90">
+            <div className="absolute right-3 top-3 z-10 rounded-full border border-white/15 bg-black/30 px-2 py-1 text-[10px] font-bold text-white/90 sm:right-5 sm:top-5 sm:px-3 sm:py-1.5 sm:text-xs">
               {duration}
             </div>
           )}
@@ -141,36 +141,36 @@ export default function BacMateVideoPlayer({
             Δ = b² − 4ac
           </div>
 
-          <div className="relative z-10 flex max-w-xl flex-col items-center gap-3 text-center">
-            <div className="flex h-20 w-20 items-center justify-center rounded-full border border-emerald-200/60 bg-emerald-400/20 shadow-[0_0_55px_rgba(52,211,153,0.18)] transition duration-300 group-hover:scale-110 group-hover:bg-emerald-400/35 sm:h-24 sm:w-24">
+          <div className="relative z-10 flex max-w-xl flex-col items-center gap-1.5 text-center sm:gap-3">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-emerald-200/60 bg-emerald-400/20 shadow-[0_0_55px_rgba(52,211,153,0.18)] transition duration-300 group-hover:scale-110 group-hover:bg-emerald-400/35 sm:h-24 sm:w-24">
               <svg
                 viewBox="0 0 24 24"
                 fill="currentColor"
                 aria-hidden="true"
-                className="ml-1 h-9 w-9 text-emerald-100 sm:h-11 sm:w-11"
+                className="ml-0.5 h-5 w-5 text-emerald-100 sm:ml-1 sm:h-11 sm:w-11"
               >
                 <path d="M8 5.5a1 1 0 0 1 1.52-.85l10 6.5a1 1 0 0 1 0 1.7l-10 6.5A1 1 0 0 1 8 18.5v-13Z" />
               </svg>
             </div>
 
-            <p className="text-[10px] font-black uppercase tracking-[0.3em] text-emerald-300/75 sm:text-xs">
+            <p className="text-[8px] font-black uppercase tracking-[0.12em] text-emerald-300/75 sm:text-xs sm:tracking-[0.3em]">
               Lecție video interactivă
             </p>
 
-            <h3 className="line-clamp-2 text-lg font-black tracking-tight text-white sm:text-2xl">
+            <h3 className="line-clamp-2 max-w-[95%] text-sm font-black leading-snug tracking-tight text-white sm:max-w-none sm:text-2xl">
               {title}
             </h3>
 
-            <p className="text-xs font-medium text-emerald-100/65 sm:text-sm">
+            <p className="text-[10px] font-medium text-emerald-100/65 sm:text-sm">
               Învață matematica pas cu pas
             </p>
 
-            <span className="mt-2 rounded-full bg-emerald-300 px-5 py-2.5 text-xs font-black text-[#063522] shadow-lg shadow-emerald-500/15 transition group-hover:bg-emerald-200 sm:text-sm">
+            <span className="mt-1 rounded-full bg-emerald-300 px-3 py-1.5 text-[10px] font-black text-[#063522] shadow-lg shadow-emerald-500/15 transition group-hover:bg-emerald-200 sm:mt-2 sm:px-5 sm:py-2.5 sm:text-sm">
               ▶ Începe lecția
             </span>
           </div>
 
-          <div className="absolute bottom-4 left-0 right-0 text-center text-[10px] font-semibold tracking-[0.18em] text-white/40 sm:text-xs">
+          <div className="absolute bottom-2 left-0 right-0 text-center text-[8px] font-semibold tracking-[0.08em] text-white/40 sm:bottom-4 sm:text-xs sm:tracking-[0.18em]">
             ÎNVAȚĂ • ÎNȚELEGE • REUȘEȘTE
           </div>
         </button>

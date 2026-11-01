@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 const features = [
   {
@@ -136,7 +136,7 @@ export default function HomePage() {
               </span>
             </div>
 
-            <h1 className="mt-7 max-w-[690px] text-[50px] font-black leading-[0.95] tracking-[-0.055em] text-[#fff8e8] sm:text-[58px] md:text-[64px] lg:text-[68px]">
+            <h1 className="mt-7 max-w-[690px] text-[clamp(2.1rem,9vw,3.125rem)] font-black leading-[1.03] tracking-[-0.045em] text-[#fff8e8] sm:text-[58px] sm:leading-[0.95] sm:tracking-[-0.055em] md:text-[64px] lg:text-[68px]">
               De la{" "}
               <span className="text-emerald-300">
                 „nu înțeleg nimic”
